@@ -28,6 +28,4 @@ ERIC: "Eric Larsen, archery team captain, senior."
 We shake hands.
 [hold]
 
-[branch NITEMARE > 0]
-[true :: s0127]
-[false :: s0126]
+[goto s0126]

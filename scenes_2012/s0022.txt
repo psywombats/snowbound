@@ -16,6 +16,5 @@ REBECCA: "I'm not Max, I'm Rebecca. Max is asleep."
 ARYA: "Then you're in as well?"
 REBECCA: "In on what?"
 [hold]
-[branch TRIED_CATWALKS > 0]
-[true :: s0136]
-[false :: s0135]
+
+[goto s0207]

@@ -8,4 +8,4 @@ MAX: "You really think that? Fine. I bet I can convince him to let us be the sco
 
 Maximilian approaches Kenneth, who's still eating his canned breakfast. Shibin cuts in halfway through, but Max will be Max. He returns with a phone, a smile, and a certain first year tailing him.
 
-[goto s0102]
+[goto UNIMPLEMENTED]

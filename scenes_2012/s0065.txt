@@ -88,7 +88,7 @@ MAX: "How's Sophie doing?"
 REBECCA: "Not much different. ...But Max, you knew I'd have to reenter at some point. Why didn't you teach me the knock?"
 MAX: "That knock is between me and the door guards. It's just safer that way."
 REBECCA: "Safer?"
-MAX: "What if Felix  captured you and tortured you for information? It would be an easy for him to gain entry."
+MAX: "What if Felix captured you and tortured you for information? It would be an easy for him to gain entry."
 I'm offended by the suggestion, though I don't know why.
 REBECCA: "Fine. It's your gym, so you run things the way you want."
 I'm going to have to be brave and broach the subject.

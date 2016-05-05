@@ -7,6 +7,6 @@ PETE: "Hi, Rebecca."
 REBECCA: "What the... Shouldn't you be lying down?"
 ARYA: "My job is to hold him up and support his good arm. Your job will be to work the torsion wrench. Pete does the actual picking."
 REBECCA: "This sounds incredibly hasty. You know, I'm going to wake Max up. He can do this."
-ARYA: "Oh, if he's there, make him stand guard. This will run so much more smoothlys."
+ARYA: "Oh, if he's there, make him stand guard. This will run so much more smoothly."
 
 [goto s0137]

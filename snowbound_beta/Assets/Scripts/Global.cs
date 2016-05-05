@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Global : MonoBehaviour {
+public class Global {
 
 	// Use this for initialization
 	void Start () {
