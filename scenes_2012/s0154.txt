@@ -1,0 +1,28 @@
+[s0154]
+[increment LYRA_LEFT]
+
+ERIC: "Lyra, you should really go. You're sick and staying in the basements won't make you any better. We're exiles out here, and we hardly have food, let alone medicine. If you go with Max to the gym, they might even find something to help you in the expedition supplies."
+LYRA: "You're too practical, Eric. Staying out here is so much more... I don't know. Isn't it more romantic to live in exile?"
+ERIC: "There's no romance in dying an early death."
+LYRA: "Then we'll agree to disagree."
+She sneezes.
+LYRA: "But yeah, I'll leave with Rebecca."
+
+It might take a little convincing to cheer Lyra up about her move, but I think I made the right decision. Lyra's fever has her weak already. All of our survival chances are better in the gym, but she's the only one with the opportunity to enter. If only we could all smuggle ourselves in... Ah well. There's time for that sort of dreaming later, but for now we need to make preparations for the meeting.
+
+[enter ERIC B]
+[enter REBECCA D]
+[enter LYRA A]
+ERIC: "Do you think any of the rest of us should come with you?"
+REBECCA: "I'd rather not spook Max. Bringing Lyra along is risky already. Just letting you know, Lyra, there's no guarantee I can convince Max to take you."
+LYRA: "I know. It's worth a try though, isn't it?"
+REBECCA: "I'll do my best."
+ERIC: "Make sure Max knows exactly what the situation is like down here. I'm not going to apply for asylum or anything until we know how Max is doing, but it wouldn't hurt to let him know that we're a bit desperate."
+REBECCA: "Right. If Shibin and Kenneth decide to let Lyra in, wouldn't they let you and Sid in as well?"
+ERIC: "Maybe. We're not sick little girls though, so it wouldn't surprise me if they didn't. And this is all assuming that they'll take Lyra in the first place."
+REBECCA: "Hm, then let's leave the speculation for later."
+LYRA: "Isn't it time to go?"
+REBECCA: "Looks that way."
+ERIC: "Good luck."
+
+[goto s0155]

@@ -1,0 +1,29 @@
+[s0169]
+
+I'll cut the bolt holding back the basement door. If we break through, we'll be back into our lounge headquarters. The filing is noisier than I'd imagined. Hopefully with this sort of noise, anyone listening outside will be able to hear. Why must progress be so slow? At least all it takes is one of the three doors to open. How long can pass before someone uses the south stairs?
+
+My arm starts to hurt after the first hour. Every time I feel like stopping or dozing off, I can only think of Rebecca beside me. I turn back once again to the door. But as I put blade to metal, there's a thud and the door knocks me backwards. Someone just stepped through! On instinct, I pick myself up and charge forward, but something knocks me back again.
+
+[enter HENRY B]
+[enter FELIX A]
+[enter ERIC D]
+HENRY: "Calm down, Eric. It's just us."
+FELIX: "So that's where my file went... Stealing, Eric? Really? It almost makes me want to retract my offer."
+I'm too dazed to react. While I struggle to understand what's happening, Rebecca shows up behind me.
+[enter REBECCA E]
+REBECCA: "Felix Salazar? What a relief that someone's here. I thought we'd never get out of this stairwell."
+FELIX: "I'm not here to let you out."
+REBECCA: "What?"
+ERIC: "You've got the door open, so we're coming out. Don't tell me it was you who trapped us in the first place."
+FELIX: "Not me directly, but it's something that certainly helps me. It means I have a bit of leverage. If you want to get out, you'll listen to what I have to say."
+[hold]
+
+I'm not listening to him if I don't have to. While he's talking in front of me, I make a dive for the basement fire door only to run into Henry. I really can't overpower him.
+
+HENRY: "That's the second time you've tried to push through me. Cut it out, okay?"
+FELIX: "I see you're not willing to act rationally. I guess Henry and I will be leaving if that's the case. Take care of yourself in here, Eric."
+[hold]
+
+[choice]
+[Call Felix back :: s0170]
+[Punch him in the face :: s0171]

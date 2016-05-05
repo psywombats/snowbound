@@ -1,0 +1,216 @@
+[s0179]
+
+[switchto ERIC]
+
+After a night of silence, Felix's camp starts anew at dawn. The hostage counts, the guard change, everything at once... I finally catch up with Felix and Henry.
+
+[enter HENRY A]
+[enter FELIX B]
+[enter ERIC D]
+FELIX: "Eric, I can't believe I didn't find you last night. I was busy putting the final touches on the ram with Henry. You have to tell me how it went."
+ERIC: "Sorry for being out so late. We wanted to make sure there weren't any stragglers trying to scout us out."
+FELIX: "Start from the beginning."
+ERIC: "I took Pete and two other jazz kids down through the biology office as soon as it was open. No trouble getting through, but that barricade they set up by the catwalks is enormous."
+[enter PETE E]
+PETE: "Told you."
+FELIX: "Oh, you're up. Keep going, Eric."
+ERIC: "Arya was there right away. She put up a struggle but we got her in the end. She's in the hostage room if you want to speak to her."
+FELIX: "Her engineering knowledge might be handy, but we have Henry already. He's doing a good job."
+HENRY: "Thanks."
+ERIC: "We came back as fast as we could after dropping Arya off, but I'm pretty sure someone managed to search the hall for her before we could get into position."
+What I don't mention is that that person was Rebecca Bell, and if I had given the order, it would've been very easy to capture her. I hope I don't regret it later.
+ERIC: "We were lucky. Shibin came out almost five minutes after that. He never saw us coming."
+FELIX: "Shibin? Already? It was worth recruiting you for luck alone, Eric. You should've told me you'd taken him last night, even if I was sleeping."
+ERIC: "Sorry. Anyway, someone caught on to us."
+FELIX: "You were seen?"
+ERIC: "No, but I can only imagine one of them figured it out. Max, Rebecca, and Kenneth all came out to search for Shibin."
+PETE: "I wanted to go for them, but Eric wouldn't let me."
+ERIC: "For one thing, I doubt the four of us could've bundled them all up without an injury. And I think it's better for us if Kenneth's in charge of the gym."
+FELIX: "Good judgment. Did you find anyone after that?"
+ERIC: "No one. We waited and waited, but no one else came out."
+PETE: "I went to check the gym door, but it's shut."
+FELIX: "That's annoying. It seems we'll have to use the battering ram sooner than expected. We only have what, four hostages? And Cait hardly counts..."
+ERIC: "We do have Shibin, though. I hope it was worth it to capture him."
+FELIX: "Yes, it was. We should have no trouble convincing Kenneth now that there's no one to support him."
+ERIC: "So you're not concerned about Max?"
+FELIX: "Why should I be?"
+ERIC: "Someone told them all to stay in the gym, because we waited outside for almost three hours and that door didn't open once."
+PETE: "Yeah, people used to be going in and out all the time."
+FELIX: "We'll see how it goes."
+HENRY: "What's the plan for today then?"
+FELIX: "As soon as your group is done on the ram, we'll put it to use. They'll be forced to investigate, and if whoever is in control over there still doesn't let anyone out, we'll have to plan for eventually breaking through the wall."
+HENRY: "And you want me to supervise this?"
+FELIX: "Henry, you're in charge of the ram. Eric, defend the ram in case they decide to counterattack. Don't let them cut off your escape route. Don't get cornered."
+ERIC: "Right."
+FELIX: "Talk to Marilyn sometime this morning to pick up whatever weaponry they've been able to put together. I'll let you know when we're ready to move out."
+
+Henry and Felix run off to the classroom across the hall, leaving me alone with Pete. I'm actually surprised Felix can manage Pete so well. Back when I met him a week ago, I wasn't looking forward to dealing with Pete in archery, but he seems to be doing his part here, and he was definitely a useful partner last night.
+
+[enter ERIC B]
+[enter PETE D]
+ERIC: "Hey Pete."
+PETE: "What's up?"
+ERIC: "How did you end up working for Felix, anyway? I thought you were in the gym."
+PETE: "I slipped through before the barricade came up. I wonder when they realized I was gone. What about you, Eric?"
+ERIC: "Felix shut me in a stairwell and pretty much forced me to work for him. It probably wasn't necessary, but I'm here now."
+PETE: "What did he promise you?"
+ERIC: "Promise?"
+Is he talking about Felix's circle of survivors?
+PETE: "It's okay. I know he told you that you'll be one of his chosen ones. That's what he tells all of us."
+ERIC: "Uh..."
+PETE: "But in your case, he's probably not lying. It'd be so much easier if he'd do that for me..."
+ERIC: "Wait, you know he's not being honest about that? Then why are you still here?"
+PETE: "Hey, it's fun, isn't it?"
+[hold]
+
+I need time to think. Is he only here because he'd rather be a part of the siege of the gym than the defense of it? And what about my position? I won't deny that being active is a nice change, but I wouldn't be helping Felix if I didn't agree with his thinking. Though as I recall, I never made up my mind if this was morally justified or not. I just... went through with it.
+
+ERIC: "Bye, Pete. I need to go talk to Marilyn."
+PETE: "Later! Make sure to find me before you bring out the battering ram. I wouldn't miss it for the world."
+
+I haven't talked to Marilyn since I've arrived back at Felix's base. The one always at Felix's side is Henry now, and I haven't seen her anywhere. Oh, she's over at the worktable.
+
+[enter MARILYN B]
+[enter ERIC D]
+ERIC: "Hello, Marilyn. Felix told me to come and talk to you about weaponry."
+MARILYN: "Eric, I heard you'd come back. I didn't want it to be true."
+ERIC: "What?"
+MARILYN: "Are you really going along with this?"
+ERIC: "Well... That's what I needed to do to get out of the staircase."
+MARILYN: "Really? Is that all?"
+I might as well settle this now.
+ERIC: "What's your opinion, Marilyn?"
+MARILYN: "I know Felix thinks he's doing the right thing, but I don't see it. The logic's too twisted."
+ERIC: "Well, if it's a choice between all of us dying and all but five of us dying, isn't it obvious what to do?"
+MARILYN: "It doesn't matter to me whether I come out of here alive, Eric, as long as I did the right thing while I was here. I'd rather take that chance."
+ERIC: "What's that chance?"
+MARILYN: "It's the chance that rescue shows up before winter's end. Felix gave up on them two days ago and this is the result. Call me a pollyanna, but I can't throw that away."
+ERIC: "I see what you mean. But Felix told me he's saving you. Does he know what you think about this?"
+MARILYN: "He knows, but he's in denial. Well, not denial, but you know how Felix is. He thinks we're all peasants who don't know any better. He's in love with the image of himself as a leader who makes sacrifices for the greater good."
+ERIC: "So he's sacrificing your moral misgivings to get you through alive..."
+MARILYN: "I thought maybe with you in the gym, they'd stand more of a chance. We all know that with you, Felix, and Henry over here and Arya and Shibin out of commission in the gym, it's only a matter of time before Felix gets what he wants."
+ERIC: "To be honest, I'm not sure what I think about all this. I've been rolling with Felix's plans without stopping too much to think."
+MARILYN: "I know you can't turn around now, but please, think of what you're throwing away when you're down at the gym today. Consider if your life is really one of the five most valuable around here."
+ERIC: "I'll do that."
+MARILYN: "Here."
+She pushes a bundle at me across the table.
+MARILYN: "It's the scissors. Actually I think they're being called weapons now. Duct tape, yard sticks, and scissor blades make decent spears."
+ERIC: "You put all of this together?"
+MARILYN: "What choice did I have? Felix is doing this for me, after all."
+That contradicts almost everything she's been telling me.
+MARILYN: "Look, I know I'm a hypocrite, but I regret it now. Stand up in my place. It would mean the world to me, and I'm sure that you know it's the right thing to do."
+ERIC: "No promises, but I'll see what I can do."
+
+After a few hours and no sign of the battering ram's completion, I decide to check on progress in the workroom. To my surprise, Arya Martin is standing there next to Henry.
+
+[enter ERIC B]
+[enter ARYA D]
+[enter HENRY E]
+ERIC: "Arya? Is that you?"
+The last time I saw her, I was taping her mouth shut.
+ARYA: "Hey Eric. Check this out! We managed to put handles on this thing."
+She must not hold a grudge...
+ERIC: "Neat."
+HENRY: "It's nice having a second head working on this, Eric. You should've come earlier."
+[enter FELIX A]
+FELIX: "Is it almost done?"
+ARYA: "Less than an hour. I've got someone making sure the handles are secure. We don't want to go dropping it in the middle of battle, do we?"
+FELIX: "Okay. Eric and I will be waiting in the office."
+
+We exit the room.
+
+[enter ERIC D]
+[enter FELIX B]
+FELIX: "Any questions before you head out?"
+ERIC: "How committed are you to this, Felix?"
+FELIX: "To what?"
+ERIC: "Let's say Max and Kenneth counterattack but they aren't prepared for our spears. We could defend the ram, but we'd have to kill several students to do it. Should I retreat or fight them off?"
+FELIX: "I don't care how many of them die. Just do what you need to until Kenneth surrenders."
+ERIC: "Even if we have to stab them all in the chest and watch every single one bleed to death?"
+FELIX: "I'm not sure you understand this, Eric. They will all die one way or the other, so it makes very little difference how it happens. It's not exactly tasteful to murder everyone, but if it happens, it happens."
+ERIC: "...I see."
+FELIX: "And remember, your top priority is to prevent any of them from reaching us through the biology hallway door. Whatever happens, make sure none of them get through. If you can, don't let them even know about it."
+ERIC: "Is there any particular reason why?"
+FELIX: "If they know where we're coming through, they'll be able to stop us. They might not have Arya on their side now, but there are still enough of them left to build a barricade."
+ERIC: "I know that's why you don't want anyone knowing the biology door is open, but what about crossing through? Once someone's on this side, there isn't much they can do."
+FELIX: "But they could open the basement fire door from this side. If that happens, the gym students would be able to counterattack by reaching us through the basements. We can't let them fight back."
+ERIC: "Oh, I guess I had figured they weren't planning to fight anyway..."
+FELIX: "It's a long shot, but it never hurts to plan ahead."
+[enter HENRY E]
+HENRY: "Felix! We're all set."
+FELIX: "Excellent."
+HENRY: "When can we head out?"
+FELIX: "Eric, would half an hour be enough time to gear up the students you need?"
+ERIC: "I think so. There's only a few daylight hours left anyway, so it'd be best to move quickly."
+[enter ARYA A]
+ARYA: "Can I come? I want to see this baby in action."
+FELIX: "Why not?"
+She seems to have won a lot of trust for being bound and gagged only twelve hours ago. Sides change quickly around here.
+ERIC: "Okay. I'll go pass out the spears from Marilyn. Meet back here in thirty minutes."
+
+It only takes half that time to assemble our war party. Henry, Arya, and a few members of the jazz ensemble stand on either side of the ram. It's a vicious steel contraption formed of table parts, pieces of chair, and bent piping. I have no doubt that it could shatter a wall.
+
+Around the ram are the students I'll be leading. Each has a spear almost two yards long with several scissor blades taped down the side and a single point affixed to the front. This design should be most effective at keeping any stray students at bay.
+
+The march down to the gym takes only a few minutes. I'm sure I'm not the only one feeling a little trepidation as we pass through the biology office. There's no way to know how the other students feel about this operation, but hunger drives as all. I shout out for the students to fan out along the gym hall. We'll break through the far corner of the gym. This way anyone trying to reach the ram will be in plain sight.
+
+[enter PETE B]
+[enter ERIC D]
+PETE: "That ram sure is something."
+ERIC: "Oh, hi Pete."
+PETE: "When are they going to start?"
+ERIC: "Whenever Henry gives the order."
+
+Pete hangs by the side about halfway down the hall between the guards and the ram. We don't have long to wait.
+
+[enter HENRY C]
+HENRY: "Now!"
+The impact shakes the entire building. Splinters of plaster tile fly through the air and the crash echoes through the hall.
+HENRY: "Back up! One, two, three... Now!"
+
+Another great hit strikes the wall. It takes under a minute for the kids on the battering ram to hoist it up and back into position. Anyone in the gym must be in a state of panic.
+
+[enter PETE B]
+[enter ERIC D]
+PETE: "So we charge in when they open the gym door, right?"
+ERIC: "No! Have you been listening at all? We stay out of sight and restrain anyone who comes down here to check it out."
+PETE: "I know, I know. I'm just teasing you."
+ERIC: "You better be. Try and stay serious until this is over with, okay? I'm a little on edge right now."
+I toss my own spear from one hand to the other.
+PETE: "Take it easy. This is the best part."
+
+The ram strikes ten more times, then twenty, and then I lose count. Have we chosen an especially sturdy wall? This is way more than I expected any part of this building to hold. Actually, what concerns me more is that no one has opened the door so much as a crack. What's taking them so long? We actually didn't plan much for what would happen if we broke through before attracting anyone's attention. This is not something I'd like to improvise.
+
+[enter MAX C]
+MAX: "Charge!"
+
+We're doomed. The gym door is wide open and almost thirty people are sprinting down the hall towards us. At their head is Maximilian Wolf, armed with absolutely nothing but the sheer numbers at his back.
+
+[enter ERIC C]
+ERIC: "Retreat!"
+
+There's no time to hesitate. We need to fall back immediately or we're going to be overwhelmed. There's no doubt that the spears would severely injure the first few to reach us, but after that, there would simply be too many of them for us to stay standing. The battering ram falls to the ground with a clatter as loud as the hits to the wall. One by one, the jazz ensemble and debate team hurtles through the office door. I'm last to go. I'm the commander, and it'll be my job to shut the door.
+
+[enter HENRY A]
+[enter PETE B]
+HENRY: "Run for it, Eric!"
+PETE: "Wait!"
+At last, Pete flies into the office. No sooner does he cross the threshold than he loses his footing and almost impales himself on his spear.
+PETE: "Hurry, the door!"
+I push with as much strength as I can muster at the wood door to separating us from the hoard. Someone screams and the door bounces back, knocking me off balance.
+
+As I stand, I see who I hit trying to shut the door. It's Maximilian Wolf, hunched over and breathing hard. I have my spear at the ready. If I don't get to the door fast, it'll be all over.
+
+[enter PETE B]
+[enter MAX D]
+PETE: "Die!"
+MAX: "Pete?"
+[exit PETE]
+[exit MAX]
+They both hit the floor. This is my chance. There's only one dark figure between me and the door. No doubt they'll attack as soon as they see me, but my spear is at the ready. One slice, one blow, and everything can be saved. But -
+[enter REBECCA C]
+REBECCA: "Eric?"
+
+[choice]
+[Attack Rebecca :: s0181]
+[Let her attack you :: s0180]

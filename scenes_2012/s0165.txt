@@ -1,0 +1,92 @@
+[s0165]
+
+ERIC: "Henry, if Felix is acting weird, you can always stay down here with us. Sid Larsen and Rebecca Bell are already down here. We have a bit of food smuggled in from the gym and we're trying to get back in."
+HENRY: "You also have a raging nutjob in your midst."
+CAIT: "Oh, that's not hypocritical at all. You're the one who ambushed us as we were waking up."
+HENRY: "Never mind, never mind. That's not really the point. Felix has a much more stable food supply, and he's planning something, Eric. I don't really know the nature of it now, but when Felix sets his mind to it, amazing things happen."
+CAIT: "I don't like the sound of this."
+HENRY: "It doesn't matter what the psychopath thinks, but Felix is the real deal. Sorry, my money's with him."
+ERIC: "Then I'm afraid I'm not sure what you want from us."
+HENRY: "That's about it. If you tell your minion to get off me, I'll be on my way."
+ERIC: "Let him go, Cait."
+CAIT: "Hmph."
+
+All that's left now is to relay the news to Sid and Rebecca. They're not overly surprised; the barred door on the first floor told us all we need to know. Henry's info only confirms our suspicions. Rebecca makes a few feeble conjectures at what's running through Felix's head, but there really isn't anything we can do at this point.
+
+We really are helpless down here. The way we pass the day makes that all the more clear. Sid walks a circuit from the lounge to the first floor, trying his hand at solving the combination lock. What would he even do if by some miracle he guessed the number? Does an unlocked biology hallway buy us anything? Rebecca insists on loitering by the base of the south stairs, as if Max would show up eight hours early. Cait alternates between patrolling the hallways and napping on the couches. I'm left to linger on a chair in the lounge, trying for the thousandth time to think of a way out of this mess.
+
+[enter SID A]
+[enter CAIT B]
+[enter ERIC D]
+[enter REBECCA E]
+CAIT: "The doors are still closed."
+ERIC: "What?"
+CAIT: "I went up and tried to open the exit door on the first floor landing. It won't open."
+SID: "Nothing's changed."
+REBECCA: "I don't think any of us guessed we would be trapped in here for so long."
+ERIC: "None of us but Felix..."
+REBECCA: "Are you still thinking about him?"
+ERIC: "Of course. What else is there to think about?"
+REBECCA: "We have to understand him, don't we?"
+CAIT: "What's there to wonder about? He wants us out because he wants to live."
+ERIC: "Or maybe he doesn't want us to find him because he's decided he'd rather die."
+REBECCA: "I'm not going to try. It's no use trying to determine what he's going to do. Let's concentrate on what we have to do to keep ourselves alive."
+SID: "And what would that be?"
+REBECCA: "I wish I knew. I'm going to go and wait for Max on the landing."
+ERIC: "There's at least six more hours to wait."
+REBECCA: "I've been waiting since this morning, so six hours isn't too much longer."
+
+I watch her go and return to my usual seat. What happened to that atmosphere last night? The persistent chill and pangs of hunger make it impossible to recreate that scene. The cards remain untouched on the table as Sid, Cait and I stare at each other.
+
+[enter REBECCA C]
+REBECCA: "Guys! I knew I shouldn't have left the door! Look at this!"
+Rebecca runs back through the door. She's waving a piece of paper.
+[exit REBECCA]
+[enter REBECCA E]
+[enter SID B]
+[enter ERIC D]
+[enter CAIT A]
+REBECCA: "It's a note from Max!"
+SID: "What?"
+REBECCA: "He slipped it under the door while I was away."
+CAIT: "What's it say?"
+REBECCA: "It's hard to tell in this light."
+ERIC: "Let's read it from the window light on the landing."
+SID: "There's not much daylight left, better hurry."
+
+We're all already moving anyway. Once we're up the stairs, Rebecca holds the note to the glass pane. By the fading sun, we each read over Max's note. 
+
+"Hey Rebecca - but I guess you're not alone now, are you? With any luck, I'll be able to deliver supplies tonight, but that's not what's important right now. There's complete chaos up here. Pete Sai's run off somewhere and it's been 12 hours since anyone's seen him. Luckily, that means I could steal some more food and blame it on him. Lyra's adapting well and Sophie's looking after her, so you did right in bringing her to me. Anyway, if I don't show up tonight, it's because they've caught on to me. But that'll never happen, will it? Same time, same place. - Maximilian Wolf"
+
+[enter CAIT A]
+[enter ERIC B]
+[enter REBECCA D]
+[enter SID E]
+CAIT: "That's good news, isn't it?"
+SID: "What about Pete?"
+CAIT: "Who cares? Maybe the world was just and he wandered off to die somewhere. He doesn't matter anyway."
+SID: "If you say so..."
+REBECCA: "The last line makes it seem like Max thinks Shibin might know what he's up to."
+ERIC: "It's Max, he'll be fine."
+REBECCA: "Midnight can't come soon enough."
+CAIT: "Hey, if we're going to get more food tonight, can we finish off last night's supplies?"
+ERIC: "Why not?"
+
+The small meal does little to break the drudgery of the next few hours. Sid and Cait come and go from the lounge, and Rebecca holds her vigil by the stairs. I've been sitting here for way too long. I finally rise and join in the pacing. If there's nothing productive to be done, maybe the movement will take my mind off our situation. After an hour or so of stalking the halls, I return to the lounge.
+
+[enter SID B]
+[enter ERIC D]
+SID: "Hey Eric, have you seen Cait around anywhere?"
+ERIC: "No. Is she missing?"
+SID: "I've been here in the lounge for at least thirty minutes and she hasn't been through once."
+ERIC: "I was in the sciences hallway, so I guess she must be in the mathematics wing somewhere."
+SID: "I guess."
+[enter CAIT E]
+CAIT: "Did I hear someone talking about me?"
+SID: "Where were you?"
+CAIT: "I was just checking up on the fire door at the north stairs. We have to keep it shut now that Felix is serious."
+ERIC: "If you say so."
+
+Neither of us leaves after that. Sid mopes around with his feet up on one of the chairs, but Cait continues to circle the room, humming to herself. I'll try to nap again, but something tells me that there's still a while left before I'll be able to sleep.
+
+[goto s0166]

@@ -1,0 +1,5 @@
+[s0027]
+
+I set to work on the fire door to the first floor. I'd like to think that anyone stationed outside the door can hear the little blade chipping away at the bolt. My progress isn't heartening, however. After an hour, my arm is starting to hurt and in the poor lighting I see no marked improvement in our situation. Rebecca offers to take over, and I'm left to pace up and down the stairs.
+
+[goto s0168]

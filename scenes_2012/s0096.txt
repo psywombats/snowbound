@@ -1,0 +1,18 @@
+[s0096]
+
+ERIC: "I've got nothing."
+SID: "We might as well watch the others then."
+
+Though in truth, the only one worth watching is Henry. He refuses to sit still. Sid points out and names one or two other members of the jazz band as Henry confronts them over something or other, but from what I can see, Henry's doing most of the talking.
+
+[enter SID B]
+[enter ERIC D]
+ERIC: "What's his deal, anyway?"
+SID: "Who? Henry? I can't say I know. He's a decent trumpet player and he earns decent grades, I hear. There's nothing much else to him."
+ERIC: "Oh. I wonder what he's up to."
+SID: "I don't know. He's kind of boring if you talk to him for too long, actually. I'll stay here for now."
+
+Henry may be boring to talk to, but he's also boring to watch for extended periods. My attention wanders to Sid, sitting beside me. His eyes never stop following Henry bouncing from one student to another. Maybe the worst part of our situation is the crushing boredom. Half the reason I wish rescue would show up is to put an end to Henry's voice echoing around the entrance hall. I'm sure Marisa can hear every word from the auditorium. I glance back at the black entryway to the stage, but something's off. Is that a shadow?
+
+[goto s0097]
+

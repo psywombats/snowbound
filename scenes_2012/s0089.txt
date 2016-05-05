@@ -1,0 +1,17 @@
+[s0089]
+
+REBECCA: "Hm... Did you try to leave through the exit? I know there's an emergency door from the pool."
+SOPHIE: "I tried, anyway. Everyone else wanted to stay inside and wait, but I didn't like the dark. But I couldn't get the door open. It wasn't locked but it just didn't budge."
+REBECCA: "It's the same way in here. We can't get out."
+SOPHIE: "Have you tried to get to the main hall?"
+REBECCA: "It's locked. We'd need a keycard to get it back open again."
+Sophie sighs.
+REBECCA: "Aren't you cold?"
+SOPHIE: "Very. This swimsuit isn't warm, and I think it's cooling off in here."
+REBECCA: "I noticed too. The heat must not be on."
+SOPHIE: "I'd go to the locker rooms to grab my real clothes and change, but it's all dark..."
+[hold]
+
+[choice]
+[Go with her :: s0004]
+[Stay here :: s0090]

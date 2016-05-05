@@ -1,0 +1,42 @@
+[s0139]
+
+[date]
+Monday, November 14th: Day 4
+
+I wake up on one of the tables in the entrance hall. The first thing I notice is the horrible cold. Did the temperature drop that quickly in one night? I yawn, but now that I'm awake, it'll be impossible to go back to sleep. The students rise one at a time. Within an hour or so, everyone's awake and a faint light illuminates the entrance hall.
+
+[enter ERIC B]
+[enter SID D]
+SID: "Good morning."
+ERIC: "Hello. Is this the third day we've been in here? The fourth?"
+SID: "Probably. At some point it stops becoming significant. We all know by now that something's gone wrong with the rescue. Let's concentrate on one day at a time."
+HENRY: "That's a good philosophy. In accordance with that, I'm hungry, so let's divide up some more food."
+
+We're all just as hungry as him, so no one protests. Going for four days with only a bag of chips is not a pleasant experience. But as we divide up what we have left, something becomes apparent.
+
+[enter ERIC B]
+[enter SID D]
+ERIC: "Hey, Sid."
+SID: "Yeah?"
+ERIC: "We're out of food."
+It's true. Nothing remains of our supplies but a few wrappers and a cardboard box.
+SID: "Well, it was bound to happen sooner or later. Can you really ration that little when we're all so hungry?"
+ERIC: "I suppose. This doesn't bode well though. What if rescue doesn't come for another week?"
+SID: "Eric, don't blame yourself for this one. We can't know when we'll be rescued or that rationing was even required. Just eat your share and worry about it later."
+ERIC: "I might save mine, actually. This situation makes me incredibly nervous."
+SID: "You've realized it too, huh?"
+He jumps up to sit on the table beside me.
+ERIC: "Realized what?"
+SID: "That it's very possible that we all die in here before anyone comes to get us out."
+ERIC: "It's not a possibility I wanted to consider."
+SID: "I've been considering it all along, but it just made everything seem so meaningless that it didn't really change anything."
+ERIC: "I'm not quite sure what you mean. We can't give up hope of rescue."
+SID: "No. That's why no one's been talking about it... or at least, that's why I didn't bring it up before now. Thinking about it doesn't do anything to change the situation."
+ERIC: "I'm starting to agree with Henry. Being useless is the worst."
+SID: "But at the same time, isn't it relaxing? It's out of our hands now."
+ERIC: "Maybe you would find it comforting, but to me, it just makes this even more of a nightmare. I don't know; maybe I'm over thinking this."
+SID: "We might as well talk about it now. There's nothing else to do, so we have all day to talk about probabilities and eventualities and who to eat first."
+
+We both laugh, but I know that that's fully within the realm of possibility. Sid and I keep talking on about our obligations in our conditions and how the situation might play out, but we're both aware that it's useless theory crafting. The only point of this debate now is to keep our minds off our cold and hunger. As the day draws on, both continue to increase.
+
+[goto s0143]

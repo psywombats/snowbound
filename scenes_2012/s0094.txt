@@ -1,0 +1,30 @@
+[s0094]
+
+ERIC: "Well, with the winds and all, I think it'd be reasonable for blizzard to stop a truck, or shut down the highway, or something like that. We've all seen winters here before."
+HENRY: "Come on, Sid. Even Eric agrees with me. Stop being annoying for the sake of it. You know it always work on me, so why bother?"
+SID: "Fine. Actually, Eric, I'm going to go talk with Marisa for a bit."
+He hops off the table and towards the auditorium before I can say anything. I'm not sure if I wanted to stop him, but I don't shout after him.
+HENRY: "What's with your friend there?"
+ERIC: "I don't know. You know him as well as I do."
+HENRY: "Oh, I thought you two were buddy-buddy or something."
+ERIC: "Not really. We met last year and we work together from time to time. He's joining the fencing team this year is well."
+HENRY: "Oh, that team. Wasn't it disbanded a decade ago?"
+ERIC: "It's the newest incarnation. It was re-founded a year ago."
+HENRY: "Then there's no credit, I suppose."
+ERIC: "No, probably not. Are you after valedictorian?"
+It's an honest question. I don't know Henry enough to judge. He could be in the jazz ensemble to enjoy himself, or maybe he thinks he's good enough at the trumpet to become ensemble leader.
+HENRY: "I might be. I have my plan and I'll follow it as closely as possible."
+ERIC: "What's the plan?"
+HENRY: "That's top secret."
+ERIC: "Go figure."
+
+Henry takes up Sid's place on our table and calls out to passing ensemble members. He seems to be on friendly terms, but the most are curt with him. After a few minutes, he jumps down to go back to the windows. 
+
+I rest by myself in the entrance hall, watching the students' silhouettes by the gray glass. How much time has passed since the power went out? I wish I had a watch. When I make up my mind to go check on Sid, he hops up on the table beside me.
+
+[enter SID B]
+[enter ERIC D]
+SID: "Hi."
+ERIC: "Welcome back."
+
+[goto s0095]

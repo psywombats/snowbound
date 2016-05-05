@@ -1,0 +1,55 @@
+[s0006]
+[increment MARISA]
+
+ERIC: "Back to the auditorium then?"
+SID: "Why don't we prop this door open? It might brighten it up a little."
+ERIC: "If you say so. It's not like it's much darker in there than it is in here."
+
+Sid and I set off looking for anything that could be used as a doorstop. We each drag a chair from the tables over to the doors and open up the entrance to the auditorium.
+
+[enter SID B]
+[enter ERIC D]
+HENRY: "So you finally decided to help out, huh?"
+ERIC: "Maybe. What are you even trying to do? Don't you remember? Those side doors are locked after classes finish."
+HENRY: "Damn it anyway."
+I grimace at the clatter and crashing sound from somewhere on stage.
+HENRY: "All right, I'm coming out. This is useless. I'll try opening the main door again."
+SID: "Isn't Marisa in there?"
+HENRY: "Who? Oh, that girl? I don't know where she went."
+Strange. There are enough problems right now for me to be worrying about Marisa though.
+[enter HENRY A]
+HENRY: "Whose idea was it to put all of these chairs here?"
+He finally becomes visible, framed between the two doors. We make our way out of the auditorium.
+
+[enter ERIC D]
+[enter SID E]
+[enter HENRY B]
+ERIC: "Well, you made it out alive."
+HENRY: "Cut the sarcasm. Who has a watch? What time is it?"
+SID: "You have one..."
+HENRY: "What? Oh, right. How is it this late already? And what are we supposed to do in the dark?"
+ERIC: "I haven't thought that far ahead."
+SID: "Well, our light sources are limited."
+ERIC: "Hey!"
+I call out to the ensemble members I barely know.
+ERIC: "Do any of you have a laptop?"
+No response, but that's not unusual. Laptops are banned in classes anyway.
+ERIC: "Cell phones?"
+Technically, we're not allowed to bring them into the building, but most younger students tend to ignore that rule. But still, I'm met with silence, until Sid hands me a phone.
+SID: "Here you go."
+ERIC: "You carry this around?"
+SID: "Maybe I'm not quite who you thought I am."
+There's no reception of course, not in this weather, but I'm not interested in that. We have light now.
+
+Sid and I walk through the open doors to the auditorium. By the light of the phone, we navigate the stairs and almost as soon as we stand before the stage, I notice someone sitting on the ledge, four feet from my face.
+
+[enter MARISA B]
+[enter ERIC D]
+MARISA: "What are you doing here?"
+ERIC: "I could ask the same."
+MARISA: "There's less to distact me in here. You can go back to the entrance hall, so please don't waste your time worrying about me."
+[hold]
+
+[choice]
+[Insist she leave :: s0098]
+[Let her be :: s0083]

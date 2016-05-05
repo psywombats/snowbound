@@ -1,0 +1,105 @@
+[s0051]
+
+[switchto ERIC]
+
+It's been one night, but no one is quite sure what to do with the corpse that's dangling eight feet in the air in the center of the auditorium. Most are in favor of leaving her there, shutting the door, and never looking back, but the curtains on the stage are a valuable source of warmth. Henry wants to push her in a corner somewhere, though it seems distasteful to leave her in plain sight. Sid thinks it would be wise to roll her in a curtain and throw her in the storage room. For my part, I don't care about any of that. My train of thought is running in circles and there isn't much room for those concerns.
+
+[enter SID B]
+[enter ERIC D]
+SID: "Eric? Do you agree?"
+ERIC: "Agree with what?"
+SID: "You're not paying attention at all. You're hopeless. No, I'm sorry, I understand how you must feel."
+ERIC: "Then could you please explain to me how I feel about this?"
+SID: "You're right. I have no idea what you're going through. I think I'd be more concerned if you took this as if it were nothing."
+
+Maybe the me of a year ago would have been better equipped for this. Someone who betrayed me and who was a competitor to me is gone. I would grieve for what was wasted and move on. What does she mean to me now? What did she ever mean to me?
+
+[enter HENRY D]
+[enter SID B]
+HENRY: "Look, we need to do something. I'm freezing my ass off here and there's a dead girl hanging from the rafters. If no one comes up with anything better to do in the next ten minutes, I'm cutting her down and throwing her in the storage room. It's cold in here."
+SID: "How did you intend to take her down, anyway? We all saw how she is. She jumped from the rafters with the noose around her neck, and we'd need to climb up there as well to untie the rope."
+HENRY: "There's no way I'm doing that. I'll come up with something."
+[enter ERIC E]
+ERIC: "I thought you said earlier that you could climb up there, Sid?"
+SID: "I could. I'm not especially eager to do it, though. It would be dangerous. And I'd need something to cut the rope if I can't untie it. I care for my life a little more than Marisa cared for hers, so I'd have to take more caution climbing up there."
+HENRY: "It seems kind of bad form to leave her there. I don't think you have a choice."
+SID: "Fine. At least find me something to cut that rope with. I hope it's a curtain rope and not one of those cables meant to bear a lode. That I'd have trouble cleaving with bolt cutters."
+ERIC: "It's just one of the ropes that was used to keep the curtains up. It must've come loose when Marisa tore them down."
+SID: "Alright, is there anything to cut that?"
+ERIC: "There's bound to be a box cutter or something in the storage room."
+SID: "Okay, Henry. We'll get her down if you take care of the body after that."
+HENRY: "You have a deal. Good luck, and be safe, okay?"
+
+Sid and I reopen the auditorium. I avert my gaze from the figure hanging over the stage. We progress down the stairs, across the stage, and into the storage room. Sid flicks the phone on only when we find a box, and at all other times the room is dark. The battery on the phone is too low for us to waste it.
+
+[enter ERIC D]
+[enter SID B]
+SID: "Eric, I'm sorry I was harsh the other day about your attitude and all. After you dropped out of contention, I mean."
+ERIC: "No hard feelings."
+SID: "I was just thinking... It could've been a lot worse. Losing your standings and Marisa at the same time, no one would be surprised if you just gave up or even ended hanging on the stage like that."
+ERIC: "That's a grim thought."
+SID: "But why did she do that? Why now? What did she see to gain by that?"
+ERIC: "I'm through pretending I understood Marisa Montoire."
+SID: "Maybe we're the ones who were being stupid about this all the time. You and I, Eric, we're fairly similar. Neither of us gives a damn about the top of the class now and yet we continue to act as if it's all that's important."
+ERIC: "Except you managed to learn that without being forced to accept it. Did you know I originally started hanging around with you to see if I could convince you not to run for valedictorian? Wasn't that silly of me..."
+SID: "A little. It's hard to judge someone by the show they put on for the outside world. Maybe Marisa put on the best charade of all."
+ERIC: "I think I see what you mean, but go on."
+SID: "She had nothing to lose. Everything was going her way. There was only one person in her way to the top of the class. And now she just ends it, just like that, after so much hard work. It was all for nothing."
+ERIC: "So you think maybe she didn't really care either. But that's not right. Why would she use me like that then?"
+SID: "Look, I don't know what passed between you yesterday, but I don't think she was a very stable person to begin with. You're a better person to judge, and actually I'm getting sick of the subject."
+
+We work in silence for a few minutes. My conscience about Marisa is not at all clear at the moment. It all stems from those last few conversations with her, when she made to imply it was all a mistake. Could it really have been a huge misunderstanding? That's impossible. There are so many holes in that story for it to have a shred of credibility. She would've said something earlier. She wouldn't have taken the test herself. How could she forget and then remember at the last minute? It can't be. Then why do I still feel like I had a not-so-indirect hand in her death?
+
+[enter ERIC D]
+ERIC: "Found something."
+I pull a metallic handle out of a box of pipe cleaners.
+[enter SID B]
+SID: "Let me turn this thing on..."
+He fumbles with the phone again to illuminate exactly what we were looking for: a box cutter.
+SID: "Excellent. Now I need to find that way up to the catwalks again..."
+We exit the storage room.
+SID: "Could you hold the light?"
+ERIC: "No problem. Where are we headed?"
+SID: "There should be a way up behind the stage somewhere. When I find it, just stand below and spot me, okay? I don't intend to fall but it never hurts to be careful."
+
+While Sid circles around in the shadows, I try hard to keep my eyes off Marisa. Finally, Sid finds a suitable location to begin climbing. I hold the phone upwards, but I know it must be worthless as Sid's body is blocking the light. He makes it to the top and hollers down. Sid is halfway to Marisa when we both hear a creaking sound on the opposite side of the catwalks. Simultaneously, we freeze. A flashlight beam emanates from the door on the right side of the catwalk. Rescue at last?
+
+[enter FELIX C]
+FELIX: "What the hell? There are people in here? Christ, what do you even do to her?"
+The voice is hoarse, but I'd know it anywhere.
+[enter ERIC A]
+ERIC: "Felix!"
+I call up to the two students in the catwalk doorway.
+FELIX: "Eric Larsen? I guessed there would be others in the gym, but this is better than expected. Well, maybe not. Can either of you explain to me why you decided to truss up and hang Marisa?"
+[enter SID A]
+SID: "Suicide. We're getting her down."
+FELIX: "Why would you do that? And why would she... No, never mind, this is irrelevant. She's dead. She's actually dead. Jesus."
+SID: "How did you get up here anyway?"
+FELIX: "Wait, hold on a second, or I... Okay, what?"
+SID: "That's why we're cutting her down. I asked how you got in."
+FELIX: "You know the catwalk doors lead to the first floor, right? One to the biology hall and one to the main hall. We've worked our way down from the English hall by smashing windows, cutting locks, and stealing keys. The real question is whether you have water. We need water. We desperately need water."
+ERIC: "We have one and a half packages. Maybe 40 bottles of water."
+[exit SID]
+[enter MARILYN A]
+MARILYN: "That's more than enough to last us for a week, all of us."
+FELIX: "I'm aware. Hey, Eric, how many of you are there?"
+ERIC: "Seven in all, now."
+I silently add 'now that Marisa's dead.'
+FELIX: "Okay, Eric, you're a senior, so I assume you're in charge. Listen, we need to cut a deal. We are willing to give you two granola bars for one water bottle, for up to 30 water bottles. What's your reply?"
+I can't think of anything in particular to say.
+[exit ERIC]
+[enter SID E]
+SID: "That's not exactly a great deal. Water is much more important than food. How many bars do you have?"
+MARILYN: "Felix, don't do this. They're students just like us. We can work together."
+FELIX: "I'm not asking for charity."
+MARILYN: "Then I will. Listen! We're in dire straits up here. There are two other students aside from Felix and me, and we've had half a liter of expired soda between us over these past three days. If we don't find something to drink soon, we're going to be in serious trouble."
+SID: "Eric, I'll defer to you."
+MARILYN: "Please, you have to help us out here."
+FELIX: "We are willing to trade."
+MARILYN: "And willing to work together."
+FELIX: "That's debatable."
+
+[choice]
+[Make the trade :: s0121]
+[Refuse the trade :: s0120]
+[This is stupid :: s0020]

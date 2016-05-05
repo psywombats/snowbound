@@ -1,0 +1,55 @@
+[s0104]
+[increment TRIED_CATWALKS]
+
+REBECCA: "Let's try the catwalks. If we're lucky, maybe we can break through to the entrance hall."
+PETE: "What's so special about the entrance hall?"
+REBECCA: "If the rescue team comes, they'll go through the front entrance first. Maybe they're already there."
+PETE: "Ha, yeah right."
+REBECCA: "Even if they're not, we can still meet up with Eric, Sid, Lyra and the rest."
+We arrive at the faded brown door at the opposite end of the intersection. This is where the gym hallway meets the main hall.
+PETE: "Fine. I don't really need a reason, so just give me a bit of room to work."
+
+I've never seen a lockpick at work before. Pete's tools looks more like paperclips and twisted metal bits, but he seems very well-practiced. At first, lock picking seems like the sort of skill a high-energy pest like Pete would pick up, but I never realized how much time and concentration went into something like this. Even after ten minutes, then twenty minutes, Pete is kneeling with one hand very steady on some tool in the handle and the other hand running a pick up and down.
+
+[enter PETE C]
+[enter REBECCA E]
+PETE: "This lock's different from the one in the locker rooms..."
+REBECCA: "Does this mean you won't be able to open it?"
+PETE: "No, no, I'll be able; I'm just saying it's weird. At most places, all the locks are built the same. This one has more pins, so it'll take a little longer. Just give me a sec. I'm almost there."
+REBECCA: "I'm not surprised that - "
+
+Before I can finish, something bangs against the door from the other side. The noise is muted by the hollow metal of the door, but Pete falls back from the frame and his tools clatter to the ground.
+
+[enter PETE C]
+[enter REBECCA B]
+PETE: "Damn it! What the hell was that?"
+MARISA: "Who's there?"
+REBECCA: "Pete? Are you alright? Who is it?"
+[exit PETE]
+[enter PETE A]
+I guess it's time to try out my authority.
+REBECCA: "This is Rebecca Bell. Who are you, and why are you kicking the door?"
+MARISA: "Marisa Montoire. I'm kicking the door so you don't open it."
+PETE: "Jerk..."
+MARISA: "You can't come in here."
+REBECCA: "What's going on in there?"
+Marisa Montoire? She's the one who was on the fencing team last year. What's she doing up on the catwalks anyway?
+MARISA: "The catwalks are unstable. If you come in, they'll fall and you'll be injured."
+PETE: "Then get off the catwalks you crazy woman."
+MARISA: "I can't."
+REBECCA: "Wait, why?"
+MARISA: "They'll kill me."
+REBECCA: "Who?"
+MARISA: "Eric and the rest. Look, don't worry about it, please. But I won't let you through right now. Rescue should be here for you any day now, so please don't trouble yourself with opening this door."
+PETE: "What the hell? Eric went postal? Everyone's trying to lynch you? Haha, better you then me I guess..."
+I pull Pete away from the door.
+REBECCA: "Pete, she's probably just delusional. She was always weird last year, and I don't think Eric - "
+PETE: "Now what do we do?"
+REBECCA: "Can you still pick the lock?"
+PETE: "I can't if she's shaking the stupid door. It took be almost half an hour to get that far on the lock anyway. I'm stiff. Can't we just go back now?"
+REBECCA: "Well..."
+[hold]
+
+[choice]
+[Listen to Marisa :: s0106]
+[Ignore her :: s0107]

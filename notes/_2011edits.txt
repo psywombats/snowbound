@@ -1,0 +1,93 @@
+outdated 2012/02/01
+
+shells
+
+s0085 firstpass
+s0086 firstpass
+s0088 firstpass
+s0090 firstpass
+s0092 firstpass
+s0093 firstpass
+s0094 firstpass
+s0095 firstpass
+s0096 firstpass
+s0097 firstpass
+s0098 firstpass
+s0100 firstpass
+s0101 firstpass
+s0104 firstpass
+s0105 firstpass
+s0106 firstpass
+s0107 firstpass
+s0108 firstpass
+s0109 firstpass
+s0110 firstpass
+s0112 firstpass
+s0113 firstpass
+s0114 firstpass
+s0115 firstpass
+s0116 firstpass
+s0117 wtf - it's blank?
+s0118 firstpass
+s0119 firstpass
+s0120 firstpass
+s0121 firstpass
+s0122 firstpass
+s0123 firstpass
+s0124 firstpass
+s0127 nightmare mode only
+s0128 nightmare mode only
+s0129 nightmare mode only
+s0130 first pass
+s0133 first pass
+s0134 first pass
+s0136 first pass
+s0139 first pass
+s0141 first pass
+s0142 first pass
+s0144 first pass
+s0146 first pass
+s0148 first pass
+s0149 first pass
+s0150 first pass
+s0151 removed~
+s0152 removed~
+s0153 removed~
+s0154 first pass
+s0155 first pass
+s0156 first pass
+s0158 first pass
+s0160 first pass
+s0161 first pass	add a date here
+s0162 first pass
+s0165 first pass
+s0167 first pass
+s0169 first pass
+s0170 first pass
+s0171 first pass
+s0173 first pass
+s0176 first pass
+s0178 first pass
+s0179 first pass
+s0180 first pass
+s0181 first pass
+s0182 first pass	add a date here
+s0183 first pass	add a date here
+s0184 first pass
+s0185 first pass
+s0186 first pass	add a date here
+s0187 first pass
+s0188 first pass
+s0190 first pass
+s0191 it was blank
+s0193 first pass
+s0197
+s0198
+s0199
+s0200
+s0201
+s0202
+s0203
+s0204
+s0205
+s0206

@@ -1,0 +1,78 @@
+[s0099]
+
+ERIC: "I suppose you want to know about me and Marisa."
+SID: "I don't care if you don't tell me, just give me some reason why she's holed up in the auditorium like she's the queen of the night."
+ERIC: "We met each other the first day of spring semester, last year. After finals, we went our seperate ways."
+SID: "You broke up."
+ERIC: "To put it bluntly, yes."
+SID: "On bad terms, apparently. I assume there's some long story. Is she the reason you ended up failing that physics class?"
+ERIC: "We did everything for that class together. I made the mistake of relying on her for dates. We started skipping that class every once in a while, just for the fun of it. When she suggested we do it again, it was just another day. Except she didn't show up, as agreed. That was exam day, it turns out. One of us took the final and passed the class, and the other of us didn't."
+SID: "Wait, she set up a four month relationship just to take out a competitor?"
+ERIC: "Judge for yourself."
+SID: "And now you never talk because you figured out that you had been used from the beginning. Wow, she's quite the strategist. Felix better watch out."
+ERIC: "He'd never fall for it. I'm just an idiot."
+SID: "I'm disappointed though."
+ERIC: "I'm disappointed in myself as well. One mistake, and five years of effort go down the drain."
+SID: "No, that's not why I'm disappointed. I thought you'd changed."
+ERIC: "I have changed. You said it yourself. I'm captain of the archery team, not the debate team. I'm taking Modern Poetry, not Computational Biology. I've given up."
+SID: "You only gave up because you were defeated."
+That scene of Felix shaking my hand earlier this afternoon comes to mind.
+SID: "I thought you were the one who realized how stupid this whole system is and threw it all away. I guess I thought I saw a second Emmanuel in you. That's all."
+ERIC: "And I thought I was the one telling you to lighten up on the course load..."
+SID: "Forget about it. You should probably get some sleep."
+
+I'm too overwhelmed to point out the contradiction before he leaves. Sid takes mainly heavy courses as well. His standings are pretty good, and B-year is still early. He has a chance. And he's criticizing my run? In less than 24 hours, my entire notion of him is upside down.
+
+I reenter the auditorium and take a seat in one of the cushioned chairs in the extreme back row. This will be my bed for tonight. Hopefully Marisa didn't notice me enter. This is a lot more comfortable than the tile floor outside, but it unnerves me to think of her huddled somewhere nearby.
+
+Sometimes I like imagining that it was all real, that the test was only a mistake, and that if I had said nothing it all would've gone back to normal. We never spoke after that day. Formally, nothing changed. I wish I were dumb enough to not care about reality and keep pretending forever.
+
+Sid has to be wrong, though I do think this school's contest is pointless. What is that elusive top chair anyway? The St. Magnus School is renowned enough that the valedictorian is accepted to pretty much any school they apply to. Who would waste six years of their life here worrying about changes in percent likelihoods of admission? Then again, I wasted five. 
+
+Someone sits down beside me. Thankfully it doesn't seem to be Marisa.
+
+[enter SID B]
+[enter ERIC C]
+SID: "Sorry to startle you."
+ERIC: "No problem."
+I hope he doesn't start in on Marisa and grades again, but Sid knows better.
+SID: "I feel sorry for the students trapped in the gym."
+ERIC: "Oh?"
+I yawn. Of course, he brings up a completely different topic.
+ERIC: "Shouldn't they be able to get out through that loading door?"
+SID: "If we can't get out our doors, how are they supposed to get out theirs? Well, at least they have a teacher or two to keep charge in there tonight."
+ERIC: "I wouldn't count on it. I can't name any staff members that were in there."
+SID: "At the very minimum, they have supplies, right? That's where all the expedition stores are kept. They've got more students as well. That puts them at an advantage."
+ERIC: "Advantage? Elaborate. I think I know what you're getting at, but I hope not."
+SID: "Maybe they won't want to help us."
+ERIC: "Yeah, that occurred to me... I was trying to be optimistic."
+SID: "Optimism doesn't suit you, Eric. If they can take care of themselves, why bother searching us out? Isn't it every man for himself right now?"
+ERIC: "Pessimism don't suit you either though, Sid."
+SID: "I'm just keeping the possibilities open."
+ERIC: "I'll agree to that. What's your opinion on how long we'll be here?"
+SID: "We're probably stuck here for more than just tonight. You knew that, right?"
+ERIC: "I was afraid of that. Maybe in the morning we'll all be free..."
+SID: "Well, let's let the kids in the gym enjoy their luxuries. I'm prepared to go hungry, and I suppose the others will have to accept it in time."
+ERIC: "If you put it that way, I'm glad Lyra stayed behind in the gym. You make it sound like paradise."
+SID: "Compared to here? It probably is. At least we have all that bottled water in the auditorium storage. We could hold out pretty long in here, if it came to that." 
+ERIC: "It shouldn't. The blizzard will pass by the morning, and after that, it's just a matter of clearing the snow. We'll be out of here before winter break starts up, anyway."
+SID: "But it's been cold this year..."
+ERIC: "Maybe."
+SID: "We're getting caught up in the details. Why can't I focus...?"
+ERIC: "We're both tired."
+SID: "Then it's time to sleep."
+ERIC: "Good plan." 
+
+It's almost as dark as the auditorium now. Somewhere along the way, the jazz ensemble migrated to the two other tables. Sid and I are the only ones talking, though. Henry keeps moving from one table to the other. There is nothing to pass the time any more. Eventually even Sid and I grow quiet. But then I distinctly hear music.
+
+[enter SID D]
+[enter ERIC B]
+ERIC: "Sid, you don't hear anything, do you?"
+SID: "You noticed the noise too? I didn't want to mention it. I can't pick out where it's coming from."
+ERIC: "So it's not just me..."
+It's that sound again, those faint few notes.
+SID: "It's nothing, it's nothing..."
+
+After a half hour or so, I'm sure he's asleep. Sid's a good friend. Though it's only now I realize that this is the first time we've ever really talked. Sure, we'd been through the routine: schoolwork, friends of friends, chatter about the club... How many others in here do I hardly know? Marisa?
+
+[goto s0041]

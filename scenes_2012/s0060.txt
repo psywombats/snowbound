@@ -1,0 +1,80 @@
+[s0060]
+
+[switchto REBECCA]
+
+[date]
+Friday, November 17th: Day 7
+
+My concentration starts to slip as the seconds tick by. Could it be 1:00 AM already? It couldn't be. Max still hasn't come. There's no way he'd be this late, not for something this important. The different scenarios keep playing themselves over in my mind. I think Eric next to me is starting to drift off. He hasn't said much for the last hour or so. Has it really been an hour?
+
+[enter ERIC D]
+[enter REBECCA B]
+ERIC: "I'm going to grab some water. Back in a minute."
+REBECCA: "Look, you probably think he's not coming, right?"
+ERIC: "I'm not give up that easily."
+REBECCA: "You can leave if you think I've lost my mind, but, thanks for staying. It means a lot."
+
+I hear his footsteps fade as he descends the stairs. To my surprise, after a few moments, he comes back to the landing. Before I can ask why, he inhales deeply and speaks.
+
+[enter ERIC D]
+[enter REBECCA B]
+ERIC: "The fire door is shut."
+REBECCA: "What? You're kidding me? How - "
+I run down the stairs, almost tripping as I do so. It isn't possible.
+REBECCA: "It really is closed. Who took out Arya's stop? This didn't happen on its own. How did we not hear them? Don't tell me you did this."
+ERIC: "Don't be stupid. I'm trying to figure it out as well."
+
+I try to calm down. Not much is working. We are trapped in a stairwell with zero supplies and minimal space to move around. I can't think of much else more that could go wrong. We're going to starve here. That's all there is to it.
+
+[enter ERIC D]
+[enter REBECCA B]
+ERIC: "Okay, we have to regroup. Hold on a minute."
+No doubt he's listening to me breathe like a madwoman.
+ERIC: "Cait, Sid, and Lyra are still down there. When they realize we're not back tomorrow, they'll come for us and open door."
+REBECCA: "That's not it. One of those people shut us in here."
+ERIC: "I don't understand. Look, all we can do is stay here and figure this out."
+REBECCA: "Cait must be doing something. This is like her. This reeks of Cait."
+ERIC: "It could be someone from Felix's group who managed to enter the basement while the door was still open. Let's keep an open mind, alright?"
+REBECCA: "I'm sorry, I just wasn't expecting this."
+ERIC: "Everything depends on how the situation in the basement turns out. I hope they're all safe down there."
+We're interrupted by the sound of the fire door in front of us. Max?
+
+[enter MAX C]
+MAX: "Sorry, I'm doing the best I can. There's another letter for you in there, but I have to run!"
+[exit MAX]
+He throws something through the crack in the door, and before I can reach it, we're shut in.
+[enter REBECCA A]
+REBECCA: "Max! Wait, we're in trouble here!"
+I'm about to bang on the door when I realize that I can hear raised voices through the metal of the door.
+MAX: "Fine. I'm done. It doesn't matter now."
+SHIBIN: "I never thought you'd make a break for it. I thought I could rely on you to at least be honorable once we caught on to you."
+MAX: "Ahaha, that's funny, you think I'm honorable."
+SHIBIN: "Hurry up and tie him with something stronger than shoelaces this time. It's no wonder he got away."
+STUDENT2: "Got it."
+
+I close my eyes. Max is out. He sacrificed himself for that last shipment of supplies. I'm not sure whether I should be grateful for the food or angry that he was so reckless.
+
+[enter ERIC D]
+[enter REBECCA B]
+ERIC: "What was that about?"
+REBECCA: "It's the worst case. I heard Shibin out there, and they're tying Max up or something. Either way, we can't count on him any more. Max, Max, I hope you'll be okay..."
+ERIC: "Well, let's see what he brought."
+
+Good old Max. Inside the backpack we have two water bottles, three cans of peaches, a bottle of aspirin, five or six knots of shoelaces, and a crumpled piece of paper. If only we could read it, we would have a much better understanding of the situation, but as it stands, it's too dark to see each other, let alone Max's letter.
+
+[enter ERIC D]
+[enter REBECCA B]
+ERIC: "We can hold out in here for a while. A few days, anyway. Someone will open one of the doors before then. There's no way it won't happen."
+REBECCA: "It doesn't matter. I'm giving up. Max is gone, and now there's no point trying to return to the gym. I'm sure Shibin hates us all now. It's over for us."
+ERIC: "It's never over. Max gave us this stuff, so let's put it to good use."
+REBECCA: "I've pretended for a while not to notice that we're probably all dead, but this is it. I'm at a limit here, Eric."
+[hold]
+
+I sit on the first stair. I never meant to say all that, but it's the truth. The gym was our last shot. I hide my face in my hands, even though no one could see in this light anyway. He can think what he wants. When we're dead it isn't going to matter. To my surprise, I hear Eric sit down next to me. I feel his arm around my shoulder. 
+
+ERIC: "Yeah, it's not looking so good right now."
+REBECCA: "I'm sorry, this is just... too much."
+
+We stay on the stairs for some time. I don't know how much time passes, but it's longer than I'd like until I calm down. For the rest of that night, we huddle together for warmth. As far as people I'd like to be left to die with, I suppose Eric Larsen isn't such a bad pick.
+
+[goto s0061]

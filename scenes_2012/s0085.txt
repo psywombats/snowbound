@@ -1,0 +1,138 @@
+[s0085]
+
+REBECCA: "We'll go."
+ERIC: "You're sure? I don't mean to rush you."
+REBECCA: "I'm sure. Cait locked me in a stairwell, Max gave me up to Shibin, and Sophie watched it all happen. It's time we took action on our own."
+ERIC: "That's kind of touching... Thanks. But it was a mutual effort. Don't think for a moment I would've lasted through this without you."
+He pauses.
+ERIC: "What do we do now? I don't want to rush Pete. His arm is hurting."
+REBECCA: "Well, maybe he finished tonight and we leave before dawn."
+ERIC: "What are we going to do about supplies?"
+REBECCA: "We'll take what we need, and nothing more."
+ERIC: "Are you going to tell Max?"
+It's not a great prospect either way. Max will worry, I know he will, but does telling him beforehand solve anything?
+REBECCA: "I'm not sure."
+[enter MAX B]
+MAX: "There you guys are. I was wondering where the birds ran off to."
+ERIC: "Are you referring to us?"
+MAX: "Who else? Rebecca, what's going on up here? How's Pete?"
+It's hard to transition into talking to Max after we were just discussing lying to him.
+REBECCA: "Okay. He's making progress and he'll definitely be done by tomorrow."
+MAX: "Good, because we're holding our council tonight. We're going to make plans on what we should do for the great exodus."
+ERIC: "The great what? Exodus?"
+It's Max, of course he comes up with some overly complicated name.
+MAX: "Well, you should get back before too long. We wouldn't want to hold the high council of the foretold departure without you."
+[exit MAX]
+REBECCA: "Okay, that time it was definitely intentional."
+
+We follow Max at a distance back into the gymnasium. Although the council isn't scheduled to begin for another hour or two, Felix and Shibin are still going at it. I guess Max must've just taken a break from the debate, as he jumps right back in as soon as we arrive. In a way, it's a little depressing. I'm glad to see Kenneth running back and forth between them in an attempt to mediate, but it doesn't look like he's having any luck. Poor Kenneth. In the meantime, the rest of the students are milling around and looking for some sort of direction. Even Henry and Arya look out of sorts. Eric and I settle in corner to sort out our own plans.
+
+[enter REBECCA B]
+[enter ERIC D]
+REBECCA: "So if Pete finishes tonight, we leave in the morning."
+ERIC: "But it's the other case that's harder. What if they settle on leaving tomorrow?"
+REBECCA: "We'll play it by ear."
+ERIC: "Maybe we should just leave with everyone else then."
+REBECCA: "No, it's not like that. We need to go, and we need to go alone. You and I have been alone through all this. We're the only ones with our sanity left. For all we know, they might even decide to stay here and wait it out."
+ERIC: "You really think that?"
+REBECCA: "Look at them."
+[hold]
+
+Henry and Arya have found their way back to Max, Felix, and Shibin at this point. From the little I can hear, it seems Max is trying to order them to do one thing while Felix is saying something completely contrary.
+
+ERIC: "Is it even worth stepping in?"
+REBECCA: "I don't even know any more..."
+ERIC: "Well, Max is your friend, after all. If you want to stay and help them sort it out, it's nothing to be ashamed of."
+REBECCA: "Eric, we're leaving together. I've decided. What I learned from Max was to keep my opinions no matter what others thought of them."
+ERIC: "Then what should we do?"
+REBECCA: "While they hold the conference, we'll take the supplies we need. I'll leave a note to Max explaining what happened, and we'll leave tomorrow morning."
+ERIC: "You sure are committed to this, aren't you? Well, I'll do my part then. Although I want to say goodbye to a few people before we go. Sid helped me through a lot of this, and I want to thank him."
+REBECCA: "Let's say our goodbyes. We have an hour left until the council starts, and after that, we might never see them again..."
+I don't want to think of the exact circumstances, but I can't lie to myself.
+ERIC: "Alright. I'll see you in an hour."
+
+My first order of business is to find Sophie. I ignore the mass of students wandering around, bickering with each other, or idling by the windows. I don't even need to look at the others now. I'll go to the gym.
+
+[enter REBECCA B]
+[enter SOPHIE D]
+[enter LYRA E]
+SOPHIE: "Hello, Rebecca. We were wondering if we might see you."
+LYRA: "Hi."
+REBECCA: "Sophie, Lyra... Hello. I'm not quite sure where to begin, but I'm here to say goodbye."
+LYRA: "See, Sophie? I knew it."
+SOPHIE: "You're clever, Lyra, you know that? You should lie back down though. I don't want you to exert yourself too much."
+LYRA: "Is Eric going with you?"
+REBECCA: "I guess you've got it all figured out... Eric and I will be gone by the morning. We've decided we're leaving on our own. Max and Felix and Arya and Henry can argue all they want, but we've decided to take action."
+SOPHIE: "I never thought I'd be hearing you say that, Rebecca. Maybe Max or someone, but Rebecca?"
+REBECCA: "I'm my own person, Sophie. I'm glad you've found something useful to do, but I think I've served my purpose here, and I wish you and Lyra the best of luck. Maybe you'll leave together as well."
+SOPHIE: "I'm not you. And don't forget that Lyra's ill. It's my job to look after her now."
+LYRA: "Thanks."
+REBECCA: "Farewell, Lyra. Good luck, Sophie. I won't forget you."
+
+When I leave, I can't help but regret my choice. I have only fond regards for Sophie and Lyra, but when I hear their gentle chatter, something in me yearns for that peace that comes with passiveness. But I shut the door behind me and head back to the gym. I've been through a lot these past few weeks, but this will be one of the hardest tasks yet.
+
+[enter REBECCA D]
+[enter MAX B]
+REBECCA: "Hello, Max."
+MAX: "Hold on a moment, Felix."
+He turns around.
+MAX: "Oh, it's you. Rebecca, what do you need?"
+[hold]
+
+It seems I've come across Serious Max. Sarcastic Max and Carefree Max are hiding at the moment. At first I wonder if I should just wait, but when I pause to think, I realize that all the Maxes are the same Max. Why did I always think of him as such a scattered person before?
+
+MAX: "You look a little lost. If you don't need anything, I'm kind of busy."
+REBECCA: "Bye, Max. There's a good chance this is it."
+MAX: "What? Are you going to go hang yourself like Marisa or something?"
+REBECCA: "I don't care if you're in a bad mood. I'd say I was sorry in advance, but I regret nothing. Good luck. I know you can fend for yourself, so stay safe."
+MAX: "Alright, thanks, I guess. Bye."
+And he turns back to Felix.
+
+Is that all there is to Maximilian Wolf? He used to confuse me, and later he made sense, but now he makes too much sense. I could almost feel sorry for him when someone taps me on the shoulder.
+
+[enter ERIC B]
+[enter REBECCA D]
+ERIC: "They're starting."
+REBECCA: "Hi. Are you all settled?"
+ERIC: "Sid knows the gist of it, and I think I've made my amends."
+He sighs. I can guess what he's going through.
+ERIC: "Well, let's hit the supplies."
+REBECCA: "And tomorrow, we depart."
+
+[date]
+Wednesday, November 23rd
+
+[enter REBECCA C]
+REBECCA: "Are you awake?"
+[hold]
+
+I open my eyes. As soon as I sit up, I feel the chill. The warmth of Rebecca in the tangle of blankets beside me is too much to give up. My response takes a few moments.
+
+[exit REBECCA]
+[enter REBECCA B]
+[enter ERIC D]
+ERIC: "Barely. Do you know the time?"
+REBECCA: "No more than you do. Should we go?"
+ERIC: "Let's go."
+
+We stand up together and the blankets fall away. I grip her hand even tighter. In the black of the basements, she's my only anchor.
+
+The stairs come first. The echo of our footsteps reverberates around the stairwell. We pick up the backpacks stowed on the first floor in silence and continue through the fire door. The ruins of the barricade pass, then the discarded battering ram, then the scattered glass of the spears. Could we really have built all of this? And for what purpose? I can't help but reach out for the presence next to me.
+
+[enter ERIC B]
+[enter REBECCA D]
+REBECCA: "Only a little farther."
+ERIC: "What do you think will happen when they realize we're missing?"
+REBECCA: "They'll know what happened. And after that, I don't care what they think."
+ERIC: "Is this the place?"
+
+We stand at the base of the roof access stair. The door is shut, but snow still kicks around on the linoleum tiles. I can feel Rebecca shiver next to me. I'm at a loss for words, but she steps forward and puts her hand on the knob. In one second, our door is open.
+
+I forgot how much I missed the wind. Even as the cold and ice blows past me, I know that the rest of my journey is beyond that door. As the whistling of the breeze stirs through the hallway, two hands touch to mine.
+
+[enter REBECCA C]
+REBECCA: "We're free."
+
+It never felt so natural. Against that chill of the outside, the heat of her body pressed against mine... I half lift her off the ground and our lips meet. We stand there against the winter, framed by a gray dawn. Then I catch her eyes, her smile, and we set off into the snow.
+
+[end GOOD]

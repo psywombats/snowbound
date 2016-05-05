@@ -1,0 +1,34 @@
+[s0171]
+[decrement FELIX]
+
+I go for it. The moment my fist connects with Felix's jaw, I know it was worth it. Now that he's on the ground, the only person between me and the door is...
+
+[enter HENRY C]
+HENRY: "Oh no you don't."
+I'm back on the ground. This time there's a very large weight on me.
+HENRY: "I don't know if you can see in this light, but I've got a pair of scissors here and I'm prepared to screw you up if you try something as dumb as that again."
+ERIC: "You're the bodyguard, Henry. You've been hired as a bodyguard. Are you proud of yourself?"
+FELIX: "Don't sink to his level, Henry. You're better than him anyway."
+HENRY: "True. Stay down, Eric."
+FELIX: "You probably wouldn't have fit in with us anyway."
+
+Before I can even pick myself up, the gap in the door dwindles to a mere crack. I put all my weight against the door, but of course it does nothing. What should I have said? What else could I have done?
+
+[enter REBECCA B]
+REBECCA: "Are you alright?"
+[enter ERIC D]
+ERIC: "I'm fine. Hopefully Felix will have a few broken teeth."
+REBECCA: "What was all that about? What did Felix even want?"
+ERIC: "I can imagine the gist of it."
+REBECCA: "You'll have to fill me in."
+ERIC: "He's decided he wants to live. He's also decided that the best way to accomplish that is to pick a few other students and sentence the rest to death."
+REBECCA: "What do you mean?"
+ERIC: "When we were back in his headquarters, Sid and I had a long discussion with him about what would happen if we ever made contact with the students in the gym. Felix said he might not even want to make contact."
+REBECCA: "Why not? Wouldn't that mean they could share the supplies?"
+ERIC: "Exactly. He figured that if we're going to be stuck here for a long time, only a few students would be able to make it out, even with a large amount of food. If forty students have forty meals' worth of food, they'll all eat for one day, but one student with forty meals lives for months."
+REBECCA: "So he wants to be that one student?"
+ERIC: "Probably. Or more likely, the students he's selecting students to be survivors, and I was one of them. I guess it's flattering that he felt the need to shut me in a staircase first."
+REBECCA: "His rationale makes sense, but why do I still find that a little crazy?"
+ERIC: "Because it is crazy. We'll find some other way out of this, and some way that doesn't involve everyone else croaking first."
+
+[goto s0172]

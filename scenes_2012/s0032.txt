@@ -1,0 +1,115 @@
+[s0032]
+
+I hammer at the gym doors, but as usual, I receive no response. After ten minutes of waiting, I'm almost ready to give up when the doors open and a student pops their face out.
+
+[enter REBECCA B]
+STUDENT1: "Oh, it's you again."
+REBECCA: "Of course it is. Let me in."
+STUDENT1: "I guess that's okay."
+When the door opens fully, a different student steps outside as I come in. I head off to find Maximilian.
+[enter MAX D]
+REBECCA: "Hey Max, what's going on?"
+MAX: "I'm a little busy. We just sent out a scout to make sure the coast is clear to trap Felix. We've started gearing up, but once he returns, we'll know for sure whether the road is safe."
+REBECCA: "So you're really doing it."
+MAX: "You sound relieved."
+REBECCA: "I am. It might be the only chance we get."
+MAX: "What are you going to do? Are you sticking with me or do you want to be part of the ambush party or something?"
+REBECCA: "I'm going... I don't know. I'll be around."
+MAX: "Take care of yourself."
+Oh Max... It's too easy to manipulate you.
+
+The scout reenters as I exit the gym. No doubt they'll be preparing their two teams about now. My only role is to be the collateral right now. I walk down the gym hall, to the main hall, and then to the catwalk door. It's unlocked, as it has been since Pete picked it that night we discovered Marisa's body. No doubt she's still down there somewhere. I step onto the raised platform with some hesitation; heights have never been my forte and lately this catwalk has been starting to creak. The presence of a corpse below doesn't help matters. I sit cross-legged above the stage and wait for Eric.
+
+My wait is not a short one. The cold is just starting to get to me when I hear noises outside the far door. It must be midnight. Max's forces should be circling around now. I see a line of blue light through the door crack that grows bigger as the door opens. Out step Felix, Eric, Arya, and Henry with about ten other students carrying a desk turned battering ram. Arya holds her light above her head and Felix and Eric rush towards me.
+
+[enter REBECCA A]
+[enter ERIC C]
+[enter FELIX D]
+[enter PETE E]
+FELIX: "Sentry! Eric, quick, before she alerts the rest of them!"
+ERIC: "Got her."
+FELIX: "What, who are you? Aren't you even going to try to run away?"
+I have to ham it up for Felix now...
+REBECCA: "Eric... So you really have joined Felix?"
+ERIC: "And you made the mistake of siding with Maximilian? I warned you."
+FELIX: "Oh, it's her."
+REBECCA: "Remember those days in the stairwell? Doesn't that mean anything?"
+ERIC: "You had your chance."
+FELIX: "I offered you at least temporary assistance before. You won't have the benefit of the same deal again. Pete, tie her up and let's move on."
+The rest of the students file onto the platform. Can it even support that much weight? As the door shuts, it's Eric's turn to talk to Felix.
+ERIC: "Felix, let's keep her with us for a bit."
+FELIX: "Don't tell me you've gone soft again."
+ERIC: "No. Maximilian Wolf has a soft spot for her. We might be able to us that to our advantage if something goes - "
+
+He doesn't need to finish. Right on cue, Max himself bursts through the door behind me. A few follow him onto the catwalk. The students who went through the stairwell should be waiting behind the other door to cut off any escape.
+
+[enter MAX A]
+[enter REBECCA B]
+[enter ERIC C]
+[enter FELIX D]
+MAX: "Ha! I thought we might find you here."
+When he catches sight of me, he stops.
+MAX: "What?"
+FELIX: "Damn. We can't fight them head on, and not on this shaky platform either. We're going to need to fall back."
+ERIC: "Wait."
+MAX: "Rebecca! What are you doing over there?"
+ERIC: "She's our captive."
+MAX: "You idiot! I told you not to trust him! Now look what happened."
+I'm taken by surprise when Eric forces me up the railing bar and half pushes me over. If he lets go, I'd be scared of falling. And why does this platform have to start swaying? Please give in fast, Max...
+ERIC: "Don't take another step or I'll throw her off. Who knows, she might live, but if you wouldn't like to take that chance, I suggest you listen."
+FELIX: "Our demands... Let's see, how much of the supplies would - "
+ERIC: "No, we have one demand. Maximilian Wolf, hand yourself over and we'll release Rebecca Bell back to the gymnasium. Refuse, and she falls."
+MAX: "I don't even have to hesitate."
+He walks forward with both his hands in the air.
+MAX: "You're the one that's miscalculating, Eric. Give it another thirty seconds and it won't matter."
+FELIX: "What are you talking about? You're ours now, Max. Pete, the duct tape if you would."
+ERIC: "And start with his mouth."
+FELIX: "Yes, please do."
+MAX: "You'll see. Just wait. Now release Rebecca."
+[hold]
+
+But Pete is already winding the roll of duct tape around Max's head and hands. Eric pulls me up from the railing, for which I'm grateful. But I stay by Eric's side. His hand grips my own. Max stares up in disbelief. Sorry Max. I pity you, but what can I do?
+
+FELIX: "Excellent, Eric. There's no one to lead them now."
+SUDENT1: "We still have Kenneth!"
+STUDENT2: "Kenneth! Where are you?"
+FELIX: "That guy? He isn't even there."
+No sooner does he speak than the door behind the battering ram students opens, revealing just as many gymnasium students as the other side. Kenneth is at their front.
+[enter KENNETH A]
+[exit FELIX]
+[enter HENRY D]
+HENRY: "How'd we get surrounded?"
+[exit HENRY]
+[enter ARYA D]
+ARYA: "Nice work, Max. I'm not surprised it came to this..."
+[exit ARYA]
+[enter FELIX D]
+FELIX: "Tch. I've been outmaneuvered. How the hell did you get over there?"
+KENNETH: "The south stairwell is open."
+FELIX: "If I find out who's responsible... Never mind. I currently have two hostages. Well Eric, is this what you'd call a hopeless situation?"
+ERIC: "Yes, yes it is. We don't have much choice but to surrender."
+FELIX: "We have leverage. We have plenty of leverage."
+ERIC: "Then allow me to use it. Kenneth Whitecastle, we'll free the two hostages and any other captive students on the condition that you accept us back into the gym. I'll pledge on my honor that there will be no foul play. We'll drop our weapons and we'll stay in the gym with the rest of you. Keep us under guard if you must."
+KENNETH: "That... Maybe..."
+But there's muttering behind him. Most of the students probably share Max's perspective. There would be no way this would work if Max wasn't tied up at my feet.
+KENNETH: "We will..."
+[hold]
+
+But a scuffle breaks out behind him. Someone pushes their way through the crowd and onto the platform, which creaks under the load. Is that who I think it is? Where could he have...
+
+[exit FELIX]
+[exit KENNETH]
+[enter KENNETH D]
+[enter SHIBIN E]
+SHIBIN: "Kenneth! Don't do it!"
+KENNETH: "Shibin! Shibin's back!"
+Shibin looks almost as crazy as Kenneth, but in a different sense. His gaze is malicious and demented and frighteningly sane.
+SHIBIN: "Not another word. Those bloody traitors can die here for all I care. Hurl them over the railing."
+KENNETH: "The hostages?"
+SHIBIN: "Everyone must make sacrifices. Too bad. We put an end to Felix Salazar here and now. Who's with me?"
+
+The voices of the students crowding the catwalk echo in the auditorium. This might be it for all of us. So long, Eric. It was a nice plan, but we didn't count on Shibin showing up again. What an ignominious end. I grip Eric's hand tighter next to me. They'll charge any instant now. Will we survive the fall? 
+
+Students from both sides rush the catwalk. They're only a few feet from where Eric and I are standing. Something above us cracks. Someone screams. The metal above is screeching just as loud. It feels like the floor dropped out from under me, but the platform is still there. Only it's... falling. We're all falling. And with a crunch, we hit bottom.
+
+[goto s0068]

@@ -1,0 +1,31 @@
+[s0157]
+
+[enter SID B]
+[enter ERIC D]
+SID: "It's freezing in here. I can stand the hunger, but this isn't good. Can you check the water again? We don't want that freezing up on us. That would be a pain."
+ERIC: "It looks okay so far."
+SID: "Do you mind talking to Marisa now? I don't care if we have to move in there to use the curtains or if she moves them out here, but we need to do something."
+ERIC: "I'll see what I can do then. Can you lend me your phone?"
+SID: "Sure. I'm running out of battery life though, so try and don't turn it on unless you absolutely have to."
+ERIC: "Will do."
+
+I walk to the auditorium entryway and almost crash into the doors. Without light, I couldn't tell that someone had closed them. Wait, who closed these? I hold the handle and hesitate. Marisa is almost surely the one who shut them. There had to be a reason. Maybe she didn't want to be disturbed. Maybe she left the auditorium and is hiding in one of the shadowy areas out here.
+
+I turn the handle and push inwards. To my relief, it's not locked. That would just be another nightmare. When I step inside, the door pulls back behind me and I hear a light thud as it falls back into the doorframe. I'm left at the top of the stairwell.
+
+[enter ERIC C]
+ERIC: "Marisa?"
+No response. I wasn't calling very loudly anyways. I walk down the stairs.
+ERIC: "Marisa, we need to talk to you about the curtains. The cold isn't..."
+
+I still receive no answer, but she's not at the edge of the stage, either. Almost losing my footing over one half of a stage rope, I make my way over to the bundle of curtains. It's empty. She must have moved, either to the entrance hall like I already hypothesized, or maybe the storage closet. As I'm here already, I'll check the storage room. But, that rope didn't used to be there. I can't see where it leads by the light of the dying phone. It pulls upwards. Is it dangling from somewhere above? I need light.
+
+Inch by inch, I trace the rope to its source at the center of the stage. I pass an overturned chair, a music stand, sheet music lying on the floor. The rope travels upwards, first gradually, then decidedly. I finally reach the exact middle of the stage. It must be tied somewhere up in the rafters. The phone lights up the scene above me. There's something blocking my sight. I take two steps back from under the rope and stare upwards.
+
+It's Marisa. Or, the person who once was Marisa. The cord winds once around her and then to a thick knot around her neck. The light is too poor for me to make out her face, but as her body rotates, I catch a glint of her dead and empty eyes.
+
+Marisa.
+
+No more.
+
+[goto s0050]

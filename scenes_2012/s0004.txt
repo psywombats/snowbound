@@ -1,0 +1,10 @@
+[s0004]
+
+REBECCA: "We can go together, if you want. It might be sensible to bring back everyone's bags."
+SOPHIE: "You think? Should we ask the boy in charge?"
+REBECCA: "I wouldn't say he's in charge, but..."
+[hold]
+
+[choice]
+[Check with Kenneth :: s0005]
+[Why bother? :: s0040]

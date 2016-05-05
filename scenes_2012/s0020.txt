@@ -1,0 +1,62 @@
+[s0020]
+
+[enter ERIC B]
+[enter FELIX D]
+ERIC: "Felix, I'm not trading for granola bars. Either we're coming up there or you're coming down here and we'll share what we have."
+FELIX: "That's not a good move. You're in an advantageous position right now. Are you trying to pull something?"
+ERIC: "No. I'm sick of competing with people for no discernable reason."
+[enter MARILYN E]
+[enter SID A]
+MARILYN: "Felix, just go with it. He's being honest."
+FELIX: "Well, I won't argue with the people who have the dead girl hanging from the catwalks."
+ERIC: "I'd better go consult with the rest of them though. I'm not really in charge at all."
+FELIX: "We'll wait for you then."
+SID: "I'll see if I can't cut Marisa down while you talk to the jazz ensemble. Can you two lend a hand?"
+MARILYN: "I'd be happy to."
+
+A few students have gathered in front of the auditorium door after hearing the voices. When I push open the double doors, I almost hit Henry in the face.
+
+[enter HENRY B]
+[enter ERIC D]
+HENRY: "Who's in there? There was a girl's voice. Was Marisa still alive?"
+ERIC: "No. Definitely dead."
+HENRY: "I shouldn't have hoped. Then what's going on in there?"
+ERIC: "Felix Salazar and some other debate member opened up the door to the catwalk from the biology hallway. We're proposing an alliance."
+HENRY: "An alliance? Well, who knows what they can do for us, but at least we'll have more options. That's the real problem here: no options. Now maybe we can get out of this entrance hall."
+ERIC: "Apparently they have an excess of granola bars but no water."
+HENRY: "Excellent. I guess the real question is whether we're going up or they're coming down."
+ERIC: "Oh, right, we should stick together after all. Well, why don't we all go inside and decide now, then?"
+
+Henry and a few other students file in through the doors.
+
+[enter HENRY B]
+HENRY: "Damn it... You could've warned me you hadn't taken her down yet. I don't think any of us wanted to see that any more than we already have."
+[enter SID E]
+SID: "We're working on it, okay?"
+Sid calls down from the rafters where he and the female debate team member are working at the cord tied around a railing. Marisa drops with a thump. I feel nauseous.
+HENRY: "In retrospect, that was worse."
+[enter FELIX D]
+FELIX: "We'll get to business then. You people are all in favor of joining up?"
+There are a few nods here and there.
+FELIX: "Look, I'll admit, my position is really weak right now. I can't offer you much. We have a few boxes of granola we stole from one office and a bunch of leftovers from a staff lounge, most of which we've already gone through."
+[enter ERIC A]
+ERIC: "We're not here to barter terms, Felix. Are you people going to come down or are we going to go up?"
+[exit SID]
+[enter MARILYN E]
+MARILYN: "Well, where do you have access to down there? Can you get to the gym?"
+FELIX: "Of course not. Marilyn, think for a second. There'd be a lot more than seven people."
+HENRY: "I busted open the glass in the entrance hall, but there's no way out. It's ice out there, not snow. Aside from that, that's all we have. This auditorium space and the entrance hall. Well, the storage room too if you want to count that."
+ERIC: "What's the situation up there?"
+MARILYN: "Biology and math halls. We have a comfortable area in the staff room on the second floor. I think we could fit more people."
+Felix doesn't look especially happy about those arrangements. He keeps swinging his flashlight back and forth.
+FELIX: "We had to file down the bar on the fire door to the north stairs. It took the better part of three days. We did all that with four people, and you couldn't get anywhere?"
+HENRY: "Look, we had limited materials. Would you quit complaining? We're giving you water, remember."
+MARILYN: "Felix apologizes. We're both grateful."
+FELIX: "I really am. Please ignore me."
+ERIC: "Okay, I guess it's logical for us to exit through the door up there and move to the staff room on the second floor."
+[exit MARILYN]
+[enter SID E]
+SID: "That doesn't solve everything though. You all are going to have to climb up here, and we need to get the water up as well.
+HENRY: "Well, this is a stage. We have ropes and we have pulleys. We can figure something out."
+
+[goto s0125]

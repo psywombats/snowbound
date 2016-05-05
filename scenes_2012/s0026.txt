@@ -1,0 +1,20 @@
+[s0026]
+
+I stand up and stretch. Finding Cait shouldn't be too hard. After all, we only have one floor of territory to cover here. What could she be doing anyway? I'm about to decide which hall to search first, but when I stand up I think I hear... voices? Someone is definitely talking, but it doesn't sound like Cait. Hopefully my muffled noise won't wake anyone up, or disturb that person on the stairs.
+
+The voice is definitely coming from the landing of the north staircase. Two figure stand in the vague light coming from the first floor window. I'm close enough to make out the words.
+
+[enter HENRY D]
+[enter CAIT B]
+HENRY: "I don't see what you're trying to accomplish here. We made a deal, right? So go away and let me leave."
+CAIT: "You're staying right here until the boss decides what to do with you."
+HENRY: "The boss? You guys have a boss now?"
+CAIT: "Eric Larsen. He'll know what to do with you."
+HENRY: "You met up with Eric? Fine, let me talk with him. I know that guy, he has more common sense than you. You're just a basketcase, girl."
+[enter ERIC A]
+ERIC: "Cait, Henry, I'm right over here."
+It's Henry Musikot. He's standing with Caitlyn by the fire door while she holds it open.
+CAIT: "Eric? Great. I found this guy on the second floor landing, just lying there. I don't know what his problem is."
+[hold]
+
+[goto s0163]

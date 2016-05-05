@@ -1,0 +1,14 @@
+[s0137]
+
+I walk back over to where Max and I have our sleeping bags set out.
+
+[enter REBECCA B]
+[enter MAX D]
+REBECCA: "Max! Wake up; there's been a change of plans."
+MAX: "Ugh, if you're copping out, just say so."
+REBECCA: "No, Arya says she needs another person."
+MAX: "Fine... I wish she would've said something earlier though."
+
+Max and I part ways at the gym exit and I join Arya and Pete. I can't see anything, but by the sound of it, she's half-carrying Pete along the hallway.
+
+[goto s0194]

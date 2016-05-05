@@ -1,0 +1,16 @@
+[s0193]
+
+I wake up early, even though I was up late last night. No matter how many hours they spent arguing about directions, rations, control, or plans, we never moved any closer to actually leaving. Eric and I intend to take action, even if no one else will.
+
+The sun isn't up yet, but Eric is stretching beside me. There's no talking; we both know what we need to do. I leave the note and Eric gathers the supplies. Each of us will have a sleeping bag and a week's worth of food. When the work is done, all that remains is to set out.
+
+Now that we're walking through the halls, we can finally talk, but I don't elect to break the silence with Eric. Instead I hold his hand. It's not a long trek to the service stairs, at least not by the standards of the journey we're about to undertake. We find the door just as Pete said it would be, unguarded and unlocked. There's some mysterious phenomenon around this unassuming door though. Then I realize it's the breeze. It's been so long that I'd forgotten.
+
+[enter REBECCA B]
+[enter ERIC D]
+ERIC: "Shall I?"
+REBECCA: "Let's go."
+
+He opens the door, and the wind pours down around us. Only twenty steps away is a world of snow, sky, and freedom. At the top we're met by the most beautiful thing I've seen in days: the sun is breaking through the winter morning mist. A thousand snowflakes glitter across this snowy plain. It's time to go. As we hold each other in the light of daybreak, I know we'll reach civilization. We'll reach it together.
+
+[end TRUE]

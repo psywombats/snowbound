@@ -1,0 +1,23 @@
+[s0136]
+
+ARYA: "We're going to try to pick the lock on the catwalks door. Then maybe we can get to the entrance hall. It's an escape attempt!"
+REBECCA: "Wait, hold up. We've already tried to get through the catwalks."
+ARYA: "What happened?"
+REBECCA: "Marisa Montoire stopped us."
+ARYA: "I don't really know who that is, but what did she want?"
+REBECCA: "I couldn't tell you. She kicked the door and it knocked Pete off balance."
+[enter PETE A]
+PETE: "Yeah! It sucked."
+REBECCA: "Wait, what are you doing here?"
+PETE: "Who else is going to pick the lock?"
+REBECCA: "I thought Sophie said you should both be lying down."
+ARYA: "Don't worry about Sophie. Right now, we just need to put our plan together. So you say this Marisa was blocking the door?"
+REBECCA: "I can't imagine she'd up on the catwalks in the middle of the night, so there shouldn't a problem this time. Pete, how much noise does lock picking make?"
+PETE: "I can be quiet, I swear!"
+ARYA: "Sounds like it's a go, then."
+REBECCA: "I guess. Still, I'd rather not be involved when the kids in the auditorium start rioting when they see you've broken through. I'll go wake Max up, he can do this."
+ARYA: "Oh, actually, could you tell him to stand guard for us? This is best as a four person operation."
+
+Oh well, it looks like I'm wrapped up in an illicit exploration attempt again. Let's hope it runs smoothly for once.
+
+[goto s0137]

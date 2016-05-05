@@ -1,0 +1,15 @@
+[s0098]
+
+ERIC: "Come on, get out of here. You'll catch a cold or something. I'd rather you didn't end up dead before rescue got here."
+MARISA: "It's weird of you to be thinking about my health, Eric. Please don't pretend to care."
+I don't feel like arguing with her, but at this point I think letting her stay would be a victory for her. I don't intend to lose to Marisa.
+ERIC: "Fine, I'll stop worrying if you come out to the entrance hall, even if only for a few minutes. Get up."
+MARISA: "Are you going to force me? Come on, Eric, I want to see you put some effort into it. I want to see everyone's faces when you drag me out by my hair or something."
+She has me beat.
+ERIC: "No thanks. Bye, Marisa."
+
+But as Sid and I walk up the stairs towards the gray light from the entrance hall, I hear footsteps behind us. If I turn around, Sid will notice. It was a mistake to talk to her, so I'll just keep walking.
+
+We reach the entrance hall again. Sid heads for the table we were sitting on before and hops up. I follow him, trying to ignore the eyes I know must be following me from the darkness of the auditorium. But when Sid says nothing, I can't keep ignoring it. I try to leave quietly, be tails after me as I go back to the auditorium door.
+
+[goto s0097]

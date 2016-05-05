@@ -1,0 +1,48 @@
+[s0082]
+
+I'll opt to stay here if it's all the same. I wouldn't want to miss what's happening in the gym, and it's not like the electronic door will let me in to see Sophie anyway. Max heads off down the hall only to be passed by Pete as he dives back into the gym.
+
+[enter PETE B]
+[enter REBECCA D]
+REBECCA: "What's the rush?"
+PETE: "I've got a job to do."
+REBECCA: "What are you planning?"
+PETE: "Do you remember where I put my bag?"
+REBECCA: "Your bag? How should I know?"
+PETE: "You're no fun."
+[exit PETE]
+He runs back out the door as quickly as he came. I watch him fade from sight as another student joins me.
+[enter CAIT D]
+CAIT: "What's that running around for?"
+REBECCA: "No idea."
+CAIT: "Up to no good, no doubt."
+REBECCA: "I don't know. He seems enthusiastic enough, and it's too early to judge."
+CAIT: "You need to judge faster, or those unsavory characters will get the jump on you. Sometimes I worry about you, Rebecca."
+Does she realize most people would consider her an unsavory character?
+REBECCA: "I'm not sure what you're worried about."
+CAIT: "You're too wishy-washy. One of these days it might cost you."
+REBECCA: "If you say."
+CAIT: "Anyway, I'm off to talk to Kenneth. There's work to be done."
+
+I may be to slow to judge, but Cait is never short to offer an opinion. I watch her join Shibin and Kenneth in conversation. When I turn around, at first I think the generators came online, but then I see the new light is coming from the four or five laptops opened around the circle of students. I stand up and stretch, then walk over.
+
+[enter SHIBIN B]
+[enter KENNETH D]
+[enter CAIT E]
+SHIBIN: "But what if we're forced to stay here for more than tonight? It would be a waste. You have to stop them."
+KENNETH: "I guess you're right, we shouldn't have the laptops out already. But I don't think I can stop them."
+CAIT: "Don't worry about it. Just leave them to me."
+[exit CAIT]
+[enter REBECCA A]
+REBECCA: "What's all that about?"
+SHIBIN: "We can't be wasting our primary light source on the first night. Those laptops could be important."
+REBECCA: "You think we'll be here for a whole night? Multiple nights?"
+SHIBIN: "It would be imprudent to plan for anything else."
+REBECCA: "That's a bit harsh."
+I'm watching Cait ordering the laptops shut.
+SHIBIN: "It's worth it."
+KENNETH: "It might be a little much, but if it's a good idea... then it has my backing."
+
+I walk away as I spot Max entering the gym. We greet each other and head for the students gathered on the floor.
+
+[goto s0081]

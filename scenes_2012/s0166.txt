@@ -1,0 +1,81 @@
+[s0166]
+
+The whole time, Rebecca keeps her seat on the lounge couch. I really wish I could see her, maybe then I'd at least get a hint of what she was thinking. Maybe when you're trapped with someone for so long you can't help but learn more about them. That's certainly been the case with Sid. But Rebecca's just as closed to me as the day I met her. I've only seen her around Max for the most part, and now, she's much quieter.
+
+The hours drag on. Cait reenters and finds a corner to curl up, though I can tell she isn't sleeping. Sid finally settles down after running in and out all day. I estimate it's only an hour or two away from midnight.
+
+[enter ERIC B]
+[enter SID D]
+ERIC: "Hello Sid. I guess you're back to stay?"
+SID: "Cait's back, so yeah."
+ERIC: "You were tailing her?"
+SID: "Sort of. I can't really trust someone that attacked you with a knife before introducing herself."
+ERIC: "Oh well... Your phone still works, right?"
+SID: "Every time I turn it on I'm worried it'll be the last."
+[enter REBECCA A]
+ERIC: "Can you check the time?"
+SID: "It's out of synch."
+REBECCA: "I've got a watch, just light it up for me."
+A light springs up in the darkness, and Rebecca and Sid huddle together.
+REBECCA: "It's only 11:00."
+The room returns to darkness.
+SID: "Eric, I'm going to turn in. It's late and there's nothing to do. I'll save my energy."
+ERIC: "Good night, then."
+[exit SID]
+I hear noise in the middle of the room as he makes himself comfortable.
+REBECCA: "I should probably head upstairs and wait for Max."
+ERIC: "I'll come with you then. There isn't much to do down here and I couldn't sleep if I tried."
+REBECCA: "Thanks. I wouldn't want to ask, but it'll help me stay alert, anyway."
+
+We climb the stairs to the landing on the first door. We both lean against the wall facing the exit with the fire door between us. There's nothing to do now but wait for Max.
+
+[enter ERIC B]
+[enter REBECCA D]
+REBECCA: "So Eric... Do you think we'll escape alive?"
+ERIC: "That's not exactly small talk."
+REBECCA: "I gave up on small talk. When it's life or death, it doesn't really matter. We can be more honest."
+ERIC: "Fair point."
+REBECCA: "Though I wondered if you'd be honest with Sid and Lyra around. You can tell me what you really think about all this though... I'm demotivated enough as it is. What's your guess?"
+ERIC: "I never really thought about it. I was too caught up in the act of surviving."
+REBECCA: "That's one I haven't heard before. Max always thought it'd take forever but we'd be free, Kenneth thought escape was around the corner, and Sophie thought we're as good as dead."
+ERIC: "What do you think?"
+REBECCA: "Me? I guess I never really thought about it either."
+ERIC: "So you have everyone else's opinion, but nothing of your own?"
+REBECCA: "Looks that way. Everyone has their own take though. Everyone has their own means of coping. If everyone else is so interesting, I don't need to worry about those things myself."
+ERIC: "Well, you seem to know everyone's view then. Which one's right?"
+REBECCA: "Really, if I thought I could decide on my own I wouldn't bother asking everyone... Different question, then: in an ideal world, what would we all be doing in here, trapped with rescue days away?"
+ERIC: "That's... We're so far from an ideal world I can't say it matters. Reality is that we're in a staircase and everyone else is in the gym. That's the real world."
+She won't make eye contact.
+ERIC: "I guess you don't know what you'd be doing either? If we could do anything?"
+REBECCA: "Not really."
+ERIC: "Maybe we're similar in that way, then."
+A pause follows. Maybe small talk wouldn't be so bad after all.
+REBECCA: "You failed a class last year, right?"
+ERIC: "Yeah. I guess it's not a secret anymore. I'm not anywhere near the top of the class now."
+I laugh like it's a joke. It takes some weird circumstances to find that funny.
+REBECCA: "You don't seem too upset. Is that good or bad?"
+ERIC: "It used to be the worst thing. A couple days ago I just told myself that that was the way it was, and whether it was good or bad it didn't matter as long as I made the most of it. Somewhere along the way, my opinion changed. It was definitely a good thing."
+Where would I be if I hadn't given up that old attitude? Standing next to Felix, in some temporary alliance to gain control of the gym? Vying with Shibin for influence over Kenneth?
+REBECCA: "If it was a good thing, then why did you keep it a secret?"
+ERIC: "I wasn't prepared for everyone's reaction. My class always thought of me as a hardworking person, no misses, always perfect. I mean, that's all I was doing. That was me."
+REBECCA: "Maybe that's why I saw you as odd last year. You were always acting out what other people saw in you, not what you actually were."
+Is that an insight or a shot in the dark?"
+REBECCA: "Who's the real Eric Larsen then?"
+Does that question even have an answer?
+ERIC: "Then who is the real Rebecca Bell?"
+Another pause.
+REBECCA: "I don't know."
+ERIC: "Well I certainly don't either."
+[hold]
+
+We sit next to each other with the door between us for some time. There's not much to talk about after that. Something about that ending was just off. She must be thinking again. I hear her sigh from time to time, but never yawn. I doubt she would need me to stay awake.
+
+ERIC: "What's the time?"
+REBECCA: "I can't read my watch without at least a little light."
+ERIC: "It feels like we've been waiting more than an hour."
+REBECCA: "I'm not giving up on Max. He's probably just running late."
+ERIC: "I was only wondering."
+
+However, it grows increasingly clear as the minutes pass that the appointed time has come and gone. He's just running late. Rebecca's always said he pulls through. It's possible that he couldn't secure guard duty for tonight. In the worst case, of course, Shibin or someone figured out his plan and Max is tied up somewhere. In that case, wouldn't they exile him down here though? Or is something worse in store for him? I try not to be pessimistic, but it's hard. Then again, it must be even more difficult for Rebecca.
+
+[goto s0060]

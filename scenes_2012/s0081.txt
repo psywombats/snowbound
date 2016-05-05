@@ -1,0 +1,30 @@
+[s0081]
+
+The group of students set up around track slowly turns into a true circle. Most of us stick together; it's getting cold. What could Pete be up to if we have so little room to wander? Actually, there is a door that leads from the gym hallway to the outdoors without going through the pool or gymnasium. Maybe he made it outside.
+
+It's been two hours since we lost power, and there's still no sign of electricity or adults. Kenneth directs some other track team member to relieve the student guarding the door. He certainly runs a tight ship. No wonder the track team places high at meets... Kenneth looks to be thinking at the moment. Shibin's talking to him, anyway, and Cait insists on standing behind them. After a moment, he looks up. Shibin hands him a cell phone, and he holds it up to illuminate his face. I guess that's one use for phones even without cell service: flashlights.
+
+[enter KENNETH B]
+KENNETH: "Well, it doesn't look like we're going to be moving for a while, so we might as well be comfortable. We're going to rotate the laptops around so that we always have a light source. If you have a laptop, please place it over here by the supply boxes so we can figure out how much total battery life we have."
+[exit KENNETH]
+[enter CAIT D]
+STUDENT: "I'm not giving you anything. I'll set up my laptop when I like."
+CAIT: "Just hand it over. It won't buy you anything if no one can get a wireless signal. Plus, we might give it back tomorrow."
+STUDENT: "Are you kidding?"
+CAIT: "Do I look like it?"
+KENNETH: "Caitlyn's in charge of the light rotations. She carries my authority."
+STUDENT1: "Since when did you have authority?"
+[enter SHIBIN E]
+SHIBIN: "Who else has authority? There's no point bickering. It's only natural to have a leader. If you want, we can vote. Well? Who wants to challenge Kenneth?"
+No hands go up.
+SHIBIN: "Then it's unanimous. We'll listen to Ken for now."
+[exit SHIBIN]
+[enter CAIT B]
+CAIT: "Thanks for the laptop."
+[exit CAIT]
+KENNETH: "Oh, and we need one more person by the hall. The girl's swim team is currently stuck at the pool and they don't have a light source. If someone could keep watch, I'm sure it would do them a favor. Volunteers?"
+[hold]
+
+[choice]
+[Volunteer to guard :: s0003]
+[Stay with Max :: s0086]

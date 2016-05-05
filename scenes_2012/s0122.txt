@@ -1,0 +1,48 @@
+[s0122]
+
+[enter SID A]
+[enter ERIC D]
+SID: "Are you down there?"
+ERIC: "Yeah, right here. Keep moving. If you fall, I've got you."
+SID: "Good. Here I come!"
+[exit SID]
+[enter SID B]
+He lands heavily, but when he stands up and dusts off his hair, Sid is quite alright.
+SID: "So you made the deal, huh?"
+ERIC: "What, do you think I shouldn't have?"
+SID: "No, I think it's good for both of our parties. I'm just a little surprised that Felix proposed it.
+He squints up at Felix pacing on the catwalks.
+SID: "He never struck me as a team player."
+ERIC: "I don't really think he's being a team player now. If we were on the same team, he'd be asking to join up or something."
+[enter MARILYN A]
+MARILYN: "That's what I suggested."
+ERIC: "Huh?"
+[hold]
+
+There's someone else standing up on the catwalks from where Sid descended. It's that junior Marilyn that's always hanging around with Felix. I've talked to her a few times as we were both on the debate team last year, but I don't know her very well. I have no idea if Sid even knows her name.
+
+MARILYN: "I thought we should pool our supplies and move somewhere together."
+ERIC: "You mean both of our groups? Working together?"
+MARILYN: "It's not as naive as it sounds, really. The only reason we're separate right now is because we started out in different places. Eric, you know me and Felix just as much as you know Sid and Henry and the jazz ensemble."
+I hope I know Sid a little better than this girl talking to me now, but the rest of what she says is true.
+SID: "Who are you, again?"
+MARILYN: "Marilyn Sumner, junior and vice-captain of the debate team. How about you?"
+SID: "Sid Wallace. It's nice to meet you."
+MARILYN: "But you two should consider it. If I know you'd back me up, I could talk to Felix about it. Maybe he'd agree."
+ERIC: "Could you talk to Felix now? I'd rather not bring it up with Henry and the rest of the jazz ensemble if Felix would put his foot down in the first place."
+MARILYN: "I guess it's worth a try. Most of the time he just ignores me though..."
+
+Sid and I glance at each other as Marilyn crosses the catwalks back to Felix. On the other side of the stage, Henry's got the bundle of food almost down to the floor. One of the debate team members on the catwalks takes over control of the pulley from Felix as he talks with Marilyn. We can't hear their conversation, but Felix is flailing his arms around, and back when I was on the debate team, that was usually a sign that he was backpedalling. 
+
+[enter SID B]
+[enter ERIC D]
+SID: "Do you really want to team up with Felix? He'd probably insist that he be the one in charge."
+ERIC: "I'm not sure. It might increase our chances of survival, but if all Felix is after is our supplies, it'll just lead to more conflict."
+SID: "But we can't last in here for much longer with only water and a small shipment of granola bars. And if Felix runs out of water again and can't get in contact, what happens then?"
+We're both starting to see the scenario in terms of survival rather than comfort.
+ERIC: "You have a point. But I think I've made up my mind..."
+[hold]
+
+[choice]
+[Accept Marilyn's offer :: s0124]
+[Work alone :: s0123]

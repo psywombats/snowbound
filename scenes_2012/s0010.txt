@@ -1,0 +1,32 @@
+[s0010]
+
+REBECCA: "Let's try the south stairwell again."
+PETE: "Great. Maybe we'll find a way to get to another floor!"
+REBECCA: "I doubt it. It's like Max said: there are fire doors exactly like that on all the other floors. Once you enter the stairwell, the only place to go is out through the exit on the ground floor, and that's blocked off with snow."
+PETE: "Maybe the other doors are broken or something."
+REBECCA: "Maybe. Well, we have to try."
+
+We come up to the fire door. I suppose my job will be to make sure it doesn't shut while Pete does most of the actual scouting. If I told Pete to hold the door, I'd be worried he'd get bored and wander off and leave me trapped, so I'll take this job. Pete moves up to open the door. Maybe if we found a doorstop, we could...
+
+[enter ARYA C]
+ARYA: "Oh thank heavens you're back, I thought I was going to go insane because you're the first people I've seen in hours and oh I'm thirsty, did you bring anything to drink, please, and nice to meet you."
+...someone stumbles out of the stairwell.
+[enter PETE E]
+[enter REBECCA B]
+PETE: "Cool, look what I found."
+REBECCA: "Are you alright? What's your name? Come on, we'll get you back to the gymnasium."
+The girl pulls herself upright and follows after me.
+ARYA: "Arya Martin, I'm a senior, captain of the robotics team."
+REBECCA: "We have a robotics team?"
+ARYA: "Well er, it's just me, but it's a real team. That's why I was staying late in the workshop. And then the power went out, and so the lights went out, and so I had to make a flashlight out of wire in the dark, and then I almost trapped myself, and..."
+REBECCA: "What?"
+ARYA: "Sorry, being trapped down there was driving me insane. Long story short: I have no idea what's going on."
+REBECCA: "There's a blizzard out there, apparently. We're all trapped as well. But how'd you get up the stairs? Isn't there a fire door in the basement?"
+ARYA: "I was in the physics lab when I heard someone in the stairwell, so I ran as fast as I could, but I had to prop open the basement door so I didn't get trapped in the stairs, and I ended up not catching you the first time you were here."
+REBECCA: "Then that's what that pounding was... So the bottom floor is open?"
+ARYA: "That's a strange word to use, but yes. But tell me, what in the world is going on here? I guessed the power outage was just the snow, but..."
+REBECCA: "We don't have a very good idea either. The snow picked up, and now there doesn't seem to be a way to get out of the building."
+ARYA: "Right, the exit behind the stairwell was impassable. And it's so dark out. What's up?"
+REBECCA: "I told you everything I know. I'm sure Max has some theory but let's get you some food and water back at the gym."
+
+[goto s0111]

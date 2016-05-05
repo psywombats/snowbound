@@ -1,0 +1,109 @@
+[s0015]
+
+REBECCA: "Sure, if you promise to stop antagonizing Sophie."
+MAX: "Sorry Rebecca, sometimes I can hardly help myself, but I'll make an effort. Just for you, you hear?"
+REBECCA: "Thanks. Tonight we head for the basement."
+
+As we converse, Sophie enters the gymnasium followed closely by Cait. Sophie hesitates a second before coming over to join Max and me, but she comes all the same.
+
+[enter SOPHIE B]
+[enter REBECCA D]
+[enter MAX E]
+SOPHIE: "Hello, Rebecca."
+REBECCA: "Good to see you again, Sophie."
+MAX: "Good to see you again, Sophie."
+I elbow him.
+REBECCA: "Where were you?"
+SOPHIE: "Sitting by the pool. I guess I was the last person outside the gym."
+REBECCA: "The pool? Why?"
+SOPHIE: "I don't know. It's where I spent a lot of time before all of this so it feels natural to head there to think."
+I'm relieved when Max makes no comment.
+
+[enter KENNETH C]
+KENNETH: "All right, I just wanted to thank you all for returning to the gymnasium. I don't like walking over your rights, but it looks like we may have to spend another night here, and I'd prefer that no one gets hurt. So for our mutual benefit, let's stick together. On that note, Shibin wants to tally us up again."
+[enter SHIBIN B]
+SHIBIN: "Please stay where you are until I'm done counting."
+[exit KENNETH]
+Pete jumps up from his seat by the door to be counted, but I'm sure Shibin would be thorough enough to find him there.
+SHIBIN: "Alright, 24 students, same as yesterday. Good. Pete, go back to the door post. You're not done until halfway through the night."
+
+Shibin takes this opportunity to start handing out more canned pears. When we're all out of here, I swear I will never look at a pear the same way. Tonight isn't last night though. The laptop is out, and we're all gathered, but the atmosphere is noticeably different. What conversation there is now is anxious. Most people are starting to buy into Max's pessimistic estimation. The world beyond the glass is unchanged. Just how much longer can we be expected to endure this? What could be happening out there?
+
+[enter REBECCA B]
+[enter MAX D]
+REBECCA: "So, Max, what's your bet on when we're getting out of this mess?"
+MAX: "Never. Time has stopped and we're going be trapped here forever. Quite a bad situation. But the good news is that we'll never die now that time is stopped."
+SOPHIE: "I don't know why you joke about this."
+MAX: "What else is there to do?"
+SOPHIE: "You have a point, but it just doesn't feel right to me."
+MAX: "You're entitled to an opinion."
+Hm, I didn't hear any sarcasm. He must really be sucking up to me. I wonder what he wants to do in the basements...
+REBECCA: "Hey, do you know why Pete is on guard duty?"
+SOPHIE: "No idea. I thought he volunteered."
+MAX: "He volunteered for a reason. I don't know that reason, and if anyone did, wouldn't it be you, Rebecca? I thought you were an expert at that sort of thing."
+REBECCA: "No, I don't know him too well. That's why I wanted to know what motivated him to be the sentry. I think he's up to something though. I'm glad Cait's over here and he's over there though."
+MAX: "Everyone's always up to something in your mind, Rebecca. I'm glad that tonight you're going to take some initiative yourself for once instead of hypothesizing over everyone else."
+SOPHIE: "What do you intend to do?"
+REBECCA: "Nothing, Max is just rambling again. And you're always telling me that, Max, and I can never tell what it means."
+MAX: "It doesn't matter. Maybe that's just what you do."
+
+Our little group of three continues on into the night. When the laptop's battery dies, no one jumps up to replace it. There's no need to enforce an end to the conversations either. The frightened chatter has quieted down. I can't see anything now, but by Max's breathing next to me, I know he is sitting up and awake.
+
+[enter REBECCA B]
+[enter MAX D]
+REBECCA: "Hey Max."
+MAX: "Hey Rebecca."
+REBECCA: "Keep your voice down. I was asking you whether it's time to head out or not."
+MAX: "Oh, that... Hm. You're a big girl, you can stay up and wait a bit longer, right?"
+REBECCA: "We have to go before Pete's guard shift ends though. He'll be the easiest to get by, seeing as how he has no sense of responsibility whatsoever. Maybe he's already asleep."
+MAX: "Okay, but give it ten more minutes, okay? I just heard someone moving over there and it definitely sounded like they were walking around."
+REBECCA: "Got it."
+
+I keep my vigil, still sitting with my knees hugged up around me. I don't want to admit it, but I really am falling asleep. I'll try to help Max by keeping my ears open. All I hear is a faint rustling from the gym door. Pete must still be awake. Well, we weren't counting on him sleeping, but it would be more convenient that way.
+
+[enter MAX B]
+[enter REBECCA D]
+MAX: "Time to move."
+REBECCA: "I'm right behind you. Pete is still awake though. What's the plan?"
+MAX: "Sneak by him. If he notices, you talk to him."
+There's no need for that though. We make it into the gym hallway without noticing any signs of life from in front of the door.
+MAX: "To the basements, then."
+REBECCA: "Wait, one of us has to hold the door open, right?"
+MAX: "Way ahead of you."
+I hear him rummaging in the dark.
+MAX: "Oh right, you can't see. It's a wooden doorstop I grabbed from the locker rooms earlier today. Let's keep moving."
+We reach the opened fire door and pass through. But... Something's wrong.
+REBECCA: "Max, I hear something."
+I walk into the arm he's stretched out to halt me.
+MAX: "It's coming from in front of us."
+It's almost certainly a human voice. An angry human voice.
+REBECCA: "What now?"
+MAX: "Hurry up. I don't like this."
+
+We move at a faster pace now, down the main hall and to the entrance of the south stairwell. The sound continues at irregular intervals. We rush through the open fire door, and... Wait, shouldn't that be shut? Someone must have propped it open. The stairs slow us down. It's hard to be quiet and walk down stairs at the same time. When we reach the bottom of the flight, I distinctly hear a pained yell. Someone upstairs has to hear that. Max grabs my hand to prevent me from moving any farther. I hear him searching his pockets again, and then I can see the outline of another open fire door as he lights the way with the cell phone.
+
+Max and I enter the basement hallway. We move with caution with the light out front. Somewhere in front of us, a door slams. I take two steps in front of Max, almost trip over something, then slip and fall forwards.
+
+[enter MAX C]
+MAX: "Rebecca! Are you - "
+I sit up as Maximilian passes the flashlight over what I tripped over.
+[enter REBECCA D]
+REBECCA: "Pete!"
+
+He's lying face down, and I apparently slipped over blood pouring out from somewhere beneath him. Max isn't wasting time. I admire him so much for being able to keep his head at a time like this. I ceize up and let him work. Pete is breathing; I hope he can hold on. The blood is streaming from a gash in his shoulder area, where his arm meets the rest of his body. Pete's face is contorted but his eyes are open. I can't stop staring.
+
+[enter MAX B]
+[enter REBECCA D]
+MAX: "Rebecca, catch."
+He tosses me the phone.
+MAX: "Keep an eye out for whoever did this."
+I don't have to be told twice. Max rips off part of Pete's shirt and winds it around the injured shoulder. Pete gasps.
+PETE: "Ah, that..."
+MAX: "Sorry, but if you don't want to bleed to death, hold still."
+He continues wrapping the shirt around the wound.
+MAX: "Okay, Rebecca, someone needs to apply pressure to this, and we need someone from upstairs who knows legitimate first aid. Pete can't put pressure on the shoulder himself and I think he's about to pass out anyway. One of us should stay with him and the other should get help. It might be dangerous down here. What do you want to do?"
+[hold]
+
+[choice]
+[Stay here, have Max find help :: s0016]
+[Find help, have Max stay here :: s0117]

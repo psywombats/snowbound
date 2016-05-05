@@ -1,0 +1,7 @@
+[s0180]
+
+I can't hurt her. I just can't do it. I betrayed her back in the stairwell, but I'm not going to make the same mistake here. She's frightened and unarmed. I don't know what it might cost me, but I drop my spear.
+
+It feels like someone punched me in my back. It was such a forceful blow that my insides are rattling around inside me. Why do I feel so wet? Then I see something poking out of my chest. I only see it for a second as I fall to the ground, but for the few moments I manage to keep hold of my consciousness, it's my entire world. The only other sensation is pain. The pain is everything.
+
+[goto s0184]

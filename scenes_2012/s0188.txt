@@ -1,0 +1,116 @@
+[s0188]
+
+I spend all day waiting for my chance to free the hostages. Ever since last night, it's been nagging at me even more than my business with Felix. One seems to follow the other. If I don't commit at least this one act of rebellion, I could far too easily fall into his influence. There's a certain exhiliration here that I can't find elsewhere.
+
+[enter FELIX B]
+[enter ERIC D]
+FELIX: "Hm, you're still here, Eric."
+ERIC: "Did you think I'd run away?"
+FELIX: "No, but I couldn't be sure. It looks like everyone we tied up last night is still safe in their room, and you're still around in the afternoon. It looks like you're really on my side here."
+I'm immediately glad of my judgment last night.
+FELIX: "That brings me to my next point. It's time for me to give you your real job."
+ERIC: "I was wondering when you'd give me an assignment."
+FELIX: "I want you to be my operational commander."
+ERIC: "What?"
+FELIX: "I'm not a front-line man, Eric. I'm not an improviser like you. My strategies are always long term, and I want someone else leading the students when we make our final assault. That's why I recruited you."
+ERIC: "I'm flattered, but I really can't do that, Felix."
+It's true, for more reasons than one.
+FELIX: "Oh really?"
+ERIC: "Isn't Henry more qualified?"
+FELIX: "In theory, maybe, but I want him on the battering ram. I still don't fully trust Arya to do the job by herself. I was thinking you'd lead defense forces while Henry supervised the ram."
+ERIC: "Did you take back the ram?"
+FELIX: "No, and it's going to take us a bit of time to recover. It was a costly mistake. Splitting leadership between defense and ram should stop that problem if we have it again. We'll be prepared."
+ERIC: "And what if they successfully counterattack again?"
+FELIX: "I'm not following these hypotheticals, Eric. What's the problem?"
+ERIC: "What happens if we fail, Felix? If Max plays smart, he could keep us at bay for a very long time."
+FELIX: "Continue."
+ERIC: "Do you remember when you said that you'd change your course of action if you said you found a reason to survive?"
+FELIX: "I remember that promise, and I've kept it as well. I've found something to chase after, and I've found why our lives are more valuable than theirs. They are all wasting their lives down there, Eric."
+ERIC: "In what way?"
+FELIX: "They'll all die. It's such a huge waste. It's a giant tragedy, really. Why did such a large group end up with the food? What a cruel twist of fate. We have no choice but to take it by force."
+Felix's reasoning is sound, but his words are unusually cruel.
+FELIX: "And I've found someone who deserves to live, Eric. Even if she's the only survivor, I can die knowing that what I did was just."
+I can certainly think of someone like that, but that's an issue for another time.
+ERIC: "In that case, could you make another promise for me? If you agree, I'll supervise the defense forces for you."
+FELIX: "Request away, but I make no guarantees."
+ERIC: "If Max strikes some decisive victory and it becomes clear that no one on your side will survive, would you cut a deal with him? Would you surrender?"
+FELIX: "I can't envision such a situation happening. Why would Max humiliate me like that in my final moments?"
+ERIC: "Max considers himself a gentleman. What if the price of survival was your humiliation?"
+He sighs.
+FELIX: "I'd be a hypocrite if I didn't. Yes, I guarantee it. If that ever happens, I'll surrender to Max for our survival. It's only logical, but it feels so... beneath me."
+ERIC: "Thanks, Felix. That makes me feel a lot better."
+It's also a huge step down the road of reconciliation.
+FELIX: "I'll see who I can find to serve under you."
+ERIC: "Thanks. And I hope Marilyn recovers soon."
+FELIX: "Don't we all..."
+He wanders away.
+
+Actually, I think this could be it. We were the only two in the room, aside from Marilyn. She must be on guard duty, but she's fully asleep by this point. I check the hall, but there's no one in sight. Everyone's across the way in the classroom that Henry and Arya are using as a workshop. It's now or never.
+
+I turn the handle as quietly as I can manage, but the door to the hostages' office still squeaks as I open it. Inside, there is only one figure, a boy about my size with duct tape around his arms and legs and a desk drawer over his head. It must be Shibin.
+
+[enter ERIC B]
+[enter SID D]
+ERIC: "Sid? What are you doing here?"
+SID: "Wait, is that you, Eric? Where were you?"
+ERIC: "Where were you? I've been worried. I thought you must be still in the basements starving to death or something."
+SID: "No, nothing like that. I figured out what had happened almost as soon as Cait returned, but by that point, I was on this side of the school and the fire door was shut. I thought Felix had captured you."
+ERIC: "Well, your guess was close enough. He shut me in a stairwell."
+SID: "I waited until night to come up here. They didn't have any sort of guard system until then, so I just walked right in here and found the hostage room."
+ERIC: "Was there anyone in there?"
+SID: "Yeah. It was dark, so I thought it was you I was freeing, but whoever it was didn't respond when I tried to talk to them."
+ERIC: "It was probably Shibin."
+SID: "He gave me a real hassle then. Henry woke up on the way out, and he caught up with me when I was trying to escape down the hall. I've been here ever since."
+ERIC: "Are you okay? Have you had anything to eat?"
+SID: "I had the rest of Max's supplies. I hope you don't mind. I'm actually doing pretty well for being a hostage all day. But Eric, what are you doing up here? Does Felix know you're here?"
+ERIC: "I'm joining up with Felix in an attempt to convince him to surrender."
+SID: "That's a lost cause. Do you really think someone as proud as Felix would give up?"
+ERIC: "He's logical. Maybe we can use that against him."
+SID: "I'd be worried about yourself right now. If they find you in here, you're dead. You shouldn't untie me. They'll know you set me free."
+ERIC: "Would you rather I taped up your hands again?"
+SID: "On second thought, I'll take this chance to get out of here. No one really comes to check on me."
+ERIC: "Okay. Marilyn's asleep out there, but if you're quiet, I can at least get you to the hall. You're on your own from there."
+SID: "Got it."
+
+He executes perfectly. Sid vanishes through the open door to the hall and I sit back on one of the chairs on the sides of the room. Despite the cold, I'm still sweating. Any minute, I expect to hear Felix or Henry yelling about a prisoner escape. But nothing happens. Even after an hour, no one's come. Sid is free.
+
+I might as well kill some time before I meet with Rebecca. There are still plenty of daylight hours left, and we're not scheduled until midnight. The place to be right now seems to be the workshop.
+
+[enter ARYA B]
+[enter ERIC D]
+[enter HENRY A]
+ARYA: "Hey Eric!"
+ERIC: "Oh, hey Arya. How goes the new battering ram?"
+HENRY: "This one should be a lot better. We had to devise a lift system to get the tables up from the entrance hall to the second floor, but it was worth it."
+ARYA: "This one's made up of four tables. We fastened them together, and now all we have to do is add handles."
+HENRY: "We should be able to fit at least a dozen kids on this one, and it's twice as massive. Plus, now that we have handles, we should be able to reach almost two hits a minute."
+ERIC: "That sounds impressive."
+I have nothing to judge by, however. Whatever keeps them busy is fine by me.
+ARYA: "So I hear you're the new general, Eric."
+[enter FELIX E]
+FELIX: "Commander, to be specific."
+ERIC: "Yeah. I'll be leading the defense of the ram while you guys break the wall."
+FELIX: "I know the attack probably won't be until tomorrow evening, but I do want to go over some things with you all while we're all here. It might give you time to think out some strategy. Do you mind taking a break for a second?"
+HENRY: "Go for it."
+FELIX: "Our main goal is to force the surrender of the supplies, not necessarily to break through the wall. If we do penetrate into the gym, we'd probably take a few casualties trying to break through all those students."
+HENRY: "How are we supposed to get at the food if we can't even enter the gym?"
+FELIX: "We'll convince them to let us have it."
+HENRY: "They couldn't be dumb enough to give us their entire stock unless we use force, could they?"
+FELIX: "You forget the leader in the gymnasium. Kenneth Whitecastle is almost at breakdown by now. Once we start hammering at the wall and it becomes clear that there's no way out, he'll certainly surrender."
+ERIC: "What about Max?"
+FELIX: "That's where you come in, Eric. Max is bound to try some sort of counterattack. You need to be prepared for anything. Keep the ram safe, and keep them away from the biology office door."
+ERIC: "So I'm running a strictly defensive operation?"
+That would be comforting if Felix's plan does come to fruition.
+FELIX: "You need to capture or kill Maximilian Wolf."
+
+I can't keep track of the elaborate battle plans and strategies that follow, and it doesn't look like Henry and Arya are interested much either, as they return to work. It's not like there's anything else I can do, and I might as well ingratiate myself with Felix, so I humor him and throw in a few questions here and there. We end up coming up with a bunch of impractical theories that I know will never see the light of day, and I realize why Felix is much better in the back room than in the field.
+
+[enter ERIC B]
+[enter FELIX D]
+FELIX: "So keep those in mind, okay?"
+ERIC: "I've got it. I'm going to go back to the offices now; maybe I'll sleep a little. Or I might wander around and check out the classrooms. Don't be alarmed if I'm not there."
+FELIX: "Right. Wake up early tomorrow so we can armor up your students."
+
+When I exit the classroom, I turn the wrong way down the hall. I'm headed for the first floor and the catwalks. The first order of business is making sure I can open the door. Luckily enough, it's not locked, and there's no one around on this floor to see me. Now all I have to do is wait the hour or so until Rebecca arrives. It doesn't pass easily. After almost half an hour, I open the door.
+
+[goto s0189]

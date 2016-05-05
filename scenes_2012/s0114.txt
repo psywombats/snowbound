@@ -1,0 +1,29 @@
+[s0114]
+
+ERIC: "Marisa should be fine, I guess... If she needed anything, she'd come out."
+SID: "Were you saying something?"
+ERIC: "Just thinking about Marisa. Sorry, I'll stop muttering."
+SID: "That's fine."
+
+We sit on our table facing the windows to the fading gray outside, but every few minutes I can't help but glance over my shoulder. It's not that I feel Marisa's eyes on me, but if she makes an appearance, it wouldn't be good to miss it.
+
+[enter SID B]
+[enter ERIC D]
+SID: "What are you thinking about, Eric?"
+ERIC: "What? Oh, nothing. I was just uh, wondering how the students in the gym are doing."
+Actually, come to think of it, I wonder why I wasn't more concerned about Rebecca, Max, Lyra and the rest before.
+SID: "They should be fine."
+ERIC: "You think?"
+SID: "They have the supplies from the expedition closet, right? They'd outlast us for sure. It's not like a little hardship will drive everyone insane, so I'm sure they're cooperating, just like we are."
+ERIC: "Are we really cooperating, though?"
+SID: "Well, we're certainly not in some sort of every-man-for-himself nightmare scenario, that's for sure."
+ERIC: "True enough. But look at them."
+No one's fighting over the water or food, but no one's dividing anything up, either. Most of the students, like us, are splintered up into groups of two are three.
+SID: "I'm sure they're all talking to themselves about what a fragmented and dysfunctional lot everyone else is too. It's best not to think too much about it."
+ERIC: "You're right, of course. All we can do is wait until there's an opportunity to do something about this mess."
+
+What little sunlight was visible through the filter of the whirling snow dies off as the evening progresses. Henry shrinks to just a shadow walking back and forth against the glass. I stare up at the ceiling, now just as black as the rest of the hall.
+
+[branch NITEMARE > 0]
+[true :: UNIMPLEMENTED]
+[false :: s0047]

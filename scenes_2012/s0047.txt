@@ -1,0 +1,97 @@
+[s0047]
+
+[switchto REBECCA]
+
+I wait in line for Shibin's idea of dinner. It's a refreshing change of pace. Instead of canned peaches, we're all to eat canned corn, even less appetizing. By now, most of the other students are feeling uneasy. No one is criticizing Shibin for his previous stinginess. With every passing hour, it becomes stranger and stranger that no one has come for us yet. This school must have about thirty students inside it. How bad is it out there that we could all be ignored like this? Is the whole county snowed in? The whole state?
+
+Sophie and Max both seem to think not all is well out there, but they've composed themselves in very different manners. Sophie isn't talking much, which isn't unusual. Maybe that's the reason Max has decided to chat her up as much as possible. I don't know how much more of this I can take. Maybe I'll go see how Caitlyn's doing. She's talking to Kenneth at the moment.
+
+[enter KENNETH B]
+[enter SHIBIN D]
+[enter CAIT E]
+KENNETH: "I really don't know..."
+SHIBIN: "If it's feasible to keep everyone in one place, it would be prudent to do so."
+KENNETH: "I don't know if it's feasible or not, and I don't know how everyone would react to that."
+CAIT: "I can keep everyone in here. That's no problem. I'd like that."
+SHIBIN: "And I suggest you do that."
+KENNETH: "What right do I have? I'm not the formal leader here."
+SHIBIN: "Yes, yes you are our formal leader. No one objected, and no one will object."
+CAIT: "And who cares if you have the right to or not? Isn't it your responsibility?"
+KENNETH: "Fine. Cait, find everyone at the pool and main hall and bring them down here. Have Shibin find you a light. Shibin, you can set up the laptop now. It's getting too dark to see. Also, talk to the door guard, Cait. If we're bringing everyone in, the guards should be instructed not to let anyone out."
+[exit SHIBIN]
+[exit KENNETH]
+[exit CAIT]
+[enter CAIT D]
+[enter REBECCA B]
+Shibin walks over to the supplies and as Cait leaves Kenneth, she notices me.
+REBECCA: "What was that all about?"
+CAIT: "We're gathering everyone up in one place."
+REBECCA: "Well, I figured that much out, but any particular reason why?"
+CAIT: "They don't want anyone getting stuck in the stairwell or hurting themselves when they're separated from the group. It looks like they're both thinking long term now. Well, Shibin is always thinking long term. But I also think Shibin wants everyone in here so that there's no unauthorized exploration of the building."
+REBECCA: "To prevent something like what you pulled this morning?"
+CAIT: "Probably. Shibin wants to hold back on checking out the basements until tomorrow anyway."
+REBECCA: "Strange, I thought you'd object to that."
+CAIT: "But I'm the one enforcing that decision. And I have my reasons..."
+REBECCA: "Whatever you say."
+
+I don't like that smile. In the past, I've usually found it to mean she's about to do something that she hasn't fully thought through. Caitlyn's plans are always like that. She schemes and schemes and comes up with some elaborate plot, but always seems to miss the obvious things. 
+
+As she heads off to gather the students, I'm left standing in a corner of the gym. I can't see many other students until Shibin opens up the next laptop. Now I'm in the shadows, watching all the students starting to gather around the light. There are maybe half as many as last night, but more are trickling in through the open fire door. It looks like the student in charge of keeping it open is... Pete? Strange.
+
+[enter ARYA B]
+[enter REBECCA D]
+ARYA: "Hi, how's it going?"
+REBECCA: "You scared the hell out of me. Where'd you come from?"
+ARYA: "I've been back here the whole time. You just didn't notice."
+REBECCA: "Right. It's so dark in here already."
+ARYA: "This seems bright to me. That laptop especially. Down there in the basement, I didn't have any light for hours and hours."
+REBECCA: "Ouch. What did you do?"
+ARYA: "Oh, I found an LED and tried to get a flashlight together, but without light, it's a bit hard to find batteries. I did my best to break into the generator room to see what was wrong, but no such luck. I kicked the door a couple times, but when that didn't work."
+REBECCA: "You mean you might be able to fix the generator if we could open the door?"
+ARYA: "Maybe. I tried checking out the heating system, but without light it was useless."
+REBECCA: "Let me get this straight. You tried to repair all this stuff without knowing what on earth was going on up here, and with no light source, food, or water?"
+ARYA: "Well what else was I going to do? Sit there and mope? Don't be stupid."
+REBECCA: "Hm... So you're glad to be back above ground?"
+ARYA: "I might go back below and only come up for supplies every once in a while. This place doesn't seem to be very good at getting things done."
+REBECCA: "Really?"
+ARYA: "Well come on, it's been more than a few hours before I got out of the basement, and that Kenneth guy still can't make up his mind whether it's a good idea to go down there or not. Not to mention that stuffy junior keeps walking all over him. I don't know why, but I can't stand that kid."
+REBECCA: "Shibin, you mean?"
+ARYA: "Yeah, what's his deal? I appreciate his keeping track of everything around here, but what's wrong with letting everyone be? I'm civil enough to handle myself, thanks."
+REBECCA: "Did you heard they're trying to gather everyone up in here?"
+ARYA: "You're kidding me. Was it that kid's idea? Where'd he go? I'm going to go have a few words with him."
+REBECCA: "I can't see him. He might be in the halls, or else in one of the other corners where the light doesn't reach."
+ARYA: "I'll find him then. Anyway, I want to get some stuff out of the basement lab anyway. I'm useless without my tools."
+
+She marches off to confront Shibin. I hadn't talked much to her before today, but I decide I like her. It takes quite the strength of character to match Shibin. As Arya passes Pete, he waves at her. I guess he didn't get the message about not letting people out. Maybe I'll go talk to him.
+
+[enter REBECCA D]
+[enter PETE B]
+REBECCA: "You certainly are constructive. Freeing the swim team, rescuing Arya, and now guarding the door, huh?"
+PETE: "I know, isn't it the best? It's like everyone likes me now or something."
+REBECCA: "What do you think about everyone having to stay in the gym?"
+PETE: "Whatever. I'm the door guard, right?"
+REBECCA: "Supposedly. Who gave you that job, anyway?"
+PETE: "Oh, I just asked Kenneth. He seems to like me too."
+REBECCA: "Right... I wonder if Kenneth realizes his orders are only as effective as his sentry..."
+PETE: "I'm pretty sure that wasn't very flattering. Are you only here to complain about my door guarding skills? Well I guess I am better at opening them."
+REBECCA: "No, I was just curious."
+PETE: "You're always curious. Listen."
+Even in the dim light, I can tell something in his face has changed.
+PETE: "You think your curiosity's all fine and you just want to know people better and all that, but put it on hold for tonight. Keep out of my way. And don't talk to Caitlyn either. Like you said, she could be dangerous."
+
+I walk away. I don't know what to think of that development, but... I can't tell if Cait and Pete are sworn enemies now or if they're working together on some scheme. It might be both. I wish I understood Pete better, or I might be able to tell what he thinks he's doing. It's unnerving. Maybe I'll go find Max and Sophie and see if they've stopped bickering, but when I come to our usual spot, I only find Max.
+
+[enter MAX B]
+[enter REBECCA D]
+MAX: "Done with tonight's roundup?"
+REBECCA: "What's that supposed to mean?"
+MAX: "Confronted the usual suspects?"
+REBECCA: "I've dealt with you enough. Where did you chase Sophie off to?"
+MAX: "I don't know. She has to be in here though, or Pete will send her back anyway."
+REBECCA: "You heard about the orders to keep us in the gym, then?"
+MAX: "With that kid at the door, it would be trivial to sneak out, so I don't really mind. Hey, later tonight, do you feel like exploring the basements? I never gave Shibin my phone, and we're guaranteed that no one else will be out there. How's that sound?"
+[hold]
+
+[choice]
+[Explore with Max :: s0015]
+[Stay here and rest :: s0116]

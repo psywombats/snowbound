@@ -1,0 +1,46 @@
+[s0012]
+
+I need to retrieve Sid's phone as well. Now is a good a time as any. I take a water bottle and head into the auditorium.
+
+[enter ERIC A]
+ERIC: "Marisa?"
+MARISA: "Over here."
+I hear her voice from the area of the stage. I have no light to go by now, so I follow the stairs as best I can and jump onto the stage.
+[enter MARISA E]
+MARISA: "This way."
+[exit ERIC]
+[enter ERIC B]
+ERIC: "I brought water."
+MARISA: "I don't need it."
+ERIC: "Keep it here. You'll need water eventually."
+MARISA: "I won't need it."
+ERIC: "I'm leaving it here anyway. Also, Sid wants his phone back."
+MARISA: "Is that the only reason you came back?"
+I'm not sure myself.
+MARISA: "It doesn't matter."
+ERIC: "Okay."
+MARISA: "Hm..."
+ERIC: "What's on your mind?"
+MARISA: "It's nothing, really."
+ERIC: "I know you want me to ask you about it."
+MARISA: "No, it's really not important, but I'll say it anyway. I keep wondering what I would've done if the blizzard hadn't come."
+ERIC: "Done about what?"
+MARISA: "Life, in general. Isn't everything easier this way? Everything is so much clearer in here."
+ERIC: "I think I understand."
+I have no idea what she's talking about.
+MARISA: "You probably have no idea what I'm talking about. But I wanted to talk to you one last time so that maybe something would change. Without the snow, I'm not sure you would sit in one place long enough. But we're trapped here."
+ERIC: "I'll talk with you then. My time isn't very important any more and this feels like a bad dream anyway."
+MARISA: "I feel the same. But, that's not really what's on my mind..."
+She sighs. I forgot she could be attractive.
+MARISA: "Why do you hate me?"
+ERIC: "W-What? What kind of a question is that? It's pretty strong to say that I hate someone, and if it were true that I hated you, wouldn't the reason be obvious?"
+MARISA: "No, it's the other way around. It's obvious that you hate me, and to me, it's not clear why."
+ERIC: "You don't remember?"
+MARISA: "Then tell me why."
+I can't see her face in the dark, but it's clear that she's serious.
+[hold]
+
+[choice]
+[You used me. :: s0013]
+[I thought it was real. :: s0044]
+[You could stand to lose a few pounds :: s0045]

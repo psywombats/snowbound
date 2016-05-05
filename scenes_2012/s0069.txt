@@ -1,0 +1,148 @@
+[s0069]
+
+[date]
+Tuesday, November 22nd: Day 12
+
+[enter FELIX B]
+[enter MARILYN C]
+[enter SOPHIE D]
+FELIX: "Will she be alright? What will it take?"
+SOPHIE: "I can't tell. Her fever's even higher than Lyra's was."
+MARILYN: "Please... find someone else to worry about."
+FELIX: "I wouldn't dream of it."
+
+I sit next to Sophie in the gym. She and Lyra are caring for Marilyn, who sits before us, wrapped in a curtain. Today began with her arrival, and none of us have any idea where we'll all stand when the day ends. I leave Sophie to console Felix and resume my hunt for a certain fickle character...
+
+[enter REBECCA B]
+[enter MAX D]
+REBECCA: "Max?"
+His arm is wrapped to his body in a duct tape sling.
+MAX: "I'm not talking to you."
+REBECCA: "Look, I'll apologize again for what - "
+MAX: "Ah, you don't have to apologize. Things aren't looking so bad around here. But I'm still not talking to you."
+REBECCA: "You're just doing that to irritate me, aren't you?"
+MAX: "Maybe, maybe not. Maybe you have more important things to deal with."
+REBECCA: "So do you. Didn't you want to talk to Felix about terms or something? Shibin seemed pretty worked up about that last night."
+MAX: "Kenneth and I talked to Shibin about it, and we decided it wasn't so important. Now that Marilyn's here, I think we're all safe."
+REBECCA: "You liar. You're talking to me already."
+MAX: "Whoops. I'll go back to avoiding you. See you later."
+REBECCA: "Have fun with that."
+
+Kenneth's voice is audible above the rest of the gymnasium activity. Apparently, there's to be a conference in an hour for anyone who's interested on what to do next. With Shibin back, he seems to be running a little more normally.
+
+[enter SOPHIE B]
+[enter REBECCA D]
+SOPHIE: "There you are. I've been looking for you."
+REBECCA: "Hello, Sophie."
+SOPHIE: "Hi. Are you headed to that conference?"
+REBECCA: "Probably. I'd like to have a say in what's going to happen to all of us."
+SOPHIE: "I figured. Though it looks like you've influenced the present course of action a fair amount already. I admire that."
+REBECCA: "It could've just as easily been you, you know."
+SOPHIE: "Maybe. I'll stick to where I'm comfortable though."
+[enter LYRA A]
+LYRA: "She made a difference."
+REBECCA: "Lyra? Where'd you come from?"
+LYRA: "I'm always around."
+SOPHIE: "As long as I helped someone, I'm happy."
+REBECCA: "Hm... Maybe you're right. I can see your perspective, but..."
+
+I return to pacing the gymnasium. Seeing so many people here is a new experience. Even in the dim light, there's much more activity than I would have anticipated. I spot Shibin sulking by the box supplies pile with Felix, but neither talk to each other. Are they both guarding the food from each other? The stacks of sleeping bags are now depleted after last night's new arrivals. To my surprise, there's only one person standing by the fire door to the gym hall. Is that Sid Wallace?
+
+[enter REBECCA D]
+[enter SID B]
+REBECCA: "Hey. It's been a while, hasn't it?"
+SID: "Hello Rebecca. I don't think it's been a long time at all. Being trapped in those basements seems like yesterday."
+REBECCA: "What are you doing here?"
+SID: "Just noticing who passes in and out."
+REBECCA: "Watching for anything special?"
+SID: "I'm not sure. I've just noted that no one is actually leaving. As far as I know, all students are in this very room."
+REBECCA: "There isn't much reason to leave."
+SID: "Maybe not. Though I could understand someone wanting to leave if they disagreed with the current leadership, but seeing as how we have all the supplies in this room, that wouldn't be such a wise decision."
+REBECCA: "Do we really have any leadership now?"
+SID: "Everyone seems to listen to Kenneth."
+REBECCA: "Everyone always seems to be listening to Kenneth, but no one ever really follows his orders, do they?"
+SID: "From what I've seen, everyone follows his orders."
+REBECCA: "It's just that someone always suggests those orders to him..."
+SID: "I wonder who suggested the conference, then."
+[enter ERIC E]
+ERIC: "That would be Henry and Arya's doing."
+REBECCA: "Oh, are you watching the lack of traffic too, Eric?"
+ERIC: "No. I saw you and Sid over here and thought I'd say hello."
+SID: "Henry and Arya again? What are they up to?"
+ERIC: "Nothing, I think. They just want another chance to make a plan. You remember how Henry was."
+REBECCA: "And Arya put together that awful barricade."
+SID: "Seeing as how you two are the chief culprits behind all this, are you sitting in on the conference?"
+ERIC: "In our defense, we really didn't envision it turning out quite like this."
+REBECCA: "Maybe everything falling apart was just what we needed."
+[enter KENNETH A]
+KENNETH: "We're going to get started. Is that everyone?"
+
+We all move over to the set of ten or so seated students around where Kenneth is standing. When most people have settled down, we begin in earnest.
+
+[enter KENNETH B]
+KENNETH: "I've talked with Felix Salazar, and he'll be starting us off."
+[exit KENNETH]
+[enter FELIX C]
+FELIX: "Ah, hello. Those of you who originally occupied the gym: thanks for not attacking me on sight. And to those of you that followed me, I'm sorry to let you down, but here we are. I've surrendered."
+[enter MAX E]
+MAX: "No one cares about that. Get to the point."
+[exit MAX]
+Max interrupts, sure as ever.
+FELIX: "Fine. Basically, we need to plan a course of action."
+[enter HENRY A]
+[enter ARYA E]
+HENRY: "And just as a note: staying here until rescue arrives does not count as action."
+ARYA: "If anyone were coming for us, they'd be here by now. We're on our own."
+No one challenges that reasoning now.
+FELIX: "The only issue is that we don't have any options. As far as I know, we have no escape and no means of escape. For those that weren't aware, this school is encased in ice, and even shattering the windows does not open an escape route."
+HENRY: "We could always try chipping away at the ice. It would be slow going, though."
+ARYA: "How long are we going to last? It might be feasible."
+[enter SHIBIN B]
+SHIBIN: "With all of us here, I'd say we have a month. And that would be with strict rationing."
+[exit SHIBIN]
+ARYA: "How much could we chip in a month? Enough to reach the surface?"
+HENRY: "How do we even know where the surface is?"
+[enter PETE D]
+PETE: "Excuse me, but I have an announcement."
+ARYA: "Oh really?"
+PETE: "I got that exit door open."
+[enter MAX B]
+MAX: "What?"
+A few students jump to their feet.
+PETE: "Settle down, will you? It only opened an inch and some snow fell in."
+He gestures towards the exit door that we tried that first day.
+FELIX: "Are you saying... It's melted out there?"
+MAX: "Could we resist the urge to all run to the door and think this through for a minute?"
+ARYA: "This makes the ice chipping plan feasible. We only have to dig our way out."
+HENRY: "We could start from the top floor, then."
+ARYA: "Better yet, the roof. There has to be a stairway around here with roof access."
+HENRY: "There's a stairwell in the sciences hall on the second floor that leads up to the roof."
+MAX: "That's a fire door that's been closed since the beginning."
+FELIX: "It's the same floor plan as the first floor. Pete can pick the lock from the second floor staff lounge over to the sciences offices."
+PETE: "I'm on it."
+[exit PETE]
+MAX: "Hey, get back here!"
+ARYA: "Stopping that guy is a lost cause. Let him be."
+[exit FELIX]
+[enter FELIX D]
+FELIX: "Continuing, we seem to have some sort of plan. We tunnel through to the surface."
+MAX: "You're not solving the main problem. What's going on out there? Where will we go?"
+FELIX: "Does that matter? We can't plan. We haven't been able to plan from the beginning. That's why we're here in the first place."
+MAX: "Fine. Then what do you propose? Do we send a scouting party? Do we all leave for whatever's out there?"
+FELIX: "Well, it depends what's out there doesn't it?"
+MAX: "You just said we can't plan."
+FELIX: "The least we can do is clear a tunnel to the top. Are we at least agreed on that?"
+MAX: "Sure. But in the mean time, we need to work out what there is to do."
+
+They continue to bicker about the possibilities of escape and potential scouting sizes and allotted supplies and the like. That fragile peace that once existed seems to be slipping away. It's easy to see now that a day ago, these two were plotting the surest strategies for starving the other to death. 
+
+[enter ERIC B]
+[enter REBECCA D]
+ERIC: "What do you say we go somewhere else?"
+REBECCA: "Rather than watch these two bicker? What else is there to do?"
+ERIC: "We could always check on Pete."
+[hold]
+
+[choice]
+[See how Pete's doing :: s0033]
+[Stay here and endure it :: s0190]

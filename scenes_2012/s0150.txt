@@ -1,0 +1,131 @@
+[s0150]
+
+[switchto ERIC]
+
+I can't believe my eyes. High up on the catwalks, Cait has Rebecca at the end of her knife. After a brief struggle above and some shouts from below, Cait is standing behind Rebecca and almost forcing her off the catwalks. The blade never leaves her throat.
+
+[enter CAIT E]
+CAIT: "You heard me! Bring me the bottles before I lose my patience!"
+Sid grabs me by the shoulder.
+[enter SID A]
+[enter ERIC B]
+SID: "What the hell is happening?"
+ERIC: "Cait's completely lost it. We need to do something before there's another death in here."
+[enter HENRY C]
+HENRY: "Don't move a finger, you coward!"
+Our conference is broken by Henry's yell.
+HENRY: "We'll have an answer for you, don't you worry."
+[exit CAIT]
+He turns back to join us. For a minute, I thought he would goad her into slitting Rebecca's throat.
+ERIC: "Henry! What happened up there? How did they get in?"
+HENRY: "I came in and they were up there shouting, and you've seen the rest. I don't know what's going on out there, and I don't know what we're supposed to do here."
+SID: "If we give away those water bottles, we'll die of thirst within three days. Even with no food, we might be able to last a month."
+HENRY: "Then to surrender is to die."
+ERIC: "Well, unless rescue shows up, we'll die anyway."
+HENRY: "Get real, Eric. That's not going to happen. We need that water!"
+SID: "And you're going to let Rebecca Bell die to keep it?"
+HENRY: "Oh come on, like some girl would kill another in cold blood. And we're all watching."
+ERIC: "I don't know, Henry. Rebecca was always telling me to watch out for Cait."
+HENRY: "There's no way I'm giving up the only resource we have left. It's not happening, Eric, no matter what sacrifice we have to make."
+ERIC: "We can't let Rebecca die."
+HENRY: "Fine then. I know just what to do."
+He snarls with the last word.
+
+A few of the students cry out as Henry pushes past them. Where is he going? Up on the catwalks, Cait keeps up a steady rumbling of incomprehensible threats directed at no one in particular. Rebecca remains completely expressionless. I stare up to try and meet her eyes, but without warning, there's a huge banging crash and the catwalks kick upwards.
+
+[enter HENRY C]
+HENRY: "There's more where that came from!"
+[exit HENRY]
+By the light of the cell phone on the floor of the catwalks, I catch sight of one of the stage counterweights flying through the air.
+[enter CAIT C]
+CAIT: "What do you think you're doing?"
+
+Cait is screaming now. I would be too. Henry's second shot was a miss, but the next weight smashes into the steel mesh directly below the phone. The entire hanging frame of the catwalks bucks as the crash echoes around the auditorium. But Rebecca still isn't free from Cait's grasp. The knife hasn't moved, even if Cait's started screaming and spinning.
+
+The next brick of metal slams into one of the support arms. But instead of bouncing off, the block deflects off at an angle and ricochets into the floor. I can only catch a quick look at the twenty degree bend in the support beam, because in the next instant, the metal platform is slanted, then vertical, then falling. The catwalks have collapsed.
+
+It takes a few minutes for the screams of the students to die down. The only light is the phone shining out from a pile of bent metal. On instinct, I rush towards the steel skeleton.
+
+[enter ERIC B]
+ERIC: "Rebecca! Rebecca, are you in there?"
+[enter HENRY A]
+HENRY: "Eric, look out!"
+I turn to face his shout only to see the gaunt face of Cait. One of her arms hangs loose and shattered, but the other is gripping that knife and swinging in my direction.
+[enter CAIT E]
+CAIT: "You'll pay for this! You'll see! I want to live!"
+
+I duck once and then roll to escape her pounce. In under a second, I'm back on my feet, looking for the next attack, but it never comes. When my eyes find Caitlyn's face, she's frozen. Her eyes are empty and her mouth is frozen. Then she sways and bows and her damaged body meets the floor. Behind her is Henry, a bloody weight in his hand.
+
+[enter ERIC B]
+[enter HENRY D]
+ERIC: "Christ, Henry. You knocked her skull in."
+HENRY: "I don't give a damn about her."
+ERIC: "Where's Rebecca?"
+[enter SID A]
+SID: "Eric, over here."
+Sid calls out to me, but his voice is shaking.
+[exit SID]
+[enter REBECCA A]
+REBECCA: "Hey, Eric."
+
+Sid, Henry and I are the only ones around Rebecca at the moment, but more gather as we sit with her. Rebecca is caught under the mesh that made up the bottom of the catwalk platform. I kneel down, less than a foot from her face.
+
+[enter REBECCA B]
+[enter ERIC D]
+ERIC: "Rebecca! You're going to be fine, okay? We'll push this mess off of you and get you out of this. Hold still for a minute. Henry, get over here, we need help!"
+[enter SID E]
+SID: "Eric."
+ERIC: "What?"
+
+He's gesturing towards the ground where Rebecca is pressed to the floor. The light from the phone is buried far enough under the metal that it isn't very clear, but nevertheless, I can tell that the stage is wet. It's a puddle almost two feet in diameter. And... sticky to the touch.
+
+I put my hand to her neck, but what I feel could almost make me cry. She's bleeding, badly. I press my hand to the wound, but it's a long cut. I can't cover it all. 
+
+[enter REBECCA B]
+[enter ERIC D]
+[enter HENRY E]
+ERIC: "Sid, Sid, her throat's got a huge gash. Get a bandage, or get me something, just, just..."
+I can't keep up with myself. My mouth won't work. With every little breath, the blood squeezing between my fingers grows more and more.
+HENRY: "Here, take my shirt. Is she going be alright?"
+In my scramble to wrap the fabric around her neck, I meet her eyes.
+REBECCA: "Sorry, Eric."
+
+It's too much. There's nothing I can do but hold her and watch her bleed. Henry and Sid look on in silence. When at last the flow dwindles to a weak drip, I know her pulse is gone. I stand up, but my pants are soaked red. I try to hand Henry back his shirt, but it's saturated. I look at Rebecca one last time, and then I fall backwards, backwards, and keep on falling.
+
+[date]
+Tuesday, November 15th: Day 5
+
+I find it very difficult to get up in the morning. This time it isn't the cold that keeps me back but that ache in the corners of my mind. I stare at the unlit fluorescent lights at the top of the entrance hall for as long as I can before Sid blocks my line of sight.
+
+[enter SID B]
+[enter ERIC D]
+SID: "Hi Eric."
+We pauses for a second when I don't respond.
+SID: "Are you alright?"
+ERIC: "I give up, Sid. Let it end now."
+SID: "Can you sit up?"
+ERIC: "Fine. I'm only doing it for you, though."
+SID: "That's okay. We need to figure out what to do."
+ERIC: "There isn't anything left to do, Sid."
+SID: "Eric, can you please talk to me? I'm a few minutes from throwing in the towel as well. Just humor me for a few minutes, please."
+ERIC: "What do you need?"
+SID: "Henry's trying to decide if we do anything about the auditorium."
+ERIC: "It's cursed, Sid. We're all going to die in that room, one by one."
+SID: "He thinks maybe we could prop up the catwalks and make a ladder or something, and then we could get out to the second floor, or..."
+ERIC: "Rebecca's giant blood puddle makes a good backdrop for that sort of thing, doesn't it?"
+Sid pauses to consider it for a moment then kneels down on the floor next to me. 
+SID: "Thanks, Eric."
+ERIC: "Sorry."
+SID: "No, I mean it. You've been holding up well, but this is too unfair. I'm with you on this one. We can't do anything anymore. I'm done. This is it."
+He wanders off to the side.
+SID: "Marisa was one thing, Rebecca was another. I'm going back to the stage."
+ERIC: "What?"
+SID: "I could watch the rest of them die, but I don't want to watch you do the same, Eric. I always thought you'd be the last person to change."
+
+I don't know how long I've been lying here, or how long I'll continue to do so. Henry comes over once or twice, but at this point everything's moving by so slowly that time doesn't move like normal. I know there was a nighttime in there, and another morning, but nothing changes from one hour to the next to judge the difference. Sid's gone. Henry doesn't come back. The rest of the kids crystallize into one static pose.
+
+When the hours drag on into one interminable scene, I stop seeing Rebecca's face, and I can't see Marisa's any more either. Nor can I see Sid next to me, but that doesn't seem to matter. I can only see this gray haze in front of me. It must be the cold. It's always the cold in the end, isn't it?
+
+One more day, and that gray haze is a dark fog. Maybe somewhere out there I can find my peace.
+
+[end BAD_2]

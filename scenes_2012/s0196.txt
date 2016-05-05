@@ -1,0 +1,49 @@
+[s0196]
+
+My hands follow the railings as I walk down the raised platform. She must not be here yet. I knew I was early. I stop in the middle. Marisa must be directly below me. Some morbid part of me wants to switch on the light, but the mere thought of seeing her again horrifies me. Possibly someone moved her away when they were passing back and forth, but they would need to climb down to the lower level first, and I don't think anyone would go to those lengths to move a corpse. At least the cold will prevent her from rotting down there. That would be terrifying. I try to drag my mind away from those thoughts when the door on the other side of the room opens.
+
+[enter ERIC B]
+[enter REBECCA D]
+ERIC: "Rebecca?"
+REBECCA: "Eric, you're safe."
+ERIC: "It's good to hear your voice."
+I hear her footsteps echo down the catwalk and we embrace at the center of the stage.
+ERIC: "Everything's well in the gym?"
+REBECCA: "Better than I expected. You want me to report first?"
+ERIC: "Why not?"
+REBECCA: "It looks like Kenneth is completely unhinged. He didn't recognize me and he thought Max was Shibin. Something's not right with him."
+ERIC: "That's not good. So Max is really in charge, then."
+REBECCA: "He's the boss, and he's very paranoid."
+ERIC: "He should be. Felix is closing in."
+REBECCA: "I couldn't convince Max to compromise. Even if Felix surrenders, Max won't accept it."
+ERIC: "I don't think Felix is going to be surrendering any time soon, and if Felix wins control of the gym, it's all over."
+REBECCA: "What can we do, then? I have a few ideas, but..."
+ERIC: "I opened the basement fire door to the south stairwell. If Max wanted to, I think he could trap Felix's crew in the staff lounge. But the way Arya and Henry are scheming, they'll have taken this place by tomorrow night."
+REBECCA: "We need to work out some sort of draw. Right now, things are really volatile and it could go either way. I think I know some way we can have the gymnasium group at least listen to us, but..."
+ERIC: "What were you planning?"
+REBECCA: "You act as if you've completely joined Felix's cause, and then you capture me."
+ERIC: "Capture you?"
+REBECCA: "You take me hostage. You say that you'll trade me for Max. He'll take it. He wouldn't be able to resist."
+ERIC: "Then what?"
+REBECCA: "Kenneth is left to lead the gym. We could easily press him into accepting some sort of bargain. That kid is unstable."
+ERIC: "Okay, but once Felix has Max, the gym students stand no chance against Felix and Henry and Arya."
+REBECCA: "Right. That's why it won't work. I'm sorry, but it's all I've got."
+ERIC: "What if we matched our plans together?"
+REBECCA: "You mean we trap Felix just as Max surrenders? How does that work?"
+ERIC: "Henry and Arya are planning the attack for tomorrow night. We stop them right here, on the catwalks. I'll pretend to be on their side and I'll barter with Max then and there. However, most of the gym students have already circled around and trapped Felix's group on the catwalks. Felix told me he'll surrender if the situation is hopeless. Trapped in the auditorium is exactly that: hopeless."
+REBECCA: "It could work... So we tell Max that the plan is for him to lead a small segment of students to the front and the rest circle around? And then you 'capture' me and hold him up at the front?"
+ERIC: "Right, and it holds up Felix as well. Then, once Max is out of the way, Kenneth will accept Felix's surrender."
+REBECCA: "It sounds ridiculous, but it's the closest thing to plan we have, so we have to try."
+ERIC: "If we screw it up, the balance of power will swing wildly in one direction. One side will crush the other."
+REBECCA: "That'll happen no matter what we do. This position can't last forever."
+ERIC: "Right... Then we both know what to do?"
+REBECCA: "I think. What time do you think Felix will try to attack?"
+ERIC: "I can convince him to choose midnight. That's a time that we can both find."
+REBECCA: "It looks like it. Okay, I'll be right here when you come with Felix's crew, then you step forward and take me hostage."
+ERIC: "I can explain my half of the plot to Felix. Of course, without letting him know he's being pincered."
+REBECCA: "Right, he'll see the logic in disposing of Max."
+ERIC: "Well... I should report back to Felix on the scouting."
+REBECCA: "Good luck. Until tomorrow, then."
+ERIC: "And the day after, hopefully we'll be able to stay together."
+
+[goto s0067]

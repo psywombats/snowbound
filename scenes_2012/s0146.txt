@@ -1,0 +1,83 @@
+[s0146]
+
+Cait takes a few more steps down the hall. She halts and turns left, and it's then that I notice what's in front of her. It's the door to the catwalks. Before I've caught up with her, she's at the handle.
+
+[enter CAIT B]
+[enter REBECCA D]
+CAIT: "Lucky, it's unlocked."
+REBECCA: "That's weird."
+
+I try to puzzle out how it could've happened while Cait gazes into the blackness beyond the door. Either some mystery person on this side of the school found a key, or else Pete made it through to the catwalks and then picked a second lock. If we go all the way across the catwalks and through the door on the other side, we'll be back in the gym. This could be the miracle I needed.
+
+We enter the catwalks one after the other. The steel mesh groans beneath my feet. I wonder how many people this structure could support before collapsing onto the stage below. All I can do is grip the guardrail as I follow Cait. We just need to know  whether that door on the other side is locked.
+
+[enter CAIT B]
+[enter REBECCA D]
+CAIT: "Damn them."
+REBECCA: "No luck?"
+CAIT: "None. It's locked. We're still trapped here, Rebecca. At least we know there's someone out here. Someone's lived long enough to smash all the windows in that hall, so now all we have to do is catch them."
+REBECCA: "Wait, before we go back to the gym, shouldn't we check what happened to the jazz ensemble?"
+CAIT: "Eric and Sid and the rest? Fine. I thought this place was abandoned after they killed Marisa."
+REBECCA: "That's true. I wonder where they went."
+CAIT: "Maybe they're just asleep."
+She puts both her hands on the guard rail and faces out towards the seats.
+CAIT: "Hey! Wake up! We're in the auditorium!"
+
+For a minute, there's nothing to be heard. Her voice is so weak it probably couldn't rouse anyone anyway. I'm at the verge of giving up hope when the faintest of voices reaches my ears. In another second, there's a large thunk from the top back of the seats. The auditorium door is open.
+
+[enter HENRY C]
+HENRY: "Who's there?"
+[exit HENRY]
+[enter CAIT B]
+[enter REBECCA D]
+CAIT: "Up on the catwalks! It's me, Caitlyn Baquiran!"
+HENRY: "Finally!"
+CAIT: "Wake everyone up. Get them in here."
+I hear his a few thunks as Henry runs back up the stairs to the entrance hall.
+HENRY: "Everyone, wake up! We're saved! Rescue's here!"
+I hate myself. His voice gains so much strength it's painful to hear. There's only going to be disappointment now.
+
+More and more footfalls echo from the path to the entrance. A few of the jazz members are jabbering with themselves, but Cait says nothing. I have no idea what her plan is, so I stay quiet as well. Until I figure out what she intends to do, I need to be in a position to stop it. Her mood's changed wildly in the past hour and I don't know if this could turn violent. It would be hard for her to hurt them from up on the catwalks, but if anyone could figure out a way to do it, it'd be her.
+
+[enter SID C]
+SID: "Hello?"
+This voice is accompanied by a light. There's Sid Wallace, walking down the stairs, holding a cell phone aloft. He reaches the foot of the stage.
+[exit SID]
+[enter CAIT C]
+CAIT: "You! With the phone! Come up underneath me!"
+SID: "Is that Caitlyn? Jesus am I glad someone showed up. We're going insane in here."
+CAIT: "Toss me up the phone so I can make an announcement."
+SID: "I can try."
+
+It takes a few attempts to deliver the phone up to the catwalks. On the first try, it arcs, hangs for a second, and then plummets back to the stage. In the rush of light, I catch the eyes of one more student I know. It's Eric Larsen. The glimpse of his face tells me enough. There's no way these people have been eating well; he looks awful.
+
+[enter CAIT D]
+CAIT: "There!"
+Cait has one whole half of her body off the support structure to catch the phone. Would a fall from this height be enough to kill?
+CAIT: "Now then..."
+She holds the light to her face like she's telling a ghost story.
+CAIT: "What do you all have for food?"
+[enter HENRY B]
+[enter SID A]
+HENRY: "What? We have hardly anything. We went through the last of the chips today and after that, we're empty. We'll only have the water bottles left."
+CAIT: "Water bottles? How many?"
+HENRY: "Two boxes, so at least a couple dozen. No one wants to count."
+CAIT: "Is that it?"
+HENRY: "We've had it rough, I know, but that makes rescue all the more sweet. What do they have in the gym?"
+[enter REBECCA E]
+REBECCA: "We're not from the gym."
+CAIT: "Shut up and let me handle this, Rebecca."
+[exit REBECCA]
+She moves to my left, putting herself between me and the open door to the biology hallway.
+CAIT: "But she's right. None of us here have seen the gym in days. I'm at the end of my rope, people, but I'm never giving up. Bring in the water bottles and leave them at the middle of the stage."
+SID: "The hell are you talking about? What're you even trying to do?"
+CAIT: "I'm taking the water bottles. It sounds like you're all going to starve to death in here, so I'll take that water from you before you waste it. Don't make me ask again."
+HENRY: "You can't be serious."
+SID: "Sorry, but we can't just give them to you. If you have food to trade, maybe we can cut a deal, but - "
+CAIT: "I'm not cutting a deal here! This is a threat, people! Are you dense?"
+She's almost screaming now.
+SID: "Then what're you going to do when we refuse?"
+I hear the cell phone hit the floor before I feel Cait's hand on the back of my neck. I try to gather my senses to at least try to react, but it's too late. Her other hand is jabbing the point of the shattered butterfly knife into my neck.
+CAIT: "If you refuse, then Rebecca Bell dies!"
+
+[goto s0150]

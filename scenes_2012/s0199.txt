@@ -1,0 +1,61 @@
+[s0199]
+
+REBECCA: "Are you out of your mind? You just gave me two hours' notice to join a defunct and dysfunctional team, then demand that I give you an answer in two seconds flat?"
+ERIC: "I'm sorry, it only occurred to me the day before, and with the deadline..."
+MAX: "You should probably leave."
+ERIC: "Yeah."
+REBECCA: "Where'd you come from?"
+MAX: "I was watching. When did you grow a spine? You totally put that kid in his place. How dare he try to recruit you for that team you were on last year! You're moving up in this world, Rebecca."
+REBECCA: "I can't tell if you approve or not. Stop mixing your sarcasm in with your praise."
+MAX: "Well, I'm sure Eric's just going to wheedle credit out of the good ol' fencing team, so I probably would've done the same thing. We need less captains like him."
+REBECCA: "I don't know. He's a pretty cut and dry ultra-student, but something's wrong."
+MAX: "What's the scoop, then? Your psychoanalysis is requested."
+REBECCA: "If you actually want to hear what I think, then shut up."
+MAX: "Fine, fine."
+I stop to catch my breath. There are more than a few things wrong with this. 
+REBECCA: "Eric's a senior, and he's trying for the top of the class, so why is he wasting his time on a fencing team?"
+MAX: "Credit. Duh."
+REBECCA: "Are we talking about the same fencing team here?"
+Last year's captain, Emmanuel, failed half his classes, graduated with minimum credits, and could care less whether we won or lost. We were a pretty abysmal team.
+REBECCA: "There's no way he could reform us into a national level fencing group in three months. He'd have to be nuts."
+MAX: "You never know..."
+SID: "I'm not so sure that's his plan."
+MAX: "Who are you, and how long have you been standing over my shoulder?"
+SID: "I'm Sid Wallace. I'm joining fencing this year."
+MAX: "Aren't you spunky? Y'know, Eric's a big burly dude and he'll be pushing your nose to the grindstone. You'll be a fencing robot before you know it."
+REBECCA: "Better you than me, I guess. You do know who Eric Larsen is, right?"
+SID: "We have a history class together, but no, I can't say I 'know' him in the sense that I know what he's thinking or planning."
+MAX: "Not everyone can be a mindreader like Rebecca."
+SID: "I'm just saying it might be worth it to take a chance and come to the meeting. Eric's different from Felix, Marisa, or those other seniors, not that I can explain it."
+MAX: "Bye? There goes an odd child."
+
+He's even more of a mystery than Eric. Fine. I'll keep my eye on him as well. It seems no matter how many people I know, there are always others with their own little mysteries.
+
+MAX: "Hey Rebecca. You better hurry if you want to make the fencing meeting."
+REBECCA: "Stop bothering me. I have work I want to get done."
+MAX: "Alright, I'll see you after the meeting?"
+
+REBECCA: "Hey."
+Maybe this kid will have some insight.
+SID: "Hello."
+REBECCA: "I don't think we've met. I'm Rebecca Bell."
+SID: "Sid Wallace."
+REBECCA: "I know. I saw you around last year."
+SID: "I'm surprised you remember that."
+REBECCA: "It's a habit of mine to keep track of people."
+SID: "Are you looking forward to the fencing meeting?"
+REBECCA: "Oh, I wanted to ask you about that... You're a friend of Eric, right? What is he doing with fencing team?"
+SID: "I thought you might know. You probably know him better than me."
+REBECCA: "Me? Know him? You know how those elite students are. They never speak to anyone, never do anything that's not for credit..."
+He doesn't respond.
+REBECCA: "Oh. I guess you're one of them, aren't you?"
+SID: "Maybe. But I don't think Eric is, at least not anymore."
+REBECCA: "What's that supposed to mean?"
+SID: "I don't know. Just wait until the meeting, and we'll see if we can't figure it out."
+REBECCA: "What?"
+He's a maniac.
+
+
+I still can't figure out what Eric is trying to pull. Maybe his plan is to advertise so poorly that no one else shows up and he can honorably disband us returning members. But then why would he drag Sid and me into it? I don't understand. Last year he was so predictable that I had no trouble pegging him as the generic studying automaton. But it doesn't matter; I'll figure him out. Eventually, I figure everyone out.
+
+[goto s0205]

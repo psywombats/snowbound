@@ -1,0 +1,183 @@
+[s0141]
+
+[switchto ERIC]
+
+[date]
+Monday, November 14th: Day 4
+
+Morning in Felix's compound is a sterile affair. No one speaks for any length of time, and almost everyone remains in the communal bed in the center of the room. After the morning rations are passed out, most of the students are up. A few are wandering around and complaining about hunger, and some of the jazz ensemble members are out in the hall. No doubt they're searching the rooms out there. We've spent too long cooped up in one place.
+
+The debate students, on the other hand, remain inside the English offices. There are only a few of them and I know them all by name, but we don't speak. I haven't talked to most of them since I left the debate team last year. Felix and Henry are off in one corner, so I find myself with Sid and Marilyn.
+
+[enter SID B]
+[enter MARILYN A]
+[enter ERIC D]
+SID: "Good morning, Marilyn."
+MARILYN: "Same to you, Sid. And you, Eric."
+ERIC: "Thanks. Is there anything on the agenda today?"
+MARILYN: "For me? No, nothing. Usually I spend my time on damage control anyway."
+SID: "Damage control?"
+MARILYN: "Not everyone's happy about the way Felix has been running things. If you consider it, it's very understandable. If they think we'll be saved soon, they don't see why we can't just eat everything now."
+ERIC: "Oh, so you have to explain Felix's strategy."
+MARILYN: "Not everyone understands Felix's thought process as easily as I do. It's an uphill battle, and I'm sure it'll be much tougher with all these jazz kids here."
+SID: "I wouldn't worry too much about them. We've been hungry for three days before we teamed up, so they should be grateful for anything at this point."
+MARILYN: "Ah, if only peoples' minds worked that way..."
+[enter HENRY E]
+HENRY: "Hey everyone. Is anyone up for some scavenging?"
+SID: "Morning, Henry. Are you headed out or something?"
+HENRY: "Yep. It's time to get down to business. You have no idea how nice it is to have something productive to do, so I thought I'd see if any of you wanted to come."
+MARILYN: "Thanks for the offer, Henry, but I'll have to decline."
+HENRY: "Eric? Sid?"
+ERIC: "Maybe."
+SID: "If Eric goes, I might consider it."
+HENRY: "Come if you want. I'm not going to wait around while you make up your minds."
+ERIC: "Okay, we're coming."
+
+Henry, Sid and I stroll down the second floor hallway. The ransacked English classrooms are on the left, and the only light is what escapes from the window in the back of the hall.
+
+[enter ERIC B]
+[enter SID A]
+[enter HENRY D]
+ERIC: "So what's your plan?"
+HENRY: "We need to search the biology classrooms on the first floor. I figured we'd also hit up the conference room by the entrance hall as well."
+He grins and holds up a metal brick. It looks to be one of the counterweights from the stage.
+HENRY: "Felix lent me this. We should be able to break through those fancy glass windows and check if there's anything nice inside the meeting rooms."
+ERIC: "Uh, that sounds good to me, I guess."
+HENRY: "Actually, let's split this up. We've got two places to go and three of us, so it should be easy. Who wants to go where?"
+He's tossing the weight up and down in his right hand. If it weren't so laughable, I'd think he was being threatening.
+SID: "How about you go break into the conference room and we'll tackle the biology classrooms?"
+HENRY: "Yep. See you in a bit."
+[exit HENRY]
+ERIC: "I hope he doesn't hurt himself with that thing."
+SID: "It shouldn't be too hard to use."
+I look across at Sid, and he's holding the same type of weight.
+ERIC: "Where'd you pick that up?"
+SID: "I grabbed it when we were coming out of the auditorium. I guess Henry had the same idea."
+ERIC: "That's right... These classrooms are locked, so we're going to need to break a few windows."
+SID: "Exactly."
+
+We start with the door to my right. Sid punches the metal block through the glass, then sticks his arm through to the lock on the other side. When he withdraws, the door creaks open.
+
+[enter SID D]
+[enter ERIC B]
+SID: "Search the teacher's desk. I'll handle the shelves."
+ERIC: "Got it."
+
+There isn't a whole lot to be found. This may be a biology classroom, but it's not a lab. Our best bet is to find some snack that a student or teacher left behind, but I can't find anything in this desk. There are a few pairs of scissors, a stapler, and assorted office supplies, but not much else.
+
+[enter ERIC B]
+[enter SID D]
+ERIC: "Any luck, Sid?"
+SID: "I have a roll of duct tape, but that's all."
+ERIC: "Scissors should be useful, right?"
+SID: "Just take everything that could possibly serve a purpose. We'll make a trip up to the base on the second floor and then come back to search the rest of the classrooms."
+
+Felix says nothing when we deposit our meager returns, and the trip back to the first floor is uneventful. We pass the remains of the shattered door glass and move to the next classroom. Sid starts preparing to smash through, but I try the handle.
+
+[enter ERIC D]
+[enter SID B]
+ERIC: "It's unlocked."
+SID: "That's weird. Whoever teaches here must've forgotten to close up at the end of the day."
+It takes me a few moments to figure out why the room is darker than usual, but I realize the shades are drawn.
+ERIC: "Can you roll up the blinds? It's almost impossible to see in here."
+SID: "Yeah, I'll do it when I get there. I don't want to trip over a chair or something. I'll cover shelves, you cover desk."
+
+I'm already at the front of the classroom. I've run my hands through a few loose pages on the top of the desk when I realize I'm standing across from some blob on the office chair opposite me. There's something there with a definite shape. As Sid ratchets up the window one rackety click at a time, I reach towards it. Then the light hits it. It's a person, a girl. Lyra Cygnus is sitting there. But when I touch her cheek, there is no warmth or movement or pulse. Lyra Cygnus is no more.
+
+At the English offices, no one is quite sure what to do with her body. Sid and I had no trouble moving up her frozen remains. Unlike Marisa, her death was tiny and dignified. Despite this less tragic nature, the news of yet another death among the students isn't going over very well. Marilyn cries silently in the corner, and Sid hasn't spoken a word since. Felix alone seems to have maintained his composure. 
+
+Should we have some sort of funeral? Do we preserve her in one of the colder rooms? We leave her final resting place as a table in a side office, but it's too sad. This whole business is absolutely rending.
+
+[enter HENRY B]
+[enter ERIC D]
+HENRY: "Eric, are you doing okay?"
+ERIC: "Not really. First Marisa and now Lyra... This has to be a curse."
+HENRY: "Keep your chin up, Eric. You'll be over it before you know it. You handled Marisa pretty well, and I'm sure you can do the same for Lyra."
+ERIC: "It's different, Henry. Marisa might have been closer to me, but she ended her life herself. That was her choice and half the time I think she did it to spite me. Her death was out of our hands."
+HENRY: "And so was Lyra's."
+ERIC: "Henry, if we had searched those classrooms a day earlier, maybe she would've been alive."
+HENRY: "And maybe she would've been dead. Look Eric, you've never second guessed yourself before, so don't start now. Believe it or not, there are more than a few people in here that look up to you."
+ERIC: "I'll try, Henry. I just don't know what to do from here."
+HENRY: "Take some time. Come up with a plan."
+ERIC: "You're right... Maybe I should go talk to Sid."
+
+But when I look around for him, I can't see Sid anywhere. Most of the students are unmoving in their chairs around the communal bed, but Sid is not among them. I head outside to check if he's across the way with Lyra's body, but I run into him in the middle of the hall.
+
+[enter SID B]
+[enter ERIC D]
+SID: "Eric."
+ERIC: "Hi, Sid. Are you alright?"
+SID: "No, of course I'm not. We screwed up, Eric."
+ERIC: "I know."
+SID: "I need to do something, so I'm sorry if you disagree."
+ERIC: "What's up?"
+SID: "I'm leaving Felix's encampment. I think it was a mistake for us to ever come up here. If we're all going to freeze here, I'd rather be as alone as possible."
+ERIC: "You mean you're going out on your own, without any supplies?"
+SID: "I'm not asking you to come."
+ERIC: "That's suicide."
+SID: "I don't have a deathwish, Eric. I just want to be responsible for myself and those I care about. I don't want to have to deal with everyone else's plight anymore. If anyone else dies, they're going to die where I don't have to look at them."
+ERIC: "Then what are you planning to do?"
+SID: "I'm breaking into the biology offices. If it's anything like the English offices, I should be able to find what little I need to survive for a week or two. Past that, no one's going to be alive anyway. Don't come down to the end of the first floor hallway. I don't think I'd be able to let you in."
+ERIC: "Have you thought this through?"
+SID: "I just spend the past hour staring at the corpse of a girl who died about seventy years before her time. I don't want to do it again."
+ERIC: "Can you wait until the morning? I'm not doing so good myself, but give it some time."
+SID: "You can't change my mind, Eric. I'm usually sure of myself, and this time, especially so."
+ERIC: "Fine then. When are we leaving?"
+SID: "We?"
+ERIC: "I'm coming with you. I can't guarantee I won't leave, but you're not going out to die on your own."
+Sid stops for a minute then shakes his head.
+SID: "There's no getting rid of you, is there?"
+ERIC: "No. I'm sorry, but we've been right next to each other through this whole thing. I don't think I could've endured Marisa's and Lyra's deaths without you."
+SID: "You're a lunatic for coming with me, Eric, but I appreciate it all the same. I thought I'd leave right now."
+ERIC: "Should we talk to Felix?"
+SID: "That's none of my business and I'm heading off immediately."
+I can always go back to talk to Felix later. For now, I'll follow Sid.
+SID: "Oh, but Eric... if you think you're on your last legs, do me a favor and run away first, okay? I especially don't want to watch you die."
+
+Side by side, we walk down the English hallway. Our footsteps echo in the silence of the school. We pass the fire door, the stairwell, the cut fire door, and finally, we enter the biology hallway. I do my best to ignore the single opened door in the hallway of shattered glass.
+
+[enter ERIC B]
+[enter SID D]
+ERIC: "There are still a few unopened classrooms along the way, here."
+SID: "Do you want to search them for supplies?"
+ERIC: "It's getting dark fast, but we should look for food. Actually, we should check for survivors."
+But we both know that I mean more frozen casualties.
+SID: "I don't know if you're religious, Eric, but if you are, this is the time to pray."
+He heads down the hallway and tests one knob after the other. The remaining doors are all firmly locked.
+SID: "You have no idea how relieved I am."
+ERIC: "How did Lyra end up out here on her own? There was no one else in this hallway."
+SID: "I thought she was in the auditorium, yeah, but it doesn't really matter now. The important part is that no one else is trapped down here."
+Sid and I are now the only occupants of this tomb.
+ERIC: "Then let's move on to the office."
+
+The door of the biology offices is made of dark wood and the handle refuses to turn. However, any door with a window is never truly locked. Sid hammers through the glass with the stage weight. This door proves to be a little more challenging to open without cutting open his arm, but before too long, we're inside.
+
+[enter SID B]
+[enter ERIC D]
+SID: "Well, we have our headquarters, Eric."
+
+I don't think I've ever been in this part of the school either. There are four separate offices connected to the narrow hallway we're currently standing in. At the end of this hall stands another wooden door, this one without a window. It's a shame. If only there was some way to break through that door, we could find our way through the main hallway to the gym. I'm slightly disappointed, but we need to focus if we want to hold out in our newfound base.
+
+[enter SID B]
+[enter ERIC D]
+ERIC: "Should we relock the door?"
+SID: "What's the point? Anyone can open it again because I just broke the window."
+ERIC: "If we can find a way to cover up the gap, or at least protect the lock from anyone reaching in from outside, we could - "
+SID: "It's not worth the effort. For now, let's concentrate on finding supplies before it gets too dark."
+
+Our search efforts are rewarded first by a cache of water: a water cooler sits in the corner of one of the teacher's offices. We both drink as much as we can, a relief after days of water rationing. Now if only we could find some food...
+
+In the end, the tank remains the best find. I come across another roll of duct tape that could prove useful in securing our little sanctuary, but there isn't enough light remaining in the offices that I can work. Sid discovers a variety of cushions, and when put together with the single blanket found, we have something close to warmth. 
+
+[enter SID D]
+[enter ERIC B]
+ERIC: "Is this what you were after, Sid? Chilly nights alone down here?"
+SID: "I'm not sure what I was planning. Come to think of it, I must have been following Marisa's example for a while. I feel a lot better now. I'm still a wreck compared to before, but I'm doing better."
+ERIC: "I'm sorry to budge in on your solitude, but I couldn't let you go alone. Both of the deaths so far were people who ended up by theirselves."
+SID: "There's no need to apologize. I'm glad you came, actually. This will be a lot more livable than I was anticipating."
+ERIC: "How long do you think we can last with just the water and no food?"
+SID: "I couldn't give you a reasonable guess. We'll live down here until it's not worth it to be alive any more. We'll figure out what that means when it comes."
+ERIC: "That sounds good to me. Sleep well."
+SID: "You too."
+
+[goto s0143]

@@ -1,0 +1,84 @@
+[s0144]
+
+[switchto REBECCA]
+
+I've spent my day trying to convince Caitlyn to be of any use. She refuses to cooperate on some stupid principle, and I'm left to do most of the work on my own. To be honest, the so-called work is small enough for one person. I'm combing every classroom and hallway for anything we can use to keep warm. If I stop my search for a minute, the shivering sets in. Cait refuses to move, so of course she's constantly shaking and chattering away. I don't know what to do with her.
+
+[enter REBECCA B]
+[enter CAIT D]
+REBECCA: "Cait, if you freeze to death, you'll make me feel even worse."
+CAIT: "Sorry if you're offended by my dying, but I can't do a whole lot about that."
+REBECCA: "This again? If you want to live, help me with the blankets. Is that too much to ask?"
+CAIT: "Sorry Rebecca, but you're just dragging out your own death. Just accept that we're doomed."
+REBECCA: "You're such a cheery person."
+
+I don't know if I can tolerate another hour of that nonsense, so I move on to the other wing of the basements. I've ransacked all of the computer labs and physics classroom on the southern half of the school, so it's time to move north to the mathematics wing. I pass by the door to the north stairs, ready to start breaking windows, when I realize something. Where are the students on the other side of the school? Could they have opened the fire doors on the ground or second floors? I've been stupid not to check earlier. Unfortunately, it'll take a second person to hold the door for me while I check it out. Convincing Cait is going to be like pulling teeth.
+
+[enter REBECCA D]
+[enter CAIT B]
+REBECCA: "Cait, I'm back."
+I can tell she's still in the student lounge from her stammering teeth.
+CAIT: "Yeah. That didn't take long. Did you give up?"
+REBECCA: "No, I need your help. We can get into the north stairs, so maybe there's some way we can make it to the first or second story."
+CAIT: "With our luck? Yeah right."
+REBECCA: "Come on, I need you to hold the door open for me while I check it out. Can you at least do that for me? All you have to do is sit there."
+CAIT: "No can do, Rebecca."
+REBECCA: "Cait, cut this out. I know you better than this. All you have to do is sit on your butt outside the door. You're practically doing it right now, but I just need you to move."
+CAIT: "I've made up my mind."
+REBECCA: "Oh really?"
+CAIT: "I'm going to die right here. It's a fitting end for my disgusting life. I dumped so much time into sucking up to people and hurting people that it all cancels out in the end anyway. So maybe it'll all be better if I leave it all alone."
+REBECCA: "You're insufferable."
+I'm going to have to pull out all the stops on my knowledge of Cait psychology for this one. On one hand, I hate appealing to her ugly side like this, but on the other, it looks like it's going to be my only way to get her out of here alive.
+REBECCA: "Changing the subject... What do you think of Pete?"
+CAIT: "Pete Sai? Disgusting. Irritating. An insult to anyone with an ounce of sense. Annoyingly competent."
+REBECCA: "How about Shibin?"
+CAIT: "Shibin Dai? Snobbish. Arrogant. An idiot who likes power too much for his own good. Annoyingly competent."
+REBECCA: "What do you think they'll say when they find your frozen corpse?"
+CAIT: "They'll laugh. They all think I'm a joke already, that'll just make them sure."
+REBECCA: "So you're okay with being a joke?"
+CAIT: "I'm not a joke, Rebecca. That's why I'm not doing anything."
+REBECCA: "Repeat that back to me."
+CAIT: "I'm not... Damn it anyway, I hope I croak right here and I hope they starve to death too. I hope they freeze and no one finds their bodies. I hope they're lynched and stabbed and bleed all over the floor. To hell with it, I'll off them myself, if only because they locked you up here with me."
+That's a little more violent than what I was anticipating.
+CAIT: "Come on, Rebecca. Let's go check out the stairs. At the end of all this I'll probably end up worse off than Marisa, but at least I can get those bastards first."
+
+I don't interrupt her tirade, and I don't interrupt her muttering as we make the quick trip to the fire door by the stairwell. She's angrier than I've ever seen her, but this is also the most life I've seen in her since we were sent down here.
+
+[enter CAIT D]
+[enter REBECCA B]
+CAIT: "Do you want to hold the door open or go inside?"
+REBECCA: "I thought I'd be the one to check out the stairs, but if you want, I could - "
+CAIT: "Hold the door. I'll be right back."
+
+She takes the stairs in three leaps. No sooner do I hear her pause at the first floor landing than I see her hurdle the dividing railing and land right in front of me.
+
+[enter CAIT D]
+[enter REBECCA B]
+CAIT: "Rebecca. It's open."
+Between the grin and the open knife in her hand, I think I ought to do something, but before I can figure out what it is I should do, Cait has one shoe off her foot and jammed in the door. 
+CAIT: "Follow me."
+
+The door falls back a few inches, but Cait's shoe holds it tight. She's running up the stairs again and I have no choice but to follow her. When we reach the ground floor, she taps the door with a single finger. The door swings outward.
+
+[enter CAIT B]
+[enter REBECCA D]
+CAIT: "There's no lock. I'm not complaining."
+She takes one step after another down the twilit hallway.
+REBECCA: "Cait! Where are you going?"
+CAIT: "I have no idea. All I know is that this is virgin territory and I'm freezing, thirsty, and starving, and mad."
+Come to think of it, that all applies to me as well. How did I not notice how parched I was? Maybe because both of our voices turned raspy, neither of us noticed.
+CAIT: "If anyone shows up, leave them to me."
+I don't want to ask what she'll do to them. Is it even worth it to try and calm her at this point?
+CAIT: "On guard, Rebecca. Someone's been through here."
+She' right. Each window along the row is shattered.
+REBECCA: "Cait, please don't hurt anyone."
+CAIT: "Rebecca, you were telling me to do the exact opposite about five minutes ago. I'm a big girl, I can make my own decisions without you."
+REBECCA: "I guess that's - "
+CAIT: "I'm not going to ask you to forgive whatever I'm about to do. Living justifies everything."
+REBECCA: "What?"
+She turns to face me in the hallway of broken glass.
+CAIT: "It's the only thing that excuses what I did to Pete and to you. If I make it out of here alive, it was all worth it. It doesn't matter what horrible things happen to the rest of you if I can get out in one piece. There's no shame in fighting for your life."
+REBECCA: "Maybe I'll wait back at the student lounge."
+CAIT: "Coward. Besides, I know you can't leave me alone, or you wouldn't have been locked up with me in the first place. Now let's go."
+
+[goto s0145]

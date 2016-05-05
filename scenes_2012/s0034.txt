@@ -1,0 +1,31 @@
+[s0034]
+
+REBECCA: "I can't do it, Eric. There are too many people here that I care about."
+ERIC: "Maybe I feel the same. Leaving here now would be betraying everyone else."
+REBECCA: "Then what do you hope happens instead? Do some other students leave as scouts?"
+ERIC: "I don't think I can justify that."
+REBECCA: "You're right. What is there for us in this school anymore?"
+ERIC: "We all have to leave."
+REBECCA: "We'll all go together."
+ERIC: "I'm sure the two of us can find some way to convince Felix, Max, and the rest of them."
+We both turn around at the sound of footsteps in the hallway.
+[enter PETE A]
+PETE: "You have to see this! I unlocked the stairwell and I ran up to the top, and the door almost opens up there! You can see the sky!"
+REBECCA: "You're kidding. That's amazing."
+ERIC: "Well, let's have a look."
+
+We follow Pete back down the English hallway, through Felix's den, and up the access stairwell to the rooftop door. Until this week, I'd never been in the staff lounge. I never knew this flight of stairs existed, and I guess most of us forgot about it until now. My breath is taken away when we reach the top. I can feel wind. Only now do I realize how stale the air was all this time. The chill breeze is glorious.
+
+[enter PETE C]
+PETE: "Isn't it amazing?"
+[enter ERIC E]
+ERIC: "You can even see the sky..."
+[exit ERIC]
+Sunlight shines through a two-inch gap in the pile of snow outside the door.
+PETE: "I could only open it a crack, but it's enough to prove the point. We can get out of here!"
+[enter REBECCA E]
+REBECCA: "Nice work, Pete."
+He starts shoveling the snow into the staircase from the narrow opening.
+ERIC: "Rebecca, come on, let's go tell the rest."
+
+[goto s0070]

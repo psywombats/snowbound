@@ -1,0 +1,12 @@
+[s0190]
+
+REBECCA: "Let's leave him be. I'm fairly sure he's not what he appears to be and I'd prefer to avoid him."
+ERIC: "Understandable. I guess all we have left is to wait for tonight's debate."
+REBECCA: "Are you intending to say much?"
+ERIC: "Me? I'm only going to speak up if it looks like things are headed the wrong way."
+REBECCA: "Same here then. I have confidence that Max will work it out."
+ERIC: "Felix will come around, I know it."
+
+We spend our time together in a corner of the gym, a party of two. For once this idleness feels not so much like helplessness as much as relaxation. For once, tomorrow's survival is not an issue. The only buzzard over our heads is the council tonight.
+
+[goto s0070]

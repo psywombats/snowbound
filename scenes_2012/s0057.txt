@@ -1,0 +1,103 @@
+[s0057]
+
+[switchto ERIC]
+
+It's been several hours since we ran into Rebecca in the basement. It seems Cait was right about the state of this place. Everything usable has already been found, either by Cait or Arya. So far our biggest find remains Sid's discovery of the water cooler in the first floor office. We've since moved it down to the student lounge in the basement, and at this point we're searching for anything remotely like a blanket to toss in the pile in the lounge. Maybe we can create something like Felix's setup on the second floor. I know (and so does Rebecca, probably) that we're more likely to starve than freeze, but Lyra won't stop shivering.
+
+I've noticed her condition isn't improving either. Cait's keeping an eye on her, but I hope the first aid kit in the gym has some form of fever relief, aspirin or something. If I knew anything about diseases, maybe I could diagnose something, but all I can do is hope it isn't hypothermia. Is that fatal without treatment? Lyra is doing her best, it's obvious that she's having trouble keeping up.
+
+[enter REBECCA B]
+[enter ERIC D]
+REBECCA: "Eric? You're back here?"
+I'm doing my best to move around the furniture in the dark when someone with a candle appears in the doorway to the mathematics hall.
+ERIC: "Yeah, over in the corner. Can you bringing the candle over?"
+She walks over and we both examine the pile of cushions, tablecloths, and fire blankets. Next to the debate team's base, this is scraps.
+REBECCA: "Do you think there's enough to keep warm?"
+ERIC: "There are five of us, right? We should be fine."
+REBECCA: "We were never going to freeze, were we...?"
+ERIC: "Not together, I think."
+REBECCA: "It's something to do."
+We sit down.
+REBECCA: "I've been trying to find time to ask you... Why aren't Felix and the rest down here? What made him decide to hole up?"
+ERIC: "He didn't want to go find the gym students. He thought if we split their supplies, they'd all starve."
+REBECCA: "So what? He's going to lie down and die?"
+ERIC: "No, I think he hopes rescue shows up before they run out."
+REBECCA: "But if he thinks rescue is coming soon, then it wouldn't hurt to join up in the gym, right? Splitting the supplies doesn't matter if help arrives in the next few days."
+ERIC: "You know, you're right. Let's say we've got two cases: a late rescue and an early rescue. Joining with the gym only hurts if there's a late rescue. And he's counting on an early rescue to survive anyway."
+REBECCA: "He seemed like such a rational person, but sometimes I wonder..."
+ERIC: "I wasn't aware you knew him much. Does it really matter why? He's out of the picture for now."
+REBECCA: "I don't know why I care so much. I just find it important to understand why people do what they do."
+ERIC: "How about you then? What made you walk away from everything in the gym to attempt to help people who, as it turns out, mostly didn't want help to begin with?"
+REBECCA: "I don't think I can explain it. It kind of frightens me."
+ERIC: "Maybe I understand. We both have a bit of Felix in us. We're trying to get as many people through this alive as possible without thinking too much about ourselves."
+REBECCA: "But if you wanted to do that, why didn't you stay with Felix?"
+ERIC: "He took it too far. He's condemning the students in debate and jazz that are counting on him. I couldn't go along with that."
+REBECCA: "And I couldn't stand Shibin's barricade. Maybe that's it."
+We stare in silence for a few moments.
+REBECCA: "When you said 'as many people alive as possible,' were you referring to Marisa?"
+I can't come up with a response.
+REBECCA: "I'm sorry. I know she was important to you."
+ERIC: "Don't be. Maybe it was no one's fault, maybe it was mine."
+REBECCA: "Saying that never helps anything."
+ERIC: "You say you understand people. Then tell me, did she commit suicide because she was sick of living, because she followed Felix's dont't-consume-resources philosophy, or did she do it just to spite us all?"
+REBECCA: "No one can know that now."
+ERIC: "Maybe it was some mixture of them all..."
+REBECCA: "What was ever between you two? She was always your fencing partner last year, every single time. I never saw one of you without the other. And this year, she quit the team. And don't think I haven't seen that you've changed. The person I'm talking with now is definitely not Eric Larsen from last year."
+When I'm quiet, she takes a deep breath and contines.
+REBECCA: "If this were one year ago, you would never be down here with Lyra and Sid and no food. You would be here alone and with everything of Felix's you could get your hands on. You changed. Marisa noticed. Did she hate you for it?"
+ERIC: "No, it's the other way around. She caused that change."
+REBECCA: "Huh. Maybe that was her plan. She did it, then."
+ERIC: "Did it? What does that even mean? I'm the way I am now because I'm not in the standings for valedictorian any more. She tricked me into missing an exam and I failed the course. That's all there is. If you mean she succeeded in academically murdering me, yeah, you're right. She definitely did that."
+REBECCA: "Is it all that bad to be academically dead?"
+You have no idea how much I wish I knew. I've been uncomfortable thinking about it before, but now talking with Rebecca it all seems to be falling into place.
+ERIC: "You mean you think she meant to change me from what I was then into what I am now?"
+REBECCA: "I never knew her. Maybe it was a side effect. But if it was ever what she wanted, she certainly did it. Did you know that Max and I almost didn't come back to fencing after Emmanuel graduated? We thought you'd be the captain from hell, practices every day, that sort of thing."
+ERIC: "I used to think Emmanuel was out of his mind, but on this side of the line it's so much easier to see where he was coming from."
+The former captain of the fencing team... He didn't need to fail a class to see that there were more important things than top of the standings.
+ERIC: "Hey, where's Maximilian? What happened to him? If I remember him at all, he should be down here too."
+REBECCA: "Oh that's ironic. He's the one that caught me, actually. Though I admit he probably would've let me go if Shibin hadn't arrived on the scene."
+ERIC: "Then you just disagreed or something?"
+REBECCA: "I don't know what to think. He couldn't cross his stupid principles to help me, but he gave me his phone. He's an odd guy."
+ERIC: "Strange."
+As we're speaking, another person enters the room from behind me, from the south stairs.
+[enter LYRA A]
+LYRA: "Rebecca?"
+REBECCA: "We're over here. Grab and blanket or something and sit down."
+LYRA: "I need the candle. I found a note. Someone slipped it under the door on the first floor landing."
+Sure enough, as Lyra enters the candlelight, I can see a scrap of notebook paper in her hand.
+ERIC: "Hold it up."
+All three of us read in silence.
+[hold]
+
+"Rebecca - It's Max. Look, I'm sorry for this whole exile debacle. I never thought it would come to this, but I do hope you realize it's your own damn fault you're in this mess. However, there is no way I'm going to let you rot down there, so I've 'acquired' some supplies that I can pass to you when I'm back on guard duty tonight. Show up at around midnight. You still have your watch, right? In any case, be outside that door tonight! Yours truly, Maximilian Wolf"
+
+ERIC: "Looks like that guy came through after all."
+REBECCA: "And it's 5:00 PM now, so we have a bit to wait."
+LYRA: "Does that mean we're getting food? That sounds wonderful."
+REBECCA: "Yeah, we're in luck. I hope Max isn't going to get himself killed stealing from the stockpile though."
+LYRA: "It could be a trap, you know, if Maximilian didn't actually write that letter."
+REBECCA: "It's his. Who else would call it 'this whole exile debacle?'"
+LYRA: "But be careful, still."
+ERIC: "Max already went through the trouble of finding whatever he's giving to us, so we can only hope for the best and accept it."
+[enter CAIT E]
+CAIT: "Hey everyone, no luck in the other computer lab. What're we reading, anyway?"
+ERIC: "It's a note from Maximilian Wolf. He's going to open up the first floor fire door tonight and sneak us supplies."
+CAIT: "Perfect. This is our chance."
+REBECCA: "Chance for what?"
+CAIT: "I still have my knife, even if it's broken. I dice Max up a bit and we fight our way through that door."
+REBECCA: "You've got to be kidding me. We're not having another Pete incident."
+ERIC: "And what would we do after that? We'd never be able to get into the gym. Our chances are really low at the moment anyhow. Before we try anything stupid, we have to figure out how to convince them to let us in."
+CAIT: "Fine. But Lyra can escape, right?"
+LYRA: "Why me and not all of you?"
+CAIT: "You're sick. You're a little girl. This Max guy's a gentleman, right?"
+REBECCA: "He'd like to think so..."
+ERIC: "He is. He's bringing us food anyway."
+CAIT: "Great. Lyra, this is your chance. You're free."
+LYRA: "It's not right if I go without you."
+CAIT: "What? This is your get-out-of-jail-free. I'd kill to be in your position."
+I hope she doesn't mean that literally. Maybe I should step in.
+[hold]
+
+[choice]
+[Lyra should probably go :: s0154]
+[She can do what she likes :: s0024]

@@ -1,0 +1,22 @@
+[s0111]
+
+Luckily for Arya, Shibin agrees to furnish two cans of food, a water bottle, and a sleeping bag. Arya seems to be on good terms with most of the trapped students and her presence is certainly welcomed. I notice Pete taking receiving a lot of credit for her rescue. By the time I notice that Cait has reentered the gym, it's a little late to tell Pete to run off somewhere else. However, Cait doesn't seem too interested. Instead, she walks over to me and Sophie instead.
+
+[enter CAIT B]
+[enter REBECCA D]
+[enter SOPHIE E]
+CAIT: "What did he even do?"
+SOPHIE: "They're saying he rescued Arya from the basements."
+CAIT: "No, I mean, what did he do to rescue her?"
+REBECCA: "He opened the fire door and she fell out."
+CAIT: "In other words, nothing. I went in that stairwell before, and no girl fell out."
+SOPHIE: "Oh well. At least we can be happy she's out and happy now."
+CAIT: "I don't care about that at all. Look at that smug kid over there. Is he some kind of hero now? Disgusting."
+REBECCA: "Please don't do anything you'll regret when we get out of here."
+CAIT: "I'm starting to think that 'being in here' is the only thing we're going to be doing for a while. Anyway, I'm going to check out the basement and see if I can't find any half-dead students of my own. Are you coming with me or not?"
+[hold]
+
+[choice]
+[Go with Caitlyn :: s0113]
+[Let's check with the others first... :: s0011]
+[No thanks. :: s0112]

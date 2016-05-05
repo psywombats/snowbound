@@ -1,0 +1,40 @@
+[s0203]
+
+ERIC: "Pete's right. Let's go see how the snow's coming along in the gym and then I can demo the equipment. We'll go over schedule and all that stuff at the end."
+PETE: "Bye!"
+CAIT: "Where do you think you're going? Stop running everywhere!"
+I guess they're both off to the gym.
+REBECCA: "Do you know either of them?"
+LYRA: "No, not really. I don't think I've met you either."
+MAX: "I'm Maximilian Wolf, but my friends call me Maximilian. And this charming young lady - "
+REBECCA: "- can introduce herself. I'm Rebecca Bell. You should stick around; we're actually not too bad when you get to know us. Even Cait."
+MAX: "Speaking of Cait and Pete, let's hurry to the gym before they kill each other."
+ERIC: "Right."
+
+At first I wonder why the track team members are all standing in place instead of jogging around the gym. Then I notice the windows. Through the glass panes at the top of the room, there is only a dusty white whirl. The lamps that light the way to the dorms are completely obscured. 
+
+CAIT: "Is it snowing out there or is the wind just whipping it around?"
+LYRA: "It's a blizzard."
+REBECCA: "I thought that wasn't supposed to pick up for another few hours at least."
+ERIC: "Let's get down to business, then. I don't want to have to trek through two feet of snow to get back to the dorms."
+The storage closet is already open and the hurdles for the track team spread across the floor.
+CAIT: "What the hell are all these sleeping bags doing in here?"
+MAX: "It's the supplies for the research methods class. We're going on an expedition next week, weather permitting."
+LYRA: "That always seemed like such a dangerous class..."
+PETE: "Finally, here they are! Swords!"
+He grabs a foil out from under the fencing masks.
+ERIC: "Hang on a second, we need the pads first."
+MAX: "Lighten up a bit. Hey, Pete! Catch this! It straps in the back."
+
+After a while, it becomes clear that I'm not really needed. Max and Rebecca both know the routine better than I do, and they're much better at explaining it to the newcomers. Maybe this isn't such a bad thing. On impulse, I decide to check up on Sid. Jazz ensemble usually practices in the auditorium, right?
+
+LYRA: "Are you going somewhere?"
+ERIC: "I want to see the jazz rehearsal, but I'll be back in a few minutes. Stick with Rebecca and Max."
+LYRA: "No, I'll come with you. I'm sort of looking around for groups, and maybe jazz is for me."
+ERIC: "So you can't decide if you want to be a jazz musician or a fencer..."
+LYRA: "If your friend can do both, why can't I?"
+ERIC: "Fine, you can come if you want."
+LYRA: "I'll be along."
+But she doesn't follow.
+
+[goto s0204]

@@ -1,0 +1,44 @@
+[s0019]
+[decrement CAITLYN]
+
+I close my eyes, but I don't hear anyone stating their opposition to the exile. Maybe it's for the best. What would I have suggested anyway? This way she at least has a chance to survive and Shibin doesn't get the pleasure of starving her to death. The best solution would be for this snow to melt and for us to escape or for someone to find us here to end this mess. Tough luck. I open my eyes as they prepare to carry out the verdict. Caitlyn is staring straight at me. I sigh.
+
+[enter MAX B]
+MAX: "Hey, not bad, I thought they'd be in favor of drowning her in the pool or something."
+[enter REBECCA D]
+REBECCA: "Since when were you watching?"
+MAX: "I was in the corner the whole time."
+We're following everyone else now, walking past the door guard and through the gym hall.
+MAX: "I'm actually surprised you didn't shout out in opposition just so you'd have the chance to explain the circumstances and the reasoning and the personality and all that stuff you're always on about."
+REBECCA: "I decided it was better for her if I kept quiet."
+MAX: "And you're correct. I'm very proud of you, my dear."
+REBECCA: "I'm not in the mood, Max. She was my friend, after all."
+MAX: "I know. I'm sorry about all this. There's nothing you can do though, so please don't be too hard on yourself."
+REBECCA: "Thanks, Max."
+
+Cait is led down the main hallway to the south stairwell. Shibin and Kenneth flank her and we pass the fire door to the entrance hall. I hope Eric and Lyra and the rest are faring well in there.
+
+We arrive at the fire door leading to the stairwell, still propped open from last night. Cait is silent. None of the rest of us says anything, for that matter. I don't suppose Shibin will let this go without a few parting remarks, but he's not the one to break the silence.
+
+[enter ARYA B]
+ARYA: "Good morning. You all look grim today. What's the matter?"
+No one can do anything but stair at the girl who has just emerged from the stairs.
+ARYA: "Well, isn't anyone going to answer?"
+[enter SHIBIN D]
+[enter KENNETH E]
+SHIBIN: "We were just about to seal the criminal in the basements. Good morning to you. We were merely taken back by your appearance. We thought all students were in the gym."
+ARYA: "Oh, yeah. I decided to spend the night down there. I don't like noisy people waking me up."
+KENNETH: "Then you didn't hear what happened last night?"
+ARYA: "Oh, something interesting?"
+SHIBIN: "I refuse to believe this. You disobeyed the order to stay in the gym, and now you claim you slept through a stabbing? Do you expect us to believe that you aren't an accomplice?"
+ARYA: "Would you shut up already? You're the one who almost shut me in there with this so-called criminal. Don't let me get in your way. I don't really care about all this, so do what you want. I have what I need from down there but I might have to go back down. Just don't try to stop me, okay?"
+[exit ARYA]
+And everyone stares as she marches down the hallway in the direction of the gymnasium.
+SHIBIN: "Kenneth, give the order to pursue her. Don't you think that's suspicious?"
+[enter MAX A]
+MAX: "How is that suspicious? This one already confessed to everything, so stop dragging this out. Most of us just want to be done with the whole affair."
+KENNETH: "Alright, Caitlyn. Farewell."
+
+Shibin undoes the laces and pushes her past the door. A student removes the chair holding it open, and the door closes while Cait's back is still to us. She remains motionless until the slam of the closing door echoes down the hallway.
+
+[goto s0051]

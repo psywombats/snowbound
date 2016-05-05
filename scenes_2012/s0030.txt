@@ -1,0 +1,23 @@
+[s0030]
+[increment MAX]
+
+REBECCA: "Right, we need to find Max."
+ERIC: "What could have happened to him?"
+REBECCA: "Well, he could be hiding out somewhere or he could be with Kenneth. Or for that matter, he could've allied himself with Felix, but if he's done that, I don't think he'd be willing to help us."
+ERIC: "You really think he'd join up with Felix and Henry?"
+REBECCA: "He's surprised me in the past, but if he did, he's much more heartless than I took him for."
+ERIC: "Okay, so he's either in the gym or hiding."
+[enter LYRA A]
+LYRA: "I may have run into him once or twice in the halls."
+REBECCA: "Where? What did he say? Why didn't he stop to help?"
+LYRA: "It was dark, and I was making myself small in a corner."
+ERIC: "That doesn't help much then, but that makes it more likely that he's hiding."
+REBECCA: "And if we go to the gym and he's not there, we'll have some major explaining to do to Kenneth, or worse if Shibin managed to free himself."
+ERIC: "Okay, so he's probably in hiding... But where?"
+REBECCA: "We can search what little of the school we have access to. If he hears our voices, I'm sure he'll come out."
+ERIC: "But if anyone else hears us, we're in a bad spot."
+REBECCA: "It's a risk we have to take. Come on Lyra, we're going."
+ERIC: "Where?"
+REBECCA: "The closest places to this spot. Let's start with these doors here."
+
+[goto s0177]

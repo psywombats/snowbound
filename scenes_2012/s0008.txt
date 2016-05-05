@@ -1,0 +1,11 @@
+[s0008]
+[increment KENNETH]
+
+[enter REBECCA B]
+[enter MAX D]
+REBECCA: "Can't we just wait for Kenneth to approve some sort of search party? There's not too much point pissing him off."
+MAX: "You really think that? Fine. I bet I can convince him to let us be the scouting team anyway."
+
+Maximilian approaches Kenneth, who's still eating his canned breakfast. Shibin cuts in halfway through, but Max will be Max. He returns with a phone, a smile, and a certain first year tailing him.
+
+[goto s0102]

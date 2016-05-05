@@ -1,0 +1,64 @@
+[s0148]
+
+[switchto ERIC]
+
+I wake up when the door to the biology offices slams into the wall. I knew we should've boarded ourselves in.
+
+[enter ERIC C]
+ERIC: "Who's there?"
+No reply.
+ERIC: "Sid, watch out! There's someone - "
+
+But that's as far as I get. It's as if someone dropped a rock on me. I'm on the floor, splayed out with something heavy and panting on top of me.
+
+[enter CAIT D]
+CAIT: "Shut up. Don't say anything. Don't even move or I will rip you apart."
+I try to sit up, but when I move my neck, I come up against something sharp. I draw my breath.
+CAIT: "That's right. Anything more like that and I'll slit your throat. Don't think I'm kidding."
+That voice is barely more than a rasping whisper, but I can place it. Is that Cait? Is this some sort of joke?
+[enter SID A]
+SID: "Eric? What was that? I'm a little - Ouch!"
+[exit SID]
+There's a thunk, but the person on top of me isn't moving.
+CAIT: "This way, you idiot. You walked into a door. I'm in the hall."
+[enter SID A]
+SID: "Who's there? Visitors?"
+CAIT: "Hey! Don't get any closer or Eric dies."
+You have to be kidding me. That lunatic is digging her knees into my chest, and one hand on my wrist with the other holding a knife to my throat. I can't even speak.
+SID: "What the hell are you talking about? Let me get my phone..."
+Even the dim light from Sid's cell phone is blinding against the darkness of the night inside the office.
+SID: "What in the - "
+CAIT: "Yeah, stand right there and listen to me. Don't try anything, or I won't hesitate. Look, Eric's already bleeding. So you're Sid, right? I hope you can be reasonable about this."
+SID: "Reasonable? You want me to be reasonable? You're the one who just took Eric hostage for some unfathomable reason."
+CAIT: "I'm alive, and I intend to keep staying alive, and I intend to do whatever it takes to make that happen. So just do what I say."
+SID: "It's going to happen again, isn't it? Someone else is going to die right in front of me. Damn it Eric, hang in there."
+CAIT: "I want water. Bring me your water and your food. That's all I want, and then I'll leave you to rot in this dump." 
+SID: "I've got a tank of water, but that's all. We're just as hungry as you are."
+[enter REBECCA E]
+[exit SID]
+REBECCA: "Cait, what's going on?"
+There's a different voice. This one isn't coming from above me, but from in front and towards the door.
+CAIT: "Stay back, Rebecca. I'm just getting some supplies from our good friends."
+[enter SID A]
+SID: "Here you go."
+The light of the phone jerks up and down as he lugs out the water.
+CAIT: "You're sweet. Maybe I'll let Eric live."
+REBECCA: "What the hell are you doing? Is that Eric Larsen you have on the floor? Get off of him!"
+SID: "How were you planning on getting out of this, Cait? If you let Eric go so you can take the water, then I'll have your head before you get a chance to bring that knife on me."
+CAIT: "Easy. Rebecca carries the water and I take the hostage with us."
+REBECCA: "I'm not doing a thing until you let him go! Do you hear me, Cait? This isn't at all what I wanted to happen!"
+CAIT: "I don't care what anyone thinks, Rebecca, not even you. This is how I'm going to escape this mess, and I'll carry through with it. If you want to live a little longer, go take that water."
+After a two second pause, Rebecca blurts out one single sentence to Sid.
+REBECCA: "Tackle her, and I'll pin her knife hand."
+SID: "Go for - "
+
+But before he's finished responding, Cait's weight shifts on top and there's a thud from behind me and Rebecca screams. I squirm, but I can't move. Cait's knife is right there. My mind is working overtime to come up with anything I can do, but there's only a second to think.
+
+[enter SID D]
+[enter CAID B]
+SID: "I've got her!"
+He lands on her back and the weight on my chest doubles. Did Sid not notice that Rebecca's down?
+CAIT: "Get off of me you brat! I'll kill him! I'll kill you too!"
+In the dark, I can't tell if Sid found a better hold or if Cait's hand slipped or if she just decided it was time for me to go, but by the time I realize what's happened, it's just enough to feel the sharp bite and then the rush of pain and then nothing, nothing, nothing.
+
+[goto s0149]

@@ -1,0 +1,108 @@
+[s0149]
+
+[switchto REBECCA]
+
+I scramble to my feet as fast I can. It looks like Sid's already on top of her. That steel glint in the dark, that's all I'm thinking about, and when I find it, I act. Caitlyn's left hand is trapped under her body, but her right is loose and flailing for Sid, with the knife still in it. All it takes is one quick stomp. She screams, and then screams again as Sid's fist hits her in the face. I grab the wrist I just smashed, and it's over for Caitlyn Baquiran.
+
+[enter CAIT B]
+[enter SID D]
+[enter REBECCA E]
+CAIT: "Rebecca, you traitor."
+SID: "Don't even talk about traitors. You almost killed Eric, you idiot. There've been one too many deaths around here for you to go waltzing around like you're the only one who matters in the world."
+REBECCA: "Sid, can you keep her down?"
+SID: "She doesn't have her precious butterfly knife anymore, I can handle her. Eric, where are you?"
+REBECCA: "Eric?"
+I slip on something and fall onto Eric. My first thought is that the water spilled all over the floor, but the slick is sticky to the touch. 
+SID: "Rebecca, what was that? Are you - "
+He holds the cell phone up over the scene. The nausea hits me before the grief. But they both hit me straight in the gut, and I double over.
+SID: "Oh please no. No, you're joking. What, what, I don't..."
+
+Sid's in tears. I'm choking, though I'm not sure if it's tears or if I'm about to vomit. Eric is open. I'm surprised his head is still on his body. How could a knife with a broken blade do that? No more than twenty seconds ago, that was a live and friendly person.
+
+[enter SID B]
+[enter CAIT D]
+SID: "Monster!"
+But the shock is enough for Cait. She's loose.
+CAIT: "It's not over!"
+
+She takes off out the open door and down the hallway. Sid chases after her and I try to follow, but Eric's blood is still all over my pants and shoes and I barely reach the hall when I slip again on the tiles. I land on the shards of glass that litter to the floor. The needles in my arms are agony.
+
+[enter SID C]
+SID: "Rebecca! Rebecca, speak to me! You're screaming your head off!"
+
+I am. The pain isn't that great, but I can't stop. Maybe if I make enough noise, this nightmare will end. I'm soaked in blood, Eric's and my own. Within a minute, I'm hoarse, and I cough and cry one last time.
+
+[enter REBECCA B]
+[enter ERIC D]
+REBECCA: "Sid, is this real?"
+SID: "I hope not, Rebecca, I hope not. But it's real. I knew it would happen if I left with him. He's dead, Rebecca, he's dead."
+He has his arms wrapped around me, but I don't care. I'd hold him but I'm bloody. I'm so, so bloody.
+REBECCA: "Sid, we need to find help. We need to do something."
+SID: "Are you alright? What even happened to you?"
+REBECCA: "I fell in the glass. It's not a big deal. We need to do something. Where do we go?"
+SID: "Let's go to the second floor. Felix will take us."
+REBECCA: "Felix? Okay. Okay."
+SID: "You're a total mess. Let's hurry."
+REBECCA: "You're not much better."
+SID: "If you weren't here I think I'd give up. Don't you fade on me too, Rebecca."
+I can't even respond.
+SID: "Follow me."
+
+[date]
+Tuesday, November 15th: Day 5
+
+My first sight when I wake is a an unfamiliar face. She's pretty, in a way. I can't think straight. I stretch my mind and the memory comes back and kicks me in the stomach. The shards in my arms burn and I cry out.
+
+[enter MARILYN B]
+[enter REBECCA D]
+MARILYN: "You're awake. That's good, we thought you wouldn't wake up."
+REBECCA: "Who... Who are you?"
+MARILYN: "Marilyn Sumner. You're in the English offices now. We'll take care of you, alright?"
+REBECCA: "Where's Sid?"
+[enter SID A]
+SID: "Here."
+REBECCA: "Are you real?"
+He grimaces.
+SID: "Yeah. Look, I know it's not possible, but don't think about it. Please."
+I can tell how much it's hurting him to say that.
+REBCCA: "I can try. I'm going to get up."
+MARILYN: "Stay where you are for the day. You have a fever and you lost more than a little blood."
+
+Sid starts talking to her after that, and either their voices are either very low or else I'm slipping back to sleep. It's hard to tell if the room around me is somewhere I've been before. I'm lying someplace soft, but the edges around me are dull. The gray from the windows shows a few shapeless figures moving here and there. After maybe an hour of watching them huddle and shiver, I decide to try to rise.
+
+To my surprise, it's impossible to move. I'm not sure if there's some obstruction or I'm too physically weak. I might as well be part of the sheets I'm lying in. I try over and over again to identify the people around me, but their faces don't match up. Are they even human? My only link to them is the rustling whispers as they talk amongst themselves.
+
+[enter FELIX C]
+FELIX: "If it's a lost cause, then by definition we can't do anything to help."
+[exit FELIX]
+[enter MARILYN C]
+MARILYN: "Everyone has the right to die in peace."
+[exit MARILYN]
+[enter HENRY C]
+HENRY: "And she'll get a lot more peace in here than she would have in the hallway or alone in a classroom somewhere."
+[exit HENRY]
+[enter SID C]
+SID: "Marisa, Lyra, Eric... This is insane already. You can't just give up."
+
+The light around me flickers on and fades. I don't think anyone talks for the rest of the day, but their mouths move in soundless language. Time alternates between a slow hot drag and a dark rush. When the light disappears, the voices return.
+
+[enter SID C]
+SID: "It's the least we can do."
+[exit SID]
+[enter FELIX C]
+FELIX: "If you want to do it, I won't stop you, but I'm not giving you any light or supplies."
+[exit FELIX]
+[enter HENRY C]
+HENRY: "That wouldn't be necessary. Sid, you have your phone, right?"
+[exit HENRY]
+[enter SID C]
+SID: "Yeah, let's go."
+
+Darkness. Silence. Darkness. Silence. Why can't I sleep? Or am I already asleep? Then why can't I wake up? I'm paralyzed or dreaming or floating away. When I pull myself out, staying conscious remains a problem. The whispers never stop, but they aren't making any sense. Where did everyone go? Where did I go? Who's there?
+
+[enter SID C]
+SID: "I'm sorry, Rebecca. There wasn't anything more I could do. I wish I was strong enough to stay here with you but... I'm too weak. I'm not brave. I'm not worth any more than you. I..."
+
+The sound reaches me as if from the bottom of the abyss. Now I realize, however, that that voice is on the surface, and it's me who's falling deeper.
+
+[end BAD_1]

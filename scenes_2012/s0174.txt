@@ -1,0 +1,46 @@
+[s0174]
+
+And I come back to reality. It is pretty hopeless, isn't it? There is very little we can do from our position. I resume my work trying to cut through the door bolt. It's useless work but it takes my mind off of Felix and Henry. 
+
+We pass our day speaking very little. Even when we have to switch off every few minutes, we keep working at the bolt. Maybe it is part of Felix's master plan for us to open this path for him, but our small cooperation is all that's keeping me going at the moment. The light from the windows begins to fade. Finally, we reach the threshold where we're both too tired to continue. 
+
+[enter ERIC D]
+[enter REBECCA B]
+REBECCA: "Any progress?"
+ERIC: "I can't tell, not without light."
+REBECCA: "That's too bad. I suppose we might as well eat."
+
+It feels strange to eat only a small portion of the food before us when we're both so hungry, but it could be a while before we're out this mess. It could be a very long time. While we prepare the food, I remember the bottle of aspirin. That was probably intended for Lyra. It's a shame it will never make it to her.
+
+[enter ERIC B]
+[enter REBECCA D]
+REBECCA: "What will you do if we make it out alive?"
+ERIC: "What?"
+I think I know what she means, but I need to buy time.
+REBECCA: "When we're out of here. When everything's back to normal."
+ERIC: "I wonder if anything will ever be back to normal..."
+REBECCA: "You're going to keep running the fencing club, right?"
+ERIC: "Yeah."
+REBECCA: "Good. I'll look forward to it."
+ERIC: "Whatever it takes to keep motivated is fine by me."
+REBECCA: "I'm not just saying that to give myself a goal. I'm legitimately anticipating working together."
+ERIC: "And so am I, then."
+REBECCA: "Last year, what did you think of me then?"
+ERIC: "What did I think of you? We hardly knew each other."
+REBECCA: "I forgot you weren't the same last year."
+ERIC: "No, I just saw a team that I could probably captain. I thought Emmanuel did a pretty lousy job."
+REBECCA: "I wonder how he's doing."
+ERIC: "No idea..."
+REBECCA: "And you'll be gone next year. Hm, it's sad."
+ERIC: "What is?"
+REBECCA: "That despite spending most of last year in each others' company, we only really meet when we're trapped in a stairwell and starving to death."
+ERIC: "You make it sound depressing."
+REBECCA: "No, it's better than nothing. I'm happy. There's a quote to that effect, isn't there?"
+ERIC: "Better to have loved and lost than never to have loved at all. If that's not what you were thinking of than I'm more than mildly embarrassed."
+REBECCA: "Don't be. That's what I was thinking of as well."
+
+What is there to say? For a time, we both remain silent. I wish I could see her face right now. We sit only inches apart in the black landing. At this point, there isn't anything to lose. I put my arm around her first, and she responds in kind. As the evening passes on, we hold each other through the cold, looking for more than warmth in the other's embrace.
+
+There is something exquisite in tying your fate to that of another human being. We're completely alone now, with the outside world miles away. If this is our final resting place, at least we're not alone. Even in our isolation, I hate to imagine being trapped here with only my thoughts for company. I could never make it. Even if our hope is fading fast, we are not alone. We are not alone.
+
+[goto s0062]

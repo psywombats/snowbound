@@ -1,0 +1,21 @@
+[s0022]
+[increment MAX]
+
+REBECCA: "Well, it's not like I'm getting much sleep anyway. What do I do? Just wait by the door?"
+MAX: "That would be the idea. Good night."
+REBECCA: "At least one of us can sleep well, then."
+
+I work my way towards the doorway in the darkened gym. After a few words with the current student sitting in front of the exit, he crawls back to his sleeping back and I take his position. It's really no different over here except there's no Maximilian to talk to. All I can do is wait for whenever Arya decides she's ready to act. It would be nice if Max hadn't signed on to be an accomplice to something overly stupid, but it could go either way.
+
+[enter ARYA B]
+[enter REBECCA D]
+ARYA: "Max?"
+REBECCA: "Oh, is that you, Arya?"
+ARYA: "You have a squeaky voice tonight, Max, better watch your health. There's been a change of plan. The door is a three-man job."
+REBECCA: "I'm not Max, I'm Rebecca. Max is asleep."
+ARYA: "Then you're in as well?"
+REBECCA: "In on what?"
+[hold]
+[branch TRIED_CATWALKS > 0]
+[true :: s0136]
+[false :: s0135]

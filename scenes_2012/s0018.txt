@@ -1,0 +1,40 @@
+[s0018]
+
+ERIC: "A plan is a plan, after all."
+SID: "That's the spirit. We'll help if you need it, but but how exactly were you planning to break those panes? I doubt it's just glass. Nothing's that simple."
+HENRY: "Ugh, you're right. Well, I'm going to try kicking it and we'll see what happens."
+
+Sid and I watch listen to a variety of thunking noises and hurried grunts. I wish there was enough light to watch the show.
+
+[enter SID B]
+[enter HENRY D]
+[enter ERIC A]
+SID: "What if we tried a battering ram or something? Then we'd be able to use all of our force."
+HENRY: "Does it look like I'm made of battering rams?"
+ERIC: "Could we use one of these tables?"
+HENRY: "Yes Eric, brilliant, let's pick up a table and hurl it, that'll work."
+I run my hand under one of the tables. They're all standard cafeteria-looking things with seats attached directly to the table.
+ERIC: "No, I mean, use its structure. You have to feel underneath here. There's a big metal plate with two poles running so it can support the weight of the people on the seats. If we take the top off, the steel should have some weight."
+SID: "I'll help separate it then."
+HENRY: "Fine. Hold it upright and I'll kick the top of the table off."
+ERIC: "Make sure you have your aim straight. I don't want my head kicked off in the dark."
+I guess he was dying to kick something. After three strikes, the top clatters off. By this time, the jazz ensemble is a captive audience.
+ERIC: "Okay. The seat supports are still on, but that shouldn't make a difference."
+HENRY: "Hey, you lot, lend a hand, here!"
+
+A few more anonymous ensemble members help Sid, Henry, and I lift up our makeshift ram. We take aim at the oversized pane to the left of the blocked exit. Henry yells and we build up speed before shattering the glass, but then, over the smashing noise...
+
+[enter SID B]
+[enter ERIC A]
+[enter HENRY D]
+SID: "What..."
+HENRY: "That's not snow out there! Damn!"
+The ram and the remains of the window lie on the floor. Even though we've managed to smash the glass, the ram only chips at the icy composition outside. I can't tell what it is, but I've never seen it before, especially not piled higher than the school.
+HENRY: "It's a step in the right direction. Shall we continue?"
+ERIC: "My arms are going to fall off if we try that much more."
+I'm still shaking from where the force ran through my arms.
+HENRY: "Weak. I'm going to find something I can use to dig through this.
+
+I admire his effort, but whatever that is out there is certainly solid. We won't be digging our way out so much as chipping. The rest of us are left with nothing to do but sit and wonder at the outside world, or else listen to Henry attack the outer ice wall with a ceramic chair top. It's not a pleasant noise.
+
+[goto s0157]

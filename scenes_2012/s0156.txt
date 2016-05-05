@@ -1,0 +1,29 @@
+[s0156]
+
+[enter ERIC D]
+[enter REBECCA B]
+ERIC: "She's through?"
+REBECCA: "Max took her. They're bringing her straight to Sophie."
+ERIC: "That's the best news I've heard in a while."
+REBECCA: "It's a shame Max couldn't stay to chat, though. He said he'll be back tomorrow night. Maybe that's when we should talk to him about trying to come back above ground."
+ERIC: "Should we head back to the lounge?"
+REBECCA: "Sure. I don't think I'll be able to sleep, so let's go through what Max gave us and work out what we should do tomorrow."
+
+The bag Max gave us is packed. There are four cans of pears in here as well as two water bottles. What surprises me is that Max also included a pack of playing cards, several pens, and for some reason known only to him, seven pairs of shoelaces.
+
+[enter ERIC B]
+[enter REBECCA D]
+[enter SID A]
+ERIC: "Shoelaces? Is that a joke?"
+REBECCA: "How should I know?"
+ERIC: "Where did he even get them?"
+REBECCA: "Maybe he thinks they're survival material or something. It remains a mystery."
+SID: "Are these the supplies?"
+ERIC: "Yep. I don't know about you, but I'm hungry."
+[enter CAIT E]
+CAIT: "Did you say you've got food?"
+ERIC: Four cans of pears. What do you say we open one or two of them tonight?"
+
+Of course no one objects. By the light of a candle, we enjoy the canned fruit. Any other day I probably would've thought the pears disgusting, but tonight it's almost a gourmet meal. We're all in good spirits on the news that Lyra is safe and we can eat for a few more days, and even Cait seems to be back to normalcy. As we've already lit the candle, we stay up a little longer and talk about anything but the snow.
+
+[goto s0159]

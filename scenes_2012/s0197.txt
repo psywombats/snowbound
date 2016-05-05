@@ -1,0 +1,96 @@
+[s0197]
+
+[date]
+December 11th, Day 1
+
+'...and 9 to 17 inches of snow expected overnight in the Valdez area, and whiteout warnings reported for Cordova, Anchorage and the entire south-central region. Stay tuned for more weather alerts from KEC43...'
+
+REBECCA: "Damn it. I don't want to walk home in the snow."
+SOPHIE: "Is that a radio?"
+REBECCA: "No, a cell phone, but it doubles as a radio if you find the right radio websites."
+SOPHIE: "You probably know you're not allowed to have those in here, and it's really not worth the effort to tell you off..."
+REBECCA: "It's not my phone. Max lent it to me."
+SOPHIE: "Why is it always Max that instigates these things? What're you using it for anyway?"
+REBECCA: "For once Max wasn't lying when he said there'd be a blizzard."
+SOPHIE: "Only 9 inches of snow, though. It'll all be gone by Monday anyway, so there's really no hope of any more snow days."
+REBECCA: "But there was a whiteout warning. How long does that last?"
+SOPHIE: "Are you sure? Let me listen to this."
+
+Sophie and I are sitting in the back of the main hall of the St. Magnus Academy for Young Researchers. It's my only study this week in an otherwise hellish schedule. There are advantages to attending the top-ranked sciences high school in the country, but being surrounded by much more intelligent people is a bit of a drawback. I should be reading this tome in front of me, but Sophie and I stay fixed on the phone radio.
+
+SOPHIE: "Are you still a part of that fencing team?"
+That's nostalgic.
+REBECCA: "Nope, that team's long gone. The captain graduated last year."
+SOPHIE: "Well if it still existed, this would be the first meeting day. And the meeting would be canceled."
+REBECCA: "Probably."
+SOPHIE: "I guess it's not surprising that no one decided to continue the team this year. You guys never stood a chance of earning credit."
+
+Ah, the infamous credit system of the St. Magnus Academy. All of the extracurricular programs here count towards class rank. The school has a reputation to uphold, so we're incentivized to win on the rare occasions we make it out of the wilderness to an athletic or musical competition. Who would want to captain a team that stood no chance of earning credit?
+
+MAX: "Hey, how's it going?"
+I was wondering how long it'd take him to show up.
+REBECCA: "Max! I checked the weather station and it looks like there's at least a foot of snow on the way, plus whiteout conditions. You were right for once."
+SOPHIE: "What're you doing here? Aren't you supposed to be in linear algebra?"
+MAX: "I left as soon as the problem set was assigned. Everyone's too busy falling over themselves about the snow to care anyway."
+SOPHIE: "Hmph."
+And now it's about to start. The Max-Sophie cycle of abuse never ceases to irritate me.
+MAX: "If I can keep the grades, there's nothing wrong with it."
+SOPHIE: "I doubt someone like you is exactly at the top of the class."
+MAX: "Maybe I am. Maybe you're jealous."
+SOPHIE: "Fine, fine. I'll go sit somewhere else."
+MAX: "What's with her?"
+REBECCA: "Don't play dumb. It really doesn't suit you."
+MAX: "Ah well, she's boring to be around anyway."
+REBECCA: "Are you really at the top of the class, though?"
+MAX: "Me?"
+REBECCA: "That's quite a suspicious look on your face."
+
+It's another inevitable part of the St. Magnus culture. The valedictorian here practically has their choice of any university in the country. The competition among the top-tier students is insane, so I doubt Max would be able to keep a secret like that. Then again, it's common practice to hide one's grades. I remember that notebook I used to keep freshman year, back when I still thought I was smart... Now, two years later, I realize I never stood a chance.
+
+MAX: "Nope, not me. I'm a horrible student and I don't know why they let me in here."
+REBECCA: "You're in linear algebra a year early, and you're taking that analysis class as well. You're not dumb."
+MAX: "Sometimes I wonder."
+
+Maximilian Wolf is certainly not dumb. He's been a mystery since I met him freshman year, but I never thought he was stupid. He puts on a show, but his math skills are about five years above mine. I figure most people out after talking to them for a while, but never Max. Maybe that's why I tolerate him.
+
+MAX: "Snap out of it, my dear. The weather's back on."
+REBECCA: "Don't call me 'my dear.' You know that's annoying."
+MAX: "Then I insist that you call me 'Maximilian' from now on."
+REBECCA: "I'm not going to call you - "
+MAX: "Shh, the radio's on." 
+
+'...again, whiteout warnings issued for north of Cordova all the way north to - '
+
+MAX: "Did you turn it off?"
+REBECCA: "No, of course not. It just shut off. Did it lose signal or something?"
+MAX: "It must've been the fairies."
+REBECCA: "Funny. You're not concerned about this at all?"
+MAX: "Not really. Fairies are an everyday occurrence that we must all learn to embrace."
+REBECCA: "Stop it, this could be serious."
+MAX: "You need to calm bit. Are you stressed, my dear?"
+REBECCA: "Forget it."
+
+He sighs. I swear I'm not usually on edge like this, but something seems off today. Most storms are just an inconvenience, an extra obstacle in the half mile to the dorms building. Max jokes that every storm's a blizzard, but I wish he would take me seriously. Or maybe he does and I just can't tell.
+
+It's 4 o'clock, not that the night outside ever changes. I can see the first flakes in the lamps that light the entry road. Whatever chatter in the hall is all about the weekend, never mind the snow. A few students are even leaving already. Sophie is sulking over at the far end, and as I look around the room for Max, I spy someone who doesn't belong.
+
+ERIC: "Rebecca?"
+Eric Larsen: senior, contender for valedictorian, and a former teammate on the old fencing team.
+REBECCA: "Eric, what're you here about?"
+If he's trying to be top of the class, I wouldn't think he's in a study period, and even less likely to skip.
+ERIC: "Are you coming to the fencing meeting this afternoon?"
+REBECCA: "Eric, Emmanuel graduated, remember? There's no captain. We're over."
+ERIC: "I'm the senior on the team now. I'm captain."
+REBECCA: "We don't even have enough members for a team. Emmanuel graduated, Max is probably too lazy to do it again, and Marisa quit at the end of last year. Are you going to win them back or something?"
+ERIC: "Marisa's long gone, but it doesn't matter. We're recruiting, and I put up some fliers. Sid's joining this year as well."
+SID: "Hey."
+I don't know him, except that he showed up to watch practice once or twice last year.
+REBECCA: "Look, Eric, we were the most dysfunctional team ever. All we did was play around and we were demolished at the state tournament."
+ERIC: "But did you enjoy yourself?"
+REBECCA: "Yeah, but that's not the point. We're never going to turn into a competitive team in one year. There's no way you're going to earn any credit from being our captain."
+ERIC: "That's not... I don't intend... Never mind, just tell me if you'll come to the first meeting, at least."
+
+[choice]
+[I'll be there :: s0198]
+[We'll see... :: s0200]
+[This is a horrible idea. :: s0199]

@@ -1,0 +1,27 @@
+[s0118]
+
+REBECCA: "No, I don't know who did it."
+Time to distract him.
+REBECCA: "Sophie's probably down there now doing the best she can for Pete, so why don't we try to keep the rest of the students from going downstairs?"
+KENNETH: "I guess you're right."
+
+One or two more students are a few feet behind Kenneth, trying to get a look past me. It doesn't take much effort from Kenneth to convince them to clear off. I'm trying to decide whether or not to stand guard at the fire door when I hear a set of footsteps.
+
+[enter KENNETH D]
+[enter REBECCA B]
+KENNETH: "Can you see who that is?"
+REBECCA: "No. You stay here."
+[exit KENNETH]
+I take a few steps into the stairwell.
+REBECCA: "Hello?"
+[enter CAIT E]
+CAIT: "Rebecca?"
+Cait's voice calls from the third floor landing.
+[enter SHIBIN A]
+SHIBIN: "Rebecca?"
+...and Shibin runs up from the basement.
+SHIBIN: "There's the culprit! Don't let her get away!"
+
+Before I know it, Arya and Shibin are on top of Caitlyn. There's nothing I can do for her any more. Who could it have been but her? I walk past the horrorstruck Kenneth and back to the hall. Now the only question is what Shibin will do to her.
+
+[goto s0049]

@@ -1,0 +1,55 @@
+[s0042]
+
+As it turns out, Kenneth let Cait get away with a warning. I don't know where Pete vanished off to, but he'd better look out. I sit with Sophie and Max and think about the sunrise that would be occurring right about now if the glass weren't completely obscured. Could it still be snowing out or is there actually something out there? Somewhere along the way, Kenneth and Shibin dispatch a group of students to force open the door by the loading bay. It's a futile effort.
+
+[enter SOPHE E]
+[enter MAX B]
+SOPHIE: "I knew it would never work. We're trapped here forever, aren't we?"
+MAX: "Of course it wouldn't work. I could tell you that, everything probably froze out there. But forever is a long time. If you want to give up trying to escape, there's a nice corner over there you can go and cry in."
+[enter REBECCA D]
+REBECCA: "Max, at least pretend that you're a friendly person. Just until this is over, okay?"
+SOPHIE: "I don't mind. I wouldn't want to trouble him."
+MAX: "That's what makes you so uninteresting. Why don't you tell me to stuff it?"
+SOPHIE: "You're probably right about our situation, though."
+MAX: "That doesn't mean you shouldn't argue with me about it. Ah, you're a lost cause."
+[enter CAIT A]
+CAIT: "Have you seen Pete?"
+REBECCA: "He's not here."
+MAX: "I'll let you know if I see him. Someone needs to teach him a lesson."
+CAIT: "Thanks."
+SOPHIE: "What do you intend to do?"
+CAIT: "Just give him a hug. Nothing wrong with that, is there?"
+More likely, she'll knock out a few teeth and menace him with her knife.
+REBECCA: "Just leave us out of it, okay?"
+[exit CAIT]
+REBECCA: "Max, Pete can't pick locks if Cait chops off his fingers or something."
+MAX: "You have a fair point. But that's your concern, Miss Intelligence Officer. If you want something out of your subordinate, you better get it fast. Look, here he comes."
+Sure enough, Pete emerges from a sleeping bag about ten feet away.
+[enter PETE A]
+[exit SOPHIE]
+PETE: "I heard that witch and woke up. What's going on?"
+REBECCA: "We're going. It's time to pick some locks."
+PETE: "All right!"
+He jumps out and pokes at the reclined Maximilian.
+PETE: "Aren't you coming?"
+MAX: "My motivation sort of fades when it's for official business. You two have fun without me, okay?"
+[exit MAX]
+REBECCA: "Suit yourself."
+
+I check in with Kenneth to receive a phone from Shibin, and we head back into the corridor. It's strange to be in such a familiar yet unfamiliar place. With only our feeble light, the school feels like some alternate dimension. 
+
+[enter PETE B]
+[enter REBECCA D]
+PETE: "Which lock am I going to pick?"
+REBECCA: "The kitchen, unless you want to eat canned pears for the third meal in a row. Let's keep going before Cait sees you. I'd rather not have to get between you two."
+Hopefully Cait is searching the locker rooms now. I don't think she'll come into the main hall because the door guard would tell Kenneth, but I'll keep watch just in case.
+PETE: "The kitchen's boring. Isn't there anything else to pick?"
+REBECCA: "Nothing useful, anyway."
+PETE: "Well, I'll do the kitchen later then. Let's explore somewhere else."
+REBECCA: "Wait..."
+[hold]
+
+[choice]
+[No, we're going to the kitchen :: s0109]
+[Go to the south stairwell :: s0010]
+[Go to the catwalk door :: s0104]

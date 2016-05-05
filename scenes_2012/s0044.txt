@@ -1,0 +1,10 @@
+[s0044]
+[increment MARISA]
+
+MARISA: "No..."
+[hold]
+
+[choice]
+[And you used me. :: s0014]
+[And I thought I loved you. :: s0115]
+[And now I'll never reach my goal :: s0014]

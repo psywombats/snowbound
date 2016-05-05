@@ -1,0 +1,41 @@
+[s0170]
+
+ERIC: "Felix, just say what you're here to say."
+REBECCA: "You can't really blame someone for getting mad at you after you trap them in a stairwell."
+FELIX: "Fine, fine. The young lady has a point. What's your name, anyway?"
+REBECCA: "Rebecca Bell. And I already know both of you. Or at least, I've heard enough about you."
+FELIX: "It's good to know I still have a reputation. But that's not why I'm here."
+ERIC: "Get on with it."
+FELIX: "I was going to offer you a spot in my circle, but it doesn't look like you're up to it."
+ERIC: "Your circle?"
+FELIX: "I'm gathering the survivors, Eric. My group will be the ones who live."
+ERIC: "Is this different than the debate team?"
+HENRY: "Very different."
+FELIX: "I've found a solution to our problem, Eric. It's been a week already, so we have to assume that rescue is never going to come. We have to winter here. Spring will be our only chance of escape."
+REBECCA: "Then we're dead."
+FELIX: "There will be casualties. There will be a lot of casualties, I'm afraid. I don't intend to be one of them. If you were smart and you were on my side, you won't be one of them either."
+ERIC: "You wouldn't... You're going to steal all the gym supplies, aren't you?"
+FELIX: "That amount of food and water should last a group of three or four all winter, shouldn't it? I'm glad you understand. But you also have to understand that you'll never be one of those three or four."
+ERIC: "So now what are you going to do?"
+FELIX: "Now I'm going to leave you in here. Maybe someone else will find a use for you, or maybe I'll need your services in the future. Until then, goodbye Eric."
+ERIC: "Wait!"
+
+I make a dive for the door, but for the third time, Henry pushes me to the floor. By the time I stand, the opening is only a crack. All I can do is stand and watch. A whisper reaches us through the fire door.
+
+[enter HENRY B]
+[enter ERIC D]
+HENRY: "Sorry to have to keep knocking you around, Eric, but you really didn't give me a choice."
+[exit HENRY]
+A few footsteps echo beyond the door, but after that, the room is just as silent as when they entered. I turn back to Rebecca.
+[enter REBECCA A]
+ERIC: "Damn."
+REBECCA: "That was our chance, wasn't it? Was that the last shot?"
+ERIC: "No. There'll be others, and less nasty than that. Felix is insane."
+REBECCA: "If you think of it, in a way, he's the sanest. He's doing what he has to do to get out of here alive."
+ERIC: "Do you think that I could take his offer in good conscience? How could anyone decide that their own life is worth more than forty other students' lives?"
+REBECCA: "You're right. I couldn't do it either, but I see how he thinks now, and I know that's not what I think. We're different than that, Eric."
+ERIC: "It's tempting though... What wouldn't you give to have us two escape?"
+REBECCA: "Maybe that's our sacrifice. Maybe with us out of the way, all the others will make it out."
+ERIC: "With Felix on the loose, I doubt it. We need to get out."
+
+[goto s0172]

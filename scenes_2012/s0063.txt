@@ -1,0 +1,105 @@
+[s0063]
+
+I wake up wrapped up in Eric again. Sometimes I wonder if we do this out of necessity or affection. I'd like to think it's the latter, but maybe I'm reading too far into this. Maybe we are just two students who found themselves caught in a staircase together with no connection at all. As much as I want to think otherwise, maybe Eric feels that way...
+
+Rising, I search the backpack in the morning light. Of course, there's nothing there. All we have is the aspirin meant for Lyra. I wonder how everyone's doing out there. Maybe Pete stabbed Cait in revenge. Maybe Lyra died of her fever two nights ago. Maybe Max jumped from the catwalks and broke his neck escaping from Shibin. The school outside the south stairs might be very different from the one we left. Today is the day we have to face it.
+
+Despite the fact that he had the last filing shift last night, Eric resumes cutting the bolt. I'm left to sit on the stairs and contend with my hunger. We just ate last night; why am I so hungry? It doesn't matter. I watch the light through the snow outside. Now, I lack the energy to try to open the door against the resistance.
+
+[enter REBECCA B]
+[enter ERIC D]
+REBECCA: "How's it going?"
+ERIC: "Alright. It's cold this morning, though."
+REBECCA: "It's always cold in the morning."
+Isn't it ironic that the nights are warm... I sit for a few more minutes, but my thoughts are interrupted by a horrible snap.
+ERIC: "Damn. We're dead."
+REBECCA: "Was that the knife?"
+ERIC: "The multitool broke. Snapped straight in half."
+REBECCA: "You mean... No, was it that quick?"
+ERIC: "So much for that. It was a nice try, but I guess we're done."
+[hold]
+
+Eric sits down next to me. I try not to give up, to at least appear not to mind so much, but it feels like by insides just fell out. There isn't a single thing we can do anymore. I bury my head in my hands and listen to Eric next to me.
+
+ERIC: "Are you alright?"
+REBECCA: "Are you?"
+ERIC: "I'm should have never gotten your hopes up. I'm sorry. I didn't think we'd end up like this."
+REBECCA: "Don't apologize. I would've broken down much earlier if I thought we had days to spend here. How long before we die in here?"
+ERIC: "I don't know. I've heard humans can go for a long time without food, but we have no water."
+REBECCA: "I won't put up a fight any more then. I'm done."
+[hold]
+
+When did I start crying? This is the worst possible time. Now Eric will be all depressed along with me. I don't care anymore. There are only a few things I can do in this stairwell, and indulge my petty emotions is one of them.
+
+REBECCA: "Sorry. You don't have to hold me if you don't want."
+ERIC: "Don't worry about it."
+I guess I could've anticipated that.
+
+My breathing is hard and ragged. There really is nothing left to do now. We sit on the stairs up to the second floor. I hold his left hand in my right. I'm holding on with what little strength I have left. What else am I saving it for? At least I'll end my life with someone I trust. I'm sure it's better than the ends most of them will meet out there. 
+
+I drift in and out of a doze as the afternoon staggers by. The room is cold and the atmosphere is sharp, but the body next to me is warm. We have no shame now. Neither of us dare to hope that we could somehow join the rest of the school, let alone the outside world. Everyone else seems so alien now. Has it really been less than ten days? Maybe my life is slowing down as it draws to a close. The chill of the snow is making me lose track of everything.
+
+The banging sounds wake me up. At first I think I must be hallucinating again, but they occur at regular intervals, every twenty seconds. Eric beside me makes no attempt to rise. It appears to be early evening. Only the last traces of light fall through the solidly shut exit door.
+
+[enter ERIC B]
+[enter REBECCA D]
+ERIC: "You hear it too?"
+REBECCA: "It would be pretty hard to miss."
+ERIC: "I thought you were asleep."
+REBECCA: "I was. It would also be hard to sleep through that."
+ERIC: "It must be the ram Cait was talking about. I guess they've decided to use it."
+REBECCA: "It must be hell out there."
+ERIC: "It might soon be hell in here."
+REBECCA: "We have days left before we starve here."
+ERIC: "I suppose."
+[hold]
+
+We stare at our fire door. Maybe, just maybe someone will stumble by and open that door. Would that be salvation? Or would that plunge us right back into just as much trouble as before? And who is left to free us.
+
+Both of us stare in disbelief. Someone small tumbles through the fire door in front of us. Before I can even react, Eric jumps up and holds the door. I'm still too stunned to move. The door is... open? Is that even possible? Am I dreaming again?
+
+REBECCA: "Lyra?"
+[exit REBECCA]
+[exit ERIC]
+[enter ERIC A]
+[enter REBECCA E]
+[enter LYRA C]
+LYRA: "Hello Rebecca."
+She speaks with a weak voice and coughs as she trails off.
+ERIC: "Is this real? Lyra, you're a savior. We can't thank you enough."
+LYRA: "Hi, Eric. I didn't notice you. But I guess you must be up here, right, or else with Felix. Yeah, you should be with Felix, silly..."
+She coughs again.
+REBECCA: "Lyra, are you alright?"
+LYRA: "Just a little sick."
+I'm starting to wake up. This is no dream.
+REBECCA: "Eric, hold the door and make sure there's no one out there. Lyra, come here. Let me take your temperature."
+They both comply. Lyra's temperature is very high but her body is unnaturally cold. In my mixed elation and concern I give the smaller girl a large hug.
+LYRA: "You're warm."
+REBECCA: "And you're freezing to death. Where's Sid? Didn't he look after you?"
+LYRA: "I think that Arya Martin called him away on something. I'm not sure if he had a choice or not. And after that, I just wandered off."
+ERIC: "Where have you been up to now?"
+LYRA: "The basements maybe? I don't remember. It was dark... and cold."
+I feel her wheezing in my arms. This girl is not in good shape.
+REBECCA: "Here, Max gave us aspirin for you. Maybe it'll help your fever a bit."
+LYRA: "Max? Maximilian Wolf? I think I've heard people talking about him... Isn't that odd?"
+REBECCA: "I'm just glad Max didn't have his neck broken by Shibin. Have you heard anything from anyone else?"
+LYRA: "Who else is there? Everyone's been so distant. I don't remember much."
+ERIC: "Rebecca, I don't think she's all there. Let's let her rest."
+REBECCA: "We need to find somewhere safe to rest. This stairwell won't do, and we'd be stuck if the door shut again."
+ERIC: "Right. Let's get out of here, anyway."
+
+It's a depressingly easy move. Eric grabs the backpack containing the empty cans and bottles, broken knife, and bottle of aspirin. I half-carry Lyra out the door that Eric holds open. He takes a can out of the bag and places between the door and the wall, preventing it from closing completely. We're now stuck in the virtually black main hall.
+
+[enter REBECCA B]
+[enter ERIC D]
+REBECCA: "Eric, what now?"
+ERIC: "I need to find Felix and you need to find Kenneth. That's what we're meant to do, isn't it?"
+REBECCA: "But so much has changed. We have Lyra, and that noise coming from the gym..."
+But the noise has stopped. The rhythmic slamming sound has vanished.
+REBECCA: "Let's stick together. You don't mind, right?"
+ERIC: "You hardly need to ask that. Okay, where to?"
+[hold]
+
+[choice]
+[Find Max :: s0030]
+[Find Sophie :: s0176]

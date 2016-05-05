@@ -1,0 +1,7 @@
+[s0040]
+[decrement KENNETH]
+
+REBECCA: "No reason to tell him, actually."
+CAIT: "I didn't think so. Okay, shall we be moving along then?
+
+[goto s0038]

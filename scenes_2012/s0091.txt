@@ -1,0 +1,70 @@
+[s0091]
+
+[enter KENNETH C]
+KENNETH: "Listen up. It's 10 o'clock. We're going to shut the laptop in a few minutes, so that means no more light. We have about ten hours of battery life spread across four machines, so we don't want to waste it. Then at 11:30, we're suspending conversations until the morning. If no one has come for us by then, we'll have to use more of the food. I think we should be free by early tomorrow."
+MAX: "You keep thinking that, pal..."
+...though I Max doesn't say that very loudly.
+
+[enter SOPHIE C]
+SOPHIE: "Mind if I lay down?"
+Just before the laptop turns off, Sophie pulls over a sleeping bag.
+[enter MAX A]
+[enter REBECCA B]
+MAX: "Hi, Sophie. Nice to see you on a lovely night like this."
+He's lying on his back, watching the blank skylights.
+SOPHIE: "Sorry, I didn't see you Max."
+REBECCA: "Hello, Sophie. Ignore Maximilian. He turns petulant when the moon comes up, apparently."
+MAX: "You're too kind. I'm petulant all the time."
+
+No one seems too interested in talking. Max continues to gaze upwards, hands beneath his head. Sophie has her sleeping bag ruffled around herself as she hugs her knees. I sit cross-legged, watching the other circles of students murmur to each other. In this large space, even whispers echo. By now, I'm tired now. It must be 11:30. I can hear Cait tripping over peoples' feet and ordering them to stop talking. Without the light of the laptop, I can't see two feet in front of me.
+
+[enter MAX B]
+[enter REBECCA C]
+[enter SOPHIE A]
+MAX: "What does Cait think she's going? Is this some kind of boot camp?"
+REBECCA: "I've known her a while. She's just enjoying herself. Let's indulge her."
+MAX: "You toy with peoples' idiosyncrasies way too much. And I'm not much in the mood to tolerate some random underclassman telling me it's bedtime."
+SOPHIE: "But what can you do?"
+MAX: "In the grand tradition of Thoreau and Gandhi, I will adopt passive resistance."
+[enter CAIT E]
+CAIT: "What are you babbling about? It's 11:30 if you haven't noticed. Be quiet."
+MAX: "Cait! Haven't you realized? It's 11:30! You can't be talking now!"
+CAIT: "That's what I'm telling you."
+MAX: "You seem to be confused about who's telling whom here."
+CAIT: "Do you want me to hurt you?"
+MAX: "That would certainly be interesting."
+And he says I toy with people too much? And how is this passive resistance?
+CAIT: "You'd probably enjoy it, wouldn't you?"
+MAX: "I love discipline."
+CAIT: "Alright, that's just wrong. Shut up."
+MAX: "I shall."
+[exit CAIT]
+Cait starts to walk back towards Shibin and Kenneth.
+MAX: "Please continue to enforce discipline on the other students for me, dear Caitlyn!"
+She looks like she's about to change her mind about hurting Max, but I hear a ruckus by the door and then movement by my feet.
+PETE: "Hi hi, I need a sleeping bag, and also the door guard wants a break. Hey, is there anything to drink?"
+CAIT: "Would you be quiet? What is with you people? This is impossible."
+Max's laughter doesn't help the situation.
+
+Between Pete's antics and Shibin's resolve, Pete ends up without a sleeping bag for tonight. He certainly looks cold. He's scrawny, even for a freshman.
+
+[enter SOPHIE B]
+[enter PETE D]
+[enter REBECCA A]
+SOPHIE: "Here, you can have this. I won't be needing it."
+PETE: "You're giving me your bag? Hey thanks."
+Without further ado, he curls into a ball.
+REBECCA: "What are you going to do?"
+SOPHIE: "Maybe I'll guard the door. I doubt I'll be able to sleep anyway. I have a bad feeling about this."
+REBECCA: "Just like Max, huh?"
+[enter MAX E]
+MAX: "Except I'm sensible enough to get some rest instead of drowning in self-pity."
+His voice is muffled by the sleeping bag.
+[exit MAX]
+SOPHIE: "You're useless. At least I try to help."
+[exit SOPHIE]
+I lose track of her in the darkness.
+
+For my part, I try to sleep. I don't have many other options. Unlike Max, I realize that there is a dangerous side to Cait and I'd rather not needlessly antagonize her. Before I drift off, my thoughts wander to the other students in the building. They don't have food, sleeping bags, laptops, or any of the essentials we've scavenged for ourselves... I hope Eric's okay.
+
+[goto s0039]

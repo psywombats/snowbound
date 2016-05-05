@@ -1,0 +1,44 @@
+[s0100]
+[increment MARISA]
+
+The tension is palpable, but I hold my ground. I'll listen to her.
+
+But Marisa is silent. For minute after minute, we sit next to each other, staring at that gray rectangle that is the exit to the entrance hall. I'm wondering at what point I'm supposed to leave when she finally breaks the silence.
+
+[enter ERIC B]
+[enter MARISA D]
+MARISA: "Eric, what would happen to you if I had never existed?"
+ERIC: "If you were never here in the first place?"
+MARISA: "If we had never met, would you be the valedictorian right now?"
+It's very likely. It's only my modesty that keeps me from replying.
+MARISA: "We both know you would be. But, Eric, that's the thing..."
+ERIC: "What are you getting at?"
+MARISA: "Would you be happy?"
+ERIC: "I don't know, Marisa, I don't know. Ever since first year I've wanted to be the top of the class. Isn't that what we're all supposed to aim for? Isn't that what you're aiming for, even now?"
+MARISA: "Eric, I just want to be happy. I don't how happy a stupid title could give me that, or give it to anyone."
+ERIC: "There's no knowing until it's yours."
+MARISA: "Have you ever stopped to wonder what other goals you've left aside?"
+ERIC: "I never had time for that."
+Or did I never have them in the first place?
+MARISA: "Strange. I've always had time for that. Every hour of every class that I didn't want to take, I was always thinking where I could've been. What could we have been, Eric?"
+ERIC: "There's a fine line between philosophy and pseudo-intellectual bullshit. I'd rather not spend my time muddling around with the definition."
+MARISA: "You never change, do you Eric?"
+ERIC: "I'm no judge of that. I think it's time I left."
+MARISA: "I guess neither of us really changed, did we?"
+ERIC: "I don't know."
+I work my way off the stage.
+ERIC: "I've never heard you say any of this before."
+MARISA: "Eric, I knew you'd hate that about me. I was never who you thought I was."
+ERIC: "I'm not sure if it's for the same reasons that you think, but it's certainly true. I don't know you."
+
+The stairs up to the entrance hall aren't long, and before I know it, I'm back with Sid at the doorway. I stand a few minutes, dazzled even in the dim light from the windows before Sid accompanies me back to the usual table.
+
+[enter SID B]
+[enter ERIC D]
+SID: "That took a while. Did she keep you?"
+ERIC: "She's being weird. I think I would've gotten a headache if I had kept that up... I'd rather not talk about it."
+SID: "Fine."
+But I know he's staring back at the auditorium. And staring and staring. I guess at this point there's no helping it.
+[hold]
+
+[goto s0099]

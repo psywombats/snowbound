@@ -1,0 +1,20 @@
+[s0206]
+[increment MAX]
+
+REBECCA: "You're right. I'll come with you."
+MAX: "You're a great chum, Rebecca."
+That doesn't even warrant a response.
+
+We exit the gym, almost tripping over Kenneth's guard. Luckily the walk to the pool is short. Max and I both sit down outside the door. Even though there's a window, it's impossible to see anything through it.
+
+[enter MAX B]
+[enter REBECCA D]
+MAX: "Man, it's uncomfortable sitting cross-legged on a cold floor like this. How long have we been here?"
+REBECCA: "Ten minutes, max."
+MAX: "Guarding is hard work."
+REBECCA: "We should probably do something."
+But not that I've said anything, of course Max refuses to act.
+
+I rap twice on the glass. Within seconds, two knocks respond. It looks they have someone on the other side of the door as well. I'd like to think my presence is making a difference then, if even a small one. They must have it pretty bad in there. Any phones or laptops that they could use to generate light are probably in the locker room. That reminds me... Someone with a phone or flashlight should probably check the locker rooms. Or maybe Pete is down there. What happened to him?
+
+[goto s0087]

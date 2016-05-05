@@ -1,0 +1,64 @@
+[s0067]
+
+[date]
+Monday, November 21st: Day 11
+
+When I wake up, the light outside has yet to arrive. The gymnasium is still as dark as last night. I sit up. Around me, no one is moving. The only noise is the muffled conversation of the two guards. I stand up and stretch. Is there anything I need to do today? I don't think so. Even so, I feel the adrenaline if I so much as think about tonight's schedule. That's right, I need to tell Max about the open fire door. 
+
+Where is Max, anyway? I watch the muffled sunrise through the school's snowy shell, but even when the light appears, I don't spot him amongst the sleeping bodies. I'll have to ask the door guards where he went. However, as I stand up to walk to the door, one of the students opens the door and Maximilian himself walks in. I make my way over to him.
+
+[enter MAX B]
+[enter REBECCA D]
+MAX: "Rebecca, how's it going? I never got to say good night. What happened to you?"
+REBECCA: "I spent a long time with Sophie."
+I need to think of some way to tell him to circle around without arousing his suspicion... Maybe honesty is the best policy.
+REBECCA: "I also ran into Eric Larsen."
+MAX: "Somehow I guessed. Has Felix taken him back into the fold?"
+REBECCA: "I don't think so. He's apparently working from within to destroy Felix. He opened the basement fire door on the south stairs. They're planning a midnight strike. If you send a brigade of students around through the student lounge, you'll be able to trap them on the catwalks."
+MAX: "That sounds oddly like a trap."
+Damn.
+MAX: "Did Eric really expect me to believe that?"
+REBECCA: "He didn't tell me to tell you. He just told me he opened the door in case it might help me in the future. I'm the one who's telling you. I'm not sure if he ever intended for you to hear or not. But this is a chance you can't just let go."
+MAX: "I know... I'll have someone scout it, and if the information is sound, we'll have to start planning the ambush. Even if something's not right, we know the time of their attack. That alone should be enough to foil it."
+I think there's another part of this plan I have to take responsibility for...
+REBECCA: "How's Kenneth doing?"
+MAX: "Him? He's still out of it. I don't know what's with him. He hardly has to do anything, the rest of the students adore him, and yet he's still acting like someone's geriatric grandmother."
+REBECCA: "Maybe letting him help plan would help him out."
+MAX: "Like he could plan anything. Let's be serious."
+REBECCA: "Fine. Bring him on the ambush, then."
+MAX: "It'll be good to have him by my side to command the students anyway. I won't neglect to. I probably would've done that without your reminder, but thanks anyway."
+REBECCA: "I do what I can. Let me know when you make up your mind about what to do tonight."
+MAX: "Got it. Stay safe, you hear?"
+
+I'm left on my own again. It's only mid-afternoon, but I'm still tense. This is about our only shot tonight. If something goes wrong, Eric and I could end up in a lot of danger. Max is going to be very irritated with us either way. If he doesn't end up sending students around to surround Felix, then Felix will take the gym and the rest of us will die. If Max refuses to offer himself as my ransom, then Eric, Felix and I will be trapped on the rafters. We're struggling to balance those two outcomes.
+
+Max is busy preparing the students for today's maneuvers. Standing around here all day won't help. I talk to the student in charge of food distribution and receive supplies for Sophie. I'll need to leave early for the rafter anyway, so I take this time to head out. The two door guards give me apprehensive glances, but I head out anyway. I won't be coming back in for a while. Crossing the hall, I enter the pool.
+
+[enter REBECCA B]
+REBECCA: "Sophie? Are you here?"
+In this light, I can't see all the way across the room.
+[enter SOPHIE D]
+SOPHIE: "I'm over here. Careful you don't fall in."
+REBECCA: "Hasn't the pool frozen over by now?"
+SOPHIE: "I haven't bothered to check."
+REBECCA: "Never mind. I've brought some food and water."
+[enter LYRA E]
+LYRA: "Food? Excellent. I'm famished. I thought maybe we were exiled here so we wouldn't eat any of their food..."
+SOPHIE: "No one's exiled us; I just decided to live out here."
+REBECCA: "Well, here you go."
+SOPHIE: "Thanks. What are you out here for? Just delivering?"
+REBECCA: "No, I have work to do tonight and I'm getting nervous."
+SOPHIE: "Why don't you stay here with us, then? It's very relaxing."
+REBECCA: "Sure. There's nothing else I have to do, and watching Max ordering everyone around puts me on edge. It's not like him."
+SOPHIE: "I take it this is what you and Eric were planning?"
+REBECCA: "Yeah... If it goes wrong, everything falls to pieces though."
+SOPHIE: "Are you sure it's worth the risk?"
+REBECCA: "I'm confident that there's a chance of success. As long as that chance exists, I'll take it."
+SOPHIE: "If you say."
+She grows quiet.
+
+I still feel the unease of the day, but sitting here with Sophie and Lyra is much more comforting than the cold bustle of the gymnasium. I wonder how Eric fares? He has to be able to convince Felix that he's worthy to help lead the attack, and do a bit of acting when he runs into me on the catwalks. If  Felix sees through Eric, Max will trap Eric and  Felix on the rafters. I don't think I could change his mind about that. In the end, there's nothing I can do here but sit and wait until the appointed hour. 
+
+Outside the glass walls, the sun sets. I continue to wait. There's nothing to do but go for it at this point. I say my goodbyes to Sophie and Lyra and exit the pool. I'll be very early, but I need to be on the catwalks before Eric and Felix arrive. If Felix didn't listen to Eric and decided to come earlier and they pass through without meeting be, everything would fall apart. Still, it's only a little past sunset. Maybe I should make sure Max is carrying through on the plan...
+
+[goto s0032]

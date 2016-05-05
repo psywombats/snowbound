@@ -1,0 +1,75 @@
+[s0126]
+
+MARILYN: "But everyone knows you, I guess. One of the big three around here. Top three in the class, anyway."
+ERIC: "It's just Felix now. He's won. I'm out of contention and Marisa is dead."
+MARILYN: "What?"
+ERIC: "I don't care who is valedictorian and I probably don't have the standings for it anyway. I'm sick of this system and I'm not going to hide that any more."
+MARILYN: "If you say so."
+But she seems unconvinced.
+
+We exit the catwalks through a gray door in the middle of the biology hallway. Marilyn holds the key and locks the door behind us. Felix leads the way with his flashlight down the corridor, one of the stage curtains folded and on his back. Sid and Henry each carry a palette of water. I have the other curtain draped over my shoulder. It's surprisingly heavy. As we walk, Sid drops back to walk with me.
+
+[enter SID B]
+[enter ERIC D]
+SID: "I heard that with Marilyn."
+ERIC: "Yeah?"
+SID: "You don't have to pretend just to impress me."
+ERIC: "I wasn't making that up."
+SID: "That makes happy then. Thank you."
+We return to walking.
+
+The group passes the door that separates the entrance hall from the biology hall. It feels strange to be on the other side after three days of confinement behind it, though as we enter the fire door to the north stairwell, it reminds me of something.
+
+[enter ERIC B]
+[enter FELIX D]
+ERIC: "Hey, did any of you hear weird music coming from around this area? We thought it was from somewhere in the biology hallway, but I guess not."
+FELIX: "We heard that too. It must be coming from the basements. We haven't thoroughly checked the biology classrooms, but it's possible that the cause is hiding there."
+He takes another big drink from one of the water bottles.
+FELIX: "I don't think it's especially important though. Let's get up to the staff lounge to get the others the water. And if you all had no food, you must be hungry."
+
+After our journey down the upper floor hallway, we come to the end of the corridor and take a left, through a windowless door and into the staff room.
+
+[enter FELIX C]
+FELIX: "We found more trapped students, everyone. They had a cache of water, and as such, we've invited them up here. We're working together from now on and sharing our supplies."
+
+It's a nice little area. In my five and a half years here, I've never seen the interior of this room. There's one student collapsed on a couch, and another lying on the floor. Four cushioned chairs line the walls in addition to another couch. However, all these cushions have been put together around the middle of the room. I follow after Felix and toss my stage curtain onto the pile. It certainly looks cozy in there, in contrast to the freezing temperature in the halls.
+
+With everyone inside, it feels a little cramped, but the warmth is reassuring. I sit on one of the de-cushioned chairs while Sid occupies the one next to me. Most of the other jazz ensemble members are busy with the granola bars while the two other debate members finish off their water bottles. I see Henry and Felix shaking hands in front of the door. Given the circumstances, I think we've made the best decision.
+
+[enter FELIX C]
+FELIX: "Alright, you're all free to move around and do what you want provided there are at least two students here to watch the supplies. We normally eat a dinner and a breakfast, and I suppose this counts as dinner. If you don't mind, please come back up here for the night. It's much warmer anyway."
+[enter MARILYN D]
+MARILYN: "And we'd be worried."
+FELIX: "By my count, we now have eleven people. And thanks again for the water."
+
+Amidst the chatter of acquaintances, Felix takes one of the chairs opposite Sid and me. He looks thoroughly exhausted. As he shuts off his flashlight, the filtered light from the four windows in the room provide barely enough illumination to see from one side of the room to the other.
+
+[enter SID A]
+[enter ERIC B]
+[enter FELIX D]
+SID: "Well, Felix, we still have one or two daylight hours left. How are you going to spend your time?"
+FELIX: "I don't know what the next move is. I made all my plans assuming rescue would have to arrive within two days, but it's been three. If I had the end condition wrong from the beginning, it was all worthless. Everything I'm doing now is just on instinct."
+ERIC: "You said you hadn't fully explored the biology hallway?"
+FELIX: "Most doors were locked. We could probably break the glass to unlock them, but we had the key to the catwalks, we figured checking the auditorium out first was a better move. Now that you say that we can't escape from the entrance hall, we're in trouble."
+ERIC: "Wait, what about the other door to the catwalks? If you can get to the catwalks from this side, couldn't you unlock the door on the other end and cross into the gym?"
+FELIX: "We could only find one of the two catwalk keys. It was right in the desk across the hall, actually, if you want to search again."
+ERIC: "I'll pass. We're running low on light sources."
+FELIX: "This flashlight has another few hours on it. These professors' desks were an invaluable source of supplies... Don't ask me what it is about the history department and granola bars though."
+SID: "We need to check the biology classrooms then. We can't risk overlooking some supplies."
+FELIX: "Fair point. But the choice is whether to do that today or tomorrow."
+SID: "If we don't want to have to use the flashlight, we'd have to act fast."
+FELIX: "Those halls are so dim we almost have to use it to get anywhere."
+SID: "It's not that necessary. Do any of your party have cell phones?"
+FELIX: "Marilyn's is dead. How about you?"
+SID: "I have a little life left on mine, but it's fading fast."
+FELIX: "Use it if you want. In my opinion, it's more prudent to wait until tomorrow. I'll let you be."
+[exit FELIX]
+ERIC: "Well, Sid, no one's keeping us here. We could check those rooms now if you wanted to."
+SID: "I don't know. That's awfully shrewd of Felix. He's fine with me wasting my phone's battery searching through those rooms, but he can't spare a bit from his flashlight."
+ERIC: "It's up to you."
+SID: "Normally I'd be all for it, but I don't know. What's your opinion, Eric?"
+[hold]
+
+[choice]
+[Go explore the biology hallway :: s0021]
+[Let Felix do it tomorrow :: s0130]

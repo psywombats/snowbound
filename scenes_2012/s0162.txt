@@ -1,0 +1,5 @@
+[s0162]
+
+She's probably off on her own crazy little mission anyway. Trying to run after her now would only cause a headache. If only I could get back to sleep...
+
+[goto s0161]

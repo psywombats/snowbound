@@ -1,0 +1,36 @@
+[s0134]
+
+REBECCA: "I don't know what you're trying to pull, Max, but find some other stooge to do your dirty work."
+MAX: "Someone's a little grumpy tonight."
+REBECCA: "Shh, people are trying to sleep."
+MAX: "Fine, fine."
+
+The sleeping bag rustles around as he rises, stretches, and wanders off towards the gym door. The minutes pass in silence. I constantly turn and shift and try to get comfortable in my bag, but nothing seems to work. Whenever I finally find a position where my skin isn't rubbing against the coarse material of the bag, I'm too far out and the cold prevents me from sleeping. At last, I manage to find a comfortable spot.
+
+Still, I don't manage to fall asleep. I keep wondering what's happening to Cait down in the basements. Did she give up? Is she plotting her revenge? Hell, maybe she'll never find anything to keep herself warm and she'll freeze to death by the end of the night. Half of me wants to leave this awful sleeping bag behind and head off to the south stairs to find her. It wouldn't be too hard, either. If Max is the door guard for tonight, wouldn't he just let me by? If I can't sleep anyway, it might be worth a try.
+
+But when I come to the exit to the gym hallway, there's no one in the guard's chair. Either the plan changed, or Max was lying to me in the first place. I'd rather not know. Instead, I continue past the empty checkpoint and down the hall. However, just as I turn the corner towards the stairs, someone calls out.
+
+[enter MAX D]
+MAX: "Hey! You can't be out here!"
+[enter REBECCA B]
+REBECCA: "Christ, Max, you didn't have to scare me like that."
+MAX: "Oh, it's just you, Rebecca. Arya, Pete, you can start up again."
+[enter PETE E]
+PETE: "Yeah, let's get back to work. I lost all my progress on the lock when you barged in!"
+[exit PETE]
+The voices are all coming from in front of the catwalk door. I take the three steps back to the intersection of the halls.
+[enter ARYA E]
+ARYA: "Wait, this is someone you know, Max?"
+MAX: "It's Rebecca. Don't worry, she won't turn us in. She just came to take over my shift."
+REBECCA: "What?"
+MAX: "Good night, everyone!"
+[exit MAX]
+REBECCA: "You can't just rope me in like that!"
+ARYA: "You, stay here. This is a three man job."
+REBECCA: "I'm not sure why I should help you."
+ARYA: "Because you won't be able to resist knowing what we're doing."
+
+It's true. Arya manages to convince me to take over Max's job. Apparently Arya stole Pete from Sophie's care to get him to open the lock on the catwalks. The issue is that with only one hand operable, it takes three people for him to work properly.
+
+[goto s0138]

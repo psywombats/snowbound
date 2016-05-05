@@ -1,0 +1,97 @@
+[s0001]
+
+[goto s0197]
+
+[skip] (defunct intro)
+
+[date]
+Thursday, November 10th: Day 0
+
+It's a day like any other. The bell is striking 7:00 over in Bournewell, but I'm headed down the road in the opposite direction, towards the coast. It's cold for November, even colder than the usual autumn on the cape. I'm not a fan.
+
+There are two types of morning students: those who arrive half an hour early, and those who arrive with half a minute to spare. I'm proud to belong to neither camp, and as I'm in the middle, there's hardly anyone on the road at this hour. But of course, the one student I'm looking for is right ahead of me.
+
+[enter REBECCA B]
+REBECCA: "Max! Over here!"
+And there he is, Maximilian.
+[enter MAX D]
+MAX: "Hello. You're cheery this morning."
+REBECCA: "It's a good day, if a little too cold."
+MAX: "You complain too much."
+REBECCA: "Didn't you just say I was cheerful?"
+MAX: "And now you're annoyed. You seem to have mood swings faster than I can keep track."
+REBECCA: "Was that sarcasm?"
+MAX: "No, for once it wasn't. But you're right, today's a cheerful day. Can't you just feel the special tingling in the air?"
+I glare at him.
+REBECCA: "It's too early for this. All I notice is that it's cold. Some of us just don't have the fairydust sense that you do, Max."
+MAX: "Please, my dear, call me Maximilian. 'Max' just rubs doesn't suit my dignified self."
+REBECCA: "If you had any dignity, you wouldn't go around calling me 'my dear,' you know."
+MAX: "Oh loosen up, my dear. It's too early, right?"
+
+He's the same as always. Maximilian Wolf. His so-called wit is ever present, and most of the time he's insufferable. I'm not quite sure why I bother knowing him, but he's never boring. My mornings wouldn't be complete without his pestering.
+
+We're here. This is the St. Magnus School for Math and Science, famous for attracting some of the most brilliant young minds from around the world. It's a boarding school for the supposed best and brightest. I don't quite buy that though; I'm attending here after all. Most of these people are geniuses in one way or another, and I'm just... Rebecca Bell. Next to these people, I'm nothing special.
+
+This is my fourth year here, meaning I'm an A-rank. I still have two years left though: next year as a junior, and finally the nightmare that is senior year... I can't say I'm looking forward to it. I remember when I first came here as a D-rank, right after the sixth grade. Back then, I couldn't wait. Now I'm not so sure.
+
+[enter MAX B]
+[enter REBECCA D]
+MAX: "Stop staring at the gate and come in. I know we don't have physics for another twenty minutes, but you're going to catch a cold."
+REBECCA: "Right. Let's go in."
+
+The early risers are already here. As I'm not a member of any of the groups forming around me in the entrance hall. I spend my mornings with Max and maybe some other student I know who happens to drop by, but I'm content to stay here and observe the rest of them.
+
+Having practiced in the morning, there are quite a few sports groups here. There's the track team in the corner. There are also the non-sports teams. This is the great St. Magnus School; there are no clubs, only teams. Clubs can't compete, so they're not welcome here. There's the math team, and debate as well. Most social groups revolve around one team or another. I'm a member of no team but archery, and archery isn't really a team at all.
+
+And of course, apart from the groups of students and far more alone than me are the select seniors gifted enough to be in contention for top of the class. No one comes near them as they sit and study. I've always thought maybe I'd like to be one of them, smart enough to become the master of this place, but I only get by on my hard work, not talent.
+
+[enter SID A]
+SID: "Hello."
+Hm. He's an archery team member, but one I don't know. He joined the team late last year, and only talked with one other member.
+[enter MAX D]
+[enter REBECCA E]
+MAX: "Hey, look who's here. Actually, I don't know who's here. Your name, good sir?"
+He looks a little flustered. I admire Max's ability to make even introductions awkward.
+SID: "Sid Wallace. B-year. I was on archery last year."
+MAX: "Right, I recognize you. Well, my name is Maximilian Wolf, and this charming lady is Rebecca Bell."
+He shakes Sid's hand.
+SID: "I just wanted to let someone know that I'll most likely be late to the first session today. If you can pass that on to Eric, I'd be grateful. I'm not sure I'll see him today."
+MAX: "No problem, I'll let Eric know myself."
+[exit SID]
+And Sid walks away.
+MAX: "Have a good day? There goes a strange child. Eh, pretty boring."
+REBECCA: "I don't know. It's hard to tell."
+
+Sid is sitting alone and taking out books like the seniors, even though there's only ten minutes or so until classes. I wonder if he's really that diligent or if he's trying to put on a show. It doesn't matter; I'll figure him out eventually. I figure everyone out eventually. Well, Max is still a bit of a wildcard. Maybe that's why I've been able to stand him since we were D-ranks together.
+
+[enter MAX B]
+[enter REBECCA D]
+MAX: "Physics. You don't want to be late."
+
+Max is the only reason I can stand physics. Even introductory level courses gives me problems. Well, every class here gives me problems, but that's what I've chosen. It's just a little painful for me to see these brilliant people act like this class is a joke when I  know that the problem set we've just received will most likely keep my up to all hours tonight.
+
+STUDENT1: "Hey, have you heard about the storm tomorrow?"
+STUDENT2: "You think it'll hit around here?"
+STUDENT1: "Maybe they'll cancel school. Three day weekend, anybody?"
+STUDENT2: "Don't get your hopes up."
+
+[enter MAX E]
+[enter REBECCA D]
+MAX: "Oh, that's right... What do you think Rebecca? Hoping for a hurricane tomorrow?"
+REBECCA: "Maybe then I won't have to do all of this physics work."
+MAX: "Haha, it would hit in the afternoon anyway. Just kidding."
+
+I guess I'd know more if I paid attention to the news, but it seems there's a storm headed our way tomorrow. There was one of these last year and we were forced to spend an entire weekend bunkered in the dorm building while there was a light rain outside. I'm not looking forward to it. I'm not a winter person myself, and adding some rain and wind doesn't seem like it would be overly pleasant.
+
+Maximilian and I part ways. He's headed off to some abstract algebra class while I'm stuck in European Studies. Max might play dumb half the time, but he's working on a legitimate research paper with one of the mathematics professors. I've never been quite sure what other talents he may be hiding.
+
+I sit through European Studies again. I'm glad it's just a boring class and not a challenging one. Any more work and I'd be falling apart right about now. However, as it's not a challenging class, it's not worth as much credit as the other history classes. Each year, the grades office calculates a class's credit worth based on the average grade of the students in that class. The higher the average, the less credit each student receives. And finally, your personal grade is multiplied by the class's credit worth, and the result is added to your total standings.
+
+It's a vicious system. I think the grading office designed the system to reward students for taking hard classes, but as it is, it just means that those students who are aiming to have the most credit must take the extremely hard courses to stand a chance, even early on. It's not as if I could become top of the class, so I'll stick to classes I can handle, thanks. It's also nice being in a class where no one is trying to cut the others down. European Studies is easy enough that there aren't many serious students in here.
+
+[enter ERIC C]
+ERIC: "Excuse me..."
+
+[choice]
+[Talk to him :: s0072]
+[See him off :: s0073]

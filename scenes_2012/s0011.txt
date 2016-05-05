@@ -1,0 +1,11 @@
+[s0011]
+[increment KENNETH]
+
+REBECCA: "Hm, I don't know, let me just check with Kenneth."
+CAIT: "I don't want that chump knowing I'm wandering around again. He doesn't seem to like it. He uses me for his dirty work but never lets me do anything I want to do."
+REBECCA: "Fine then..."
+CAIT: "So you're not coming? You're a real pal, Rebecca, thanks a lot."
+
+Oh well. Her opinion isn't that important in the big scheme of things, but everyone seems to like taking these risks lately... I think I understand Cait's reasons though. She's starting to develop a rather frighteningly antagonistic relationship with Pete.
+
+[goto s0043]

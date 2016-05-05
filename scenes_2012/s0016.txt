@@ -1,0 +1,59 @@
+[s0016]
+
+REBECCA: "I'll stay with Pete. Hurry back, okay?"
+MAX: "I'll be right back. Stay safe."
+
+I'm left holding the light in one hand and pressing on Pete's shoulder with the other. No sooner do I hear Max's footsteps vanish up the stairs then someone else shuffles over to join me. My heart races for a second, but I hold up the light.
+
+[enter CAIT B]
+[enter REBECCA D]
+CAIT: "What's the fuss about? I only stabbed him in the arm."
+REBECCA: "Caitlyn! What do you think you're doing? He's stabbed in the shoulder, not the arm, and he's currently bleeding through two layers of shirt!"
+His blood is starting to soak my hands, but I can't let go. Pete moans.
+CAIT: "Oh, whoops."
+REBECCA: "I don't even know what to say to you. What are you going to do now? What if he dies?"
+CAIT: "I said before, I never meant to kill him. He's not going to die, right? See, he's alive, right?"
+Her voice cracks.
+REBECCA: "But... why?"
+CAIT: "He had it coming."
+I don't catch any reaction from Pete. I don't think he's conscious any more. Despite how much pressure I'm putting on him, I can't keep back the blood.
+REBECCA: "What the hell did you stab him with?"
+CAIT: "My knife. The one that he broke. It took a lot of force to pierce the skin, but it might have done more damage that way."
+REBECCA: "You'll be lucky if he doesn't bleed to death, let alone still be able to use that arm. How are we supposed to treat something like this when we're all trapped in here?"
+CAIT: "It was his idea to pick a fight. I just followed through. I even had mercy. I tried not to hurt him too much."
+Strange that he's unconscious and bleeding on the floor then.
+PETE: "But... but..."
+Or not unconscious. He must have a strong will.
+CAIT: "I'm not sorry. But don't die, please, that would just look bad."
+She's trying to be tough, but I can hear her trembling.
+REBECCA: "Would you help me out then? He's bleeding through what Max set up."
+CAIT: "I can't. That would just be... I don't know, I can't do that, I'd better get out of here, but, ugh..."
+REBECCA: "You know you're going to have to take responsibility for this."
+CAIT: "I guess I knew that. But damn it, I didn't want to kill him, I just wanted to hurt him!"
+CAIT: "If you need me, I'll be at the landing on the third floor."
+REBECCA: "I need you now! Help me here, I need someone to wrap his arm up again, and I can't even hold the light and push on his wound properly! If you want to make up for stabbing him, help me keep him alive."
+CAIT: "No! That's a contradiction and a lie! I'm the one that did that to him."
+
+She runs up the stairwell, leaving me alone to watch Pete's blood soak through his own shirt. I set Max's phone down. Now I have two hands free, and I don't have to watch his face. My hands are shaking too much do anything meaningful, but I settle for ripping the rest of his shirt off and wrapping it as tightly as possible around his shoulder. If what Cait said was true and he only had been wounded in the shoulder, I don't think he would be losing this much blood, but the damage is almost at his neck, above the collarbone. I wish Max were here. When is he getting back?
+
+[enter SOPHIE C]
+SOPHIE: "Rebecca! Are you down there?"
+[enter MAX A]
+MAX: "We're coming. Tell Pete to hold on. Kenneth's here as well."
+
+The three of them half jump down the stairs. Kenneth is in the lead and carrying another phone. Sophie takes over treating the stab wound while Max starts talking to Pete, though I don't think he can hear. I hope I'm no longer needed. I'm breathing heavily, and I can't stop shivering. There's nowhere for me to wipe Pete's blood off my hands.
+
+[enter KENNETH B]
+[enter REBECCA D]
+KENNETH: "You, um, I'm sorry, I forget your name."
+REBECCA: "Rebecca Bell."
+KENNETH: "Alright, sorry Rebecca, can you tell me what happened?"
+REBECCA: "Maximilian and I heard something coming from the basements, and Max still had a phone so we went to see what happened. Pete wasn't guarding the door."
+I have to improvise. I'd rather not be implicated in all of this, so I'll just have to hope Max is listening so he can corroborate.
+REBECCA: "We followed the noise down here and I almost tripped over Pete."
+KENNETH: "Then you don't know who did this?"
+[hold]
+
+[choice]
+[I know nothing :: s0118]
+[It was Cait :: s0017]

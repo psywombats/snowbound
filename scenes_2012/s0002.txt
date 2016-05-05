@@ -1,0 +1,54 @@
+[s0002]
+[increment SOPHIE]
+
+We leave Kenneth and the other students and pass through to the gym hallway. It's not much brighter here. Down the hell to my left, the light from Max's cellphone reflects off the shut door. If only we could open it, we'd be able to get down to the admin office... Actually, isn't there another of those same doors between the main hall and the entrance hall?
+
+Luckily for me, the entrance to the pool is directly ahead. There should be no getting lost. At least this door has glass so I can almost see into the darkened room. When I knock on the window, a girl's face appears on the other side.
+
+[enter REBECCA C]
+REBECCA: "Sophie?"
+She can't hear me, of course. It's not Sophie anyway.
+REBECCA: "Oh well..."
+[exit REBECCA]
+[enter REBECCA B]
+[enter MAX D]
+MAX: "Stop running ahead on me."
+REBECCA: "Sorry."
+MAX: "Can't you get to the pool from the locker rooms?"
+REBECCA: "Those doors are always locked though."
+MAX: "True. Have you seen Pete around here? He hasn't come back yet?"
+In answer, Pete crashes into me as he runs up the hall.
+[exit REBECCA]
+[enter PETE B]
+[enter REBECCA A]
+PETE: "Oh hi, didn't see you there."
+REBECCA: "Back so soon?"
+PETE: "I've got a job to do."
+[exit PETE]
+[exit REBECCA]
+[enter REBECCA B]
+Just as soon as he arrived, he runs back into the gym, only pausing to call back.
+[enter PETE E]
+PETE: "Do you remember where I put my bag?"
+[exit PETE]
+REBECCA: "What's he up to?"
+MAX: "Don't ask me."
+
+Max and I follow Pete into the gym. At first I think the emergency generators have finally come online, the light is instead coming from four or five laptops opened around the circle of students. But even as I watch, Caitlyn is moving around the group, instructing everyone to close their machines. It's nearly black in here again.
+
+[enter REBECCA B]
+[enter CAIT D]
+[enter MAX A]
+REBECCA: "Hey Cait, what's that about?"
+CAIT: "If we waste laptop battery now we won't have light when we need it."
+MAX: "That idea actually makes sense. So who came up with it?"
+CAIT: "You're implying that I didn't?"
+MAX: "Obviously."
+CAIT: "Kenneth's order, Shibin's idea. But people seem to listen to me, so I'm good for stuff like this."
+It might be true, but only because of a series of rumors involving Cait and certain liberties with a butterfly knife.
+REBECCA: "Sure. So when are we setting the laptops back up?"
+CAIT: "When I feel like it."
+[exit CAIT]
+MAX: "Shall we sit?"
+
+[goto s0081]

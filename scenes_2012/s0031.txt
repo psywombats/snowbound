@@ -1,0 +1,76 @@
+[s0031]
+[increment HOSTAGES_FREED]
+
+I stand with my back to the wall and turn the handle of the door. I don't hear any squeaks, thank goodness, but if any one of the captives decides to make noise, they could inadvertently give the whole operation away. Luckily, I manage to squeeze in the door before any audible mistakes. With the same level of caution, I allow the door to close behind me. Success.
+
+[enter ERIC C]
+ERIC: "Hello? Anyone?"
+
+I don't dare raise my voice any louder than a hiss. However, no one responds. Maybe they're gagged? Something in the corner thumps. My heart rate jumps, but I avoid the desk in the middle of the room and move towards the sound. I feel something warm, something alive. I search with my hands and find the hands of the other person, wrapped with tape. I spend some time wrestling the material off, but eventually the captive is free. I help with the duct tape wrapped around the mouth and finally hear a voice.
+
+[enter SID B]
+[enter ERIC D]
+SID: "Eric? What the hell?"
+ERIC: "Sid! I'm glad you're safe. I thought you were starving in the basement or something."
+SID: "I thought you were as well."
+ERIC: "How'd you get up here?"
+SID: "I thought Felix had captured you, so I pretended to join up with Felix. When I got the chance, I snuck in here in the dark and let the captive free. Except it turns out that that wasn't you. I don't know who I let go. They never spoke."
+ERIC: "Probably either Shibin or Caitlyn then."
+SID: "Anyway, they eventually found me out for the prisoner break and tied me up instead. You're the first person I've seen since."
+ERIC: "Are you the only one in this room?"
+SID: "Yeah. There was only one other when I came in here, and I let them go. So it's just me. But why are you here?"
+ERIC: "I'm joining up with Felix in an attempt to convince him to surrender."
+SID: "That's a lost cause. But wait, you idiot, what'll they think when they see I'm gone tomorrow? You'll be blamed and stuck in here, just like me."
+ERIC: "Then we have to tie you up again."
+SID: "Ugh, I'd rather not."
+ERIC: "Does anyone actually check on you?"
+SID: "Come to think of it, no. Marilyn used to check the captives once every couple hours, but she's stopped."
+ERIC: "From what I gather, Marilyn's too sick to stand up. Let's get you out of here tonight then. Just be careful not to make a sound."
+[hold]
+
+We exit the office the same way I entered: noiselessly, and very slowly. We stand in the staff lounge, not knowing where to go. Now that Sid is with me, he needs to escape here as soon as possible. Although we take pains to watch where we're going, I never shake the sense that we've been spotted. After an eternity, we reach the door to the English hall.
+
+ERIC: "Finally made it..."
+I still keep my voice down. We're right outside the door.
+SID: "I hope that didn't compromise whatever you're here for."
+ERIC: "Don't worry about it. If someone did notice, it was worth it."
+SID: "Eric, if you get tied up in there, I'll do what I can to help, but no promises."
+ERIC: "I wouldn't ask you to. Where are you headed?"
+SID: "I figured I'd go back to the old basement hangout."
+ERIC: "Maybe. Why not go back to the gym?"
+SID: "You really think they'd take me? Shibin and the rest would assume I'm just one of Felix's men."
+ERIC: "Shibin's not in charge anymore. Maximilian Wolf took over after Shibin was captured."
+SID: "So he's the person I must've freed..."
+ERIC: "Not necessarily. I know someone caught up with Caitlyn Baquiran as well."
+SID: "I wondered where she'd gotten off to. It could've been either of them..."
+ERIC: "And what happened to the other?"
+SID: "Maybe they escaped on their own? I don't know. All that matters is that I get to someplace safe, and the basements work for now. You'll know where I am if you need anything."
+ERIC: "No problem."
+SID: "And what will you do? Go back inside?"
+ERIC: "No. There's something I want to do. It shouldn't take long."
+SID: "Alright. Let's go."
+
+We pass through the English hallway without stopping at any of the rooms. The glass from the smashed windows is all over the floor by now. As we pass the first floor, we take care to conceal our footsteps. It would do no good for the rafters guard to hear us now. Finally, we reach the bottom of the stairwell. The door is propped open by a standard wooden doorstop. Sid stops when we reach the student lounge.
+
+[enter SID B]
+[enter ERIC D]
+SID: "I'm staying here. Where are you off to?"
+ERIC: "I'm going to go prop open the door to the south stairwell."
+SID: "What's that about?"
+ERIC: "Now the students in the gym can get up to Felix's hideout. I don't know how much he's been thinking about this school's blueprint, but it's a pretty obvious path."
+Sid thinks for a minute, but I know I'm right. All someone would have to do is push through the fire door to the south stairwell from the main hall, cross the student lounge, and head up the north stairs.
+SID: "What's the point of that? Do you think Felix will negotiate if he's cornered?"
+ERIC: "I think he would. The issue is that I don't think Max would. Max said he wasn't going to cut a deal with Felix. I guess he's adopted the gym group as his own."
+SID: "Just like Felix adopted the upstairs group... Well, some of them anyway. What are you planning, Eric? I know what you're trying to do, I just don't know how you think you're going to accomplish it."
+ERIC: "I don't know either. It seemed so easy when Rebecca and I came up with our resolution, but now, I don't even know. I'm going to have to count on her to convince Max, or else come up with some other plan. I'll see what I can do down here to help, but opening the door is the only thing I can think of."
+SID: "Wait, so Rebecca Bell is in on this?"
+ERIC: "What do you think? We were trapped in a staircase together for three days. People tend to think a little more alike after things like that."
+SID: "Sure. Well, good luck, and tell me if there's anything I can do to help. I'm a bit of an outcast from both circles at the moment, so I'll leave it to you."
+ERIC: "Okay. How are you doing for food and water?"
+SID: "Not too great, but I'll live. The water cooler might still be down here, anyway. No one's noticed so far. I'll be fine."
+ERIC: "I'll take your word for it. I should head back up to the staff lounge before someone realizes I'm gone. See you later."
+SID: "Good luck, Eric. And stay careful."
+
+I leave Sid behind. I wonder if Max really would reject Sid on the basis that he was Felix's spy? Then again, would he have done to same to me if I hadn't had Rebecca with me? Maximilian and I were both on the archery team last year, so it's strange that I still have no good understanding of him. For now, my job is with Felix; I'll leave Max to Rebecca. That's right... We meet tomorrow night. I'm sure something will turn up before then.
+
+[goto s0065]

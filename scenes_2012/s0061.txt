@@ -1,0 +1,69 @@
+[s0061]
+
+I wake up exactly in the spot I was last night. The air is cold save for the warmth beside me. She's still there. We're still here. Well, there's nowhere else for us to go.
+
+[enter REBECCA B]
+[enter ERIC D]
+REBECCA: "Are you awake, Eric?"
+ERIC: "As of a few minutes ago, yes."
+She sits up straight.
+REBECCA: "Sorry, I didn't mean to... You know. I just fell asleep."
+ERIC: "Don't apologize. It's cold in here anyway."
+REBECCA: "And we have nothing to do with the time."
+ERIC: "Do you have that piece of paper that was in the backpack? There's enough light coming through the window that we should be able to read it."
+REBECCA: "Here."
+We flatten out the page and press it against the door to the snowy world outside.
+[hold]
+
+"Okay, things are looking pretty grim. I'm on the run from Kenneth's gang now and they've got a Bastille's worth of guards around that fire door. They think I'm working with Pete and I'm sure they'll want information out of me. This is the last load of food I can get you, but if I think it's dangerous for me up here, I'll come down there with you guys."
+[hold]
+
+REBECCA: "Max, you idiot... Of course it was dangerous if you were on the run. You had the chance, why didn't you come in?"
+[hold]
+
+"My theory is that Pete made it to the other side. We're almost sure there was someone or something struggling against the barricade early this morning, and that could only be someone from Felix's side, unless there's another way in."
+[hold]
+
+ERIC: "Everyone's forgetting about that door in the biology office. Pete could pick locks, right?"
+REBECCA: "Not without help. Maybe that's why they think Max is the accomplice."
+[hold]
+
+"To make matters worse, Kenneth's pretty much broken by this point. Everyone keeps harassing him about supplies and all that, and while he's busy with them, Shibin is running amok. Arya is dropping in and out of sight and refuses to tell me what she's planning. She expressed some interest in returning to the physics lab; I have no idea why. Anyway, good luck. Watch out for Shibin. And watch out for Felix. Actually, assume everyone is out to get you. At this point, that might be the safest thing to do. Farewell. Yours truly, Maximilian Wolf"
+
+ERIC: "Wow. Sounds like it's complete chaos out there."
+REBECCA: "Honestly, since Marisa died, this whole thing has gone downhill very fast."
+ERIC: "It's as if she's haunting us. If she had had the spine to keep living, this whole misunderstanding never would've happened."
+REBECCA: "I'm more concerned about Felix. Does anyone know what he's planning?"
+ERIC: "Henry hinted at something ominous, but I have no idea."
+REBECCA: "Maybe we should concentrate on who shut us in here."
+ERIC: "Sid, Lyra, or Cait, you mean? That's not a tough choice between the three."
+REBECCA: "But why?"
+ERIC: "It's always 'why' with you, isn't it... Maybe Cait's just ruthless."
+REBECCA: "No, I don't think that's her. She wasn't trying to kill Pete back on the second day, I know that much."
+ERIC: "When we caught up to her in the biology office, she said she'd changed."
+REBECCA: "It's a matter of trust then."
+ERIC: "I don't want to think about that... There has to be something around here to do that's more productive."
+REBECCA: "Do you want to try pounding on the doors and see if anything happens?"
+I doubt anything will, but...
+ERIC: "It's worth a shot."
+
+As it turns out, after seven days on limited food, water, and rest, the amount of time one can spend beating against a door and yelling is very limited. We give up on that plan within the hour. Realistically, if there was anyone who cared about our welfare outside, they would be open already.
+
+We sit next to each other on the stairs again. It's obvious that Rebecca is dejected, but I can't hide my desperation either. What can we do? There has to be something better to do than sit here. What do we have to work with? Our untouched food, the water bottles, the backpack itself, a bottle of aspirin... I check my pockets. I almost forgot about these. I have Felix's multitool and a pair of scissors, both from my time up in the second floor staff lounge.
+
+[enter ERIC B]
+[enter REBECCA D]
+ERIC: "Rebecca, have a look. I know Felix used this thing to cut through a fire door lock at one point, maybe we can do the same."
+REBECCA: "It looks dull."
+ERIC: "I think it was originally some sort of metal file, but it's worth a try, isn't it?"
+REBECCA: "If you say so.
+She really must be down.
+ERIC: "I'm giving it a shot then. It's no use just sitting here."
+REBECCA: "You're right, you're right. I don't know how you keep your head at a time like this. It's like Max but without the ominous remarks... You know, I'll help you out. If you get tired, I'll take over. We can switch off."
+ERIC: "I'd be grateful for any help."
+REBECCA: "Which door are you going to try to cut through?"
+
+[choice]
+[Cut the basement fire door :: s0169]
+[Cut the first floor fire door :: s0027]
+[Cut the second floor fire door :: s0167]

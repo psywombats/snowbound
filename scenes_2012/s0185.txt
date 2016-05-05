@@ -1,0 +1,163 @@
+[s0185]
+
+REBECCA: "I can't do it, Max. We're either leaving together or not at all."
+MAX: "Rebecca, Rebecca... You think too much of me."
+REBECCA: "You're not going to throw yourself to Felix because there's a tiny chance that I might escape."
+MAX: "Then what are we supposed to do? That's all I've got, Rebecca. I'm sorry."
+REBECCA: "I don't know, Max."
+SOPHIE: "Can we just wait it out?"
+MAX: "No, Sophie, there's no way we can wait this out! If we sit here and they break through, then it's over for all of us! That idiot Kenneth will give all our food away!"
+SOPHIE: "Calm down."
+MAX: "Sorry. All of this is taking a toll on my sanity, I'm afraid. Just a few more minutes and I'll know what to do."
+[enter PETE E]
+PETE: "Have you decided yet? Are you going to make me a deal?"
+SOPHIE: "I'm not giving you my food. You're just going to run off again anyway, so there's no point in bribing you."
+PETE: "That's not the point! The idea is that I'll distract them while you all - "
+REBECCA: "Enough. No one's going to give you good and if you try to steal it while we're not looking, I'll drown you in the pool."
+PETE: "You people are so boring. Well, see you later!"
+
+I don't believe it. The glass door that serves as the main entrance to the pool is shut, so Pete skips over to the locker room door and out into the hall. There's nowhere for him to go. They'll spot him right away. Sure enough, the regular pounding of the ram misses a beat.
+
+[enter LYRA A]
+[enter SOPHIE B]
+[enter MAX D]
+[enter REBECCA E]
+LYRA: "What if he actually went out to sacrifice himself for us?"
+REBECCA: "He's not a hero, Lyra. He's a devious little brat who keeps up a silly face so we'll all look past him. There's no way to know what backstabbing he's up to now."
+MAX: "Then again, it does look like he stopped them from trying to break down the wall into the - "
+He's interrupted by the return of the rattle and blast that is the calling card of the battering ram.
+MAX: "Welp, so much for that."
+REBECCA: "Do you have any ideas, Max?"
+MAX: "No. I'm stumped. If there's some way out of here, I can't see it. Rebecca, I don't like crises."
+REBECCA: "And you think everyone else does?"
+MAX: "No, but I've always done my best to ensure that I was always ahead of them. I'm no good under pressure. I think I need to give myself up."
+REBECCA: "Max, think this through. What happens if you surrender?"
+MAX: "I can barter on terms. Maybe we can keep some percentage of the food that they're taking."
+REBECCA: "How are you going to deal with them when you have nothing to back it up? They're not going to listen to one guy with his hands up."
+MAX: "Right, yeah, why didn't I see that?"
+REBECCA: "Max, maybe I should do it."
+MAX: "Do what?"
+REBECCA: "Maybe I should surrender. I'll tell them that I'll turn you over if they let us keep just a little food."
+MAX: "What if they ignore you?"
+REBECCA: "What else are we going to do? You can't come up with any plan but to sacrifice yourself, and if someone has to be sacrificed, it might as well be me. At least that way everyone else will benefit."
+MAX: "I wish you were wrong, but once again, reality is fighting against us."
+SOPHIE: "None of us want this, but let her do what she wants to do, Max."
+I've never seen Sophie more optimistic than Max.
+REBECCA: "It's all there's left to do. I'll go out there right now and tell Henry that he can have the boy that killed Eric Larsen if agrees to leave a quarter of all gym supplies behind."
+MAX: "And if he says no?"
+REBECCA: "Then the cowardly Maximilian Wolf will live in hiding and die of starvation. Henry avenges no one." 
+MAX: "Hm, but there's also a good chance that Henry beheads me and I die in a bloody puddle on the floor. That makes me feel a little better. Let's do it."
+REBECCA: "You just have to be the hero, don't you?"
+LYRA: "There's nothing wrong with heroes."
+MAX: "Are you ready, Rebecca? You don't have to go through with this."
+REBECCA: "It's fine. When they catch you, they might even let me go."
+MAX: "Sophie, Lyra, go find somewhere to hide in the locker rooms. I'll wait in here for Henry to find me. Just tell him where I am and there should be no problem."
+SOPHIE: "Bye, Rebecca. Stay safe."
+LYRA: "You'll do fine."
+
+I hope so. I have so many doubts about this, but we need to act fast, or all our planning will be useless.
+
+[enter MAX B]
+[enter REBECCA D]
+MAX: "Rebecca, before you go..."
+REBECCA: "Max?"
+MAX: "You know Henry will probably kill me. I don't want to die, I really don't, but I'm definitely not dying until I..."
+There are only a few feet between us, but he has a thousand mile stare.
+MAX: "Never mind. You're pretty great, Rebecca."
+We share a hug. It's short, but for Max, it's enough.
+MAX: "So long."
+REBECCA: "See you, Max. You're doing the right thing."
+
+Out in the hall, the roar of the ram is even louder. It only takes me a few seconds to sight the group of them down the hall. Most have spears, and they're all on the lookout for strays like me. I'm seen almost immediately. At this point, I don't think I could run if I wanted.
+
+[enter REBECCA B]
+[enter ARYA D]
+ARYA: "Got you! Hey, you're Rebecca, aren't you? Good to see you again."
+REBECCA: "Arya?"
+ARYA: "What's up?"
+Her voice comes from somewhere around my waste. She keeps trying to chat as she binds my hands with duct tape.
+REBECCA: "Let me talk with the guy in charge."
+ARYA: "Oh, I guess you did come over here for a reason, didn't you? Do you want to say hello to Felix?"
+REBECCA: "I mean let me talk to leader down here."
+ARYA: "That'd be Eric. Oh wait, you killed him."
+She says it like she's joking, but the last strip of tape around my wrists ends up quite tight.
+ARYA: "Henry! She wants to talk!"
+[enter HENRY E]
+HENRY: "What? Who's that?"
+ARYA: "Rebecca Bell."
+REBECCA: "Henry! Stop the ram already. Max wants to surrender."
+HENRY: "It's about time Kenneth gave up and decided to... Wait, Max Wolf is going to surrender? I've got to hear this one."
+At last, Felix's minions drop the jumble of tables. The siege ceases as Henry approaches me.
+HENRY: "Why isn't Max out here himself then?"
+REBECCA: "He's not in the gym."
+HENRY: "Then how's he going to give up that food and water?"
+REBECCA: "He doesn't. Max is on the run. He knows you'll kill him if you catch up to him, so he fled. But that's done. He told me to tell you where he is, provided that you let the students in the gym keep a quarter of the food."
+[enter PETE A]
+PETE: "Hey, that's pretty good."
+REBECCA: "Pete? What are you doing here?"
+PETE: "I betrayed Ken's side, remember? I'm with Felix."
+ARYA: "He escaped a little while ago. Don't worry about him."
+HENRY: "Yeah, let's stay on topic."
+REBECCA: "That's all there is. Take it or leave it. Either we keep a quarter of the supplies, or you never avenge Eric Larsen."
+HENRY: "There's no way I'd just execute Max or something. Who does he think I am? I'd rough him up and bring him to Felix for sentencing, but I'm not going to sink to his level. He's scum."
+It hurts to hear this brute pass judgment on Max. Henry is here trying to force forty students to sign their own death warrant while Max is offering himself up that we might live.
+REBECCA: "If you don't take this chance, you'll never find him. He'll always be there, doing everything he can to make your lives miserable. He'll rally us. Even without food, he'll lead the counterattack."
+I don't even need to lie.
+HENRY: "Look, girl, I'm not even authorized to cut deals. My job is to drag Kenneth out of there and bring him up to Felix for negotiation."
+REBECCA: "Fine, then bring down Felix. Let me talk to Felix. You have to do this, Henry."
+PETE: "You make it sounds like such a huge deal, Rebecca."
+REBECCA: "It is."
+PETE: "It's like he's some sort of rebel leader, when really he's just some poor guy hiding out in the pool. Oops, did I give it away?"
+REBECCA: "Pete!"
+HENRY: "Oh, is that so? Thanks, Pete. You've been more helpful than I would've thought."
+REBECCA: "No! No, he's lying!"
+HENRY: "There's an easy way to test. Come on, Pete, let's go explore the pool."
+
+For a few moments, I can only stand and stare. There they are, waltzing off to take Max, all for nothing. I'm a failure. This was my plan and I screwed it up. I want to scream at the top of my lungs until it all disappears. Then I hear something. It sounds like a yell, like someone's screaming from... the pool.
+
+I break out of Arya's grasp. Only my hands are bound, but I can run as far as the glass door to the pool. It's locked, but at least I can see what's happening inside. Arya reaches me, but instead of pulling me back, she presses her face to the window to watch.
+
+Henry and Max are locked in some kind of fight by the edge of the pool, and Henry's spear is nowhere to be seen. That splashing must be Pete. Did Max push him into the pool? At these temperatures, I'm surprised the water of the pool hasn't frozen over, but it must be ice cold in there. It's no less than Pete deserves.
+
+[enter ARYA B]
+[enter REBECCA D]
+ARYA: "Huh, it looks like Pete wasn't lying after all. That's kind of surprising."
+REBECCA: "That's all you can say?"
+I struggle against her grip on my shoulders.
+ARYA: "Stop squirming. We wouldn't be able to reach them in time to change anything, so you might as well watch."
+
+There's no more splashing in the water, but now Max and Henry are right on the edge. Then there's a spray of water in all directions as something hits the surface of the pool. The victor's back is to me. Who is that? Is that Henry in the water?
+
+It is. Max turns around. I can barely make out his face in the gray light, but there's no mistaking him. Run, Max! He takes two staggering steps forward and spins back around. There's Pete, standing behind him, spear in hand. There's nothing I can do but watch as the soaking Pete takes another slice out of Max, then another, and then he's on the ground. Hold on, Max. You've taken a wound like that before.
+
+Pete drives the spear through Max's body. There's no way... The spear protrudes out of Max's back. It's pointing straight up. There's no way he could've survived that. When Pete sees me looking, he stares back. Then he laughs.
+
+[enter ARYA A]
+ARYA: "Rebecca! Get back here!"
+
+It's not happening, Arya. I run for it. It doesn't matter even if my hands are tied together if I can outrun her. All I need to do is make it to the stairway. I throw myself into the fire door to the south stairs, and it opens with a colossal bang. The stairs fly past in a single leap downwards. With my arms behind me I hit the floor with my whole body. I rise and leap and with another jump I'm at the basement landing. I kick out the doorstop that Pete must've placed. When the basement door slams behind me, I know that I'm safe. No one can follow.
+
+I'm a mess. I break down on the floor of the student lounge. The only reason I'm not in tears is because I'm panting too hard. The only thing I want now is to curl up and die. I lie face down on the ground as the minutes tick by. There's no longer any reason for me to be here. Max played the hero to the end, and now he's dead. Eric and Marisa are dead too, and in a few days, everyone in the gym will be dead as well.
+
+Then I have an epiphany. I have to escape. Pete told me the route, now I just need to carry it out. How far can I run through the snow with my hands taped behind me and nothing to my name but the clothes on my back? I intend to find out.
+
+The trek to the service stairway is wrought with anxiety. Every step I make, I expect Pete or Henry to leap out of the shadows and spill my guts down the hall. As I run through the English hall, I wonder what would happen if anyone saw me. It's fairly clear that I'm a prisoner, but what would they do? Would they bring me to Felix? And how am I supposed to get through Felix's base?
+
+The answer is stupid. I'll make it through with sheer luck. Felix's base is almost completely deserted, and the only person here is a girl asleep in the corner. Now I just need to find that stairway... Pete said it was hard to miss, but I'm having trouble. There are voices coming from across the hall. There's no way to tell if they're coming for me or if they're staying in the classroom across the way, but the adrenaline is making me shaky.
+
+There it is. It's a hollow metal door like the rest of the fire doors, but this one has a traditional door lock directly above the handle. I give it a pull and hope for the best. For once, Pete was honest. The wind pours in from above. I've found freedom.
+
+[enter REBECCA C]
+REBECCA: "It's beautiful..."
+
+The sky is black by now, but I know the outdoors when I feel it. The wind blowing against my face is such a relief. Maybe now I can leave all the ghosts behind. 
+
+After only four steps through the snow, I realize how awful it is to have my hands bound behind me. Apart from the horrible irony of escaping immediately after having my hands tied, it makes it impossible to pull my coat closer to my body. There's sleet and hail in the air, and it pounds against my back and face. The cold is overpowering.
+
+Nevertheless, I'm so glad to be here. I can't think of Max or Eric or Marisa when the gusts of air are ripping through my hair. There's one clear path and that is straight ahead into the white horizon. There's something euphoric about freezing to death.
+
+I fall for the first time. It takes no small amount of effort to roll over to my back and pick myself up. The duct tape does not weaken with the moisture, but now my arms are covered in snow and even colder than before. When I fall again, I lose my jacket. That's no problem. It was too hot anyway.
+
+The third fall is the last fall. I turn over, but it would take too much energy to rise. Instead I gaze up at the moon, obscured by the storm clouds and winter fog. It's comforting. For one moment, nothing is wrong. It's the most peaceful sensation of my life. Max, I'll be with you soon.
+
+[end BAD_6]

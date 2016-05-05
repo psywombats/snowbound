@@ -1,0 +1,34 @@
+[s0028]
+
+ERIC: "You really expect me to accept that? Give it up."
+FELIX: "That's annoying."
+ERIC: "Are you going to have Henry fight me for the knife now?
+HENRY: "I'm telling you, I'm an intellectual. I'm not the muscle here!"
+FELIX: "It's no use arguing with him, Henry, let's go. Maybe he'll break through the door, die, and we can come back later. You've missed your chance, Eric. I'll find someone else to save. I'm afraid this may be the last time we meet. I wish you had more common sense. Bye."
+[exit HENRY]
+[exit FELIX]
+[exit REBECCA]
+[enter REBECCA D]
+REBECCA: "Wait!"
+But the fire door is already shut.
+REBECCA: "You probably could've saved yourself, you know."
+ERIC: "I'm not so conceited as to think that I'm worth killing off everyone else in the school."
+REBECCA: "You would say that, wouldn't you..."
+ERIC: "Is there something wrong with it?"
+REBECCA: "No, I just feel bad that if it weren't for me, you'd probably be guaranteed to make it out, like Felix said."
+ERIC: "Even if you weren't here, I couldn't go along with that. Do you realize what he's doing? He thinks that by all trying to survive, we're actually killing each other. So he thinks he's doing everyone a favor by telling them to go die while taking all the supplies for himself. There's no way I'd want to live with that."
+REBECCA: "Who do you think they are? Felix's five students, I mean."
+ERIC: "Well, there are only four now. I guess he was counting that I'd be morally bankrupt. Maybe he always saw me that way. I suppose the Felix is definitely one of them, and then Henry of course, and probably Marilyn."
+REBECCA: "Marilyn Sumner?"
+ERIC: "Yeah... Though that doesn't seem like her. I can't see her sacrificing other people to save herself."
+REBECCA: "That leaves two spots open."
+ERIC: "We'll have to find out. Probably those other allies he was talking about."
+REBECCA: "We're just as lost as when he came in then."
+ERIC: "Maybe it's safer to wait the whole thing out here."
+REBECCA: "But Max is out there, and so are Sophie and Sid and Pete. If whatever Felix is planning goes through, then they're all in serious trouble."
+ERIC: "Do you think it would be worth it to warn Shibin and Kenneth?"
+REBECCA: "Why would they listen to us? Shibin would think we were lying, but Kenneth... I don't know. Max said he's at his limit."
+ERIC: "Maybe we can convince him then."
+REBECCA: "We're not going to be seeing anyone for a long time. We're trapped, remember?"
+
+[goto s0174]

@@ -1,0 +1,23 @@
+[s0074]
+
+Introductory calculus is my next class. This is just like physics for me, both painful to endure and hard to understand. Maximilian managed to take this course when he was only a C-rank. I'm advancing through the math courses at the normal rate for an A-rank, but I do notice a few B-ranks sitting together in the back of the room. They keep to themselves mostly, but there is one younger student who can't contain himself.
+
+[enter SHIBIN C]
+SHIBIN: "Sir, you've made a mistake."
+PROFESSOR: "Hm?"
+SHIBIN: "Second line from the bottom. You can't prove that based on your current assumptions. You're missing the part that -"
+PROFESSOR: "Oh. I'll correct that. Thank you, Shibin."
+
+But it's an empty thanks. Even I don't like that kid. He's a C-rank, just as Max was when he was in this class. I hope Maximilian didn't go out of his way to demonstrate his intelligence like this kid is doing. If the professor screws up, you keep it to yourself. If the other students don't notice, that's a good thing. Maybe if the class average is lower you can earn more credit. I guess Shibin there doesn't get that. It doesn't help that the man teaching this class must be going blind the way Shibin finds his errors...
+
+[enter SHIBIN B]
+[enter REBECCA D]
+SHIBIN: "What?"
+Oh. He's talking to me now. Well, I guess I was staring at him, and we sit right next to each other.
+REBECCA: "Nothing."
+
+I have a feeling I won't like him, but I wonder if he legitimately cares about the math that's being scribbled across the blackboard or if he just wants to affirm his superiority in a class made up of students two years older than him. Or maybe he's too dumb to figure out the system. Even if he is a pain, he's more interesting than the rest of the vegetables in here.
+
+[choice]
+[Go to the next class right away :: s0075]
+[Wait here a little while :: s0076]

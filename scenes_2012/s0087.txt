@@ -1,0 +1,77 @@
+[s0087]
+
+We pass our time in silence, but I appreciate the company. After a while, I hear five knocks from the pool door. Well that's different. I respond in kind and then wait a few seconds before knocking once more. No response.
+
+[enter REBECCA B]
+[enter MAX D]
+MAX: "What's going on over there? Poltergeists?"
+REBECCA: "No, we usually just used to knocks to confirm someone was on the other side of the door, but they've never used five in a row before. I wonder what that is. I hope they're okay."
+I knock on the door for a minute or so. No response.
+SOPHIE: "Rebecca? Is that you?"
+REBECCA: "What? Sophie? Sophie! Where are you?"
+[enter SOPHIE E]
+SOPHIE: "Down the hall. We made it out through the locker rooms."
+PETE: "I picked the lock. See, aren't I useful?"
+REBECCA: "In the dark?"
+PETE: "No problem. You pick by feel, anyway."
+I hear the group of swim team members approaching before I can see them.
+REBECCA: "Well it's good to know that you're okay."
+SOPHIE: "Where's the staff? The professors?"
+MAX: "Nowhere to be found. I'd guess that we're on our own tonight."
+SOPHIE: "On our own...? Oh, you mean we're trapped. You know, you could've just said so. Guess it can't be helped."
+MAX: "Kenneth's giving out food in the gym. I take it you're both hungry?"
+PETE: "Not especially, but I never pass up food."
+[exit PETE]
+SOPHIE: "None of us have eaten since lunch. I'll talk to you later, Rebecca. And thanks, uh..."
+But Pete is already in the gymnasium. The swim team silently files past Max and the open door. My job's done, so I join Max at his post.
+[exit SOPHIE]
+MAX: "So he can actually pick locks. Interesting."
+REBECCA: "I suppose."
+MAX: "No. He could be really useful. Too bad the fire doors have electronic locks."
+[enter STUDENT1 E]
+STUDENT1: "I'm supposed to relieve whoever's guarding the door."
+MAX: "That would be me. Don't ask me what she's doing here; maybe she'll keep you company."
+STUDENT1: "Uh..."
+REBECCA: "Don't be silly. I'm hungry as well."
+MAX: "I didn't eat earlier. I'll see if I can convince Shibin to get us food."
+
+Sure enough, back in the gymnasium, each girl is standing in line for their chance to receive supplies from an open box being attended by Shibin. There are at least twenty boxes of basic supplies there. Can we really only spare one? I wait my turn in line.
+
+[enter REBECCA B]
+[enter SHIBIN D]
+[enter MAX A]
+SHIBIN: "You're not on the swim team. Why didn't you get food earlier?"
+REBECCA: "I was at the door to the pools."
+SHIBIN: "Right."
+He takes out a can of peaches, jams in a can opener, and grudgingly hands it over. Max follows me over to the circle of students.
+MAX: "Bon appetit."
+
+I see why Maximilian likened this to some camping trip gone horribly wrong. A single laptop computer is lying open in the center of the thirty students now gathered in the gym. Its faint light casts shadows around the students talking, lying, and sitting in a massive circle. At the back of the far side of the ring stands Kenneth, deep in conference with Cait. When she notices me, she walks over.
+
+[enter CAIT B]
+[enter REBECCA D]
+CAIT: "Rebecca. You're back. Are you the one that freed the swim team?"
+REBECCA: "No. Pete picked the lock leading from the lockers to the pool."
+CAIT: "Right, I completely forgot about the locker rooms. That gives me an idea... But before that, you mean Pete actually did something useful? Maybe he'll be useful to me..."
+That grin doesn't look good on her.
+REBECCA: "What are you up to, Caitlyn?"
+CAIT: "Nothing, really."
+I can't believe her. I know her too well for that. But I might scare her off from whatever it is if I keep pressing her.
+[exit REBECCA]
+[exit CAIT]
+[enter KENNETH C]
+KENNETH: "Right, everyone, listen up. While you're all gathered here, Shibin is going to do a headcount."
+[exit KENNETH]
+[enter SHIBIN C]
+SHIBIN: "Please stay in one place until I'm done... It looks like there are 24 of us total here. We will take attendance periodically to ensure no one is missing. Thanks for your cooperation."
+
+For now, I join the students settled in the circle around the laptop. I check my watch. It's almost 9:00. I sit next to Sophie. She nods, and I respond in kind. For a while, all I do is watch the students around me. Most are keeping their voices down in small conversations. A few are staring at the unknown beyond the glass walls, and more simply sit in boredom. There's no light to do much besides talk. 
+
+[enter SOPHIE B]
+[enter REBECCA D]
+SOPHIE: "That was you outside the pool, wasn't it?"
+REBECCA: "Yeah."
+SOPHIE: "Thanks. We started to get concerned when it turned dark and no one came."
+[hold]
+
+[goto s0089]

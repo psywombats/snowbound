@@ -1,0 +1,106 @@
+[s0102]
+
+[enter PETE A]
+[enter MAX B]
+[enter REBECCA D]
+PETE: "I'm coming too, right?"
+MAX: "What do you say, my dear? Should we let him come?"
+REBECCA: "I'll let you decide if you stop calling me that."
+MAX: "I refuse, but I say take him."
+PETE: "Great! Where are we going?"
+MAX: "No idea. Here, it's one of the phones that Cait swiped from some dumb student. We should be able to find our way around."
+REBECCA: "Wait, don't you have a phone already, Max?"
+MAX: "No use wasting my own battery. I see no reason to follow Kenneth's orders all day. If you haven't noticed, he can be talked into doing just about anything anyway."
+REBECCA: "If you say. Well, let's see if there isn't anything in the main hallway."
+
+The three of us exit the gym and turn left to face the busted fire door. Max holds the cell phone aloft and Pete stays in front. I note the card reader hanging by two wires. Pete seems especially proud.
+
+[enter PETE B]
+[enter REBECCA A]
+PETE: "It's too bad Cait's knife broke or it would've been a lot easier for me to undo the latch."
+REBECCA: "Her knife actually broke? I thought it was pretty important to her..."
+PETE: "Too bad. It was her idea anyway."
+REBECCA: "What did she want to do?"
+PETE: "I don't know."
+[enter MAX D]
+MAX: "Then why'd you help her?"
+PETE: "It was something to do."
+
+We're in the main hallway now. It connects the gym hallway to the cafeteria, kitchens, and most importantly, the entrance hall. Max direct Pete off to the right, heading down the hall to the entrance. We neglected to take the fire door into account, though. Luckily, it's made to allow travel from this direction. However, when Pete tries to open it...
+
+[enter PETE B]
+[enter MAX D]
+[enter REBECCA E]
+PETE: "Why isn't it working?"
+MAX: "Look at the card reader. Isn't that unusual?"
+PETE: "What?"
+[hold]
+
+The reader is already slightly apart from the wall. Two screws are missing. But, it's always been like that. Does that mean...
+
+MAX: "It's broken. It's been broken since the beginning."
+PETE: "You sure? I'm going to try to open it."
+REBECCA: "It's pointless."
+Though it's funny to watch the scrawny kid heave against the door.
+PETE: "Maybe I can undo it the way Cait and I got through the other one..."
+REBECCA: "I don't think Cait is ever going to work with you again, and she doesn't have her knife any more, anyways."
+PETE: "Maybe she could use what's left of it to gouge the fillings."
+REBECCA: "Or she could use it to stab you. Could you please watch your step around her? I've known her a while, and don't think she isn't serious."
+PETE: "I could take her, easily. I'm a tae-kwon-do black belt, you know. If you know her so well, you'd better warn her not to start anything."
+MAX: "Come on, Pete, let's try somewhere else."
+
+We don't get very far when Pete stops at another fire door. It leads to the south stairwell.
+
+[enter PETE C]
+PETE: "Hey, it opens! Neat."
+[exit PETE]
+He disappears inside.
+[enter MAX B]
+[enter REBECCA D]
+MAX: "Idiot."
+REBECCA: "No kidding. Well, why now in particular?"
+MAX: "It's a one-way fire door. You know how there are exits by both stairwells, right? The doors are to force students to exit that way. He can't exit, so he's trapped. Should we let him out?"
+Maximilian finished talking and we hear a pounding from the other side. While Max laughs, I open the door and Pete scrambles out.
+PETE: "You could've warned me, you know."
+MAX: "Try thinking a step or two ahead."
+REBECCA: "And Max always thinks three steps ahead, so he probably didn't warn you just so he could laugh at you when you came out."
+MAX: "The truth if I've ever heard it. But that's pretty interesting. We'll need a doorstop to keep that open if we want to go in there."
+REBECCA: "You don't trust me to hold the door for you?"
+MAX: "Handling this brat is a two-person job. We can come back later."
+
+The next door is to the student office. It's open, but of course, it's only the student offices. The class counsel meet here. It's no more than an empty room with a few scattered papers, though I swear I can hear a knocking noise through one of the walls... Eerie. We move on to the staff room. Max has to dissuade Pete from trying to pick the lock. We pass the broken fire door. There's an unmarked gray door to the right that must lead to the auditorium catwalks and on the left... the kitchens.
+
+[enter PETE B]
+[enter MAX D]
+[enter REBECCA E]
+PETE: "Why do they always have to lock the fun rooms?"
+MAX: "Maybe we'll get you to pick this later. Food is always important. We should let Kenneth know."
+Is Max actually being responsible?
+PETE: "I can do it now if you want."
+REBECCA: "No, it took you hours to get the locker room door open. We don't have that time. We'll report before then."
+MAX: "True citizenship you have there, my dear. Let's keep looking though."
+
+The empty cafeteria is unlocked, and Max and I wait in a corner as Pete tears around for a few minutes, hunting down trash and crumbs. The only other room on the hallway is the student lounge, and that's useless to us anyway. We might as well indulge Pete, then. He gets bored pretty quickly, and we return past the new door guard to the gymnasium.
+
+Before Max or I have a chance to do anything, Pete runs up to Shibin and starts gesturing like a lunatic. So much for secrecy. Max and I glance at each other, but there's not much to be done. After a minute or two, Shibin brushes Pete aside and walks over.
+
+[enter SHIBIN A]
+SHIBIN: "Okay, I don't have time to listen to that kid yammer all day. I want a status report from someone a little more sane. What's out there? Just tell me what you know so I can act on it, alright?"
+[enter MAX D]
+[enter REBECCA E]
+MAX: "Slow down, I'm not your personal intelligence officer."
+SHIBIN: "You know, that's not a bad idea. We don't have an intelligence officer yet. Are you interested, Max? You were very helpful last night."
+MAX: "No. I thought you wanted me to tell you about the main hallway."
+SHIBIN: "Right... Any luck?"
+MAX: "No. The door to the entrance hall is jammed. The only other useful room, the kitchen, is locked, but Pete insists on trying to pick it. Shouldn't I be telling this to Kenneth as well?"
+SHIBIN: "I'll refer the information; he doesn't need every detail. Keep going."
+MAX: "That's about all there is to report."
+REBECCA: "What about the stairwell?"
+MAX: "Right. There's also a fire door that we were able to get through that leads to the south stairwell, but the one-way doors on all the other floors really prevent us from getting anywhere else."
+SHIBIN: "You're useful. Are you sure you don't want to be the intelligence officer?"
+MAX: "I thought you guys were convinced that someone was going to rescue us in the next couple of hours."
+SHIBIN: "It never hurts to be cautious. What do you say? Are you interested?"
+MAX: "No, I'm not working with you. You guys are just screwing things up more than they already are. Make Rebecca do it if you're so eager to recruit someone. She doesn't seem to think too poorly of you."
+[hold]
+
+[goto s0103]

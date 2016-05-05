@@ -1,0 +1,18 @@
+[s0095]
+
+SID: "Marisa's still not coming out, I guess."
+ERIC: "Probably not. I wonder what's keeping her in there."
+SID: "I couldn't figure her out if my life depended on it."
+ERIC: "She's a strange one, for sure, but I don't think I'm in any better position to guess her motives."
+SID: "But I think you are."
+ERIC: "What?"
+SID: "Maybe I just had the wrong impression."
+
+He goes back to watching Henry argue with a few members of the jazz band. By the time I realize I'm staring at the auditorium again, I notice Sid's looking in that direction as well.
+
+[enter SID B]
+[enter ERIC D]
+SID: "Are you sure you don't know, Eric?"
+[hold]
+
+[goto s0099]

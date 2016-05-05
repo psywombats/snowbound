@@ -1,0 +1,221 @@
+[s0177]
+
+All of the doors on this hallway are locked. Right, these are offices. How did I forget? We pass over the scattered remnants of the barricade. Only a few pieces remain piled in front of the door to the auditorium catwalks.
+
+[enter REBECCA B]
+[enter ERIC D]
+[enter LYRA E]
+REBECCA: "Do wheck the rafters or head down the gym hallway?"
+ERIC: "I'd prefer not to see Marisa decomposing, thanks. Let's take the hall"
+REBECCA: "No kidding. And I don't want to have to undo the barricade either. That would take a fair bit of time and someone might notice. Remember, someone was here with a ram not too long ago. We could be walking in on a battle here."
+LYRA: "A battle? Maybe this whole thing was a war between Felix and Kenneth all along..."
+ERIC: "Are you okay? How are you even walking?"
+LYRA: "I'm fine, really."
+REBECCA: "I hope so, but you're really sick. I don't know how much we can do for you."
+
+We walk down the gym hallway. Those violent noises from earlier have vanished without a trace. I lead the way with Lyra at my side. Eric watches our backs. My feet stumble over something lying in the floor. I hope that's not a body.
+
+[enter ERIC C]
+[enter REBECCA D]
+ERIC: "Keep going. It's part of a table from the entrance hall. It's the ram."
+REBECCA: "Lyra, watch your step."
+
+The fire door to the gym is closed for the first time I can remember throughout this ordeal. However, the pool entrance remains open. Even if Felix's crew is hiding within, we have to check if Max found refuge here. We enter, one after the other.
+
+[enter MAX A]
+MAX: "Good evening, my dear."
+[enter REBECCA D]
+[enter ERIC E]
+REBECCA: "Damn it, Max, was that really necessary?"
+MAX: "Was what necessary?"
+REBECCA: "The way you came out of the shadows like that almost makes it seems as if you're the villain here and you came to trap us in."
+MAX: "What if I have?"
+ERIC: "Then I will knock you into the pool and drown you."
+MAX: "Oh, that's a scary thought. Good thing I'm on your side then. Hurry up and come in before someone sees you out there."
+He ushers us inside.
+MAX: "Who is that with you two?"
+[enter LYRA C]
+LYRA: "Maximilian, it's me."
+MAX: "That doesn't clear things up."
+ERIC: "Lyra Cygnus. She managed to free us from the stairwell."
+MAX: "Good, good. What's wrong with her?"
+LYRA: "I'm a perfectly functioning human being and I would prefer if you didn't say that..."
+Her cough catches up with her.
+MAX: "Good lord, you're practically burning up, girl. Didn't you two look after her at all?"
+REBECCA: "We gave her some of the aspirin, but that was only an hour or so ago."
+MAX: "Alrighty. Luckily there's someone else here that should be able to take care of you."
+[enter SOPHIE B]
+SOPHIE: "Hello Lyra. And it's nice to see you again, Eric and Rebecca."
+REBECCA: "Sophie? Is that really you?"
+SOPHIE: "It's me."
+MAX: "Who did you think I was in here to visit?"
+LYRA: "You're on the run from the law, right? Is that it?"
+MAX: "No, I'm not in hiding. I'm leading the gym students in Kenneth's place."
+ERIC: "In his place? What?"
+REBECCA: "You're explaining what's been going on. We've both been locked out of the real world for three days, and it's about time someone summed up what's been going on."
+MAX: "I can't give you the whole story, but Sophie here can probably fill in the gaps. I was out of it for some time as well, after Shibin caught up with me."
+REBECCA: "Caitlyn Baquiran said he had been captured?"
+MAX: "Exactly. He was the first disappearance. A few hours later, the student who was supposed to be guarding me got himself tackled by that Henry Musikot kid. I guess a big junior armed with scissors is pretty intimidating. I freed myself and ran back to the gym."
+ERIC: "Pete didn't find you?"
+MAX: "It was dark; what can I say? Anyway, the only ones who knew what I had been tied up were Kenneth and Shibin, and Kenneth was in no state to re-exile me, so I reintegrated myself back into gymnasium society as Kenneth's advisor."
+REBECCA: "I thought you said you wouldn't team up with him. And what happened to Kenneth?"
+MAX: "I said I could change my mind as my whims changed. And they certainly changed. Desperate times call for desperate means. Kenneth broke a day after Shibin's disappearance. After that, we lost two boxes of supplies to some thief in the night."
+SOPHIE: "It was Pete. I can attest to that."
+MAX: "After that, I had no choice but to take over."
+REBECCA: "Stop lying. I bet you enjoyed every bit of it."
+MAX: "That may be the case, but we were in a bad position. I let anyone who wanted out go free, which may have been a bad decision, seeing as how Felix could have recruited or captured them."
+SOPHIE: "That's when I moved out here. It's more quiet and out of the way. I think they would've wasted supplies on me anyway..."
+MAX: "Indulge your poor self-esteem later. Anyway, that's when I ran into Felix. He banged on the fire door and demanded an audience. If I knew what was going to follow, I would've decked him in the face, but sadly, my foresight needs work."
+REBECCA: "What did he say?"
+MAX: "He very politely asked me to hand over all the supplies in the gym, and that I was welcome to join him in the second floor staff lounge if I was so inclined. I told him he could go suck a goat nipple and slammed the door on him. It may have been a mistake."
+LYRA: "No, it was worth it."
+MAX: "That's when the attacks started. The two students who ventured outside past that point never made it back. We kept two guards on the shut door at all times. Once, we took a scouting party and made it out to the main hall. That's when we figured out that Pete Sai had betrayed us. He was busy re-locking the door to the biology offices. He managed to scramble inside, and I guess he had backup, because we couldn't pull the door open and he managed to lock it from the other side."
+ERIC: "How did they contact him?"
+REBECCA: "If the barricade wasn't broken, it must've been through the basements."
+ERIC: "I guess Henry wasn't just at our doorstep just for peaceful purposes."
+REBECCA: "I understand why he sent me after Caitlyn now... There was something already going on. We should've asked Cait if she had seen Pete any of the time that she was in the basements."
+MAX: "Over the next day, the battle was at the barricade. We didn't dare venture into the main hall because of their spears, and we only realized they were breaking the barricade at the last minute. It was a drawn-out process, but I'm afraid we lost. Somewhere along the way, Arya disappeared. I guess she was taken too. She was the best engineer we had and the barricade was her creation. After that, we didn't dare leave the gym."
+ERIC: "How about Henry's battering ram?"
+MAX: "Oh, that? That was an extremely close call. They may be more heavily armed than us, but we outnumber them. When we realized what they were doing, I organized a mass charge down the hall to drive them back."
+SOPHIE: "I heard it from in here. Max was very brave." 
+MAX: "More like my underlings had nothing to lose. Felix gave the order to retreat and they vanished back through the biology office, and we retreated back to the gym. We're in a bad spot. We can't keep them from smashing through walls for long. If you've inspected their point of attack, we've taken serious damage."
+ERIC: "What's your plan?"
+MAX: "That's the thing, Eric. I don't have one. However, I refuse to surrender."
+ERIC: "Refuse to surrender what?"
+MAX: "I'm not cutting a deal with him."
+ERIC: "Why not?"
+REBECCA: "Remember what happened to Cait when she cut a deal with Felix?"
+MAX: "You ran into Cait?"
+REBECCA: "Someone working for Felix left her bound in duct tape outside our door. She was under the impression she would be one of the chosen ones if she shut us in that stairwell."
+MAX: "Once he's made up his mind, I'm sure he'll backstab us as soon as the opportunity presents itself. And I'm not sure how I'm supposed to forgive someone for causing pretty much all of the chaos around here in the last couple days."
+ERIC: "Maybe we can help then. While we were still thinking about escape, we sort of had a plan. I join up with Felix."
+MAX: "What makes you so sure he'll take you in? Didn't he lock you out of the way? I thought you were smarter than that."
+ERIC: "He approached us while we were locked in, on the first day. He said I was welcome to help him."
+MAX: "And you want to take advantage of that... I see. It might be our only shot, really."
+ERIC: "Exactly. And Rebecca was going to stay here to advise Kenneth. But I guess because you're here, that might not be needed."
+I'm not sure if he's implying that I'm useless or if he wants me to come with him, but either way...
+REBECCA: "Eric, can we talk for a second?"
+
+We head back to the entrance of the pool together. Sophie takes the opportunity to check Lyra's vitals while Max looks on. Both of us speak in a low whisper.
+
+[enter REBECCA B]
+[enter ERIC D]
+REBECCA: "Look, what do you see as the best way out of this? Do we just have to let Felix and Henry and the kids that joined up with them die?"
+ERIC: "If it saves everyone in the gymnasium, do we have a choice?"
+I'm about to contradict him when he interrupts.
+ERIC: "No, I can't do that. If I could live with that I would've supported Felix back when we first met up."
+REBECCA: "I agree. Maybe there's something stupid in both of us that refuses to make those trades."
+ERIC: "If you told me that dooming Felix's supporters to die would guarantee that we survived, I think I'd have to accept, but as it stands, there's no way we can know what will happen."
+REBECCA: "Then what's our ideal scenario? What are we doing here?"
+ERIC: "I don't know. Why are you asking me away from Max and the rest?"
+REBECCA: "Because I've decided I'm not going to blindly follow Maximilian any more. He does what he sees as right, and I will do the same. He tried to teach me that earlier, but I ignored him. So now I'm setting that straight. Right now, you're the only ally I have. We share views."
+ERIC: "Right, Max said he was unwilling to compromise with Felix."
+REBECCA: "We both have our work cut out for his. What if we could forge an alliance between the groups?"
+ERIC: "That seems like such a remote chance, but if there's any hope, I'll take it."
+REBECCA: "My thoughts exactly."
+ERIC: "How long could we last, all forty students cooped up in the gym with the shelter supplies? I don't know how much there is down there."
+REBECCA: "I don't think we could last as long as Felix's goal of the entire winter..."
+ERIC: "But enough to last for a few weeks, anyway."
+REBECCA: "And if rescue doesn't arrive by then, we would all die anyway. But promise me one thing... After we've split up, meet on the catwalks tomorrow night."
+ERIC: "I can do that. Well, we have our goal. Can I count on you to do your best to carry it through?"
+REBECCA: "I'd never let you down."
+ERIC: "Then I'll do my best as well."
+[hold]
+
+We return to Max, Sophie, and Lyra. I'm apprehensive about the idea of splitting up again. There is a finite chance that we'll never see each other again. How much time could we last in the gym, staving off Felix? No, I can't think like that. We came in to this with the objective of saving as many students as possible, even those attacking us. In all likelihood, we'll be paying the price for that.
+
+[enter MAX A]
+[enter SOPHIE E]
+[enter LYRA C]
+REBECCA: "Max, we've reached a decision."
+MAX: "I was wondering what was going on over at that lovely little caucus over there. What's your decision?"
+REBECCA: "Eric's going to leave to convince Felix to halt the attacks, and I'm staying here with you."
+MAX: "I see my company is as irresistible as ever."
+He can't see me roll my eyes. I'd tell him that I'm only here to convince him, but that would certainly put him on his guard.
+REBECCA: "Think what you want."
+MAX: "Well, I'm going to be heading back to the gym now."
+SOPHIE: "Lyra and I have reached a resolution of our own."
+LYRA: "We're staying here."
+MAX: "Fine. Don't blame me if Henry or some other thug stuffs duct tape down your throats."
+SOPHIE: "Think what you want."
+I'm glad she's finally standing up for herself.
+MAX: "Aren't you feisty? Well, if anyone shows up, claw their eyes out for me, you hear? Let's go, Rebecca. And maybe I'll see you around, Eric."
+ERIC: "Right. Goodbye, Rebecca."
+REBECCA: "Good luck."
+
+I hope he doesn't notice us embrace in the darkness, but by his quiet laughter, I'm almost sure he did. Sophie's right. Think what you like, Max, but I'm here to change your mind, whether you like it or not. I idle in the hallway a few seconds to listen to the last echoes of Eric's footsteps as he walks to the door to the catwalks.
+
+Max and I reach the fire door to the gym. He knocks with some combination of pauses and sharp raps, and a student on the other side opens the door.
+
+[enter MAX B]
+[enter REBECCA D]
+STUDENT1: "Welcome back Max. I see you convinced Sophie to return."
+REBECCA: "I'm not Sophie. It's Rebecca Bell."
+STUDENT1: "What? You're kidding. I guess it really is you."
+[hold]
+
+We walk through the sitting students by the light of a phone Max is carrying. That's right; I still have his in my pocket. I receive more than a few strange looks as we traverse the camp. It's strange to think that two students who were once exiled by the leadership currently are now effectively the leadership themselves. What even happened to Kenneth? No sooner do I think his name than he appears in person.
+
+[enter KENNETH A]
+KENNETH: "Max? Who's this?"
+REBECCA: "Rebecca. Don' t you remember me? You exiled me."
+KENNETH: "Oh, sorry, please don't hold it against me."
+REBECCA: "What are you even doing now that Shibin's gone?"
+MAX: "Leave him alone, Rebecca. He's not quite right."
+KENNETH: "Sorry Max, but could you deal with her?"
+MAX: "No problem."
+[exit KENNETH]
+He walks away.
+REBECCA: "What's with him?"
+MAX: "If I knew, I'd tell you. Since Shibin was captured, he's been acting really strange. It's fine though. He listens to me, and he doesn't get in the way. Most people here still look up to him anyway."
+REBECCA: "That's bizarre... Anyway, what are you guys doing in here?"
+MAX: "At the moment? Conserving our energy."
+REBECCA: "You mean nothing, right?"
+MAX: "We've lost Arya, so we're not repairing the barricade if that's what you mean. That thing was kept together with her guidance."
+REBECCA: "You don't want to even try?"
+MAX: "What if we were attacked while building it?"
+It's a good point, and I think having the barricade down makes my job a little easier, anyway.
+REBECCA: "Who is left that I remotely know?"
+[hold]
+
+Maybe Max thought that was rhetorical, as he's not responding. Or maybe there really is no one. Who would be left? Of my original gym group, no one remains. Cait, Shibin, Kenneth and Arya were all captured by Felix. Pete defected. Sophie fled. It's only Maximilian and myself.
+
+MAX: "I'll show you that we can take the initiative though. We need to prepare ourselves for the next attack. We know it will come; it's just a matter of time and method."
+REBECCA: "Their battering ram is abandoned outside the door, you know."
+MAX: "Thanks for telling me. I'll send someone to fetch it."
+He calls out to some student while I survey our little camp.
+MAX: "I'm trying to think of any other possible way they could force their way through.'
+REBECCA: "What if they didn't need to?"
+MAX: "My dear, they'd need someone on the inside to do that. Who'd be insane to open the door again? Wait, don't tell me you're with Felix?"
+REBECCA: "You've gone paranoid. Congratulations."
+Another one of Max's little minions approaches.
+STUDENT2: "Any new orders?"
+MAX: "Have them gather some glass from those shattered windows by the student lounge. We need to arm ourselves."
+Max dispatches the kid, who in turn repeats the order to a few students who jump up from the floor and past the door guards.
+REBECCA: "Is that really necessary? Like you said, anyone out there could be attacked at any time."
+MAX: "It's worth it. Maybe we can make something out of the glass. Right now, there's no way we can combat those spears."
+REBECCA: "Spears?"
+MAX: "Most of Felix's crew are carrying half a pair of scissors duct taped to a piece of wood or something. We've had to treat a few wounds already, and it wasn't pretty. The scissors are blunt, so cutting isn't effective, but those things could easily kill with a good stab."
+REBECCA: "If you say. I'll find something to do while you tend to business."
+MAX: "Good idea."
+
+For some reason I feel that something is wrong. Max just doesn't feel like the Max I know. Maybe I never expected him to be the type of person to take charge in a time of crisis. Or it could just be that the atmosphere in the gym is so different from that camping feeling I had the very first night. If only I had known it would come to this.
+
+As I think about the plan Eric and I developed, I realize how hard this will be. It looks like Max's group is very well secured. There's only one entrance to the gym, and they've taken the battering ram. If I were to stay put, it's likely that Felix will never mount another attack. How am I supposed to convince Max to make a treaty with an enemy that, if he plans correctly, he will never see again? 
+
+I walk up and down the littered track, trying to find some plan of action. With Eric at the pool, everything seemed so clear-cut. Now my objective is a lot hazier. What could I possibly do that would lead to every student gathered peacefully in the gym when each side is building up an arsenal of murderous weapons? I find Max again.
+
+[enter REBECCA B]
+[enter MAX D]
+REBECCA: "Max?"
+MAX: "Call me Maximilian, please."
+REBECCA: "Do you care about me?"
+MAX: "That's an awkward question. Don't think I didn't notice you and Eric."
+Oh well. I have no regrets.
+MAX: "But no doubt this chivalrous spirit would gladly trade his life for yours."
+REBECCA: "Thanks. That's all I needed to know."
+MAX: "Suit yourself."
+
+It was a better answer than I could've hoped for. The beginnings of a plan start to form in my mind. Max might hate me forever for this, but if I can save Felix and Eric and the debate team and the jazz ensemble, it will be worth it.
+
+[goto s0064]

@@ -1,0 +1,18 @@
+[s0160]
+[increment UNSHUT_DOOR]
+
+ERIC: "Cait, just leave it open. We're not at war here, and what happens if Felix wants to get in touch with us?"
+CAIT: "You realize the only reason he would to get in touch with us is to declare war, right?"
+ERIC: "I'd rather not worry about Felix and the rest for one night. We'll come up with some plan tomorrow once we hear from Max."
+CAIT: "Fine. You're the boss, after all."
+ERIC: "The boss?"
+SID: "Haha, it's a fitting title, Eric."
+ERIC: "Thanks, I guess."
+CAIT: "Well then, what else is there to do tonight?"
+REBECCA: "Relaxing isn't good enough?"
+CAIT: "Some of us can't ignore the obvious, Rebecca."
+SID: "And some are better at it than others. What's everyone taking for classes next semester?"
+
+I have to hand it to Sid. Rebecca and Caitlyn start up some animated discussion, and even Lyra pipes up once in a while. I notice Sid is content to sit back and let us talk about nothing. Maybe he, like me, can't keep out the pessimistic voices in his head. For my part, I'll try to keep my head up.
+
+[goto s0058]

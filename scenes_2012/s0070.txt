@@ -1,0 +1,100 @@
+[s0070]
+
+[date]
+Thursday, November 23rd: Day 13
+
+I wake up tired from the debate last night. Convincing Felix of anything takes hours, but Rebecca and I finally made our point. Today promises to be a melancholy day. Max insisted that we wait one more day before departing in order to search the rest of the school and gather our supplies in one place. I can't disagree with him, but I'm not looking forward to the preparations.
+
+Rebecca is next to me, still asleep. I stand up and survey the beginnings of today's chores in the gray dawn. Shibin stands at the side of the gym. He has the boxes of supplies down from the stacks, and he and Henry are busy counting, sorting, and packing. That must be the biggest job. Our largest single source of supplies is still the remainder of the hurricane shelter. The fire door opens. I notice that no one is guarding it before Sid steps in from the hall. I walk over to join him.
+
+[enter SID B]
+[enter ERIC D]
+SID: "Good morning."
+ERIC: "Same to you. What are you carrying?"
+I can't see in the early light.
+SID: "It's my water cooler. I'm in the process of bringing up all the supplies from the basement. Cait is helping me move everything."
+ERIC: "Oh. How long has everyone been working?"
+SID: "I don't know. I only woke up an hour ago, anyway. I haven't seen Felix or Max around, but Kenneth is wandering around here somewhere."
+ERIC: "Then no one's organizing all of this?"
+SID: "Maybe when everyone's awake. For now, everyone's just doing what needs to be done."
+ERIC: "Maybe I'll help you out then."
+For now, I want to see who else is up and active.
+SID: "Just come down to the student lounge if you have nothing to do."
+
+The only other movement I spot is in the corner. Sophie and Lyra are sitting around the remains of the stage curtain. I'll see what they're up to before I help Sid.
+
+[enter ERIC A]
+[enter SOPHIE D]
+[enter LYRA E]
+LYRA: "Oh, it's you. Hi."
+ERIC: "Hello. Good morning, Sophie."
+SOPHIE: "Hello, Eric. You're up early."
+ERIC: "I thought I was, but it looks like everyone else is busy already."
+[enter MARILYN C]
+MARILYN: "They're just helping me. Don't worry yourself about it."
+Her voice is muffled by the layers of curtain.
+ERIC: "I almost didn't see you down there."
+MARILYN: "It's all right."
+ERIC: "Have you figured out what her condition is?"
+SOPHIE: "I don't know what's afflicting her if that's what you're asking, but her condition is poor. I don't think she'll make it if we carry out that plan to all leave the school. Maybe we should stay here."
+MARILYN: "I won't have you stay behind on my account. I kept telling Felix that and I'll say the same to you. There isn't much hope for me. I shouldn't be a large part in your decision making."
+LYRA: "You did a lot for me when I was almost as sick as you. Don't say depressing stuff like that."
+MARILYN: "True. I'd do the same for anyone."
+ERIC: "It's so cold in here that I don't see why taking Marilyn into the snow would make any difference."
+SOPHIE: "Marilyn, can you even walk on your own? And we won't have the curtain?"
+MARILYN: "Honestly, I don't think I can stand up."
+SOPHIE: "See? What can we do?"
+ERIC: "I'm sure someone can rig up a stretcher. We could put Marilyn and the curtain on that."
+MARILYN: "You would do that?"
+ERIC: "Of course. Today is preparations day. There are plenty of students here. We can find something."
+MARILYN: "I won't hope for too much, but I would be grateful. Thank you."
+
+Sorry Sid, looks like there's something else for me to do. I have another project to work on. However, I could use some assistance. As I think to myself, two others walk up to me.
+
+[enter ERIC D]
+[enter FELIX A]
+[enter REBECCA B]
+REBECCA: "Eric. I wondered where you went."
+FELIX: "He's one of our hardest working members, here. I knew he'd be up to something."
+ERIC: "It's good to see you awake, Rebecca. Sleep well, Felix?"
+FELIX: "Good enough. We have a lot to accomplish today, and I'm glad Max suggested it."
+Even though you protested against it so much last night?
+ERIC: "Right. Well, I have things I need to do as well."
+FELIX: "And so do I. See you tonight."
+[exit FELIX]
+I watch him as he joins Shibin and Henry.
+REBECCA: "You have things to do, you say?"
+ERIC: "We need some way to bring Marilyn out of here. She's still too sick to stand. I was thinking we have to construct a stretcher."
+REBECCA: "Sounds good to me. Do you want help?"
+ERIC: "I'd love it."
+
+We spend our morning and afternoon trying to combine the abandoned battering ram of a table and the other stage curtain. At this point, Pete's duct tape is in short supply, and we end up searching the classrooms for more materials. Along the way, we run into other students doing their last errands as well as others just wandering around to kill the time. Felix's group almost universally fall into the latter category.
+
+The entire English hall is marked by snow. Pete and a few other diggers spent the morning and some of last night tunneling out through the packed snow that blocked the roof door. Now, only one student sits outside, keeping the path clear.
+
+Back down in our gym workshop, everyone is fully awake and moving around. All of the backpacks from the locker rooms are now lined up against one wall. Shibin and Max are overseeing the filling of the bags with every manner of supply that has been scavenged from the school. The combined blankets from our basement hideout and Felix's staff lounge base are being folded and distributed, and I notice someone grabbed our curtains scraps and threw them into the mix. I'm still amazed at the productivity of such a disorganized group of people.
+
+Dinner is paltry. There are a few dissatisfied grumblings about the size of the handouts, but everyone knows Shibin performed some vague calculation about days and distances to calculate the total amount of supplies allotted to each student and how much to be consumed on a daily basis. Tonight is to be the last organized meal. All the other food and water is stuffed into the backpacks and makeshift bags. Kenneth makes an announcement regarding the recommended ration size, but from now on, how much we eat is our own business. 
+
+The only remaining task after the meal is the construction of a tent. Under Arya's direction, it only takes a short while to combine wooden beams, the majority of the scraps from the stage curtains, and a variety of binding materials into a short and cramped structure. It stands alone in the middle of the gym for about an hour before the light starts fading, and a few students roll it into a bundle. The tent should be large enough to fit all thirty or forty students present, but uncomfortably huddled. The warmth will be the best we can get out in the snow if we have to travel multiple days. The way everyone, especially Max, seems to be thinking is that that will definitely be the case.
+
+We'll wait until the morning to put the sleeping bags with the bags, but Rebecca, Arya, and I mount the tent to a holder on the bottom of the stretcher. With Felix and Sophie's help, we transfer Marilyn to the stretcher, where she'll spend the night. The construction of the tent required most of her bedding anyway.
+
+As the light finally fades, none of us bother with any form of artificial illumination. All that remains to be done is bundle the sleeping bags and leave. The passage is clear, the supplies are ready, and our minds are decided. Tonight is our last night in the St. Magnus School.
+
+[enter REBECCA B]
+[enter ERIC D]
+REBECCA: "Are you ready for tomorrow, Eric?"
+ERIC: "As ready as I'll ever be."
+REBECCA: "Isn't that surprising... We actually accomplished what we set out to achieve."
+ERIC: "It's hard to believe, isn't it? This nightmare just might be ending."
+REBECCA: "After we found Marisa, I thought that was it. I thought none of us were ever going to escape from here, and that we'd die to some combination of starvation, cold, or each other."
+ERIC: "But we're not starving are we? And it's warm now, isn't it?"
+REBECCA: "The best result from the worst possible scenario..."
+ERIC: "It's impressive. You really outdid yourself."
+REBECCA: "Don't deny your involvement either."
+ERIC: "Really, it's been a combined effort from everyone from the beginning."
+REBECCA: "Not from the beginning. It's only in the last few days that we've started regaining our sanity."
+ERIC: "A miracle, isn't it..."
+
+[goto s0071]

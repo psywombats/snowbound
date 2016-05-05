@@ -1,0 +1,35 @@
+[s0079]
+[increment PETE]
+
+I walk to the entrance hall to spend my time. There is no European Studies today as it's one of those classes that meet every other week. Most students would take another class that meets at the same period on opposite days, but none of the classes that met that requirement looked appealing to me, and so I have this free hour with nothing to do. It's rare for a student to have an empty period that's not in place of gym, but I'm in the habit of hanging around the entrance hall. Maybe someone interesting will show up.
+
+[enter PETE B]
+PETE: "Oh hey, look who it is."
+I guess there is someone here who knows me.
+[enter ERIC D]
+ERIC: "Hi? Oh, right, you're interested in the archery team. Hello."
+PETE: "Haha, of course. You're the captain, right?"
+ERIC: "Right. I guess you don't have class this period?"
+PETE: "No, I do."
+ERIC: "Then why aren't... Oh, never mind."
+PETE: "Well you're skipping too, right?"
+ERIC: "Uh, no, I have this block free."
+PETE: "What kind of a senior are you, anyway? Not filling up all of your free time with classes... Not a very good student I see."
+ERIC: "You're one to talk."
+PETE: "Ha, see you later. I'm going to go check out the rain.
+[exit PETE]
+ERIC: "If you say..."
+
+I can see why the rain outside would be so interesting. That thin grey cloud that materialized yesterday is turning darker and darker. The trees are shedding orange leaves in the wind. It seems to be another world out there.
+
+[enter ERIC B]
+ERIC: "Hey, wait up!"
+[enter PETE E]
+PETE: "What's up?"
+ERIC: "Archery's off for today. They're turning the gym into a hurricane shelter."
+PETE: "Boring. Can't we just practice outside?"
+ERIC: "Yeah right.
+
+I start my work at the table I just left. I only have the chemistry pre-lab to finish, and I'm soon left with nothing to do. My course load is very minor. Pete looks to be running in and out of the rain. A few raindrops streak the edges of the windows. Whatever is going on out there is picking up. The hour passes. I head over to the north stairwell and head upstairs for Modern Poetry.
+
+[goto s0080]

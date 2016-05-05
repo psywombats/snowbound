@@ -1,0 +1,22 @@
+[s0033]
+
+REBECCA: "Sure. Anything's better than listening to this. This is depressing."
+ERIC: "Let's get moving."
+
+We leave the remains of the conference and pass through the fire door. Sid watches us leave without comment. Our final destination lies almost exactly above us, but our route to reach that point is circuitous. We must first descend to the basement, cross to the north stairwell, climb to the second floor, and then to Felix's old headquarters in the staff lounge. We hear him humming to himself as we approach.
+
+[enter REBECCA B]
+[enter ERIC A]
+[enter PETE D]
+REBECCA: "Hey Pete. How's it going?"
+PETE: "Okay. I'm almost through. Give me a little while longer."
+REBECCA: "Your arm is all better, then?"
+PETE: "Not fully healed, but I can use it, at least. It just hurts like hell."
+ERIC: "You want us to help or anything?"
+PETE: "I should be fine. I just need more time."
+
+Eric and I move back to the staircase. I'm reminded of the time we spent alone those days ago, trapped on the other stairwell. We sit close to each other.
+
+[branch ERIC > 1]
+[true :: s0192]
+[false :: s0191]
