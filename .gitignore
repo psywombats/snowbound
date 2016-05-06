@@ -16,4 +16,8 @@ Thumbs.db
 #################
 snowbound_beta/Library/*
 snowbound_beta/Temp/*
+
+# Visual Studio garbage #
+#########################
+*.sln
 snowbound_beta/.vs/*
