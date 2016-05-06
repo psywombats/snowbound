@@ -16,3 +16,4 @@ Thumbs.db
 #################
 snowbound_beta/Library/*
 snowbound_beta/Temp/*
+snowbound_beta/.vs/*
