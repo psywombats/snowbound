@@ -1,15 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
-public class SceneCommand : MonoBehaviour {
+public interface SceneCommand {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    void performAction(SceneManagerComponent sceneManager, Action onFinish);
+
 }

@@ -18,12 +18,6 @@ public class TextboxComponent : MonoBehaviour {
         
     }
 
-    public void Awake() {
-        StartCoroutine(Utils.RunAfterDelay(0.5f, () => {
-            ShowText("It was the best of of best of the times of the gthe game ger this is a typing test speed which I'm going to take immeidately afte this betterrrrrrr span more than one line");
-        }));
-    }
-
     public void ShowText(string text, Action textCompleteDelegate=null) {
         fullText = text;
         StartCoroutine(TypeText());
