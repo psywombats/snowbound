@@ -11,8 +11,6 @@ public class SceneParser : MonoBehaviour {
         textbox.gameObject.SetActive(false);
         paragraphBox.gameObject.SetActive(false);
         SceneScript firstScript = new SceneScript(firstSceneFile);
-        firstScript.PerformActions(this, () => {
-
-        });
+        StartCoroutine(firstScript.PerformActions(this));
     }
 }

@@ -11,15 +11,9 @@ public class SceneScript {
         ParseCommands(asset.text);
     }
 
-    public void PerformActions(SceneParser sceneManager, Action onFinish) {
-        if (commands.Count == 0) {
-            onFinish();
-        } else {
-            SceneCommand command = commands[0];
-            commands.Remove(command);
-            command.PerformAction(sceneManager, () => {
-                PerformActions(sceneManager, onFinish);
-            });
+    public IEnumerator PerformActions(SceneParser parser) {
+        foreach (SceneCommand command in commands) {
+            yield return parser.StartCoroutine(command.PerformAction(parser));
         }
     }
     

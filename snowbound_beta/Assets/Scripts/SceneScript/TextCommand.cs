@@ -12,11 +12,7 @@ public abstract class TextCommand : SceneCommand {
         this.text = text;
     }
 
-    public void PerformAction(SceneParser parser, Action onFinish) {
-        parser.StartCoroutine(TextRoutine(parser, onFinish));
-    }
-
-    private IEnumerator TextRoutine(SceneParser parser, Action onFinish) {
+    public IEnumerator PerformAction(SceneParser parser) {
         TextboxComponent primaryBox = PrimaryBox(parser);
         TextboxComponent secondaryBox = SecondaryBox(parser);
 
@@ -49,9 +45,6 @@ public abstract class TextCommand : SceneCommand {
 
         // await input
         yield return Global.Instance().inputManager.AwaitHurry();
-
-        // done
-        onFinish();
     }
 
     protected abstract TextboxComponent PrimaryBox(SceneParser parser);
