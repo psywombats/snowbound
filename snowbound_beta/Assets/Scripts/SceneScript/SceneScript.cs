@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Assertions;
 
 public class SceneScript {
     
@@ -11,7 +12,7 @@ public class SceneScript {
         ParseCommands(asset.text);
     }
 
-    public IEnumerator PerformActions(SceneParser parser) {
+    public IEnumerator PerformActions(ScenePlayer parser) {
         foreach (SceneCommand command in commands) {
             yield return parser.StartCoroutine(command.PerformAction(parser));
         }
@@ -33,11 +34,21 @@ public class SceneScript {
                 // this is a command of some type
 
                 if (commandString.IndexOf(']') == commandString.Length - 1) {
-                    // single word command
-                    command = ParseCommand(commandString.Substring(1, commandString.Length - 2), new List<string>());
+                    // infix command
+                    if (commandString.IndexOf(' ') == -1) {
+                        // single word command
+                        command = ParseCommand(commandString.Substring(1, commandString.Length - 2), new List<string>());
+                    } else {
+                        // multiword infix command
+                        string keyword = commandString.Substring(1, commandString.IndexOf(' ') - 1);
+                        string argsString = commandString.Substring(commandString.IndexOf(' ') + 1, commandString.Length - (keyword.Length + 3));
+                        string[] args = argsString.Split();
+                        command = ParseCommand(keyword, new List<string>(args));
+                    }
                 } else {
-                    string keyword = commandString.Substring(1, commandString.IndexOf(' '));
-                    string argsString = commandString.Substring(commandString.IndexOf(' '), commandString.Length - 2);
+                    // postfix command
+                    string keyword = commandString.Substring(1, commandString.Length - 2);
+                    string argsString = commandString.Substring(commandString.IndexOf(']'));
                     string[] args = argsString.Split();
                     command = ParseCommand(keyword, new List<string>(args));
                 }
@@ -64,7 +75,13 @@ public class SceneScript {
     }
 
     private SceneCommand ParseCommand(string command, List<string> args) {
-        return null;
+        switch (command) {
+            case "goto":
+                return new GotoCommand(args[0]);
+            default:
+                //Assert.IsTrue(false, "bad command: " + command);
+                return null;
+        }
     }
 
     private bool StartsWithName(string text) {

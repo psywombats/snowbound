@@ -12,7 +12,7 @@ public abstract class TextCommand : SceneCommand {
         this.text = text;
     }
 
-    public IEnumerator PerformAction(SceneParser parser) {
+    public IEnumerator PerformAction(ScenePlayer parser) {
         TextboxComponent primaryBox = PrimaryBox(parser);
         TextboxComponent secondaryBox = SecondaryBox(parser);
 
@@ -47,7 +47,7 @@ public abstract class TextCommand : SceneCommand {
         yield return Global.Instance().inputManager.AwaitHurry();
     }
 
-    protected abstract TextboxComponent PrimaryBox(SceneParser parser);
+    protected abstract TextboxComponent PrimaryBox(ScenePlayer parser);
 
-    protected abstract TextboxComponent SecondaryBox(SceneParser parser);
+    protected abstract TextboxComponent SecondaryBox(ScenePlayer parser);
 }

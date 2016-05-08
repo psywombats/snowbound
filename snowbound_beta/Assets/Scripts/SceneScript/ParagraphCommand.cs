@@ -8,11 +8,11 @@ public class ParagraphCommand : TextCommand {
 
     }
 
-    protected override TextboxComponent PrimaryBox(SceneParser parser) {
+    protected override TextboxComponent PrimaryBox(ScenePlayer parser) {
         return parser.paragraphBox;
     }
 
-    protected override TextboxComponent SecondaryBox(SceneParser parser) {
+    protected override TextboxComponent SecondaryBox(ScenePlayer parser) {
         return parser.textbox;
     }
 }
