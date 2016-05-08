@@ -4,39 +4,87 @@ using System.Collections;
 using System.Collections.Generic;
 
 public class SceneScript {
-
-    private TextAsset asset;
+    
     private List<SceneCommand> commands;
 
     public SceneScript(TextAsset asset) {
-        this.asset = asset;
-        parseCommands(asset.text);
+        ParseCommands(asset.text);
     }
 
-    public void performActions(SceneManagerComponent sceneManager, Action onFinish) {
+    public void PerformActions(SceneManagerComponent sceneManager, Action onFinish) {
         if (commands.Count == 0) {
             onFinish();
         } else {
             SceneCommand command = commands[0];
             commands.Remove(command);
-            command.performAction(sceneManager, () => {
-                performActions(sceneManager, onFinish);
+            command.PerformAction(sceneManager, () => {
+                PerformActions(sceneManager, onFinish);
             });
         }
     }
     
-    private void parseCommands(string text) {
+    private void ParseCommands(string text) {
         commands = new List<SceneCommand>();
-        string[] commandStrings = text.Split(new [] { '\n' });
+        string[] commandStrings = text.Split(new [] { "\r\n", "\n" }, StringSplitOptions.None);
+        bool startsNewParagraph = false;
         foreach (string commandString in commandStrings) {
-            if (commandString.Trim().Length == 0) {
-                continue;
-            }
-            if (commandString[0] == '[') {
+            SceneCommand command;
 
+            if (commandString.Trim().Length == 0) {
+                // newline, no command but we need to keep track
+                
+                startsNewParagraph = true;
+                continue;
+            } else if (commandString[0] == '[') {
+                // this is a command of some type
+
+                if (commandString.IndexOf(']') == commandString.Length - 1) {
+                    // single word command
+                    command = ParseCommand(commandString.Substring(1, commandString.Length - 2), new List<string>());
+                } else {
+                    string keyword = commandString.Substring(1, commandString.IndexOf(' '));
+                    string argsString = commandString.Substring(commandString.IndexOf(' '), commandString.Length - 2);
+                    string[] args = argsString.Split();
+                    command = ParseCommand(keyword, new List<string>(args));
+                }
             } else {
-                commands.Add(new BetaTextCommand(commandString));
+                // this is a text literal
+
+                if (StartsWithName(commandString)) {
+                    command = new SpokenLineCommand(commandString);
+                } else {
+                    if (startsNewParagraph) {
+                        command = new ParagraphCommand(commandString);
+                    } else {
+                        // the inner monologue
+                        command = new SpokenLineCommand(commandString);
+                    }
+                }
+            }
+
+            if (command != null) {
+                commands.Add(command);
+            }
+            startsNewParagraph = false;
+        }
+    }
+
+    private SceneCommand ParseCommand(string command, List<string> args) {
+        return null;
+    }
+
+    private bool StartsWithName(string text) {
+        if ((text.IndexOf(' ') == -1) || (text.IndexOf(':') == -1)) {
+            return false;
+        }
+        foreach (char c in text) {
+            if (c == ':') {
+                return true;
+            }
+            if (!Char.IsUpper(c)) {
+                return false;
             }
         }
+        return false;
     }
 }

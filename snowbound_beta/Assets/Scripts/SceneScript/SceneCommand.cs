@@ -4,6 +4,6 @@ using System;
 
 public interface SceneCommand {
 
-    void performAction(SceneManagerComponent sceneManager, Action onFinish);
+    void PerformAction(SceneManagerComponent sceneManager, Action onFinish);
 
 }

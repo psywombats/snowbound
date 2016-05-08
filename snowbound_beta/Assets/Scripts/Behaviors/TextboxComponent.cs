@@ -10,31 +10,21 @@ public class TextboxComponent : MonoBehaviour {
 
     public Image backer;
     public Text textbox;
-
     private string fullText;
-    private Action textCompleteDelegate;
-
-    public void Start() {
-        
+    
+    public float alpha {
+        get { return gameObject.GetComponent<CanvasRenderer>().GetAlpha(); }
+        set { gameObject.GetComponent<CanvasRenderer>().SetAlpha(value); }
     }
 
-    public void ShowText(string text, Action textCompleteDelegate=null) {
+    public IEnumerator ShowText(string text) {
         fullText = text;
-        StartCoroutine(TypeText());
-    }
-
-    private IEnumerator TypeText() {
         for (int i = 0; i <= fullText.Length; i += 1) {
             textbox.text = fullText.Substring(0, i);
             textbox.text += "<color=#00000000>";
             textbox.text += fullText.Substring(i);
             textbox.text += "</color>";
             yield return new WaitForSeconds(characterDelay);
-        }
-        if (this.textCompleteDelegate != null) {
-            Action toCall = this.textCompleteDelegate;
-            this.textCompleteDelegate = null;
-            toCall();
         }
     }
 }
