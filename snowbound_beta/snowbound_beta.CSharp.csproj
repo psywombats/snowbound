@@ -69,13 +69,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Behaviors\SceneManagerComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\TextboxComponent.cs" />
     <Compile Include="Assets\Scripts\Global.cs" />
+    <Compile Include="Assets\Scripts\InputManager.cs" />
+    <Compile Include="Assets\Scripts\SceneParser.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ParagraphCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SceneCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SceneScript.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SpokenLineCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\TextCommand.cs" />
     <Compile Include="Assets\Scripts\Utils.cs" />
   </ItemGroup>
   <ItemGroup>

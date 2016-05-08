@@ -1,15 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Global {
+public class Global : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    private static Global instance;
+    
+    public InputManager inputManager;
+
+    public static Global Instance() {
+        if (instance == null) {
+            GameObject globalObject = new GameObject();
+            globalObject.hideFlags = HideFlags.HideAndDontSave;
+            instance = globalObject.AddComponent<Global>();
+            instance.InstantiateManagers();
+        }
+        return instance;
+    }
+
+    public void Awake() {
+        DontDestroyOnLoad(gameObject);
+    }
+
+    private void InstantiateManagers() {
+        inputManager = gameObject.AddComponent<InputManager>();
+    }
 }

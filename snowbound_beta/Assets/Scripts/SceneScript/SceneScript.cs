@@ -11,7 +11,7 @@ public class SceneScript {
         ParseCommands(asset.text);
     }
 
-    public void PerformActions(SceneManagerComponent sceneManager, Action onFinish) {
+    public void PerformActions(SceneParser sceneManager, Action onFinish) {
         if (commands.Count == 0) {
             onFinish();
         } else {

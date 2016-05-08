@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SceneManagerComponent : MonoBehaviour {
+public class SceneParser : MonoBehaviour {
 
     public TextAsset firstSceneFile;
     public TextboxComponent textbox;

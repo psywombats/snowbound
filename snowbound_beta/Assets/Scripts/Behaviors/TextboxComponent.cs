@@ -20,11 +20,20 @@ public class TextboxComponent : MonoBehaviour {
     public IEnumerator ShowText(string text) {
         fullText = text;
         for (int i = 0; i <= fullText.Length; i += 1) {
+            if (Global.Instance().inputManager.WasHurried()) {
+                Global.Instance().inputManager.AcknowledgeHurried();
+                textbox.text = fullText;
+                break;
+            }
             textbox.text = fullText.Substring(0, i);
             textbox.text += "<color=#00000000>";
             textbox.text += fullText.Substring(i);
             textbox.text += "</color>";
             yield return new WaitForSeconds(characterDelay);
         }
+    }
+
+    public void Clear() {
+        textbox.text = "";
     }
 }
