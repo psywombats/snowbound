@@ -17,6 +17,10 @@ public class TextboxComponent : MonoBehaviour {
         set { gameObject.GetComponent<CanvasRenderer>().SetAlpha(value); }
     }
 
+    public float height {
+        get { return GetComponent<RectTransform>().rect.height; }
+    }
+
     public IEnumerator ShowText(string text) {
         fullText = text;
         for (int i = 0; i <= fullText.Length; i += 1) {

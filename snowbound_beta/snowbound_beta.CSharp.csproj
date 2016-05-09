@@ -73,6 +73,8 @@
     <Compile Include="Assets\Scripts\Global.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />
     <Compile Include="Assets\Scripts\ScenePlayer.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\ChoiceCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\ChoiceOption.cs" />
     <Compile Include="Assets\Scripts\SceneScript\GotoCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ParagraphCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SceneCommand.cs" />
@@ -289,6 +291,7 @@
     <None Include="Assets\Resources\SceneScripts\s0205.txt" />
     <None Include="Assets\Resources\SceneScripts\s0206.txt" />
     <None Include="Assets\Resources\SceneScripts\s0207.txt" />
+    <None Include="Assets\Resources\SceneScripts\testScript.txt" />
     <None Include="Assets\Resources\SceneScripts\unimplemented.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

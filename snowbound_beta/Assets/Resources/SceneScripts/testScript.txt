@@ -1,0 +1,9 @@
+Test time!
+
+SYSTEM: It's test time!
+
+NVL mode enabled!
+
+[choice]
+[Talk to him :: s0072]
+[See him off :: s0073]

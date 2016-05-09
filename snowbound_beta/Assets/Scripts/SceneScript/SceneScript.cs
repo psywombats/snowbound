@@ -7,6 +7,7 @@ using UnityEngine.Assertions;
 public class SceneScript {
     
     private List<SceneCommand> commands;
+    private ChoiceCommand choice;
 
     public SceneScript(TextAsset asset) {
         ParseCommands(asset.text);
@@ -19,6 +20,7 @@ public class SceneScript {
     }
     
     private void ParseCommands(string text) {
+        choice = null;
         commands = new List<SceneCommand>();
         string[] commandStrings = text.Split(new [] { "\r\n", "\n" }, StringSplitOptions.None);
         bool startsNewParagraph = false;
@@ -78,7 +80,14 @@ public class SceneScript {
         switch (command) {
             case "goto":
                 return new GotoCommand(args[0]);
+            case "choice":
+                this.choice = new ChoiceCommand();
+                return this.choice;
             default:
+                if (choice != null) {
+                    string choiceString = command + " " + String.Join(" ", args.ToArray());
+                    this.choice.AddOption(new ChoiceOption(choiceString));
+                }
                 //Assert.IsTrue(false, "bad command: " + command);
                 return null;
         }

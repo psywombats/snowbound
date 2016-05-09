@@ -4,6 +4,6 @@ using System;
 
 public interface SceneCommand {
 
-    IEnumerator PerformAction(ScenePlayer sceneManager);
+    IEnumerator PerformAction(ScenePlayer player);
 
 }

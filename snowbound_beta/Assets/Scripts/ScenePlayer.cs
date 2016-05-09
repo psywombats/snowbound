@@ -6,6 +6,7 @@ public class ScenePlayer : MonoBehaviour {
     private const string scenesDirectory = "SceneScripts";
 
     public TextAsset firstSceneFile;
+    public Canvas canvas;
     public TextboxComponent textbox;
     public TextboxComponent paragraphBox;
 
