@@ -18,22 +18,22 @@ public abstract class TextCommand : SceneCommand {
 
         // fade the textboxes in or out
         if (!primaryBox.gameObject.activeInHierarchy) {
-            primaryBox.alpha = 0.0f;
+            primaryBox.Alpha = 0.0f;
             primaryBox.Clear();
             primaryBox.gameObject.SetActive(true);
         }
-        while (primaryBox.alpha < 1.0f) {
-            primaryBox.alpha += Time.deltaTime / textboxFadeDuration;
-            secondaryBox.alpha -= Time.deltaTime / textboxFadeDuration;
-            if (primaryBox.alpha > 1.0f) {
-                primaryBox.alpha = 1.0f;
+        while (primaryBox.Alpha < 1.0f) {
+            primaryBox.Alpha += Time.deltaTime / textboxFadeDuration;
+            secondaryBox.Alpha -= Time.deltaTime / textboxFadeDuration;
+            if (primaryBox.Alpha > 1.0f) {
+                primaryBox.Alpha = 1.0f;
             }
-            if (secondaryBox.alpha < 0.0f) {
-                secondaryBox.alpha = 0.0f;
+            if (secondaryBox.Alpha < 0.0f) {
+                secondaryBox.Alpha = 0.0f;
             }
             if (Global.Instance().inputManager.WasHurried()) {
-                primaryBox.alpha = 1.0f;
-                secondaryBox.alpha = 0.0f;
+                primaryBox.Alpha = 1.0f;
+                secondaryBox.Alpha = 0.0f;
                 break;
             }
             yield return null;

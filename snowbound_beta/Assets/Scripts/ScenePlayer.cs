@@ -9,6 +9,7 @@ public class ScenePlayer : MonoBehaviour {
     public Canvas canvas;
     public TextboxComponent textbox;
     public TextboxComponent paragraphBox;
+    public CharaIndexData charas;
 
     public void Start() {
         textbox.gameObject.SetActive(false);
@@ -24,5 +25,9 @@ public class ScenePlayer : MonoBehaviour {
     public IEnumerator PlayScriptForScene(TextAsset sceneFile) {
         SceneScript script = new SceneScript(sceneFile);
         yield return StartCoroutine(script.PerformActions(this));
+    }
+
+    public CharaData GetChara(string tag) {
+        return charas.GetChara(tag);
     }
 }

@@ -12,9 +12,9 @@ public class TextboxComponent : MonoBehaviour {
     public Text textbox;
     private string fullText;
     
-    public float alpha {
-        get { return gameObject.GetComponent<CanvasRenderer>().GetAlpha(); }
-        set { gameObject.GetComponent<CanvasRenderer>().SetAlpha(value); }
+    public float Alpha {
+        get { return gameObject.GetComponent<CanvasGroup>().alpha; }
+        set { gameObject.GetComponent<CanvasGroup>().alpha = value; }
     }
 
     public float height {
