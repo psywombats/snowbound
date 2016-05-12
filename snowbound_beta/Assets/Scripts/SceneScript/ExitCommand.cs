@@ -2,9 +2,7 @@
 using System.Collections;
 using System;
 
-public class ExitCommand : SceneCommand {
-
-    private const float hiccupTime = 0.1f;
+public class ExitCommand : StageDirectionCommand {
 
     private string charaTag;
 
@@ -13,10 +11,13 @@ public class ExitCommand : SceneCommand {
         this.charaTag = charaTag;
     }
 
-    public IEnumerator PerformAction(ScenePlayer player) {
-        // let's do things in a separate coroutine so that reading is not blocking by this animation
-        player.StartCoroutine(ParallelAction(player));
-        yield return new WaitForSeconds(hiccupTime);
+    public override IEnumerator PerformAction(ScenePlayer player) {
+        if (synchronous) {
+            yield return player.StartCoroutine(ParallelAction(player));
+        } else {
+            player.StartCoroutine(ParallelAction(player));
+            yield return null;
+        }
     }
 
     private IEnumerator ParallelAction(ScenePlayer player) {

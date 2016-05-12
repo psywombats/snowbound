@@ -44,6 +44,15 @@ public class PortraitGroupComponent : MonoBehaviour {
         return null;
     }
 
+    public bool AnyVisible() {
+        foreach (TachiComponent portrait in portraits) {
+            if (portrait.gameObject.activeSelf) {
+                return true;
+            }
+        }
+        return false;
+    }
+
     public IEnumerator FadeOutAll() {
         List<IEnumerator> fadeOuts = new List<IEnumerator>();
         foreach (TachiComponent portrait in portraits) {

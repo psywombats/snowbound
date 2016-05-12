@@ -8,6 +8,8 @@ public class SceneScript {
     
     private List<SceneCommand> commands;
     private ChoiceCommand choice;
+    private StageDirectionCommand lastStageDirection;
+    private bool holdMode;
 
     public SceneScript(TextAsset asset) {
         ParseCommands(asset.text);
@@ -28,13 +30,22 @@ public class SceneScript {
             SceneCommand command;
 
             if (commandString.Trim().Length == 0) {
-                // newline, no command but we need to keep track
-                
+                // newline, this is a command to clear the stage of characters presuming no HOLDs
+
+                if (!holdMode) {
+                    command = new ExitAllCommand();
+                    if (lastStageDirection != null) {
+                        lastStageDirection.SetSynchronous();
+                    }
+                } else {
+                    command = null;
+                }
+                holdMode = false;
                 startsNewParagraph = true;
-                continue;
             } else if (commandString[0] == '[') {
                 // this is a command of some type
 
+                startsNewParagraph = false;
                 if (commandString.IndexOf(']') == commandString.Length - 1) {
                     // infix command
                     if (commandString.IndexOf(' ') == -1) {
@@ -69,12 +80,15 @@ public class SceneScript {
                         command = new SpokenLineCommand(commandString);
                     }
                 }
+                startsNewParagraph = false;
+                if (lastStageDirection != null) {
+                    lastStageDirection.SetSynchronous();
+                }
             }
 
             if (command != null) {
                 commands.Add(command);
             }
-            startsNewParagraph = false;
         }
     }
 
@@ -86,9 +100,18 @@ public class SceneScript {
                 this.choice = new ChoiceCommand();
                 return this.choice;
             case "enter":
-                return new EnterCommand(args[0], args[1]);
+                this.lastStageDirection = new EnterCommand(args[0], args[1]);
+                return this.lastStageDirection;
             case "exit":
-                return new ExitCommand(args[0]);
+                this.lastStageDirection = new ExitCommand(args[0]);
+                return this.lastStageDirection;
+            case "clear":
+                this.lastStageDirection = new ExitAllCommand();
+                return this.lastStageDirection;
+            case "hold":
+                // don't bother an explicit command here, this is really just a meta-command about parsing
+                holdMode = true;
+                return null;
             default:
                 if (choice != null) {
                     string choiceString = command + " " + String.Join(" ", args.ToArray());

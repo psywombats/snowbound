@@ -13,7 +13,11 @@ public class TachiComponent : MonoBehaviour {
     }
 
     public bool ContainsChara(CharaData chara) {
-        return this.chara.tag.Equals(chara.tag);
+        if (this.chara == null) {
+            return false;
+        } else {
+            return this.chara.tag.Equals(chara.tag);
+        }
     }
 
     public IEnumerator FadeIn() {

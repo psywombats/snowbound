@@ -1,22 +1,23 @@
 SYSTEM: Test time! Here comes Max!
-
 [enter MAX B]
-
 SYSTEM: And now for Rebecca!
-
 [enter REBECCA D]
-
 SYSTEM: Pete will now replace Rebecca.
-
 [enter PETE D]
-
 MAX: I'm gonna leave as well.
-
 [exit MAX]
-
-SYSTEM: Test time is over.
+SYSTEM: Max is gone?
 
 NVL mode enabled!
+
+SYSTEM: Test time is over. Pete has disappeared along with the NVL box.
+[enter CAIT B]
+[enter ERIC C]
+[enter ARYA D]
+A bunch of characters have appeared. But because HOLD mode is on, when system resumes, they won't disappear!
+[hold]
+
+See? This NVL didn't interrupt anything. Anyway, time to choose.
 
 [choice]
 [Talk to him :: s0072]

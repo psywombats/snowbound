@@ -2,7 +2,7 @@
 using System.Collections;
 using System;
 
-public class EnterCommand : SceneCommand {
+public class EnterCommand : StageDirectionCommand {
 
     private const float hiccupTime = 0.1f;
 
@@ -16,10 +16,13 @@ public class EnterCommand : SceneCommand {
         this.slotLetter = slotLetter;
     }
 
-    public IEnumerator PerformAction(ScenePlayer player) {
-        // let's do things in a separate coroutine so that reading is not blocking by this animation
-        player.StartCoroutine(ParallelAction(player));
-        yield return new WaitForSeconds(hiccupTime);
+    public override IEnumerator PerformAction(ScenePlayer player) {
+        if (synchronous) {
+            yield return player.StartCoroutine(ParallelAction(player));
+        } else {
+            player.StartCoroutine(ParallelAction(player));
+            yield return new WaitForSeconds(hiccupTime);
+        }
     }
 
     private IEnumerator ParallelAction(ScenePlayer player) {

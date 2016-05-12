@@ -12,9 +12,9 @@ public class Utils {
     public static IEnumerator RunParallel(IEnumerator[] coroutines, MonoBehaviour runner) {
         int running = coroutines.Length;
         foreach (IEnumerator coroutine in coroutines) {
-            RunWithCallack(coroutine, runner, () => {
+            runner.StartCoroutine(RunWithCallack(coroutine, runner, () => {
                 running -= 1;
-            });
+            }));
         }
         while (running > 0) {
             yield return null;
