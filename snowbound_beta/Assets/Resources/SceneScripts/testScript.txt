@@ -1,4 +1,14 @@
-Test time!
+SYSTEM: Test time! Here comes Max!
+
+[enter MAX B]
+
+SYSTEM: And now for Rebecca!
+
+[enter REBECCA D]
+
+SYSTEM: Pete will now replace Rebecca.
+
+[enter PETE D]
 
 SYSTEM: It's test time!
 

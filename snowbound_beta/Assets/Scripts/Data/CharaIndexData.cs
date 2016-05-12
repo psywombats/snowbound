@@ -17,7 +17,7 @@ public class CharaIndexData : ScriptableObject {
     }
 
     public CharaData GetChara(string tag) {
-        return tagToChara[tag];
+        return tagToChara[tag.ToLower()];
     }
 
 }

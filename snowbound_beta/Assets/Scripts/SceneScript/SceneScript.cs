@@ -23,7 +23,7 @@ public class SceneScript {
         choice = null;
         commands = new List<SceneCommand>();
         string[] commandStrings = text.Split(new [] { "\r\n", "\n" }, StringSplitOptions.None);
-        bool startsNewParagraph = false;
+        bool startsNewParagraph = true;
         foreach (string commandString in commandStrings) {
             SceneCommand command;
 
@@ -58,6 +58,7 @@ public class SceneScript {
                 // this is a text literal
 
                 if (StartsWithName(commandString)) {
+                    startsNewParagraph = false;
                     command = new SpokenLineCommand(commandString);
                 } else {
                     if (startsNewParagraph) {
@@ -83,6 +84,8 @@ public class SceneScript {
             case "choice":
                 this.choice = new ChoiceCommand();
                 return this.choice;
+            case "enter":
+                return new EnterCommand(args[0], args[1]);
             default:
                 if (choice != null) {
                     string choiceString = command + " " + String.Join(" ", args.ToArray());

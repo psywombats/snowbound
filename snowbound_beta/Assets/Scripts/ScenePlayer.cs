@@ -9,12 +9,14 @@ public class ScenePlayer : MonoBehaviour {
     public Canvas canvas;
     public TextboxComponent textbox;
     public TextboxComponent paragraphBox;
+    public PortraitGroupComponent portraits;
     public CharaIndexData charas;
 
     public void Start() {
         textbox.gameObject.SetActive(false);
         paragraphBox.gameObject.SetActive(false);
         StartCoroutine(PlayScriptForScene(firstSceneFile));
+        portraits.HideAll();
     }
 
     public IEnumerator PlayScriptForScene(string sceneName) {
