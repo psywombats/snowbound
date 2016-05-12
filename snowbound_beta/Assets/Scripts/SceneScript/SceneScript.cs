@@ -43,7 +43,8 @@ public class SceneScript {
                     } else {
                         // multiword infix command
                         string keyword = commandString.Substring(1, commandString.IndexOf(' ') - 1);
-                        string argsString = commandString.Substring(commandString.IndexOf(' ') + 1, commandString.Length - (keyword.Length + 3));
+                        string argsString = commandString.Substring(commandString.IndexOf(' ') + 1,
+                                commandString.Length - (keyword.Length + 3));
                         string[] args = argsString.Split();
                         command = ParseCommand(keyword, new List<string>(args));
                     }
@@ -86,6 +87,8 @@ public class SceneScript {
                 return this.choice;
             case "enter":
                 return new EnterCommand(args[0], args[1]);
+            case "exit":
+                return new ExitCommand(args[0]);
             default:
                 if (choice != null) {
                     string choiceString = command + " " + String.Join(" ", args.ToArray());

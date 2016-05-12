@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\SceneScript\ChoiceCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ChoiceOption.cs" />
     <Compile Include="Assets\Scripts\SceneScript\EnterCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\ExitCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\GotoCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ParagraphCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SceneCommand.cs" />

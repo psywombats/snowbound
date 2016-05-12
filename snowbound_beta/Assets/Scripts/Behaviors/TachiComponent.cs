@@ -12,6 +12,10 @@ public class TachiComponent : MonoBehaviour {
         GetComponent<SpriteRenderer>().sprite = chara.portrait;
     }
 
+    public bool ContainsChara(CharaData chara) {
+        return this.chara.tag.Equals(chara.tag);
+    }
+
     public IEnumerator FadeIn() {
         SpriteRenderer renderer = GetComponent<SpriteRenderer>();
         renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 0.0f);
@@ -34,5 +38,6 @@ public class TachiComponent : MonoBehaviour {
         }
         renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 0.0f);
         gameObject.SetActive(false);
+        chara = null;
     }
 }

@@ -35,6 +35,15 @@ public class PortraitGroupComponent : MonoBehaviour {
         }
     }
 
+    public TachiComponent GetPortraitByChara(CharaData chara) {
+        foreach (TachiComponent portrait in portraits) {
+            if (portrait.ContainsChara(chara)) {
+                return portrait;
+            }
+        }
+        return null;
+    }
+
     public IEnumerator FadeOutAll() {
         List<IEnumerator> fadeOuts = new List<IEnumerator>();
         foreach (TachiComponent portrait in portraits) {

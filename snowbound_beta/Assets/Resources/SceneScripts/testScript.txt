@@ -10,7 +10,11 @@ SYSTEM: Pete will now replace Rebecca.
 
 [enter PETE D]
 
-SYSTEM: It's test time!
+MAX: I'm gonna leave as well.
+
+[exit MAX]
+
+SYSTEM: Test time is over.
 
 NVL mode enabled!
 
