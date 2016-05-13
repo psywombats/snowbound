@@ -24,8 +24,8 @@ public class TextboxComponent : MonoBehaviour {
     public IEnumerator ShowText(string text) {
         fullText = text;
         for (int i = 0; i <= fullText.Length; i += 1) {
-            if (Global.Instance().inputManager.WasHurried()) {
-                Global.Instance().inputManager.AcknowledgeHurried();
+            if (Global.Instance().input.WasHurried()) {
+                Global.Instance().input.AcknowledgeHurried();
                 textbox.text = fullText;
                 break;
             }

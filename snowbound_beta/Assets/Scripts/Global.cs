@@ -5,7 +5,8 @@ public class Global : MonoBehaviour {
 
     private static Global instance;
     
-    public InputManager inputManager;
+    public InputManager input;
+    public MemoryManager memory;
 
     public static Global Instance() {
         if (instance == null) {
@@ -22,6 +23,7 @@ public class Global : MonoBehaviour {
     }
 
     private void InstantiateManagers() {
-        inputManager = gameObject.AddComponent<InputManager>();
+        input = gameObject.AddComponent<InputManager>();
+        memory = gameObject.AddComponent<MemoryManager>();
     }
 }

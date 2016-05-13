@@ -9,6 +9,7 @@ public class SceneScript {
     private List<SceneCommand> commands;
     private ChoiceCommand choice;
     private StageDirectionCommand lastStageDirection;
+    private BranchCommand lastBranch;
     private bool holdMode;
 
     public SceneScript(TextAsset asset) {
@@ -111,6 +112,19 @@ public class SceneScript {
             case "hold":
                 // don't bother an explicit command here, this is really just a meta-command about parsing
                 holdMode = true;
+                return null;
+            case "increment":
+                return new IncrementCommand(args[0], 1);
+            case "decrement":
+                return new IncrementCommand(args[0], -1);
+            case "branch":
+                this.lastBranch = new BranchCommand(args[0], args[1], args[2]);
+                return this.lastBranch;
+            case "true":
+                this.lastBranch.TrueSceneName = args[1];
+                return null;
+            case "false":
+                this.lastBranch.FalseSceneName = args[1];
                 return null;
             default:
                 if (choice != null) {

@@ -31,7 +31,7 @@ public abstract class TextCommand : SceneCommand {
             if (secondaryBox.Alpha < 0.0f) {
                 secondaryBox.Alpha = 0.0f;
             }
-            if (Global.Instance().inputManager.WasHurried()) {
+            if (Global.Instance().input.WasHurried()) {
                 primaryBox.Alpha = 1.0f;
                 secondaryBox.Alpha = 0.0f;
                 break;
@@ -44,7 +44,7 @@ public abstract class TextCommand : SceneCommand {
         yield return parser.StartCoroutine(primaryBox.ShowText(text));
 
         // await input
-        yield return Global.Instance().inputManager.AwaitHurry();
+        yield return Global.Instance().input.AwaitHurry();
     }
 
     protected abstract TextboxComponent PrimaryBox(ScenePlayer parser);

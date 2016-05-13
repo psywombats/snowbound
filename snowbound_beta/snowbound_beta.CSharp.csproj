@@ -13,11 +13,13 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile></CompilerResponseFile>
+    <CompilerResponseFile>
+    </CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.3.4f1</UnityVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -77,13 +79,16 @@
     <Compile Include="Assets\Scripts\Data\CharaIndexData.cs" />
     <Compile Include="Assets\Scripts\Global.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />
+    <Compile Include="Assets\Scripts\MemoryManager.cs" />
     <Compile Include="Assets\Scripts\ScenePlayer.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\BranchCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ChoiceCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ChoiceOption.cs" />
     <Compile Include="Assets\Scripts\SceneScript\EnterCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ExitAllCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ExitCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\GotoCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\IncrementCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ParagraphCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SceneCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SceneScript.cs" />

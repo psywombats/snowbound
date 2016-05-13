@@ -17,8 +17,10 @@ SYSTEM: Test time is over. Pete has disappeared along with the NVL box.
 A bunch of characters have appeared. But because HOLD mode is on, when system resumes, they won't disappear!
 [hold]
 
-See? This NVL didn't interrupt anything. Anyway, time to choose.
+See? This NVL didn't interrupt anything. Anyway, time to BRANCH.
 
-[choice]
-[Talk to him :: s0072]
-[See him off :: s0073]
+[increment SEEN_TEST]
+
+[branch SEEN_TEST > 1]
+[true :: s0002]
+[false :: testScript]
