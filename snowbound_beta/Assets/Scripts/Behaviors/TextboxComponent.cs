@@ -7,6 +7,7 @@ using UnityEngine.Assertions;
 public class TextboxComponent : MonoBehaviour {
 
     private const float characterDelay = (1 / 32f);
+    private const float textboxFadeDuration = 0.5f;
 
     public Image backer;
     public Text textbox;
@@ -35,6 +36,32 @@ public class TextboxComponent : MonoBehaviour {
             textbox.text += "</color>";
             yield return new WaitForSeconds(characterDelay);
         }
+    }
+
+    public IEnumerator FadeOut() {
+        while (Alpha > 0.0f) {
+            if (Global.Instance().input.WasHurried()) {
+                break;
+            }
+            Alpha -= Time.deltaTime / textboxFadeDuration;
+            yield return null;
+        }
+        Alpha = 0.0f;
+        gameObject.SetActive(false);
+        Clear();
+    }
+
+    public IEnumerator FadeIn() {
+        Clear();
+        gameObject.SetActive(true);
+        while (Alpha < 1.0f) {
+            if (Global.Instance().input.WasHurried()) {
+                break;
+            }
+            Alpha += Time.deltaTime / textboxFadeDuration;
+            yield return null;
+        }
+        Alpha = 1.0f;
     }
 
     public void Clear() {

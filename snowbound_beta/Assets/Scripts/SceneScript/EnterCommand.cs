@@ -20,8 +20,8 @@ public class EnterCommand : StageDirectionCommand {
         if (synchronous) {
             yield return player.StartCoroutine(ParallelAction(player));
         } else {
+            yield return null;
             player.StartCoroutine(ParallelAction(player));
-            yield return new WaitForSeconds(hiccupTime);
         }
     }
 

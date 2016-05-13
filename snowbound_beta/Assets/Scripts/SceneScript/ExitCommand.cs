@@ -15,8 +15,8 @@ public class ExitCommand : StageDirectionCommand {
         if (synchronous) {
             yield return player.StartCoroutine(ParallelAction(player));
         } else {
-            player.StartCoroutine(ParallelAction(player));
             yield return null;
+            player.StartCoroutine(ParallelAction(player));
         }
     }
 

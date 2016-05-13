@@ -10,7 +10,9 @@ public class SceneScript {
     private ChoiceCommand choice;
     private StageDirectionCommand lastStageDirection;
     private BranchCommand lastBranch;
+    private ExitAllCommand lastExitAll;
     private bool holdMode;
+    private bool nvlMode;
 
     public SceneScript(TextAsset asset) {
         ParseCommands(asset.text);
@@ -34,7 +36,8 @@ public class SceneScript {
                 // newline, this is a command to clear the stage of characters presuming no HOLDs
 
                 if (!holdMode) {
-                    command = new ExitAllCommand();
+                    this.lastExitAll = new ExitAllCommand();
+                    command = this.lastExitAll;
                     if (lastStageDirection != null) {
                         lastStageDirection.SetSynchronous();
                     }
@@ -71,14 +74,15 @@ public class SceneScript {
                 // this is a text literal
 
                 if (StartsWithName(commandString)) {
-                    startsNewParagraph = false;
-                    command = new SpokenLineCommand(commandString);
+                    // spoken line
+                    command = ParseLine(commandString);
                 } else {
                     if (startsNewParagraph) {
-                        command = new ParagraphCommand(commandString);
+                        // text paragraph
+                        command = ParseParagraph(commandString);
                     } else {
                         // the inner monologue
-                        command = new SpokenLineCommand(commandString);
+                        command = ParseLine(commandString);
                     }
                 }
                 startsNewParagraph = false;
@@ -134,6 +138,28 @@ public class SceneScript {
                 //Assert.IsTrue(false, "bad command: " + command);
                 return null;
         }
+    }
+
+    private SceneCommand ParseLine(string commandString) {
+        if (nvlMode) {
+            if (lastExitAll != null) {
+                lastExitAll.ClosesTextboxes = true;
+                lastExitAll = null;
+            }
+        }
+        nvlMode = false;
+        return new SpokenLineCommand(commandString);
+    }
+
+    private SceneCommand ParseParagraph(string commandString) {
+        if (!nvlMode) {
+            if (lastExitAll != null) {
+                lastExitAll.ClosesTextboxes = true;
+                lastExitAll = null;
+            }
+        }
+        nvlMode = true;
+        return new ParagraphCommand(commandString);
     }
 
     private bool StartsWithName(string text) {

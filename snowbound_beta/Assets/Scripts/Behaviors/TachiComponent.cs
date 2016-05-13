@@ -6,6 +6,7 @@ public class TachiComponent : MonoBehaviour {
     private const float spriteFadeTime = 0.5f;
 
     private CharaData chara;
+    private bool fadingOut, fadingIn;
 
     public void SetChara(CharaData chara) {
         this.chara = chara;
@@ -13,7 +14,7 @@ public class TachiComponent : MonoBehaviour {
     }
 
     public bool ContainsChara(CharaData chara) {
-        if (this.chara == null) {
+        if (this.chara == null || fadingOut) {
             return false;
         } else {
             return this.chara.tag.Equals(chara.tag);
@@ -21,6 +22,7 @@ public class TachiComponent : MonoBehaviour {
     }
 
     public IEnumerator FadeIn() {
+        fadingIn = true;
         SpriteRenderer renderer = GetComponent<SpriteRenderer>();
         renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 0.0f);
         gameObject.SetActive(true);
@@ -30,12 +32,17 @@ public class TachiComponent : MonoBehaviour {
             yield return null;
         }
         renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 1.0f);
+        fadingIn = false;
     }
 
     public IEnumerator FadeOut() {
+        fadingOut = true;
         SpriteRenderer renderer = GetComponent<SpriteRenderer>();
         renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 1.0f);
         while (renderer.color.a > 0.0f) {
+            if (fadingIn) {
+                break;
+            }
             float delta = Time.deltaTime / spriteFadeTime;
             renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, renderer.color.a - delta);
             yield return null;
@@ -43,5 +50,6 @@ public class TachiComponent : MonoBehaviour {
         renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 0.0f);
         gameObject.SetActive(false);
         chara = null;
+        fadingOut = false;
     }
 }
