@@ -54,7 +54,8 @@ public class SceneScript {
                     // infix command
                     if (commandString.IndexOf(' ') == -1) {
                         // single word command
-                        command = ParseCommand(commandString.Substring(1, commandString.Length - 2), new List<string>());
+                        command = ParseCommand(commandString.Substring(1, commandString.Length - 2),
+                                    new List<string>());
                     } else {
                         // multiword infix command
                         string keyword = commandString.Substring(1, commandString.IndexOf(' ') - 1);

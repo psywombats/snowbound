@@ -34,15 +34,12 @@ public class ChoiceCommand : SceneCommand {
 
         // display the choices
         choiceObjects = new List<GameObject>();
-        for (int i = 0; i < options.Count; i += 1) {
-            ChoiceOption choice = options[i];
+        for (int i = options.Count - 1; i >= 0; i -= 1) {
+            ChoiceOption option = options[i];
             GameObject choiceObject = UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>(buttonPrefabName));
 
             // display/callback
-            choiceObject.GetComponent<ChoiceButtonComponent>().text.text = choice.caption;
-            choiceObject.GetComponent<Button>().onClick.AddListener(() => {
-                player.StartCoroutine(OnChoiceClickRoutine(player, choice));
-            });
+            FormatChoiceObject(choiceObject, option, player);
 
             // positioning
             RectTransform transform = choiceObject.GetComponent<RectTransform>();
@@ -81,7 +78,14 @@ public class ChoiceCommand : SceneCommand {
         options.Add(option);
     }
 
-    private IEnumerator OnChoiceClickRoutine(ScenePlayer player, ChoiceOption choice) {
+    private void FormatChoiceObject(GameObject choiceObject, ChoiceOption option, ScenePlayer player) {
+        choiceObject.GetComponent<ChoiceButtonComponent>().text.text = option.caption;
+        choiceObject.GetComponent<Button>().onClick.AddListener(() => {
+            player.StartCoroutine(OnChoiceClickRoutine(player, option));
+        });
+    }
+
+    private IEnumerator OnChoiceClickRoutine(ScenePlayer player, ChoiceOption option) {
         // fade out the choices
         while (choiceObjects[0].GetComponent<ChoiceButtonComponent>().Alpha > 0.0f) {
             foreach (GameObject choiceObject in choiceObjects) {
@@ -95,6 +99,6 @@ public class ChoiceCommand : SceneCommand {
         }
 
         // play the next scene
-        player.StartCoroutine(player.PlayScriptForScene(choice.sceneName));
+        player.StartCoroutine(player.PlayScriptForScene(option.sceneName));
     }
 }

@@ -19,8 +19,6 @@ A bunch of characters have appeared. But because HOLD mode is on, when system re
 
 See? This NVL didn't interrupt anything. Anyway, time to BRANCH.
 
-[increment SEEN_TEST]
-
-[branch SEEN_TEST > 1]
-[true :: s0002]
-[false :: testScript]
+[choice]
+[Volunteer to guard :: s0003]
+[Stay with Max :: s0086]
