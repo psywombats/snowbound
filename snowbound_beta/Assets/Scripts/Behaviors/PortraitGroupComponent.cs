@@ -66,4 +66,12 @@ public class PortraitGroupComponent : MonoBehaviour {
             portrait.gameObject.SetActive(false);
         }
     }
+
+    public void PopulateMemory(ScreenMemory memory) {
+        memory.portraitA = portraitA.ToMemory();
+        memory.portraitB = portraitB.ToMemory();
+        memory.portraitC = portraitC.ToMemory();
+        memory.portraitD = portraitD.ToMemory();
+        memory.portraitE = portraitE.ToMemory();
+    }
 }

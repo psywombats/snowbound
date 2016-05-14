@@ -1,0 +1,14 @@
+﻿using UnityEngine;
+using System.Collections;
+
+[System.Serializable]
+public class ScreenMemory {
+
+    public TachiMemory portraitA;
+    public TachiMemory portraitB;
+    public TachiMemory portraitC;
+    public TachiMemory portraitD;
+    public TachiMemory portraitE;
+
+    public int commandNumber;
+}

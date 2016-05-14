@@ -12,6 +12,8 @@ public class ScenePlayer : MonoBehaviour {
     public PortraitGroupComponent portraits;
     public CharaIndexData charas;
 
+    private SceneScript currentScript;
+
     public void Start() {
         textbox.gameObject.SetActive(false);
         paragraphBox.gameObject.SetActive(false);
@@ -26,10 +28,18 @@ public class ScenePlayer : MonoBehaviour {
 
     public IEnumerator PlayScriptForScene(TextAsset sceneFile) {
         SceneScript script = new SceneScript(sceneFile);
+        currentScript = script;
         yield return StartCoroutine(script.PerformActions(this));
     }
 
     public CharaData GetChara(string tag) {
         return charas.GetChara(tag);
+    }
+
+    public ScreenMemory ToMemory() {
+        ScreenMemory memory = new ScreenMemory();
+        currentScript.PopulateMemory(memory);
+        portraits.PopulateMemory(memory);
+        return memory;
     }
 }

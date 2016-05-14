@@ -52,4 +52,16 @@ public class TachiComponent : MonoBehaviour {
         chara = null;
         fadingOut = false;
     }
+
+    public TachiMemory ToMemory() {
+        TachiMemory memory = new TachiMemory();
+        if (gameObject.activeSelf && chara != null) {
+            memory.charaTag = chara.tag;
+            memory.enabled = true;
+        } else {
+            memory.charaTag = null;
+            memory.enabled = false;
+        }
+        return memory;
+    }
 }

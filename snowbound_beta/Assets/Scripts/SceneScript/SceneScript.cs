@@ -7,6 +7,8 @@ using UnityEngine.Assertions;
 public class SceneScript {
     
     private List<SceneCommand> commands;
+
+    // parsing state
     private ChoiceCommand choice;
     private StageDirectionCommand lastStageDirection;
     private BranchCommand lastBranch;
@@ -14,14 +16,22 @@ public class SceneScript {
     private bool holdMode;
     private bool nvlMode;
 
+    // playback state
+    private int commandIndex;
+
     public SceneScript(TextAsset asset) {
         ParseCommands(asset.text);
     }
 
     public IEnumerator PerformActions(ScenePlayer parser) {
-        foreach (SceneCommand command in commands) {
+        for (int commandIndex = 0; commandIndex < commands.Count; commandIndex += 1) {
+            SceneCommand command = commands[commandIndex];
             yield return parser.StartCoroutine(command.PerformAction(parser));
         }
+    }
+
+    public void PopulateMemory(ScreenMemory memory) {
+        memory.commandNumber = commandIndex;
     }
     
     private void ParseCommands(string text) {
