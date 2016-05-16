@@ -29,6 +29,7 @@ public class ScenePlayer : MonoBehaviour {
     public IEnumerator PlayScriptForScene(TextAsset sceneFile) {
         SceneScript script = new SceneScript(sceneFile);
         currentScript = script;
+        Global.Instance().activeScenePlayer = this;
         yield return StartCoroutine(script.PerformActions(this));
     }
 
