@@ -3,36 +3,33 @@ using System.Collections;
 using System.Collections.Generic;
 using System;
 
-[System.Serializable]
-public class MemoryManager : MonoBehaviour, ISerializationCallbackReceiver {
+public class MemoryManager : MonoBehaviour {
 
     private Dictionary<string, int> variables;
-
-    // serialization garbage
-    [SerializeField]
-    private List<string> keys;
-    [SerializeField]
-    private List<int> values;
 
     public void Awake() {
         variables = new Dictionary<string, int>();
     }
 
-    public void OnBeforeSerialize() {
-        keys = new List<string>();
-        values = new List<int>();
+    public Memory ToMemory() {
+        Memory memory = new Memory();
+        
         foreach (string key in variables.Keys) {
-            keys.Add(key);
+            memory.variableKeys.Add(key);
         }
         foreach (int value in variables.Values) {
-            values.Add(value);
+            memory.variableValues.Add(value);
         }
+
+        memory.screen = Global.Instance().activeScenePlayer.ToMemory();
+
+        return memory;
     }
 
-    public void OnAfterDeserialize() {
-        variables = new Dictionary<string, int>();
-        for (int i = 0; i < keys.Count; i += 1) {
-            variables[keys[i]] = values[i];
+    public void PopulateFromMemory(Memory memory) {
+        variables.Clear();
+        for (int i = 0; i < memory.variableKeys.Count; i += 1) {
+            variables[memory.variableKeys[i]] = memory.variableValues[i];
         }
     }
 
