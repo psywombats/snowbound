@@ -24,7 +24,7 @@ public class SceneScript {
     }
 
     public IEnumerator PerformActions(ScenePlayer parser) {
-        for (int commandIndex = 0; commandIndex < commands.Count; commandIndex += 1) {
+        for (commandIndex = 0; commandIndex < commands.Count; commandIndex += 1) {
             SceneCommand command = commands[commandIndex];
             yield return parser.StartCoroutine(command.PerformAction(parser));
         }

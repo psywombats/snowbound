@@ -12,8 +12,12 @@ public class Memory : MonoBehaviour {
     // scene data
     public ScreenMemory screen;
 
+    // meta info
+    public System.DateTime savedAt;
+
     public Memory() {
         variableKeys = new List<string>();
         variableValues = new List<int>();
+        savedAt = System.DateTime.Now;
     }
 }

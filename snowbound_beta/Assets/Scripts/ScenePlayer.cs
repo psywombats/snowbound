@@ -12,6 +12,8 @@ public class ScenePlayer : MonoBehaviour {
     public PortraitGroupComponent portraits;
     public CharaIndexData charas;
 
+    public bool Suspended { get; set; }
+
     private SceneScript currentScript;
 
     public void Start() {
@@ -42,5 +44,23 @@ public class ScenePlayer : MonoBehaviour {
         currentScript.PopulateMemory(memory);
         portraits.PopulateMemory(memory);
         return memory;
+    }
+
+    public void Pause() {
+        Suspended = true;
+        StartCoroutine(PauseRoutine());
+    }
+
+    private IEnumerator PauseRoutine() {
+        GameObject menuObject = PauseMenuComponent.Spawn();
+        PauseMenuComponent pauseMenu = menuObject.GetComponent<PauseMenuComponent>();
+        pauseMenu.Alpha = 0.0f;
+
+        RectTransform transform = menuObject.GetComponent<RectTransform>();
+        transform.SetParent(canvas.transform);
+        transform.anchorMin = new Vector2(0.5f, 0.5f);
+        transform.anchorMax = transform.anchorMin;
+        transform.anchoredPosition = new Vector2(0, 0);
+        yield return pauseMenu.FadeIn();
     }
 }
