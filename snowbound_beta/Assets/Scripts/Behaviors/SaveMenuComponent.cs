@@ -4,8 +4,8 @@ using System;
 
 public class SaveMenuComponent : MonoBehaviour, InputListener {
 
-    private const float fadeoutSeconds = 0.2f;
-    private const string prefabName = "Prefabs/SaveMenu";
+    private const float FadeoutSeconds = 0.2f;
+    private const string PrefabName = "Prefabs/SaveMenu";
 
     public SaveButtonComponent[] slots;
 
@@ -17,7 +17,7 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
     }
 
     public static GameObject Spawn(PauseMenuComponent pauseMenu) {
-        GameObject menuObject = UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>(prefabName));
+        GameObject menuObject = UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>(PrefabName));
         menuObject.GetComponent<SaveMenuComponent>().pauseMenu = pauseMenu;
         GameObject parent = pauseMenu.gameObject.transform.parent.gameObject;
         Utils.AttachAndCenter(parent, menuObject);
@@ -38,7 +38,7 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
 
     public IEnumerator FadeIn() {
         while (Alpha < 1.0f) {
-            Alpha += Time.deltaTime / fadeoutSeconds;
+            Alpha += Time.deltaTime / FadeoutSeconds;
             yield return null;
         }
         Alpha = 1.0f;
@@ -47,7 +47,7 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
     public IEnumerator FadeOut() {
         CanvasGroup group = gameObject.GetComponent<CanvasGroup>();
         while (Alpha > 0.0f) {
-            Alpha -= Time.deltaTime / fadeoutSeconds;
+            Alpha -= Time.deltaTime / FadeoutSeconds;
             yield return null;
         }
         group.alpha = 0.0f;

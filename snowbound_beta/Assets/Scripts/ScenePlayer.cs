@@ -12,10 +12,9 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public TextboxComponent paragraphBox;
     public PortraitGroupComponent portraits;
     public CharaIndexData charas;
-
-    public bool Suspended { get; set; }
-
+    
     private SceneScript currentScript;
+    private bool suspended;
     private bool wasHurried;
 
     public void Start() {
@@ -26,7 +25,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     }
 
     public void OnEscape() {
-        Suspended = true;
+        suspended = true;
         StartCoroutine(PauseRoutine());
     }
 
@@ -36,6 +35,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
 
     public bool WasHurried() {
         return wasHurried;
+    }
+
+    public bool IsSuspended() {
+        return suspended;
     }
 
     public void AcknowledgeHurried() {
@@ -73,8 +76,21 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         return memory;
     }
 
+    public IEnumerator ResumeRoutine() {
+        yield return Utils.RunParallel(new[] {
+            textbox.FadeIn(PauseMenuComponent.FadeoutSeconds),
+            textbox.FadeIn(PauseMenuComponent.FadeoutSeconds)
+        }, this);
+        suspended = false;
+    }
+
     private IEnumerator PauseRoutine() {
-        GameObject menuObject = PauseMenuComponent.Spawn(canvas.gameObject);
+        yield return Utils.RunParallel(new[] {
+            textbox.FadeOut(PauseMenuComponent.FadeoutSeconds),
+            textbox.FadeOut(PauseMenuComponent.FadeoutSeconds)
+        }, this);
+
+        GameObject menuObject = PauseMenuComponent.Spawn(canvas.gameObject, this);
         PauseMenuComponent pauseMenu = menuObject.GetComponent<PauseMenuComponent>();
         pauseMenu.Alpha = 0.0f;
         

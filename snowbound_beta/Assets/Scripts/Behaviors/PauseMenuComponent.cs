@@ -5,21 +5,24 @@ using System;
 
 public class PauseMenuComponent : MonoBehaviour, InputListener {
 
-    private const float fadeoutSeconds = 0.2f;
-    private const string prefabName = "Prefabs/PauseMenu";
+    public const float FadeoutSeconds = 0.2f;
+    private const string PrefabName = "Prefabs/PauseMenu";
 
     public Button saveButton;
     public Button loadButton;
     public Button resumeButton;
     public Button closeButton;
 
+    private ScenePlayer player;
+
     public float Alpha {
         get { return gameObject.GetComponent<CanvasGroup>().alpha; }
         set { gameObject.GetComponent<CanvasGroup>().alpha = value; }
     }
 
-    public static GameObject Spawn(GameObject parent) {
-        GameObject menuObject = UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>(prefabName));
+    public static GameObject Spawn(GameObject parent, ScenePlayer player) {
+        GameObject menuObject = UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>(PrefabName));
+        menuObject.GetComponent<PauseMenuComponent>().player = player;
         Utils.AttachAndCenter(parent, menuObject);
         return menuObject;
     }
@@ -56,7 +59,7 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
 
     public IEnumerator FadeIn() {
         while (Alpha < 1.0f) {
-            Alpha += Time.deltaTime / fadeoutSeconds;
+            Alpha += Time.deltaTime / FadeoutSeconds;
             yield return null;
         }
         Alpha = 1.0f;
@@ -65,7 +68,7 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
     public IEnumerator FadeOut() {
         CanvasGroup group = gameObject.GetComponent<CanvasGroup>();
         while (Alpha > 0.0f) {
-            Alpha -= Time.deltaTime / fadeoutSeconds;
+            Alpha -= Time.deltaTime / FadeoutSeconds;
             yield return null;
         }
         group.alpha = 0.0f;
@@ -73,7 +76,7 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
 
     private IEnumerator ResumeRoutine() {
         yield return StartCoroutine(FadeOut());
-        Global.Instance().activeScenePlayer.Suspended = false;
+        yield return player.ResumeRoutine();
         Global.Instance().input.RemoveListener(this);
         Destroy(this);
     }

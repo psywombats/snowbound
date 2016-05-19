@@ -16,8 +16,8 @@ public abstract class TextCommand : SceneCommand {
         
         // fade the textboxes in or out
         yield return player.StartCoroutine(Utils.RunParallel(new[] {
-                primaryBox.FadeIn(player),
-                secondaryBox.FadeOut(player)
+                primaryBox.Activate(player),
+                secondaryBox.Deactivate(player)
         }, player));
 
         // type the text

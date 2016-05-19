@@ -30,6 +30,9 @@ public class TextboxComponent : MonoBehaviour {
                 textbox.text = fullText;
                 break;
             }
+            if (player.IsSuspended()) {
+                yield return null;
+            }
             textbox.text = fullText.Substring(0, i);
             textbox.text += "<color=#00000000>";
             textbox.text += fullText.Substring(i);
@@ -38,7 +41,23 @@ public class TextboxComponent : MonoBehaviour {
         }
     }
 
-    public IEnumerator FadeOut(ScenePlayer player) {
+    public IEnumerator FadeOut(float durationSeconds) {
+        while (Alpha > 0.0f) {
+            Alpha -= Time.deltaTime / durationSeconds;
+            yield return null;
+        }
+        Alpha = 0.0f;
+    }
+
+    public IEnumerator FadeIn(float durationSeconds) {
+        while (Alpha < 1.0f) {
+            Alpha += Time.deltaTime / durationSeconds;
+            yield return null;
+        }
+        Alpha = 1.0f;
+    }
+
+    public IEnumerator Deactivate(ScenePlayer player) {
         while (Alpha > 0.0f) {
             if (player.WasHurried()) {
                 break;
@@ -51,7 +70,7 @@ public class TextboxComponent : MonoBehaviour {
         Clear();
     }
 
-    public IEnumerator FadeIn(ScenePlayer player) {
+    public IEnumerator Activate(ScenePlayer player) {
         Clear();
         gameObject.SetActive(true);
         while (Alpha < 1.0f) {
