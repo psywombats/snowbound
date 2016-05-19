@@ -64,4 +64,16 @@ public class TachiComponent : MonoBehaviour {
         }
         return memory;
     }
+
+    public void PopulateFromMemory(TachiMemory memory) {
+        SpriteRenderer renderer = GetComponent<SpriteRenderer>();
+        if (memory.enabled) {
+            chara = Global.Instance().activeScenePlayer.GetChara(memory.charaTag);
+            gameObject.SetActive(true);
+            renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 1.0f);
+        } else {
+            gameObject.SetActive(false);
+            renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 0.0f);
+        }
+    }
 }

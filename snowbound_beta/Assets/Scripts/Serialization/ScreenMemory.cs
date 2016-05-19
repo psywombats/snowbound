@@ -10,5 +10,6 @@ public class ScreenMemory {
     public TachiMemory portraitD;
     public TachiMemory portraitE;
 
+    public string sceneName;
     public int commandNumber;
 }

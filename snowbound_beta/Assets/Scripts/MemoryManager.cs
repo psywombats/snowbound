@@ -31,6 +31,8 @@ public class MemoryManager : MonoBehaviour {
         for (int i = 0; i < memory.variableKeys.Count; i += 1) {
             variables[memory.variableKeys[i]] = memory.variableValues[i];
         }
+
+        Global.Instance().activeScenePlayer.PopulateFromMemory(memory.screen);
     }
 
     public int GetVariable(string variableName) {

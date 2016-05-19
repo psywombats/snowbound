@@ -17,10 +17,16 @@ public class SceneScript {
     private bool nvlMode;
 
     // playback state
+    private string sceneName;
     private int commandIndex;
 
     public SceneScript(TextAsset asset) {
+        sceneName = asset.name;
         ParseCommands(asset.text);
+    }
+
+    public SceneScript(ScreenMemory memory) : this(Resources.Load<TextAsset>(memory.sceneName)) {
+        commandIndex = memory.commandNumber;
     }
 
     public IEnumerator PerformActions(ScenePlayer parser) {
@@ -32,6 +38,7 @@ public class SceneScript {
 
     public void PopulateMemory(ScreenMemory memory) {
         memory.commandNumber = commandIndex;
+        memory.sceneName = sceneName;
     }
     
     private void ParseCommands(string text) {

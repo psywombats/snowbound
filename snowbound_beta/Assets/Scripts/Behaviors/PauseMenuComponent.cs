@@ -78,7 +78,7 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
         yield return StartCoroutine(FadeOut());
         yield return player.ResumeRoutine();
         Global.Instance().input.RemoveListener(this);
-        Destroy(this);
+        Destroy(gameObject);
     }
 
     private IEnumerator SaveRoutine() {

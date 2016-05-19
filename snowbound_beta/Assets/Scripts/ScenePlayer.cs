@@ -14,12 +14,17 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public CharaIndexData charas;
     
     private SceneScript currentScript;
+    private IEnumerator playingRoutine;
     private bool suspended;
     private bool wasHurried;
 
     public void Start() {
         textbox.gameObject.SetActive(false);
         paragraphBox.gameObject.SetActive(false);
+
+        Global.Instance().activeScenePlayer = this;
+        Global.Instance().input.PushListener(this);
+
         StartCoroutine(PlayScriptForScene(firstSceneFile));
         portraits.HideAll();
     }
@@ -58,11 +63,12 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     }
 
     public IEnumerator PlayScriptForScene(TextAsset sceneFile) {
-        SceneScript script = new SceneScript(sceneFile);
-        currentScript = script;
-        Global.Instance().activeScenePlayer = this;
-        Global.Instance().input.PushListener(this);
-        yield return StartCoroutine(script.PerformActions(this));
+        currentScript = new SceneScript(sceneFile);
+        yield return StartCoroutine(PlayCurrentScript());
+    }
+
+    public void ResumeLoadedScene() {
+        StartCoroutine(PlayCurrentScript());
     }
 
     public CharaData GetChara(string tag) {
@@ -74,6 +80,12 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         currentScript.PopulateMemory(memory);
         portraits.PopulateMemory(memory);
         return memory;
+    }
+
+    public void PopulateFromMemory(ScreenMemory memory) {
+        StopCoroutine(playingRoutine);
+        currentScript = new SceneScript(memory);
+        portraits.PopulateFromMemory(memory);
     }
 
     public IEnumerator ResumeRoutine() {
@@ -95,5 +107,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         pauseMenu.Alpha = 0.0f;
         
         yield return pauseMenu.FadeIn();
+    }
+
+    private IEnumerator PlayCurrentScript() {
+        playingRoutine = currentScript.PerformActions(this);
+        yield return StartCoroutine(playingRoutine);
     }
 }
