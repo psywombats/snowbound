@@ -25,4 +25,13 @@ public class Utils {
         yield return runner.StartCoroutine(coroutine);
         toRun();
     }
+
+    public static void AttachAndCenter(GameObject parent, GameObject child) {
+        RectTransform parentTransform = parent.GetComponent<RectTransform>();
+        RectTransform childTransform = child.GetComponent<RectTransform>();
+        childTransform.SetParent(parentTransform);
+        childTransform.anchorMin = new Vector2(0.5f, 0.5f);
+        childTransform.anchorMax = childTransform.anchorMin;
+        childTransform.anchoredPosition = new Vector2(0, 0);
+    }
 }

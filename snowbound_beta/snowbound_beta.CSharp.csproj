@@ -79,6 +79,7 @@
     <Compile Include="Assets\Scripts\Data\CharaData.cs" />
     <Compile Include="Assets\Scripts\Data\CharaIndexData.cs" />
     <Compile Include="Assets\Scripts\Global.cs" />
+    <Compile Include="Assets\Scripts\InputListener.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />
     <Compile Include="Assets\Scripts\MemoryManager.cs" />
     <Compile Include="Assets\Scripts\ScenePlayer.cs" />

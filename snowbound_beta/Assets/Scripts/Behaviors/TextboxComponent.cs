@@ -22,11 +22,11 @@ public class TextboxComponent : MonoBehaviour {
         get { return GetComponent<RectTransform>().rect.height; }
     }
 
-    public IEnumerator ShowText(string text) {
+    public IEnumerator ShowText(ScenePlayer player, string text) {
         fullText = text;
         for (int i = 0; i <= fullText.Length; i += 1) {
-            if (Global.Instance().input.WasHurried()) {
-                Global.Instance().input.AcknowledgeHurried();
+            if (player.WasHurried()) {
+                player.AcknowledgeHurried();
                 textbox.text = fullText;
                 break;
             }
@@ -38,9 +38,9 @@ public class TextboxComponent : MonoBehaviour {
         }
     }
 
-    public IEnumerator FadeOut() {
+    public IEnumerator FadeOut(ScenePlayer player) {
         while (Alpha > 0.0f) {
-            if (Global.Instance().input.WasHurried()) {
+            if (player.WasHurried()) {
                 break;
             }
             Alpha -= Time.deltaTime / textboxFadeDuration;
@@ -51,11 +51,11 @@ public class TextboxComponent : MonoBehaviour {
         Clear();
     }
 
-    public IEnumerator FadeIn() {
+    public IEnumerator FadeIn(ScenePlayer player) {
         Clear();
         gameObject.SetActive(true);
         while (Alpha < 1.0f) {
-            if (Global.Instance().input.WasHurried()) {
+            if (player.WasHurried()) {
                 break;
             }
             Alpha += Time.deltaTime / textboxFadeDuration;

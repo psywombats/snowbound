@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
-public class ScenePlayer : MonoBehaviour {
+public class ScenePlayer : MonoBehaviour, InputListener {
 
     private const string scenesDirectory = "SceneScripts";
 
@@ -15,12 +16,37 @@ public class ScenePlayer : MonoBehaviour {
     public bool Suspended { get; set; }
 
     private SceneScript currentScript;
+    private bool wasHurried;
 
     public void Start() {
         textbox.gameObject.SetActive(false);
         paragraphBox.gameObject.SetActive(false);
         StartCoroutine(PlayScriptForScene(firstSceneFile));
         portraits.HideAll();
+    }
+
+    public void OnEscape() {
+        Suspended = true;
+        StartCoroutine(PauseRoutine());
+    }
+
+    public void OnEnter() {
+        wasHurried = true;
+    }
+
+    public bool WasHurried() {
+        return wasHurried;
+    }
+
+    public void AcknowledgeHurried() {
+        wasHurried = false;
+    }
+
+    public IEnumerator AwaitHurry() {
+        while (!WasHurried()) {
+            yield return null;
+        }
+        AcknowledgeHurried();
     }
 
     public IEnumerator PlayScriptForScene(string sceneName) {
@@ -32,6 +58,7 @@ public class ScenePlayer : MonoBehaviour {
         SceneScript script = new SceneScript(sceneFile);
         currentScript = script;
         Global.Instance().activeScenePlayer = this;
+        Global.Instance().input.PushListener(this);
         yield return StartCoroutine(script.PerformActions(this));
     }
 
@@ -46,21 +73,11 @@ public class ScenePlayer : MonoBehaviour {
         return memory;
     }
 
-    public void Pause() {
-        Suspended = true;
-        StartCoroutine(PauseRoutine());
-    }
-
     private IEnumerator PauseRoutine() {
-        GameObject menuObject = PauseMenuComponent.Spawn();
+        GameObject menuObject = PauseMenuComponent.Spawn(canvas.gameObject);
         PauseMenuComponent pauseMenu = menuObject.GetComponent<PauseMenuComponent>();
         pauseMenu.Alpha = 0.0f;
-
-        RectTransform transform = menuObject.GetComponent<RectTransform>();
-        transform.SetParent(canvas.transform);
-        transform.anchorMin = new Vector2(0.5f, 0.5f);
-        transform.anchorMax = transform.anchorMin;
-        transform.anchoredPosition = new Vector2(0, 0);
+        
         yield return pauseMenu.FadeIn();
     }
 }

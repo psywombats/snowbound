@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System;
 
-public class PauseMenuComponent : MonoBehaviour {
+public class PauseMenuComponent : MonoBehaviour, InputListener {
 
-    private const float fadeoutSeconds = 0.3f;
+    private const float fadeoutSeconds = 0.2f;
     private const string prefabName = "Prefabs/PauseMenu";
 
     public Button saveButton;
@@ -17,17 +18,19 @@ public class PauseMenuComponent : MonoBehaviour {
         set { gameObject.GetComponent<CanvasGroup>().alpha = value; }
     }
 
-    public static GameObject Spawn() {
-        return UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>(prefabName));
+    public static GameObject Spawn(GameObject parent) {
+        GameObject menuObject = UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>(prefabName));
+        Utils.AttachAndCenter(parent, menuObject);
+        return menuObject;
     }
 
     public void Awake() {
         saveButton.onClick.AddListener(() => {
-            
+            StartCoroutine(SaveRoutine());
         });
 
         loadButton.onClick.AddListener(() => {
-
+            
         });
 
         resumeButton.onClick.AddListener(() => {
@@ -37,6 +40,18 @@ public class PauseMenuComponent : MonoBehaviour {
         closeButton.onClick.AddListener(() => {
             Application.Quit();
         });
+    }
+
+    public void Start() {
+        Global.Instance().input.PushListener(this);
+    }
+
+    public void OnEnter() {
+        // nothing
+    }
+
+    public void OnEscape() {
+        StartCoroutine(ResumeRoutine());
     }
 
     public IEnumerator FadeIn() {
@@ -59,6 +74,14 @@ public class PauseMenuComponent : MonoBehaviour {
     private IEnumerator ResumeRoutine() {
         yield return StartCoroutine(FadeOut());
         Global.Instance().activeScenePlayer.Suspended = false;
+        Global.Instance().input.RemoveListener(this);
         Destroy(this);
+    }
+
+    private IEnumerator SaveRoutine() {
+        yield return StartCoroutine(FadeOut());
+        GameObject saveMenuObject = SaveMenuComponent.Spawn(this);
+        saveMenuObject.GetComponent<SaveMenuComponent>().Alpha = 0.0f;
+        yield return StartCoroutine(saveMenuObject.GetComponent<SaveMenuComponent>().FadeIn());
     }
 }

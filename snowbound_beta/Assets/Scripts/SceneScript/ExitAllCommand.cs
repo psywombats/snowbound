@@ -9,8 +9,8 @@ public class ExitAllCommand : StageDirectionCommand {
     public override IEnumerator PerformAction(ScenePlayer player) {
         if (ClosesTextboxes) {
             yield return Utils.RunParallel(new[] {
-                    player.textbox.FadeOut(),
-                    player.paragraphBox.FadeOut()
+                    player.textbox.FadeOut(player),
+                    player.paragraphBox.FadeOut(player)
             }, player);
         }
 

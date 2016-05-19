@@ -52,12 +52,9 @@ public class ChoiceCommand : SceneCommand {
 
             float lowestFraction = middleVisibleFraction - ((totalButtonsHeight - buttonHeight) / 2.0f) / Screen.height;
             float posY = lowestFraction + ((buttonSpacingPx + buttonHeight) / Screen.height) * i;
-            
-            choiceObject.transform.SetParent(player.canvas.transform);
+
+            Utils.AttachAndCenter(player.canvas.gameObject, choiceObject);
             transform.anchorMin = new Vector2(0.5f, posY);
-            transform.anchorMax = transform.anchorMin;
-            transform.anchoredPosition = new Vector2(0, 0);
-            choiceObject.GetComponent<CanvasRenderer>().SetAlpha(0.0f);
             choiceObjects.Add(choiceObject);
         }
 
