@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 
 [System.Serializable]
-public class Memory : MonoBehaviour {
+public class Memory {
 
     // variables
     public List<string> variableKeys;

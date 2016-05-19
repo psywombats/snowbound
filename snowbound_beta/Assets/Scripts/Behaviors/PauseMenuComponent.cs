@@ -83,7 +83,14 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
 
     private IEnumerator SaveRoutine() {
         yield return StartCoroutine(FadeOut());
-        GameObject saveMenuObject = SaveMenuComponent.Spawn(this);
+        GameObject saveMenuObject = SaveMenuComponent.Spawn(this, SaveMenuComponent.SaveMenuMode.Save);
+        saveMenuObject.GetComponent<SaveMenuComponent>().Alpha = 0.0f;
+        yield return StartCoroutine(saveMenuObject.GetComponent<SaveMenuComponent>().FadeIn());
+    }
+
+    private IEnumerator LoadRoutine() {
+        yield return StartCoroutine(FadeOut());
+        GameObject saveMenuObject = SaveMenuComponent.Spawn(this, SaveMenuComponent.SaveMenuMode.Load);
         saveMenuObject.GetComponent<SaveMenuComponent>().Alpha = 0.0f;
         yield return StartCoroutine(saveMenuObject.GetComponent<SaveMenuComponent>().FadeIn());
     }
