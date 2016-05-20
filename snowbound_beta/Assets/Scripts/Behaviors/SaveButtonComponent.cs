@@ -29,7 +29,7 @@ public class SaveButtonComponent : MonoBehaviour {
             }
             captionText.text = "";
         } else {
-            captionText.text = System.String.Format("{0:g}", memory.savedAt);
+            captionText.text = System.String.Format("{0:g}", Utils.TimestampToDateTime(memory.savedAt));
         }
     }
 }

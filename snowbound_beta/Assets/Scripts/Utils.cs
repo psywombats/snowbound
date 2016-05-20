@@ -34,4 +34,14 @@ public class Utils {
         childTransform.anchorMax = childTransform.anchorMin;
         childTransform.anchoredPosition = new Vector2(0, 0);
     }
+
+    public static DateTime TimestampToDateTime(double timestamp) {
+        System.DateTime dtDateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, System.DateTimeKind.Utc);
+        dtDateTime = dtDateTime.AddSeconds(timestamp).ToLocalTime();
+        return dtDateTime;
+    }
+
+    public static double CurrentTimestamp() {
+        return DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1)).TotalSeconds;
+    }
 }

@@ -13,11 +13,11 @@ public class Memory {
     public ScreenMemory screen;
 
     // meta info
-    public System.DateTime savedAt;
+    public double savedAt;
 
     public Memory() {
         variableKeys = new List<string>();
         variableValues = new List<int>();
-        savedAt = System.DateTime.Now;
+        savedAt = Utils.CurrentTimestamp();
     }
 }
