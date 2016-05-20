@@ -4,8 +4,6 @@ using System;
 
 public class ScenePlayer : MonoBehaviour, InputListener {
 
-    private const string scenesDirectory = "SceneScripts";
-
     public TextAsset firstSceneFile;
     public Canvas canvas;
     public TextboxComponent textbox;
@@ -58,7 +56,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     }
 
     public IEnumerator PlayScriptForScene(string sceneName) {
-        TextAsset file = Resources.Load<TextAsset>(scenesDirectory + "/" + sceneName);
+        TextAsset file = SceneScript.AssetForSceneName(sceneName);
         yield return StartCoroutine(PlayScriptForScene(file));
     }
 
@@ -91,7 +89,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public IEnumerator ResumeRoutine() {
         yield return Utils.RunParallel(new[] {
             textbox.FadeIn(PauseMenuComponent.FadeoutSeconds),
-            textbox.FadeIn(PauseMenuComponent.FadeoutSeconds)
+            paragraphBox.FadeIn(PauseMenuComponent.FadeoutSeconds)
         }, this);
         suspended = false;
     }
@@ -99,7 +97,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     private IEnumerator PauseRoutine() {
         yield return Utils.RunParallel(new[] {
             textbox.FadeOut(PauseMenuComponent.FadeoutSeconds),
-            textbox.FadeOut(PauseMenuComponent.FadeoutSeconds)
+            paragraphBox.FadeOut(PauseMenuComponent.FadeoutSeconds)
         }, this);
 
         GameObject menuObject = PauseMenuComponent.Spawn(canvas.gameObject, this);

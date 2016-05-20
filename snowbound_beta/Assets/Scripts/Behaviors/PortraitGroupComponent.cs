@@ -77,9 +77,9 @@ public class PortraitGroupComponent : MonoBehaviour {
 
     public void PopulateFromMemory(ScreenMemory memory) {
         portraitA.PopulateFromMemory(memory.portraitA);
-        portraitA.PopulateFromMemory(memory.portraitB);
-        portraitA.PopulateFromMemory(memory.portraitC);
-        portraitA.PopulateFromMemory(memory.portraitD);
-        portraitA.PopulateFromMemory(memory.portraitE);
+        portraitB.PopulateFromMemory(memory.portraitB);
+        portraitC.PopulateFromMemory(memory.portraitC);
+        portraitD.PopulateFromMemory(memory.portraitD);
+        portraitE.PopulateFromMemory(memory.portraitE);
     }
 }

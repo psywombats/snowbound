@@ -33,7 +33,7 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
         });
 
         loadButton.onClick.AddListener(() => {
-            
+            StartCoroutine(LoadRoutine());
         });
 
         resumeButton.onClick.AddListener(() => {

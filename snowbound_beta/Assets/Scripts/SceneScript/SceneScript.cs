@@ -5,8 +5,8 @@ using System.Collections.Generic;
 using UnityEngine.Assertions;
 
 public class SceneScript {
-    
-    private List<SceneCommand> commands;
+
+    private const string ScenesDirectory = "SceneScripts";
 
     // parsing state
     private ChoiceCommand choice;
@@ -17,20 +17,26 @@ public class SceneScript {
     private bool nvlMode;
 
     // playback state
+    private List<SceneCommand> commands;
     private string sceneName;
     private int commandIndex;
 
     public SceneScript(TextAsset asset) {
         sceneName = asset.name;
         ParseCommands(asset.text);
+        commandIndex = 0;
     }
 
-    public SceneScript(ScreenMemory memory) : this(Resources.Load<TextAsset>(memory.sceneName)) {
+    public SceneScript(ScreenMemory memory) : this(AssetForSceneName(memory.sceneName)) {
         commandIndex = memory.commandNumber;
     }
 
+    public static TextAsset AssetForSceneName(string sceneName) {
+        return Resources.Load<TextAsset>(ScenesDirectory + "/" + sceneName);
+    }
+
     public IEnumerator PerformActions(ScenePlayer parser) {
-        for (commandIndex = 0; commandIndex < commands.Count; commandIndex += 1) {
+        for (; commandIndex < commands.Count; commandIndex += 1) {
             SceneCommand command = commands[commandIndex];
             yield return parser.StartCoroutine(command.PerformAction(parser));
         }

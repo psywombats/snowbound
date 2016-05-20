@@ -51,10 +51,12 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
         if (mode == SaveMenuMode.Load) {
             Memory memory = ReadJsonFromFile<Memory>(FilePathForSlot(slot));
             Global.Instance().memory.PopulateFromMemory(memory);
+            StartCoroutine(LoadRoutine());
         } else {
             Memory memory = Global.Instance().memory.ToMemory();
             WriteJsonToFile(memory, FilePathForSlot(slot));
             RefreshData();
+            StartCoroutine(ResumeRoutine());
         }
     }
 
@@ -104,13 +106,6 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
         return fileName;
     }
 
-    private void SaveToSlot(int slot) {
-        Memory memory = Global.Instance().memory.ToMemory();
-        string fileName = FilePathForSlot(slot);
-        WriteJsonToFile(memory, fileName);
-        StartCoroutine(LoadRoutine());
-    }
-
     private void WriteJsonToFile(object toSerialize, string fileName) {
         FileStream file = File.Open(fileName, FileMode.Create);
         StreamWriter writer = new StreamWriter(file);
@@ -127,7 +122,10 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
     }
 
     private IEnumerator LoadRoutine() {
-        yield return StartCoroutine(ResumeRoutine());
+        yield return StartCoroutine(FadeOut());
+        Global.Instance().input.RemoveListener(this);
+        Global.Instance().input.RemoveListener(pauseMenu);
         Global.Instance().activeScenePlayer.ResumeLoadedScene();
+        Destroy(gameObject);
     }
 }
