@@ -154,6 +154,8 @@ public class SceneScript {
             case "false":
                 this.lastBranch.FalseSceneName = args[1];
                 return null;
+            case "end":
+                return new EndCommand(args[0]);
             default:
                 if (choice != null) {
                     string choiceString = command + " " + String.Join(" ", args.ToArray());

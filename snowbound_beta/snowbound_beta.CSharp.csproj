@@ -86,6 +86,7 @@
     <Compile Include="Assets\Scripts\SceneScript\BranchCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ChoiceCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ChoiceOption.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\EndCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\EnterCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ExitAllCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ExitCommand.cs" />

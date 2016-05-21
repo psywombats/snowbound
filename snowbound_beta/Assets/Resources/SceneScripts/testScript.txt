@@ -19,6 +19,8 @@ A bunch of characters have appeared. But because HOLD mode is on, when system re
 
 See? This NVL didn't interrupt anything. Anyway, time to BRANCH.
 
+[end TEST_SCRIPT]
+
 [choice]
 [Volunteer to guard :: s0003]
 [Stay with Max :: s0086]
