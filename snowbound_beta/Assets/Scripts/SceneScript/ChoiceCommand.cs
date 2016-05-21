@@ -44,8 +44,8 @@ public class ChoiceCommand : SceneCommand {
             // positioning
             RectTransform transform = choiceObject.GetComponent<RectTransform>();
             float buttonHeight = choiceObject.GetComponent<RectTransform>().rect.height;
-            float visibleHeight = Screen.height - player.textbox.height;
-            float middleVisibleFraction = (player.textbox.height + visibleHeight / 2.0f) / Screen.height;
+            float visibleHeight = Screen.height - player.textbox.Height;
+            float middleVisibleFraction = (player.textbox.Height + visibleHeight / 2.0f) / Screen.height;
 
             float totalButtonsHeight = buttonHeight * options.Count;
             totalButtonsHeight += buttonSpacingPx * (options.Count - 1);

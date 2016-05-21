@@ -7,7 +7,9 @@ using UnityEngine.Assertions;
 public class TextboxComponent : MonoBehaviour {
 
     private const float characterDelay = (1 / 32f);
-    private const float textboxFadeDuration = 0.5f;
+    private const float textboxFadeSeconds = 0.5f;
+    private const float fastModeHiccupSeconds = 0.08f;
+    private const float fastModeFadeSeconds = 0.15f;
 
     public Image backer;
     public Text textbox;
@@ -18,7 +20,7 @@ public class TextboxComponent : MonoBehaviour {
         set { gameObject.GetComponent<CanvasGroup>().alpha = value; }
     }
 
-    public float height {
+    public float Height {
         get { return GetComponent<RectTransform>().rect.height; }
     }
 
@@ -33,11 +35,18 @@ public class TextboxComponent : MonoBehaviour {
             if (player.IsSuspended()) {
                 yield return null;
             }
+            if (Global.Instance().input.IsFastKeyDown()) {
+                break;
+            }
             textbox.text = fullText.Substring(0, i);
             textbox.text += "<color=#00000000>";
             textbox.text += fullText.Substring(i);
             textbox.text += "</color>";
             yield return new WaitForSeconds(characterDelay);
+        }
+        textbox.text = fullText;
+        if (Global.Instance().input.IsFastKeyDown()) {
+            yield return new WaitForSeconds(fastModeHiccupSeconds);
         }
     }
 
@@ -62,7 +71,7 @@ public class TextboxComponent : MonoBehaviour {
             if (player.WasHurried()) {
                 break;
             }
-            Alpha -= Time.deltaTime / textboxFadeDuration;
+            Alpha -= Time.deltaTime / GetFadeoutSeconds();
             yield return null;
         }
         Alpha = 0.0f;
@@ -77,7 +86,7 @@ public class TextboxComponent : MonoBehaviour {
             if (player.WasHurried()) {
                 break;
             }
-            Alpha += Time.deltaTime / textboxFadeDuration;
+            Alpha += Time.deltaTime / GetFadeoutSeconds();
             yield return null;
         }
         Alpha = 1.0f;
@@ -85,5 +94,13 @@ public class TextboxComponent : MonoBehaviour {
 
     public void Clear() {
         textbox.text = "";
+    }
+
+    private float GetFadeoutSeconds() {
+        if (Global.Instance().input.IsFastKeyDown()) {
+            return fastModeFadeSeconds;
+        } else {
+            return textboxFadeSeconds;
+        }
     }
 }

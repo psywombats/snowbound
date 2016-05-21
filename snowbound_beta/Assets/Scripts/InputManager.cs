@@ -4,20 +4,22 @@ using System.Collections.Generic;
 
 public class InputManager : MonoBehaviour {
 
-    private List<KeyCode> hurryKeys;
+    private List<KeyCode> advanceKeys;
     private List<KeyCode> pauseKeys;
+    private List<KeyCode> fastKeys;
     private List<InputListener> listeners;
 
     public void Awake() {
-        hurryKeys = new List<KeyCode>(new[] { KeyCode.Return, KeyCode.KeypadEnter, KeyCode.Space, KeyCode.Z });
+        advanceKeys = new List<KeyCode>(new[] { KeyCode.Return, KeyCode.KeypadEnter, KeyCode.Space, KeyCode.Z });
         pauseKeys = new List<KeyCode>(new[] { KeyCode.Escape, KeyCode.C, KeyCode.Backspace });
+        fastKeys = new List<KeyCode>(new[] { KeyCode.LeftControl, KeyCode.RightControl });
         listeners = new List<InputListener>();
     }
 
     public void Update() {
         if (listeners.Count > 0) {
             InputListener listener = listeners[listeners.Count - 1];
-            foreach (KeyCode code in hurryKeys) {
+            foreach (KeyCode code in advanceKeys) {
                 if (Input.GetKeyDown(code)) {
                     listener.OnEnter();
                 }
@@ -36,5 +38,14 @@ public class InputManager : MonoBehaviour {
 
     public void RemoveListener(InputListener listener) {
         listeners.Remove(listener);
+    }
+
+    public bool IsFastKeyDown() {
+        foreach (KeyCode code in fastKeys) {
+            if (Input.GetKey(code)) {
+                return true;
+            }
+        }
+        return false;
     }
 }

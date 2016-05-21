@@ -3,7 +3,8 @@ using System.Collections;
 
 public class TachiComponent : MonoBehaviour {
 
-    private const float spriteFadeTime = 0.5f;
+    private const float fadeSeconds = 0.5f;
+    private const float fastModeFadeSeconds = 0.15f;
 
     private CharaData chara;
     private bool fadingOut, fadingIn;
@@ -27,7 +28,7 @@ public class TachiComponent : MonoBehaviour {
         renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 0.0f);
         gameObject.SetActive(true);
         while (renderer.color.a < 1.0f) {
-            float delta = Time.deltaTime / spriteFadeTime;
+            float delta = Time.deltaTime / GetFadeSeconds();
             renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, renderer.color.a + delta);
             yield return null;
         }
@@ -43,7 +44,7 @@ public class TachiComponent : MonoBehaviour {
             if (fadingIn) {
                 break;
             }
-            float delta = Time.deltaTime / spriteFadeTime;
+            float delta = Time.deltaTime / GetFadeSeconds();
             renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, renderer.color.a - delta);
             yield return null;
         }
@@ -74,6 +75,14 @@ public class TachiComponent : MonoBehaviour {
         } else {
             gameObject.SetActive(false);
             renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 0.0f);
+        }
+    }
+
+    private float GetFadeSeconds() {
+        if (Global.Instance().input.IsFastKeyDown()) {
+            return fastModeFadeSeconds;
+        } else {
+            return fadeSeconds;
         }
     }
 }

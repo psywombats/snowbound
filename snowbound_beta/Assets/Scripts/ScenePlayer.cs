@@ -49,7 +49,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     }
 
     public IEnumerator AwaitHurry() {
-        while (!WasHurried()) {
+        while (!WasHurried() && !Global.Instance().input.IsFastKeyDown()) {
             yield return null;
         }
         AcknowledgeHurried();
