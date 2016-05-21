@@ -8,7 +8,7 @@ public class TextboxComponent : MonoBehaviour {
 
     private const float characterDelay = (1 / 32f);
     private const float textboxFadeSeconds = 0.5f;
-    private const float fastModeHiccupSeconds = 0.08f;
+    private const float fastModeHiccupSeconds = 0.05f;
     private const float fastModeFadeSeconds = 0.15f;
 
     public Image backer;
@@ -71,7 +71,7 @@ public class TextboxComponent : MonoBehaviour {
             if (player.WasHurried()) {
                 break;
             }
-            Alpha -= Time.deltaTime / GetFadeoutSeconds();
+            Alpha -= Time.deltaTime / GetFadeSeconds();
             yield return null;
         }
         Alpha = 0.0f;
@@ -86,7 +86,7 @@ public class TextboxComponent : MonoBehaviour {
             if (player.WasHurried()) {
                 break;
             }
-            Alpha += Time.deltaTime / GetFadeoutSeconds();
+            Alpha += Time.deltaTime / GetFadeSeconds();
             yield return null;
         }
         Alpha = 1.0f;
@@ -96,7 +96,7 @@ public class TextboxComponent : MonoBehaviour {
         textbox.text = "";
     }
 
-    private float GetFadeoutSeconds() {
+    private float GetFadeSeconds() {
         if (Global.Instance().input.IsFastKeyDown()) {
             return fastModeFadeSeconds;
         } else {

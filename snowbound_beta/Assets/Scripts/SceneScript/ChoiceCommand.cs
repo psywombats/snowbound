@@ -55,6 +55,8 @@ public class ChoiceCommand : SceneCommand {
 
             Utils.AttachAndCenter(player.canvas.gameObject, choiceObject);
             transform.anchorMin = new Vector2(0.5f, posY);
+            transform.anchorMax = transform.anchorMin;
+            transform.anchoredPosition = new Vector2(0, 0);
             choiceObjects.Add(choiceObject);
         }
 

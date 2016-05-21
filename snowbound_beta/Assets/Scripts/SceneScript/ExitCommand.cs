@@ -25,6 +25,8 @@ public class ExitCommand : StageDirectionCommand {
         TachiComponent portrait = player.portraits.GetPortraitByChara(chara);
 
         // fade 'em out!
-        yield return portrait.FadeOut();
+        if (portrait != null) {
+            yield return portrait.FadeOut();
+        }
     }
 }
