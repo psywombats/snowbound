@@ -34,7 +34,7 @@ public class ChoiceCommand : SceneCommand {
 
         // display the choices
         choiceObjects = new List<GameObject>();
-        for (int i = options.Count - 1; i >= 0; i -= 1) {
+        for (int i = 0; i < options.Count; i += 1) {
             ChoiceOption option = options[i];
             GameObject choiceObject = UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>(buttonPrefabName));
 
@@ -51,7 +51,7 @@ public class ChoiceCommand : SceneCommand {
             totalButtonsHeight += buttonSpacingPx * (options.Count - 1);
 
             float lowestFraction = middleVisibleFraction - ((totalButtonsHeight - buttonHeight) / 2.0f) / Screen.height;
-            float posY = lowestFraction + ((buttonSpacingPx + buttonHeight) / Screen.height) * i;
+            float posY = lowestFraction + ((buttonSpacingPx + buttonHeight) / Screen.height) * (options.Count - i - 1);
 
             Utils.AttachAndCenter(player.canvas.gameObject, choiceObject);
             transform.anchorMin = new Vector2(0.5f, posY);

@@ -6,6 +6,8 @@ It's 4:30. I would've thought Sid would be here by now, at least. There's a zero
 
 The empty seats of the student club room stare back at me. I have no idea why anyone would want to meet in here. It's set up like some sort of corporate conference room, as if I should be running a business here, not a half-hearted sports club.
 
+[enter SID B]
+[enter ERIC E]
 SID: "Hello."
 ERIC: "Hey, Sid."
 He takes a seat.
@@ -14,46 +16,57 @@ ERIC: "Oh, it looks to me like you're already here. Where are you headed?"
 SID: "I have a rehearsal today."
 ERIC: "I thought most of the other practices were cancelled because of the weather."
 SID: "Mine isn't. It starts in five minutes."
-ERIC: "Come to think of it, you never told me you were in an ensemble. Which one?"
-SID: "Jazz band. And I never told you because I figured you'd think it was dumb."
+ERIC: "Huh. You never told me you were in an ensemble. Which one?"
+SID: "Jazz band. And I never told you because I figured you'd think it was pointless."
 ERIC: "What?"
 SID: "Bye."
 
 Maybe this meeting will be a one-person affair anyway... Bad luck. I was sort of looking forward to it.
 
+[enter MAX B]
+[enter ERIC E
 MAX: "Wow, look at all these new members."
 ERIC: "Max? I didn't think I'd be seeing you. Where's Rebecca?"
 MAX: "She's being stubborn. But come on, look at this room. This is practically no one. You should be ashamed."
 When I don't respond, we're left sitting in silence.
 ERIC: "If it makes it any better, Sid's joining he just had somewhere else to go."
 MAX: "Hm, I forget, how many members do you need for a team? Will three members work?"
-We need three more, but I don't think Max justifies a response. I don't know him that well, but enough to know that his smile is just for show.
-MAX: "You have no soul. I know you probably wanted this club dissolved anyway, but this is just lame."
+We need three more, but I don't say anything. Max was not exactly friendly last year. I know his smile is just for show.
+MAX: "Put some spine into it. I know you probably wanted this club dissolved anyway, but this is just lame."
 I want to respond, but I'm conditioned to catch myself. With those words, Max stands up, yawns, and pokes his head out into the hallway.
 MAX: "Yo! Whoever's interested in joining the world-famous St Magnus team for martial arts, swordplay, muscle-building, naturally-enhancing, free-credit-guaranteed team better get in here!"
-ERIC: "Uh..."
+ERIC: "Oh please no..."
 
-If I kill Max now, that's one less member recruited. Now there's even almost no chance that anyone out there will decide to join fencing. Then again, maybe that was always the case. Wasn't this supposed to be a haven for us abnormals anyway? I need to check myself before I revert into my old way of thinking. Before I have time to think of something to say to Max, someone walks through the door.
+If I kill Max now, that's one less member recruited. Now there's even almost no chance that anyone out there will decide to join fencing. Then again, maybe that was always the case. Wasn't this supposed to be a haven for us anyway? I need to check myself before I revert into my old way of thinking. Before I have time to think of something to say to Max, someone walks through the door.
 
+[enter CAIT A]
+[enter MAX B]
+[enter ERIC E]
 MAX: "Hey, it worked! What's your name?"
 CAIT: "I'm Caitlyn Baquiran."
 MAX: "I'm Maximilian Wolf. It's a real pleasure to welcome you to - "
-CAIT: "If I shake your hand I'll catch your crazy. Now is this some kind of knife-fighting league? Karate team? Who's the real captain around here?"
+CAIT: "I'm not touching you because you're clearly insane. Now is this some kind of knife-fighting league? Karate team? I guess you're the real captain?"
 ERIC: "Hi. I'm Eric, nice to meet you. We're the fencing team."
-CAIT: "Oh... Well, I guess that's almost like knife-fighting. I guess I'll join."
+CAIT: "Oh... Well, that's almost like knife-fighting. I guess I'll join."
 She pulls out a seat at the table but stops before sitting.
 CAIT: "There are two of you. That's an awkward date, not a team."
 ERIC: "Sid couldn't make it to the first meeting, and uh, we still need to recruit two more if we want to be an official team..."
 MAX: "I can holler again."
 CAIT: "Sit down, will you? There are better recruitment strategies."
+[exit CAIT]
+[exit MAX]
+[enter MAX C]
 MAX: "Where's she going?"
 ERIC: "No idea. Do you know her?"
 MAX: "Where's Rebecca when you need her... She knows every lunatic in this school."
-I'm saved from responding by the return of Cait.
+I'm saved from talking to Max by the return of Cait.
+[enter CAIT A]
+[enter LYRA B]
 CAIT: "Here. I've recruited another member. Tell them your name."
 LYRA: "Lyra Cygnus. Can I ask what team this is?"
-MAX: "Cow-tipping."
+MAX: "The bicep-building, cow-tipping, virility-enhancing -"
 CAIT: "Shut up. This is the fencing team, and it's not polite to mislead people."
+[enter PETE D]
 PETE: "You're the one misleading people, haha."
 CAIT: "And who are you?"
 PETE: "I'm Pete Sai. I'm joining the free-credit-guaranteed fencing team."
@@ -67,11 +80,16 @@ LYRA: "I told you I'm not leaving."
 ERIC: "Look, can we just start this meeting already? We've got two tournaments this year instead of only one last year, and - "
 I stop when Max starts glaring at me.
 PETE: "Hey, we should go down to the gym and check out the snow."
+[hold]
 
-Here we are: my first choice as incompetent captain of the fencing club. Maybe I should stop thinking about how to run this team and step back a moment. I don't know how to control these people or even if I should be controlling them. Before I can make up my mind, Pete and Cait are both out the door.
+Here we are: my first choice as the incompetent captain of the incompetent fencing club. Maybe I should stop thinking about how to run this and step back a moment. I don't know how to control these people or even if I should be controlling them. Before I can make up my mind, Pete and Cait are both out the door.
+[hold]
 
+[exit PETE]
 CAIT: "Where do you think you're going!?"
+[exit CAIT]
 LYRA: "I should probably follow!"
+[exit LYRA]
 MAX: "Congratulations, you just let all the new members escape. Should I find the nets?"
 ERIC: "I'm horrible at this. How did we even end up with enough people?"
 MAX: "Would you quit sulking around and act like the captain of this team?"
@@ -81,8 +99,10 @@ ERIC: "Thanks. I'd appreciate it."
 
 I have to wonder why Max is putting in such an effort, but maybe he just enjoyed fencing last year and wants to continue. In any case, this gives me the chance to check on Sid back at the auditorium. With any luck, the jazz band will be done practicing for the day and he can come to the first practice.
 
-As I walk down the main hall, I keep glancing over my shoulder at the window at the end of the hallway. There's something not quite right. In the winter, the darkness through the windows only serve to remind us of the neverending night, but this afternoon the black is tinted with gray snow. I can't tell if there's a storm outside or if the wind is just picking up what's already on the ground. When I face front again, I almost walk into Rebecca.
+As I walk down the main hall, I keep glancing over my shoulder at the window at the end of the hallway. There's something not quite right. In the winter, the darkness through the windows only serve to remind us of the twilight that replaced the day, but this afternoon the black is tinted with gray snow. I can't tell if there's a storm outside or if the wind is just picking up what's already on the ground. When I face front again, I almost walk into Rebecca.
 
+[enter REBCCA B]
+[enter ERIC D]
 REBECCA: "Oh."
 ERIC: "Sorry, I was looking at the snow."
 REBECCA: "Have you seen Max around?"
@@ -91,17 +111,17 @@ REBECCA: "And I thought Max was kidding about that..."
 ERIC: "You won't consider joining again?"
 REBECCA: "Look Eric, what's this about? You're a senior. You're a smart senior. Why are you wasting your time on us? There's no credit in the fencing team."
 ERIC: "I don't care about credit any more."
-I'm not lying.
+She raises an eyebro, but I'm not lying.
 REBECCA: "No way. What did you spend the past three years doing? Were those all a joke?"
-ERIC: "Something happened. I don't think like that now."
-REBECCA: "Something happened? That's the best you can come up with?"
+ERIC: "An unfunny joke, maybe. I don't think like that now. Something happened."
+REBECCA: "So something happened? That's the best you can come up with?"
 ERIC: "I'd rather not go into it right now. Maybe I'll tell you later, if you join."
-REBECCA: "It's not going to work."
-ERIC: "Why do you need to know if I'm planning something? I just want to run the fencing team the exact same way as last year. If I do all the right actions, what does it matter what I'm thinking?"
+REBECCA: "I'm tempted, but sorry."
+ERIC: "Why do you need to know if I'm planning something? I just want to run the fencing team the exact same way as last year. If that's all I do, what does it matter what I'm thinking?"
 She sighs.
 REBECCA: "That's just the way I am, Eric. Sorry."
 ERIC: "It's alright. We found enough members anyway."
-REBECCA: "I'll go."
+REBECCA: "I'll come then."
 ERIC: "Really?"
 REBECCA: "Yeah. You owe me one."
 ERIC: "Thanks. See you in a few minutes, then."

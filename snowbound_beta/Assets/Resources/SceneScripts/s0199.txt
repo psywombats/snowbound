@@ -3,7 +3,9 @@
 REBECCA: "Are you out of your mind? You just gave me two hours' notice to join a defunct and dysfunctional team, then demand that I give you an answer in two seconds flat?"
 ERIC: "I'm sorry, it only occurred to me the day before, and with the deadline..."
 MAX: "You should probably leave."
+[enter MAX A]
 ERIC: "Yeah."
+[exit ERIC]
 REBECCA: "Where'd you come from?"
 MAX: "I was watching. When did you grow a spine? You totally put that kid in his place. How dare he try to recruit you for that team you were on last year! You're moving up in this world, Rebecca."
 REBECCA: "I can't tell if you approve or not. Stop mixing your sarcasm in with your praise."
@@ -19,6 +21,7 @@ REBECCA: "Are we talking about the same fencing team here?"
 Last year's captain, Emmanuel, failed half his classes, graduated with minimum credits, and could care less whether we won or lost. We were a pretty abysmal team.
 REBECCA: "There's no way he could reform us into a national level fencing group in three months. He'd have to be nuts."
 MAX: "You never know..."
+[enter SID E]
 SID: "I'm not so sure that's his plan."
 MAX: "Who are you, and how long have you been standing over my shoulder?"
 SID: "I'm Sid Wallace. I'm joining fencing this year."
@@ -27,20 +30,26 @@ REBECCA: "Better you than me, I guess. You do know who Eric Larsen is, right?"
 SID: "We have a history class together, but no, I can't say I 'know' him in the sense that I know what he's thinking or planning."
 MAX: "Not everyone can be a mindreader like Rebecca."
 SID: "I'm just saying it might be worth it to take a chance and come to the meeting. Eric's different from Felix, Marisa, or those other seniors, not that I can explain it."
+SID: "See you."
+[exit SID]
 MAX: "Bye? There goes an odd child."
 
 He's even more of a mystery than Eric. Fine. I'll keep my eye on him as well. It seems no matter how many people I know, there are always others with their own little mysteries.
 
+[enter MAX B]
+[enter REBECCA D]
 MAX: "Hey Rebecca. You better hurry if you want to make the fencing meeting."
 REBECCA: "Stop bothering me. I have work I want to get done."
 MAX: "Alright, I'll see you after the meeting?"
 
-REBECCA: "Hey."
-Maybe this kid will have some insight.
+He wanders off. Well, Max is perpetually in a state of wandering off. Before too long, I notice Sid is at the next table, reading a history book.
+
+[enter REBECCA B]
+[enter SID D]
+REBECCA: "Oh, it's you."
+Maybe Sid will have some insight into this whole thing.
 SID: "Hello."
-REBECCA: "I don't think we've met. I'm Rebecca Bell."
-SID: "Sid Wallace."
-REBECCA: "I know. I saw you around last year."
+REBECCA: "I don't think we've met. I'm Rebecca Bell. I remember seeing you around last year."
 SID: "I'm surprised you remember that."
 REBECCA: "It's a habit of mine to keep track of people."
 SID: "Are you looking forward to the fencing meeting?"
@@ -49,12 +58,10 @@ SID: "I thought you might know. You probably know him better than me."
 REBECCA: "Me? Know him? You know how those elite students are. They never speak to anyone, never do anything that's not for credit..."
 He doesn't respond.
 REBECCA: "Oh. I guess you're one of them, aren't you?"
-SID: "Maybe. But I don't think Eric is, at least not anymore."
-REBECCA: "What's that supposed to mean?"
-SID: "I don't know. Just wait until the meeting, and we'll see if we can't figure it out."
+SID: "I don't know. If I were I'd probably get back to my book though."
+[exit SID]
 REBECCA: "What?"
 He's a maniac.
-
 
 I still can't figure out what Eric is trying to pull. Maybe his plan is to advertise so poorly that no one else shows up and he can honorably disband us returning members. But then why would he drag Sid and me into it? I don't understand. Last year he was so predictable that I had no trouble pegging him as the generic studying automaton. But it doesn't matter; I'll figure him out. Eventually, I figure everyone out.
 

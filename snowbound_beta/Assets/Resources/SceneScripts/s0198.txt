@@ -5,10 +5,11 @@ ERIC: "Thanks. I'll keep it short."
 
 There are more than a few things wrong with this. He's a senior, and he's trying for the top of the class, so why is he wasting his time on a fencing team? Last year's captain, Emmanuel, failed half his classes, graduated with minimum credits, and could care less whether we won or lost. The only people who really cared if they were earning credit were Eric and his friend Marisa, so what's Eric doing as a captain in the all-important senior year? He'll probably grind us to the bone in practice... Oh well.
 
-REBECCA: "Hey."
-Maybe this kid will have some insight.
+[enter SID D]
+[enter REBECCA B]
 SID: "Hello."
-REBECCA: "I don't think we've met. I'm Rebecca Bell."
+Him? Maybe this kid will have some insight.
+REBECCA: "Hey. I don't think we've met. I'm Rebecca Bell."
 SID: "Sid Wallace."
 REBECCA: "I know. I saw you around last year."
 SID: "I'm surprised you remember that."
@@ -19,20 +20,22 @@ SID: "I thought you might know. You probably know him better than me."
 REBECCA: "Me? Know him? You know how those elite students are. They never speak to anyone, never do anything that's not for credit..."
 He doesn't respond.
 REBECCA: "Oh. I guess you're one of them, aren't you?"
-SID: "Maybe. But I don't think Eric is, at least not anymore."
+SID: "Maybe. But I really don't think Eric's like that. Well, now anyway."
 REBECCA: "What's that supposed to mean?"
 SID: "I don't know. Just wait until the meeting, and we'll see if we can't figure it out."
 REBECCA: "What?"
 
 He's even more of a mystery than Eric. Fine. I'll keep my eye on him as well. It seems no matter how many people I know, there are always others with their own little mysteries.
 
+[enter MAX B]
+[enter REBECCA D]
 MAX: "Who's that guy?"
 REBECCA: "One of Eric Larsen's friends, I guess."
 I lose track of Sid in the throng of people by the hallway door.
 REBECCA: "Hey Max, are you coming to the fencing meeting?"
-MAX: "I didn't know you could joke."
+MAX: "Wow. I didn't know you had a sense of humor."
 REBECCA: "I'm perfectly capable of joking, but this time I'm not. For some reason Eric's decided to start it up again this year."
-MAX: "That madman probably thinks that if he makes us practice ten times a day then he can eke some credit out of us at the state tournament."
+MAX: "That madman probably thinks that if he makes us practice ten times a day then he can eke some credit out of us at regionals."
 REBECCA: "Then you're not coming?"
 MAX: "I don't want to be some apple in a cider press, sitting there while Eric Larsen squeezes the life out of me. Can you imagine him turning the little cider crank with that goofy grin on his face? Drip, drip, drip."
 REBECCA: "Have I ever told you you're a nutjob?"

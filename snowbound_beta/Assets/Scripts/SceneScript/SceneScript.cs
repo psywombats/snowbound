@@ -13,7 +13,7 @@ public class SceneScript {
     private StageDirectionCommand lastStageDirection;
     private BranchCommand lastBranch;
     private ExitAllCommand lastExitAll;
-    private bool holdMode;
+    private static bool holdMode;
     private bool nvlMode;
 
     // playback state
@@ -67,7 +67,6 @@ public class SceneScript {
                 } else {
                     command = null;
                 }
-                holdMode = false;
                 startsNewParagraph = true;
             } else if (commandString[0] == '[') {
                 // this is a command of some type
@@ -96,7 +95,7 @@ public class SceneScript {
                 }
             } else {
                 // this is a text literal
-
+                
                 if (StartsWithName(commandString)) {
                     // spoken line
                     command = ParseLine(commandString);
@@ -110,6 +109,7 @@ public class SceneScript {
                     }
                 }
                 startsNewParagraph = false;
+                holdMode = false;
                 if (lastStageDirection != null) {
                     lastStageDirection.SetSynchronous();
                 }

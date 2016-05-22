@@ -64,7 +64,7 @@ SHIBIN: "Fine. You're the boss."
 KENNETH: "Let's deal with food before we head out there. It looks really dark."
 MAX: "That's because there aren't any lights on, dear leader."
 [exit KENNETH]
-[exit SHIBIN
+[exit SHIBIN]
 [enter REBECCA D]
 [enter SOPHIE E]
 I nudge Maximilian to get him to shut up, but Kenneth and Shibin walk back to gymnasium. Cait moves over to join us.

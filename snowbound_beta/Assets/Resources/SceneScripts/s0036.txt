@@ -1,25 +1,3 @@
 [s0036]
 
 [goto s0037]
-
-[skip] As much as this is a cool idea, this is a terrible idea.
-
-Today is Friday, November 11th. The time is 4:15 PM. This is the St. Magnus School, Bournewell Bay, Massachusetts.
-Peter Sai is in the gymnasium, arguing with a female archery team member.
-Lyra Cygnus is somewhere in a hallway, trying to remember where she was supposed to go.
-Shibin Huang is in the gymnasium, staring at the outdoors.
-Sid Wallace is in the auditorium, sitting at the keyboard.
-Caitlyn Baquiran is in the auditorium, arguing with a male archery team member.
-Kenneth Whitecastle is in the gymnasium, running without rest.
-Marilyn Sumner is in a second floor classroom, talking to a male debate team member.
-Henry Musikot is in the auditorium, staring up at darkened lights.
-Sophie Morrigan is in the pool, resting from her warm-up.
-Arya Martin is in a basement lab, narrowly avoiding electrocuting herself.
-Felix Salazar is in a second floor classroom, ignoring a female debate team member.
-Maximilian Wolf is in the gymnasium, watching the snow.
-Rebecca Bell is in the gymnasium, watching the snow.
-Marisa Montoire is in the auditorium, watching a male archery team member.
-Eric Larsen is in the auditorium, watching a female archery team ex-member.
-Today is Friday, November 11th. The time is 4:15 PM. And this is the St. Magnus School, Bournewell Bay, Massachusetts.
-
-[goto s0037]

@@ -7,33 +7,41 @@ ERIC: "Sorry. I'll go."
 
 There are more than a few things wrong with this. Eric is in the all-important time-devouring ever-dreaded senior year, so why is he wasting his time trying to recruit me for the fencing team? Last year's captain, Emmanuel, failed half his classes, graduated with minimum credits, and could care less whether we won or lost. No one who cared about credit would ever captain our team, so I just figured the group was dead.
 
+[enter MAX D]
+[enter REBECCA B]
 MAX: "What did that guy want?"
 Just who I was looking for.
 REBECCA: "Are you coming to the fencing meeting?"
-MAX: "I didn't know you could joke."
+MAX: "Wow. You have a sense of humor after all!"
 REBECCA: "Hey, I can joke, but right now I'm serious. For some reason Eric's decided to start it up again this year."
 MAX: "That madman probably thinks that if he makes us practice ten times a day then he can eke some credit out of us at the state tournament."
 REBECCA: "I guess you're not coming then."
-MAX: "I don't want to be some apple in a cider press, sitting there while Eric Larsen squeezes the life out of me. Can you imagine him turning the little cider crank with that goofy grin on his face? Drip, drip, drip."
+MAX: "I don't want to be some apple in a cider press, sitting there while Eric Larsen squeezes the life out of me. Can you imagine him turning the little cider crank with that goofy grin on his face? Drip drip, Rebecca."
 REBECCA: "I was only going to show up if you were interested, so never mind, I guess."
+[enter SID E]
 SID: "You two should come."
-MAX: "Now who are you?"
+MAX: "Okay, who are you?"
 SID: "Sorry, I should've introduced myself. I'm Sid Wallace. We'll be team mates on fencing this year."
-MAX: "Oh come on. If by some miracle Eric manages to recruit enough members, Rebecca and I will be on the sidelines sipping lemonade while you guys practice stabbing each other for eight hours a day."
+MAX: "I like this! Everyone's very entertaining today."
+MAX: "If by some miracle Eric manages to recruit enough members, Rebecca and I will be on the sidelines sipping lemonade while you guys practice stabbing each other for eight hours a day."
+Sid looks dumbfounded. Well, I guess most people meeting Max are either dumbfounded or annoyed, so it could be worse.
 REBECCA: "He means we're not joining."
 SID: "Oh."
 REBECCA: "Are you sure you want to join? Eric's a bit of a... I don't know, but if you heard stories about last year's fencing team, it's not going to be the same."
 SID: "I'm not sure you know Eric as well as you think you do."
 REBECCA: "I don't know him well at all."
 SID: "Maybe you should give the team a chance then."
+[exit SID]
 MAX: "Bye? There goes a very odd child."
+[hold]
 
 He's even more of a mystery than Eric. Fine. I'll keep my eye on him as well. It seems no matter how many people I know, there are always others with their own little mysteries.
+[hold]
 
 MAX: "So you're coming to the meeting, right?"
-REBECCA: "Does it look like it?"
-Actually, I'd consider it.
-MAX: "Come on, you can't resist. You have to know why old boring Eric is going to run the loser fencing team. His mysterious aura is too much for you."
+REBECCA: "What on earth gave you that impression?"
+Even though I'm actually considering it.
+MAX: "Come on, you can't resist. You have to know why old boring Eric is going to run the loser fencing team. Your womanly wiles are no match for his mysterious aura."
 REBECCA: "Oh come on."
 MAX: "I'm going, if that makes the choice any easier."
 REBECCA: "Fine, I'll go. But I still have no idea how Sid changed your mind..."
