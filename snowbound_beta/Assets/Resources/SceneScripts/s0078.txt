@@ -1,16 +1,16 @@
 [s0078]
-[increment LYRA]
+[increment LARA]
 
 I walk to the library to spend my time. There is no European Studies today as it's one of those classes that meet every other week. Most students would take another class that meets at the same period on opposite days, but none of the classes that met that requirement looked appealing to me, and so I have this free hour with nothing to do. It's rare for a student to have an empty period that's not in place of gym, so by reflex, I stay at the second floor library.
 
-[enter LYRA B]
-LYRA: "Hm, hello."
+[enter LARA B]
+LARA: "Hm, hello."
 I guess there is someone in the library who knows me.
 [enter ERIC D]
 ERIC: "Hi? Oh, right, you're interested in the archery team. Hello."
-LYRA: "I'm glad you remembered, but it doesn't look like we'll be practicing any time soon, does it?"
+LARA: "I'm glad you remembered, but it doesn't look like we'll be practicing any time soon, does it?"
 ERIC: "No, I heard that this place is a shelter now. We'll hold the first practice on Monday."
-LYRA: "Maybe. But I think the hurricane is going to destroy the school. We'll be flooded and everyone from Bournewell will drown. Then they'll retire Ophelia from the hurricane names."
+LARA: "Maybe. But I think the hurricane is going to destroy the school. We'll be flooded and everyone from Bournewell will drown. Then they'll retire Ophelia from the hurricane names."
 Maybe it's a joke, but her execution would have to be perfect to keep that straight face.
 ERIC: "Uh, right. That's pleasant."
 [exit ERIC]
@@ -20,8 +20,8 @@ But when I look out the windows, I can see why she might think that. That thin g
 
 [enter ERIC E]
 ERIC: "Anyway, if you see any other people who were at the meeting last night, can you let them know that everything's cancelled today?"
-LYRA: "I'll see what I can do."
+LARA: "I'll see what I can do."
 
-I start my work at a table a few rows over from where Lyra is sitting. I only have the chemistry pre-lab to finish, and I'm soon left with nothing to do. My course load is very minor. I notice out of the corner of my eye that Lyra isn't studying at all, only staring at the window into the storm clouds outside. A few raindrops streak the edges of the windows. Whatever is going on out there is picking up. The hour passes. I cross the hall over to Modern Poetry.
+I start my work at a table a few rows over from where Lara is sitting. I only have the chemistry pre-lab to finish, and I'm soon left with nothing to do. My course load is very minor. I notice out of the corner of my eye that Lara isn't studying at all, only staring at the window into the storm clouds outside. A few raindrops streak the edges of the windows. Whatever is going on out there is picking up. The hour passes. I cross the hall over to Modern Poetry.
 
 [goto s0080]

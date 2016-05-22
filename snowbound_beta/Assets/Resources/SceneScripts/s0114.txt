@@ -11,7 +11,7 @@ We sit on our table facing the windows to the fading gray outside, but every few
 [enter ERIC D]
 SID: "What are you thinking about, Eric?"
 ERIC: "What? Oh, nothing. I was just uh, wondering how the students in the gym are doing."
-Actually, come to think of it, I wonder why I wasn't more concerned about Rebecca, Max, Lyra and the rest before.
+Actually, come to think of it, I wonder why I wasn't more concerned about Rebecca, Max, Lara and the rest before.
 SID: "They should be fine."
 ERIC: "You think?"
 SID: "They have the supplies from the expedition closet, right? They'd outlast us for sure. It's not like a little hardship will drive everyone insane, so I'm sure they're cooperating, just like we are."

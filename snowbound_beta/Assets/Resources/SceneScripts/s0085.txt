@@ -55,21 +55,21 @@ My first order of business is to find Sophie. I ignore the mass of students wand
 
 [enter REBECCA B]
 [enter SOPHIE D]
-[enter LYRA E]
+[enter LARA E]
 SOPHIE: "Hello, Rebecca. We were wondering if we might see you."
-LYRA: "Hi."
-REBECCA: "Sophie, Lyra... Hello. I'm not quite sure where to begin, but I'm here to say goodbye."
-LYRA: "See, Sophie? I knew it."
-SOPHIE: "You're clever, Lyra, you know that? You should lie back down though. I don't want you to exert yourself too much."
-LYRA: "Is Eric going with you?"
+LARA: "Hi."
+REBECCA: "Sophie, Lara... Hello. I'm not quite sure where to begin, but I'm here to say goodbye."
+LARA: "See, Sophie? I knew it."
+SOPHIE: "You're clever, Lara, you know that? You should lie back down though. I don't want you to exert yourself too much."
+LARA: "Is Eric going with you?"
 REBECCA: "I guess you've got it all figured out... Eric and I will be gone by the morning. We've decided we're leaving on our own. Max and Felix and Arya and Henry can argue all they want, but we've decided to take action."
 SOPHIE: "I never thought I'd be hearing you say that, Rebecca. Maybe Max or someone, but Rebecca?"
-REBECCA: "I'm my own person, Sophie. I'm glad you've found something useful to do, but I think I've served my purpose here, and I wish you and Lyra the best of luck. Maybe you'll leave together as well."
-SOPHIE: "I'm not you. And don't forget that Lyra's ill. It's my job to look after her now."
-LYRA: "Thanks."
-REBECCA: "Farewell, Lyra. Good luck, Sophie. I won't forget you."
+REBECCA: "I'm my own person, Sophie. I'm glad you've found something useful to do, but I think I've served my purpose here, and I wish you and Lara the best of luck. Maybe you'll leave together as well."
+SOPHIE: "I'm not you. And don't forget that Lara's ill. It's my job to look after her now."
+LARA: "Thanks."
+REBECCA: "Farewell, Lara. Good luck, Sophie. I won't forget you."
 
-When I leave, I can't help but regret my choice. I have only fond regards for Sophie and Lyra, but when I hear their gentle chatter, something in me yearns for that peace that comes with passiveness. But I shut the door behind me and head back to the gym. I've been through a lot these past few weeks, but this will be one of the hardest tasks yet.
+When I leave, I can't help but regret my choice. I have only fond regards for Sophie and Lara, but when I hear their gentle chatter, something in me yearns for that peace that comes with passiveness. But I shut the door behind me and head back to the gym. I've been through a lot these past few weeks, but this will be one of the hardest tasks yet.
 
 [enter REBECCA D]
 [enter MAX B]

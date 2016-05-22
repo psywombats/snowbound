@@ -82,7 +82,7 @@ It takes me a few moments to figure out why the room is darker than usual, but I
 ERIC: "Can you roll up the blinds? It's almost impossible to see in here."
 SID: "Yeah, I'll do it when I get there. I don't want to trip over a chair or something. I'll cover shelves, you cover desk."
 
-I'm already at the front of the classroom. I've run my hands through a few loose pages on the top of the desk when I realize I'm standing across from some blob on the office chair opposite me. There's something there with a definite shape. As Sid ratchets up the window one rackety click at a time, I reach towards it. Then the light hits it. It's a person, a girl. Lyra Cygnus is sitting there. But when I touch her cheek, there is no warmth or movement or pulse. Lyra Cygnus is no more.
+I'm already at the front of the classroom. I've run my hands through a few loose pages on the top of the desk when I realize I'm standing across from some blob on the office chair opposite me. There's something there with a definite shape. As Sid ratchets up the window one rackety click at a time, I reach towards it. Then the light hits it. It's a person, a girl. Lara Cygnus is sitting there. But when I touch her cheek, there is no warmth or movement or pulse. Lara Cygnus is no more.
 
 At the English offices, no one is quite sure what to do with her body. Sid and I had no trouble moving up her frozen remains. Unlike Marisa, her death was tiny and dignified. Despite this less tragic nature, the news of yet another death among the students isn't going over very well. Marilyn cries silently in the corner, and Sid hasn't spoken a word since. Felix alone seems to have maintained his composure. 
 
@@ -91,17 +91,17 @@ Should we have some sort of funeral? Do we preserve her in one of the colder roo
 [enter HENRY B]
 [enter ERIC D]
 HENRY: "Eric, are you doing okay?"
-ERIC: "Not really. First Marisa and now Lyra... This has to be a curse."
-HENRY: "Keep your chin up, Eric. You'll be over it before you know it. You handled Marisa pretty well, and I'm sure you can do the same for Lyra."
+ERIC: "Not really. First Marisa and now Lara... This has to be a curse."
+HENRY: "Keep your chin up, Eric. You'll be over it before you know it. You handled Marisa pretty well, and I'm sure you can do the same for Lara."
 ERIC: "It's different, Henry. Marisa might have been closer to me, but she ended her life herself. That was her choice and half the time I think she did it to spite me. Her death was out of our hands."
-HENRY: "And so was Lyra's."
+HENRY: "And so was Lara's."
 ERIC: "Henry, if we had searched those classrooms a day earlier, maybe she would've been alive."
 HENRY: "And maybe she would've been dead. Look Eric, you've never second guessed yourself before, so don't start now. Believe it or not, there are more than a few people in here that look up to you."
 ERIC: "I'll try, Henry. I just don't know what to do from here."
 HENRY: "Take some time. Come up with a plan."
 ERIC: "You're right... Maybe I should go talk to Sid."
 
-But when I look around for him, I can't see Sid anywhere. Most of the students are unmoving in their chairs around the communal bed, but Sid is not among them. I head outside to check if he's across the way with Lyra's body, but I run into him in the middle of the hall.
+But when I look around for him, I can't see Sid anywhere. Most of the students are unmoving in their chairs around the communal bed, but Sid is not among them. I head outside to check if he's across the way with Lara's body, but I run into him in the middle of the hall.
 
 [enter SID B]
 [enter ERIC D]
@@ -127,7 +127,7 @@ SID: "We?"
 ERIC: "I'm coming with you. I can't guarantee I won't leave, but you're not going out to die on your own."
 Sid stops for a minute then shakes his head.
 SID: "There's no getting rid of you, is there?"
-ERIC: "No. I'm sorry, but we've been right next to each other through this whole thing. I don't think I could've endured Marisa's and Lyra's deaths without you."
+ERIC: "No. I'm sorry, but we've been right next to each other through this whole thing. I don't think I could've endured Marisa's and Lara's deaths without you."
 SID: "You're a lunatic for coming with me, Eric, but I appreciate it all the same. I thought I'd leave right now."
 ERIC: "Should we talk to Felix?"
 SID: "That's none of my business and I'm heading off immediately."
@@ -145,7 +145,7 @@ But we both know that I mean more frozen casualties.
 SID: "I don't know if you're religious, Eric, but if you are, this is the time to pray."
 He heads down the hallway and tests one knob after the other. The remaining doors are all firmly locked.
 SID: "You have no idea how relieved I am."
-ERIC: "How did Lyra end up out here on her own? There was no one else in this hallway."
+ERIC: "How did Lara end up out here on her own? There was no one else in this hallway."
 SID: "I thought she was in the auditorium, yeah, but it doesn't really matter now. The important part is that no one else is trapped down here."
 Sid and I are now the only occupants of this tomb.
 ERIC: "Then let's move on to the office."

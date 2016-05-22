@@ -1,36 +1,36 @@
 [s0182]
 
-ERIC: "Lyra, come with me."
-LYRA: "What?"
+ERIC: "Lara, come with me."
+LARA: "What?"
 ERIC: "Everyone here is doomed. Everyone I cared about is gone. I hardly know you, but I know you well enough to know that you don't deserve this."
-LYRA: "Everyone?"
-ERIC: "Rebecca, Max, and Marisa are all dead. Pete's a cold-blooded killer and Sid's been missing for days. ...Somehow, I'm the worst of them all. I failed, Lyra. I'm trying to make it up here. Maybe I can find freedom for you."
-LYRA: "I wan to get out, but... are you really doing it?"
-ERIC: "I have the supplies right here, and Pete told me how to get to the roof. Come on, Lyra, let's get out of here."
-LYRA: "I'll go."
+LARA: "Everyone?"
+ERIC: "Rebecca, Max, and Marisa are all dead. Pete's a cold-blooded killer and Sid's been missing for days. ...Somehow, I'm the worst of them all. I failed, Lara. I'm trying to make it up here. Maybe I can find freedom for you."
+LARA: "I wan to get out, but... are you really doing it?"
+ERIC: "I have the supplies right here, and Pete told me how to get to the roof. Come on, Lara, let's get out of here."
+LARA: "I'll go."
 
 I don't need more than that. I half drag her along our circuitous route. The destination is almost directly above us, but to get there, we must first go down to the basements, across to the north stairs, and through the English hallway.
 
-[enter LYRA B]
+[enter LARA B]
 [enter ERIC D]
-LYRA: "Sophie will think I vanished just like Sid..."
+LARA: "Sophie will think I vanished just like Sid..."
 ERIC: "Maybe. I'm sorry that there's no time to say goodbye, but if I talk to Sophie she'll probably tear me apart, just like Pete."
-LYRA: "She'll think Felix has me. She'll think I'm in the grave with Max and Rebecca."
+LARA: "She'll think Felix has me. She'll think I'm in the grave with Max and Rebecca."
 
-Before I can think of a response, we're at the office door. The guard lets me through with only the most cursory glance at Lyra, but if I run into Felix or Henry or someone, the game is up. The only person I encounter, however, is Marilyn.
+Before I can think of a response, we're at the office door. The guard lets me through with only the most cursory glance at Lara, but if I run into Felix or Henry or someone, the game is up. The only person I encounter, however, is Marilyn.
 
 [enter MARILYN D]
-[enter LYRA A]
+[enter LARA A]
 [enter ERIC B]
 MARILYN: "Eric."
 ERIC: "Marilyn, I know I let you down. I never wanted this to happen, but everything kept going wrong."
 MARILYN: "I can't hold it against you, Eric. I didn't stand up when it was my time, and neither did you. We both bear as much responsibility as anyone. Who's the girl?"
-LYRA: "Hi, I'm Lyra Cygnus, and I'm a freshman at St. Magnus Academy."
-MARILYN: "Lyra! It's you! I'm so glad you're safe."
-LYRA: "Hi."
+LARA: "Hi, I'm Lara Cygnus, and I'm a freshman at St. Magnus Academy."
+MARILYN: "Lara! It's you! I'm so glad you're safe."
+LARA: "Hi."
 MARILYN: "Where are you two going?"
 ERIC: "Pete said there's an escape route through the roof. I'm running blind here, Marilyn. This whole thing is moving fast and I'm making it up with it as I go along. There's a sleeping bag and food for a few days in this bag. I'm leaving the school behind."
-She looks at the backpack, then at the woozy Lyra beside me.
+She looks at the backpack, then at the woozy Lara beside me.
 ERIC: "Come with us. There's nothing left for anyone here."
 MARILYN: "I have to stay with Felix."
 ERIC: "Really?"
@@ -38,32 +38,32 @@ MARILYN: "I admire your ability to put the past behind you, Eric, but I brought 
 ERIC: "You won't reconsider?"
 MARILYN: "Eric, you have to hurry. Felix and Henry will be back any minute. If you go now, I won't tell them you were here."
 ERIC: "Thanks, Marilyn."
-LYRA: "Goodbye."
+LARA: "Goodbye."
 MARILYN: "Good luck to both of you."
 
 It takes under a minute to find the service staircase. It's identical to the fire doors, except there's a traditional lock and handle mechanism on the front. I grip the handle. Don't fail me now, Pete. Sure enough, the door pulls outward to reveal a set of stairs, and at the top, the swirl of fresh air.
 
-[enter LYRA B]
+[enter LARA B]
 [enter ERIC D]
-LYRA: "It's beautiful."
+LARA: "It's beautiful."
 [hold]
 
 It's almost dark outside, but the difference in atmosphere is unmistakable. In our days of confinement, I never realized how much I missed the wind. I wish I could stand here and reflect, but I have no time.
 
-ERIC: "Come on, Lyra. It's time to go."
+ERIC: "Come on, Lara. It's time to go."
 
-The night sky is dark with storm clouds and sleet. The wind whisks past my face and through my outstretched fingers. Strangely enough, I can't bring myself to feel any joy, only an agonizing melancholy. Lyra makes it up the stairs behind me. We can't look back now.
+The night sky is dark with storm clouds and sleet. The wind whisks past my face and through my outstretched fingers. Strangely enough, I can't bring myself to feel any joy, only an agonizing melancholy. Lara makes it up the stairs behind me. We can't look back now.
 
 [date]
 ??????
 
 I wake in the morning to bright, bright sunlight. The world around me is a piercing white. It looks like a full two inches of snow fell last night and freezing rain is still driving hard into the wind. It's painful to open my eyes to the light or stand up against the snow, but I rise nonetheless. The more distance we can cover today, the better. The supplies I have with me are enough to bring us to Valdez, if it's still out there somewhere, but I'm concerned that without the school as a landmark, I might lose my way.
 
-Where did Lyra vanish to? I circle the area once or twice, but I only find her when I step on her. Her sleeping bag is completely buried. How did that happen? My body heat melted most of the falling snow around my face, but Lyra... My eyes close tight in anticipation of what I'm about to find. There she is, Lyra Cygnus. Her frozen face is beautiful in the morning sun, but those eyes will never open again.
+Where did Lara vanish to? I circle the area once or twice, but I only find her when I step on her. Her sleeping bag is completely buried. How did that happen? My body heat melted most of the falling snow around my face, but Lara... My eyes close tight in anticipation of what I'm about to find. There she is, Lara Cygnus. Her frozen face is beautiful in the morning sun, but those eyes will never open again.
 
 I shouldn't be surprised. What other outcome was there? She was dangerously ill and it's even colder out here than inside. There's nothing out here but snow and more snow. I can't even stop to give her a proper burial, and even if I wanted to turn back, I'd have no idea where to go. Every step I take is agonizing, but I must continue. 
 
-Only a few hours later, I want nothing more than to turn back. Even if it's only to join Lyra in her frozen grave, I'd prefer it to dying alone out here. I have no idea where I'm going or any idea why I'm out here anymore. What's the point? Even if I survive, what's left? Was it worth it?
+Only a few hours later, I want nothing more than to turn back. Even if it's only to join Lara in her frozen grave, I'd prefer it to dying alone out here. I have no idea where I'm going or any idea why I'm out here anymore. What's the point? Even if I survive, what's left? Was it worth it?
 
 [enter ERIC C]
 ERIC: "Hello? Is there anybody out there? Is there anybody out there?"

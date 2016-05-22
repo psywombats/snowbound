@@ -18,12 +18,12 @@ PETE: "You people are so boring. Well, see you later!"
 
 I don't believe it. The glass door that serves as the main entrance to the pool is shut, so Pete skips over to the locker room door and out into the hall. There's nowhere for him to go. They'll spot him right away. Sure enough, the regular pounding of the ram misses a beat.
 
-[enter LYRA A]
+[enter LARA A]
 [enter SOPHIE B]
 [enter MAX D]
 [enter REBECCA E]
-LYRA: "What if he actually went out to sacrifice himself for us?"
-REBECCA: "He's not a hero, Lyra. He's a devious little brat who keeps up a silly face so we'll all look past him. There's no way to know what backstabbing he's up to now."
+LARA: "What if he actually went out to sacrifice himself for us?"
+REBECCA: "He's not a hero, Lara. He's a devious little brat who keeps up a silly face so we'll all look past him. There's no way to know what backstabbing he's up to now."
 MAX: "Then again, it does look like he stopped them from trying to break down the wall into the - "
 He's interrupted by the return of the rattle and blast that is the calling card of the battering ram.
 MAX: "Welp, so much for that."
@@ -48,12 +48,12 @@ MAX: "And if he says no?"
 REBECCA: "Then the cowardly Maximilian Wolf will live in hiding and die of starvation. Henry avenges no one." 
 MAX: "Hm, but there's also a good chance that Henry beheads me and I die in a bloody puddle on the floor. That makes me feel a little better. Let's do it."
 REBECCA: "You just have to be the hero, don't you?"
-LYRA: "There's nothing wrong with heroes."
+LARA: "There's nothing wrong with heroes."
 MAX: "Are you ready, Rebecca? You don't have to go through with this."
 REBECCA: "It's fine. When they catch you, they might even let me go."
-MAX: "Sophie, Lyra, go find somewhere to hide in the locker rooms. I'll wait in here for Henry to find me. Just tell him where I am and there should be no problem."
+MAX: "Sophie, Lara, go find somewhere to hide in the locker rooms. I'll wait in here for Henry to find me. Just tell him where I am and there should be no problem."
 SOPHIE: "Bye, Rebecca. Stay safe."
-LYRA: "You'll do fine."
+LARA: "You'll do fine."
 
 I hope so. I have so many doubts about this, but we need to act fast, or all our planning will be useless.
 

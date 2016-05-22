@@ -26,7 +26,7 @@ When night comes, I'll need something to present to Eric. I need some sort of pl
 REBECCA: "Hey Max?"
 MAX: "Oh, you're back."
 REBECCA: "Yeah. I'm going to go see Sophie."
-It's a convenient excuse to leave, and I wouldn't mind checking in with Sophie and Lyra either.
+It's a convenient excuse to leave, and I wouldn't mind checking in with Sophie and Lara either.
 MAX: "Sure."
 REBECCA: "Meaning I need your door guards to let me out."
 MAX: "Right... I guess I can tell them to let you out. We have to be really careful not to show any weakness to Felix. If his crew is waiting outside, I don't think we'd be able to stop them. Every time we open that door, it's a risk."
@@ -38,18 +38,18 @@ Max has his words with the doormen and I pass through. Hopefully I should have t
 [enter REBECCA B]
 REBECCA: "Sophie? Are you there?"
 [enter SOPHIE D]
-SOPHIE: "Right here. Quiet down a bit, though. Lyra is asleep."
-[enter LYRA E]
-LYRA: "No, I'm awake."
+SOPHIE: "Right here. Quiet down a bit, though. Lara is asleep."
+[enter LARA E]
+LARA: "No, I'm awake."
 REBECCA: "Sorry to wake you up."
-LYRA: "No, I wasn't asleep."
+LARA: "No, I wasn't asleep."
 SOPHIE: "What brings you here? I'm surprised Max let you out."
 REBECCA: "Not much. I just wanted to see how you were going out here."
 I can't exactly tell her I need to meet up with Eric tonight.
-SOPHIE: "I'm fine. I wish I could say the same about Lyra. She's come down with something and her fever's very high. I don't have a thermometer so I can't tell exactly, but it could be dangerous."
-LYRA: "I can't be that bad off, can I? I don't feel too sick..."
+SOPHIE: "I'm fine. I wish I could say the same about Lara. She's come down with something and her fever's very high. I don't have a thermometer so I can't tell exactly, but it could be dangerous."
+LARA: "I can't be that bad off, can I? I don't feel too sick..."
 REBECCA: "You were staggering around when we found you. You're not doing well at all."
-LYRA: "I'll live though."
+LARA: "I'll live though."
 I don't answer, and Sophie remains quiet as well. Will any of us live?
 SOPHIE: "Rebecca, you have to explain to me what's been going on. What happened to you that night? You vanished one day and I've never heard an explanation."
 REBECCA: "That's because what little explanation there is is pretty poor."
@@ -62,18 +62,18 @@ REBECCA: "Eric is in Felix's hands now. We've gone our separate ways."
 I hope Sophie doesn't know me well enough to tell when I'm lying. I've always been good at hiding things from others, anyways.
 SOPHIE: "What about Sid?"
 REBECCA: "I haven't heard."
-LYRA: "I think he went with Felix. Somewhere we were split up."
+LARA: "I think he went with Felix. Somewhere we were split up."
 SOPHIE: "I hope everything works out."
 REBECCA: "Sophie, that brings me to another point... What are you going to do about all this? The conflict between Max and Felix, I mean."
 SOPHIE: "What does that have to do with me?"
 REBECCA: "You're here. You're part of the gym students with Kenneth and Max."
-SOPHIE: "Nothing I can do will change anything. I'll stay here and care for Lyra. At least then I'll be able to make some measurable difference."
+SOPHIE: "Nothing I can do will change anything. I'll stay here and care for Lara. At least then I'll be able to make some measurable difference."
 REBECCA: "You mean you're just going to sit here? At least I'm trying to accomplish something..."
 SOPHIE: "Rebecca, there's nothing you and I can do. Everyone's so wound up already that it's impossible to change their minds. I'm doing the best I can."
 REBECCA: "Fine, Sophie, think that if you want. I'm not ready to give up yet."
 SOPHIE: "I'll be here if you need any help then."
 I know she could never help with what I'm planning. Why am I starting to see things like Max now, when for the first time we're not working together?
-REBECCA: "See you, Sophie, and good luck, Lyra. I'm going to walk around a little."
+REBECCA: "See you, Sophie, and good luck, Lara. I'm going to walk around a little."
 
 I exit the pool. Even though I know Max is correct when he said that any time spent out here is dangerous, but I need someplace to think and the atmosphere in the gym is oppressive. I walk to the lockers to the main hall and back again. I'm careful not to linger long in front of the biology office or the catwalk door; if someone from Felix's side came out, I'd be in a jam. I know I'm just stalling out here and what I'll have to do eventually to talk to Max. Changing his mind would make everything so much easier, and I know Eric is counting on me. With that in mind, I stand outside the fire door back to the gym.
 

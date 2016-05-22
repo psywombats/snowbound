@@ -5,44 +5,44 @@
 [date]
 Monday, November 14th: Day 4
 
-We wait until the sunrise reaches our crowded little room to wake Lyra. There seems to be an unspoken fear that if she sleeps too long, she might never wake up. It seems that that would've been the case in the biology classroom if Sid and I hadn't gone raiding. One or two of the jazz ensemble members have left for some unknown location, but the rest of us gather around the pile of cushions and curtains that makes up the communal bed. Lyra lies in the center.
+We wait until the sunrise reaches our crowded little room to wake Lara. There seems to be an unspoken fear that if she sleeps too long, she might never wake up. It seems that that would've been the case in the biology classroom if Sid and I hadn't gone raiding. One or two of the jazz ensemble members have left for some unknown location, but the rest of us gather around the pile of cushions and curtains that makes up the communal bed. Lara lies in the center.
 
 [enter MARILYN B]
-[enter LYRA C]
-MARILYN: "Lyra... Are you awake?"
-LYRA: "Where is this? I thought I was in a biology room..."
+[enter LARA C]
+MARILYN: "Lara... Are you awake?"
+LARA: "Where is this? I thought I was in a biology room..."
 MARILYN: "We found you last night and brought you up here. You were frozen half to death."
-LYRA: "Oh... Ha, sorry about that. Hope I wasn't any trouble."
+LARA: "Oh... Ha, sorry about that. Hope I wasn't any trouble."
 MARILYN: "None at all."
 Though Felix crosses his arms at that statement.
-LYRA: "What's happening then? Everyone's back. Is it Monday?"
+LARA: "What's happening then? Everyone's back. Is it Monday?"
 We all exchange glances. Who wants to explain this?
 [enter HENRY E]
 HENRY: "No, no one's come. Most of us think no one's coming. It's just as it was when you went to sleep, probably."
-LYRA: "Honestly, I don't remember much. All I know is that it was dark and I was trapped and there was nothing to do but wander around. I don't know what's happening outside. I thought we must have been swallowed by a black hole, or maybe a spacetime loop."
+LARA: "Honestly, I don't remember much. All I know is that it was dark and I was trapped and there was nothing to do but wander around. I don't know what's happening outside. I thought we must have been swallowed by a black hole, or maybe a spacetime loop."
 HENRY: "I'm afraid we're just snowed in. Or iced in, as it may be. Don't even ask me how that happened."
-LYRA: "We must be in a glacier then."
+LARA: "We must be in a glacier then."
 MARILYN: "She's still a little loopy."
 [enter ERIC D]
 ERIC: "Something tells me that's not too far from normal."
 MARILYN: "Oh well then. Maybe we are a glacier, now. That'd explain a lot."
 [enter FELIX A]
 FELIX: "Something nasty is going on out there, but as I said a hundred times last night, that's not what's important here."
-LYRA: "Of course it's important. If everyone else out there is dead, then we have to get out."
+LARA: "Of course it's important. If everyone else out there is dead, then we have to get out."
 No one speaks for a good ten seconds.
 ERIC: "That's pleasant."
-LYRA: "It would make sense. Or maybe they've all be frozen in their homes and this is the coming of another ice age."
+LARA: "It would make sense. Or maybe they've all be frozen in their homes and this is the coming of another ice age."
 FELIX: "Would you stop babbling? We're at a serious crossroad here so stop joking around."
 [exit MARILYN]
 [enter SID B]
 SID: "She does have a point though. Maybe whatever happened outside is a lot worse than what's going on now. In that case, we can't just conserve our energy. We have to act."
 HENRY: "Or maybe there was a snowstorm and we're in the middle of Alaska."
 FELIX: "Right. Does anyone have any other logical ideas about why no one's showed up yet?"
-I notice he stresses the word "logical" and glares at Lyra.
+I notice he stresses the word "logical" and glares at Lara.
 HENRY: "Everything's what it looks like. We got hit with an icestorm and everyone's too busy shoveling themselves out to come look for us."
 FELIX: "They've had four days, for heaven's sake. That's one hell of a storm."
 HENRY: "Hmph. It's not like anyone has anything better to offer."
-Actually, it looks like Lyra wants to speak up, but Felix glares at her.
+Actually, it looks like Lara wants to speak up, but Felix glares at her.
 FELIX: "Exactly. We don't know what it's like outside. It's very likely that even if we find some way to escape the building, we'd die in the snow before we found our way to the dormitory complex, let alone the city. All of our options are right in here, in this school."
 
 I'm sick of this. After last night, we've just been chasing our tails the whole time. Felix said in the beginning he's not forcing anyone to stay, but that leads to an interesting dilemma. At some point, I'll have to talk to Sid. Felix and Henry continue their skirmish and I tap Sid on the shoulder.
@@ -64,37 +64,37 @@ SID: "And if we can't contact them, we die."
 ERIC: "Or run back to Felix, if it really comes to that."
 SID: "As long as that Marilyn has some influence over him, I don't think he'd turn away two dying people that brought him water when he was dying of thirst."
 ERIC: "Exactly. Do you think we could pull it off?"
-[enter LYRA E]
-LYRA: "That sounds wonderful."
+[enter LARA E]
+LARA: "That sounds wonderful."
 SID: "When did you get here?"
-LYRA: "I've been listening the whole time, you know. I thought I was part of this conversation."
+LARA: "I've been listening the whole time, you know. I thought I was part of this conversation."
 Sid and I look at each other.
 ERIC: "Er, not really. Look, do you mind not telling Felix about this? I don't want to be on his bad side again."
-LYRA: "He'll know when we leave, right?"
+LARA: "He'll know when we leave, right?"
 SID: "We?"
-LYRA: "Well I'm coming too, obviously. You don't think he'll realize when everyone wanders off?"
+LARA: "Well I'm coming too, obviously. You don't think he'll realize when everyone wanders off?"
 SID: "You make it sound like some kind of mass rebellion. It's just Eric and me working apart from the group."
-LYRA: "I like it. It's a good plan. Do you want me to bring some provisions? It wouldn't be too hard for me to get my hands on a few things from Marilyn, seeing as how I'm still sick and all."
+LARA: "I like it. It's a good plan. Do you want me to bring some provisions? It wouldn't be too hard for me to get my hands on a few things from Marilyn, seeing as how I'm still sick and all."
 ERIC: "Honestly, you're better off in Marilyn's care. She's willing to look after you until you're healthy again, and probably even give you her food and water."
-LYRA: "Exactly. That's why I can help you."
+LARA: "Exactly. That's why I can help you."
 SID: "If we decide to go, you can come. One condition."
 I stare at him. Just Sid and I working together would be fine, but I'd feel guilty dragging some freshman into this.
 SID: "Don't use Marilyn for food. I'd rather we have a clear conscience about that so we might be able to come back later. Can you agree to that?"
 Maybe Sid expected her to decline, but...
-LYRA: "I understand. Tell me if you're leaving."
+LARA: "I understand. Tell me if you're leaving."
 ERIC: "Can you even stand up?"
-LYRA: "Of course."
+LARA: "Of course."
 She rises and stretches with a variety of shaky motions.
 ERIC: "That is definitely not encouraging."
 [enter MARILYN A]
-MARILYN: "Oh, Lyra, you're moving. That's really excellent."
-LYRA: "Thank you. I'm feeling wonderful."
+MARILYN: "Oh, Lara, you're moving. That's really excellent."
+LARA: "Thank you. I'm feeling wonderful."
 She's also attracted the attention of the main group again. Oh well.
 [enter FELIX C]
 FELIX: "Great. You'll receive exactly as much as the rest of us then."
 MARILYN: "Felix, she's still recovering."
-FELIX: "Lyra, are you still recovering?"
-LYRA: "I'm fine."
+FELIX: "Lara, are you still recovering?"
+LARA: "I'm fine."
 FELIX: "That settles it. We're running low on pretty much everything, and to extend our survival time as long as possible, I propose that we eat one meal a day. I'm setting a target of holding out one week in here, if nothing else happens. That means... Hey, what's the state of the supplies?"
 One of the debate students rummages through the boxes and stacks of water bottles.
 FELIX: "Okay, half a granola bar and a third of a water bottle a day. Any objections?"
@@ -102,18 +102,18 @@ SID: "We won't be missing out on much..."
 He says that only to me though, and Felix continues on.
 FELIX: "Alright, then in one hour we'll have today's meal. Until then, you're free to do whatever. But I'd check the biology classrooms for more supplies."
 
-Sid and I decide to find a different location to make our private plans, and we settle on an English classroom across the hall. Lyra follows along. I hope she won't regret her decision to follow us, and she had better understand the potential consequences. Then again, she was smart enough to be admitted here, so I doubt she'd follow along with us just because she knew us better. Well, she doesn't really know either of that well anyway.
+Sid and I decide to find a different location to make our private plans, and we settle on an English classroom across the hall. Lara follows along. I hope she won't regret her decision to follow us, and she had better understand the potential consequences. Then again, she was smart enough to be admitted here, so I doubt she'd follow along with us just because she knew us better. Well, she doesn't really know either of that well anyway.
 
 [enter SID B]
 [enter ERIC D]
-[enter LYRA E]
+[enter LARA E]
 SID: "Well, Eric, how does Felix's schedule fit into ours? We have an hour before he expects to see everyone in one place."
 ERIC: "That'll be the last time we eat before heading out then."
 SID: "But it looks like no one left the room but us. That must mean they're going to hold off on exploring the first floor until after lunch."
-LYRA: "Or it could be a trap to lure us out."
+LARA: "Or it could be a trap to lure us out."
 ERIC: "I'm not sure how you jumped to that conclusion, but there are other things to worry about. Sid, we don't even know where to start on this plot to contact the gym group."
 SID: "Well, how do we get from this side of the school to the other?"
-LYRA: "Entrance hall."
+LARA: "Entrance hall."
 SID: "That's blocked by the fire doors."
 ERIC: "Well, the student lounges are on the basement and second floors."
 SID: "There are fire doors on the second floor though, remember?"
@@ -123,16 +123,16 @@ ERIC: "I'm not sure. And even so, we would have to get back into the auditorium.
 SID: "Is that a problem?"
 ERIC: "Felix locked it again after we left, remember?"
 SID: "What possible reason could he have for doing that?"
-LYRA:  "It's suspicious.
+LARA:  "It's suspicious.
 We all take a few moments to think. 
-LYRA: "Do we have a hack saw?"
+LARA: "Do we have a hack saw?"
 ERIC: "A what?"
 SID: "Well, Felix did say they managed to file through the bolt on the first floor fire door at the north stairwell. It would be good if we had that."
 ERIC: "He also said it took them two days to file through a bolt, and that was way back when everyone was enthusiastic about this stuff."
 SID: "It would be a useful tool to have. If breaking open a fire door is a life or death problem, then I'm willing to spend two days on it."
-LYRA: "Won't Felix notice if we start breaking through doors?"
-SID: "Doesn't matter. We need what they used to file the door. Lyra, would it be possible for you to ask Marilyn about that?"
-LYRA: "Sure, I could handle that."
+LARA: "Won't Felix notice if we start breaking through doors?"
+SID: "Doesn't matter. We need what they used to file the door. Lara, would it be possible for you to ask Marilyn about that?"
+LARA: "Sure, I could handle that."
 ERIC: "We can't use that as our primary strategy though. There has to be some other way."
 SID: "Who came up with this damn fire door concept to begin with?"
 ERIC: "We could try searching through the desks at the staff offices on the first and second floors."
@@ -140,33 +140,33 @@ SID: "Felix already searched the English offices. You mean search the biology de
 ERIC: "Right, just like the classrooms. Someone must have physical keys to the auditorium basement and the door that leads from the main hall to the catwalks. If Felix found the right key, there must be a left key somewhere."
 SID: "I guess, but why would either of those be at the biology offices?"
 ERIC: "Who knows. I'm just saying we have to keep an eye out for them."
-LYRA: "What about the central office?"
+LARA: "What about the central office?"
 The central office? That's on the first floor, connected to the entrance hall.
 SID: "Both the conference room and main office are locked."
 ERIC: "We could break those little windows that lead to the entry hall and maybe someone slim enough could slip in."
-We both look at Lyra.
-LYRA: "I knew I'd be helpful."
+We both look at Lara.
+LARA: "I knew I'd be helpful."
 ERIC: "But those are glass. We'd have to be really careful."
 SID: "It's doable. Maybe we could find a master key."
 ERIC: "That gives us two leads then. That's enough of a plan for me."
 SID: "I still don't know why you're considering the biology offices a lead."
 ERIC: "Let's put it this way. Felix is going to have the students search those rooms sometime this afternoon, right? What happens if we take all day to raid the central office and turn up nothing? We wouldn't have a chance to go back to the biology offices before Felix retrieves anything useful."
 SID: "Okay, I see your point."
-LYRA: "Haa, I'm hungry..."
+LARA: "Haa, I'm hungry..."
 She stretches.
 ERIC: "It's about time to eat back in the staff lounge, but if you're going to be coming with us, you're going to have to be used to going hungry. We might not be getting anything else for a long time."
 
 The twelve students in the staff lounge share our meal. Felix passes around one of the boxes of granola bars. They're the sort that are already split in two, so it's easy for everyone to receive their allotted amount. The water is a little trickier. Everyone eventually settles on discarded water bottle as their own cup. Someone pulls up a sharpie salvaged from one of the English classrooms. There isn't much conversation. What little there was to discuss about our situation has already been covered. I hope Felix doesn't ask us if our opinions have changed as I don't know what I'd say. I know we're free to go, but it still feels like betraying him.
 
-Some of the students exit the room after eating, presumably down to the biology hall. We should probably be leaving. I notice Lyra and Marilyn step into one of the side offices. With any luck, we should have that file. The sooner we set out, the sooner we can pick up the useful items from the biology classrooms. We still don't have a light source aside from Sid's dying phone, which could be a problem. Lack of light cripples our effective hours of operation, and even during the day, there's hardly enough to light read without standing next to a window.
+Some of the students exit the room after eating, presumably down to the biology hall. We should probably be leaving. I notice Lara and Marilyn step into one of the side offices. With any luck, we should have that file. The sooner we set out, the sooner we can pick up the useful items from the biology classrooms. We still don't have a light source aside from Sid's dying phone, which could be a problem. Lack of light cripples our effective hours of operation, and even during the day, there's hardly enough to light read without standing next to a window.
 
-While I wait for Lyra, I watch Felix as he talks with Henry. They seem much more agreeable than they were last night. I suppose it's good that they'll cooperate without us. Maybe I should talk to them one last time before we head out; it might be a while before we see them again.
+While I wait for Lara, I watch Felix as he talks with Henry. They seem much more agreeable than they were last night. I suppose it's good that they'll cooperate without us. Maybe I should talk to them one last time before we head out; it might be a while before we see them again.
 
 [enter FELIX B]
 [enter HENRY A]
 [enter ERIC D]
 FELIX: "Hi, Eric. Are you going out to the first floor this afternoon?"
-ERIC: "Probably. Lyra and Sid are coming with me."
+ERIC: "Probably. Lara and Sid are coming with me."
 HENRY: "I'm staying here. A few kids in the jazz ensemble want to check the other rooms though."
 ERIC: "That's for the best. You two look like you've come to some sort of agreement. How's it going?"
 FELIX: "We're staying here. When everyone's back for the night, I'll tell everyone to stay out of the areas between here and the gymnasium. If there was an easy path, those bleeding hearts in the gym would insist on giving us supplies. We'll fend for ourselves, await rescue, or starve."
@@ -188,31 +188,31 @@ ERIC: "Then someone has to figure it out."
 FELIX: "You put up a good defense, and I respect that. I'll promise you that if I ever discover what winning in this place means, I will pursue it whole-heartedly. Until then, we stay here and find that purpose."
 ERIC: "There's a reason you're the captain of the debate team."
 FELIX: "Then you resign?"
-[enter LYRA E]
+[enter LARA E]
 [exit HENRY]
 [enter MARILYN A]
-Lyra and Marilyn emerge from the office.
+Lara and Marilyn emerge from the office.
 ERIC: "If you want to call it that. I'll see you later."
 
-Lyra and I say nothing to each other but we walk out into the English hall where Sid is standing. I know Felix must be watching my back, but I hear Marilyn talking to him. He won't be able to stop us. His intentions are good, but who is he to decide for the rest of those students?
+Lara and I say nothing to each other but we walk out into the English hall where Sid is standing. I know Felix must be watching my back, but I hear Marilyn talking to him. He won't be able to stop us. His intentions are good, but who is he to decide for the rest of those students?
 
 [enter SID B]
 [enter ERIC D]
-[enter LYRA E]
+[enter LARA E]
 SID: "Are you ready to go?"
-ERIC: "I'm prepared if Lyra's ready. I have a pair of those scissors we picked up last night."
-LYRA: "I'm all set. Marilyn gave me the file, no questions asked. It's just a pocketknife."
+ERIC: "I'm prepared if Lara's ready. I have a pair of those scissors we picked up last night."
+LARA: "I'm all set. Marilyn gave me the file, no questions asked. It's just a pocketknife."
 She hands it to Sid, who holds it up to the corner window.
 SID: "It's some kind of multitool. Wow, they cut through a door bolt with something like this? This is pretty small."
-LYRA: "She also gave me a granola bar and a water bottle."
+LARA: "She also gave me a granola bar and a water bottle."
 ERIC: "Well, I guess that's a good thing, but I hate to steal from them."
-LYRA: "No, she said that she'd saved them for me. So it's more like a gift from her."
+LARA: "No, she said that she'd saved them for me. So it's more like a gift from her."
 ERIC: "She didn't ask if you were leaving or anything?"
 SID: "Asking for the file was probably a dead giveaway."
 ERIC: "You're right. The food might be a mixed blessing, but I hope Marilyn's healthy. It wouldn't do anyone any good if she were to give out while we're out filing down doors."
-I notice Lyra sniffling.
+I notice Lara sniffling.
 ERIC: "And you're absolutely sure you want to come?"
-LYRA: "I made up my mind. And I just have a cold, that's all."
+LARA: "I made up my mind. And I just have a cold, that's all."
 SID: "We have everything we need, so let's start out. Eric, where to?
 [hold]
 

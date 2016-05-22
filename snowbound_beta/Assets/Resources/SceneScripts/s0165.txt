@@ -56,7 +56,7 @@ SID: "There's not much daylight left, better hurry."
 
 We're all already moving anyway. Once we're up the stairs, Rebecca holds the note to the glass pane. By the fading sun, we each read over Max's note. 
 
-"Hey Rebecca - but I guess you're not alone now, are you? With any luck, I'll be able to deliver supplies tonight, but that's not what's important right now. There's complete chaos up here. Pete Sai's run off somewhere and it's been 12 hours since anyone's seen him. Luckily, that means I could steal some more food and blame it on him. Lyra's adapting well and Sophie's looking after her, so you did right in bringing her to me. Anyway, if I don't show up tonight, it's because they've caught on to me. But that'll never happen, will it? Same time, same place. - Maximilian Wolf"
+"Hey Rebecca - but I guess you're not alone now, are you? With any luck, I'll be able to deliver supplies tonight, but that's not what's important right now. There's complete chaos up here. Pete Sai's run off somewhere and it's been 12 hours since anyone's seen him. Luckily, that means I could steal some more food and blame it on him. Lara's adapting well and Sophie's looking after her, so you did right in bringing her to me. Anyway, if I don't show up tonight, it's because they've caught on to me. But that'll never happen, will it? Same time, same place. - Maximilian Wolf"
 
 [enter CAIT A]
 [enter ERIC B]

@@ -126,17 +126,17 @@ REBECCA: "Who said you were coming?"
 
 Our party of three makes its way to the gymnasium on the first floor. As we pass the pools, I see the swim team starting to gather. Maybe they didn't hear the announcement. Or more likely, they're allowed to keep practicing because they stick to the pool and don't use gym equipment. The bell over the intercom announces 2:50. Time to go home for most students. We stand in the entryway to the locker rooms to avoid the students pouring out of the gym. A D-rank steps in and joins us.
 
-[enter LYRA B]
+[enter LARA B]
 [enter ERIC D]
-LYRA: "Hm. So you decided to practice after all?"
+LARA: "Hm. So you decided to practice after all?"
 ERIC: "No, I'm only here to string bows and then this one tagged along."
 Pete bows.
-LYRA: "Or perhaps you just intended to hold a practice without me. I'll wait here until I'm sure what you're up to."
+LARA: "Or perhaps you just intended to hold a practice without me. I'll wait here until I'm sure what you're up to."
 [enter REBECCA E]
 REBECCA: "Don't worry, we're not doing anything but repairing the equipment."
-LYRA: "I'm sure it's not something that uninteresting. Well, I have nothing else to do anyway. I don't have to be at the jazz ensemble until 4:00 today."
+LARA: "I'm sure it's not something that uninteresting. Well, I have nothing else to do anyway. I don't have to be at the jazz ensemble until 4:00 today."
 ERIC: "It's snowing out, though. You might have trouble walking back."
-LYRA: "That's okay. I love the snow. It's a fine day out."
+LARA: "That's okay. I love the snow. It's a fine day out."
 
 The flow of leaving students dwindles, and the four of us enter a far-from-empty gym. There are stacks of boxes piled in the corners and sleeping bags lined against the wall. The loading dock is open and snow is billowing in. I'm surprised. Six inches of snow already? And it's extraordinarily windy. I don't spot any Bournewell Bay residents, but there are maybe thirty students that I recognize to be the men's track and women's fencing teams around a single teacher.
 
@@ -156,12 +156,12 @@ KENNETH: "I declare practices to be on!"
 Well, that captain certainly has his students geared up. They disperse.
 
 [enter PETE E]
-[enter LYRA D]
+[enter LARA D]
 [enter ERIC B]
 [enter REBECCA A]
 PETE: "See, we'll practice anyhow."
 ERIC: "What was the administration thinking? They should've canceled everything a lot sooner."
-LYRA: "I wonder what happened with the truck though."
+LARA: "I wonder what happened with the truck though."
 ERIC: "An accident. It's snowing like crazy out there. Unless they shut that loading dock, it'll be snowing in here as well.
 
 Rebecca and I open the storage closet. I suppose that as the captain, it's my responsibility to demonstrate how to restring a bow properly. It's something they'll all have to do anyway. I set to work as the track and fencing teams bustle around about us. A few more workers and teachers are seen loading supplies, but more often, it's just people leaving for the crash site outside. We all try to ignore the sirens not too far away. At some point, the track team captain who was speaking earlier shuts the loading bay door. Another two join, interrupting my demonstration.
@@ -178,14 +178,14 @@ PETE: "Aw that's no fun. You'll catch up, right?"
 CAIT: "Concentrate on your own work or someone's liable to injure you."
 [exit PETE]
 [enter REBECCA E]
-REBECCA: "Maximilian and I can show you. We're both returning members. Eric, keep going with Pete and Lyra."
+REBECCA: "Maximilian and I can show you. We're both returning members. Eric, keep going with Pete and Lara."
 ERIC: "Thanks."
 
 It's 4:00. Both demonstrations are finished and we're almost done with every bow that Emmanuel purchased last year. It's surprising how much faster the work is done. I only slow down when I spot a few students standing in place, looking up at the large skylights. A few track members stop in place and more runners almost hit them while they look.
 
-[enter LYRA C]
-LYRA: "I knew this would happen."
-[exit LYRA]
+[enter LARA C]
+LARA: "I knew this would happen."
+[exit LARA]
 [enter CAIT C]
 CAIT: "Nothing's happening, and you're lying anyway."
 [exit CAIT]
@@ -201,8 +201,8 @@ There is only white outside. The snow blows so heavily into the glass that there
 [enter REBECCA D]
 MAX: "Wow, beautiful. It's a winter wonderland!"
 REBECCA: "Knock it off. Something's not right. It's late autumn for one thing, and it looks more like freezing hell out there. Where's everyone from Bournewell? If they wanted to use this place as a shelter, time's running out."
-[enter LYRA E]
-LYRA: "No one's coming."
+[enter LARA E]
+LARA: "No one's coming."
 MAX: "She's right. How could they, in this weather?"
 [enter ERIC A]
 ERIC: "Okay, I'll see you all in a little bit. I'm going to go see Sid for a few minutes. I told him I'd come today and I lost track of time."
@@ -210,7 +210,7 @@ ERIC: "Okay, I'll see you all in a little bit. I'm going to go see Sid for a few
 REBECCA: "I'll take things from here then. Not that there's much else to do."
 [exit MAX]
 [exit REBECCCA]
-LYRA: "Hey, I'll follow you; I need to stop in as well. Give me two minutes to finish this bow."
+LARA: "Hey, I'll follow you; I need to stop in as well. Give me two minutes to finish this bow."
 
 I wait a minute for her to complete her task, but it's obvious it will take her another ten minutes. I start off for the auditorium on my own. I see no one on my way there but the swim team at the pool. The entrance hall is completely empty. Nuffled music from the jazz ensemble escapes the auditorium. There are no lights on in the academic offices, or in the hall for that matter. The only light comes through the gray and white haze on the other side of the glass panes the separate this place from the outside world. I turn and enter the auditorium.
 

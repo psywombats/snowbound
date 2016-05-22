@@ -5,28 +5,28 @@ CAIT: "Where do you think you're going? Stop running everywhere!"
 [exit CAIT]
 I guess they're both off to the gym.
 REBECCA: "Do you know either of them?"
-LYRA: "No, not really. I don't think I've met you either."
+LARA: "No, not really. I don't think I've met you either."
 MAX: "I'm Maximilian Wolf, but my friends call me Maximilian. Or Blademaster Max. And this charming young lady - "
 REBECCA: "- can introduce herself. I'm Rebecca Bell. You should stick around. We're actually not too bad when you get to know us. And I can vouch for Cait."
 MAX: "Speaking of Cait and Pete, let's hurry to the gym before they kill each other."
 [exit REBECCA]
 ERIC: "Can't we stay here, at least to go over the basics? The track team's probably using the gym right now anyway."
-MAX: "Uh, if you want to teach Lyra the basics, you're welcome to do so, but right now over half of the new members just went flying out the door."
+MAX: "Uh, if you want to teach Lara the basics, you're welcome to do so, but right now over half of the new members just went flying out the door."
 ERIC: "Right..."
-LYRA: "We can stay here if you like."
+LARA: "We can stay here if you like."
 MAX: "Rebecca and I will be down at the gym."
 
 I'm left with just this freshman to do any sort of fencing introduction. It's hard to explain equipment when I don't actually have any to use as props. I hope Rebecca and Max are showing Cait and Sid the basics, because I don't want to have to go over this twice.
 
-[enter LYRA B]
+[enter LARA B]
 [enter ERIC D]
-LYRA: "I think I understand. Shouldn't we get to the gym?"
+LARA: "I think I understand. Shouldn't we get to the gym?"
 ERIC: "I guess there's really no helping it."
 I stop at the door to the hall.
 ERIC: "On second thought, I'll be down in a few minutes. I want to see if Sid's still stuck in jazz. If he's free, we won't have to redo the intro next week."
-LYRA: "Okay. Should I wait here?"
+LARA: "Okay. Should I wait here?"
 ERIC: "You can just go to the gym, you know. Max and Rebecca should be there."
-LYRA: "Right... Bye."
+LARA: "Right... Bye."
 
 As I walk down the main hall, I keep glancing over my shoulder at the window at the end of the hallway. There's something not quite right. In the winter, the darkness through the windows only serve to remind us of the neverending night, but this afternoon the black is tinted with gray snow. I can't tell if there's a storm outside or if the wind is just picking up what's already on the ground.
 

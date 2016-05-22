@@ -21,12 +21,12 @@ ERIC: "Maybe I'll help you out then."
 For now, I want to see who else is up and active.
 SID: "Just come down to the student lounge if you have nothing to do."
 
-The only other movement I spot is in the corner. Sophie and Lyra are sitting around the remains of the stage curtain. I'll see what they're up to before I help Sid.
+The only other movement I spot is in the corner. Sophie and Lara are sitting around the remains of the stage curtain. I'll see what they're up to before I help Sid.
 
 [enter ERIC A]
 [enter SOPHIE D]
-[enter LYRA E]
-LYRA: "Oh, it's you. Hi."
+[enter LARA E]
+LARA: "Oh, it's you. Hi."
 ERIC: "Hello. Good morning, Sophie."
 SOPHIE: "Hello, Eric. You're up early."
 ERIC: "I thought I was, but it looks like everyone else is busy already."
@@ -38,7 +38,7 @@ MARILYN: "It's all right."
 ERIC: "Have you figured out what her condition is?"
 SOPHIE: "I don't know what's afflicting her if that's what you're asking, but her condition is poor. I don't think she'll make it if we carry out that plan to all leave the school. Maybe we should stay here."
 MARILYN: "I won't have you stay behind on my account. I kept telling Felix that and I'll say the same to you. There isn't much hope for me. I shouldn't be a large part in your decision making."
-LYRA: "You did a lot for me when I was almost as sick as you. Don't say depressing stuff like that."
+LARA: "You did a lot for me when I was almost as sick as you. Don't say depressing stuff like that."
 MARILYN: "True. I'd do the same for anyone."
 ERIC: "It's so cold in here that I don't see why taking Marilyn into the snow would make any difference."
 SOPHIE: "Marilyn, can you even walk on your own? And we won't have the curtain?"

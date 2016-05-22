@@ -1,5 +1,5 @@
 [s0130]
-[increment LYRA_BAD_END]
+[increment LARA_BAD_END]
 
 ERIC: "Let's hold off."
 SID: "Really?"

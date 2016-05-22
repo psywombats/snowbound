@@ -82,7 +82,7 @@ MARILYN: "Everyone has the right to die in peace."
 HENRY: "And she'll get a lot more peace in here than she would have in the hallway or alone in a classroom somewhere."
 [exit HENRY]
 [enter SID C]
-SID: "Marisa, Lyra, Eric... This is insane already. You can't just give up."
+SID: "Marisa, Lara, Eric... This is insane already. You can't just give up."
 
 The light around me flickers on and fades. I don't think anyone talks for the rest of the day, but their mouths move in soundless language. Time alternates between a slow hot drag and a dark rush. When the light disappears, the voices return.
 

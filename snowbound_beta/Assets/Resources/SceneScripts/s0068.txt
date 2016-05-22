@@ -63,15 +63,15 @@ I watch as the two students on the ground and the one at the door coordinate to 
 SID: "Eric, is that you down there?"
 ERIC: "Yep. I'm all right."
 SID: "Good."
-[enter LYRA A]
+[enter LARA A]
 [enter SOPHIE E]
 SOPHIE: "Is Rebecca there?"
-LYRA: "What happened?"
+LARA: "What happened?"
 ERIC: "She's here. The catwalk platform fell down, but I guess we're working it out."
 CAIT: "Hey, you hold this."
 SOPHIE: "What?"
 She passes her a stage weight.
-CAIT: "And you, Lyra or whatever your name was, hold the door open, would you?"
+CAIT: "And you, Lara or whatever your name was, hold the door open, would you?"
 ERIC: "Sid, can you climb down?"
 SID: "I could try. Do you mind spotting me?"
 [exit SID]

@@ -25,6 +25,6 @@ CAIT: "I'm only listening to you because you're feeding me."
 HENRY: "I'll go back up to the second floor then. Good luck, Eric."
 [hold]
 
-[branch LYRA_LEFT > 0]
+[branch LARA_LEFT > 0]
 [true :: s0165]
 [false :: s0164]

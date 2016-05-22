@@ -114,16 +114,16 @@ SOPHIE: "Monster! I did so much for you, and now look what you've done! Do you e
 Pete isn't looking at her. What's he staring at? Then I realize he's staring at me. I've wasted too much time already. I slip through the fire door and into the hall, almost tripping over the discarded battering ram. Who knows if Pete will escape Sophie's wrath, but for me, every minute is a liability. There are no friends left for me in here. In my haste I don't even see the girl in front of me until I'm right on top of her.
 
 [enter ERIC B]
-[enter LYRA D]
-LYRA: "Ouch!"
+[enter LARA D]
+LARA: "Ouch!"
 She coughs once or twice.
-ERIC: "Sorry, I need to run. Feel better, Lyra."
-LYRA: "Eric? Eric Larsen, that is you. I thought you worked for Felix. What are you doing here?"
+ERIC: "Sorry, I need to run. Feel better, Lara."
+LARA: "Eric? Eric Larsen, that is you. I thought you worked for Felix. What are you doing here?"
 ERIC: "I..."
 
 Where do I even begin to explain this? How do I tell this little sick girl that I've left everyone who trusted me either dead or betrayed, and that I'm now prepared to fly away like a thief in the night? I should probably just ignore her, but there's one last remnant of that voice inside my head that tells me otherwise.
 [hold]
 
 [choice]
-[Take Lyra :: s0182]
+[Take Lara :: s0182]
 [Leave her :: s0183]

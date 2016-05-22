@@ -36,7 +36,7 @@ ERIC: "It's as if she's haunting us. If she had had the spine to keep living, th
 REBECCA: "I'm more concerned about Felix. Does anyone know what he's planning?"
 ERIC: "Henry hinted at something ominous, but I have no idea."
 REBECCA: "Maybe we should concentrate on who shut us in here."
-ERIC: "Sid, Lyra, or Cait, you mean? That's not a tough choice between the three."
+ERIC: "Sid, Lara, or Cait, you mean? That's not a tough choice between the three."
 REBECCA: "But why?"
 ERIC: "It's always 'why' with you, isn't it... Maybe Cait's just ruthless."
 REBECCA: "No, I don't think that's her. She wasn't trying to kill Pete back on the second day, I know that much."

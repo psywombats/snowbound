@@ -42,9 +42,9 @@ REBECCA: "Eric? You're safe?"
 [enter SID A]
 SID: "Everyone on the fencing team that wasn't in the gym. We're all here."
 [exit SID]
-[enter LYRA A]
-LYRA: "Hello, Rebecca. Fancy meeting you here."
-[exit LYRA]
+[enter LARA A]
+LARA: "Hello, Rebecca. Fancy meeting you here."
+[exit LARA]
 [enter SID A]
 Cait rolls off of me. I stand and dust myself off.
 REBECCA: "Okay, there is a lot we need to go over."
@@ -69,9 +69,9 @@ CAIT: "Oh."
 That response was unexpected. The Caitlyn I know would yell at me for doing something as dumb as getting caught.
 ERIC: "This is starting to look even worse for us. Even if we do find our way into the gym somehow, everyone will think we're murderers."
 [exit SID]
-[enter LYRA A]
-LYRA: "Maybe that's why Marisa killed herself. She wanted to set you guys up."
-[exit LYRA]
+[enter LARA A]
+LARA: "Maybe that's why Marisa killed herself. She wanted to set you guys up."
+[exit LARA]
 [enter SID A]
 ERIC: "Can we please stop talking about Marisa? She's someone I want to forget right now."
 REBECCA: "I agree."
@@ -86,13 +86,13 @@ She moves off through the maze of cushioned chairs, tables, and couches. I suppo
 
 [enter CAIT B]
 CAIT: "It's from the physics lab."
-She walks over to between me and Eric, Sid, and Lyra at the opposite door. Cait is holding a candleholder, a matchbox, and four or five backup candles.
+She walks over to between me and Eric, Sid, and Lara at the opposite door. Cait is holding a candleholder, a matchbox, and four or five backup candles.
 CAIT: "Arya didn't take everything useful. I guess she's the electronics type, so she didn't even care about this stuff."
 By the light of the candle, we all manage to seat ourselves in two couches at either end of one of the low study tables.
 [enter ERIC D]
 [enter REBECCA C]
 [enter SID E]
-[enter LYRA A]
+[enter LARA A]
 ERIC: "At least that's something positive. We have a lasting light source, if not a very safe one."
 CAIT: "I only have five matches left though. I'm not sure if it's better to leave a candle burning or only light it when we need it."
 SID: "If you have four candles, we should be fine just letting the first three burn and then use the spare matches on the last one. If we're going to be basement dwellers, we'll need light."
@@ -104,21 +104,21 @@ SID: "No one's been to the chemistry hallway on the second floor, right?"
 ERIC: "We'd have to break through a fire door to get there, and I'm not sure it's worth the effort."
 SID: "There are definitely a few chemistry professors that kept water and a maybe snacks in their offices, but we'd have to break through a fire door to get there."
 REBECCA: "That's not true. You're one door, a barricade, two guards, and a rabid Shibin away from the gym. We're exiles. Cait stabbed Pete, I tried to help her, and they think the rest of you collectively lynched Marisa."
-LYRA: "What about me?"
-Lyra sneezes into her hand and the candle in Cait's hand flickers.
+LARA: "What about me?"
+Lara sneezes into her hand and the candle in Cait's hand flickers.
 REBECCA: "Weren't you in the auditorium?"
-LYRA: "No, I ended up in the bio hallway."
+LARA: "No, I ended up in the bio hallway."
 REBECCA: "I don't think it matters where you actually were. You were still out of the gym when Marisa died."
 CAIT: "Look at her! She's a pathetic freshman with a fever! She froze half to death in some abandoned classroom for days and she's had maybe two granola bars and a bottle of water in the past five days!"
-LYRA: "I'm pretty sure I wouldn't be able to do that."
+LARA: "I'm pretty sure I wouldn't be able to do that."
 ERIC: "Do you really think they'd turn her away?"
-REBECCA: "Shibin might, but I think Kenneth could overrule him. Kenneth isn't a bad person at all, he's just overwhelmed sometimes. I don't think there's any way he could kick out Lyra after meeting her though."
+REBECCA: "Shibin might, but I think Kenneth could overrule him. Kenneth isn't a bad person at all, he's just overwhelmed sometimes. I don't think there's any way he could kick out Lara after meeting her though."
 The issue would be getting her there. I know Shibin will never listen to me again, and he's terrified of Eric.
-SID: "Do we really want to use Lyra as a tool to gain entry though?"
+SID: "Do we really want to use Lara as a tool to gain entry though?"
 CAIT: "I'm not talking about that at all! I mean that even if Shibin throws us out, she can stay. There's still a reason we should be finding a way into the gym."
-LYRA: "Don't do it just for me."
+LARA: "Don't do it just for me."
 ERIC: "No, Cait's right. Even if only one of us from this group can make it out, we'll do everything we can to ensure that that happens, okay?"
-LYRA: "Thanks. I know what it's taken you all to get this far."
+LARA: "Thanks. I know what it's taken you all to get this far."
 SID: "We're still stuck in a rut here. Felix won't take us and Kenneth won't take us. What do we do now?"
 ERIC: "There's only one thing we can do. We need to search this place. We need everything we can get. From there, we'll try to break through either the first or second floor fire doors. The second floor brings us at a bit of food at least, and if we manage to convince Kenneth, we're safe in the gym."
 

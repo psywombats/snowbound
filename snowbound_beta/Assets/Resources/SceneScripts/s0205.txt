@@ -61,9 +61,9 @@ ERIC: "No idea. Do you know her?"
 MAX: "Where's Rebecca when you need her... She knows every lunatic in this school."
 I'm saved from talking to Max by the return of Cait.
 [enter CAIT A]
-[enter LYRA B]
+[enter LARA B]
 CAIT: "Here. I've recruited another member. Tell them your name."
-LYRA: "Lyra Cygnus. Can I ask what team this is?"
+LARA: "Lara Cygnus. Can I ask what team this is?"
 MAX: "The bicep-building, cow-tipping, virility-enhancing -"
 CAIT: "Shut up. This is the fencing team, and it's not polite to mislead people."
 [enter PETE D]
@@ -72,11 +72,11 @@ CAIT: "And who are you?"
 PETE: "I'm Pete Sai. I'm joining the free-credit-guaranteed fencing team."
 ERIC: "Good, that's one more than we need to register as a team. I doubt anyone else is going to show up, so how about we start the meeting?"
 CAIT: "Not before this kid apologizes."
-PETE: "You should apologize to Lyra then. You forced her to join for nothing."
-LYRA: "I'm fine. Fencing sounds interesting actually."
+PETE: "You should apologize to Lara then. You forced her to join for nothing."
+LARA: "I'm fine. Fencing sounds interesting actually."
 MAX: "Don't feel like you have to stay."
 CAIT: "If she leaves then we have to disband."
-LYRA: "I told you I'm not leaving."
+LARA: "I told you I'm not leaving."
 ERIC: "Look, can we just start this meeting already? We've got two tournaments this year instead of only one last year, and - "
 I stop when Max starts glaring at me.
 PETE: "Hey, we should go down to the gym and check out the snow."
@@ -88,8 +88,8 @@ Here we are: my first choice as the incompetent captain of the incompetent fenci
 [exit PETE]
 CAIT: "Where do you think you're going!?"
 [exit CAIT]
-LYRA: "I should probably follow!"
-[exit LYRA]
+LARA: "I should probably follow!"
+[exit LARA]
 MAX: "Congratulations, you just let all the new members escape. Should I find the nets?"
 ERIC: "I'm horrible at this. How did we even end up with enough people?"
 MAX: "Would you quit sulking around and act like the captain of this team?"

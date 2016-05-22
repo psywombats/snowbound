@@ -88,7 +88,7 @@ MAX: "See, you'd never say that to Sophie."
 REBECCA: "Sophie is much more than polite than you."
 MAX: "My gentlemanly honor is insulted. But more to the point, I'm sick of doing nothing."
 REBECCA: "So I heard."
-MAX: "Let's investigate the main hall and see if we can't get in touch with Eric, Lyra, and Sid."
+MAX: "Let's investigate the main hall and see if we can't get in touch with Eric, Lara, and Sid."
 
 [choice]
 [Explore the main hall :: s0101]

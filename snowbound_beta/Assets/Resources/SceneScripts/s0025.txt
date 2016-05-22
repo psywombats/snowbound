@@ -1,15 +1,15 @@
 [s0025]
 
 ERIC: "Do it if you want. I still don't think Felix is going to ambush us or something."
-LYRA: "How well do you really know him?"
+LARA: "How well do you really know him?"
 ERIC: "Not well. I don't know anyone well."
 REBECCA: "And why do I only end up knowing the irrelevant people..."
 CAIT: "For christ's sake, I'm going to shut the door. Bye."
 [exit CAIT]
 REBECCA: "Remind me again how you met up with her?"
-LYRA: "She pulled a knife on me and said she'd cut me if we didn't give her food."
+LARA: "She pulled a knife on me and said she'd cut me if we didn't give her food."
 REBECCA: "Somehow I'm not surprised."
-LYRA: "I didn't mind, really."
+LARA: "I didn't mind, really."
 REBECCA: "Maybe there is something wrong with you... Anyway, what do we do til Max shows up?"
 ERIC: "Well, we can figure out what we're actually going to say to him. Are you going to meet him alone or with us?"
 REBECCA: "No, I'll meet him alone. I don't want to scare him off."

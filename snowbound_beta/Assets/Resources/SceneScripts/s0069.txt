@@ -7,11 +7,11 @@ Tuesday, November 22nd: Day 12
 [enter MARILYN C]
 [enter SOPHIE D]
 FELIX: "Will she be alright? What will it take?"
-SOPHIE: "I can't tell. Her fever's even higher than Lyra's was."
+SOPHIE: "I can't tell. Her fever's even higher than Lara's was."
 MARILYN: "Please... find someone else to worry about."
 FELIX: "I wouldn't dream of it."
 
-I sit next to Sophie in the gym. She and Lyra are caring for Marilyn, who sits before us, wrapped in a curtain. Today began with her arrival, and none of us have any idea where we'll all stand when the day ends. I leave Sophie to console Felix and resume my hunt for a certain fickle character...
+I sit next to Sophie in the gym. She and Lara are caring for Marilyn, who sits before us, wrapped in a curtain. Today began with her arrival, and none of us have any idea where we'll all stand when the day ends. I leave Sophie to console Felix and resume my hunt for a certain fickle character...
 
 [enter REBECCA B]
 [enter MAX D]
@@ -39,10 +39,10 @@ REBECCA: "Probably. I'd like to have a say in what's going to happen to all of u
 SOPHIE: "I figured. Though it looks like you've influenced the present course of action a fair amount already. I admire that."
 REBECCA: "It could've just as easily been you, you know."
 SOPHIE: "Maybe. I'll stick to where I'm comfortable though."
-[enter LYRA A]
-LYRA: "She made a difference."
-REBECCA: "Lyra? Where'd you come from?"
-LYRA: "I'm always around."
+[enter LARA A]
+LARA: "She made a difference."
+REBECCA: "Lara? Where'd you come from?"
+LARA: "I'm always around."
 SOPHIE: "As long as I helped someone, I'm happy."
 REBECCA: "Hm... Maybe you're right. I can see your perspective, but..."
 

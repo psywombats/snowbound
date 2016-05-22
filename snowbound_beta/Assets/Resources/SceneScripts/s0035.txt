@@ -32,7 +32,7 @@ ERIC: "Maybe I'll stop in when I'm done fixing things up for archery. I'll hear 
 SID: "Oh? Sure. You intend to still hold archery practice?"
 ERIC: "No, but I recruited someone to help me string bows. I don't see her today and I'd hate for her to show up with no one there."
 SID: "Ah. Understandable." 
-ERIC: "Oh, so does that mean that D-year girl, Lyra, who was at the meeting yesterday is also in the ensemble?"
+ERIC: "Oh, so does that mean that D-year girl, Lara, who was at the meeting yesterday is also in the ensemble?"
 SID: "Probably. We're starting the recruitment process with auditions on Monday, so prospective members have been dropping in and out all this week. Some of them rehearse with us."
 ERIC: "I'll be sure to drop by then. Oh, but it's 7:30 already. See you later."
 SID: "Likewise."

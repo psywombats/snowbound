@@ -3,28 +3,28 @@
 
 [switchto REBECCA]
 
-Lyra trails a few feet behind me when we leave Eric at the foot of the stairs. He's brought over one of the chairs from the student lounge, so it seems that he intends to keep vigil in the basement hall. It's a small gesture, so I don't know why I'm trying to read into it.
+Lara trails a few feet behind me when we leave Eric at the foot of the stairs. He's brought over one of the chairs from the student lounge, so it seems that he intends to keep vigil in the basement hall. It's a small gesture, so I don't know why I'm trying to read into it.
 
-We reach the landing on the ground floor. Directly ahead of Lyra and me is the immovable frame of the fire door. It's only this monster that separates us from the safety of the gym. Next to me, Lyra sneezes.
+We reach the landing on the ground floor. Directly ahead of Lara and me is the immovable frame of the fire door. It's only this monster that separates us from the safety of the gym. Next to me, Lara sneezes.
 
 [enter REBECCA D]
-[enter LYRA E]
+[enter LARA E]
 REBECCA: "Are you alright?"
-LYRA: "I'm fine. Do you think Max is coming?"
+LARA: "I'm fine. Do you think Max is coming?"
 REBECCA: "Max keeps his word."
-LYRA: "Okay. I just worry about him."
+LARA: "Okay. I just worry about him."
 REBECCA: "You worry about a lot of things, don't you?"
-LYRA: "Maybe. That's sort of my job."
+LARA: "Maybe. That's sort of my job."
 REBECCA: "Haha, your job?"
-LYRA: "Someone's got to cover the edges. Everyone else here seems so much brighter than me... So much faster, smarter."
+LARA: "Someone's got to cover the edges. Everyone else here seems so much brighter than me... So much faster, smarter."
 REBECCA: "I was the same way."
-LYRA: "You're one of them. How do you people keep coming out on top? Aren't you worried about all this?"
+LARA: "You're one of them. How do you people keep coming out on top? Aren't you worried about all this?"
 REBECCA: "I thought I was more worried than anyone else. And I thought you were a little passive about this whole thing."
 It's true, until now I haven't heard her voice any concerns about her fate.
-LYRA: "It's you guys that I'm thinking about though. Someone needs to look out for you."
+LARA: "It's you guys that I'm thinking about though. Someone needs to look out for you."
 REBECCA: "Well, I appreciate it, and I'm sure Max does as well. But he's wily, I think he can pull through. He's capable of a lot of things."
 But when I reflect a bit, I have no idea whether that's true or not. Max simply avoids crises to the best of his ability. Maybe that's his true skill.
-LYRA: "Is it midnight?"
+LARA: "Is it midnight?"
 REBECCA: "Your guess is as good as mine.
 We're interrupted by the scraping of the door as it swings towards us. There's a moment of panic when I can't see any face, but... Yes! It's Max!
 [enter MAX A]
@@ -32,23 +32,23 @@ MAX: "Rebecca! I'm so glad you got my message."
 REBECCA: "Well look at that. Food?"
 He tosses a backpack towards us.
 MAX: "I'm wonderful, aren't I? Hey, who's that with you?"
-LYRA: "Lyra here."
-MAX: "I don't think I know any Lyras. Who are you and how did you end up in here? Where's Caitlyn?"
-REBECCA: "Eric, Sid, Lyra, Cait and I are all in the student lounge. The rest of them are exiles from Felix's side of the school. We're trying to - "
+LARA: "Lara here."
+MAX: "I don't think I know any Laras. Who are you and how did you end up in here? Where's Caitlyn?"
+REBECCA: "Eric, Sid, Lara, Cait and I are all in the student lounge. The rest of them are exiles from Felix's side of the school. We're trying to - "
 MAX: "I don't have much time Rebecca. The door guard's probably right behind me. I can give you the supplies I nicked, but let's talk again tomorrow night, same time."
-REBECCA: "One thing: Lyra's sick, terrible fever. Can you get her to the gym?"
+REBECCA: "One thing: Lara's sick, terrible fever. Can you get her to the gym?"
 MAX: "What?"
 STUDENT1: "Hey Max, who are you talking to out there?"
-REBECCA: "Lyra, hurry!"
-LYRA: "Thanks for everything."
+REBECCA: "Lara, hurry!"
+LARA: "Thanks for everything."
 [exit MAX]
-[exit LYRA]
+[exit LARA]
 She slips through the crack in the door as Max turns to face the guard. I catch the drift of their conversation through the door.
 MAX: "Oh, I uh, there was another student trapped in the basements. She popped out of the south stairs, just like Arya. Isn't that weird?"
 STUDENT1: "Are you sure?"
-LYRA: "Hello."
+LARA: "Hello."
 MAX: "What are you standing there for? She's got a fever, come on and let's get her to Sophie."
 
-Old Max comes through again. Finally I have some good news to pass to Eric. Even if we accomplish nothing else down here, that's one good thing that wouldn't have happened if I hadn't been exiled: Lyra is safe.
+Old Max comes through again. Finally I have some good news to pass to Eric. Even if we accomplish nothing else down here, that's one good thing that wouldn't have happened if I hadn't been exiled: Lara is safe.
 
 [goto s0156]

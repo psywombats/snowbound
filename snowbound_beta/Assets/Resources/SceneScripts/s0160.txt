@@ -13,6 +13,6 @@ REBECCA: "Relaxing isn't good enough?"
 CAIT: "Some of us can't ignore the obvious, Rebecca."
 SID: "And some are better at it than others. What's everyone taking for classes next semester?"
 
-I have to hand it to Sid. Rebecca and Caitlyn start up some animated discussion, and even Lyra pipes up once in a while. I notice Sid is content to sit back and let us talk about nothing. Maybe he, like me, can't keep out the pessimistic voices in his head. For my part, I'll try to keep my head up.
+I have to hand it to Sid. Rebecca and Caitlyn start up some animated discussion, and even Lara pipes up once in a while. I notice Sid is content to sit back and let us talk about nothing. Maybe he, like me, can't keep out the pessimistic voices in his head. For my part, I'll try to keep my head up.
 
 [goto s0058]
