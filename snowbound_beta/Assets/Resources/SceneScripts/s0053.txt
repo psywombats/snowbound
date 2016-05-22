@@ -197,7 +197,7 @@ ERIC: "If you want to call it that. I'll see you later."
 Lyra and I say nothing to each other but we walk out into the English hall where Sid is standing. I know Felix must be watching my back, but I hear Marilyn talking to him. He won't be able to stop us. His intentions are good, but who is he to decide for the rest of those students?
 
 [enter SID B]
-[enter ERIC D
+[enter ERIC D]
 [enter LYRA E]
 SID: "Are you ready to go?"
 ERIC: "I'm prepared if Lyra's ready. I have a pair of those scissors we picked up last night."

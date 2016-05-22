@@ -27,13 +27,13 @@ public class TextboxComponent : MonoBehaviour {
     public IEnumerator ShowText(ScenePlayer player, string text) {
         fullText = text;
         for (int i = 0; i <= fullText.Length; i += 1) {
+            if (player.IsSuspended()) {
+                yield return null;
+            }
             if (player.WasHurried()) {
                 player.AcknowledgeHurried();
                 textbox.text = fullText;
                 break;
-            }
-            if (player.IsSuspended()) {
-                yield return null;
             }
             if (Global.Instance().input.IsFastKeyDown()) {
                 break;

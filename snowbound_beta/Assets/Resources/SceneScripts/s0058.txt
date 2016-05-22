@@ -60,7 +60,7 @@ REBECCA: "Bye Max, thanks for everything."
 And with that, the door to freedom closes once again. I'm left with Max's backpack and whatever it might contain. It's no use checking it up here in the dark, so I throw it over my back and find my way back to the student lounge. The candlelight is visible from a crack in the door. When I step inside, Lyra is awake and Eric is talking with her. Cait is just as unconscious as when I left.
 
 [enter REBECCA A]
-[enter LYRA D
+[enter LYRA D]
 [enter ERIC E]
 LYRA: "Hello, Rebecca. Where'd the backpack come from?"
 REBECCA: "I just got back from the meeting with Max. He didn't have much time, but I think he's on our side. He knows we didn't kill off Marisa, anyway."

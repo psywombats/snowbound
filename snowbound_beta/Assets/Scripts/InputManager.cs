@@ -53,6 +53,18 @@ public class InputManager : MonoBehaviour {
         listenersToRemove.Add(listener);
     }
 
+    public IEnumerator AwaitInput() {
+        bool advance = false;
+        while (advance == false) {
+            foreach (KeyCode code in advanceKeys) {
+                if (Input.GetKeyDown(code)) {
+                    advance = true;
+                }
+            }
+            yield return null;
+        }
+    }
+
     public bool IsFastKeyDown() {
         foreach (KeyCode code in fastKeys) {
             if (Input.GetKey(code)) {
