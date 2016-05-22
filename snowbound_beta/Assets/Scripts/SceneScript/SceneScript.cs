@@ -165,6 +165,8 @@ public class SceneScript {
                 return null;
             case "end":
                 return new EndCommand(args[0]);
+            case "switchto":
+                return new SwitchToCommand(args[0]);
             default:
                 if (choice != null) {
                     string choiceString = command + " " + String.Join(" ", args.ToArray());
