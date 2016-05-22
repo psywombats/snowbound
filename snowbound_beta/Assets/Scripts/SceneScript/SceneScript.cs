@@ -21,13 +21,13 @@ public class SceneScript {
     private string sceneName;
     private int commandIndex;
 
-    public SceneScript(TextAsset asset) {
+    public SceneScript(ScenePlayer player, TextAsset asset) {
         sceneName = asset.name;
-        ParseCommands(asset.text);
+        ParseCommands(player, asset.text);
         commandIndex = 0;
     }
 
-    public SceneScript(ScreenMemory memory) : this(AssetForSceneName(memory.sceneName)) {
+    public SceneScript(ScreenMemory memory) : this(null, AssetForSceneName(memory.sceneName)) {
         commandIndex = memory.commandNumber;
     }
 
@@ -35,10 +35,14 @@ public class SceneScript {
         return Resources.Load<TextAsset>(ScenesDirectory + "/" + sceneName);
     }
 
-    public IEnumerator PerformActions(ScenePlayer parser) {
+    public IEnumerator PerformActions(ScenePlayer player) {
         for (; commandIndex < commands.Count; commandIndex += 1) {
             SceneCommand command = commands[commandIndex];
-            yield return parser.StartCoroutine(command.PerformAction(parser));
+            if (player.debugBox != null) {
+                player.debugBox.text = "scene: " + sceneName + "\n";
+                player.debugBox.text += "command index: " + commandIndex;
+            }
+            yield return player.StartCoroutine(command.PerformAction(player));
         }
     }
 
@@ -47,13 +51,18 @@ public class SceneScript {
         memory.sceneName = sceneName;
     }
     
-    private void ParseCommands(string text) {
+    private void ParseCommands(ScenePlayer player, string text) {
         choice = null;
         commands = new List<SceneCommand>();
         string[] commandStrings = text.Split(new [] { "\r\n", "\n" }, StringSplitOptions.None);
         bool startsNewParagraph = true;
         foreach (string commandString in commandStrings) {
             SceneCommand command;
+
+            if (player!= null && player.debugBox != null) {
+                player.debugBox.text = "parsing scene: " + sceneName + "\n";
+                player.debugBox.text += "command string: " + commandString;
+            }
 
             if (commandString.Trim().Length == 0) {
                 // newline, this is a command to clear the stage of characters presuming no HOLDs

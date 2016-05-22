@@ -10,6 +10,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public TextboxComponent paragraphBox;
     public PortraitGroupComponent portraits;
     public CharaIndexData charas;
+    public UnityEngine.UI.Text debugBox;
     
     private SceneScript currentScript;
     private IEnumerator playingRoutine;
@@ -61,7 +62,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     }
 
     public IEnumerator PlayScriptForScene(TextAsset sceneFile) {
-        currentScript = new SceneScript(sceneFile);
+        currentScript = new SceneScript(this, sceneFile);
         yield return StartCoroutine(PlayCurrentScript());
     }
 
