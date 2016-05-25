@@ -1,17 +1,20 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System;
+using System.Collections;
 
 public class PauseMenuComponent : MonoBehaviour, InputListener {
 
     public const float FadeoutSeconds = 0.2f;
     private const string PrefabName = "Prefabs/PauseMenu";
+    private const string TitleSceneName = "TitleScene";
 
     public Button saveButton;
     public Button loadButton;
     public Button resumeButton;
     public Button closeButton;
+    public Button titleButton;
 
     private ScenePlayer player;
 
@@ -31,17 +34,17 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
         saveButton.onClick.AddListener(() => {
             StartCoroutine(SaveRoutine());
         });
-
         loadButton.onClick.AddListener(() => {
             StartCoroutine(LoadRoutine());
         });
-
         resumeButton.onClick.AddListener(() => {
             StartCoroutine(ResumeRoutine());
         });
-
         closeButton.onClick.AddListener(() => {
             Application.Quit();
+        });
+        titleButton.onClick.AddListener(() => {
+            StartCoroutine(TitleRoutine());
         });
     }
 
@@ -93,5 +96,11 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
         GameObject saveMenuObject = SaveMenuComponent.Spawn(gameObject.transform.parent.gameObject, this, SaveMenuComponent.SaveMenuMode.Load);
         saveMenuObject.GetComponent<SaveMenuComponent>().Alpha = 0.0f;
         yield return StartCoroutine(saveMenuObject.GetComponent<SaveMenuComponent>().FadeIn());
+    }
+
+    private IEnumerator TitleRoutine() {
+        FadeComponent fader = FindObjectOfType<FadeComponent>();
+        yield return fader.FadeToBlackRoutine();
+        SceneManager.LoadScene(TitleSceneName);
     }
 }

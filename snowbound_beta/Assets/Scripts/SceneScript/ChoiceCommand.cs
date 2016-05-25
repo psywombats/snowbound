@@ -15,13 +15,15 @@ public class ChoiceCommand : SceneCommand {
 
     private List<ChoiceOption> options;
     private List<GameObject> choiceObjects;
-    private bool choiceSelected;
 
     public ChoiceCommand() {
         options = new List<ChoiceOption>();
     }
 
     public IEnumerator PerformAction(ScenePlayer player) {
+
+        // set mode
+        player.AwaitingInputFromCommand = true;
 
         // fade out the paragraph box if necessary
         if (player.paragraphBox.gameObject.activeInHierarchy) {
@@ -72,7 +74,7 @@ public class ChoiceCommand : SceneCommand {
         foreach (GameObject choiceObject in choiceObjects) {
             choiceObject.GetComponent<CanvasRenderer>().SetAlpha(1.0f);
         }
-        while (!choiceSelected) {
+        while (player.AwaitingInputFromCommand) {
             yield return null;
         }
     }
@@ -85,7 +87,7 @@ public class ChoiceCommand : SceneCommand {
         choiceObject.GetComponent<ChoiceButtonComponent>().text.text = option.caption;
         choiceObject.GetComponent<Button>().onClick.AddListener(() => {
             player.StartCoroutine(OnChoiceClickRoutine(player, option));
-            choiceSelected = true;
+            player.AwaitingInputFromCommand = false;
         });
     }
 

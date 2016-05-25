@@ -20,6 +20,8 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     private bool suspended;
     private bool wasHurried;
 
+    public bool AwaitingInputFromCommand { get; set; }
+
     public static void LoadScreen() {
         SceneManager.LoadScene(DialogSceneName);
     }
@@ -95,6 +97,9 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public ScreenMemory ToMemory() {
         ScreenMemory memory = new ScreenMemory();
         currentScript.PopulateMemory(memory);
+        if (AwaitingInputFromCommand) {
+            memory.commandNumber -= 1;
+        }
         portraits.PopulateMemory(memory);
         return memory;
     }

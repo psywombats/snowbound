@@ -35,11 +35,13 @@ public class FadeComponent : MonoBehaviour {
     }
     
     public IEnumerator FadeToBlackRoutine() {
+        gameObject.transform.SetAsLastSibling();
         image.CrossFadeAlpha(1.0f, fadeTime, false);
         yield return new WaitForSeconds(fadeTime);
     }
 
     public IEnumerator RemoveTintRoutine() {
+        gameObject.transform.SetAsLastSibling();
         image.CrossFadeAlpha(0.0f, fadeTime, false);
         yield return new WaitForSeconds(fadeTime);
     }
