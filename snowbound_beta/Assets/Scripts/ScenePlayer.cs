@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using System;
 
 public class ScenePlayer : MonoBehaviour, InputListener {
+
+    private const string DialogSceneName = "DialogScene";
 
     public TextAsset firstSceneFile;
     public Canvas canvas;
@@ -17,6 +20,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     private bool suspended;
     private bool wasHurried;
 
+    public static void LoadScreen() {
+        SceneManager.LoadScene(DialogSceneName);
+    }
+
     public void Start() {
         textbox.gameObject.SetActive(false);
         paragraphBox.gameObject.SetActive(false);
@@ -24,8 +31,15 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         Global.Instance().activeScenePlayer = this;
         Global.Instance().input.PushListener(this);
 
-        StartCoroutine(PlayScriptForScene(firstSceneFile));
         portraits.HideAll();
+
+        if (Global.Instance().memory.ActiveMemory != null) {
+            Global.Instance().memory.PopulateFromMemory(Global.Instance().memory.ActiveMemory);
+            Global.Instance().memory.ActiveMemory = null;
+            ResumeLoadedScene();
+        } else {
+            PlayFirstScene();
+        }
     }
 
     public void OnEscape() {
@@ -47,6 +61,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
 
     public void AcknowledgeHurried() {
         wasHurried = false;
+    }
+
+    public void PlayFirstScene() {
+        StartCoroutine(PlayScriptForScene(firstSceneFile));
     }
 
     public IEnumerator AwaitHurry() {
@@ -82,7 +100,9 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     }
 
     public void PopulateFromMemory(ScreenMemory memory) {
-        StopCoroutine(playingRoutine);
+        if (playingRoutine != null) {
+            StopCoroutine(playingRoutine);
+        }
         currentScript = new SceneScript(memory);
         portraits.PopulateFromMemory(memory);
     }

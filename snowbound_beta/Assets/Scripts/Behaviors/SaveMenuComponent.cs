@@ -14,7 +14,6 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
         Save, Load
     };
 
-
     public SaveButtonComponent[] slots;
 
     private PauseMenuComponent pauseMenu;
@@ -25,11 +24,12 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
         set { gameObject.GetComponent<CanvasGroup>().alpha = value; }
     }
 
-    public static GameObject Spawn(PauseMenuComponent pauseMenu, SaveMenuMode mode) {
+    // spawns the menu in the center of the current scene with the given mode
+    // pause menu is the predecessor, or null for headless load (title?)
+    public static GameObject Spawn(GameObject parent, PauseMenuComponent pauseMenu, SaveMenuMode mode) {
         GameObject menuObject = UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>(PrefabName));
         menuObject.GetComponent<SaveMenuComponent>().pauseMenu = pauseMenu;
         menuObject.GetComponent<SaveMenuComponent>().mode = mode;
-        GameObject parent = pauseMenu.gameObject.transform.parent.gameObject;
         Utils.AttachAndCenter(parent, menuObject);
         return menuObject;
     }
@@ -50,8 +50,7 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
     public void SaveOrLoadFromSlot(int slot) {
         if (mode == SaveMenuMode.Load) {
             Memory memory = ReadJsonFromFile<Memory>(FilePathForSlot(slot));
-            Global.Instance().memory.PopulateFromMemory(memory);
-            StartCoroutine(LoadRoutine());
+            StartCoroutine(LoadRoutine(memory));
         } else {
             Memory memory = Global.Instance().memory.ToMemory();
             WriteJsonToFile(memory, FilePathForSlot(slot));
@@ -79,7 +78,9 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
 
     public IEnumerator ResumeRoutine() {
         yield return StartCoroutine(FadeOut());
-        yield return pauseMenu.FadeIn();
+        if (pauseMenu != null) {
+            yield return pauseMenu.FadeIn();
+        }
         Global.Instance().input.RemoveListener(this);
         Destroy(gameObject);
     }
@@ -121,11 +122,22 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
         return result;
     }
 
-    private IEnumerator LoadRoutine() {
+    private IEnumerator LoadRoutine(Memory memory) {
         yield return StartCoroutine(FadeOut());
         Global.Instance().input.RemoveListener(this);
-        Global.Instance().input.RemoveListener(pauseMenu);
-        Global.Instance().activeScenePlayer.ResumeLoadedScene();
-        Destroy(gameObject);
+        if (pauseMenu != null) {
+            Global.Instance().input.RemoveListener(pauseMenu);
+        }
+        if (Global.Instance().activeScenePlayer == null) {
+            Global.Instance().memory.ActiveMemory = memory;
+            FadeComponent fade = FindObjectOfType<FadeComponent>();
+            yield return fade.FadeToBlackRoutine();
+            ScenePlayer.LoadScreen();
+            yield return null;
+        } else {
+            Global.Instance().memory.PopulateFromMemory(memory);
+            Global.Instance().activeScenePlayer.ResumeLoadedScene();
+            Destroy(gameObject);
+        }
     }
 }

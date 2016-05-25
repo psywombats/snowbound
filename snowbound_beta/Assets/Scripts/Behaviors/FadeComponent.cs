@@ -9,8 +9,8 @@ public class FadeComponent : MonoBehaviour {
     public float fadeTime = 0.8f;
 
     private float Alpha {
-        get { return image.GetComponent<CanvasRenderer>().GetColor().a; }
-        set { image.GetComponent<CanvasRenderer>().SetAlpha(value); }
+        get { return image.color.a; }
+        set { image.color = new Color(image.color.r, image.color.g, image.color.b, value); }
     }
 
     public void Awake() {
@@ -21,36 +21,26 @@ public class FadeComponent : MonoBehaviour {
 
     public void Start() {
         if (autoFadeIn) {
-            FadeIn();
+            RemoveTint();
             autoFadeIn = false;
         }
     }
 
-    public void FadeIn() {
-        StartCoroutine(FadeInRoutine());
+    public void FadeToBlack() {
+        StartCoroutine(FadeToBlackRoutine());
     }
 
-    public void FadeOut() {
-        StartCoroutine(FadeOutRoutine());
+    public void RemoveTint() {
+        StartCoroutine(RemoveTintRoutine());
     }
     
-    public IEnumerator FadeInRoutine() {
-        while (Alpha > 0.0f) {
-            Alpha -= Time.deltaTime / fadeTime;
-            yield return null;
-        }
-        if (Alpha < 0.0f) {
-            Alpha = 0.0f;
-        }
+    public IEnumerator FadeToBlackRoutine() {
+        image.CrossFadeAlpha(1.0f, fadeTime, false);
+        yield return new WaitForSeconds(fadeTime);
     }
 
-    public IEnumerator FadeOutRoutine() {
-        while (Alpha < 1.0f) {
-            Alpha += Time.deltaTime / fadeTime;
-            yield return null;
-        }
-        if (Alpha > 1.0f) {
-            Alpha = 1.0f;
-        }
+    public IEnumerator RemoveTintRoutine() {
+        image.CrossFadeAlpha(0.0f, fadeTime, false);
+        yield return new WaitForSeconds(fadeTime);
     }
 }

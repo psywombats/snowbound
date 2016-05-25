@@ -7,6 +7,10 @@ public class MemoryManager : MonoBehaviour {
 
     private Dictionary<string, int> variables;
 
+    // this thing will be read by the dialog scene when spawning
+    // if non-null, it'll be loaded automatically
+    public Memory ActiveMemory { get; set; }
+
     public void Awake() {
         variables = new Dictionary<string, int>();
     }
