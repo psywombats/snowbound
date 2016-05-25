@@ -87,11 +87,17 @@ public class ChoiceCommand : SceneCommand {
         choiceObject.GetComponent<ChoiceButtonComponent>().text.text = option.caption;
         choiceObject.GetComponent<Button>().onClick.AddListener(() => {
             player.StartCoroutine(OnChoiceClickRoutine(player, option));
-            player.AwaitingInputFromCommand = false;
         });
     }
 
     private IEnumerator OnChoiceClickRoutine(ScenePlayer player, ChoiceOption option) {
+
+        // state setup
+        player.AwaitingInputFromCommand = false;
+        foreach (GameObject choiceObject in choiceObjects) {
+            choiceObject.GetComponent<Button>().interactable = false;
+        }
+
         // fade out the choices
         while (choiceObjects[0].GetComponent<ChoiceButtonComponent>().Alpha > 0.0f) {
             foreach (GameObject choiceObject in choiceObjects) {

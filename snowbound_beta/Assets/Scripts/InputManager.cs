@@ -8,6 +8,7 @@ public class InputManager : MonoBehaviour {
     private List<KeyCode> pauseKeys;
     private List<KeyCode> fastKeys;
     private List<InputListener> listeners;
+    private List<InputListener> disabledListeners;
 
     private List<InputListener> listenersToPush;
     private List<InputListener> listenersToRemove;
@@ -20,6 +21,7 @@ public class InputManager : MonoBehaviour {
 
         listenersToPush = new List<InputListener>();
         listenersToRemove = new List<InputListener>();
+        disabledListeners = new List<InputListener>();
     }
 
     public void Update() {
@@ -32,6 +34,9 @@ public class InputManager : MonoBehaviour {
 
         if (listeners.Count > 0) {
             InputListener listener = listeners[listeners.Count - 1];
+            if (disabledListeners.Contains(listener)) {
+                return;
+            }
             foreach (KeyCode code in advanceKeys) {
                 if (Input.GetKeyDown(code)) {
                     listener.OnEnter();
@@ -51,6 +56,16 @@ public class InputManager : MonoBehaviour {
 
     public void RemoveListener(InputListener listener) {
         listenersToRemove.Add(listener);
+    }
+
+    public void DisableListener(InputListener listener) {
+        disabledListeners.Add(listener);
+    }
+
+    public void EnableListener(InputListener listener) {
+        if (disabledListeners.Contains(listener)) {
+            disabledListeners.Remove(listener);
+        }
     }
 
     public IEnumerator AwaitInput() {

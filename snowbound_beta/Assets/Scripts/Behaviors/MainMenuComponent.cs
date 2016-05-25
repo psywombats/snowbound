@@ -12,42 +12,40 @@ public class MainMenuComponent : MonoBehaviour {
     public Button quitButton;
 
     private FadeComponent fade;
-    private bool interactive;
 
     public void Awake() {
-        interactive = true;
         fade = FindObjectOfType<FadeComponent>();
 
         startButton.onClick.AddListener(() => {
-            if (!interactive) {
-                return;
-            }
-            interactive = false;
+            SetButtonsEnabled(false);
             StartCoroutine(StartRoutine());
         });
         loadButton.onClick.AddListener(() => {
-            if (!interactive) {
-                return;
-            }
-            interactive = false;
+            SetButtonsEnabled(false);
             StartCoroutine(LoadRoutine());
         });
         quitButton.onClick.AddListener(() => {
-            if (!interactive) {
-                return;
-            }
-            interactive = false;
+            SetButtonsEnabled(false);
             StartCoroutine(QuitRoutine());
         });
     }
 
+    private void SetButtonsEnabled(bool enabled) {
+        startButton.interactable = enabled;
+        loadButton.interactable = enabled;
+        quitButton.interactable = enabled;
+    }
+
     private IEnumerator StartRoutine() {
+
         yield return fade.FadeToBlackRoutine();
         ScenePlayer.LoadScreen();
     }
 
     private IEnumerator LoadRoutine() {
-        GameObject loadMenuObject = SaveMenuComponent.Spawn(gameObject.transform.parent.gameObject, null, SaveMenuComponent.SaveMenuMode.Load);
+        GameObject loadMenuObject = SaveMenuComponent.Spawn(gameObject.transform.parent.gameObject, SaveMenuComponent.SaveMenuMode.Load, () => {
+            SetButtonsEnabled(false);
+        });
         loadMenuObject.GetComponent<SaveMenuComponent>().Alpha = 0.0f;
         yield return StartCoroutine(loadMenuObject.GetComponent<SaveMenuComponent>().FadeIn());
     }

@@ -15,20 +15,18 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
     };
 
     public SaveButtonComponent[] slots;
-
-    private PauseMenuComponent pauseMenu;
+    
     private SaveMenuMode mode;
+    private Action onFinish;
 
     public float Alpha {
         get { return gameObject.GetComponent<CanvasGroup>().alpha; }
         set { gameObject.GetComponent<CanvasGroup>().alpha = value; }
     }
-
-    // spawns the menu in the center of the current scene with the given mode
-    // pause menu is the predecessor, or null for headless load (title?)
-    public static GameObject Spawn(GameObject parent, PauseMenuComponent pauseMenu, SaveMenuMode mode) {
+    
+    public static GameObject Spawn(GameObject parent, SaveMenuMode mode, Action onFinish) {
         GameObject menuObject = UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>(PrefabName));
-        menuObject.GetComponent<SaveMenuComponent>().pauseMenu = pauseMenu;
+        menuObject.GetComponent<SaveMenuComponent>().onFinish = onFinish;
         menuObject.GetComponent<SaveMenuComponent>().mode = mode;
         Utils.AttachAndCenter(parent, menuObject);
         return menuObject;
@@ -77,12 +75,19 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
     }
 
     public IEnumerator ResumeRoutine() {
+        SetButtonsEnabled(false);
         yield return StartCoroutine(FadeOut());
-        if (pauseMenu != null) {
-            yield return pauseMenu.FadeIn();
-        }
         Global.Instance().input.RemoveListener(this);
+        if (onFinish != null) {
+            onFinish();
+        }
         Destroy(gameObject);
+    }
+
+    private void SetButtonsEnabled(bool enabled) {
+        foreach (SaveButtonComponent button in slots) {
+            button.button.interactable = enabled;
+        }
     }
 
     private void RefreshData() {
@@ -123,21 +128,13 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
     }
 
     private IEnumerator LoadRoutine(Memory memory) {
+        SetButtonsEnabled(false);
         yield return StartCoroutine(FadeOut());
         Global.Instance().input.RemoveListener(this);
-        if (pauseMenu != null) {
-            Global.Instance().input.RemoveListener(pauseMenu);
-        }
-        if (Global.Instance().activeScenePlayer == null) {
-            Global.Instance().memory.ActiveMemory = memory;
-            FadeComponent fade = FindObjectOfType<FadeComponent>();
-            yield return fade.FadeToBlackRoutine();
-            ScenePlayer.LoadScreen();
-            yield return null;
-        } else {
-            Global.Instance().memory.PopulateFromMemory(memory);
-            Global.Instance().activeScenePlayer.ResumeLoadedScene();
-            Destroy(gameObject);
-        }
+        Global.Instance().memory.ActiveMemory = memory;
+        FadeComponent fade = FindObjectOfType<FadeComponent>();
+        yield return fade.FadeToBlackRoutine();
+        ScenePlayer.LoadScreen();
+        yield return null;
     }
 }

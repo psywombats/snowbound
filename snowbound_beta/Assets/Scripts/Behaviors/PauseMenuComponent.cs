@@ -41,7 +41,7 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
             StartCoroutine(ResumeRoutine());
         });
         closeButton.onClick.AddListener(() => {
-            Application.Quit();
+            StartCoroutine(QuitRoutine());
         });
         titleButton.onClick.AddListener(() => {
             StartCoroutine(TitleRoutine());
@@ -66,15 +66,27 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
             yield return null;
         }
         Alpha = 1.0f;
+        Global.Instance().input.EnableListener(this);
+        SetButtonsEnabled(true);
     }
 
     public IEnumerator FadeOut() {
+        Global.Instance().input.DisableListener(this);
+        SetButtonsEnabled(false);
         CanvasGroup group = gameObject.GetComponent<CanvasGroup>();
         while (Alpha > 0.0f) {
             Alpha -= Time.deltaTime / FadeoutSeconds;
             yield return null;
         }
         group.alpha = 0.0f;
+    }
+
+    private void SetButtonsEnabled(bool enabled) {
+        saveButton.interactable = enabled;
+        loadButton.interactable = enabled;
+        resumeButton.interactable = enabled;
+        closeButton.interactable = enabled;
+        titleButton.interactable = enabled;
     }
 
     private IEnumerator ResumeRoutine() {
@@ -86,21 +98,32 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
 
     private IEnumerator SaveRoutine() {
         yield return StartCoroutine(FadeOut());
-        GameObject saveMenuObject = SaveMenuComponent.Spawn(gameObject.transform.parent.gameObject, this, SaveMenuComponent.SaveMenuMode.Save);
+        GameObject saveMenuObject = SaveMenuComponent.Spawn(gameObject.transform.parent.gameObject, SaveMenuComponent.SaveMenuMode.Save, () => {
+            StartCoroutine(FadeIn());
+        });
         saveMenuObject.GetComponent<SaveMenuComponent>().Alpha = 0.0f;
         yield return StartCoroutine(saveMenuObject.GetComponent<SaveMenuComponent>().FadeIn());
     }
 
     private IEnumerator LoadRoutine() {
         yield return StartCoroutine(FadeOut());
-        GameObject saveMenuObject = SaveMenuComponent.Spawn(gameObject.transform.parent.gameObject, this, SaveMenuComponent.SaveMenuMode.Load);
+        GameObject saveMenuObject = SaveMenuComponent.Spawn(gameObject.transform.parent.gameObject, SaveMenuComponent.SaveMenuMode.Load, () => {
+            StartCoroutine(FadeIn());
+        });
         saveMenuObject.GetComponent<SaveMenuComponent>().Alpha = 0.0f;
         yield return StartCoroutine(saveMenuObject.GetComponent<SaveMenuComponent>().FadeIn());
     }
 
     private IEnumerator TitleRoutine() {
+        Global.Instance().input.RemoveListener(this);
         FadeComponent fader = FindObjectOfType<FadeComponent>();
         yield return fader.FadeToBlackRoutine();
         SceneManager.LoadScene(TitleSceneName);
+    }
+
+    private IEnumerator QuitRoutine() {
+        FadeComponent fader = FindObjectOfType<FadeComponent>();
+        yield return fader.FadeToBlackRoutine();
+        Application.Quit();
     }
 }
