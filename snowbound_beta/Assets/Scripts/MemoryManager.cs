@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System;
+using System.IO;
 
 public class MemoryManager : MonoBehaviour {
 
@@ -17,7 +18,8 @@ public class MemoryManager : MonoBehaviour {
 
     public Memory ToMemory() {
         Memory memory = new Memory();
-        
+        memory.screen = Global.Instance().activeScenePlayer.ToMemory();
+
         foreach (string key in variables.Keys) {
             memory.variableKeys.Add(key);
         }
@@ -25,8 +27,8 @@ public class MemoryManager : MonoBehaviour {
             memory.variableValues.Add(value);
         }
 
-        memory.screen = Global.Instance().activeScenePlayer.ToMemory();
-
+        AttachScreenshotToMemory(memory);
+               
         return memory;
     }
 
@@ -52,5 +54,37 @@ public class MemoryManager : MonoBehaviour {
 
     public void DecrementVariable(string variableName) {
         variables[variableName] = GetVariable(variableName) - 1;
+    }
+
+    public Sprite SpriteFromBase64(string encodedString) {
+        byte[] pngBytes = Convert.FromBase64String(encodedString);
+        Texture2D texture = new Texture2D(Screen.width, Screen.height, TextureFormat.ARGB32, false);
+        texture.LoadImage(pngBytes);
+        texture.Apply();
+        return Sprite.Create(texture, new Rect(0, 0, Screen.width, Screen.height), new Vector2(0, 0));
+    }
+
+    private void AttachScreenshotToMemory(Memory memory) {
+        RenderTexture renderTexture = new RenderTexture(Screen.width, Screen.height, 24);
+        Texture2D screenshot = new Texture2D(Screen.width, Screen.height, TextureFormat.ARGB32, false);
+
+        foreach (Camera camera in Camera.allCameras) {
+            camera.targetTexture = renderTexture;
+            camera.Render();
+            camera.targetTexture = null;
+        }
+
+        RenderTexture.active = renderTexture;
+        screenshot.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
+        RenderTexture.active = null;
+        Destroy(renderTexture);
+
+        byte[] pngBytes = screenshot.EncodeToPNG();
+
+        FileStream file = File.Open("test.png", FileMode.Create);
+        file.Write(pngBytes, 0, pngBytes.Length);
+        file.Close();
+
+        memory.base64ScreenshotPNG = Convert.ToBase64String(pngBytes);
     }
 }

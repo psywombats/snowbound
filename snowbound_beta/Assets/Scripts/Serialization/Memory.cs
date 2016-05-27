@@ -14,6 +14,7 @@ public class Memory {
 
     // meta info
     public double savedAt;
+    public string base64ScreenshotPNG;
 
     public Memory() {
         variableKeys = new List<string>();

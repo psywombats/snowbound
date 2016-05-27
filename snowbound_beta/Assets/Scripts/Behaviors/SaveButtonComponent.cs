@@ -1,12 +1,13 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
+using System.Collections;
 
 public class SaveButtonComponent : MonoBehaviour {
 
     public Button button;
     public Text dataText;
     public Text captionText;
+    public Image screenshot;
 
     private SaveMenuComponent menu;
     private int slot;
@@ -28,8 +29,11 @@ public class SaveButtonComponent : MonoBehaviour {
                 dataText.text = "<no data>";
             }
             captionText.text = "";
+            screenshot.gameObject.SetActive(false);
         } else {
             captionText.text = System.String.Format("{0:g}", Utils.TimestampToDateTime(memory.savedAt));
+            screenshot.overrideSprite = Global.Instance().memory.SpriteFromBase64(memory.base64ScreenshotPNG);
+            screenshot.gameObject.SetActive(true);
         }
     }
 }
