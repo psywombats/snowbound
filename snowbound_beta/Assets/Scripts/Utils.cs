@@ -32,7 +32,8 @@ public class Utils {
         childTransform.SetParent(parentTransform);
         childTransform.anchorMin = new Vector2(0.5f, 0.5f);
         childTransform.anchorMax = childTransform.anchorMin;
-        childTransform.anchoredPosition = new Vector2(0, 0);
+        childTransform.anchoredPosition3D = new Vector3(0.0f, 0.0f, 0.0f);
+        childTransform.localScale = new Vector3(1.0f, 1.0f, 1.0f);
     }
 
     public static DateTime TimestampToDateTime(double timestamp) {

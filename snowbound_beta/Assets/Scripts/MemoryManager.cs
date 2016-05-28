@@ -27,8 +27,25 @@ public class MemoryManager : MonoBehaviour {
             memory.variableValues.Add(value);
         }
 
+        // screenshot time, disable the save menu from appearing first
+        SaveMenuComponent saveMenu = FindObjectOfType<SaveMenuComponent>();
+        ScenePlayer scenePlayer = FindObjectOfType<ScenePlayer>();
+        if (saveMenu != null) {
+            saveMenu.Alpha = 0.0f;
+        }
+        if (scenePlayer != null) {
+            scenePlayer.textbox.Alpha = 1.0f;
+            scenePlayer.paragraphBox.Alpha = 1.0f;
+        }
         AttachScreenshotToMemory(memory);
-               
+        if (saveMenu != null) {
+            saveMenu.Alpha = 1.0f;
+        }
+        if (scenePlayer != null) {
+            scenePlayer.textbox.Alpha = 0.0f;
+            scenePlayer.paragraphBox.Alpha = 0.0f;
+        }
+
         return memory;
     }
 
@@ -58,7 +75,7 @@ public class MemoryManager : MonoBehaviour {
 
     public Sprite SpriteFromBase64(string encodedString) {
         byte[] pngBytes = Convert.FromBase64String(encodedString);
-        Texture2D texture = new Texture2D(Screen.width, Screen.height, TextureFormat.ARGB32, false);
+        Texture2D texture = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
         texture.LoadImage(pngBytes);
         texture.Apply();
         return Sprite.Create(texture, new Rect(0, 0, Screen.width, Screen.height), new Vector2(0, 0));
@@ -66,9 +83,13 @@ public class MemoryManager : MonoBehaviour {
 
     private void AttachScreenshotToMemory(Memory memory) {
         RenderTexture renderTexture = new RenderTexture(Screen.width, Screen.height, 24);
-        Texture2D screenshot = new Texture2D(Screen.width, Screen.height, TextureFormat.ARGB32, false);
+        Texture2D screenshot = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
 
-        foreach (Camera camera in Camera.allCameras) {
+        List<Camera> cameras = new List<Camera>(Camera.allCameras);
+        cameras.Sort((Camera c1, Camera c2) => {
+            return c2.transform.GetSiblingIndex().CompareTo(c1.transform.GetSiblingIndex());
+        });
+        foreach (Camera camera in cameras) {
             camera.targetTexture = renderTexture;
             camera.Render();
             camera.targetTexture = null;
