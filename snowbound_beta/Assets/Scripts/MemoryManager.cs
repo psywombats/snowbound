@@ -7,6 +7,7 @@ using System.IO;
 public class MemoryManager : MonoBehaviour {
 
     private const string SystemMemoryName = "system.sav";
+    private const float ScreenshotScaleFactor = 6.0f;
 
     private Dictionary<string, int> variables;
     private Dictionary<string, int> maxSeenCommands;
@@ -43,7 +44,8 @@ public class MemoryManager : MonoBehaviour {
 
     public Memory ToMemory() {
         Memory memory = new Memory();
-        memory.screen = Global.Instance().activeScenePlayer.ToMemory();
+        ScenePlayer player = FindObjectOfType<ScenePlayer>();
+        memory.screen = player.ToMemory();
 
         foreach (string key in variables.Keys) {
             memory.variableKeys.Add(key);
@@ -80,7 +82,8 @@ public class MemoryManager : MonoBehaviour {
             variables[memory.variableKeys[i]] = memory.variableValues[i];
         }
 
-        Global.Instance().activeScenePlayer.PopulateFromMemory(memory.screen);
+        ScenePlayer player = FindObjectOfType<ScenePlayer>();
+        player.PopulateFromMemory(memory.screen);
     }
 
     public int GetVariable(string variableName) {
@@ -131,16 +134,20 @@ public class MemoryManager : MonoBehaviour {
     }
 
     public Sprite SpriteFromBase64(string encodedString) {
+        int width = (int)(Screen.width / ScreenshotScaleFactor);
+        int height = (int)(Screen.height / ScreenshotScaleFactor);
         byte[] pngBytes = Convert.FromBase64String(encodedString);
-        Texture2D texture = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
+        Texture2D texture = new Texture2D(width, height, TextureFormat.RGB24, false);
         texture.LoadImage(pngBytes);
         texture.Apply();
-        return Sprite.Create(texture, new Rect(0, 0, Screen.width, Screen.height), new Vector2(0, 0));
+        return Sprite.Create(texture, new Rect(0, 0, width, height), new Vector2(0, 0));
     }
 
     private void AttachScreenshotToMemory(Memory memory) {
-        RenderTexture renderTexture = new RenderTexture(Screen.width, Screen.height, 24);
-        Texture2D screenshot = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
+        int width = (int)(Screen.width / ScreenshotScaleFactor);
+        int height = (int)(Screen.height / ScreenshotScaleFactor);
+        RenderTexture renderTexture = new RenderTexture(width, height, 24);
+        Texture2D screenshot = new Texture2D(width, height, TextureFormat.RGB24, false);
 
         List<Camera> cameras = new List<Camera>(Camera.allCameras);
         cameras.Sort((Camera c1, Camera c2) => {
@@ -153,7 +160,7 @@ public class MemoryManager : MonoBehaviour {
         }
 
         RenderTexture.active = renderTexture;
-        screenshot.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
+        screenshot.ReadPixels(new Rect(0, 0, width, height), 0, 0);
         RenderTexture.active = null;
         Destroy(renderTexture);
 

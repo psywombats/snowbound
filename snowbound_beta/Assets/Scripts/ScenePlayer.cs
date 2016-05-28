@@ -30,8 +30,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public void Start() {
         textbox.gameObject.SetActive(false);
         paragraphBox.gameObject.SetActive(false);
-
-        Global.Instance().activeScenePlayer = this;
+        
         Global.Instance().input.PushListener(this);
 
         portraits.HideAll();

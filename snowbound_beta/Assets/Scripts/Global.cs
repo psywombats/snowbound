@@ -7,7 +7,6 @@ public class Global : MonoBehaviour {
     
     public InputManager input;
     public MemoryManager memory;
-    public ScenePlayer activeScenePlayer;
 
     public static Global Instance() {
         if (instance == null) {
