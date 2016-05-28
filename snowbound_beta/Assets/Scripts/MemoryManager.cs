@@ -6,14 +6,38 @@ using System.IO;
 
 public class MemoryManager : MonoBehaviour {
 
+    private const string SystemMemoryName = "system.sav";
+
     private Dictionary<string, int> variables;
+    private float lastSystemSavedTimestamp;
 
     // this thing will be read by the dialog scene when spawning
     // if non-null, it'll be loaded automatically
     public Memory ActiveMemory { get; set; }
 
+    // global state, unrelated to playthroughs and things like that
+    // things like total play time
+    public SystemMemory SystemMemory { get; set; }
+
     public void Awake() {
         variables = new Dictionary<string, int>();
+        lastSystemSavedTimestamp = Time.realtimeSinceStartup;
+        LoadOrCreateSystemMemory();
+    }
+
+    public void WriteJsonToFile(object toSerialize, string fileName) {
+        FileStream file = File.Open(fileName, FileMode.Create);
+        StreamWriter writer = new StreamWriter(file);
+        writer.Write(JsonUtility.ToJson(toSerialize));
+        writer.Flush();
+        writer.Close();
+        file.Close();
+    }
+
+    public T ReadJsonFromFile<T>(string fileName) {
+        string json = File.ReadAllText(fileName);
+        T result = JsonUtility.FromJson<T>(json);
+        return result;
     }
 
     public Memory ToMemory() {
@@ -73,6 +97,14 @@ public class MemoryManager : MonoBehaviour {
         variables[variableName] = GetVariable(variableName) - 1;
     }
 
+    public void SaveSystemMemory() {
+        float currentTimestamp = Time.realtimeSinceStartup;
+        float deltaSeconds = currentTimestamp - lastSystemSavedTimestamp;
+        lastSystemSavedTimestamp = currentTimestamp;
+        SystemMemory.totalPlaySeconds += (int)Math.Round(deltaSeconds);
+        WriteJsonToFile(SystemMemory, GetSystemMemoryFilepath());
+    }
+
     public Sprite SpriteFromBase64(string encodedString) {
         byte[] pngBytes = Convert.FromBase64String(encodedString);
         Texture2D texture = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
@@ -101,11 +133,19 @@ public class MemoryManager : MonoBehaviour {
         Destroy(renderTexture);
 
         byte[] pngBytes = screenshot.EncodeToPNG();
-
-        FileStream file = File.Open("test.png", FileMode.Create);
-        file.Write(pngBytes, 0, pngBytes.Length);
-        file.Close();
-
         memory.base64ScreenshotPNG = Convert.ToBase64String(pngBytes);
+    }
+
+    private void LoadOrCreateSystemMemory() {
+        string path = GetSystemMemoryFilepath();
+        if (File.Exists(path)) {
+            SystemMemory = ReadJsonFromFile<SystemMemory>(path);
+        } else {
+            SystemMemory = new SystemMemory();
+        }
+    }
+
+    private string GetSystemMemoryFilepath() {
+        return Application.persistentDataPath + "/" + SystemMemoryName;
     }
 }

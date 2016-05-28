@@ -47,11 +47,12 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
 
     public void SaveOrLoadFromSlot(int slot) {
         if (mode == SaveMenuMode.Load) {
-            Memory memory = ReadJsonFromFile<Memory>(FilePathForSlot(slot));
+            Memory memory = Global.Instance().memory.ReadJsonFromFile<Memory>(FilePathForSlot(slot));
             StartCoroutine(LoadRoutine(memory));
         } else {
             Memory memory = Global.Instance().memory.ToMemory();
-            WriteJsonToFile(memory, FilePathForSlot(slot));
+            Global.Instance().memory.WriteJsonToFile(memory, FilePathForSlot(slot));
+            Global.Instance().memory.SaveSystemMemory();
             RefreshData();
             StartCoroutine(ResumeRoutine());
         }
@@ -96,7 +97,7 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
             string fileName = FilePathForSlot(i);
             Memory memory = null;
             if (File.Exists(fileName)) {
-                memory = ReadJsonFromFile<Memory>(fileName);
+                memory = Global.Instance().memory.ReadJsonFromFile<Memory>(fileName);
             }
             saveButton.Populate(this, i, memory, mode);
         }
@@ -110,21 +111,6 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
         fileName += Convert.ToString(slot);
         fileName += SaveGameSuffix;
         return fileName;
-    }
-
-    private void WriteJsonToFile(object toSerialize, string fileName) {
-        FileStream file = File.Open(fileName, FileMode.Create);
-        StreamWriter writer = new StreamWriter(file);
-        writer.Write(JsonUtility.ToJson(toSerialize));
-        writer.Flush();
-        writer.Close();
-        file.Close();
-    }
-
-    private T ReadJsonFromFile<T>(string fileName) {
-        string json = File.ReadAllText(fileName);
-        T result = JsonUtility.FromJson<T>(json);
-        return result;
     }
 
     private IEnumerator LoadRoutine(Memory memory) {
