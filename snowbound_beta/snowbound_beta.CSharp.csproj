@@ -102,7 +102,6 @@
     <Compile Include="Assets\Scripts\SceneScript\SwitchToCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\TextCommand.cs" />
     <Compile Include="Assets\Scripts\Serialization\Memory.cs" />
-    <Compile Include="Assets\Scripts\Serialization\SceneReadMemory.cs" />
     <Compile Include="Assets\Scripts\Serialization\ScreenMemory.cs" />
     <Compile Include="Assets\Scripts\Serialization\SystemMemory.cs" />
     <Compile Include="Assets\Scripts\Serialization\TachiMemory.cs" />

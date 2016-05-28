@@ -4,21 +4,28 @@ using System.Collections.Generic;
 
 public class InputManager : MonoBehaviour {
 
-    private List<KeyCode> advanceKeys;
-    private List<KeyCode> pauseKeys;
+    public enum Command {
+        Advance,
+        Menu,
+        Skip
+    };
+
+    private Dictionary<Command, List<KeyCode>> keybinds;
     private List<KeyCode> fastKeys;
+
     private List<InputListener> listeners;
     private List<InputListener> disabledListeners;
-
     private List<InputListener> listenersToPush;
     private List<InputListener> listenersToRemove;
 
     public void Awake() {
-        advanceKeys = new List<KeyCode>(new[] { KeyCode.Return, KeyCode.KeypadEnter, KeyCode.Space, KeyCode.Z });
-        pauseKeys = new List<KeyCode>(new[] { KeyCode.Escape, KeyCode.C, KeyCode.Backspace });
+        keybinds = new Dictionary<Command, List<KeyCode>>();
+        keybinds[Command.Advance] = new List<KeyCode>(new[] { KeyCode.Return, KeyCode.KeypadEnter, KeyCode.Space, KeyCode.Z });
+        keybinds[Command.Menu] = new List<KeyCode>(new[] { KeyCode.Escape, KeyCode.C, KeyCode.Backspace });
+        keybinds[Command.Skip] = new List<KeyCode>(new[] { KeyCode.S });
         fastKeys = new List<KeyCode>(new[] { KeyCode.LeftControl, KeyCode.RightControl });
-        listeners = new List<InputListener>();
 
+        listeners = new List<InputListener>();
         listenersToPush = new List<InputListener>();
         listenersToRemove = new List<InputListener>();
         disabledListeners = new List<InputListener>();
@@ -37,14 +44,11 @@ public class InputManager : MonoBehaviour {
             if (disabledListeners.Contains(listener)) {
                 return;
             }
-            foreach (KeyCode code in advanceKeys) {
-                if (Input.GetKeyDown(code)) {
-                    listener.OnEnter();
-                }
-            }
-            foreach (KeyCode code in pauseKeys) {
-                if (Input.GetKeyDown(code)) {
-                    listener.OnEscape();
+            foreach (Command command in System.Enum.GetValues(typeof(Command))) {
+                foreach (KeyCode code in keybinds[command]) {
+                    if (Input.GetKeyDown(code)) {
+                        listener.OnCommand(command);
+                    }
                 }
             }
         }
@@ -71,7 +75,7 @@ public class InputManager : MonoBehaviour {
     public IEnumerator AwaitInput() {
         bool advance = false;
         while (advance == false) {
-            foreach (KeyCode code in advanceKeys) {
+            foreach (KeyCode code in keybinds[Command.Advance]) {
                 if (Input.GetKeyDown(code)) {
                     advance = true;
                 }

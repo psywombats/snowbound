@@ -37,12 +37,14 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
         RefreshData();
     }
 
-    public void OnEnter() {
-        // nothing
-    }
-
-    public void OnEscape() {
-        StartCoroutine(ResumeRoutine());
+    public void OnCommand(InputManager.Command command) {
+        switch (command) {
+            case InputManager.Command.Menu:
+                StartCoroutine(ResumeRoutine());
+                break;
+            default:
+                break;
+        }
     }
 
     public void SaveOrLoadFromSlot(int slot) {

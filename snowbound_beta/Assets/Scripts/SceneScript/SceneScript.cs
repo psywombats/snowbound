@@ -38,12 +38,26 @@ public class SceneScript {
     public IEnumerator PerformActions(ScenePlayer player) {
         for (; commandIndex < commands.Count; commandIndex += 1) {
             SceneCommand command = commands[commandIndex];
+            if (!Global.Instance().memory.HasSeenCommand(sceneName, commandIndex)) {
+                player.SkipMode = false;
+                Global.Instance().memory.AcknowledgeCommand(sceneName, commandIndex);
+            }
             if (player.debugBox != null) {
                 player.debugBox.text = "scene: " + sceneName + "\n";
                 player.debugBox.text += "command index: " + commandIndex;
             }
             yield return player.StartCoroutine(command.PerformAction(player));
         }
+    }
+
+    public bool ShouldUseFastMode(ScenePlayer player) {
+        if (Global.Instance().input.IsFastKeyDown()) {
+            return true;
+        }
+        if (player.SkipMode && Global.Instance().memory.HasSeenCommand(sceneName, commandIndex)) {
+            return true;
+        }
+        return false;
     }
 
     public void PopulateMemory(ScreenMemory memory) {

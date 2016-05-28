@@ -9,6 +9,7 @@ public class MemoryManager : MonoBehaviour {
     private const string SystemMemoryName = "system.sav";
 
     private Dictionary<string, int> variables;
+    private Dictionary<string, int> maxSeenCommands;
     private float lastSystemSavedTimestamp;
 
     // this thing will be read by the dialog scene when spawning
@@ -97,11 +98,35 @@ public class MemoryManager : MonoBehaviour {
         variables[variableName] = GetVariable(variableName) - 1;
     }
 
+    public bool HasSeenCommand(string sceneName, int commandIndex) {
+        if (maxSeenCommands.ContainsKey(sceneName)) {
+            return maxSeenCommands[sceneName] >= commandIndex;
+        } else {
+            return false;
+        }
+    }
+
+    public void AcknowledgeCommand(string sceneName, int commandIndex) {
+        if (maxSeenCommands.ContainsKey(sceneName)) {
+            maxSeenCommands[sceneName] = Math.Max(maxSeenCommands[sceneName], commandIndex);
+        } else {
+            maxSeenCommands[sceneName] = commandIndex;
+        }
+    }
+
     public void SaveSystemMemory() {
         float currentTimestamp = Time.realtimeSinceStartup;
         float deltaSeconds = currentTimestamp - lastSystemSavedTimestamp;
         lastSystemSavedTimestamp = currentTimestamp;
         SystemMemory.totalPlaySeconds += (int)Math.Round(deltaSeconds);
+
+        foreach (string key in maxSeenCommands.Keys) {
+            SystemMemory.maxSeenCommandsKeys.Add(key);
+        }
+        foreach (int value in maxSeenCommands.Values) {
+            SystemMemory.maxSeenCommandsValues.Add(value);
+        }
+
         WriteJsonToFile(SystemMemory, GetSystemMemoryFilepath());
     }
 
@@ -142,6 +167,11 @@ public class MemoryManager : MonoBehaviour {
             SystemMemory = ReadJsonFromFile<SystemMemory>(path);
         } else {
             SystemMemory = new SystemMemory();
+        }
+
+        maxSeenCommands = new Dictionary<string, int>();
+        for (int i = 0; i < SystemMemory.maxSeenCommandsKeys.Count; i += 1) {
+            maxSeenCommands[SystemMemory.maxSeenCommandsKeys[i]] = SystemMemory.maxSeenCommandsValues[i];
         }
     }
 

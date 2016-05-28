@@ -3,7 +3,6 @@ using System.Collections;
 
 public interface InputListener {
 
-    void OnEscape();
-    void OnEnter();
+    void OnCommand(InputManager.Command command);
 
 }

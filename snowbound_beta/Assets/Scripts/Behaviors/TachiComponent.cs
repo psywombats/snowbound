@@ -7,7 +7,12 @@ public class TachiComponent : MonoBehaviour {
     private const float fastModeFadeSeconds = 0.15f;
 
     private CharaData chara;
+    private ScenePlayer player;
     private bool fadingOut, fadingIn;
+
+    public void Awake() {
+        player = FindObjectOfType<ScenePlayer>();
+    }
 
     public void SetChara(CharaData chara) {
         this.chara = chara;
@@ -79,7 +84,7 @@ public class TachiComponent : MonoBehaviour {
     }
 
     private float GetFadeSeconds() {
-        if (Global.Instance().input.IsFastKeyDown()) {
+        if (player.ShouldUseFastMode()) {
             return fastModeFadeSeconds;
         } else {
             return fadeSeconds;

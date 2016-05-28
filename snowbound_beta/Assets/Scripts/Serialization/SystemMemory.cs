@@ -4,10 +4,12 @@ using System.Collections.Generic;
 
 public class SystemMemory {
 
+    public List<string> maxSeenCommandsKeys;
+    public List<int> maxSeenCommandsValues;
     public int totalPlaySeconds;
-    public List<SceneReadMemory> readScenes;
 
     public SystemMemory() {
-        readScenes = new List<SceneReadMemory>();
+        maxSeenCommandsKeys = new List<string>();
+        maxSeenCommandsValues = new List<int>();
     }
 }

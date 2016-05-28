@@ -35,7 +35,7 @@ public class TextboxComponent : MonoBehaviour {
                 textbox.text = fullText;
                 break;
             }
-            if (Global.Instance().input.IsFastKeyDown()) {
+            if (player.ShouldUseFastMode()) {
                 break;
             }
             textbox.text = fullText.Substring(0, i);
@@ -45,7 +45,7 @@ public class TextboxComponent : MonoBehaviour {
             yield return new WaitForSeconds(characterDelay);
         }
         textbox.text = fullText;
-        if (Global.Instance().input.IsFastKeyDown()) {
+        if (player.ShouldUseFastMode()) {
             yield return new WaitForSeconds(fastModeHiccupSeconds);
         }
     }
@@ -71,7 +71,7 @@ public class TextboxComponent : MonoBehaviour {
             if (player.WasHurried()) {
                 break;
             }
-            Alpha -= Time.deltaTime / GetFadeSeconds();
+            Alpha -= Time.deltaTime / GetFadeSeconds(player);
             yield return null;
         }
         Alpha = 0.0f;
@@ -86,7 +86,7 @@ public class TextboxComponent : MonoBehaviour {
             if (player.WasHurried()) {
                 break;
             }
-            Alpha += Time.deltaTime / GetFadeSeconds();
+            Alpha += Time.deltaTime / GetFadeSeconds(player);
             yield return null;
         }
         Alpha = 1.0f;
@@ -96,8 +96,8 @@ public class TextboxComponent : MonoBehaviour {
         textbox.text = "";
     }
 
-    private float GetFadeSeconds() {
-        if (Global.Instance().input.IsFastKeyDown()) {
+    private float GetFadeSeconds(ScenePlayer player) {
+        if (player.ShouldUseFastMode()) {
             return fastModeFadeSeconds;
         } else {
             return textboxFadeSeconds;

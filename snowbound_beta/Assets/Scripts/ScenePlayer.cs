@@ -21,6 +21,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     private bool wasHurried;
 
     public bool AwaitingInputFromCommand { get; set; }
+    public bool SkipMode { get; set; }
 
     public static void LoadScreen() {
         SceneManager.LoadScene(DialogSceneName);
@@ -44,13 +45,19 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         }
     }
 
-    public void OnEscape() {
-        suspended = true;
-        StartCoroutine(PauseRoutine());
-    }
-
-    public void OnEnter() {
-        wasHurried = true;
+    public void OnCommand(InputManager.Command command) {
+        switch (command) {
+            case InputManager.Command.Advance:
+                wasHurried = true;
+                break;
+            case InputManager.Command.Menu:
+                suspended = true;
+                StartCoroutine(PauseRoutine());
+                break;
+            case InputManager.Command.Skip:
+                SkipMode = !SkipMode;
+                break;
+        }
     }
 
     public bool WasHurried() {
@@ -59,6 +66,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
 
     public bool IsSuspended() {
         return suspended;
+    }
+
+    public bool ShouldUseFastMode() {
+        return currentScript.ShouldUseFastMode(this);
     }
 
     public void AcknowledgeHurried() {
@@ -70,7 +81,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     }
 
     public IEnumerator AwaitHurry() {
-        while (!WasHurried() && !Global.Instance().input.IsFastKeyDown()) {
+        while (!WasHurried() && !ShouldUseFastMode()) {
             yield return null;
         }
         AcknowledgeHurried();
