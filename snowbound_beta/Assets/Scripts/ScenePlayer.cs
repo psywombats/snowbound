@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 using System;
+using System.Collections;
 
 public class ScenePlayer : MonoBehaviour, InputListener {
 

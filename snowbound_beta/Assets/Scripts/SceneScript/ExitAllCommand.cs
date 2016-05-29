@@ -23,6 +23,8 @@ public class ExitAllCommand : StageDirectionCommand {
                 yield return null;
                 player.StartCoroutine(player.portraits.FadeOutAll());
             }
+
+            Global.Instance().memory.AppendLogItem(new LogItem(""));
         }
     }
 }

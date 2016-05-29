@@ -15,6 +15,7 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
     public Button resumeButton;
     public Button closeButton;
     public Button titleButton;
+    public Button logButton;
 
     private ScenePlayer player;
 
@@ -45,6 +46,9 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
         });
         titleButton.onClick.AddListener(() => {
             StartCoroutine(TitleRoutine());
+        });
+        logButton.onClick.AddListener(() => {
+            StartCoroutine(LogRoutine());
         });
     }
 
@@ -89,6 +93,7 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
         resumeButton.interactable = enabled;
         closeButton.interactable = enabled;
         titleButton.interactable = enabled;
+        logButton.interactable = enabled;
     }
 
     private IEnumerator ResumeRoutine() {
@@ -127,5 +132,14 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
         FadeComponent fader = FindObjectOfType<FadeComponent>();
         yield return fader.FadeToBlackRoutine();
         Application.Quit();
+    }
+
+    private IEnumerator LogRoutine() {
+        yield return StartCoroutine(FadeOut());
+        GameObject logObject = LogComponent.Spawn(gameObject.transform.parent.gameObject, () => {
+            StartCoroutine(FadeIn());
+        });
+        logObject.GetComponent<LogComponent>().Alpha = 0.0f;
+        yield return StartCoroutine(logObject.GetComponent<LogComponent>().FadeIn());
     }
 }

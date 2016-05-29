@@ -71,6 +71,8 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Behaviors\ChoiceButtonComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\FadeComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\LogComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\LogItem.cs" />
     <Compile Include="Assets\Scripts\Behaviors\MainMenuComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\PauseMenuComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\PortraitGroupComponent.cs" />

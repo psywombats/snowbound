@@ -8,9 +8,11 @@ public class MemoryManager : MonoBehaviour {
 
     private const string SystemMemoryName = "system.sav";
     private const float ScreenshotScaleFactor = 6.0f;
+    private const int MaxMessages = 200;
 
     private Dictionary<string, int> variables;
     private Dictionary<string, int> maxSeenCommands;
+    private List<LogItem> messageHistory;
     private float lastSystemSavedTimestamp;
 
     // this thing will be read by the dialog scene when spawning
@@ -23,8 +25,20 @@ public class MemoryManager : MonoBehaviour {
 
     public void Awake() {
         variables = new Dictionary<string, int>();
+        messageHistory = new List<LogItem>();
         lastSystemSavedTimestamp = Time.realtimeSinceStartup;
         LoadOrCreateSystemMemory();
+    }
+
+    public void AppendLogItem(LogItem item) {
+        messageHistory.Add(item);
+        if (messageHistory.Count > MaxMessages) {
+            messageHistory.RemoveAt(0);
+        }
+    }
+
+    public List<LogItem> GetMessageHistory() {
+        return messageHistory;
     }
 
     public void WriteJsonToFile(object toSerialize, string fileName) {
