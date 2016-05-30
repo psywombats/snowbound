@@ -11,5 +11,6 @@ public class ScreenMemory {
     public TachiMemory portraitE;
 
     public string sceneName;
+    public string backgroundTag;
     public int commandNumber;
 }

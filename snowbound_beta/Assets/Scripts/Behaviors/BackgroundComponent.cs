@@ -16,6 +16,15 @@ public class BackgroundComponent : MonoBehaviour {
         UpdateDisplay();
     }
 
+    public void PopuateMemory(ScreenMemory memory) {
+        memory.backgroundTag = currentBackground.backgroundTag;
+    }
+
+    public void PopulateFromMemory(ScreenMemory memory) {
+        currentBackground = player.GetBackground(memory.backgroundTag);
+        UpdateDisplay();
+    }
+
     private void UpdateDisplay() {
         GetComponent<SpriteRenderer>().sprite = currentBackground.background;
     }
