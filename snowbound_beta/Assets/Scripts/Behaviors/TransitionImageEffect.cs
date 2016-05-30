@@ -6,6 +6,7 @@ public class TransitionImageEffect : MonoBehaviour {
 
     public Shader shader;
     public float transitionDurationSeconds;
+    public float softTransitionPercent;
 
     private Texture2D mask;
     private Material material;
@@ -40,6 +41,7 @@ public class TransitionImageEffect : MonoBehaviour {
         material.SetTexture("_MainTexture", source);
         material.SetTexture("_MaskTexture", mask);
         material.SetFloat("_Elapsed", elapsedRatio);
+        material.SetFloat("_SoftFudge", softTransitionPercent);
 
         Graphics.Blit(source, destination, material);
     }

@@ -5,6 +5,7 @@
 		_MainTexture ("Main Texture", 2D) = "white" {}
 		_MaskTexture ("Mask Texture", 2D) = "white" {}
 		_Elapsed ("Elapsed Seconds", Range(0,1)) = 0.0
+		_SoftFudge ("Percent Softness", Range(0, 1)) = 0.1
 	}
 	SubShader
 	{
@@ -42,6 +43,7 @@
 			sampler2D _MainTexture;
 			sampler2D _MaskTexture;
 			float _Elapsed;
+			float _SoftFudge;
 
 			fixed4 frag (v2f i) : SV_Target
 			{
@@ -51,8 +53,14 @@
 				// prevent rounding issues hack
 				maskValue *= (1.0 - 1.0 / 255.0);
 
-				float weight = step(_Elapsed, maskValue);
-				mainColor.rgb = lerp(fixed4(0.0, 0.0, 0.0, 1.0), mainColor.rgb, weight);
+				// the leading edge takes (1.0-softFudge) to finish
+				float adjustedElapsed = _Elapsed * (1.0 + _SoftFudge);
+				float weightLow = adjustedElapsed - maskValue;
+				float weightHigh = (adjustedElapsed + _SoftFudge) - maskValue;
+				float weight = ((weightLow + weightHigh) / 2.0) / _SoftFudge;
+				weight = clamp(weight, 0.0, 1.0);
+
+				mainColor.rgb = lerp(fixed4(0.0, 0.0, 0.0, 1.0), mainColor.rgb, 1.0-weight);
 
 				return mainColor;
 			}
