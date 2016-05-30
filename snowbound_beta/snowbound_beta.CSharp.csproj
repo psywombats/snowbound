@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\Behaviors\SaveMenuComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\TachiComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\TextboxComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\TransitionImageEffect.cs" />
     <Compile Include="Assets\Scripts\Data\CharaData.cs" />
     <Compile Include="Assets\Scripts\Data\CharaIndexData.cs" />
     <Compile Include="Assets\Scripts\Global.cs" />
@@ -319,6 +320,7 @@
     <None Include="Assets\Resources\SceneScripts\s0207.txt" />
     <None Include="Assets\Resources\SceneScripts\testScript.txt" />
     <None Include="Assets\Resources\SceneScripts\unimplemented.txt" />
+    <None Include="Assets\Shaders\TransitionShader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

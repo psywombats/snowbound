@@ -13,6 +13,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public TextboxComponent paragraphBox;
     public PortraitGroupComponent portraits;
     public CharaIndexData charas;
+    public TransitionImageEffect transition;
     public UnityEngine.UI.Text debugBox;
     
     private SceneScript currentScript;
@@ -32,7 +33,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         paragraphBox.gameObject.SetActive(false);
         
         Global.Instance().input.PushListener(this);
-
+        /*
         portraits.HideAll();
 
         if (Global.Instance().memory.ActiveMemory != null) {
@@ -42,6 +43,9 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         } else {
             PlayFirstScene();
         }
+        */
+        Texture2D texture = Resources.Load<Texture2D>("TransitionMasks/Mask2");
+        transition.Transition(texture);
     }
 
     public void OnCommand(InputManager.Command command) {
