@@ -12,7 +12,9 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public TextboxComponent textbox;
     public TextboxComponent paragraphBox;
     public PortraitGroupComponent portraits;
+    public BackgroundComponent background;
     public CharaIndexData charas;
+    public BackgroundIndexData backgrounds;
     public TransitionImageEffect transition;
     public UnityEngine.UI.Text debugBox;
     
@@ -103,6 +105,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
 
     public CharaData GetChara(string tag) {
         return charas.GetChara(tag);
+    }
+
+    public BackgroundData GetBackground(string tag) {
+        return backgrounds.GetBackground(tag);
     }
 
     public ScreenMemory ToMemory() {

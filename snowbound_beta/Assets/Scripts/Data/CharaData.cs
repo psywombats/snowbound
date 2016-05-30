@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu(fileName = "CharaData", menuName = "Data/CharaData", order = 1)]
+[CreateAssetMenu(fileName = "CharaData", menuName = "Data/CharaData")]
 public class CharaData : ScriptableObject {
 
     public string tag;

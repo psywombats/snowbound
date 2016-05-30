@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-[CreateAssetMenu(fileName = "CharaIndexData", menuName = "Data/CharaIndexData", order = 1)]
+[CreateAssetMenu(fileName = "CharaIndexData", menuName = "Data/CharaIndexData")]
 public class CharaIndexData : ScriptableObject {
 
     public CharaData[] charas;
@@ -19,5 +19,4 @@ public class CharaIndexData : ScriptableObject {
     public CharaData GetChara(string tag) {
         return tagToChara[tag.ToLower()];
     }
-
 }

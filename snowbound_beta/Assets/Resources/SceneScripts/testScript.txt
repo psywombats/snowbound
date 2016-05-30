@@ -8,7 +8,13 @@ MAX: I'm gonna leave as well.
 [exit MAX]
 SYSTEM: Max is gone?
 
-NVL mode enabled!
+The background is black.
+
+[bg TEST_A]
+
+The background is red?
+
+[bg TEST_B]
 
 SYSTEM: Test time is over. Pete has disappeared along with the NVL box.
 [enter CAIT B]
