@@ -6,6 +6,7 @@
 		_MaskTexture ("Mask Texture", 2D) = "white" {}
 		_Elapsed ("Elapsed Seconds", Range(0,1)) = 0.0
 		_SoftFudge ("Percent Softness", Range(0, 1)) = 0.1
+		_Invert ("Invert", Range(0, 1)) = 0.0
 	}
 	SubShader
 	{
@@ -44,6 +45,7 @@
 			sampler2D _MaskTexture;
 			float _Elapsed;
 			float _SoftFudge;
+			int _Invert;
 
 			fixed4 frag (v2f i) : SV_Target
 			{
@@ -59,6 +61,9 @@
 				float weightHigh = (adjustedElapsed + _SoftFudge) - maskValue;
 				float weight = ((weightLow + weightHigh) / 2.0) / _SoftFudge;
 				weight = clamp(weight, 0.0, 1.0);
+				if (_Invert) {
+					weight = (1.0f - weight);
+				}
 
 				mainColor.rgb = lerp(fixed4(0.0, 0.0, 0.0, 1.0), mainColor.rgb, 1.0-weight);
 

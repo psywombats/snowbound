@@ -15,6 +15,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public BackgroundComponent background;
     public CharaIndexData charas;
     public BackgroundIndexData backgrounds;
+    public TransitionIndexData transitions;
     public TransitionImageEffect transition;
     public UnityEngine.UI.Text debugBox;
     
@@ -87,6 +88,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
             yield return null;
         }
         AcknowledgeHurried();
+    }
+
+    public FadeComponent GetFade() {
+        return FindObjectOfType<FadeComponent>();
     }
 
     public IEnumerator PlayScriptForScene(string sceneName) {

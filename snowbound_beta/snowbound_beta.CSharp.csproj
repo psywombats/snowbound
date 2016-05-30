@@ -86,6 +86,8 @@
     <Compile Include="Assets\Scripts\Data\BackgroundIndexData.cs" />
     <Compile Include="Assets\Scripts\Data\CharaData.cs" />
     <Compile Include="Assets\Scripts\Data\CharaIndexData.cs" />
+    <Compile Include="Assets\Scripts\Data\TransitionData.cs" />
+    <Compile Include="Assets\Scripts\Data\TransitionIndexData.cs" />
     <Compile Include="Assets\Scripts\Global.cs" />
     <Compile Include="Assets\Scripts\InputListener.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />

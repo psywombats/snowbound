@@ -182,7 +182,7 @@ public class SceneScript {
             case "switchto":
                 return new SwitchToCommand(args[0]);
             case "bg":
-                return new BackgroundCommand(args[0]);
+                return new BackgroundCommand(args[0], OptionalArg(args, 1));
             default:
                 if (choice != null) {
                     string choiceString = command + " " + String.Join(" ", args.ToArray());
@@ -191,6 +191,10 @@ public class SceneScript {
                 //Assert.IsTrue(false, "bad command: " + command);
                 return null;
         }
+    }
+
+    private string OptionalArg(List<String> args, int index) {
+        return (index < args.Count) ? args[index] : null;
     }
 
     private SceneCommand ParseLine(string commandString) {

@@ -10,11 +10,11 @@ SYSTEM: Max is gone?
 
 The background is black.
 
-[bg TEST_A]
+[bg TEST_A curtains]
 
 The background is red?
 
-[bg TEST_B]
+[bg TEST_B curtains]
 
 SYSTEM: Test time is over. Pete has disappeared along with the NVL box.
 [enter CAIT B]
