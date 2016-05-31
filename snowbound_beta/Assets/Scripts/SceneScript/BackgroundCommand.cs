@@ -18,7 +18,7 @@ public class BackgroundCommand : SceneCommand {
 
     public IEnumerator PerformAction(ScenePlayer player) {
         TransitionData data = player.transitions.GetTransition(transitionTag);
-        TransitionImageEffect transition = player.transition;
+        TransitionComponent transition = player.transition;
         FadeComponent fade = player.GetFade();
 
         yield return player.StartCoroutine(player.paragraphBox.FadeOut(TextboxFadeSeconds));
@@ -31,9 +31,9 @@ public class BackgroundCommand : SceneCommand {
         
         player.background.SetBackground(backgroundTag);
 
-        for (delayElapsed = 0; delayElapsed < data.delay; delayElapsed += Time.deltaTime) {
+        while (transition.IsTransitioning()) {
             if (player.ShouldUseFastMode()) {
-                break;
+                transition.Hurry();
             }
             yield return null;
         }

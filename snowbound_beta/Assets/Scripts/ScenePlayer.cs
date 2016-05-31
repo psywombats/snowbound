@@ -17,7 +17,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public CharaIndexData charas;
     public BackgroundIndexData backgrounds;
     public TransitionIndexData transitions;
-    public TransitionImageEffect transition;
+    public TransitionComponent transition;
     public UnityEngine.UI.Text debugBox;
     
     private SceneScript currentScript;

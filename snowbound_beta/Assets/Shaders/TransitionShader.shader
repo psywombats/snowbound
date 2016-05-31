@@ -1,4 +1,4 @@
-﻿Shader "Hidden/TransitionShader"
+﻿Shader "Snowbound/TransitionShader"
 {
 	Properties
 	{

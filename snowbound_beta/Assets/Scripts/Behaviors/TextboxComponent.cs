@@ -4,6 +4,7 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.Assertions;
 
+[RequireComponent(typeof(TransitionComponent))]
 public class TextboxComponent : MonoBehaviour {
 
     private const float characterDelay = (1 / 32f);
@@ -11,8 +12,11 @@ public class TextboxComponent : MonoBehaviour {
     private const float fastModeHiccupSeconds = 0.05f;
     private const float fastModeFadeSeconds = 0.15f;
 
+    public Shader shader;
     public Image backer;
     public Text textbox;
+    public Texture2D fadeInTexture;
+    public Texture2D fadeOutTexture;
     private string fullText;
     
     public float Alpha {
@@ -22,6 +26,15 @@ public class TextboxComponent : MonoBehaviour {
 
     public float Height {
         get { return GetComponent<RectTransform>().rect.height; }
+    }
+
+    public void Start() {
+        backer.material = GetComponent<TransitionComponent>().GetMaterial();
+    }
+
+    public void OnEnable() {
+        Alpha = 0.0f;
+        Clear();
     }
 
     public IEnumerator ShowText(ScenePlayer player, string text) {
@@ -50,14 +63,6 @@ public class TextboxComponent : MonoBehaviour {
         }
     }
 
-    public IEnumerator FadeOut(float durationSeconds) {
-        while (Alpha > 0.0f) {
-            Alpha -= Time.deltaTime / durationSeconds;
-            yield return null;
-        }
-        Alpha = 0.0f;
-    }
-
     public IEnumerator FadeIn(float durationSeconds) {
         while (Alpha < 1.0f) {
             Alpha += Time.deltaTime / durationSeconds;
@@ -66,30 +71,69 @@ public class TextboxComponent : MonoBehaviour {
         Alpha = 1.0f;
     }
 
-    public IEnumerator Deactivate(ScenePlayer player) {
+    public IEnumerator FadeOut(float durationSeconds) {
         while (Alpha > 0.0f) {
-            if (player.WasHurried()) {
-                break;
-            }
-            Alpha -= Time.deltaTime / GetFadeSeconds(player);
+            Alpha -= Time.deltaTime / durationSeconds;
             yield return null;
+        }
+        Alpha = 0.0f;
+    }
+
+    public IEnumerator Activate(ScenePlayer player) {
+        gameObject.SetActive(true);
+        Clear();
+        if (fadeInTexture != null) {
+            TransitionComponent transition = GetComponent<TransitionComponent>();
+            if (Alpha < 1.0f) {
+                transition.transitionDurationSeconds = GetFadeSeconds(player);
+                StartCoroutine(transition.TransitionRoutine(fadeInTexture, true));
+                yield return null;
+                Alpha = 1.0f;
+                while (transition.IsTransitioning()) {
+                    if (player.WasHurried()) {
+                        transition.Hurry();
+                    }
+                    yield return null;
+                }
+            }
+        } else {
+            while (Alpha < 1.0f) {
+                if (player.WasHurried()) {
+                    break;
+                }
+                Alpha += Time.deltaTime / GetFadeSeconds(player);
+                yield return null;
+            }
+        }
+        Alpha = 1.0f;
+    }
+
+    public IEnumerator Deactivate(ScenePlayer player) {
+        if (fadeOutTexture != null) {
+            TransitionComponent transition = GetComponent<TransitionComponent>();
+            if (Alpha > 0.0f) {
+                transition.transitionDurationSeconds = GetFadeSeconds(player);
+                StartCoroutine(transition.TransitionRoutine(fadeOutTexture, false));
+                yield return null;
+                while (transition.IsTransitioning()) {
+                    if (player.WasHurried()) {
+                        transition.Hurry();
+                    }
+                    yield return null;
+                }
+            }
+        } else {
+            while (Alpha > 0.0f) {
+                if (player.WasHurried()) {
+                    break;
+                }
+                Alpha -= Time.deltaTime / GetFadeSeconds(player);
+                yield return null;
+            }
         }
         Alpha = 0.0f;
         gameObject.SetActive(false);
         Clear();
-    }
-
-    public IEnumerator Activate(ScenePlayer player) {
-        Clear();
-        gameObject.SetActive(true);
-        while (Alpha < 1.0f) {
-            if (player.WasHurried()) {
-                break;
-            }
-            Alpha += Time.deltaTime / GetFadeSeconds(player);
-            yield return null;
-        }
-        Alpha = 1.0f;
     }
 
     public void Clear() {

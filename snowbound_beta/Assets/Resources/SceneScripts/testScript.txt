@@ -1,3 +1,7 @@
+testbox
+
+NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE 
+
 SYSTEM: Test time! Here comes Max!
 [enter MAX B]
 SYSTEM: And now for Rebecca!

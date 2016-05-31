@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-[RequireComponent(typeof(Camera))]
-public class TransitionImageEffect : MonoBehaviour {
+public class TransitionComponent : MonoBehaviour {
 
     public Shader shader;
     public float transitionDurationSeconds;
@@ -24,6 +23,9 @@ public class TransitionImageEffect : MonoBehaviour {
 
     public void Update() {
         if (active) {
+            if (GetComponent<Camera>() == null) {
+                AssignCommonShaderVariables();
+            }
             elapsedSeconds += Time.deltaTime;
             if (elapsedSeconds > transitionDurationSeconds) {
                 elapsedSeconds = transitionDurationSeconds;
@@ -33,15 +35,33 @@ public class TransitionImageEffect : MonoBehaviour {
     }
 
     public void OnRenderImage(RenderTexture source, RenderTexture destination) {
-        float elapsedRatio = elapsedSeconds / transitionDurationSeconds;
-        
-        material.SetTexture("_MainTexture", source);
-        material.SetTexture("_MaskTexture", mask);
-        material.SetFloat("_Elapsed", elapsedRatio);
-        material.SetFloat("_SoftFudge", softTransitionPercent);
-        material.SetInt("_Invert", invert ? 1 : 0);
+        if (GetComponent<Camera>() != null) {
+            material.SetTexture("_MainTexture", source);
+            AssignCommonShaderVariables();
+            Graphics.Blit(source, destination, material);
+        }
+    }
 
-        Graphics.Blit(source, destination, material);
+    public Material GetMaterial() {
+        return material;
+    }
+
+    public bool IsTransitioning() {
+        return active;
+    }
+
+    public void Hurry() {
+        if (this.elapsedSeconds > 0.0f) {
+            this.elapsedSeconds = transitionDurationSeconds;
+        }
+        active = false;
+    }
+
+    public void Transition(Texture2D mask, bool invert = false) {
+        this.mask = mask;
+        this.invert = invert;
+        elapsedSeconds = 0.0f;
+        active = true;
     }
 
     public IEnumerator TransitionRoutine(Texture2D mask, bool invert = false) {
@@ -55,10 +75,10 @@ public class TransitionImageEffect : MonoBehaviour {
         }
     }
 
-    public void Transition(Texture2D mask, bool invert = false) {
-        this.mask = mask;
-        this.invert = invert;
-        elapsedSeconds = 0.0f;
-        active = true;
+    private void AssignCommonShaderVariables() {
+        material.SetTexture("_MaskTexture", mask);
+        material.SetFloat("_Elapsed", elapsedSeconds / transitionDurationSeconds);
+        material.SetFloat("_SoftFudge", softTransitionPercent);
+        material.SetInt("_Invert", invert ? 1 : 0);
     }
 }
