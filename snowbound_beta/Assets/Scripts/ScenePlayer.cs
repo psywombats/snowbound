@@ -6,6 +6,7 @@ using System.Collections;
 public class ScenePlayer : MonoBehaviour, InputListener {
 
     private const string DialogSceneName = "DialogScene";
+    private const float hiddenTextModeFadeoutSeconds = 0.6f;
 
     public TextAsset firstSceneFile;
     public Canvas canvas;
@@ -23,6 +24,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     private IEnumerator playingRoutine;
     private bool suspended;
     private bool wasHurried;
+    private bool hiddenTextMode;
 
     public bool AwaitingInputFromCommand { get; set; }
     public bool SkipMode { get; set; }
@@ -51,7 +53,11 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public void OnCommand(InputManager.Command command) {
         switch (command) {
             case InputManager.Command.Advance:
-                wasHurried = true;
+                if (hiddenTextMode) {
+                    SetHiddenTextMode(false);
+                } else {
+                    wasHurried = true;
+                }
                 break;
             case InputManager.Command.Menu:
                 suspended = true;
@@ -59,6 +65,16 @@ public class ScenePlayer : MonoBehaviour, InputListener {
                 break;
             case InputManager.Command.Skip:
                 SkipMode = !SkipMode;
+                break;
+            case InputManager.Command.Click:
+                if (hiddenTextMode) {
+                    SetHiddenTextMode(false);
+                } else {
+                    Global.Instance().input.SimulateAdvance();
+                }
+                break;
+            case InputManager.Command.Rightclick:
+                SetHiddenTextMode(!hiddenTextMode);
                 break;
         }
     }
@@ -144,6 +160,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         suspended = false;
     }
 
+    private void SetHiddenTextMode(bool hidden) {
+        StartCoroutine(SetHiddenTextModeRoutine(hidden));
+    }
+
     private IEnumerator PauseRoutine() {
         yield return Utils.RunParallel(new[] {
             textbox.FadeOut(PauseMenuComponent.FadeoutSeconds),
@@ -160,5 +180,20 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     private IEnumerator PlayCurrentScript() {
         playingRoutine = currentScript.PerformActions(this);
         yield return StartCoroutine(playingRoutine);
+    }
+
+    private IEnumerator SetHiddenTextModeRoutine(bool hidden) {
+        Global.Instance().input.DisableListener(this);
+
+        if (hidden) {
+            yield return paragraphBox.FadeOut(hiddenTextModeFadeoutSeconds);
+            yield return textbox.FadeOut(hiddenTextModeFadeoutSeconds);
+        } else {
+            yield return paragraphBox.FadeIn(hiddenTextModeFadeoutSeconds);
+            yield return textbox.FadeIn(hiddenTextModeFadeoutSeconds);
+        }
+
+        hiddenTextMode = hidden;
+        Global.Instance().input.EnableListener(this);
     }
 }

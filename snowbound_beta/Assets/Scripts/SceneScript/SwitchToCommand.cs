@@ -14,6 +14,6 @@ public class SwitchToCommand : SceneCommand {
         yield return player.textbox.FadeOut(0.5f);
         yield return player.paragraphBox.FadeIn(0.5f);
         yield return player.paragraphBox.ShowText(player, "~~~ NOW PLAYING FROM " + key + "'s PERSPECTIVE ~~~");
-        yield return Global.Instance().input.AwaitInput();
+        yield return Global.Instance().input.AwaitAdvance();
     }
 }

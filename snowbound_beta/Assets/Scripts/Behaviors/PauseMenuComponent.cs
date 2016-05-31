@@ -59,6 +59,7 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
     public void OnCommand(InputManager.Command command) {
         switch (command) {
             case InputManager.Command.Menu:
+            case InputManager.Command.Rightclick:
                 StartCoroutine(ResumeRoutine());
                 break;
             default:

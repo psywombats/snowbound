@@ -7,7 +7,9 @@ public class InputManager : MonoBehaviour {
     public enum Command {
         Advance,
         Menu,
-        Skip
+        Skip,
+        Click,
+        Rightclick
     };
 
     private Dictionary<Command, List<KeyCode>> keybinds;
@@ -18,11 +20,15 @@ public class InputManager : MonoBehaviour {
     private List<InputListener> listenersToPush;
     private List<InputListener> listenersToRemove;
 
+    private bool simulatedAdvance;
+
     public void Awake() {
         keybinds = new Dictionary<Command, List<KeyCode>>();
         keybinds[Command.Advance] = new List<KeyCode>(new[] { KeyCode.Return, KeyCode.KeypadEnter, KeyCode.Space, KeyCode.Z });
         keybinds[Command.Menu] = new List<KeyCode>(new[] { KeyCode.Escape, KeyCode.C, KeyCode.Backspace });
         keybinds[Command.Skip] = new List<KeyCode>(new[] { KeyCode.S });
+        keybinds[Command.Click] = new List<KeyCode>();
+        keybinds[Command.Rightclick] = new List<KeyCode>();
         fastKeys = new List<KeyCode>(new[] { KeyCode.LeftControl, KeyCode.RightControl });
 
         listeners = new List<InputListener>();
@@ -51,6 +57,12 @@ public class InputManager : MonoBehaviour {
                     }
                 }
             }
+            if (Input.GetMouseButtonUp(0)) {
+                listener.OnCommand(Command.Click);
+            }
+            if (Input.GetMouseButtonUp(1)) {
+                listener.OnCommand(Command.Rightclick);
+            }
         }
     }
 
@@ -72,16 +84,31 @@ public class InputManager : MonoBehaviour {
         }
     }
 
-    public IEnumerator AwaitInput() {
+    // simulates the user pushing an 'advance' command
+    // called by input listeners usually when interpreting clicks as answers to AwaitAdvance
+    public void SimulateAdvance() {
+        simulatedAdvance = true;
+        InputListener listener = listeners[listeners.Count - 1];
+        if (!disabledListeners.Contains(listener)) {
+            listener.OnCommand(Command.Advance);
+        }
+    }
+
+    public IEnumerator AwaitAdvance() {
         bool advance = false;
+        simulatedAdvance = false;
         while (advance == false) {
             foreach (KeyCode code in keybinds[Command.Advance]) {
                 if (Input.GetKeyDown(code)) {
                     advance = true;
                 }
             }
+            if (simulatedAdvance) {
+                advance = true;
+            }
             yield return null;
         }
+        simulatedAdvance = false;
     }
 
     public bool IsFastKeyDown() {
