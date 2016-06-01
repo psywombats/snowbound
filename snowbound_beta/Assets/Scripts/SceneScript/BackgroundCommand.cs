@@ -9,7 +9,6 @@ public class BackgroundCommand : SceneCommand {
 
     private string backgroundTag;
     private string transitionTag;
-    private float delayElapsed;
 
     public BackgroundCommand(string backgroundTag, string transitionTag) {
         this.backgroundTag = backgroundTag;

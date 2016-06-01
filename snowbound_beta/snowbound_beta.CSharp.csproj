@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\Behaviors\LogComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\LogItem.cs" />
     <Compile Include="Assets\Scripts\Behaviors\MainMenuComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\OscillationComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\PauseMenuComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\PortraitGroupComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\SaveButtonComponent.cs" />
