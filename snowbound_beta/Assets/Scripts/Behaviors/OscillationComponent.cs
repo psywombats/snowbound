@@ -22,8 +22,11 @@ public class OscillationComponent : MonoBehaviour {
     private float elapsed;
 
     public void Start() {
-        elapsed = 0;
-        originalPosition = gameObject.transform.localPosition;
+        Reset();
+    }
+
+    public void OnEnable() {
+        Reset();
     }
 
     public void Update() {
@@ -54,5 +57,10 @@ public class OscillationComponent : MonoBehaviour {
             vectorMultiplier *= 2.0f;
         }
         gameObject.transform.localPosition = originalPosition + maxOffset * vectorMultiplier;
+    }
+
+    private void Reset() {
+        elapsed = 0;
+        originalPosition = gameObject.transform.localPosition;
     }
 }

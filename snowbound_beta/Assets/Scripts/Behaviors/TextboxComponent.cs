@@ -11,12 +11,16 @@ public class TextboxComponent : MonoBehaviour {
     private const float textboxFadeSeconds = 0.5f;
     private const float fastModeHiccupSeconds = 0.05f;
     private const float fastModeFadeSeconds = 0.15f;
+    private const float advancePromptFadeOutSeconds = 0.15f;
+    private const float advancePromptFadeInSeconds = 0.3f;
 
     public Shader shader;
     public Image backer;
     public Text textbox;
     public Texture2D fadeInTexture;
     public Texture2D fadeOutTexture;
+    public Image advancePrompt;
+
     private string fullText;
     
     public float Alpha {
@@ -28,17 +32,23 @@ public class TextboxComponent : MonoBehaviour {
         get { return GetComponent<RectTransform>().rect.height; }
     }
 
+    private float AdvancePromptAlpha {
+        get { return advancePrompt.GetComponent<CanvasRenderer>().GetAlpha(); }
+        set { advancePrompt.GetComponent<CanvasRenderer>().SetAlpha(value); }
+    }
+
     public void Start() {
         backer.material = GetComponent<TransitionComponent>().GetMaterial();
     }
 
     public void OnEnable() {
         Alpha = 0.0f;
-        Clear();
+        advancePrompt.gameObject.SetActive(false);
     }
 
     public IEnumerator ShowText(ScenePlayer player, string text) {
         fullText = text;
+        advancePrompt.CrossFadeAlpha(0.0f, advancePromptFadeOutSeconds, false);
         for (int i = 0; i <= fullText.Length; i += 1) {
             if (player.IsSuspended()) {
                 yield return null;
@@ -61,6 +71,10 @@ public class TextboxComponent : MonoBehaviour {
         if (player.ShouldUseFastMode()) {
             yield return new WaitForSeconds(fastModeHiccupSeconds);
         }
+
+        advancePrompt.gameObject.SetActive(true);
+        AdvancePromptAlpha = 0.0f;
+        advancePrompt.CrossFadeAlpha(1.0f, advancePromptFadeInSeconds, false);
     }
 
     public IEnumerator FadeIn(float durationSeconds) {
@@ -81,6 +95,7 @@ public class TextboxComponent : MonoBehaviour {
 
     public IEnumerator Activate(ScenePlayer player) {
         gameObject.SetActive(true);
+        advancePrompt.gameObject.SetActive(false);
         Clear();
         if (fadeInTexture != null) {
             TransitionComponent transition = GetComponent<TransitionComponent>();

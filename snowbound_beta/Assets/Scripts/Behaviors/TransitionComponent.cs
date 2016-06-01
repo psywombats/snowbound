@@ -54,6 +54,7 @@ public class TransitionComponent : MonoBehaviour {
         if (this.elapsedSeconds > 0.0f) {
             this.elapsedSeconds = transitionDurationSeconds;
         }
+        AssignCommonShaderVariables();
         active = false;
     }
 

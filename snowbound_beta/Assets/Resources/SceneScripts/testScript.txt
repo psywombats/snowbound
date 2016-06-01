@@ -16,7 +16,7 @@ The background is black.
 
 [bg TEST_A curtains]
 
-The background is red?
+The background is red? This dialog is extended as part of a transition test. The background is red? This dialog is extended as part of a transition test. The background is red? This dialog is extended as part of a transition test. The background is red? This dialog is extended as part of a transition test. The background is red? This dialog is extended as part of a transition test.
 
 [bg TEST_B curtains]
 
