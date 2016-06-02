@@ -183,6 +183,8 @@ public class SceneScript {
                 return new SwitchToCommand(args[0]);
             case "bg":
                 return new BackgroundCommand(args[0], OptionalArg(args, 1));
+            case "bgm":
+                return new BGMCommand(args[0]);
             default:
                 if (choice != null) {
                     string choiceString = command + " " + String.Join(" ", args.ToArray());

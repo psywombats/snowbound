@@ -22,6 +22,7 @@ public class OscillationComponent : MonoBehaviour {
     private float elapsed;
 
     public void Start() {
+        originalPosition = gameObject.transform.localPosition;
         Reset();
     }
 
@@ -61,6 +62,5 @@ public class OscillationComponent : MonoBehaviour {
 
     private void Reset() {
         elapsed = 0;
-        originalPosition = gameObject.transform.localPosition;
     }
 }

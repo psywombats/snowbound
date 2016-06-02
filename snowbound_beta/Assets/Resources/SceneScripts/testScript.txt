@@ -2,6 +2,8 @@ testbox
 
 NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE 
 
+[bgm test_a]
+
 SYSTEM: Test time! Here comes Max!
 [enter MAX B]
 SYSTEM: And now for Rebecca!
@@ -11,6 +13,8 @@ SYSTEM: Pete will now replace Rebecca.
 MAX: I'm gonna leave as well.
 [exit MAX]
 SYSTEM: Max is gone?
+
+[bgm test_b]
 
 The background is black.
 

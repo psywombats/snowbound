@@ -8,12 +8,15 @@ public class FadeComponent : MonoBehaviour {
     public bool autoFadeIn = false;
     public float fadeTime = 0.8f;
 
+    private BGMPlayer bgm;
+
     private float Alpha {
         get { return image.color.a; }
         set { image.color = new Color(image.color.r, image.color.g, image.color.b, value); }
     }
 
     public void Awake() {
+        bgm = FindObjectOfType<BGMPlayer>();
         if (autoFadeIn) {
             Alpha = 1.0f;
         }
@@ -37,7 +40,7 @@ public class FadeComponent : MonoBehaviour {
     public IEnumerator FadeToBlackRoutine() {
         gameObject.transform.SetAsLastSibling();
         image.CrossFadeAlpha(1.0f, fadeTime, false);
-        yield return new WaitForSeconds(fadeTime);
+        yield return bgm.FadeOutRoutine(fadeTime);
     }
 
     public IEnumerator RemoveTintRoutine() {

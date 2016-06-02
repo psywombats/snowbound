@@ -7,20 +7,21 @@ public class ScenePlayer : MonoBehaviour, InputListener {
 
     private const string DialogSceneName = "DialogScene";
     private const float hiddenTextModeFadeoutSeconds = 0.6f;
-    private const string DefaultBackgroundName = "test_a";
 
     public TextAsset firstSceneFile;
     public Canvas canvas;
     public TextboxComponent textbox;
     public TextboxComponent paragraphBox;
-    public PortraitGroupComponent portraits;
     public BackgroundComponent background;
     public CharaIndexData charas;
-    public BackgroundIndexData backgrounds;
     public TransitionIndexData transitions;
     public TransitionComponent transition;
     public UnityEngine.UI.Text debugBox;
-    
+
+    public PortraitGroupComponent portraits;
+    public BackgroundIndexData backgrounds;
+    public BGMIndexData bgms;
+
     private SceneScript currentScript;
     private IEnumerator playingRoutine;
     private bool suspended;
@@ -41,7 +42,6 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         Global.Instance().input.PushListener(this);
         
         portraits.HideAll();
-        background.SetBackground(DefaultBackgroundName);
 
         if (Global.Instance().memory.ActiveMemory != null) {
             Global.Instance().memory.PopulateFromMemory(Global.Instance().memory.ActiveMemory);
@@ -112,6 +112,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         return FindObjectOfType<FadeComponent>();
     }
 
+    public BGMPlayer GetBGM() {
+        return FindObjectOfType<BGMPlayer>();
+    }
+
     public IEnumerator PlayScriptForScene(string sceneName) {
         TextAsset file = SceneScript.AssetForSceneName(sceneName);
         yield return StartCoroutine(PlayScriptForScene(file));
@@ -132,6 +136,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
 
     public BackgroundData GetBackground(string tag) {
         return backgrounds.GetBackground(tag);
+    }
+
+    public BGMData GetBGM(string tag) {
+        return bgms.GetBGM(tag);
     }
 
     public ScreenMemory ToMemory() {
