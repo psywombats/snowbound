@@ -7,6 +7,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
 
     private const string DialogSceneName = "DialogScene";
     private const float hiddenTextModeFadeoutSeconds = 0.6f;
+    private const string DefaultBackgroundName = "test_a";
 
     public TextAsset firstSceneFile;
     public Canvas canvas;
@@ -40,6 +41,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         Global.Instance().input.PushListener(this);
         
         portraits.HideAll();
+        background.SetBackground(DefaultBackgroundName);
 
         if (Global.Instance().memory.ActiveMemory != null) {
             Global.Instance().memory.PopulateFromMemory(Global.Instance().memory.ActiveMemory);
