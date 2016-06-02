@@ -150,6 +150,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         }
         portraits.PopulateMemory(memory);
         background.PopuateMemory(memory);
+        GetBGM().PopulateMemory(memory);
         return memory;
     }
 
@@ -160,6 +161,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         currentScript = new SceneScript(memory);
         portraits.PopulateFromMemory(memory);
         background.PopulateFromMemory(memory);
+        GetBGM().PopulateFromMemory(memory);
     }
 
     public IEnumerator ResumeRoutine() {

@@ -40,7 +40,8 @@ public class FadeComponent : MonoBehaviour {
     public IEnumerator FadeToBlackRoutine() {
         gameObject.transform.SetAsLastSibling();
         image.CrossFadeAlpha(1.0f, fadeTime, false);
-        yield return bgm.FadeOutRoutine(fadeTime);
+        StartCoroutine(bgm.FadeOutRoutine(fadeTime));
+        yield return new WaitForSeconds(fadeTime);
     }
 
     public IEnumerator RemoveTintRoutine() {

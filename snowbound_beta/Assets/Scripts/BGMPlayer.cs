@@ -15,6 +15,20 @@ public class BGMPlayer : MonoBehaviour {
         player = FindObjectOfType<ScenePlayer>();
     }
 
+    public void PopulateMemory(ScreenMemory memory) {
+        if (currentTrack != null) {
+            memory.bgmTag = currentTrack.tag;
+        }
+    }
+
+    public void PopulateFromMemory(ScreenMemory memory) {
+        if (memory.bgmTag != null && memory.bgmTag.Length > 0) {
+            currentTrack = player.GetBGM(memory.bgmTag);
+            source.clip = currentTrack.track;
+            source.Play();
+        }
+    }
+
     public IEnumerator FadeOutRoutine() {
         return FadeOutRoutine(fadeSeconds);
     }

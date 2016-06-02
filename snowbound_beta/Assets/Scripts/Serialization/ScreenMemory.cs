@@ -12,5 +12,6 @@ public class ScreenMemory {
 
     public string sceneName;
     public string backgroundTag;
+    public string bgmTag;
     public int commandNumber;
 }

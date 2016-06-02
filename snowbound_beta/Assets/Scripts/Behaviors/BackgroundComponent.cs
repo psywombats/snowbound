@@ -23,8 +23,10 @@ public class BackgroundComponent : MonoBehaviour {
     }
 
     public void PopulateFromMemory(ScreenMemory memory) {
-        currentBackground = player.GetBackground(memory.backgroundTag);
-        UpdateDisplay();
+        if (memory.backgroundTag != null && memory.backgroundTag.Length > 0) {
+            currentBackground = player.GetBackground(memory.backgroundTag);
+            UpdateDisplay();
+        }
     }
 
     private void UpdateDisplay() {
