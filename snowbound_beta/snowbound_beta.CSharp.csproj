@@ -120,6 +120,10 @@
     <Compile Include="Assets\Scripts\Serialization\ScreenMemory.cs" />
     <Compile Include="Assets\Scripts\Serialization\SystemMemory.cs" />
     <Compile Include="Assets\Scripts\Serialization\TachiMemory.cs" />
+    <Compile Include="Assets\Scripts\Settings\Setting.cs" />
+    <Compile Include="Assets\Scripts\Settings\SettingsCollection.cs" />
+    <Compile Include="Assets\Scripts\Settings\SettingsConstants.cs" />
+    <Compile Include="Assets\Scripts\Settings\SettingsDefaults.cs" />
     <Compile Include="Assets\Scripts\Utils.cs" />
   </ItemGroup>
   <ItemGroup>
