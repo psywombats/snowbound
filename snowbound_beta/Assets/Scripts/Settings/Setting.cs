@@ -20,9 +20,8 @@ public class Setting<T> {
     }
 
     public Setting(string tag, T defaultValue) {
+        this.onModify = new UnityEvent();
         this.tag = tag;
         this.Value = defaultValue;
-
-        onModify = new UnityEvent();
     }
 }

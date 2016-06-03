@@ -132,17 +132,23 @@ public class MemoryManager : MonoBehaviour {
     }
 
     public void SaveSystemMemory() {
+
+        // constants we keep track of
         float currentTimestamp = Time.realtimeSinceStartup;
         float deltaSeconds = currentTimestamp - lastSystemSavedTimestamp;
         lastSystemSavedTimestamp = currentTimestamp;
         SystemMemory.totalPlaySeconds += (int)Math.Round(deltaSeconds);
 
+        // seen history
         foreach (string key in maxSeenCommands.Keys) {
             SystemMemory.maxSeenCommandsKeys.Add(key);
         }
         foreach (int value in maxSeenCommands.Values) {
             SystemMemory.maxSeenCommandsValues.Add(value);
         }
+
+        // other garbage in other managers
+        SystemMemory.settings = Global.Instance().settings.ToMemory();
 
         WriteJsonToFile(SystemMemory, GetSystemMemoryFilepath());
     }
@@ -188,11 +194,18 @@ public class MemoryManager : MonoBehaviour {
             SystemMemory = ReadJsonFromFile<SystemMemory>(path);
         } else {
             SystemMemory = new SystemMemory();
+            Global.Instance().settings.LoadDefaults();
         }
 
+        // reconstruct dictionaries
         maxSeenCommands = new Dictionary<string, int>();
         for (int i = 0; i < SystemMemory.maxSeenCommandsKeys.Count; i += 1) {
             maxSeenCommands[SystemMemory.maxSeenCommandsKeys[i]] = SystemMemory.maxSeenCommandsValues[i];
+        }
+
+        // ferry info to other managers
+        if (SystemMemory.settings != null) {
+            Global.Instance().settings.PopulateFromMemory(SystemMemory.settings);
         }
     }
 
