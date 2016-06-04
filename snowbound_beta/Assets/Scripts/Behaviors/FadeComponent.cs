@@ -39,14 +39,28 @@ public class FadeComponent : MonoBehaviour {
     
     public IEnumerator FadeToBlackRoutine() {
         gameObject.transform.SetAsLastSibling();
-        image.CrossFadeAlpha(1.0f, fadeTime, false);
-        StartCoroutine(bgm.FadeOutRoutine(fadeTime));
-        yield return new WaitForSeconds(fadeTime);
+        ScenePlayer player = FindObjectOfType<ScenePlayer>();
+        if (player != null && player.ShouldUseFastMode()) {
+            image.CrossFadeAlpha(1.0f, fadeTime / 5f, false);
+            //StartCoroutine(bgm.FadeOutRoutine(fadeTime));
+            yield return new WaitForSeconds(fadeTime / 5f);
+        } else {
+            image.CrossFadeAlpha(1.0f, fadeTime, false);
+            //StartCoroutine(bgm.FadeOutRoutine(fadeTime));
+            yield return new WaitForSeconds(fadeTime);
+        }
     }
 
     public IEnumerator RemoveTintRoutine() {
-        gameObject.transform.SetAsLastSibling();
-        image.CrossFadeAlpha(0.0f, fadeTime, false);
-        yield return new WaitForSeconds(fadeTime);
+        ScenePlayer player = FindObjectOfType<ScenePlayer>();
+        if (player != null && player.ShouldUseFastMode()) {
+            gameObject.transform.SetAsLastSibling();
+            image.CrossFadeAlpha(0.0f, fadeTime, false);
+            yield return new WaitForSeconds(fadeTime);
+        } else {
+            gameObject.transform.SetAsLastSibling();
+            image.CrossFadeAlpha(0.0f, fadeTime / 5f, false);
+            yield return new WaitForSeconds(fadeTime  /5f);
+        }
     }
 }

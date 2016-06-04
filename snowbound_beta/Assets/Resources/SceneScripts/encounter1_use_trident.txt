@@ -1,0 +1,12 @@
+[enter STARYU B]
+[enter CUCU A]
+[enter SNAIL D]
+
+STARYU: Oh Poseidon, mighty god of oceans, smite this stupid snail!
+SNAIL: The runed trident "Ire of Poseidon?" Noooo!
+[exit SNAIL]
+Critical hit!!
+CUCU: You won a combat!
+STARYU: Don't touch his gun, I don't trust you with it.
+
+[goto trail2]

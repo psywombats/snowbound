@@ -1,0 +1,29 @@
+CUCU: Good choice, pal! Very fetching! I'm sure Squidius won't be able to resist you now!
+STARYU: I'm not trying to seduce him, idiot. Now come on, let's get a move on.
+CUCU: Whatever you say!
+
+[bg medium pixel]
+
+Your new armor, courtesy of the slain snail, shall serve you well. As you continue down the path, the light from the surface slowly fades away, and the wildlife disappears into the shadows. Sadly, the same cannot be said for Cucu.
+
+The Silent Squid Citadel looms in the distance. Many tentacle towers line the horizon, completely blocking off your view of the world above. Nothing stirs at these depths. Cautiously, you make your way to the gate, Cucu babbling behind you the whole time.
+
+[enter STARYU B]
+[enter CUCU A]
+CUCU: Say boss, isn't this another skull on the map?
+STARYU: Hmm looks like you're right. Why don't you go on ahead, Cucu!
+CUCU: Aaaaaaah!
+[bgm battle]
+[enter FATHEAD D]
+FATHEAD: Brrrrrr... This gate is the farthest you shall go.
+CUCU: Help! Staryu! It's a random encounter!
+STARYU: I'm well-armored, I really don't need to worry.
+CUCU: Save me, Staryu!
+FATHEAD: Brrrrr... My name is... Fathead, the black mage. This... spells your end, starfish.
+STARYU: You have a couple levels in Improved Fireball?
+CUCU: Hurry up and do something Staryu!
+[hold]
+
+[choice]
+[Apply your "Open Lock" skill :: encounter2_stupid]
+[Use whatever worked last time, obviously :: encounter2_victory]

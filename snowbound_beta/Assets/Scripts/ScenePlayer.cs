@@ -90,7 +90,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     }
 
     public bool ShouldUseFastMode() {
-        return currentScript.ShouldUseFastMode(this);
+        return currentScript != null && currentScript.ShouldUseFastMode(this);
     }
 
     public void AcknowledgeHurried() {

@@ -1,0 +1,9 @@
+[increment gun]
+
+[enter staryu c]
+STARYU: I'll the Sig Sauer. I'm an action hero at heart.
+CUCU: And I'm you're faithful sidekick!
+STARYU: Yeah just take as much ammo as your cucumbery arms can carry and stay the hell away from everything else in that treasure chest.
+CUCU: Right-o!
+
+[goto encounter1]

@@ -1,0 +1,9 @@
+[increment nuke]
+
+STARYU: Pass me the tactical nuke, Cucu!
+CUCU: The what?
+STARYU: The big artillery shell looking thing.
+CUCU: Artilla-what?
+STARYU: Just get out of my way.
+
+[goto encounter1]

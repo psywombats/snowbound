@@ -1,0 +1,6 @@
+STARYU: The ingots. All of them.
+Cucu begins picking ingots off the ground from where Fathead left them. This could take quite a while.
+STARYU: Hurry up, you worthless cuccumber.
+CUCU: Nnnngh!
+
+[goto trail5]

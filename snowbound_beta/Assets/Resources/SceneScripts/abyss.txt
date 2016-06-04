@@ -1,0 +1,7 @@
+CUCU: You sure about this, bud?
+STARYU: C'mon, we've got an abyssal plane to explore!
+CUCU: Yahoo!
+
+You are killed by a balor.
+
+[end IDIOTIC_CHOICE_OF_MAPS]

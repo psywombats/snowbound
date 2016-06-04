@@ -1,0 +1,24 @@
+[bg light pixel]
+
+The trail is long and arduous. Most of the passing invertebrates are frightened away by your terrifying weapon, but sadly Cucu is harder to shake off. His chatter will probably kill you before Squidius does. Just as your patience reaches its limits, you come to a location marked on the map with a giant skull.
+
+[enter STARYU B]
+[enter CUCU A]
+STARYU: Cucu, did you put this skull on the map?
+CUCU: Nope! Should I start digging for skulls then?
+STARYU: If it keeps you from talking at me then -
+[enter SNAIL D]
+[bgm battle]
+SNAIL: Halt! This is the road to the Solemn Squid Stronghold! Who are you that dares to trespass!
+CUCU: My name's Cucu the Sea Cucumber.
+STARYU: He's obviously talking to me. Get out of the way, Cucu.
+SNAIL: I said halt! All who disturb Squidius shall be slain!
+STARYU: Easy for you to say, he didn't give you these ridiculous arms.
+SNAIL: Nevertheless, I am armed.
+CUCU: Staryu! You've gotta do something, pal! This guy looks angry!
+STARYU: I don't know, he just looks like a snail to me, but I guess we have no choice...
+[hold]
+
+[branch nuke > 0]
+[true :: encounter1_nuke]
+[false :: encounter1_nonuke]

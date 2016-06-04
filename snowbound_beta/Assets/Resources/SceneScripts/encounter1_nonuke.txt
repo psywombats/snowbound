@@ -1,0 +1,3 @@
+[branch trident > 0]
+[true :: encounter1_trident]
+[false :: encounter1_sig]

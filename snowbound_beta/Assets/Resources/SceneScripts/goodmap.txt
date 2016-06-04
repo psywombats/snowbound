@@ -1,0 +1,38 @@
+CUCU: Good idea, bud!
+STARYU: Well don't just sit there. Hand over the map!
+Cucu offers you a scrap of paper with his stringy cucumber arm.
+STARYU: What on earth is this? This map is tiny. Like, 3 by 3 inches tops.
+CUCU: That's just how it is, friend!
+STARYU: I can't read anything on this. Just take it back.
+CUCU: I'll read the map for you and tell you where to go! Doesn't that sound fun!
+STARYU: I find it hard to believe you can see anything period, but I'm gonna get my revenge on Squidius no matter what. So stop standing around and tell me where I should be going.
+
+[bg medium pixel]
+
+The map serves you well. You arrive on a winding path that spirals deeper into the ocean. This map even seems to have some treasure marked on it. Maybe Cucu isn't so worthless after all.
+
+[enter STARYU B]
+[enter CUCU D]
+STARYU: Okay, this should be the X on the map. Get digging, Cucu.
+CUCU: Okie dokie boss!
+Watching Cucu dig is a painful sight. But finally...
+CUCU: Treasure!
+STARYU: Hurry up and open it! We'll need anything we can find to defeat Squidius.
+CUCU: Hurrrf... Urrrrfff...
+STARYU: Can you be a little more quiet about it?
+CUCU: Ha! Finally, the treasure is ours! Huzzah! But uh... There's a lot in here!
+STARYU: Woah...
+
+Soaked in Cucu's cucumber slime, the chest lies open before you. Firearms, nunchuks, mystic artifacts, laser rifles, wands brimming with arcane power... Inside lies a weapon cache sufficient to arm a small nation. Or to arm a questionably-armed starfish. There's only one problem, however...
+
+[enter STARYU D]
+[enter CUCU B]
+CUCU: How are we gonna carry all this stuff, bro?
+STARYU: Put that thing down before you turn yourself into a sea pickle and let me sort this out.
+
+You have nine arms, but only enough inventory space for one of these items. Which will it be?
+
+[choice]
+[SIG Sauer P226 :: gun]
+[Runed trident "Ire of Poseidon" :: trident]
+[Tactical nuke :: nuke]

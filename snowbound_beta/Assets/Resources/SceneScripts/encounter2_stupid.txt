@@ -1,0 +1,15 @@
+FATHEAD: Brrrr... what... are you doing?
+You repeatedly jam your lockpicks into Fathead's fat head, but the globby fish seems unharmed.
+STARYU: Unlock, damn you!
+FATHEAD: Buruburubu!! You have been... cursed!
+CUCU: Staryu, noo!!
+STARYU: What's happening to me?
+A fate worse than death awaits you...
+[exit STARYU]
+[enter CUCU B]
+FATHEAD: Brrrr... You have been turned... Into a sea cucumberrrr!
+STARYU: The pain, the pain!
+CUCU: Huzzah! We can be best friends now Staryu!
+FATHEAD: Brrrahahaaaaaa!
+
+[end SEA_CUCUMBERS_AINT_SO_BAD]

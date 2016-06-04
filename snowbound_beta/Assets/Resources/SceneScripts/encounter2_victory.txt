@@ -1,0 +1,20 @@
+STARYU: I'll fill you full of holes, you over-filled gas bladder!
+FATHEAD: Brrrr! I cast... Firebeam!
+CUCU: Staryu! Watch out!
+As Fathead cackles, a jet of superheated water shoots from his nose, aimed straight for your chest! Er, middle, whatever.
+But! Your truly fashionable choice in armor reflects the ray! It only grazes Cucu and flies harmlessly into the aquatic backdrop
+CUCU: Ow!
+FATHEAD: Brrraaaargh! Time to flee!
+[exit FATHEAD]
+CUCU: He's gone.
+[bgm animal]
+STARYU: Oh well. I should've asked him to teleport you back home or something.
+CUCU: Look! He dropped some loot!
+STARYU: I'm not carrying any of that junk.
+CUCU: I'll help you out, friend! Just tell me what to carry.
+[hold]
+
+[choice]
+[Skeleton key :: trail4]
+[Turkey drumstick :: trail4]
+[Three hundred pounds of gold ingots :: gold]

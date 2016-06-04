@@ -1,0 +1,69 @@
+[bgm anger]
+
+Nine hundred ninety nine years ago, far below the surface of the ocean...
+
+A tale of love, a tale of valor, but most of all, a tale of revenge...
+
+[bg medium]
+
+A tale of a lone starfish, defying the the odds...
+
+A tale of an insidious squid, set against him in opposition...
+
+[bg light]
+
+Nine hundred ninety nine leagues under the sea...
+
+A drama the likes of which humanity has never seen is about to unfold...
+
+[bg test_b]
+
+SAVAGE SEA CRUSADE - a terrible idea by psy_wombats
+
+YOU ARE: STARYU THE STARFISH
+
+[bg light]
+[bgm animal]
+
+[enter staryu C]
+STARYU: My life is pain.
+You are Staryu, the nine-armed starfish.
+Life is pain.
+STARYU: Ever since that villain Squidius implanted me with these extra arms, I've been treated as a reject by the other starfish...
+You are a reject starfish with no friends.
+STARYU: If only I could prove my worth somehow...
+
+Well, as it happens, you do have one friend. In fact, it looks like he's coming this way. Say hello!
+
+[enter staryu D]
+[enter cucu B]
+CUCU: Hiya Staryu!
+STARYU: Oh god it's you.
+Cucu, the sea cucumber. Your only friend, and the other victim of the evil Squidius's twisted experiments.
+CUCU: Staryu, we've gotta stick together, pal!
+STARYU: I wish I had some better friends.
+CUCU: Wouldn't that put you past the character quota though?
+STARYU: Huh?
+CUCU: Anyway buddy, I got good news!
+STARYU: You're leaving the game permanently in favor of a better character?
+CUCU: No silly, I've found a map to Squidius's lair!
+STARYU: You don't say...
+
+Squidius's lair? That mythic dungeon at the bottom of the ocean... Hidden from the ordinary invertebrates of the upper ocean, the Squid Dungeon of Solemn Splendor is populated solely by the abominations of the aquatic depths. To seek out Squidius in his lair and prove yourself a hero... This could be the chance!
+
+Unfortunately this means you'll probably have to deal with Cucu.
+
+[enter staryu D]
+[enter cucu B]
+STARYU: Alright Cucu, let's see this map. Nobody's ever managed to get to this Squid Dungeon of Splendorous whatever so you've better have quite the find.
+CUCU: Well uh see this is kind of the problem ol' pal... It's not one map, it's actually three of them!
+STARYU: Perfect. Where the hell did you get three maps?
+CUCU: I figured you should decide which one we should follow! Otherwise I'd have gone to the squid lair myself.
+STARYU: You'd probably get killed by a barnacle or a plastic sixpack ring before that.
+CUCU: Well hurry up and pick the map!
+[hold]
+
+[choice]
+[Topographical map of the abyssal plain :: goodmap]
+[Transdimensional map of the abyssal plane :: abyss]
+[Nautical map of plot-relevant locations :: goodmap]

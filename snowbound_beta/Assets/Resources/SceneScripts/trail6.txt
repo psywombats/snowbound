@@ -1,0 +1,48 @@
+
+The battle commences! Squidius's tentacles rain down on your sensitive center, but for each tentacle, you have an arm to parry it. In fact, you even seem to have the upper hand. Or at least the better upper body strength. Squidius is slowly becoming exhaused. But! A broadsword flashes through the air.
+
+[enter CUCU B]
+[enter SQUID_SWORD D]
+CUCU: Arrrgh!
+SQUIDIUS: Heh heh heh...
+CUCU: Don't worry buddy, I'm okay!
+STARYU: Just my luck...
+
+With the broadsword in play, nothing is certain. Squidius grazes one arm after the other. (sadly your eigth and ninth arms remain as sturdy as ever.) But Squidius slowly loses his stamina as the fight drags on. Unfortunately your stamina is also under attack -- there's only so long one can listen to a sea cucumber wail in the background. At long last, Squidius is disarmed.
+
+[enter STARYU B]
+[enter SQUIDIUS D]
+STARYU: Ha!
+SQUIDIUS: You call that disarmed? I've still got eight left!
+STARYU: I think this joke's played out long enough. Surrender now, Squidius, or prepare to die!
+SQUIDIUS: It seems you've defeated me... But... Is this enough to satisfy you?
+STARYU: No not really. This whole thing has been kind of pointless, aside from the chestful of weaponry.
+SQUIDIUS: Heh heh heh... Was it quite the armful?
+STARYU: One more crack like that and you're dead. Tell me why I should spare you.
+SQUIDIUS: Staryu, you must understand... Nine is beautiful. I only wanted you to realize this. I never meant you any harm.
+STARYU: ...Seriously?
+SQUIDIUS: You and me... Our symmetrical body plans... Don't you see? We were destined to be this way. Three by three is nine, Staryu. You are truly beautiful. In fact, the most handsome creature in the sea.
+STARYU: You really think so?
+CUCU: I do!
+SQUIDIUS: I've always been an eight-armed creature... Imperfect. Always tainted in the eyes of god. 
+STARYU: Heartrending.
+SQUIDIUS: But I live on through you. Without my gift, would you have come this far?
+STARYU: Maybe I'll let you live, Squidius. You're a misguided mad scientist and seem to be confused about how many arms squids and octopi have, but this isn't a biology textbook.
+STARYU: Just next time maybe try to keep your experiments confined to sea cucumbers or something.
+
+[bgm animal]
+[bg light wipe]
+
+EPILOGUE
+
+Congratulations! You hav
+
+Squidius lived a full life and eventually fulfilled his destiny as a very tasty dish of calamari.
+
+Cucu happily spent his days foraging for tiny maps. He eventually reproduced asexually and today, nine hundred and ninety nine years later, millions of his descendants roam the ocean floor.
+
+Staryu learned much about himself that day, and eventually worked his way to the ocean surface, where he became a renowned fashion model and playboy, finally truly convinced that nine was the perfect number. His story would become an inspiration to buff young stars everywhere.
+
+~~ THE END ~~
+
+[end SORRY_YOU_HAD_TO_READ_THIS_CRAP]

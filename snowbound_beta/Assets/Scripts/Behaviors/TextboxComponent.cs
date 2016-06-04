@@ -7,7 +7,7 @@ using UnityEngine.Assertions;
 [RequireComponent(typeof(TransitionComponent))]
 public class TextboxComponent : MonoBehaviour {
 
-    private const float characterDelay = (1 / 32f);
+    private const float characterDelay = (1 / 40f);
     private const float textboxFadeSeconds = 0.5f;
     private const float fastModeHiccupSeconds = 0.05f;
     private const float fastModeFadeSeconds = 0.15f;

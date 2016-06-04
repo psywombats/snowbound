@@ -1,0 +1,11 @@
+[enter STARYU B]
+[enter CUCU A]
+[enter SNAIL D]
+STARYU: Eat lead!
+You fire on the snail. His thick shell is no match for your trusty sidearm.
+[exit SNAIL]
+Pieces of snail and gastropod guts drift about in the current. Seriously was that the best choice of weapon?
+CUCU: Nice job, Staryu!
+STARYU: I'm not sharing the XP.
+
+[goto trail2]

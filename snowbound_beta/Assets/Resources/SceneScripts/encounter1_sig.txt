@@ -1,0 +1,3 @@
+[choice]
+[Apply your "intimidate" skill :: encounter1_skill]
+[Shoot 'em up :: encounter1_use_sig]

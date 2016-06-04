@@ -1,0 +1,10 @@
+[increment trident]
+
+[enter staryu c]
+STARYU: Pass me the trident, Cucu!
+CUCU: The skymetal one?
+STARYU: No, the -
+CUCU: The orite one?
+STARYU: No the glowing one covered with runes, you cucumber!
+
+[goto encounter1]

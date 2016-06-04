@@ -1,0 +1,11 @@
+STARYU: So, Squidius, do you have any hobbies?
+SQUIDIUS: I enjoy screwing with the arm counts of invertebrates. I'm also a fan of being both a character and a monster. But I'm intrested, Staryu, why do you ask?
+STARYU: I'm trying to empathize with you. We need to build mutual respect.
+SQUIDIUS: Perhaps you will respect... this!
+[exit SQUIDIUS]
+[enter SQUID_SWORD D]
+CUCU: Noooo! Staryu!
+
+Despite your best efforts at using your words, Squidius nonetheless severs all your limbs. It will take months for them to regenerate. Too bad! Maybe if this were a better story you could've come to a mutual understanding, but instead, you get a bad end.
+
+[end SORRY_THERES_LIKE_THREE_MINUTES_LEFT]

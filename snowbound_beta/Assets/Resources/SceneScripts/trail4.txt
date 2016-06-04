@@ -1,0 +1,6 @@
+CUCU: Whatever you say sir!
+Rather than picking up item in question, Cucu simply sucks it up into his intestine.
+STARYU: You're one gross creature. Now that you have arms you don't have to behave like one giant intestinal tract you know.
+CUCU: Mmmph!
+
+[goto trail5]

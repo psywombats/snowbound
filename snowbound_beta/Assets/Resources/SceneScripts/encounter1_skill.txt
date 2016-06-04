@@ -1,0 +1,8 @@
+STARYU: Nnngh! Check out this physique!
+SNAIL: ...
+The snail readies his weapon!
+CUCU: Staryu, nooooo!
+
+You are riddled with holes. Cucu will be the only one who mourns you. What a tragedy.
+
+[end STARFISH_ARE_NOT_INTIMIDATING]

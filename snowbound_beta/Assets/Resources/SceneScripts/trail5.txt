@@ -1,0 +1,21 @@
+[bg dark curtains]
+
+You finally arrive at the heart of the Squid Central Sanctuary. Seated before you, in the center of the cylindrical citadel, sits none other than the author of this evil himself - Squidius.
+
+[bgm anger]
+
+[enter CUCU A]
+[enter STARYU B]
+[enter SQUIDIUS D]
+SQUIDIUS: Well well well... What do we have here? A starfish and his loyal companion?
+STARYU: Too loyal.
+CUCU: Squidius! Thank you for the arms!
+SQUIDIUS: Heh heh heh... All part of my plan.
+STARYU: You! You're the reason the other starfish look down on me! With this many arms, I'm a mutant!
+SQUIDIUS: How naive... Nine is the perfect number! Don't you see?
+STARYU: All I see is that we'll never see eye to eye, Squidius. You gave me these arms, and now I'll use them to defeat you!
+[hold]
+
+[choice]
+[Apply your "People skills" skill :: encounter3_death]
+[Engage Squidius in arm-to-arm combat! :: trail6]

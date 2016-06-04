@@ -1,0 +1,14 @@
+[bgm animal]
+[enter CUCU B]
+[enter STARYU D]
+CUCU: Look Staryu! This guy was carrying some armor!
+STARYU: Three pieces of armor, huh? I guess it's true what they say about snails.
+CUCU: If only any armor fit my gourd-shaped body...
+STARYU: Luckily all of these seem to be designed for my musclebound star physique.
+What'll it be?
+[hold]
+
+[choice]
+[Scale Mail :: trail3]
+[Bulletproof Vest :: trail3]
+[Sailor Uniform :: trail3]
