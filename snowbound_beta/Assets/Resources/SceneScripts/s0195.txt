@@ -1,5 +1,0 @@
-[s0195]
-
-[branch LARA_BAD_END > 0]
-[true :: s0144]
-[false :: s0145]

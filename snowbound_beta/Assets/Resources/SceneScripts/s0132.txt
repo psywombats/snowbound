@@ -1,5 +1,0 @@
-[s0132]
-
-[branch CAITLYN_BAD_END > 0]
-[true :: s0133]
-[false :: s0052]

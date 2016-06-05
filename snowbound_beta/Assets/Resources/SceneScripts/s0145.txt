@@ -1,5 +1,0 @@
-[s0145]
-
-[branch REFUSE_BAD_END > 0]
-[true :: s0146]
-[false :: s0147]

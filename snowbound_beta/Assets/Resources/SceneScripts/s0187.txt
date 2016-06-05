@@ -1,8 +1,0 @@
-[s0187]
-[decrement SID]
-
-No. I have to think clearly. I've been here less than a day, and this is no time to be taking chances. If I'm caught, the entire plan will fall apart. It can wait one more day, right? I hope it's only Shibin tied up in there.
-
-For now, I try to sleep. Tomorrow is when my work will begin in earnest, and I'll need all my energy for the task. I know Rebecca will able to convince Max; she's the best at this sort of thing. I only hope I'm able to match her feat.
-
-[goto s0065]

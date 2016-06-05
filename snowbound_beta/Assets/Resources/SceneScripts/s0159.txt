@@ -1,7 +1,0 @@
-[s0159]
-
-We pass the remainder of the night making use of Max's cards. Blackjack's the only game we all know. It's the first time I can remember enjoying myself in these past five days. I'm hungry and the room is as cold as ever, but even so, I can't bring myself to be concerned with all of our problems at the moment. As the candlelight dies, we all find a place to rest in the tangled nest in the center of the room. Tomorrow is uncertain, but today could have been a lot worse.
-
-[branch UNSHUT_DOOR > 0]
-[true :: s0161]
-[false :: s0059]

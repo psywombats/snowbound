@@ -1,5 +1,0 @@
-[s0127]
-
-[choice]
-[Ignore Felix's provocation :: s0129]
-[Confront him :: s0128]

@@ -1,5 +1,0 @@
-[s0103]
-
-[choice]
-[Accept and be the intelligence officer :: s0009]
-[Decline :: s0105]

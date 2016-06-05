@@ -1,9 +1,0 @@
-[s0048]
-[decrement MARISA]
-
-MARISA: "What?"
-
-[choice]
-[And you used me. :: goto s0014]
-[And I thought it was real. :: goto s0014]
-[And your lack of personal hygiene disgusts me. :: goto s0045]

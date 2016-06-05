@@ -1,5 +1,0 @@
-[s0207]
-
-[branch TRIED_CATWALKS > 0]
-[true :: s0136]
-[false :: s0135]

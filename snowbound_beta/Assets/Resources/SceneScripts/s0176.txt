@@ -1,7 +1,0 @@
-[s0176]
-[increment SOPHIE]
-
-REBECCA: "Sophie should be in the gym."
-ERIC: "Right. Let's keep moving, then."
-
-[goto s0177]

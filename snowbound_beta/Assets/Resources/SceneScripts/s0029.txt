@@ -1,8 +1,0 @@
-[s0029]
-
-REBECCA: "We'll be out sometime tomorrow, so we should be fine if we rest."
-ERIC: "Good. I'm sorry, I'm running out of strength."
-REBECCA: "So am I. Don't worry, tomorrow's the last day."
-ERIC: "I really hope so. Let's sleep."
-
-[goto s0084]

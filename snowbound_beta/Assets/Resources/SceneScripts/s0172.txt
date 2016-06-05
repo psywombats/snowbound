@@ -1,5 +1,0 @@
-[s0172]
-
-We both walk up the stairs to the first floor landing. If Felix and company control the basement, there's really no point in going back now. I only put in about an hour's worth of filing on the bottom door anyway, so the switch isn't such a large loss. I'm sure that if we break through this door, we'll be able to work out something between Kenneth and Felix.
-
-[goto s0174]

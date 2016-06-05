@@ -1,5 +1,0 @@
-[s0167]
-
-I start to work at the bolt holding the second story fire door. If we cut through, we'll have a whole new hall to work with. If the ordeal in the biology hallway is any indication, we should be able to survive with what we find for a few days. By that time, someone will have to use the south stairs. All it takes is one person to open the any of the three doors, and we're free.
-
-[goto s0168]
