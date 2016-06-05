@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 using System.Collections;
 using System;
 
 public class EndCommand : SceneCommand {
+
+    private const string TitleSceneName = "TitleScene";
 
     private string endingKey;
     
@@ -15,6 +18,10 @@ public class EndCommand : SceneCommand {
         yield return player.paragraphBox.FadeIn(0.5f);
         yield return player.paragraphBox.ShowText(player, "ENDING " + endingKey);
         yield return Global.Instance().input.AwaitAdvance();
-        Application.Quit();
+
+        FadeComponent fade = player.GetFade();
+        yield return fade.FadeToBlackRoutine();
+
+        SceneManager.LoadScene(TitleSceneName);
     }
 }

@@ -21,9 +21,9 @@ public class BackgroundCommand : SceneCommand {
         FadeComponent fade = player.GetFade();
 
         yield return player.StartCoroutine(player.paragraphBox.FadeOut(TextboxFadeSeconds));
-
+        
         if (data.transitionMask == null) {
-            yield return player.StartCoroutine(fade.FadeToBlackRoutine());
+            yield return player.StartCoroutine(fade.FadeToBlackRoutine(true, false));
         } else {
             yield return player.StartCoroutine(transition.TransitionRoutine(data.transitionMask, false));
         }
@@ -38,7 +38,7 @@ public class BackgroundCommand : SceneCommand {
         }
 
         if (data.transitionMask == null) {
-            yield return player.StartCoroutine(fade.RemoveTintRoutine());
+            yield return player.StartCoroutine(fade.RemoveTintRoutine(true));
         } else {
             yield return player.StartCoroutine(transition.TransitionRoutine(data.transitionMask, true));
         }
