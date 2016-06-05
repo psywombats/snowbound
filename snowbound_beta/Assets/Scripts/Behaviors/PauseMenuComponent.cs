@@ -16,6 +16,7 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
     public Button closeButton;
     public Button titleButton;
     public Button logButton;
+    public Button settingsButton;
 
     private ScenePlayer player;
 
@@ -49,6 +50,9 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
         });
         logButton.onClick.AddListener(() => {
             StartCoroutine(LogRoutine());
+        });
+        settingsButton.onClick.AddListener(() => {
+            StartCoroutine(SettingsRoutine());
         });
     }
 
@@ -142,5 +146,14 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
         });
         logObject.GetComponent<LogComponent>().Alpha = 0.0f;
         yield return StartCoroutine(logObject.GetComponent<LogComponent>().FadeIn());
+    }
+
+    private IEnumerator SettingsRoutine() {
+        yield return StartCoroutine(FadeOut());
+        GameObject settingsObject = SettingsMenuComponent.Spawn(gameObject.transform.parent.gameObject, () => {
+            StartCoroutine(FadeIn());
+        });
+        settingsObject.GetComponent<SettingsMenuComponent>().Alpha = 0.0f;
+        yield return StartCoroutine(settingsObject.GetComponent<SettingsMenuComponent>().FadeInRoutine());
     }
 }
