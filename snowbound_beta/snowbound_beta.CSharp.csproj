@@ -81,6 +81,7 @@
     <Compile Include="Assets\Scripts\Behaviors\PortraitGroupComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\SaveButtonComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\SaveMenuComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\SettingSliderComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\TachiComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\TextboxComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\TransitionComponent.cs" />

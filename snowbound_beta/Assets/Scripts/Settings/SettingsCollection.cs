@@ -35,8 +35,8 @@ public class SettingsCollection : MonoBehaviour {
         AddFloatSetting(SettingsConstants.BGMVolume, defaults.bgmVolume);
     }
 
-    public float GetFloatSetting(string tag) {
-        return floatSettings[tag].Value;
+    public Setting<float> GetFloatSetting(string tag) {
+        return floatSettings[tag];
     }
 
     private void AddFloatSetting(string tag, float value) {
