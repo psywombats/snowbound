@@ -26,7 +26,7 @@ public abstract class MenuComponent : MonoBehaviour, InputListener {
         return menuObject;
     }
 
-    public bool OnCommand(InputManager.Command command) {
+    public virtual bool OnCommand(InputManager.Command command) {
         switch (command) {
             case InputManager.Command.Menu:
             case InputManager.Command.Rightclick:

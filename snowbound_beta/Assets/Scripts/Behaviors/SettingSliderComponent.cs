@@ -13,12 +13,14 @@ public class SettingSliderComponent : MonoBehaviour {
     private Scrollbar scrollbar;
     private Setting<float> setting;
     private Vector2 originalLabelLocation;
+    private bool dirty;
 
     public void Awake() {
         scrollbar = GetComponent<Scrollbar>();
         setting = Global.Instance().settings.GetFloatSetting(settingName);
         originalLabelLocation = label.transform.localPosition;
         MatchDisplayToSetting();
+        dirty = false;
     }
 
     public void Update() {
@@ -26,7 +28,12 @@ public class SettingSliderComponent : MonoBehaviour {
     }
 
     public void Apply() {
+        dirty = false;
         MatchSettingToDisplay();
+    }
+
+    public bool IsDirty() {
+        return Math.Abs(setting.Value - scrollbar.value) > 0.02;
     }
 
     private void MatchDisplayToSetting() {

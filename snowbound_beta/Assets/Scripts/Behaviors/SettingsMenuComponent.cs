@@ -7,6 +7,9 @@ using UnityEngine.UI;
 public class SettingsMenuComponent : MenuComponent {
 
     private const string PrefabName = "Prefabs/SettingsMenu";
+    private const string ConfirmBodyText = "Save changes?";
+    private const string AffirmText = "Apply";
+    private const string CancelText = "Close";
     private const float FadeoutSeconds = 0.2f;
 
     public SettingSliderComponent[] sliders;
@@ -15,11 +18,10 @@ public class SettingsMenuComponent : MenuComponent {
 
     public void Awake() {
         cancelButton.onClick.AddListener(() => {
-            StartCoroutine(ResumeRoutine());
+            Cancel();
         });
         applyButton.onClick.AddListener(() => {
             Apply();
-            StartCoroutine(ResumeRoutine());
         });
     }
 
@@ -27,9 +29,48 @@ public class SettingsMenuComponent : MenuComponent {
         return Spawn(parent, PrefabName, onFinish);
     }
 
+    public override bool OnCommand(InputManager.Command command) {
+        switch (command) {
+            case InputManager.Command.Menu:
+            case InputManager.Command.Rightclick:
+                Cancel();
+                return true;
+            default:
+                return false;
+        }
+    }
+
     private void Apply() {
         foreach (SettingSliderComponent slider in sliders) {
             slider.Apply();
+        }
+        StartCoroutine(ResumeRoutine());
+    }
+
+    private void Cancel() {
+        bool dirty = false;
+        foreach (SettingSliderComponent slider in sliders) {
+            if (slider.IsDirty()) {
+                dirty = true;
+                break;
+            }
+        }
+        if (dirty) {
+            ConfirmMenuComponent.ConfirmMenuData data = new ConfirmMenuComponent.ConfirmMenuData();
+            data.bodyText = ConfirmBodyText;
+            data.confirmText = AffirmText;
+            data.cancelText = CancelText;
+            data.onConfirm = () => {
+                Apply();
+            };
+            data.onCancel = () => {
+                StartCoroutine(ResumeRoutine());
+            };
+            GameObject menuObject = ConfirmMenuComponent.Spawn(gameObject, data);
+            menuObject.GetComponent<ConfirmMenuComponent>().Alpha = 0.0f;
+            StartCoroutine(menuObject.GetComponent<ConfirmMenuComponent>().FadeInRoutine());
+        } else {
+            StartCoroutine(ResumeRoutine());
         }
     }
 }

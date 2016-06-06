@@ -6,7 +6,6 @@ using System.Collections;
 public class ConfirmMenuComponent : MenuComponent {
 
     private const string PrefabName = "Prefabs/ConfirmMenu";
-    private const float FadeoutSeconds = 0.2f;
 
     public struct ConfirmMenuData {
         public string bodyText;
