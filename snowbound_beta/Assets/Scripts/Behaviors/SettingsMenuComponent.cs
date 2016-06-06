@@ -12,7 +12,7 @@ public class SettingsMenuComponent : MenuComponent {
     private const string CancelText = "Close";
     private const float FadeoutSeconds = 0.2f;
 
-    public SettingSliderComponent[] sliders;
+    public SettingUIComponent[] sliders;
     public Button cancelButton;
     public Button applyButton;
 
@@ -44,6 +44,7 @@ public class SettingsMenuComponent : MenuComponent {
         foreach (SettingSliderComponent slider in sliders) {
             slider.Apply();
         }
+        Global.Instance().memory.SaveSystemMemory();
         StartCoroutine(ResumeRoutine());
     }
 
