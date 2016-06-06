@@ -3,10 +3,8 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class MainMenuComponent : MonoBehaviour {
-
+public class MainMenuComponent : MenuComponent {
     
-
     public Button startButton;
     public Button loadButton;
     public Button quitButton;
@@ -17,37 +15,37 @@ public class MainMenuComponent : MonoBehaviour {
         fade = FindObjectOfType<FadeComponent>();
 
         startButton.onClick.AddListener(() => {
-            SetButtonsEnabled(false);
+            SetInputEnabled(false);
             StartCoroutine(StartRoutine());
         });
         loadButton.onClick.AddListener(() => {
-            SetButtonsEnabled(false);
+            SetInputEnabled(false);
             StartCoroutine(LoadRoutine());
         });
         quitButton.onClick.AddListener(() => {
-            SetButtonsEnabled(false);
+            SetInputEnabled(false);
             StartCoroutine(QuitRoutine());
         });
     }
 
-    private void SetButtonsEnabled(bool enabled) {
+    protected override void SetInputEnabled(bool enabled) {
+        base.SetInputEnabled(enabled);
         startButton.interactable = enabled;
         loadButton.interactable = enabled;
         quitButton.interactable = enabled;
     }
 
     private IEnumerator StartRoutine() {
-
         yield return fade.FadeToBlackRoutine();
         ScenePlayer.LoadScreen();
     }
 
     private IEnumerator LoadRoutine() {
         GameObject loadMenuObject = SaveMenuComponent.Spawn(gameObject.transform.parent.gameObject, SaveMenuComponent.SaveMenuMode.Load, () => {
-            SetButtonsEnabled(false);
+            SetInputEnabled(false);
         });
         loadMenuObject.GetComponent<SaveMenuComponent>().Alpha = 0.0f;
-        yield return StartCoroutine(loadMenuObject.GetComponent<SaveMenuComponent>().FadeIn());
+        yield return StartCoroutine(loadMenuObject.GetComponent<SaveMenuComponent>().FadeInRoutine());
     }
 
     private IEnumerator QuitRoutine() {

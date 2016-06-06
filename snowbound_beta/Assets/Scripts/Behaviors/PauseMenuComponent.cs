@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 using System;
 using System.Collections;
 
-public class PauseMenuComponent : MonoBehaviour, InputListener {
+public class PauseMenuComponent : MenuComponent {
 
     public const float FadeoutSeconds = 0.2f;
     private const string PrefabName = "Prefabs/PauseMenu";
@@ -18,18 +18,8 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
     public Button logButton;
     public Button settingsButton;
 
-    private ScenePlayer player;
-
-    public float Alpha {
-        get { return gameObject.GetComponent<CanvasGroup>().alpha; }
-        set { gameObject.GetComponent<CanvasGroup>().alpha = value; }
-    }
-
-    public static GameObject Spawn(GameObject parent, ScenePlayer player) {
-        GameObject menuObject = UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>(PrefabName));
-        menuObject.GetComponent<PauseMenuComponent>().player = player;
-        Utils.AttachAndCenter(parent, menuObject);
-        return menuObject;
+    public static GameObject Spawn(GameObject parent, Action onFinish) {
+        return Spawn(parent, PrefabName, onFinish);
     }
 
     public void Awake() {
@@ -56,43 +46,8 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
         });
     }
 
-    public void Start() {
-        Global.Instance().input.PushListener(this);
-    }
-
-    public void OnCommand(InputManager.Command command) {
-        switch (command) {
-            case InputManager.Command.Menu:
-            case InputManager.Command.Rightclick:
-                StartCoroutine(ResumeRoutine());
-                break;
-            default:
-                break;
-        }
-    }
-
-    public IEnumerator FadeIn() {
-        while (Alpha < 1.0f) {
-            Alpha += Time.deltaTime / FadeoutSeconds;
-            yield return null;
-        }
-        Alpha = 1.0f;
-        Global.Instance().input.EnableListener(this);
-        SetButtonsEnabled(true);
-    }
-
-    public IEnumerator FadeOut() {
-        Global.Instance().input.DisableListener(this);
-        SetButtonsEnabled(false);
-        CanvasGroup group = gameObject.GetComponent<CanvasGroup>();
-        while (Alpha > 0.0f) {
-            Alpha -= Time.deltaTime / FadeoutSeconds;
-            yield return null;
-        }
-        group.alpha = 0.0f;
-    }
-
-    private void SetButtonsEnabled(bool enabled) {
+    protected override void SetInputEnabled(bool enabled) {
+        base.SetInputEnabled(enabled);
         saveButton.interactable = enabled;
         loadButton.interactable = enabled;
         resumeButton.interactable = enabled;
@@ -101,29 +56,22 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
         logButton.interactable = enabled;
     }
 
-    private IEnumerator ResumeRoutine() {
-        yield return StartCoroutine(FadeOut());
-        yield return player.ResumeRoutine();
-        Global.Instance().input.RemoveListener(this);
-        Destroy(gameObject);
-    }
-
     private IEnumerator SaveRoutine() {
-        yield return StartCoroutine(FadeOut());
+        yield return StartCoroutine(FadeOutRoutine());
         GameObject saveMenuObject = SaveMenuComponent.Spawn(gameObject.transform.parent.gameObject, SaveMenuComponent.SaveMenuMode.Save, () => {
-            StartCoroutine(FadeIn());
+            StartCoroutine(FadeInRoutine());
         });
         saveMenuObject.GetComponent<SaveMenuComponent>().Alpha = 0.0f;
-        yield return StartCoroutine(saveMenuObject.GetComponent<SaveMenuComponent>().FadeIn());
+        yield return StartCoroutine(saveMenuObject.GetComponent<SaveMenuComponent>().FadeInRoutine());
     }
 
     private IEnumerator LoadRoutine() {
-        yield return StartCoroutine(FadeOut());
+        yield return StartCoroutine(FadeOutRoutine());
         GameObject saveMenuObject = SaveMenuComponent.Spawn(gameObject.transform.parent.gameObject, SaveMenuComponent.SaveMenuMode.Load, () => {
-            StartCoroutine(FadeIn());
+            StartCoroutine(FadeInRoutine());
         });
         saveMenuObject.GetComponent<SaveMenuComponent>().Alpha = 0.0f;
-        yield return StartCoroutine(saveMenuObject.GetComponent<SaveMenuComponent>().FadeIn());
+        yield return StartCoroutine(saveMenuObject.GetComponent<SaveMenuComponent>().FadeInRoutine());
     }
 
     private IEnumerator TitleRoutine() {
@@ -140,18 +88,18 @@ public class PauseMenuComponent : MonoBehaviour, InputListener {
     }
 
     private IEnumerator LogRoutine() {
-        yield return StartCoroutine(FadeOut());
+        yield return StartCoroutine(FadeOutRoutine());
         GameObject logObject = LogComponent.Spawn(gameObject.transform.parent.gameObject, () => {
-            StartCoroutine(FadeIn());
+            StartCoroutine(FadeInRoutine());
         });
         logObject.GetComponent<LogComponent>().Alpha = 0.0f;
-        yield return StartCoroutine(logObject.GetComponent<LogComponent>().FadeIn());
+        yield return StartCoroutine(logObject.GetComponent<LogComponent>().FadeInRoutine());
     }
 
     private IEnumerator SettingsRoutine() {
-        yield return StartCoroutine(FadeOut());
+        yield return StartCoroutine(FadeOutRoutine());
         GameObject settingsObject = SettingsMenuComponent.Spawn(gameObject.transform.parent.gameObject, () => {
-            StartCoroutine(FadeIn());
+            StartCoroutine(FadeInRoutine());
         });
         settingsObject.GetComponent<SettingsMenuComponent>().Alpha = 0.0f;
         yield return StartCoroutine(settingsObject.GetComponent<SettingsMenuComponent>().FadeInRoutine());

@@ -52,7 +52,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         }
     }
 
-    public void OnCommand(InputManager.Command command) {
+    public bool OnCommand(InputManager.Command command) {
         switch (command) {
             case InputManager.Command.Advance:
                 if (hiddenTextMode) {
@@ -60,24 +60,26 @@ public class ScenePlayer : MonoBehaviour, InputListener {
                 } else {
                     wasHurried = true;
                 }
-                break;
+                return true;
             case InputManager.Command.Menu:
                 suspended = true;
                 StartCoroutine(PauseRoutine());
-                break;
+                return true;
             case InputManager.Command.Skip:
                 SkipMode = !SkipMode;
-                break;
+                return true;
             case InputManager.Command.Click:
                 if (hiddenTextMode) {
                     SetHiddenTextMode(false);
                 } else {
                     Global.Instance().input.SimulateAdvance();
                 }
-                break;
+                return true;
             case InputManager.Command.Rightclick:
                 SetHiddenTextMode(!hiddenTextMode);
-                break;
+                return true;
+            default:
+                return false;
         }
     }
 
@@ -186,11 +188,13 @@ public class ScenePlayer : MonoBehaviour, InputListener {
             paragraphBox.FadeOut(PauseMenuComponent.FadeoutSeconds)
         }, this);
 
-        GameObject menuObject = PauseMenuComponent.Spawn(canvas.gameObject, this);
+        GameObject menuObject = PauseMenuComponent.Spawn(canvas.gameObject, () => {
+            StartCoroutine(ResumeRoutine());
+        });
         PauseMenuComponent pauseMenu = menuObject.GetComponent<PauseMenuComponent>();
         pauseMenu.Alpha = 0.0f;
         
-        yield return pauseMenu.FadeIn();
+        yield return pauseMenu.FadeInRoutine();
     }
 
     private IEnumerator PlayCurrentScript() {

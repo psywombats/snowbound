@@ -3,6 +3,7 @@ using System.Collections;
 
 public interface InputListener {
 
-    void OnCommand(InputManager.Command command);
+    // returns true if the command was parsed and further parsing should stop
+    bool OnCommand(InputManager.Command command);
 
 }

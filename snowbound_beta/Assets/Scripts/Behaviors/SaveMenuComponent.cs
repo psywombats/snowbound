@@ -3,7 +3,7 @@ using System.Collections;
 using System;
 using System.IO;
 
-public class SaveMenuComponent : MonoBehaviour, InputListener {
+public class SaveMenuComponent : MenuComponent {
 
     private const float FadeoutSeconds = 0.2f;
     private const string PrefabName = "Prefabs/SaveMenu";
@@ -17,35 +17,16 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
     public SaveButtonComponent[] slots;
     
     private SaveMenuMode mode;
-    private Action onFinish;
-
-    public float Alpha {
-        get { return gameObject.GetComponent<CanvasGroup>().alpha; }
-        set { gameObject.GetComponent<CanvasGroup>().alpha = value; }
-    }
     
     public static GameObject Spawn(GameObject parent, SaveMenuMode mode, Action onFinish) {
-        GameObject menuObject = UnityEngine.Object.Instantiate<GameObject>(Resources.Load<GameObject>(PrefabName));
-        menuObject.GetComponent<SaveMenuComponent>().onFinish = onFinish;
+        GameObject menuObject = Spawn(parent, PrefabName, onFinish);
         menuObject.GetComponent<SaveMenuComponent>().mode = mode;
-        Utils.AttachAndCenter(parent, menuObject);
         return menuObject;
     }
 
-    public void Start() {
-        Global.Instance().input.PushListener(this);
+    public override void Start() {
+        base.Start();
         RefreshData();
-    }
-
-    public void OnCommand(InputManager.Command command) {
-        switch (command) {
-            case InputManager.Command.Menu:
-            case InputManager.Command.Rightclick:
-                StartCoroutine(ResumeRoutine());
-                break;
-            default:
-                break;
-        }
     }
 
     public void SaveOrLoadFromSlot(int slot) {
@@ -61,34 +42,8 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
         }
     }
 
-    public IEnumerator FadeIn() {
-        while (Alpha < 1.0f) {
-            Alpha += Time.deltaTime / FadeoutSeconds;
-            yield return null;
-        }
-        Alpha = 1.0f;
-    }
-
-    public IEnumerator FadeOut() {
-        CanvasGroup group = gameObject.GetComponent<CanvasGroup>();
-        while (Alpha > 0.0f) {
-            Alpha -= Time.deltaTime / FadeoutSeconds;
-            yield return null;
-        }
-        group.alpha = 0.0f;
-    }
-
-    public IEnumerator ResumeRoutine() {
-        SetButtonsEnabled(false);
-        yield return StartCoroutine(FadeOut());
-        Global.Instance().input.RemoveListener(this);
-        if (onFinish != null) {
-            onFinish();
-        }
-        Destroy(gameObject);
-    }
-
-    private void SetButtonsEnabled(bool enabled) {
+    protected override void SetInputEnabled(bool enabled) {
+        base.SetInputEnabled(enabled);
         foreach (SaveButtonComponent button in slots) {
             button.button.interactable = enabled;
         }
@@ -117,8 +72,8 @@ public class SaveMenuComponent : MonoBehaviour, InputListener {
     }
 
     private IEnumerator LoadRoutine(Memory memory) {
-        SetButtonsEnabled(false);
-        yield return StartCoroutine(FadeOut());
+        SetInputEnabled(false);
+        yield return StartCoroutine(FadeOutRoutine());
         Global.Instance().input.RemoveListener(this);
         Global.Instance().memory.ActiveMemory = memory;
         FadeComponent fade = FindObjectOfType<FadeComponent>();
