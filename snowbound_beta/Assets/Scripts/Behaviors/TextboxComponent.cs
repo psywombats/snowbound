@@ -7,12 +7,13 @@ using UnityEngine.Assertions;
 [RequireComponent(typeof(TransitionComponent))]
 public class TextboxComponent : MonoBehaviour {
 
-    private const float characterDelay = (1 / 32f);
-    private const float textboxFadeSeconds = 0.5f;
-    private const float fastModeHiccupSeconds = 0.05f;
-    private const float fastModeFadeSeconds = 0.15f;
-    private const float advancePromptFadeOutSeconds = 0.15f;
-    private const float advancePromptFadeInSeconds = 0.3f;
+    private const float CharacterDelayMax = (1.0f / 10.0f);
+    private const float CharacterDelayMin = (1.0f / 80.0f);
+    private const float TextboxFadeSeconds = 0.5f;
+    private const float FastModeHiccupSeconds = 0.05f;
+    private const float FastModeFadeSeconds = 0.15f;
+    private const float AdvancePromptFadeOutSeconds = 0.15f;
+    private const float AdvancePromptFadeInSeconds = 0.3f;
 
     public Shader shader;
     public Image backer;
@@ -21,6 +22,7 @@ public class TextboxComponent : MonoBehaviour {
     public Texture2D fadeOutTexture;
     public Image advancePrompt;
 
+    private Setting<float> characterSpeedSetting;
     private string fullText;
     
     public float Alpha {
@@ -37,8 +39,9 @@ public class TextboxComponent : MonoBehaviour {
         set { advancePrompt.GetComponent<CanvasRenderer>().SetAlpha(value); }
     }
 
-    public void Start() {
+    public void Awake() {
         backer.material = GetComponent<TransitionComponent>().GetMaterial();
+        characterSpeedSetting = Global.Instance().settings.GetFloatSetting(SettingsConstants.TextSpeed);
     }
 
     public void OnEnable() {
@@ -48,7 +51,7 @@ public class TextboxComponent : MonoBehaviour {
 
     public IEnumerator ShowText(ScenePlayer player, string text) {
         fullText = text;
-        advancePrompt.CrossFadeAlpha(0.0f, advancePromptFadeOutSeconds, false);
+        advancePrompt.CrossFadeAlpha(0.0f, AdvancePromptFadeOutSeconds, false);
         for (int i = 0; i <= fullText.Length; i += 1) {
             if (player.IsSuspended()) {
                 yield return null;
@@ -65,16 +68,16 @@ public class TextboxComponent : MonoBehaviour {
             textbox.text += "<color=#00000000>";
             textbox.text += fullText.Substring(i);
             textbox.text += "</color>";
-            yield return new WaitForSeconds(characterDelay);
+            yield return new WaitForSeconds(GetCharacterDelay());
         }
         textbox.text = fullText;
         if (player.ShouldUseFastMode()) {
-            yield return new WaitForSeconds(fastModeHiccupSeconds);
+            yield return new WaitForSeconds(FastModeHiccupSeconds);
         }
 
         advancePrompt.gameObject.SetActive(true);
         AdvancePromptAlpha = 0.0f;
-        advancePrompt.CrossFadeAlpha(1.0f, advancePromptFadeInSeconds, false);
+        advancePrompt.CrossFadeAlpha(1.0f, AdvancePromptFadeInSeconds, false);
     }
 
     public IEnumerator FadeIn(float durationSeconds) {
@@ -157,9 +160,13 @@ public class TextboxComponent : MonoBehaviour {
 
     private float GetFadeSeconds(ScenePlayer player) {
         if (player.ShouldUseFastMode()) {
-            return fastModeFadeSeconds;
+            return FastModeFadeSeconds;
         } else {
-            return textboxFadeSeconds;
+            return TextboxFadeSeconds;
         }
+    }
+
+    private float GetCharacterDelay() {
+        return CharacterDelayMin + ((CharacterDelayMax - CharacterDelayMin) * characterSpeedSetting.Value);
     }
 }

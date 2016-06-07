@@ -35,6 +35,9 @@ public class SettingsCollection : MonoBehaviour {
         for (int i = 0; i < memory.floatKeys.Count; i += 1) {
             AddFloatSetting(memory.floatKeys[i], memory.floatValues[i]);
         }
+        for (int i = 0; i < memory.boolKeys.Count; i += 1) {
+            AddBoolSetting(memory.boolKeys[i], memory.boolValues[i]);
+        }
     }
 
     public void LoadDefaults() {
@@ -45,11 +48,19 @@ public class SettingsCollection : MonoBehaviour {
     }
 
     public Setting<float> GetFloatSetting(string tag) {
-        return floatSettings[tag];
+        if (floatSettings.ContainsKey(tag)) {
+            return floatSettings[tag];
+        } else {
+            return null;
+        }
     }
 
     public Setting<bool> GetBoolSetting(string tag) {
-        return boolSettings[tag];
+        if (boolSettings.ContainsKey(tag)) {
+            return boolSettings[tag];
+        } else {
+            return null;
+        }
     }
 
     private void AddFloatSetting(string tag, float value) {

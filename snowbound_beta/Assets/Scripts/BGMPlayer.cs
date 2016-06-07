@@ -9,10 +9,17 @@ public class BGMPlayer : MonoBehaviour {
     private AudioSource source;
     private ScenePlayer player;
     private BGMData currentTrack;
+    private Setting<float> volumeSetting;
+    private float preprocessingVolume;
 
     public void Awake() {
         source = GetComponent<AudioSource>();
         player = FindObjectOfType<ScenePlayer>();
+        volumeSetting = Global.Instance().settings.GetFloatSetting(SettingsConstants.BGMVolume);
+    }
+
+    public void Update() {
+        source.volume = preprocessingVolume * GetMaxVolume();
     }
 
     public void PopulateMemory(ScreenMemory memory) {
@@ -35,7 +42,7 @@ public class BGMPlayer : MonoBehaviour {
 
     public IEnumerator FadeOutRoutine(float seconds) {
         while (currentTrack != null && source.volume > 0.0f) {
-            source.volume -= Time.deltaTime / seconds;
+            preprocessingVolume -= Time.deltaTime / seconds;
             yield return null;
         }
     }
@@ -51,10 +58,14 @@ public class BGMPlayer : MonoBehaviour {
         BGMData newTrack = player.GetBGM(bgmTag);
         currentTrack = newTrack;
         source.clip = newTrack.track;
-        source.volume = 1.0f;
+        preprocessingVolume = 1.0f;
 
         if (newTrack != null) {
             source.Play();
         }
+    }
+
+    private float GetMaxVolume() {
+        return volumeSetting.Value;
     }
 }

@@ -25,6 +25,7 @@ public class SceneScript {
         sceneName = asset.name;
         ParseCommands(player, asset.text);
         commandIndex = 0;
+        
     }
 
     public SceneScript(ScreenMemory memory) : this(null, AssetForSceneName(memory.sceneName)) {
@@ -54,7 +55,15 @@ public class SceneScript {
         if (Global.Instance().input.IsFastKeyDown()) {
             return true;
         }
-        if (player.SkipMode && Global.Instance().memory.HasSeenCommand(sceneName, commandIndex)) {
+        bool hasSeenCommand = Global.Instance().memory.HasSeenCommand(sceneName, commandIndex);
+        Setting<bool> skipUnreadSetting = Global.Instance().settings.GetBoolSetting(SettingsConstants.SkipUnreadText);
+        bool skipUnread;
+        if (skipUnreadSetting == null) {
+            skipUnread = false;
+        } else {
+            skipUnread = skipUnreadSetting.Value;
+        }
+        if (player.SkipMode && (hasSeenCommand || skipUnread)) {
             return true;
         }
         return false;
