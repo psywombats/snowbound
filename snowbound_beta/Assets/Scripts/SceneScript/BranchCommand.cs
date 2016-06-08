@@ -35,7 +35,7 @@ public class BranchCommand : SceneCommand {
         }
     }
 
-    public IEnumerator PerformAction(ScenePlayer player) {
+    public override IEnumerator PerformAction(ScenePlayer player) {
         int variableValue = Global.Instance().memory.GetVariable(variableName);
         bool result = false;
         switch (sign) {

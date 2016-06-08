@@ -10,7 +10,7 @@ public class BGMCommand : SceneCommand {
         this.tag = tag;
     }
 
-    public IEnumerator PerformAction(ScenePlayer player) {
+    public override IEnumerator PerformAction(ScenePlayer player) {
         BGMPlayer bgm = player.GetBGM();
         bgm.StartCoroutine(bgm.CrossfadeRoutine(tag));
         yield return null;

@@ -83,6 +83,14 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         }
     }
 
+    public void SetInputEnabled(bool enabled) {
+        if (enabled) {
+            currentScript.CurrentCommand.OnFocusGained();
+        } else {
+            currentScript.CurrentCommand.OnFocusGained();
+        }
+    }
+
     public bool WasHurried() {
         return wasHurried;
     }
@@ -172,8 +180,8 @@ public class ScenePlayer : MonoBehaviour, InputListener {
 
     public IEnumerator ResumeRoutine() {
         yield return Utils.RunParallel(new[] {
-            textbox.FadeIn(PauseMenuComponent.FadeoutSeconds),
-            paragraphBox.FadeIn(PauseMenuComponent.FadeoutSeconds)
+            textbox.FadeInRoutine(PauseMenuComponent.FadeoutSeconds),
+            paragraphBox.FadeInRoutine(PauseMenuComponent.FadeoutSeconds)
         }, this);
         suspended = false;
     }
@@ -184,8 +192,8 @@ public class ScenePlayer : MonoBehaviour, InputListener {
 
     private IEnumerator PauseRoutine() {
         yield return Utils.RunParallel(new[] {
-            textbox.FadeOut(PauseMenuComponent.FadeoutSeconds),
-            paragraphBox.FadeOut(PauseMenuComponent.FadeoutSeconds)
+            textbox.FadeOutRoutine(PauseMenuComponent.FadeoutSeconds),
+            paragraphBox.FadeOutRoutine(PauseMenuComponent.FadeoutSeconds)
         }, this);
 
         GameObject menuObject = PauseMenuComponent.Spawn(canvas.gameObject, () => {
@@ -206,11 +214,11 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         Global.Instance().input.DisableListener(this);
 
         if (hidden) {
-            yield return paragraphBox.FadeOut(hiddenTextModeFadeoutSeconds);
-            yield return textbox.FadeOut(hiddenTextModeFadeoutSeconds);
+            yield return paragraphBox.FadeOutRoutine(hiddenTextModeFadeoutSeconds);
+            yield return textbox.FadeOutRoutine(hiddenTextModeFadeoutSeconds);
         } else {
-            yield return paragraphBox.FadeIn(hiddenTextModeFadeoutSeconds);
-            yield return textbox.FadeIn(hiddenTextModeFadeoutSeconds);
+            yield return paragraphBox.FadeInRoutine(hiddenTextModeFadeoutSeconds);
+            yield return textbox.FadeInRoutine(hiddenTextModeFadeoutSeconds);
         }
 
         hiddenTextMode = hidden;

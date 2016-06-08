@@ -21,11 +21,12 @@ public class SceneScript {
     private string sceneName;
     private int commandIndex;
 
+    public SceneCommand CurrentCommand { get; set; }
+
     public SceneScript(ScenePlayer player, TextAsset asset) {
         sceneName = asset.name;
         ParseCommands(player, asset.text);
         commandIndex = 0;
-        
     }
 
     public SceneScript(ScreenMemory memory) : this(null, AssetForSceneName(memory.sceneName)) {
@@ -38,7 +39,10 @@ public class SceneScript {
 
     public IEnumerator PerformActions(ScenePlayer player) {
         for (; commandIndex < commands.Count; commandIndex += 1) {
-            SceneCommand command = commands[commandIndex];
+            CurrentCommand = commands[commandIndex];
+            while (player.IsSuspended()) {
+                yield return null;
+            }
             if (!Global.Instance().memory.HasSeenCommand(sceneName, commandIndex)) {
                 player.SkipMode = false;
                 Global.Instance().memory.AcknowledgeCommand(sceneName, commandIndex);
@@ -47,7 +51,7 @@ public class SceneScript {
                 player.debugBox.text = "scene: " + sceneName + "\n";
                 player.debugBox.text += "command index: " + commandIndex;
             }
-            yield return player.StartCoroutine(command.PerformAction(player));
+            yield return player.StartCoroutine(CurrentCommand.PerformAction(player));
         }
     }
 

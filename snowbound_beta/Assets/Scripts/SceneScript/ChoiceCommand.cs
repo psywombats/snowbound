@@ -20,20 +20,13 @@ public class ChoiceCommand : SceneCommand {
         options = new List<ChoiceOption>();
     }
 
-    public IEnumerator PerformAction(ScenePlayer player) {
+    public override IEnumerator PerformAction(ScenePlayer player) {
 
         // set mode
         player.AwaitingInputFromCommand = true;
 
         // fade out the paragraph box if necessary
-        if (player.paragraphBox.gameObject.activeInHierarchy) {
-            while(player.paragraphBox.Alpha > 0.0f) {
-                player.paragraphBox.Alpha -= Time.deltaTime / buttonFadeDuration;
-                yield return null;
-            }
-        }
-        player.paragraphBox.Alpha = 0.0f;
-        player.paragraphBox.gameObject.SetActive(false);
+        yield return player.StartCoroutine(player.paragraphBox.FadeOutRoutine(buttonFadeDuration));
 
         // display the choices
         choiceObjects = new List<GameObject>();
@@ -76,6 +69,20 @@ public class ChoiceCommand : SceneCommand {
         }
         while (player.AwaitingInputFromCommand) {
             yield return null;
+        }
+    }
+
+    public override void OnFocusGained() {
+        base.OnFocusGained();
+        foreach (GameObject choiceObject in choiceObjects) {
+            choiceObject.GetComponent<Button>().interactable = true;
+        }
+    }
+
+    public override void OnFocusLost() {
+        base.OnFocusLost();
+        foreach (GameObject choiceObject in choiceObjects) {
+            choiceObject.GetComponent<Button>().interactable = false;
         }
     }
 

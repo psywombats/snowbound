@@ -10,7 +10,7 @@ public abstract class TextCommand : SceneCommand {
         this.text = text;
     }
 
-    public IEnumerator PerformAction(ScenePlayer player) {
+    public override IEnumerator PerformAction(ScenePlayer player) {
         TextboxComponent primaryBox = PrimaryBox(player);
         TextboxComponent secondaryBox = SecondaryBox(player);
         

@@ -12,7 +12,7 @@ public class IncrementCommand : SceneCommand {
         this.delta = delta;
     }
 
-    public IEnumerator PerformAction(ScenePlayer player) {
+    public override IEnumerator PerformAction(ScenePlayer player) {
         if (delta > 0) {
             Global.Instance().memory.IncrementVariable(variableName);
         } else {

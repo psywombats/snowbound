@@ -15,12 +15,12 @@ public class BackgroundCommand : SceneCommand {
         this.transitionTag = (transitionTag == null) ? FadeTransitionTag : transitionTag;
     }
 
-    public IEnumerator PerformAction(ScenePlayer player) {
+    public override IEnumerator PerformAction(ScenePlayer player) {
         TransitionData data = player.transitions.GetTransition(transitionTag);
         TransitionComponent transition = player.transition;
         FadeComponent fade = player.GetFade();
 
-        yield return player.StartCoroutine(player.paragraphBox.FadeOut(TextboxFadeSeconds));
+        yield return player.StartCoroutine(player.paragraphBox.FadeOutRoutine(TextboxFadeSeconds));
         
         if (data.transitionMask == null) {
             yield return player.StartCoroutine(fade.FadeToBlackRoutine(true, false));

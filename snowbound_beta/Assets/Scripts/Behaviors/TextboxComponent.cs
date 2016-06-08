@@ -24,6 +24,8 @@ public class TextboxComponent : MonoBehaviour {
 
     private Setting<float> characterSpeedSetting;
     private string fullText;
+    private float fadeDurationSeconds;
+    private float targetAlpha;
     
     public float Alpha {
         get { return gameObject.GetComponent<CanvasGroup>().alpha; }
@@ -44,9 +46,36 @@ public class TextboxComponent : MonoBehaviour {
         characterSpeedSetting = Global.Instance().settings.GetFloatSetting(SettingsConstants.TextSpeed);
     }
 
+    public void Update() {
+        if (Alpha < targetAlpha) {
+            Alpha += Time.deltaTime / fadeDurationSeconds;
+            if (Alpha > targetAlpha) Alpha = targetAlpha;
+        } else if (Alpha > targetAlpha) {
+            Alpha -= Time.deltaTime / fadeDurationSeconds;
+            if (Alpha < targetAlpha) Alpha = targetAlpha;
+        }
+    }
+
     public void OnEnable() {
         Alpha = 0.0f;
+        targetAlpha = 0.0f;
         advancePrompt.gameObject.SetActive(false);
+    }
+
+    public IEnumerator FadeInRoutine(float durationSeconds) {
+        this.fadeDurationSeconds = durationSeconds;
+        this.targetAlpha = 1.0f;
+        while (Alpha != targetAlpha) {
+            yield return null;
+        }
+    }
+
+    public IEnumerator FadeOutRoutine(float durationSeconds) {
+        this.fadeDurationSeconds = durationSeconds;
+        this.targetAlpha = 0.0f;
+        while (Alpha != targetAlpha) {
+            yield return null;
+        }
     }
 
     public IEnumerator ShowText(ScenePlayer player, string text) {
@@ -80,22 +109,6 @@ public class TextboxComponent : MonoBehaviour {
         advancePrompt.CrossFadeAlpha(1.0f, AdvancePromptFadeInSeconds, false);
     }
 
-    public IEnumerator FadeIn(float durationSeconds) {
-        while (Alpha < 1.0f) {
-            Alpha += Time.deltaTime / durationSeconds;
-            yield return null;
-        }
-        Alpha = 1.0f;
-    }
-
-    public IEnumerator FadeOut(float durationSeconds) {
-        while (Alpha > 0.0f) {
-            Alpha -= Time.deltaTime / durationSeconds;
-            yield return null;
-        }
-        Alpha = 0.0f;
-    }
-
     public IEnumerator Activate(ScenePlayer player) {
         gameObject.SetActive(true);
         advancePrompt.gameObject.SetActive(false);
@@ -106,6 +119,7 @@ public class TextboxComponent : MonoBehaviour {
                 transition.transitionDurationSeconds = GetFadeSeconds(player);
                 StartCoroutine(transition.TransitionRoutine(fadeInTexture, true));
                 yield return null;
+                targetAlpha = 1.0f;
                 Alpha = 1.0f;
                 while (transition.IsTransitioning()) {
                     if (player.WasHurried()) {
@@ -115,18 +129,23 @@ public class TextboxComponent : MonoBehaviour {
                 }
             }
         } else {
-            while (Alpha < 1.0f) {
+            targetAlpha = 1.0f;
+            fadeDurationSeconds = GetFadeSeconds(player);
+            while (Alpha != targetAlpha) {
                 if (player.WasHurried()) {
                     break;
                 }
-                Alpha += Time.deltaTime / GetFadeSeconds(player);
                 yield return null;
             }
         }
+        targetAlpha = 1.0f;
         Alpha = 1.0f;
     }
 
     public IEnumerator Deactivate(ScenePlayer player) {
+        if (!gameObject.activeInHierarchy) {
+            yield break;
+        }
         if (fadeOutTexture != null) {
             TransitionComponent transition = GetComponent<TransitionComponent>();
             if (Alpha > 0.0f) {
@@ -141,14 +160,16 @@ public class TextboxComponent : MonoBehaviour {
                 }
             }
         } else {
-            while (Alpha > 0.0f) {
+            targetAlpha = 0.0f;
+            fadeDurationSeconds = GetFadeSeconds(player);
+            while (Alpha != targetAlpha) {
                 if (player.WasHurried()) {
                     break;
                 }
-                Alpha -= Time.deltaTime / GetFadeSeconds(player);
                 yield return null;
             }
         }
+        targetAlpha = 0.0f;
         Alpha = 0.0f;
         gameObject.SetActive(false);
         Clear();

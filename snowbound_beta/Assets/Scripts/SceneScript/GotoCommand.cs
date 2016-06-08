@@ -10,7 +10,7 @@ public class GotoCommand : SceneCommand {
         this.sceneName = sceneName;
     }
 
-    public IEnumerator PerformAction(ScenePlayer player) {
+    public override IEnumerator PerformAction(ScenePlayer player) {
         yield return player.StartCoroutine(player.PlayScriptForScene(sceneName));
     }
 }
