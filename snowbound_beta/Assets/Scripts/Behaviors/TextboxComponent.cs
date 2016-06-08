@@ -8,7 +8,7 @@ using UnityEngine.Assertions;
 public class TextboxComponent : MonoBehaviour {
 
     private const float CharacterDelayMax = (1.0f / 10.0f);
-    private const float CharacterDelayMin = (1.0f / 80.0f);
+    private const float CharacterDelayMin = (1.0f / 140.0f);
     private const float TextboxFadeSeconds = 0.5f;
     private const float FastModeHiccupSeconds = 0.05f;
     private const float FastModeFadeSeconds = 0.15f;
@@ -167,6 +167,6 @@ public class TextboxComponent : MonoBehaviour {
     }
 
     private float GetCharacterDelay() {
-        return CharacterDelayMin + ((CharacterDelayMax - CharacterDelayMin) * characterSpeedSetting.Value);
+        return CharacterDelayMax + ((CharacterDelayMin - CharacterDelayMax) * characterSpeedSetting.Value);
     }
 }
