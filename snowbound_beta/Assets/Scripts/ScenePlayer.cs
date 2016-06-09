@@ -21,6 +21,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public PortraitGroupComponent portraits;
     public BackgroundIndexData backgrounds;
     public BGMIndexData bgms;
+    public SoundEffectIndexData sounds;
 
     private SceneScript currentScript;
     private IEnumerator playingRoutine;
@@ -130,6 +131,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         return FindObjectOfType<BGMPlayer>();
     }
 
+    public SoundPlayer GetSound() {
+        return FindObjectOfType<SoundPlayer>();
+    }
+
     public IEnumerator PlayScriptForScene(string sceneName) {
         TextAsset file = SceneScript.AssetForSceneName(sceneName);
         yield return StartCoroutine(PlayScriptForScene(file));
@@ -145,15 +150,19 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     }
 
     public CharaData GetChara(string tag) {
-        return charas.GetChara(tag);
+        return charas.GetData(tag);
     }
 
     public BackgroundData GetBackground(string tag) {
-        return backgrounds.GetBackground(tag);
+        return backgrounds.GetData(tag);
     }
 
     public BGMData GetBGM(string tag) {
-        return bgms.GetBGM(tag);
+        return bgms.GetData(tag);
+    }
+
+    public SoundEffectData GetSoundEffect(string soundTag) {
+        return sounds.GetData(soundTag);
     }
 
     public ScreenMemory ToMemory() {

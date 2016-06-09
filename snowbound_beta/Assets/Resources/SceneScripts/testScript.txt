@@ -2,7 +2,7 @@ testbox
 
 NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE 
 
-[bgm test_a]
+[sfx test_a]
 
 SYSTEM: Test time! Here comes Max!
 [enter MAX B]
@@ -14,7 +14,7 @@ MAX: I'm gonna leave as well.
 [exit MAX]
 SYSTEM: Max is gone?
 
-[bgm test_b]
+[sfx test_b]
 
 The background is black.
 

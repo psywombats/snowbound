@@ -75,16 +75,16 @@ public class MemoryManager : MonoBehaviour {
             saveMenu.Alpha = 0.0f;
         }
         if (scenePlayer != null) {
-            scenePlayer.textbox.Alpha = 1.0f;
-            scenePlayer.paragraphBox.Alpha = 1.0f;
+            scenePlayer.textbox.SetAlpha(1.0f);
+            scenePlayer.paragraphBox.SetAlpha(1.0f);
         }
         AttachScreenshotToMemory(memory);
         if (saveMenu != null) {
             saveMenu.Alpha = 1.0f;
         }
         if (scenePlayer != null) {
-            scenePlayer.textbox.Alpha = 0.0f;
-            scenePlayer.paragraphBox.Alpha = 0.0f;
+            scenePlayer.textbox.SetAlpha(0.0f);
+            scenePlayer.paragraphBox.SetAlpha(0.0f);
         }
 
         return memory;

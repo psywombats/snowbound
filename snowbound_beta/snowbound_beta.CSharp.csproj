@@ -98,6 +98,10 @@
     <Compile Include="Assets\Scripts\Data\BackgroundIndexData.cs" />
     <Compile Include="Assets\Scripts\Data\CharaData.cs" />
     <Compile Include="Assets\Scripts\Data\CharaIndexData.cs" />
+    <Compile Include="Assets\Scripts\Data\GenericDataObject.cs" />
+    <Compile Include="Assets\Scripts\Data\GenericIndex.cs" />
+    <Compile Include="Assets\Scripts\Data\SoundEffectData.cs" />
+    <Compile Include="Assets\Scripts\Data\SoundEffectIndexData.cs" />
     <Compile Include="Assets\Scripts\Data\TransitionData.cs" />
     <Compile Include="Assets\Scripts\Data\TransitionIndexData.cs" />
     <Compile Include="Assets\Scripts\Global.cs" />
@@ -119,6 +123,7 @@
     <Compile Include="Assets\Scripts\SceneScript\ParagraphCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SceneCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SceneScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\SoundEffectCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SpokenLineCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\StageDirectionCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SwitchToCommand.cs" />
@@ -132,6 +137,7 @@
     <Compile Include="Assets\Scripts\Settings\SettingsCollection.cs" />
     <Compile Include="Assets\Scripts\Settings\SettingsConstants.cs" />
     <Compile Include="Assets\Scripts\Settings\SettingsDefaults.cs" />
+    <Compile Include="Assets\Scripts\SoundPlayer.cs" />
     <Compile Include="Assets\Scripts\Utils.cs" />
   </ItemGroup>
   <ItemGroup>

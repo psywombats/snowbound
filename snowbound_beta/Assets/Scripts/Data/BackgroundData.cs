@@ -2,9 +2,8 @@
 using System.Collections;
 
 [CreateAssetMenu(fileName = "BackgroundData", menuName = "Data/BackgroundData")]
-public class BackgroundData : ScriptableObject {
+public class BackgroundData : GenericDataObject {
 
     public Sprite background;
-    public string backgroundTag;
 
 }

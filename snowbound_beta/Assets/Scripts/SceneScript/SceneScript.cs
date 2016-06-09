@@ -198,6 +198,8 @@ public class SceneScript {
                 return new BackgroundCommand(args[0], OptionalArg(args, 1));
             case "bgm":
                 return new BGMCommand(args[0]);
+            case "sfx":
+                return new SoundEffectCommand(args[0]);
             default:
                 if (choice != null) {
                     string choiceString = command + " " + String.Join(" ", args.ToArray());

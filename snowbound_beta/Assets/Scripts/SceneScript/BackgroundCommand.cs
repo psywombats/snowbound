@@ -16,7 +16,7 @@ public class BackgroundCommand : SceneCommand {
     }
 
     public override IEnumerator PerformAction(ScenePlayer player) {
-        TransitionData data = player.transitions.GetTransition(transitionTag);
+        TransitionData data = player.transitions.GetData(transitionTag);
         TransitionComponent transition = player.transition;
         FadeComponent fade = player.GetFade();
 

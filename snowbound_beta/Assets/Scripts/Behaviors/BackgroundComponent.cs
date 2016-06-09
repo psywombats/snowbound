@@ -18,7 +18,7 @@ public class BackgroundComponent : MonoBehaviour {
 
     public void PopuateMemory(ScreenMemory memory) {
         if (currentBackground != null) {
-            memory.backgroundTag = currentBackground.backgroundTag;
+            memory.backgroundTag = currentBackground.tag;
         }
     }
 

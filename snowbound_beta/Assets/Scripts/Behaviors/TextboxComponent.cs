@@ -7,8 +7,8 @@ using UnityEngine.Assertions;
 [RequireComponent(typeof(TransitionComponent))]
 public class TextboxComponent : MonoBehaviour {
 
-    private const float CharacterDelayMax = (1.0f / 10.0f);
-    private const float CharacterDelayMin = (1.0f / 140.0f);
+    private const float CharacterDelayMax = (1.0f / 20.0f);
+    private const float CharacterDelayMin = (1.0f / 160.0f);
     private const float TextboxFadeSeconds = 0.5f;
     private const float FastModeHiccupSeconds = 0.05f;
     private const float FastModeFadeSeconds = 0.15f;
@@ -27,7 +27,7 @@ public class TextboxComponent : MonoBehaviour {
     private float fadeDurationSeconds;
     private float targetAlpha;
     
-    public float Alpha {
+    private float Alpha {
         get { return gameObject.GetComponent<CanvasGroup>().alpha; }
         set { gameObject.GetComponent<CanvasGroup>().alpha = value; }
     }
@@ -57,8 +57,7 @@ public class TextboxComponent : MonoBehaviour {
     }
 
     public void OnEnable() {
-        Alpha = 0.0f;
-        targetAlpha = 0.0f;
+        SetAlpha(0.0f);
         advancePrompt.gameObject.SetActive(false);
     }
 
@@ -71,6 +70,9 @@ public class TextboxComponent : MonoBehaviour {
     }
 
     public IEnumerator FadeOutRoutine(float durationSeconds) {
+        if (!gameObject.activeInHierarchy) {
+            yield break;
+        }
         this.fadeDurationSeconds = durationSeconds;
         this.targetAlpha = 0.0f;
         while (Alpha != targetAlpha) {
@@ -119,8 +121,7 @@ public class TextboxComponent : MonoBehaviour {
                 transition.transitionDurationSeconds = GetFadeSeconds(player);
                 StartCoroutine(transition.TransitionRoutine(fadeInTexture, true));
                 yield return null;
-                targetAlpha = 1.0f;
-                Alpha = 1.0f;
+                SetAlpha(1.0f);
                 while (transition.IsTransitioning()) {
                     if (player.WasHurried()) {
                         transition.Hurry();
@@ -138,8 +139,7 @@ public class TextboxComponent : MonoBehaviour {
                 yield return null;
             }
         }
-        targetAlpha = 1.0f;
-        Alpha = 1.0f;
+        SetAlpha(1.0f);
     }
 
     public IEnumerator Deactivate(ScenePlayer player) {
@@ -169,14 +169,18 @@ public class TextboxComponent : MonoBehaviour {
                 yield return null;
             }
         }
-        targetAlpha = 0.0f;
-        Alpha = 0.0f;
+        SetAlpha(0.0f);
         gameObject.SetActive(false);
         Clear();
     }
 
     public void Clear() {
         textbox.text = "";
+    }
+
+    public void SetAlpha(float alpha) {
+        Alpha = alpha;
+        targetAlpha = alpha;
     }
 
     private float GetFadeSeconds(ScenePlayer player) {
