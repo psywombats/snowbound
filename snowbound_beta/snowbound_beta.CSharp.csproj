@@ -128,6 +128,7 @@
     <Compile Include="Assets\Scripts\SceneScript\StageDirectionCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SwitchToCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\TextCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\WaitCommand.cs" />
     <Compile Include="Assets\Scripts\Serialization\Memory.cs" />
     <Compile Include="Assets\Scripts\Serialization\ScreenMemory.cs" />
     <Compile Include="Assets\Scripts\Serialization\SettingsMemory.cs" />
