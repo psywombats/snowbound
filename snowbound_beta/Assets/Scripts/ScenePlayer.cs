@@ -200,6 +200,8 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     }
 
     private IEnumerator PauseRoutine() {
+        Global.Instance().memory.RememberScreenshot();
+
         yield return Utils.RunParallel(new[] {
             textbox.FadeOutRoutine(PauseMenuComponent.FadeoutSeconds),
             paragraphBox.FadeOutRoutine(PauseMenuComponent.FadeoutSeconds)

@@ -13,6 +13,7 @@ public class MemoryManager : MonoBehaviour {
     private Dictionary<string, int> variables;
     private Dictionary<string, int> maxSeenCommands;
     private List<LogItem> messageHistory;
+    private Texture2D screenshot;
     private float lastSystemSavedTimestamp;
 
     // this thing will be read by the dialog scene when spawning
@@ -28,6 +29,14 @@ public class MemoryManager : MonoBehaviour {
         messageHistory = new List<LogItem>();
         lastSystemSavedTimestamp = Time.realtimeSinceStartup;
         LoadOrCreateSystemMemory();
+
+        int width = (int)(Screen.width / ScreenshotScaleFactor);
+        int height = (int)(Screen.height / ScreenshotScaleFactor);
+        screenshot = new Texture2D(width, height, TextureFormat.RGB24, false);
+    }
+
+    public void OnDestroy() {
+        Destroy(screenshot);
     }
 
     public void AppendLogItem(LogItem item) {
@@ -67,25 +76,8 @@ public class MemoryManager : MonoBehaviour {
         foreach (int value in variables.Values) {
             memory.variableValues.Add(value);
         }
-
-        // screenshot time, disable the save menu from appearing first
-        SaveMenuComponent saveMenu = FindObjectOfType<SaveMenuComponent>();
-        ScenePlayer scenePlayer = FindObjectOfType<ScenePlayer>();
-        if (saveMenu != null) {
-            saveMenu.Alpha = 0.0f;
-        }
-        if (scenePlayer != null) {
-            scenePlayer.textbox.SetAlpha(1.0f);
-            scenePlayer.paragraphBox.SetAlpha(1.0f);
-        }
+        
         AttachScreenshotToMemory(memory);
-        if (saveMenu != null) {
-            saveMenu.Alpha = 1.0f;
-        }
-        if (scenePlayer != null) {
-            scenePlayer.textbox.SetAlpha(0.0f);
-            scenePlayer.paragraphBox.SetAlpha(0.0f);
-        }
 
         return memory;
     }
@@ -163,11 +155,11 @@ public class MemoryManager : MonoBehaviour {
         return Sprite.Create(texture, new Rect(0, 0, width, height), new Vector2(0, 0));
     }
 
-    private void AttachScreenshotToMemory(Memory memory) {
+    // takes a screenshot and keeps it in memory, to be saved later maybe
+    public void RememberScreenshot() {
         int width = (int)(Screen.width / ScreenshotScaleFactor);
         int height = (int)(Screen.height / ScreenshotScaleFactor);
         RenderTexture renderTexture = new RenderTexture(width, height, 24);
-        Texture2D screenshot = new Texture2D(width, height, TextureFormat.RGB24, false);
 
         List<Camera> cameras = new List<Camera>(Camera.allCameras);
         cameras.Sort((Camera c1, Camera c2) => {
@@ -183,7 +175,9 @@ public class MemoryManager : MonoBehaviour {
         screenshot.ReadPixels(new Rect(0, 0, width, height), 0, 0);
         RenderTexture.active = null;
         Destroy(renderTexture);
+    }
 
+    private void AttachScreenshotToMemory(Memory memory) {
         byte[] pngBytes = screenshot.EncodeToPNG();
         memory.base64ScreenshotPNG = Convert.ToBase64String(pngBytes);
     }
