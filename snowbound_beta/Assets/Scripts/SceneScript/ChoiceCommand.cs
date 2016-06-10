@@ -25,8 +25,12 @@ public class ChoiceCommand : SceneCommand {
         // set mode
         player.AwaitingInputFromCommand = true;
 
-        // fade out the paragraph box if necessary
-        yield return player.StartCoroutine(player.paragraphBox.FadeOutRoutine(buttonFadeDuration));
+        // get rid of the advane prompt
+        player.textbox.FadeAdvancePrompt(false);
+        player.paragraphBox.FadeAdvancePrompt(false);
+
+        // deactivate the paragraph box if necessary
+        yield return player.StartCoroutine(player.paragraphBox.Deactivate(player));
 
         // display the choices
         choiceObjects = new List<GameObject>();

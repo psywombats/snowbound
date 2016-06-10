@@ -61,7 +61,14 @@ public class TextboxComponent : MonoBehaviour {
         advancePrompt.gameObject.SetActive(false);
     }
 
+    public void FadeAdvancePrompt(bool fadeIn) {
+        advancePrompt.CrossFadeAlpha(fadeIn? 1.0f : 0.0f, AdvancePromptFadeOutSeconds, false);
+    }
+
     public IEnumerator FadeInRoutine(float durationSeconds) {
+        if (!gameObject.activeInHierarchy) {
+            yield break;
+        }
         this.fadeDurationSeconds = durationSeconds;
         this.targetAlpha = 1.0f;
         while (Alpha != targetAlpha) {
@@ -82,7 +89,7 @@ public class TextboxComponent : MonoBehaviour {
 
     public IEnumerator ShowText(ScenePlayer player, string text) {
         fullText = text;
-        advancePrompt.CrossFadeAlpha(0.0f, AdvancePromptFadeOutSeconds, false);
+        FadeAdvancePrompt(false);
         for (int i = 0; i <= fullText.Length; i += 1) {
             if (player.IsSuspended()) {
                 yield return null;
@@ -108,7 +115,7 @@ public class TextboxComponent : MonoBehaviour {
 
         advancePrompt.gameObject.SetActive(true);
         AdvancePromptAlpha = 0.0f;
-        advancePrompt.CrossFadeAlpha(1.0f, AdvancePromptFadeInSeconds, false);
+        FadeAdvancePrompt(true);
     }
 
     public IEnumerator Activate(ScenePlayer player) {
@@ -139,7 +146,6 @@ public class TextboxComponent : MonoBehaviour {
                 yield return null;
             }
         }
-        SetAlpha(1.0f);
     }
 
     public IEnumerator Deactivate(ScenePlayer player) {
@@ -169,7 +175,6 @@ public class TextboxComponent : MonoBehaviour {
                 yield return null;
             }
         }
-        SetAlpha(0.0f);
         gameObject.SetActive(false);
         Clear();
     }
