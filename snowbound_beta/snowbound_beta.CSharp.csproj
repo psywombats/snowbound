@@ -100,6 +100,8 @@
     <Compile Include="Assets\Scripts\Data\CharaIndexData.cs" />
     <Compile Include="Assets\Scripts\Data\GenericDataObject.cs" />
     <Compile Include="Assets\Scripts\Data\GenericIndex.cs" />
+    <Compile Include="Assets\Scripts\Data\ParticleData.cs" />
+    <Compile Include="Assets\Scripts\Data\ParticleIndexData.cs" />
     <Compile Include="Assets\Scripts\Data\SoundEffectData.cs" />
     <Compile Include="Assets\Scripts\Data\SoundEffectIndexData.cs" />
     <Compile Include="Assets\Scripts\Data\TransitionData.cs" />
