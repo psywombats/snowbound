@@ -7,3 +7,4 @@ public class ParticleData : GenericDataObject {
     public Particle foregroundParticle;
 
 }
+
