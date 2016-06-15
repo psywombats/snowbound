@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\Behaviors\OscillationComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\PauseMenuComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\PortraitGroupComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\RadioButtonSoundComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\SaveButtonComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\SaveMenuComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\SettingButtonUIComponent.cs" />

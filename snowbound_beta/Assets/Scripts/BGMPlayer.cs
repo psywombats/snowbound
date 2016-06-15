@@ -4,17 +4,16 @@ using System.Collections;
 [RequireComponent(typeof(AudioSource))]
 public class BGMPlayer : MonoBehaviour {
 
+    public BGMIndexData bgms;
     public float fadeSeconds = 0.5f;
 
     private AudioSource source;
-    private ScenePlayer player;
     private BGMData currentTrack;
     private Setting<float> volumeSetting;
     private float preprocessingVolume;
 
     public void Awake() {
         source = GetComponent<AudioSource>();
-        player = FindObjectOfType<ScenePlayer>();
         volumeSetting = Global.Instance().settings.GetFloatSetting(SettingsConstants.BGMVolume);
     }
 
@@ -30,7 +29,7 @@ public class BGMPlayer : MonoBehaviour {
 
     public void PopulateFromMemory(ScreenMemory memory) {
         if (memory.bgmTag != null && memory.bgmTag.Length > 0) {
-            currentTrack = player.GetBGM(memory.bgmTag);
+            currentTrack = bgms.GetData(memory.bgmTag);
             source.clip = currentTrack.track;
             source.Play();
         }
@@ -55,7 +54,7 @@ public class BGMPlayer : MonoBehaviour {
         yield return FadeOutRoutine(seconds);
         source.Stop();
 
-        BGMData newTrack = player.GetBGM(bgmTag);
+        BGMData newTrack = bgms.GetData(bgmTag);
         currentTrack = newTrack;
         source.clip = newTrack.track;
         preprocessingVolume = 1.0f;

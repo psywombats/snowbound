@@ -10,6 +10,7 @@ public class PortraitGroupComponent : MonoBehaviour {
     public TachiComponent portraitC;
     public TachiComponent portraitD;
     public TachiComponent portraitE;
+    public CharaIndexData charas;
 
     private List<TachiComponent> portraits;
 

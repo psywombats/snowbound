@@ -3,13 +3,13 @@
 [RequireComponent(typeof(AudioSource))]
 public class SoundPlayer : MonoBehaviour {
 
+    public SoundEffectIndexData sounds;
+
     private AudioSource source;
     private Setting<float> volumeSetting;
-    private ScenePlayer player;
 
     public void Awake() {
         source = GetComponent<AudioSource>();
-        player = FindObjectOfType<ScenePlayer>();
         volumeSetting = Global.Instance().settings.GetFloatSetting(SettingsConstants.SoundEffectVolume);
     }
 
@@ -18,7 +18,7 @@ public class SoundPlayer : MonoBehaviour {
     }
 
     public void PlaySound(string soundTag) {
-        source.clip = player.GetSoundEffect(soundTag).clip;
+        source.clip = sounds.GetData(soundTag).clip;
         source.Play();
     }
 

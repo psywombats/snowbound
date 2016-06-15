@@ -74,7 +74,7 @@ public class TachiComponent : MonoBehaviour {
     public void PopulateFromMemory(TachiMemory memory) {
         SpriteRenderer renderer = GetComponent<SpriteRenderer>();
         if (memory.enabled) {
-            SetChara(player.GetChara(memory.charaTag));
+            SetChara(player.portraits.charas.GetData(memory.charaTag));
             gameObject.SetActive(true);
             renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 1.0f);
         } else {

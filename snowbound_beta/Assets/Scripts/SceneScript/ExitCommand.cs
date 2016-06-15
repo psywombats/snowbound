@@ -21,7 +21,7 @@ public class ExitCommand : StageDirectionCommand {
     }
 
     private IEnumerator ParallelAction(ScenePlayer player) {
-        CharaData chara = player.GetChara(charaTag);
+        CharaData chara = player.portraits.charas.GetData(charaTag);
         TachiComponent portrait = player.portraits.GetPortraitByChara(chara);
 
         // fade 'em out!

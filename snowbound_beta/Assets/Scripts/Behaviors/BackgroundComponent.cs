@@ -3,16 +3,13 @@ using System.Collections;
 
 [RequireComponent(typeof(Sprite))]
 public class BackgroundComponent : MonoBehaviour {
+    
+    public BackgroundIndexData backgrounds;
 
     private BackgroundData currentBackground;
-    private ScenePlayer player;
-
-    public void Awake() {
-        player = FindObjectOfType<ScenePlayer>();
-    }
 
 	public void SetBackground(string backgroundTag) {
-        currentBackground = player.GetBackground(backgroundTag);
+        currentBackground = backgrounds.GetData(backgroundTag);
         UpdateDisplay();
     }
 
@@ -24,7 +21,7 @@ public class BackgroundComponent : MonoBehaviour {
 
     public void PopulateFromMemory(ScreenMemory memory) {
         if (memory.backgroundTag != null && memory.backgroundTag.Length > 0) {
-            currentBackground = player.GetBackground(memory.backgroundTag);
+            currentBackground = backgrounds.GetData(memory.backgroundTag);
             UpdateDisplay();
         }
     }

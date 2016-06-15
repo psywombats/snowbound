@@ -26,7 +26,7 @@ public class EnterCommand : StageDirectionCommand {
     }
 
     private IEnumerator ParallelAction(ScenePlayer player) {
-        CharaData chara = player.GetChara(charaTag);
+        CharaData chara = player.portraits.charas.GetData(charaTag);
         TachiComponent portrait = player.portraits.GetPortraitBySlot(slotLetter);
 
         // fade out if someone's there already

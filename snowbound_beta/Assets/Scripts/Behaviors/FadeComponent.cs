@@ -59,7 +59,7 @@ public class FadeComponent : MonoBehaviour {
 
         gameObject.transform.SetAsLastSibling();
 
-        if (player.ShouldUseFastMode()) {
+        if (player != null && player.ShouldUseFastMode()) {
             yield return new WaitForSeconds(fastModeHiccupTime);
         } else {
             image.CrossFadeAlpha(0.0f, fadeTime, false);

@@ -13,15 +13,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public TextboxComponent textbox;
     public TextboxComponent paragraphBox;
     public BackgroundComponent background;
-    public CharaIndexData charas;
+    public PortraitGroupComponent portraits;
     public TransitionIndexData transitions;
     public TransitionComponent transition;
     public UnityEngine.UI.Text debugBox;
-
-    public PortraitGroupComponent portraits;
-    public BackgroundIndexData backgrounds;
-    public BGMIndexData bgms;
-    public SoundEffectIndexData sounds;
 
     private SceneScript currentScript;
     private IEnumerator playingRoutine;
@@ -147,22 +142,6 @@ public class ScenePlayer : MonoBehaviour, InputListener {
 
     public void ResumeLoadedScene() {
         StartCoroutine(PlayCurrentScript());
-    }
-
-    public CharaData GetChara(string tag) {
-        return charas.GetData(tag);
-    }
-
-    public BackgroundData GetBackground(string tag) {
-        return backgrounds.GetData(tag);
-    }
-
-    public BGMData GetBGM(string tag) {
-        return bgms.GetData(tag);
-    }
-
-    public SoundEffectData GetSoundEffect(string soundTag) {
-        return sounds.GetData(soundTag);
     }
 
     public ScreenMemory ToMemory() {

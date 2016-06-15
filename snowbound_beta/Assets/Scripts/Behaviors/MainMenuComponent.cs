@@ -26,6 +26,10 @@ public class MainMenuComponent : MenuComponent {
             SetInputEnabled(false);
             StartCoroutine(QuitRoutine());
         });
+
+        StartCoroutine(Utils.RunAfterDelay(FindObjectOfType<FadeComponent>().fadeTime, () => {
+            SetInputEnabled(true);
+        }));
     }
 
     protected override void SetInputEnabled(bool enabled) {
@@ -41,8 +45,9 @@ public class MainMenuComponent : MenuComponent {
     }
 
     private IEnumerator LoadRoutine() {
+        yield return new WaitForSeconds(0.1f);
         GameObject loadMenuObject = SaveMenuComponent.Spawn(gameObject.transform.parent.gameObject, SaveMenuComponent.SaveMenuMode.Load, () => {
-            SetInputEnabled(false);
+            SetInputEnabled(true);
         });
         loadMenuObject.GetComponent<SaveMenuComponent>().Alpha = 0.0f;
         yield return StartCoroutine(loadMenuObject.GetComponent<SaveMenuComponent>().FadeInRoutine());
