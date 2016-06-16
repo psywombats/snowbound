@@ -6,6 +6,7 @@ using System.IO;
 public class SaveMenuComponent : MenuComponent {
 
     private const float FadeoutSeconds = 0.2f;
+    private const float LoadDelaySeconds = 1.5f;
     private const string PrefabName = "Prefabs/SaveMenu";
     private const string SaveGameSuffix = ".sav";
     private const string SystemSaveName = "system.sav";
@@ -78,6 +79,7 @@ public class SaveMenuComponent : MenuComponent {
         Global.Instance().memory.ActiveMemory = memory;
         FadeComponent fade = FindObjectOfType<FadeComponent>();
         yield return fade.FadeToBlackRoutine();
+        yield return new WaitForSeconds(LoadDelaySeconds);
         ScenePlayer.LoadScreen();
         yield return null;
     }

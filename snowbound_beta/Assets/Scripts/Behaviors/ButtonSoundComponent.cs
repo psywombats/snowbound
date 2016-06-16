@@ -26,6 +26,8 @@ public class ButtonSoundComponent : MonoBehaviour {
     }
 
     private void HandleButtonEvent(string associatedTag) {
-        player.PlaySound(associatedTag);
+        if (gameObject.activeInHierarchy) {
+            player.PlaySound(associatedTag);
+        }
     }
 }
