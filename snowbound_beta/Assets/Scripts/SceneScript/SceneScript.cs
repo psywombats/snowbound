@@ -37,6 +37,21 @@ public class SceneScript {
         return Resources.Load<TextAsset>(ScenesDirectory + "/" + sceneName);
     }
 
+    public static bool StartsWithName(string text) {
+        if ((text.IndexOf(' ') == -1) || (text.IndexOf(':') == -1)) {
+            return false;
+        }
+        foreach (char c in text) {
+            if (c == ':') {
+                return true;
+            }
+            if (!Char.IsUpper(c)) {
+                return false;
+            }
+        }
+        return false;
+    }
+
     public IEnumerator PerformActions(ScenePlayer player) {
         for (; commandIndex < commands.Count; commandIndex += 1) {
             CurrentCommand = commands[commandIndex];
@@ -134,14 +149,14 @@ public class SceneScript {
                 
                 if (StartsWithName(commandString)) {
                     // spoken line
-                    command = ParseLine(commandString);
+                    command = ParseLine(player, commandString);
                 } else {
                     if (startsNewParagraph) {
                         // text paragraph
                         command = ParseParagraph(commandString);
                     } else {
                         // the inner monologue
-                        command = ParseLine(commandString);
+                        command = ParseLine(player, commandString);
                     }
                 }
                 startsNewParagraph = false;
@@ -216,7 +231,7 @@ public class SceneScript {
         return (index < args.Count) ? args[index] : null;
     }
 
-    private SceneCommand ParseLine(string commandString) {
+    private SceneCommand ParseLine(ScenePlayer player, string commandString) {
         if (nvlMode) {
             if (lastExitAll != null) {
                 lastExitAll.ClosesTextboxes = true;
@@ -224,7 +239,7 @@ public class SceneScript {
             }
         }
         nvlMode = false;
-        return new SpokenLineCommand(commandString);
+        return new SpokenLineCommand(player, commandString);
     }
 
     private SceneCommand ParseParagraph(string commandString) {
@@ -236,20 +251,5 @@ public class SceneScript {
         }
         nvlMode = true;
         return new ParagraphCommand(commandString);
-    }
-
-    private bool StartsWithName(string text) {
-        if ((text.IndexOf(' ') == -1) || (text.IndexOf(':') == -1)) {
-            return false;
-        }
-        foreach (char c in text) {
-            if (c == ':') {
-                return true;
-            }
-            if (!Char.IsUpper(c)) {
-                return false;
-            }
-        }
-        return false;
     }
 }

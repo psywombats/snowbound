@@ -4,7 +4,7 @@ using System;
 
 public abstract class TextCommand : SceneCommand {
 
-    private string text;
+    protected string text;
 
     public TextCommand(string text) {
         this.text = text;
