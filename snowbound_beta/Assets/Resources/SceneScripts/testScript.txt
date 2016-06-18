@@ -2,15 +2,28 @@ testbox
 
 NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE 
 
-SYSTEM: Test time! Here comes Max!
+ERIC: You can consider the rest of this be my monologue.
+
+whaaa?
+
+ERIC: what???
+
+whaaa?
+
+ERIC: what???
+
+whaaa?
+
+ERIC: what???
+Test time! Here comes Max!
 [enter MAX B]
-SYSTEM: And now for Rebecca!
+And now for Rebecca!
 [enter REBECCA D]
-SYSTEM: Pete will now replace Rebecca.
+Pete will now replace Rebecca.
 [enter PETE D]
 MAX: I'm gonna leave as well.
 [exit MAX]
-SYSTEM: Max is gone?
+Max is gone?
 
 The background is black.
 

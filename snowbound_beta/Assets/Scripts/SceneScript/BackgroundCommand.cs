@@ -5,7 +5,6 @@ using System;
 public class BackgroundCommand : SceneCommand {
 
     private const string FadeTransitionTag = "fade";
-    private const float TextboxFadeSeconds = 0.6f;
 
     private string backgroundTag;
     private string transitionTag;
@@ -20,8 +19,9 @@ public class BackgroundCommand : SceneCommand {
         TransitionComponent transition = player.transition;
         FadeComponent fade = player.GetFade();
 
-        yield return player.StartCoroutine(player.paragraphBox.FadeOutRoutine(TextboxFadeSeconds));
-        
+        yield return player.StartCoroutine(player.paragraphBox.Deactivate(player));
+        yield return player.StartCoroutine(player.textbox.Deactivate(player));
+
         if (data.transitionMask == null) {
             yield return player.StartCoroutine(fade.FadeToBlackRoutine(true, false));
         } else {

@@ -3,7 +3,7 @@ using System.Collections;
 using System;
 
 public abstract class TextCommand : SceneCommand {
-
+    
     protected string text;
 
     public TextCommand(string text) {
@@ -15,10 +15,12 @@ public abstract class TextCommand : SceneCommand {
         TextboxComponent secondaryBox = SecondaryBox(player);
         
         // fade the textboxes in or out
-        yield return player.StartCoroutine(Utils.RunParallel(new[] {
+        if (!primaryBox.gameObject.activeInHierarchy) {
+            yield return player.StartCoroutine(Utils.RunParallel(new[] {
                 primaryBox.Activate(player),
                 secondaryBox.Deactivate(player)
-        }, player));
+            }, player));
+        }
 
         // type the text
         yield return player.StartCoroutine(primaryBox.ShowText(player, text));

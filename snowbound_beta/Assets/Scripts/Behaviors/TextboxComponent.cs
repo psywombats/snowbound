@@ -5,32 +5,23 @@ using UnityEngine.UI;
 using UnityEngine.Assertions;
 
 [RequireComponent(typeof(TransitionComponent))]
+[RequireComponent(typeof(FadingUIComponent))]
 public class TextboxComponent : MonoBehaviour {
 
     private const float CharacterDelayMax = (1.0f / 20.0f);
     private const float CharacterDelayMin = (1.0f / 160.0f);
-    private const float TextboxFadeSeconds = 0.5f;
-    private const float FastModeHiccupSeconds = 0.05f;
-    private const float FastModeFadeSeconds = 0.15f;
     private const float AdvancePromptFadeOutSeconds = 0.15f;
     private const float AdvancePromptFadeInSeconds = 0.3f;
+    private const float FastModeHiccupSeconds = 0.05f;
 
     public Shader shader;
     public Image backer;
     public Text textbox;
-    public Texture2D fadeInTexture;
-    public Texture2D fadeOutTexture;
     public Image advancePrompt;
+    public SpeakerComponent speaker;
 
     private Setting<float> characterSpeedSetting;
     private string fullText;
-    private float fadeDurationSeconds;
-    private float targetAlpha;
-    
-    private float Alpha {
-        get { return gameObject.GetComponent<CanvasGroup>().alpha; }
-        set { gameObject.GetComponent<CanvasGroup>().alpha = value; }
-    }
 
     public float Height {
         get { return GetComponent<RectTransform>().rect.height; }
@@ -46,45 +37,22 @@ public class TextboxComponent : MonoBehaviour {
         characterSpeedSetting = Global.Instance().settings.GetFloatSetting(SettingsConstants.TextSpeed);
     }
 
-    public void Update() {
-        if (Alpha < targetAlpha) {
-            Alpha += Time.deltaTime / fadeDurationSeconds;
-            if (Alpha > targetAlpha) Alpha = targetAlpha;
-        } else if (Alpha > targetAlpha) {
-            Alpha -= Time.deltaTime / fadeDurationSeconds;
-            if (Alpha < targetAlpha) Alpha = targetAlpha;
-        }
-    }
-
     public void OnEnable() {
         SetAlpha(0.0f);
         advancePrompt.gameObject.SetActive(false);
+        Clear();
+    }
+
+    public void Clear() {
+        textbox.text = "";
+    }
+
+    public void SetAlpha(float alpha) {
+        GetComponent<FadingUIComponent>().SetAlpha(alpha);
     }
 
     public void FadeAdvancePrompt(bool fadeIn) {
         advancePrompt.CrossFadeAlpha(fadeIn? 1.0f : 0.0f, AdvancePromptFadeOutSeconds, false);
-    }
-
-    public IEnumerator FadeInRoutine(float durationSeconds) {
-        if (!gameObject.activeInHierarchy) {
-            yield break;
-        }
-        this.fadeDurationSeconds = durationSeconds;
-        this.targetAlpha = 1.0f;
-        while (Alpha != targetAlpha) {
-            yield return null;
-        }
-    }
-
-    public IEnumerator FadeOutRoutine(float durationSeconds) {
-        if (!gameObject.activeInHierarchy) {
-            yield break;
-        }
-        this.fadeDurationSeconds = durationSeconds;
-        this.targetAlpha = 0.0f;
-        while (Alpha != targetAlpha) {
-            yield return null;
-        }
     }
 
     public IEnumerator ShowText(ScenePlayer player, string text) {
@@ -118,81 +86,33 @@ public class TextboxComponent : MonoBehaviour {
         FadeAdvancePrompt(true);
     }
 
+    public IEnumerator FadeInRoutine(float durationSeconds) {
+        yield return StartCoroutine(GetComponent<FadingUIComponent>().FadeInRoutine(durationSeconds));
+    }
+
+    public IEnumerator FadeOutRoutine(float durationSeconds) {
+        yield return StartCoroutine(GetComponent<FadingUIComponent>().FadeOutRoutine(durationSeconds));
+    }
+
     public IEnumerator Activate(ScenePlayer player) {
-        gameObject.SetActive(true);
-        advancePrompt.gameObject.SetActive(false);
-        Clear();
-        if (fadeInTexture != null) {
-            TransitionComponent transition = GetComponent<TransitionComponent>();
-            if (Alpha < 1.0f) {
-                transition.transitionDurationSeconds = GetFadeSeconds(player);
-                StartCoroutine(transition.TransitionRoutine(fadeInTexture, true));
-                yield return null;
-                SetAlpha(1.0f);
-                while (transition.IsTransitioning()) {
-                    if (player.WasHurried()) {
-                        transition.Hurry();
-                    }
-                    yield return null;
-                }
-            }
+        if (speaker != null && speaker.HasChara()) {
+            yield return player.StartCoroutine(Utils.RunParallel(new[] {
+                GetComponent<FadingUIComponent>().Activate(player),
+                speaker.Activate(player)
+            }, player));
         } else {
-            targetAlpha = 1.0f;
-            fadeDurationSeconds = GetFadeSeconds(player);
-            while (Alpha != targetAlpha) {
-                if (player.WasHurried()) {
-                    break;
-                }
-                yield return null;
-            }
+            yield return player.StartCoroutine(GetComponent<FadingUIComponent>().Activate(player));
         }
     }
 
     public IEnumerator Deactivate(ScenePlayer player) {
-        if (!gameObject.activeInHierarchy) {
-            yield break;
-        }
-        if (fadeOutTexture != null) {
-            TransitionComponent transition = GetComponent<TransitionComponent>();
-            if (Alpha > 0.0f) {
-                transition.transitionDurationSeconds = GetFadeSeconds(player);
-                StartCoroutine(transition.TransitionRoutine(fadeOutTexture, false));
-                yield return null;
-                while (transition.IsTransitioning()) {
-                    if (player.WasHurried()) {
-                        transition.Hurry();
-                    }
-                    yield return null;
-                }
-            }
+        if (speaker != null) {
+            yield return player.StartCoroutine(Utils.RunParallel(new[] {
+                GetComponent<FadingUIComponent>().Deactivate(player),
+                speaker.Deactivate(player)
+            }, player));
         } else {
-            targetAlpha = 0.0f;
-            fadeDurationSeconds = GetFadeSeconds(player);
-            while (Alpha != targetAlpha) {
-                if (player.WasHurried()) {
-                    break;
-                }
-                yield return null;
-            }
-        }
-        gameObject.SetActive(false);
-        Clear();
-    }
-
-    public void Clear() {
-        textbox.text = "";
-    }
-
-    public void SetAlpha(float alpha) {
-        Alpha = alpha;
-        targetAlpha = alpha;
-    }
-
-    private float GetFadeSeconds(ScenePlayer player) {
-        if (player.ShouldUseFastMode()) {
-            return FastModeFadeSeconds;
-        } else {
-            return TextboxFadeSeconds;
+            yield return player.StartCoroutine(GetComponent<FadingUIComponent>().Deactivate(player));
         }
     }
 

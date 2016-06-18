@@ -17,11 +17,26 @@ public class SpokenLineCommand : TextCommand {
         }
     }
 
-    protected override TextboxComponent PrimaryBox(ScenePlayer parser) {
-        return parser.textbox;
+    public override IEnumerator PerformAction(ScenePlayer player) {
+        if (player.textbox.speaker != null) {
+            if (player.textbox.gameObject.activeInHierarchy) {
+                if (player.textbox.speaker.gameObject.activeInHierarchy) {
+                    player.textbox.speaker.QuickActivate();
+                }
+                player.textbox.speaker.TransitionToChara(chara);
+            } else {
+                player.textbox.speaker.SetChara(chara);
+            }
+        }
+        
+        yield return player.StartCoroutine(base.PerformAction(player));
     }
 
-    protected override TextboxComponent SecondaryBox(ScenePlayer parser) {
-        return parser.paragraphBox;
+    protected override TextboxComponent PrimaryBox(ScenePlayer player) {
+        return player.textbox;
+    }
+
+    protected override TextboxComponent SecondaryBox(ScenePlayer player) {
+        return player.paragraphBox;
     }
 }
