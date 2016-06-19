@@ -20,9 +20,6 @@ public class SpokenLineCommand : TextCommand {
     public override IEnumerator PerformAction(ScenePlayer player) {
         if (player.textbox.speaker != null) {
             if (player.textbox.gameObject.activeInHierarchy) {
-                if (player.textbox.speaker.gameObject.activeInHierarchy) {
-                    player.textbox.speaker.QuickActivate();
-                }
                 player.textbox.speaker.TransitionToChara(chara);
             } else {
                 player.textbox.speaker.SetChara(chara);

@@ -28,17 +28,13 @@ public class FadingUIComponent : MonoBehaviour {
         }
     }
 
-    public void OnEnable() {
-        SetAlpha(0.0f);
-    }
-
-    public void OnDisable() {
-        SetAlpha(0.0f);
-    }
-
     public void SetAlpha(float alpha) {
         Alpha = alpha;
         targetAlpha = alpha;
+    }
+
+    public float GetAlpha() {
+        return Alpha;
     }
 
     public IEnumerator FadeInRoutine(float durationSeconds) {
