@@ -18,6 +18,10 @@ public class FadingUIComponent : MonoBehaviour {
         set { gameObject.GetComponent<CanvasGroup>().alpha = value; }
     }
 
+    public void Awake() {
+        targetAlpha = Alpha;
+    }
+
     public void Update() {
         if (Alpha < targetAlpha) {
             Alpha += Time.deltaTime / fadeDurationSeconds;
@@ -60,9 +64,6 @@ public class FadingUIComponent : MonoBehaviour {
     }
 
     public IEnumerator Activate(ScenePlayer player = null) {
-        if (gameObject.activeInHierarchy) {
-            yield break;
-        }
         gameObject.SetActive(true);
         if (fadeInTexture != null) {
             TransitionComponent transition = GetComponent<TransitionComponent>();
@@ -91,9 +92,6 @@ public class FadingUIComponent : MonoBehaviour {
     }
 
     public IEnumerator Deactivate(ScenePlayer player = null) {
-        if (!gameObject.activeInHierarchy) {
-            yield break;
-        }
         if (fadeOutTexture != null) {
             TransitionComponent transition = GetComponent<TransitionComponent>();
             if (Alpha > 0.0f) {

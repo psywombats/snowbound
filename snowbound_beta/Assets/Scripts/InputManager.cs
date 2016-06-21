@@ -4,10 +4,16 @@ using System.Collections.Generic;
 
 public class InputManager : MonoBehaviour {
 
+    private const string ScrollAxisName = "Mouse ScrollWheel";
+    private const float ScrollThreshold = .15f;
+
     public enum Command {
         Advance,
         Menu,
         Skip,
+        Save,
+        Load,
+        Log,
         Click,
         Rightclick
     };
@@ -20,6 +26,7 @@ public class InputManager : MonoBehaviour {
     private List<InputListener> listenersToPush;
     private List<InputListener> listenersToRemove;
 
+    private float scrollDelta;
     private bool simulatedAdvance;
 
     public void Awake() {
@@ -27,6 +34,9 @@ public class InputManager : MonoBehaviour {
         keybinds[Command.Advance] = new List<KeyCode>(new[] { KeyCode.Return, KeyCode.KeypadEnter, KeyCode.Space, KeyCode.Z });
         keybinds[Command.Menu] = new List<KeyCode>(new[] { KeyCode.Escape, KeyCode.C, KeyCode.Backspace });
         keybinds[Command.Skip] = new List<KeyCode>(new[] { KeyCode.S });
+        keybinds[Command.Save] = new List<KeyCode>();
+        keybinds[Command.Load] = new List<KeyCode>();
+        keybinds[Command.Log] = new List<KeyCode>(new[] { KeyCode.L });
         keybinds[Command.Click] = new List<KeyCode>();
         keybinds[Command.Rightclick] = new List<KeyCode>();
         fastKeys = new List<KeyCode>(new[] { KeyCode.LeftControl, KeyCode.RightControl });
@@ -63,6 +73,15 @@ public class InputManager : MonoBehaviour {
             if (Input.GetMouseButtonUp(1)) {
                 listener.OnCommand(Command.Rightclick);
             }
+
+            scrollDelta += Input.GetAxis(ScrollAxisName);
+            if (scrollDelta < 0) {
+                scrollDelta = 0;
+            }
+            while (scrollDelta > ScrollThreshold) {
+                scrollDelta -= ScrollThreshold;
+                listener.OnCommand(Command.Log);
+            }
         }
     }
 
@@ -84,13 +103,13 @@ public class InputManager : MonoBehaviour {
         }
     }
 
-    // simulates the user pushing an 'advance' command
+    // simulates the user pushing a command
     // called by input listeners usually when interpreting clicks as answers to AwaitAdvance
-    public void SimulateAdvance() {
+    public void SimulateCommand(Command simulatedCommand) {
         simulatedAdvance = true;
         InputListener listener = listeners[listeners.Count - 1];
         if (!disabledListeners.Contains(listener)) {
-            listener.OnCommand(Command.Advance);
+            listener.OnCommand(simulatedCommand);
         }
     }
 

@@ -84,6 +84,7 @@
     <Compile Include="Assets\Scripts\Behaviors\OscillationComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\PauseMenuComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\PortraitGroupComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\QuickMenuComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\RadioButtonSoundComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\SaveButtonComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\SaveMenuComponent.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="Assets\Scripts\Behaviors\SpeakerComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\SpeakerDisplayComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\TachiComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\TextboxBackerComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\TextboxComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\TransitionComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\UIImageAnimationComponent.cs" />

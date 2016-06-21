@@ -14,8 +14,8 @@ public class EndCommand : SceneCommand {
     }
 
     public override IEnumerator PerformAction(ScenePlayer player) {
-        yield return player.textbox.FadeOutRoutine(0.5f);
-        yield return player.paragraphBox.FadeInRoutine(0.5f);
+        yield return player.textbox.FadeOutRoutine(player, 0.5f);
+        yield return player.paragraphBox.FadeInRoutine(player, 0.5f);
         yield return player.paragraphBox.ShowText(player, "ENDING " + endingKey);
         yield return Global.Instance().input.AwaitAdvance();
 

@@ -3,18 +3,20 @@ using UnityEngine.UI;
 using System.Collections;
 
 [RequireComponent(typeof(FadingUIComponent))]
-public class SpeakerDisplayComponent : MonoBehaviour {
+[RequireComponent(typeof(TransitionComponent))]
+public class TextboxBackerComponent : MonoBehaviour {
 
-    public CharaData chara;
-    public Image portraitImage;
-    public Text nametag;
+    public FadingUIComponent FadingUI {
+        get { return GetComponent<FadingUIComponent>(); }
+    }
 
-    public void SetChara(CharaData chara) {
-        this.chara = chara;
-        if (chara != null) {
-            portraitImage.sprite = chara.portrait;
-            nametag.text = chara.name;
-        }
+    public TransitionComponent Transition {
+        get { return GetComponent<TransitionComponent>(); }
+    }
+
+    public float Alpha {
+        get { return FadingUI.GetAlpha(); }
+        set { FadingUI.SetAlpha(value); }
     }
 
     public IEnumerator FadeInRoutine(float durationSeconds) {

@@ -3,18 +3,26 @@ using UnityEngine.UI;
 using System.Collections;
 
 [RequireComponent(typeof(FadingUIComponent))]
-public class SpeakerDisplayComponent : MonoBehaviour {
+public class QuickMenuComponent : MonoBehaviour {
 
-    public CharaData chara;
-    public Image portraitImage;
-    public Text nametag;
+    public Button menuButton;
+    public Button saveButton;
+    public Button loadButton;
+    public Button logButton;
+    public Button skipButton;
 
-    public void SetChara(CharaData chara) {
-        this.chara = chara;
-        if (chara != null) {
-            portraitImage.sprite = chara.portrait;
-            nametag.text = chara.name;
-        }
+    public void Awake() {
+        FormatButtonForCommand(menuButton, InputManager.Command.Menu);
+        FormatButtonForCommand(saveButton, InputManager.Command.Save);
+        FormatButtonForCommand(loadButton, InputManager.Command.Load);
+        FormatButtonForCommand(logButton, InputManager.Command.Log);
+        FormatButtonForCommand(skipButton, InputManager.Command.Skip);
+    }
+
+    private void FormatButtonForCommand(Button button, InputManager.Command command) {
+        button.onClick.AddListener(() => {
+            Global.Instance().input.SimulateCommand(command);
+        });
     }
 
     public IEnumerator FadeInRoutine(float durationSeconds) {

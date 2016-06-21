@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine.Assertions;
 
-[RequireComponent(typeof(TransitionComponent))]
-[RequireComponent(typeof(FadingUIComponent))]
 public class TextboxComponent : MonoBehaviour {
 
     private const float CharacterDelayMax = (1.0f / 20.0f);
@@ -15,7 +14,7 @@ public class TextboxComponent : MonoBehaviour {
     private const float FastModeHiccupSeconds = 0.05f;
 
     public Shader shader;
-    public Image backer;
+    public TextboxBackerComponent backer;
     public Text textbox;
     public Image advancePrompt;
     public SpeakerComponent speaker;
@@ -33,22 +32,18 @@ public class TextboxComponent : MonoBehaviour {
     }
 
     public void Awake() {
-        backer.material = GetComponent<TransitionComponent>().GetMaterial();
+        backer.GetComponent<Image>().material = backer.GetComponent<TransitionComponent>().GetMaterial();
         characterSpeedSetting = Global.Instance().settings.GetFloatSetting(SettingsConstants.TextSpeed);
     }
 
     public void OnEnable() {
-        SetAlpha(0.0f);
-        advancePrompt.gameObject.SetActive(false);
         Clear();
+        if (speaker != null) speaker.GetComponent<FadingUIComponent>().SetAlpha(0.0f);
+        if (backer != null) backer.GetComponent<FadingUIComponent>().SetAlpha(0.0f);
     }
 
     public void Clear() {
         textbox.text = "";
-    }
-
-    public void SetAlpha(float alpha) {
-        GetComponent<FadingUIComponent>().SetAlpha(alpha);
     }
 
     public void FadeAdvancePrompt(bool fadeIn) {
@@ -86,34 +81,40 @@ public class TextboxComponent : MonoBehaviour {
         FadeAdvancePrompt(true);
     }
 
-    public IEnumerator FadeInRoutine(float durationSeconds) {
-        yield return StartCoroutine(GetComponent<FadingUIComponent>().FadeInRoutine(durationSeconds));
+    public IEnumerator FadeInRoutine(ScenePlayer player, float durationSeconds) {
+        List<IEnumerator> toRun = new List<IEnumerator>();
+        if (speaker != null) toRun.Add(speaker.FadeInRoutine(durationSeconds));
+        if (backer != null) toRun.Add(backer.FadeInRoutine(durationSeconds));
+        yield return player.StartCoroutine(Utils.RunParallel(toRun.ToArray(), player));
     }
 
-    public IEnumerator FadeOutRoutine(float durationSeconds) {
-        yield return StartCoroutine(GetComponent<FadingUIComponent>().FadeOutRoutine(durationSeconds));
+    public IEnumerator FadeOutRoutine(ScenePlayer player, float durationSeconds) {
+        List<IEnumerator> toRun = new List<IEnumerator>();
+        if (speaker != null) toRun.Add(speaker.FadeOutRoutine(durationSeconds));
+        if (backer != null) toRun.Add(backer.FadeOutRoutine(durationSeconds));
+        yield return player.StartCoroutine(Utils.RunParallel(toRun.ToArray(), player));
     }
 
     public IEnumerator Activate(ScenePlayer player) {
-        if (speaker != null && speaker.HasChara()) {
-            yield return player.StartCoroutine(Utils.RunParallel(new[] {
-                GetComponent<FadingUIComponent>().Activate(player),
-                speaker.Activate(player)
-            }, player));
-        } else {
-            yield return player.StartCoroutine(GetComponent<FadingUIComponent>().Activate(player));
+        if (gameObject.activeInHierarchy) {
+            yield break;
         }
+        gameObject.SetActive(true);
+        List<IEnumerator> toRun = new List<IEnumerator>();
+        if (speaker != null) toRun.Add(speaker.Activate(player));
+        if (backer != null) toRun.Add(backer.Activate(player));
+        yield return player.StartCoroutine(Utils.RunParallel(toRun.ToArray(), player));
     }
 
     public IEnumerator Deactivate(ScenePlayer player) {
-        if (speaker != null) {
-            yield return player.StartCoroutine(Utils.RunParallel(new[] {
-                GetComponent<FadingUIComponent>().Deactivate(player),
-                speaker.Deactivate(player)
-            }, player));
-        } else {
-            yield return player.StartCoroutine(GetComponent<FadingUIComponent>().Deactivate(player));
+        if (!gameObject.activeInHierarchy) {
+            yield break;
         }
+        List<IEnumerator> toRun = new List<IEnumerator>();
+        if (speaker != null) toRun.Add(speaker.Deactivate(player));
+        if (backer != null) toRun.Add(backer.Deactivate(player));
+        yield return player.StartCoroutine(Utils.RunParallel(toRun.ToArray(), player));
+        gameObject.SetActive(false);
     }
 
     private float GetCharacterDelay() {
