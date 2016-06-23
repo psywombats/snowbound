@@ -18,6 +18,7 @@ public class TextboxComponent : MonoBehaviour {
     public Text textbox;
     public Image advancePrompt;
     public SpeakerComponent speaker;
+    public QuickMenuComponent quickMenu;
 
     private Setting<float> characterSpeedSetting;
     private string fullText;
@@ -32,7 +33,6 @@ public class TextboxComponent : MonoBehaviour {
     }
 
     public void Awake() {
-        backer.GetComponent<Image>().material = backer.GetComponent<TransitionComponent>().GetMaterial();
         characterSpeedSetting = Global.Instance().settings.GetFloatSetting(SettingsConstants.TextSpeed);
     }
 
@@ -40,6 +40,8 @@ public class TextboxComponent : MonoBehaviour {
         Clear();
         if (speaker != null) speaker.GetComponent<FadingUIComponent>().SetAlpha(0.0f);
         if (backer != null) backer.GetComponent<FadingUIComponent>().SetAlpha(0.0f);
+        if (quickMenu != null) quickMenu.GetComponent<FadingUIComponent>().SetAlpha(0.0f);
+        AdvancePromptAlpha = 0.0f;
     }
 
     public void Clear() {
@@ -85,6 +87,7 @@ public class TextboxComponent : MonoBehaviour {
         List<IEnumerator> toRun = new List<IEnumerator>();
         if (speaker != null) toRun.Add(speaker.FadeInRoutine(durationSeconds));
         if (backer != null) toRun.Add(backer.FadeInRoutine(durationSeconds));
+        if (quickMenu != null) toRun.Add(quickMenu.FadeInRoutine(durationSeconds));
         yield return player.StartCoroutine(Utils.RunParallel(toRun.ToArray(), player));
     }
 
@@ -92,6 +95,7 @@ public class TextboxComponent : MonoBehaviour {
         List<IEnumerator> toRun = new List<IEnumerator>();
         if (speaker != null) toRun.Add(speaker.FadeOutRoutine(durationSeconds));
         if (backer != null) toRun.Add(backer.FadeOutRoutine(durationSeconds));
+        if (quickMenu != null) toRun.Add(quickMenu.FadeOutRoutine(durationSeconds));
         yield return player.StartCoroutine(Utils.RunParallel(toRun.ToArray(), player));
     }
 
@@ -99,10 +103,12 @@ public class TextboxComponent : MonoBehaviour {
         if (gameObject.activeInHierarchy) {
             yield break;
         }
+        backer.GetComponent<Image>().material = backer.GetComponent<TransitionComponent>().GetMaterial();
         gameObject.SetActive(true);
         List<IEnumerator> toRun = new List<IEnumerator>();
         if (speaker != null) toRun.Add(speaker.Activate(player));
         if (backer != null) toRun.Add(backer.Activate(player));
+        if (quickMenu != null) toRun.Add(quickMenu.Activate(player));
         yield return player.StartCoroutine(Utils.RunParallel(toRun.ToArray(), player));
     }
 
@@ -113,6 +119,7 @@ public class TextboxComponent : MonoBehaviour {
         List<IEnumerator> toRun = new List<IEnumerator>();
         if (speaker != null) toRun.Add(speaker.Deactivate(player));
         if (backer != null) toRun.Add(backer.Deactivate(player));
+        if (quickMenu != null) toRun.Add(quickMenu.Deactivate(player));
         yield return player.StartCoroutine(Utils.RunParallel(toRun.ToArray(), player));
         gameObject.SetActive(false);
     }

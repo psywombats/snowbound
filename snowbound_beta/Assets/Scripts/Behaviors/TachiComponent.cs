@@ -11,9 +11,7 @@ public class TachiComponent : MonoBehaviour {
     private bool fadingOut, fadingIn;
 
     public void Awake() {
-        StartCoroutine(Utils.RunAfterDelay(0.1f, () => {
-            player = FindObjectOfType<ScenePlayer>();
-        }));
+        player = FindObjectOfType<ScenePlayer>();
     }
 
     public void SetChara(CharaData chara) {

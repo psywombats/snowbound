@@ -7,6 +7,8 @@ public class TransitionComponent : MonoBehaviour {
     public float transitionDurationSeconds;
     public float softTransitionPercent;
 
+    public float out1, out2;
+
     private Texture2D mask;
     private Material material;
     private float elapsedSeconds;
@@ -74,6 +76,7 @@ public class TransitionComponent : MonoBehaviour {
             }
             yield return null;
         }
+        AssignCommonShaderVariables();
     }
 
     private void AssignCommonShaderVariables() {
@@ -81,5 +84,6 @@ public class TransitionComponent : MonoBehaviour {
         material.SetFloat("_Elapsed", elapsedSeconds / transitionDurationSeconds);
         material.SetFloat("_SoftFudge", softTransitionPercent);
         material.SetInt("_Invert", invert ? 1 : 0);
+        out1 = elapsedSeconds / transitionDurationSeconds;
     }
 }

@@ -215,7 +215,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
 
     private IEnumerator DisplayMenu(GameObject menuObject) {
         suspended = true;
-        MenuComponent menuComponent = menuObject.GetComponent<LogComponent>();
+        MenuComponent menuComponent = menuObject.GetComponent<MenuComponent>();
         menuComponent.Alpha = 0.0f;
 
         yield return Utils.RunParallel(new[] {

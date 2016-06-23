@@ -65,6 +65,7 @@ public class FadingUIComponent : MonoBehaviour {
 
     public IEnumerator Activate(ScenePlayer player = null) {
         gameObject.SetActive(true);
+        SetAlpha(0.0f);
         if (fadeInTexture != null) {
             TransitionComponent transition = GetComponent<TransitionComponent>();
             if (Alpha < 1.0f) {
