@@ -67,9 +67,6 @@ public class InputManager : MonoBehaviour {
                     }
                 }
             }
-            if (Input.GetMouseButtonUp(0)) {
-                listener.OnCommand(Command.Click);
-            }
             if (Input.GetMouseButtonUp(1)) {
                 listener.OnCommand(Command.Rightclick);
             }

@@ -22,9 +22,14 @@ public class TextboxComponent : MonoBehaviour {
 
     private Setting<float> characterSpeedSetting;
     private string fullText;
+    private bool paused;
 
     public float Height {
         get { return GetComponent<RectTransform>().rect.height; }
+    }
+
+    public bool Paused {
+        get { return paused; }
     }
 
     private float AdvancePromptAlpha {
@@ -56,7 +61,7 @@ public class TextboxComponent : MonoBehaviour {
         fullText = text;
         FadeAdvancePrompt(false);
         for (int i = 0; i <= fullText.Length; i += 1) {
-            if (player.IsSuspended()) {
+            if (Paused) {
                 yield return null;
             }
             if (player.WasHurried()) {
@@ -78,12 +83,18 @@ public class TextboxComponent : MonoBehaviour {
             yield return new WaitForSeconds(FastModeHiccupSeconds);
         }
 
-        advancePrompt.gameObject.SetActive(true);
-        AdvancePromptAlpha = 0.0f;
-        FadeAdvancePrompt(true);
+        if (!Paused) {
+            advancePrompt.gameObject.SetActive(true);
+            AdvancePromptAlpha = 0.0f;
+            FadeAdvancePrompt(true);
+        }
     }
 
     public IEnumerator FadeInRoutine(ScenePlayer player, float durationSeconds) {
+        if (!gameObject.activeInHierarchy) {
+            yield break;
+        }
+        advancePrompt.CrossFadeAlpha(1.0f, durationSeconds, false);
         List<IEnumerator> toRun = new List<IEnumerator>();
         if (speaker != null) toRun.Add(speaker.FadeInRoutine(durationSeconds));
         if (backer != null) toRun.Add(backer.FadeInRoutine(durationSeconds));
@@ -92,6 +103,11 @@ public class TextboxComponent : MonoBehaviour {
     }
 
     public IEnumerator FadeOutRoutine(ScenePlayer player, float durationSeconds) {
+        if (!gameObject.activeInHierarchy) {
+            yield break;
+        }
+        paused = true;
+        advancePrompt.CrossFadeAlpha(0.0f, durationSeconds, false);
         List<IEnumerator> toRun = new List<IEnumerator>();
         if (speaker != null) toRun.Add(speaker.FadeOutRoutine(durationSeconds));
         if (backer != null) toRun.Add(backer.FadeOutRoutine(durationSeconds));
@@ -103,6 +119,7 @@ public class TextboxComponent : MonoBehaviour {
         if (gameObject.activeInHierarchy) {
             yield break;
         }
+        paused = false;
         backer.GetComponent<Image>().material = backer.GetComponent<TransitionComponent>().GetMaterial();
         gameObject.SetActive(true);
         List<IEnumerator> toRun = new List<IEnumerator>();
