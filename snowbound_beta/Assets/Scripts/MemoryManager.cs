@@ -132,9 +132,11 @@ public class MemoryManager : MonoBehaviour {
         SystemMemory.totalPlaySeconds += (int)Math.Round(deltaSeconds);
 
         // seen history
+        SystemMemory.maxSeenCommandsKeys.Clear();
         foreach (string key in maxSeenCommands.Keys) {
             SystemMemory.maxSeenCommandsKeys.Add(key);
         }
+        SystemMemory.maxSeenCommandsValues.Clear();
         foreach (int value in maxSeenCommands.Values) {
             SystemMemory.maxSeenCommandsValues.Add(value);
         }
