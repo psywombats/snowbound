@@ -4,15 +4,15 @@
 [enter SOPHIE B]
 [enter KENNETH A]
 SOPHIE: "Rebecca, is that you?"
-REBECCA: "Sophie, you scared the hell out of me. Go down to the basements and find Max and Shibin. They need you."
+REBECCA: "Sophie, you scared the hell out of me. Go down to the basements and find Max and Stephen. They need you."
 KENNETH: "What's going on?"
 REBECCA: "Sophie, Pete's hurt, and it's bad. Just get going, okay?"
 [exit SOPHIE]
 [exit KENNETH]
 [enter KENNETH B]
 I almost have to push her down the stairs, but instead of following her, I stay to face Kenneth.
-KENNETH: "Where's Shibin? What happened?"
-REBECCA: "Ken, hold on a second. Max, Shibin, Arya and I went downstairs after we heard a scream. Pete's down there and he's bleeding all over the place. Someone must've stabbed him."
+KENNETH: "Where's Stephen? What happened?"
+REBECCA: "Ken, hold on a second. Max, Stephen, Arya and I went downstairs after we heard a scream. Pete's down there and he's bleeding all over the place. Someone must've stabbed him."
 KENNETH: "Is he dead?"
 REBECCA: "He was alive when I was there."
 I don't mention that I have no idea if he's still holding on. Kenneth looks to be about ready to topple over already.

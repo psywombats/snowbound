@@ -7,11 +7,11 @@ Tuesday, November 22nd: Day 12
 [enter MARILYN C]
 [enter SOPHIE D]
 FELIX: "Will she be alright? What will it take?"
-SOPHIE: "I can't tell. Her fever's even higher than Lara's was."
+SOPHIE: "I can't tell. Her fever's even higher than Laura's was."
 MARILYN: "Please... find someone else to worry about."
 FELIX: "I wouldn't dream of it."
 
-I sit next to Sophie in the gym. She and Lara are caring for Marilyn, who sits before us, wrapped in a curtain. Today began with her arrival, and none of us have any idea where we'll all stand when the day ends. I leave Sophie to console Felix and resume my hunt for a certain fickle character...
+I sit next to Sophie in the gym. She and Laura are caring for Marilyn, who sits before us, wrapped in a curtain. Today began with her arrival, and none of us have any idea where we'll all stand when the day ends. I leave Sophie to console Felix and resume my hunt for a certain fickle character...
 
 [enter REBECCA B]
 [enter MAX D]
@@ -22,13 +22,13 @@ REBECCA: "Look, I'll apologize again for what - "
 MAX: "Ah, you don't have to apologize. Things aren't looking so bad around here. But I'm still not talking to you."
 REBECCA: "You're just doing that to irritate me, aren't you?"
 MAX: "Maybe, maybe not. Maybe you have more important things to deal with."
-REBECCA: "So do you. Didn't you want to talk to Felix about terms or something? Shibin seemed pretty worked up about that last night."
-MAX: "Kenneth and I talked to Shibin about it, and we decided it wasn't so important. Now that Marilyn's here, I think we're all safe."
+REBECCA: "So do you. Didn't you want to talk to Felix about terms or something? Stephen seemed pretty worked up about that last night."
+MAX: "Kenneth and I talked to Stephen about it, and we decided it wasn't so important. Now that Marilyn's here, I think we're all safe."
 REBECCA: "You liar. You're talking to me already."
 MAX: "Whoops. I'll go back to avoiding you. See you later."
 REBECCA: "Have fun with that."
 
-Kenneth's voice is audible above the rest of the gymnasium activity. Apparently, there's to be a conference in an hour for anyone who's interested on what to do next. With Shibin back, he seems to be running a little more normally.
+Kenneth's voice is audible above the rest of the gymnasium activity. Apparently, there's to be a conference in an hour for anyone who's interested on what to do next. With Stephen back, he seems to be running a little more normally.
 
 [enter SOPHIE B]
 [enter REBECCA D]
@@ -39,14 +39,14 @@ REBECCA: "Probably. I'd like to have a say in what's going to happen to all of u
 SOPHIE: "I figured. Though it looks like you've influenced the present course of action a fair amount already. I admire that."
 REBECCA: "It could've just as easily been you, you know."
 SOPHIE: "Maybe. I'll stick to where I'm comfortable though."
-[enter LARA A]
-LARA: "She made a difference."
-REBECCA: "Lara? Where'd you come from?"
-LARA: "I'm always around."
+[enter LAURA A]
+LAURA: "She made a difference."
+REBECCA: "Laura? Where'd you come from?"
+LAURA: "I'm always around."
 SOPHIE: "As long as I helped someone, I'm happy."
 REBECCA: "Hm... Maybe you're right. I can see your perspective, but..."
 
-I return to pacing the gymnasium. Seeing so many people here is a new experience. Even in the dim light, there's much more activity than I would have anticipated. I spot Shibin sulking by the box supplies pile with Felix, but neither talk to each other. Are they both guarding the food from each other? The stacks of sleeping bags are now depleted after last night's new arrivals. To my surprise, there's only one person standing by the fire door to the gym hall. Is that Sid Wallace?
+I return to pacing the gymnasium. Seeing so many people here is a new experience. Even in the dim light, there's much more activity than I would have anticipated. I spot Stephen sulking by the box supplies pile with Felix, but neither talk to each other. Are they both guarding the food from each other? The stacks of sleeping bags are now depleted after last night's new arrivals. To my surprise, there's only one person standing by the fire door to the gym hall. Is that Sid Wallace?
 
 [enter REBECCA D]
 [enter SID B]
@@ -97,9 +97,9 @@ No one challenges that reasoning now.
 FELIX: "The only issue is that we don't have any options. As far as I know, we have no escape and no means of escape. For those that weren't aware, this school is encased in ice, and even shattering the windows does not open an escape route."
 HENRY: "We could always try chipping away at the ice. It would be slow going, though."
 ARYA: "How long are we going to last? It might be feasible."
-[enter SHIBIN B]
-SHIBIN: "With all of us here, I'd say we have a month. And that would be with strict rationing."
-[exit SHIBIN]
+[enter STEPHEN B]
+STEPHEN: "With all of us here, I'd say we have a month. And that would be with strict rationing."
+[exit STEPHEN]
 ARYA: "How much could we chip in a month? Enough to reach the surface?"
 HENRY: "How do we even know where the surface is?"
 [enter PETE D]

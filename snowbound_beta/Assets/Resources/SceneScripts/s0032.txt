@@ -100,15 +100,15 @@ But a scuffle breaks out behind him. Someone pushes their way through the crowd 
 [exit FELIX]
 [exit KENNETH]
 [enter KENNETH D]
-[enter SHIBIN E]
-SHIBIN: "Kenneth! Don't do it!"
-KENNETH: "Shibin! Shibin's back!"
-Shibin looks almost as crazy as Kenneth, but in a different sense. His gaze is malicious and demented and frighteningly sane.
-SHIBIN: "Not another word. Those bloody traitors can die here for all I care. Hurl them over the railing."
+[enter STEPHEN E]
+STEPHEN: "Kenneth! Don't do it!"
+KENNETH: "Stephen! Stephen's back!"
+Stephen looks almost as crazy as Kenneth, but in a different sense. His gaze is malicious and demented and frighteningly sane.
+STEPHEN: "Not another word. Those bloody traitors can die here for all I care. Hurl them over the railing."
 KENNETH: "The hostages?"
-SHIBIN: "Everyone must make sacrifices. Too bad. We put an end to Felix Salazar here and now. Who's with me?"
+STEPHEN: "Everyone must make sacrifices. Too bad. We put an end to Felix Salazar here and now. Who's with me?"
 
-The voices of the students crowding the catwalk echo in the auditorium. This might be it for all of us. So long, Eric. It was a nice plan, but we didn't count on Shibin showing up again. What an ignominious end. I grip Eric's hand tighter next to me. They'll charge any instant now. Will we survive the fall? 
+The voices of the students crowding the catwalk echo in the auditorium. This might be it for all of us. So long, Eric. It was a nice plan, but we didn't count on Stephen showing up again. What an ignominious end. I grip Eric's hand tighter next to me. They'll charge any instant now. Will we survive the fall? 
 
 Students from both sides rush the catwalk. They're only a few feet from where Eric and I are standing. Something above us cracks. Someone screams. The metal above is screeching just as loud. It feels like the floor dropped out from under me, but the platform is still there. Only it's... falling. We're all falling. And with a crunch, we hit bottom.
 

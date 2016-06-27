@@ -1,7 +1,7 @@
 [s0101]
 [decrement KENNETH]
 
-REBECCA: "Okay, I'm in. Let's get moving before Kenneth and Shibin notice though, okay? I'd rather not annoy them if I can help it."
+REBECCA: "Okay, I'm in. Let's get moving before Kenneth and Stephen notice though, okay? I'd rather not annoy them if I can help it."
 MAX: "I don't particularly care what they think, but if you feel that way, I'll stay quiet about it."
 
 No one's looking at us as we make our way across the floor of sleepy students. Max follows me to the fire door on the far side, and then...
@@ -13,7 +13,7 @@ PETE: "Ow! Watch where you're going!"
 REBECCA: "Who's that? Pete? What're you doing curled up on the floor like that?"
 PETE: "I didn't get much sleep so I was taking a nap. But I was also on guard duty, so..."
 REBECCA: "Guard duty?"
-PETE: "Yeah! Shibin said to not let anyone explore the main hall yet."
+PETE: "Yeah! Stephen said to not let anyone explore the main hall yet."
 MAX: "No way... Are they really trying to prevent us from leaving already?"
 PETE: "Does it really matter?"
 REBECCA: "So much for exploring, then."

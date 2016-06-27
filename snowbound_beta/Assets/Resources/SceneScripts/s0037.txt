@@ -7,7 +7,7 @@ I can hardly see him, even as my eyesight adjusts.
 REBECCA: "Yeah, I'm here. Where's everyone else?"
 PETE: "I can see you but you can't see me...!"
 CAIT: "Shut up. This isn't a time to joke around. Is this everyone?"
-MAX: "Where's Lara?"
+MAX: "Where's Laura?"
 REBECCA: "She left after Eric. I guess they're both in the auditorium."
 MAX: "Do any of you have a cell phone on you?"
 CAIT: "Even if I did, it's not like I'd get any reception. There's a storm outside, remember?"
@@ -36,17 +36,17 @@ I finally see the speaker. His face is illuminated by the glow of a laptop scree
 KENNETH: "Is that everyone?"
 [enter REBECCA A]
 REBECCA: "Fencing's all here."
-[enter SHIBIN E]
-SHIBIN: "I count fifteen of us altogether."
+[enter STEPHEN E]
+STEPHEN: "I count fifteen of us altogether."
 KENNETH: "Right. Okay, listen up everyone. We're going to stay here either until the emergency generators turn on, or until a teacher shows up. Stay calm and we should be able to head back to the dorms before too long."
-SHIBIN: "Scouts. Don't forget."
+STEPHEN: "Scouts. Don't forget."
 The kid holding the laptop keeps whispering to Kenneth, but I can't place him. He was in my math class last year, but I don't remember his name.
 KENNETH: "Oh, yeah. You two, go down to the administration offices and bring a teacher or someone down here. Maybe they'll know what to do."
-SHIBIN: "You're handling this fine, Ken. Don't worry."
+STEPHEN: "You're handling this fine, Ken. Don't worry."
 KENNETH: "And bring any stragglers in here. We should stick together."
 [exit KENNETH]
 [exit REBECCA]
-[exit SHIBIN]
+[exit STEPHEN]
 [enter MAX A]
 [enter PETE B]
 [enter CAIT D]
@@ -59,7 +59,7 @@ CAIT: "Where are you going? It's snowing outside, you idiot! Don't you open a do
 
 The students are fading in and out of sight. Cait has her arms crossed next to me and Maximilian is watching the exit to the hallway. As for the others, most are sticking around the track team captain, Kenneth. He's continually talking to that kid in my math class.
 
-Actually, I remember him now. That's Shibin Dai. He was only a freshman last year, but he answered every single question in that math class. It didn't endear him to the rest of us, but he was never wrong.
+Actually, I remember him now. That's Stephen Dai. He was only a freshman last year, but he answered every single question in that math class. It didn't endear him to the rest of us, but he was never wrong.
 
 [enter MAX A]
 MAX: "They're back."
@@ -94,26 +94,26 @@ PETE: "I'm not that dumb, but it wouldn't open."
 REBECCA: "No way... Is there really that much snow out?"
 MAX: "There's no way to tell, is there?"
 
-I stay with Max and Pete in the center of the gym. It doesn't take too long before Cait comes rushing back, but instead of coming to us, I see her talking to Kenneth. Before too long, Shibin has the laptop hoisted above his head again, and Kenneth stands up.
+I stay with Max and Pete in the center of the gym. It doesn't take too long before Cait comes rushing back, but instead of coming to us, I see her talking to Kenneth. Before too long, Stephen has the laptop hoisted above his head again, and Kenneth stands up.
 
 [enter KENNETH C]
-[enter SHIBIN B]
+[enter STEPHEN B]
 [enter CAIT D]
 KENNETH: "It looks like the gym door is malfunctioning. It's locked or something."
 MAX: "Exit doors don't lock, numbnuts!"
 No one responds. 
 KENNETH: "We'll figure it out later. What's next?"
-SHIBIN: "The swim team."
+STEPHEN: "The swim team."
 KENNETH: "Right. You guys, what's the status on the students at the pool and in the hallways?"
 STUDENT: "The swim team is in there, but the door won't open. We swiped our IDs but no luck."
 CAIT: "Isn't there some other way in?"
-SHIBIN: "They're fine, they have an exit door as well."
+STEPHEN: "They're fine, they have an exit door as well."
 KENNETH: "But we can open the door from the here out to the gym hallway?"
 STUDENT: "There's a doorstop there. We'll have to be careful not to close the door or we wouldn't be able to get out."
 KENNETH: "Okay, you, stand by the door and make sure it never shuts. And if anyone can think of something steadier than a doorstop to keep a door open, let me know."
 STUDENT: "Got it."
 
-We're left to our own devices once more. Cait's still talking to Shibin and Kenneth, and I can't find Pete anywhere. However, I have other concerns.
+We're left to our own devices once more. Cait's still talking to Stephen and Kenneth, and I can't find Pete anywhere. However, I have other concerns.
 
 [enter REBECCA B]
 [enter MAX D]
@@ -131,13 +131,13 @@ MAX: "On the contrary, do you? I'm the one who pointed out that we're trapped in
 
 That's one way to put it. Maximilian Wolf is not one to lose his calm over anything minor like being trapped for hours by a blizzard in a school with an apparntly faulty generator system at the mercy of a senile school director and electronic locks. No, nothing to worry about.
 
-Over at the far wall, everyone else is starting to sit down. Most are talking, and a few students have out books and laptops. Maybe they've understood the situation as well. Shibin and Cait are both talking to Kenneth at once. Pete, however, emerges from the group to join Max and me.
+Over at the far wall, everyone else is starting to sit down. Most are talking, and a few students have out books and laptops. Maybe they've understood the situation as well. Stephen and Cait are both talking to Kenneth at once. Pete, however, emerges from the group to join Max and me.
 
 [enter PETE B]
 [enter MAX D]
 [enter REBECCA E]
 PETE: "Jesus, does everyone in this school have an opinion? They're having a full-blown strategy meeting over there."
-He gestures at Shibin and Cait, now mostly arguing with each other as Kenneth looks on.
+He gestures at Stephen and Cait, now mostly arguing with each other as Kenneth looks on.
 PETE: "Who is that guy anyway?"
 MAX: "Kenneth Whitecastle. Some pretty boy track captain."
 PETE: "Well, he certainly looks like he knows what he's doing."

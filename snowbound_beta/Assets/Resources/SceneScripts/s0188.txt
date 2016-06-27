@@ -47,7 +47,7 @@ He wanders away.
 
 Actually, I think this could be it. We were the only two in the room, aside from Marilyn. She must be on guard duty, but she's fully asleep by this point. I check the hall, but there's no one in sight. Everyone's across the way in the classroom that Henry and Arya are using as a workshop. It's now or never.
 
-I turn the handle as quietly as I can manage, but the door to the hostages' office still squeaks as I open it. Inside, there is only one figure, a boy about my size with duct tape around his arms and legs and a desk drawer over his head. It must be Shibin.
+I turn the handle as quietly as I can manage, but the door to the hostages' office still squeaks as I open it. Inside, there is only one figure, a boy about my size with duct tape around his arms and legs and a desk drawer over his head. It must be Stephen.
 
 [enter ERIC B]
 [enter SID D]
@@ -59,7 +59,7 @@ ERIC: "Well, your guess was close enough. He shut me in a stairwell."
 SID: "I waited until night to come up here. They didn't have any sort of guard system until then, so I just walked right in here and found the hostage room."
 ERIC: "Was there anyone in there?"
 SID: "Yeah. It was dark, so I thought it was you I was freeing, but whoever it was didn't respond when I tried to talk to them."
-ERIC: "It was probably Shibin."
+ERIC: "It was probably Stephen."
 SID: "He gave me a real hassle then. Henry woke up on the way out, and he caught up with me when I was trying to escape down the hall. I've been here ever since."
 ERIC: "Are you okay? Have you had anything to eat?"
 SID: "I had the rest of Max's supplies. I hope you don't mind. I'm actually doing pretty well for being a hostage all day. But Eric, what are you doing up here? Does Felix know you're here?"

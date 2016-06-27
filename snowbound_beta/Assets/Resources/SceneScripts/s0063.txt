@@ -2,7 +2,7 @@
 
 I wake up wrapped up in Eric again. Sometimes I wonder if we do this out of necessity or affection. I'd like to think it's the latter, but maybe I'm reading too far into this. Maybe we are just two students who found themselves caught in a staircase together with no connection at all. As much as I want to think otherwise, maybe Eric feels that way...
 
-Rising, I search the backpack in the morning light. Of course, there's nothing there. All we have is the aspirin meant for Lara. I wonder how everyone's doing out there. Maybe Pete stabbed Cait in revenge. Maybe Lara died of her fever two nights ago. Maybe Max jumped from the catwalks and broke his neck escaping from Shibin. The school outside the south stairs might be very different from the one we left. Today is the day we have to face it.
+Rising, I search the backpack in the morning light. Of course, there's nothing there. All we have is the aspirin meant for Laura. I wonder how everyone's doing out there. Maybe Pete stabbed Cait in revenge. Maybe Laura died of her fever two nights ago. Maybe Max jumped from the catwalks and broke his neck escaping from Stephen. The school outside the south stairs might be very different from the one we left. Today is the day we have to face it.
 
 Despite the fact that he had the last filing shift last night, Eric resumes cutting the bolt. I'm left to sit on the stairs and contend with my hunger. We just ate last night; why am I so hungry? It doesn't matter. I watch the light through the snow outside. Now, I lack the energy to try to open the door against the resistance.
 
@@ -58,43 +58,43 @@ We stare at our fire door. Maybe, just maybe someone will stumble by and open th
 
 Both of us stare in disbelief. Someone small tumbles through the fire door in front of us. Before I can even react, Eric jumps up and holds the door. I'm still too stunned to move. The door is... open? Is that even possible? Am I dreaming again?
 
-REBECCA: "Lara?"
+REBECCA: "Laura?"
 [exit REBECCA]
 [exit ERIC]
 [enter ERIC A]
 [enter REBECCA E]
-[enter LARA C]
-LARA: "Hello Rebecca."
+[enter LAURA C]
+LAURA: "Hello Rebecca."
 She speaks with a weak voice and coughs as she trails off.
-ERIC: "Is this real? Lara, you're a savior. We can't thank you enough."
-LARA: "Hi, Eric. I didn't notice you. But I guess you must be up here, right, or else with Felix. Yeah, you should be with Felix, silly..."
+ERIC: "Is this real? Laura, you're a savior. We can't thank you enough."
+LAURA: "Hi, Eric. I didn't notice you. But I guess you must be up here, right, or else with Felix. Yeah, you should be with Felix, silly..."
 She coughs again.
-REBECCA: "Lara, are you alright?"
-LARA: "Just a little sick."
+REBECCA: "Laura, are you alright?"
+LAURA: "Just a little sick."
 I'm starting to wake up. This is no dream.
-REBECCA: "Eric, hold the door and make sure there's no one out there. Lara, come here. Let me take your temperature."
-They both comply. Lara's temperature is very high but her body is unnaturally cold. In my mixed elation and concern I give the smaller girl a large hug.
-LARA: "You're warm."
+REBECCA: "Eric, hold the door and make sure there's no one out there. Laura, come here. Let me take your temperature."
+They both comply. Laura's temperature is very high but her body is unnaturally cold. In my mixed elation and concern I give the smaller girl a large hug.
+LAURA: "You're warm."
 REBECCA: "And you're freezing to death. Where's Sid? Didn't he look after you?"
-LARA: "I think that Arya Martin called him away on something. I'm not sure if he had a choice or not. And after that, I just wandered off."
+LAURA: "I think that Arya Martin called him away on something. I'm not sure if he had a choice or not. And after that, I just wandered off."
 ERIC: "Where have you been up to now?"
-LARA: "The basements maybe? I don't remember. It was dark... and cold."
+LAURA: "The basements maybe? I don't remember. It was dark... and cold."
 I feel her wheezing in my arms. This girl is not in good shape.
 REBECCA: "Here, Max gave us aspirin for you. Maybe it'll help your fever a bit."
-LARA: "Max? Maximilian Wolf? I think I've heard people talking about him... Isn't that odd?"
-REBECCA: "I'm just glad Max didn't have his neck broken by Shibin. Have you heard anything from anyone else?"
-LARA: "Who else is there? Everyone's been so distant. I don't remember much."
+LAURA: "Max? Maximilian Wolf? I think I've heard people talking about him... Isn't that odd?"
+REBECCA: "I'm just glad Max didn't have his neck broken by Stephen. Have you heard anything from anyone else?"
+LAURA: "Who else is there? Everyone's been so distant. I don't remember much."
 ERIC: "Rebecca, I don't think she's all there. Let's let her rest."
 REBECCA: "We need to find somewhere safe to rest. This stairwell won't do, and we'd be stuck if the door shut again."
 ERIC: "Right. Let's get out of here, anyway."
 
-It's a depressingly easy move. Eric grabs the backpack containing the empty cans and bottles, broken knife, and bottle of aspirin. I half-carry Lara out the door that Eric holds open. He takes a can out of the bag and places between the door and the wall, preventing it from closing completely. We're now stuck in the virtually black main hall.
+It's a depressingly easy move. Eric grabs the backpack containing the empty cans and bottles, broken knife, and bottle of aspirin. I half-carry Laura out the door that Eric holds open. He takes a can out of the bag and places between the door and the wall, preventing it from closing completely. We're now stuck in the virtually black main hall.
 
 [enter REBECCA B]
 [enter ERIC D]
 REBECCA: "Eric, what now?"
 ERIC: "I need to find Felix and you need to find Kenneth. That's what we're meant to do, isn't it?"
-REBECCA: "But so much has changed. We have Lara, and that noise coming from the gym..."
+REBECCA: "But so much has changed. We have Laura, and that noise coming from the gym..."
 But the noise has stopped. The rhythmic slamming sound has vanished.
 REBECCA: "Let's stick together. You don't mind, right?"
 ERIC: "You hardly need to ask that. Okay, where to?"

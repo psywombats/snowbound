@@ -24,23 +24,23 @@ CAIT: "You're too wishy-washy. One of these days it might cost you."
 REBECCA: "If you say."
 CAIT: "Anyway, I'm off to talk to Kenneth. There's work to be done."
 
-I may be to slow to judge, but Cait is never short to offer an opinion. I watch her join Shibin and Kenneth in conversation. When I turn around, at first I think the generators came online, but then I see the new light is coming from the four or five laptops opened around the circle of students. I stand up and stretch, then walk over.
+I may be to slow to judge, but Cait is never short to offer an opinion. I watch her join Stephen and Kenneth in conversation. When I turn around, at first I think the generators came online, but then I see the new light is coming from the four or five laptops opened around the circle of students. I stand up and stretch, then walk over.
 
-[enter SHIBIN B]
+[enter STEPHEN B]
 [enter KENNETH D]
 [enter CAIT E]
-SHIBIN: "But what if we're forced to stay here for more than tonight? It would be a waste. You have to stop them."
+STEPHEN: "But what if we're forced to stay here for more than tonight? It would be a waste. You have to stop them."
 KENNETH: "I guess you're right, we shouldn't have the laptops out already. But I don't think I can stop them."
 CAIT: "Don't worry about it. Just leave them to me."
 [exit CAIT]
 [enter REBECCA A]
 REBECCA: "What's all that about?"
-SHIBIN: "We can't be wasting our primary light source on the first night. Those laptops could be important."
+STEPHEN: "We can't be wasting our primary light source on the first night. Those laptops could be important."
 REBECCA: "You think we'll be here for a whole night? Multiple nights?"
-SHIBIN: "It would be imprudent to plan for anything else."
+STEPHEN: "It would be imprudent to plan for anything else."
 REBECCA: "That's a bit harsh."
 I'm watching Cait ordering the laptops shut.
-SHIBIN: "It's worth it."
+STEPHEN: "It's worth it."
 KENNETH: "It might be a little much, but if it's a good idea... then it has my backing."
 
 I walk away as I spot Max entering the gym. We greet each other and head for the students gathered on the floor.

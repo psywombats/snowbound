@@ -44,7 +44,7 @@ PETE: "Oh, hi, it's the new guy. What do you want?"
 I can't tell if that's animosity or just the way he always is.
 ERIC: "Do you know where Arya and Henry are?"
 PETE: "I think they're in the conference room across the hall."
-Oh, that's the same room Sid, Lara and I used for our plans.
+Oh, that's the same room Sid, Laura and I used for our plans.
 PETE: "I was just heading over there myself."
 ERIC: "I'll join you then."
 We cross and enter the room across from the staff lounge.
@@ -108,11 +108,11 @@ ERIC: "Thanks. I won't let you down."
 
 I have time to spare, but I'd rather not do the scouting I was assigned. It wouldn't be very effective to be spotted or captured by some confused gymnasium student now. Instead, I'll check out this side of the school. It's been a while since I've seen what's become of the biology hallway and the office. Also, I should probably check on Sid in the basements.
 
-With that in mind, I walk to the north stairs. The door to the biology hall is unlocked. I suppose they must not worry about anyone breaking in when the catwalk and biology office doors are shut. No one is inside. The glass from the shattered windows isn't present either. I navigate by the blue light from Arya's contraption and eventually find my way to the office where Sid, Lara, and I ran into Caitlyn.
+With that in mind, I walk to the north stairs. The door to the biology hall is unlocked. I suppose they must not worry about anyone breaking in when the catwalk and biology office doors are shut. No one is inside. The glass from the shattered windows isn't present either. I navigate by the blue light from Arya's contraption and eventually find my way to the office where Sid, Laura, and I ran into Caitlyn.
 
-That's right... Whoever Sid freed must be wandering around somewhere. There aren't very many places in this building to go at the moment, so there's a finite chance that I'll run into them. I don't think Shibin would be a threat, but if Cait finally snapped, I could be in danger. It shouldn't matter that much.
+That's right... Whoever Sid freed must be wandering around somewhere. There aren't very many places in this building to go at the moment, so there's a finite chance that I'll run into them. I don't think Stephen would be a threat, but if Cait finally snapped, I could be in danger. It shouldn't matter that much.
 
-I enter the office to find it much the way I left it. No one is on guard duty here, and the only change is that the door is locked. That's strange. Wasn't this the sight of one of the battles between Shibin and Felix? I walk back down the biology hallway and head downstairs. It's time to visit Sid. Almost as soon as I'm at the landing, I hear a voice.
+I enter the office to find it much the way I left it. No one is on guard duty here, and the only change is that the door is locked. That's strange. Wasn't this the sight of one of the battles between Stephen and Felix? I walk back down the biology hallway and head downstairs. It's time to visit Sid. Almost as soon as I'm at the landing, I hear a voice.
 
 [enter SID B]
 [enter ERIC D]
@@ -153,7 +153,7 @@ I hear her footsteps echo down the catwalk and we embrace at the center of the s
 ERIC: "Everything's well in the gym?"
 REBECCA: "Better than I expected. You want me to report first?"
 ERIC: "Why not?"
-REBECCA: "It looks like Kenneth is completely unhinged. He didn't recognize me and he thought Max was Shibin. Something's not right with him."
+REBECCA: "It looks like Kenneth is completely unhinged. He didn't recognize me and he thought Max was Stephen. Something's not right with him."
 ERIC: "That's not good. So Max is really in charge, then."
 REBECCA: "He's the boss, and he's very paranoid."
 ERIC: "He should be. Felix is closing in."

@@ -5,39 +5,39 @@
 REBECCA: "I object."
 [hold]
 
-Immediately, I'm the center of attention. Max is making some pained expression. Cait finally looks alive. And Shibin is absolutely livid.
+Immediately, I'm the center of attention. Max is making some pained expression. Cait finally looks alive. And Stephen is absolutely livid.
 
 [exit REBECCA]
 [enter REBECCA B]
-[enter SHIBIN D]
-SHIBIN: "You dare to challenge the verdict? You better have a very solid reason. Explain yourself."
+[enter STEPHEN D]
+STEPHEN: "You dare to challenge the verdict? You better have a very solid reason. Explain yourself."
 And now, I'm in the center of the ring as well.
 REBECCA: "How long do you think we'll be trapped here for?"
 Of course I'm met with silence.
 REBECCA: "It could be hours. It could be days. How long do you think someone can survive in freezing conditions with no food, water, light, or companionship?"
 There's silence again. Hopefully this time it's because they're thinking.
 REBECCA: "There's a real chance you're sentencing her to die down there. Do you want to be responsible for Caitlyn's death? If you exile her, you are guilty."
-SHIBIN: "Ridiculous. She tried to take the life of Peter Sai, so she should consider this merciful. If this were a just world, we'd be leaving her out in the hall with her hands tied and her mouth gagged. Maybe you don't see it this way, Rebecca, but what we have right now is a murderess. Yes, that's right. When she was interrupted, Pete was minutes away from death."
+STEPHEN: "Ridiculous. She tried to take the life of Peter Sai, so she should consider this merciful. If this were a just world, we'd be leaving her out in the hall with her hands tied and her mouth gagged. Maybe you don't see it this way, Rebecca, but what we have right now is a murderess. Yes, that's right. When she was interrupted, Pete was minutes away from death."
 I try to look at Cait, but her head is hung and she doesn't even notice me.
-SHIBIN: "How could anyone justify this beast? It's not possible. What reason could this Rebecca Bell have to side with a potential monster?"
+STEPHEN: "How could anyone justify this beast? It's not possible. What reason could this Rebecca Bell have to side with a potential monster?"
 REBECCA: "She's not a monster. She's a human, just like you, and she also happens to be my friend."
-SHIBIN: "True, true... And is she anything more than that?"
+STEPHEN: "True, true... And is she anything more than that?"
 [enter MAX A]
-MAX: "Spit it out, Shibin."
+MAX: "Spit it out, Stephen."
 At least Max is still with me.
 [exit MAX]
-SHIBIN: "Who engaged in illicit exploration activities with the murderess? Who was one of the first responders to the scene of the murderess's crime? Who had ample opportunity and motivation to be an accomplice and co-conspirator? I hypothesize that Rebecca Bell is just another one of Cait's plants. Trust nothing she says. All we have here is a fellow criminal."
+STEPHEN: "Who engaged in illicit exploration activities with the murderess? Who was one of the first responders to the scene of the murderess's crime? Who had ample opportunity and motivation to be an accomplice and co-conspirator? I hypothesize that Rebecca Bell is just another one of Cait's plants. Trust nothing she says. All we have here is a fellow criminal."
 I can't believe this is happening. How can anyone follow his logic? There's no way anyone can take any of this motive and accomplice business to heart, is there?
-SHIBIN: "Therefore, in addition, I propose sentencing Rebecca Bell to exile in the basements along with her partner in crime, Caitlyn Baquiran. Kenneth, the poll, please."
+STEPHEN: "Therefore, in addition, I propose sentencing Rebecca Bell to exile in the basements along with her partner in crime, Caitlyn Baquiran. Kenneth, the poll, please."
 KENNETH: "Uh, all opposed?"
 Max has his hand up. So do Sophie and a few others. But most keep their hands at their sides.
 [exit REBECCA]
-[exit SHIBIN]
-[enter SHIBIN C]
-SHIBIN: "And of course... Are there any other objectors?"
+[exit STEPHEN]
+[enter STEPHEN C]
+STEPHEN: "And of course... Are there any other objectors?"
 [hold]
 
-There is plain malice in his eye. It's unmistakable. There is no response from Max or Sophie. They're both looking at the ground. The only one who meets my eye is Shibin, and after a second, he smiles. It appears I've misjudged him.
+There is plain malice in his eye. It's unmistakable. There is no response from Max or Sophie. They're both looking at the ground. The only one who meets my eye is Stephen, and after a second, he smiles. It appears I've misjudged him.
 
 [branch NITEMARE > 0]
 [true :: UNIMPLEMENTED]

@@ -33,32 +33,32 @@ MAX: "Let's go. It was definitely from down this way."
 REBECCA: "Right."
 MAX: "Quiet down! If there's someone out there, I don't want them to hear us."
 REBECCA: "You're the one yelling."
-[enter SHIBIN B]
+[enter STEPHEN B]
 [enter ARYA A]
-SHIBIN: "Hold it!"
+STEPHEN: "Hold it!"
 
-We must've attracted their attention coming through the door. Before I know it, Shibin and Arya are rushing through the fire door and it's all I can do to keep the door from shutting. Max flattens up against the wall and then follows them down.
+We must've attracted their attention coming through the door. Before I know it, Stephen and Arya are rushing through the fire door and it's all I can do to keep the door from shutting. Max flattens up against the wall and then follows them down.
 
 [enter REBECCA E]
 [enter MAX D]
-[enter SHIBIN B]
+[enter STEPHEN B]
 [enter ARYA A]
 MAX: "Sorry, I heard I scream and I had to - "
 ARYA: "We heard it too. Why do you think we're here?"
 We're down into the basement hallway. There are still no signs of life.
-SHIBIN: "Stay on your guard. If there's someone down here who - "
+STEPHEN: "Stay on your guard. If there's someone down here who - "
 [exit MAX]
 MAX: "Oof!"
 Max is flat on his face.
 REBECCA: "Did you trip? What's that on the - "
 [hold]
 
-It's Pete. There's a red slick and shoeprint where Max slipped in his blood. My heart rate almost doubles. Is he dead? Pete's left arm twitches and Shibin jumps back.
+It's Pete. There's a red slick and shoeprint where Max slipped in his blood. My heart rate almost doubles. Is he dead? Pete's left arm twitches and Stephen jumps back.
 
 [enter MAX E]
 MAX: "Don't just stand there! Help him!"
 ARYA: "I'm on it."
-SHIBIN: "You have to be kidding me. Who did this?"
+STEPHEN: "You have to be kidding me. Who did this?"
 MAX: "Rebecca! Go get someone from the gym that can treat a stab wound. Get me Sophie or somebody. Run!"
 
 I don't bother confirming before jumping up the stairs three at a time. I reach the first floor landing. Someone's running down the hall? Is that Cait? Am I in danger? No, there are at least two people coming down the hallway.

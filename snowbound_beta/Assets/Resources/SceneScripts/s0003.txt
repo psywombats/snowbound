@@ -8,7 +8,7 @@ KENNETH: "That's the idea. At least let them know we're trying to think of a way
 MAX: "I didn't realize we were helping them escape."
 KENNETH: "Well..."
 [exit KENNETH]
-Shibin hurries over to Kenneth.
+Stephen hurries over to Kenneth.
 [enter KENNETH D]
 KENNETH: "I'm sure someone on the staff with a keycard will be here soon. I mean, they can't just ignore us here."
 MAX: "Hmph."
@@ -27,7 +27,7 @@ MAX: "Ha, so you are there, my dear. How's guard duty?"
 REBECCA: "It's not really guard duty, but it's alright."
 MAX: "I elected to take the next guard shift. You should see it back in the gym. It's something else."
 REBECCA: "Why? What's happening?"
-MAX: "They're all listening to Shibin, I mean, listening to Kenneth. It's like polite society reincarnated out there. They figure because no one's showing up they're just going to raid the research crew's supplies, but it's all rationed out in a very fair manner."
+MAX: "They're all listening to Stephen, I mean, listening to Kenneth. It's like polite society reincarnated out there. They figure because no one's showing up they're just going to raid the research crew's supplies, but it's all rationed out in a very fair manner."
 REBECCA: "Charming. What time is it, anyway? I'm a little hungry myself."
 MAX: "Let me check."
 He takes out a phone.

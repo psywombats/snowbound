@@ -42,8 +42,8 @@ SOPHIE: "I'm over here. Careful you don't fall in."
 REBECCA: "Hasn't the pool frozen over by now?"
 SOPHIE: "I haven't bothered to check."
 REBECCA: "Never mind. I've brought some food and water."
-[enter LARA E]
-LARA: "Food? Excellent. I'm famished. I thought maybe we were exiled here so we wouldn't eat any of their food..."
+[enter LAURA E]
+LAURA: "Food? Excellent. I'm famished. I thought maybe we were exiled here so we wouldn't eat any of their food..."
 SOPHIE: "No one's exiled us; I just decided to live out here."
 REBECCA: "Well, here you go."
 SOPHIE: "Thanks. What are you out here for? Just delivering?"
@@ -57,8 +57,8 @@ REBECCA: "I'm confident that there's a chance of success. As long as that chance
 SOPHIE: "If you say."
 She grows quiet.
 
-I still feel the unease of the day, but sitting here with Sophie and Lara is much more comforting than the cold bustle of the gymnasium. I wonder how Eric fares? He has to be able to convince Felix that he's worthy to help lead the attack, and do a bit of acting when he runs into me on the catwalks. If  Felix sees through Eric, Max will trap Eric and  Felix on the rafters. I don't think I could change his mind about that. In the end, there's nothing I can do here but sit and wait until the appointed hour. 
+I still feel the unease of the day, but sitting here with Sophie and Laura is much more comforting than the cold bustle of the gymnasium. I wonder how Eric fares? He has to be able to convince Felix that he's worthy to help lead the attack, and do a bit of acting when he runs into me on the catwalks. If  Felix sees through Eric, Max will trap Eric and  Felix on the rafters. I don't think I could change his mind about that. In the end, there's nothing I can do here but sit and wait until the appointed hour. 
 
-Outside the glass walls, the sun sets. I continue to wait. There's nothing to do but go for it at this point. I say my goodbyes to Sophie and Lara and exit the pool. I'll be very early, but I need to be on the catwalks before Eric and Felix arrive. If Felix didn't listen to Eric and decided to come earlier and they pass through without meeting be, everything would fall apart. Still, it's only a little past sunset. Maybe I should make sure Max is carrying through on the plan...
+Outside the glass walls, the sun sets. I continue to wait. There's nothing to do but go for it at this point. I say my goodbyes to Sophie and Laura and exit the pool. I'll be very early, but I need to be on the catwalks before Eric and Felix arrive. If Felix didn't listen to Eric and decided to come earlier and they pass through without meeting be, everything would fall apart. Still, it's only a little past sunset. Maybe I should make sure Max is carrying through on the plan...
 
 [goto s0032]

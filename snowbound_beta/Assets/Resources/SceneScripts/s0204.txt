@@ -1,10 +1,10 @@
 [s0204]
 
-As I walk down the main hall, I keep glancing over my shoulder. Lara stays silent by my side, but past her, down at the window at the end of the hall, there's something not quite right. In the winter, the dark windows only serve to remind us of the neverending night, but this afternoon the black is tinted with gray snow. I can't tell if there's a storm outside or if the wind is just picking up what's already on the ground.
+As I walk down the main hall, I keep glancing over my shoulder. Laura stays silent by my side, but past her, down at the window at the end of the hall, there's something not quite right. In the winter, the dark windows only serve to remind us of the neverending night, but this afternoon the black is tinted with gray snow. I can't tell if there's a storm outside or if the wind is just picking up what's already on the ground.
 
-We're finally at the main hall. There's only one other person here, exiting out the opposite door. But as Lara and I turn towards the auditorium, the figure at the other end of the room turns around.
+We're finally at the main hall. There's only one other person here, exiting out the opposite door. But as Laura and I turn towards the auditorium, the figure at the other end of the room turns around.
 
-[enter LARA E]
+[enter LAURA E]
 [enter ERIC D]
 [enter FELIX B]
 
@@ -12,22 +12,22 @@ FELIX: "Eric? You're sticking around this late?"
 ERIC: "Felix."
 Felix Salazar. He was my friend our first year here. Unfortunately he's smart, determined, and probably poised to become valedictorian, so it was a short-lived friendship.
 FELIX: "You weren't thinking of coming up to the debate club were you? There's still a spot for you probably... even if you can't be captain."
-LARA: "Huh?"
+LAURA: "Huh?"
 ERIC: "Never mind him."
 We also used to be teammates. Until I was outvoted for captain of the debate team last year.
 In retrospect it's almost funny how much I cared about that.
 ERIC: "Thanks for the offer, Felix, if that actually was an offer, but I've got other stuff to do."
 FELIX: "Oh? Would those other things be... fencing?"
-LARA: "That's right. I'm a new member."
+LAURA: "That's right. I'm a new member."
 I wince as Felix grins.
 FELIX: "Ehh? Interesting, Eric, very interesting. I hope you've got something up your sleeve. If you want to be my rival you have to keep things close, okay?"
 ERIC: "I'm not your rival. Get out of here and get back to debate or wherever."
 FELIX: "See you later!"
 [exit FELIX]
 I never liked him much.
-[exit LARA]
-[enter LARA B]
-LARA: "That's an awful funny face you're making at the door."
+[exit LAURA]
+[enter LAURA B]
+LAURA: "That's an awful funny face you're making at the door."
 ERIC: "Sorry. You can head on in to the auditorium. I'll just be a minute."
 
 Alone in the entrance hall, there's no one to stand with me by the windows. I can see the full brunt of the storm now. It's hard to tell how much snow is coming down because of the sheer velocity of the flurries. There could be a foot of snow on the ground or five feet. It's impossible to tell. I place my hand against the glass as faint jazz echoes around the hall. The fluorescent light escapes no more than a few inches past the window. I turn around to enter the auditorium.

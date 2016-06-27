@@ -30,7 +30,7 @@ I try to calm down. Not much is working. We are trapped in a stairwell with zero
 [enter REBECCA B]
 ERIC: "Okay, we have to regroup. Hold on a minute."
 No doubt he's listening to me breathe like a madwoman.
-ERIC: "Cait, Sid, and Lara are still down there. When they realize we're not back tomorrow, they'll come for us and open door."
+ERIC: "Cait, Sid, and Laura are still down there. When they realize we're not back tomorrow, they'll come for us and open door."
 REBECCA: "That's not it. One of those people shut us in here."
 ERIC: "I don't understand. Look, all we can do is stay here and figure this out."
 REBECCA: "Cait must be doing something. This is like her. This reeks of Cait."
@@ -47,9 +47,9 @@ He throws something through the crack in the door, and before I can reach it, we
 REBECCA: "Max! Wait, we're in trouble here!"
 I'm about to bang on the door when I realize that I can hear raised voices through the metal of the door.
 MAX: "Fine. I'm done. It doesn't matter now."
-SHIBIN: "I never thought you'd make a break for it. I thought I could rely on you to at least be honorable once we caught on to you."
+STEPHEN: "I never thought you'd make a break for it. I thought I could rely on you to at least be honorable once we caught on to you."
 MAX: "Ahaha, that's funny, you think I'm honorable."
-SHIBIN: "Hurry up and tie him with something stronger than shoelaces this time. It's no wonder he got away."
+STEPHEN: "Hurry up and tie him with something stronger than shoelaces this time. It's no wonder he got away."
 STUDENT2: "Got it."
 
 I close my eyes. Max is out. He sacrificed himself for that last shipment of supplies. I'm not sure whether I should be grateful for the food or angry that he was so reckless.
@@ -57,7 +57,7 @@ I close my eyes. Max is out. He sacrificed himself for that last shipment of sup
 [enter ERIC D]
 [enter REBECCA B]
 ERIC: "What was that about?"
-REBECCA: "It's the worst case. I heard Shibin out there, and they're tying Max up or something. Either way, we can't count on him any more. Max, Max, I hope you'll be okay..."
+REBECCA: "It's the worst case. I heard Stephen out there, and they're tying Max up or something. Either way, we can't count on him any more. Max, Max, I hope you'll be okay..."
 ERIC: "Well, let's see what he brought."
 
 Good old Max. Inside the backpack we have two water bottles, three cans of peaches, a bottle of aspirin, five or six knots of shoelaces, and a crumpled piece of paper. If only we could read it, we would have a much better understanding of the situation, but as it stands, it's too dark to see each other, let alone Max's letter.
@@ -65,7 +65,7 @@ Good old Max. Inside the backpack we have two water bottles, three cans of peach
 [enter ERIC D]
 [enter REBECCA B]
 ERIC: "We can hold out in here for a while. A few days, anyway. Someone will open one of the doors before then. There's no way it won't happen."
-REBECCA: "It doesn't matter. I'm giving up. Max is gone, and now there's no point trying to return to the gym. I'm sure Shibin hates us all now. It's over for us."
+REBECCA: "It doesn't matter. I'm giving up. Max is gone, and now there's no point trying to return to the gym. I'm sure Stephen hates us all now. It's over for us."
 ERIC: "It's never over. Max gave us this stuff, so let's put it to good use."
 REBECCA: "I've pretended for a while not to notice that we're probably all dead, but this is it. I'm at a limit here, Eric."
 [hold]

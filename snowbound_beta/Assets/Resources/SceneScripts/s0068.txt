@@ -38,7 +38,7 @@ PETE: "What, are you unhappy that I didn't break anything?"
 We hear a voice above the murmurs.
 KENNETH: "Hey! Anyone who's unhurt, stand up. We need to find out exactly how many are injured."
 The other students and I head towards where Kenneth is standing. Arya holds her light above her head as a beacon.
-SHIBIN: "Looks like only three or four. Alright, what's the problem? Broken arm? Okay. Someone get over here and stabilize that. Where's that jerk with the duct tape? Make yourself useful. Next injury, please..."
+STEPHEN: "Looks like only three or four. Alright, what's the problem? Broken arm? Okay. Someone get over here and stabilize that. Where's that jerk with the duct tape? Make yourself useful. Next injury, please..."
 
 And things progress roughly in that manner. We're all here, aren't we? No, that's not right. There are a few faces I don't see here, and people like Sid who were part of neither faction are still around. I try to count the students present, but amidst the bustle, I can't count. I stand back and watch the mop-up operation in work. Something above squeaks, and a few students and I look up to an open door.
 
@@ -63,27 +63,27 @@ I watch as the two students on the ground and the one at the door coordinate to 
 SID: "Eric, is that you down there?"
 ERIC: "Yep. I'm all right."
 SID: "Good."
-[enter LARA A]
+[enter LAURA A]
 [enter SOPHIE E]
 SOPHIE: "Is Rebecca there?"
-LARA: "What happened?"
+LAURA: "What happened?"
 ERIC: "She's here. The catwalk platform fell down, but I guess we're working it out."
 CAIT: "Hey, you hold this."
 SOPHIE: "What?"
 She passes her a stage weight.
-CAIT: "And you, Lara or whatever your name was, hold the door open, would you?"
+CAIT: "And you, Laura or whatever your name was, hold the door open, would you?"
 ERIC: "Sid, can you climb down?"
 SID: "I could try. Do you mind spotting me?"
 [exit SID]
 Though there's hardly any need. He takes the rope Cait hands him and easily descends the one story height difference.
 SID: "So, how's it going down here?"
 
-Sid and I walk across the stage and back. Kenneth and Shibin are busy with the injured students, and I spot Pete Sai doling out his duct tape to secure broken limbs. He patches up Max as I watch. Most other students are helping Henry and Arya. A few are gathering stage weights, and others are trying to separate the individual pieces of metal that made up the main catwalk platform. I finally find Felix in all the activity. He's talking to Rebecca.
+Sid and I walk across the stage and back. Kenneth and Stephen are busy with the injured students, and I spot Pete Sai doling out his duct tape to secure broken limbs. He patches up Max as I watch. Most other students are helping Henry and Arya. A few are gathering stage weights, and others are trying to separate the individual pieces of metal that made up the main catwalk platform. I finally find Felix in all the activity. He's talking to Rebecca.
 
 [enter FELIX B]
 [enter REBECCA D]
 FELIX: "You mean that was staged?"
-REBECCA: "It got the job done. Well, it would've if Shibin hadn't shown up."
+REBECCA: "It got the job done. Well, it would've if Stephen hadn't shown up."
 [enter ERIC E]
 FELIX: "Eric! There you are! If there were such a thing as karma you'd have been crushed."
 ERIC: "So you know, huh?"
@@ -108,15 +108,15 @@ She hesitates.
 ERIC: "What is it?"
 REBECCA: "Where's Marisa?"
 I freeze for a moment. She was still here when we fell. Then what...
-SHIBIN: "Alright, that's everyone accounted for. We have two broken arms, one snapped wrist, and one fatality."
+STEPHEN: "Alright, that's everyone accounted for. We have two broken arms, one snapped wrist, and one fatality."
 Fatality? I miss a beat for the second time in as many seconds.
-SHIBIN: "We've had two witnesses to confirm that Marisa Montoire is the deceased. She was crushed as the platform fell. Our condolences to those who knew her, and respect to her memory."
+STEPHEN: "We've had two witnesses to confirm that Marisa Montoire is the deceased. She was crushed as the platform fell. Our condolences to those who knew her, and respect to her memory."
 REBECCA: "What?"
 She's whispering to me.
 REBECCA: "He knows her body was found down here days ago... That was his whole reason for suspecting Felix's group were killers."
 ERIC: "Who knows what his motivation is. All that matters is that he isn't trying to slaughter Felix and Henry and the rest."
 REBECCA: "Can we hope it stays that way when we're above ground again?"
 
-The buzz of activity continues with students bringing back every imaginable item from the storeroom and entrance hall. Someone smashed the conference room windows and brings out a box of lost and found clothing to distribute. Marisa's body is shut in the empty storage room. Henry and Arya continue to test their lift, made from stage ropes, pulleys, and a part of the original catwalk. One by one, they lift items and then students out, starting with those injured by the fall. Soon Max is up top, helping off the students with his good hand while Shibin controls the line at the bottom. As I stand next to Rebecca in the line, I can't help but share her doubt that this can continue for long. When we all pass out that door, what will happen?
+The buzz of activity continues with students bringing back every imaginable item from the storeroom and entrance hall. Someone smashed the conference room windows and brings out a box of lost and found clothing to distribute. Marisa's body is shut in the empty storage room. Henry and Arya continue to test their lift, made from stage ropes, pulleys, and a part of the original catwalk. One by one, they lift items and then students out, starting with those injured by the fall. Soon Max is up top, helping off the students with his good hand while Stephen controls the line at the bottom. As I stand next to Rebecca in the line, I can't help but share her doubt that this can continue for long. When we all pass out that door, what will happen?
 
 [goto s0069]

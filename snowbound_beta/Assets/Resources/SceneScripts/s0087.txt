@@ -33,16 +33,16 @@ STUDENT1: "I'm supposed to relieve whoever's guarding the door."
 MAX: "That would be me. Don't ask me what she's doing here; maybe she'll keep you company."
 STUDENT1: "Uh..."
 REBECCA: "Don't be silly. I'm hungry as well."
-MAX: "I didn't eat earlier. I'll see if I can convince Shibin to get us food."
+MAX: "I didn't eat earlier. I'll see if I can convince Stephen to get us food."
 
-Sure enough, back in the gymnasium, each girl is standing in line for their chance to receive supplies from an open box being attended by Shibin. There are at least twenty boxes of basic supplies there. Can we really only spare one? I wait my turn in line.
+Sure enough, back in the gymnasium, each girl is standing in line for their chance to receive supplies from an open box being attended by Stephen. There are at least twenty boxes of basic supplies there. Can we really only spare one? I wait my turn in line.
 
 [enter REBECCA B]
-[enter SHIBIN D]
+[enter STEPHEN D]
 [enter MAX A]
-SHIBIN: "You're not on the swim team. Why didn't you get food earlier?"
+STEPHEN: "You're not on the swim team. Why didn't you get food earlier?"
 REBECCA: "I was at the door to the pools."
-SHIBIN: "Right."
+STEPHEN: "Right."
 He takes out a can of peaches, jams in a can opener, and grudgingly hands it over. Max follows me over to the circle of students.
 MAX: "Bon appetit."
 
@@ -60,10 +60,10 @@ I can't believe her. I know her too well for that. But I might scare her off fro
 [exit REBECCA]
 [exit CAIT]
 [enter KENNETH C]
-KENNETH: "Right, everyone, listen up. While you're all gathered here, Shibin is going to do a headcount."
+KENNETH: "Right, everyone, listen up. While you're all gathered here, Stephen is going to do a headcount."
 [exit KENNETH]
-[enter SHIBIN C]
-SHIBIN: "Please stay in one place until I'm done... It looks like there are 24 of us total here. We will take attendance periodically to ensure no one is missing. Thanks for your cooperation."
+[enter STEPHEN C]
+STEPHEN: "Please stay in one place until I'm done... It looks like there are 24 of us total here. We will take attendance periodically to ensure no one is missing. Thanks for your cooperation."
 
 For now, I join the students settled in the circle around the laptop. I check my watch. It's almost 9:00. I sit next to Sophie. She nods, and I respond in kind. For a while, all I do is watch the students around me. Most are keeping their voices down in small conversations. A few are staring at the unknown beyond the glass walls, and more simply sit in boredom. There's no light to do much besides talk. 
 

@@ -17,11 +17,11 @@ REBECCA: "Hello?"
 [enter CAIT E]
 CAIT: "Rebecca?"
 Cait's voice calls from the third floor landing.
-[enter SHIBIN A]
-SHIBIN: "Rebecca?"
-...and Shibin runs up from the basement.
-SHIBIN: "There's the culprit! Don't let her get away!"
+[enter STEPHEN A]
+STEPHEN: "Rebecca?"
+...and Stephen runs up from the basement.
+STEPHEN: "There's the culprit! Don't let her get away!"
 
-Before I know it, Arya and Shibin are on top of Caitlyn. There's nothing I can do for her any more. Who could it have been but her? I walk past the horrorstruck Kenneth and back to the hall. Now the only question is what Shibin will do to her.
+Before I know it, Arya and Stephen are on top of Caitlyn. There's nothing I can do for her any more. Who could it have been but her? I walk past the horrorstruck Kenneth and back to the hall. Now the only question is what Stephen will do to her.
 
 [goto s0049]

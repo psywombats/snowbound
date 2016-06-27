@@ -73,27 +73,27 @@ Those words might be more correct than he thinks. I wonder if Max is just joking
 [enter REBECCA D]
 [enter MAX C]
 [enter CAIT B]
-[enter LARA A]
+[enter LAURA A]
 CAIT: "Here. I've recruited our sixth member. Tell them your name."
-LARA: "Lara Cygnus. Can I ask what team this is?"
+LAURA: "Laura Cygnus. Can I ask what team this is?"
 MAX: "Muscle-building, cow-tipping, virility-boosting -"
 CAIT: "Shut up. This is the fencing team, and it's not polite to mislead people."
-[exit LARA]
+[exit LAURA]
 [enter PETE A]
 PETE: "You're the one misleading people, haha."
 CAIT: "And who are you?"
 PETE: "I'm Pete Sai. I'm joining the free-credit-guaranteed fencing team."
 ERIC: "Good, that's one more than we need to register as a team. Should we start the meeting?"
 CAIT: "Not before this kid apologizes."
-PETE: "You should apologize to Lara then. You forced her to join for nothing."
+PETE: "You should apologize to Laura then. You forced her to join for nothing."
 [exit PETE]
-[enter LARA A]
-LARA: "I'm fine. Fencing sounds interesting actually."
+[enter LAURA A]
+LAURA: "I'm fine. Fencing sounds interesting actually."
 MAX: "Don't feel like you have to stay."
 REBECCA: "Max, don't kick her out."
 ERIC: "Look, can we just start this meeting already? We've got two tournaments this year instead of only one last year, and - "
 I stop when Max starts glaring at me.
-[exit LARA]
+[exit LAURA]
 [enter PETE A]
 PETE: "Hey, we should go down to the gym and check out the snow."
 [hold]

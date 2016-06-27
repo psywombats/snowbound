@@ -5,7 +5,7 @@ Thursday, November 23rd: Day 13
 
 I wake up tired from the debate last night. Convincing Felix of anything takes hours, but Rebecca and I finally made our point. Today promises to be a melancholy day. Max insisted that we wait one more day before departing in order to search the rest of the school and gather our supplies in one place. I can't disagree with him, but I'm not looking forward to the preparations.
 
-Rebecca is next to me, still asleep. I stand up and survey the beginnings of today's chores in the gray dawn. Shibin stands at the side of the gym. He has the boxes of supplies down from the stacks, and he and Henry are busy counting, sorting, and packing. That must be the biggest job. Our largest single source of supplies is still the remainder of the hurricane shelter. The fire door opens. I notice that no one is guarding it before Sid steps in from the hall. I walk over to join him.
+Rebecca is next to me, still asleep. I stand up and survey the beginnings of today's chores in the gray dawn. Stephen stands at the side of the gym. He has the boxes of supplies down from the stacks, and he and Henry are busy counting, sorting, and packing. That must be the biggest job. Our largest single source of supplies is still the remainder of the hurricane shelter. The fire door opens. I notice that no one is guarding it before Sid steps in from the hall. I walk over to join him.
 
 [enter SID B]
 [enter ERIC D]
@@ -21,12 +21,12 @@ ERIC: "Maybe I'll help you out then."
 For now, I want to see who else is up and active.
 SID: "Just come down to the student lounge if you have nothing to do."
 
-The only other movement I spot is in the corner. Sophie and Lara are sitting around the remains of the stage curtain. I'll see what they're up to before I help Sid.
+The only other movement I spot is in the corner. Sophie and Laura are sitting around the remains of the stage curtain. I'll see what they're up to before I help Sid.
 
 [enter ERIC A]
 [enter SOPHIE D]
-[enter LARA E]
-LARA: "Oh, it's you. Hi."
+[enter LAURA E]
+LAURA: "Oh, it's you. Hi."
 ERIC: "Hello. Good morning, Sophie."
 SOPHIE: "Hello, Eric. You're up early."
 ERIC: "I thought I was, but it looks like everyone else is busy already."
@@ -38,7 +38,7 @@ MARILYN: "It's all right."
 ERIC: "Have you figured out what her condition is?"
 SOPHIE: "I don't know what's afflicting her if that's what you're asking, but her condition is poor. I don't think she'll make it if we carry out that plan to all leave the school. Maybe we should stay here."
 MARILYN: "I won't have you stay behind on my account. I kept telling Felix that and I'll say the same to you. There isn't much hope for me. I shouldn't be a large part in your decision making."
-LARA: "You did a lot for me when I was almost as sick as you. Don't say depressing stuff like that."
+LAURA: "You did a lot for me when I was almost as sick as you. Don't say depressing stuff like that."
 MARILYN: "True. I'd do the same for anyone."
 ERIC: "It's so cold in here that I don't see why taking Marilyn into the snow would make any difference."
 SOPHIE: "Marilyn, can you even walk on your own? And we won't have the curtain?"
@@ -62,7 +62,7 @@ Even though you protested against it so much last night?
 ERIC: "Right. Well, I have things I need to do as well."
 FELIX: "And so do I. See you tonight."
 [exit FELIX]
-I watch him as he joins Shibin and Henry.
+I watch him as he joins Stephen and Henry.
 REBECCA: "You have things to do, you say?"
 ERIC: "We need some way to bring Marilyn out of here. She's still too sick to stand. I was thinking we have to construct a stretcher."
 REBECCA: "Sounds good to me. Do you want help?"
@@ -72,9 +72,9 @@ We spend our morning and afternoon trying to combine the abandoned battering ram
 
 The entire English hall is marked by snow. Pete and a few other diggers spent the morning and some of last night tunneling out through the packed snow that blocked the roof door. Now, only one student sits outside, keeping the path clear.
 
-Back down in our gym workshop, everyone is fully awake and moving around. All of the backpacks from the locker rooms are now lined up against one wall. Shibin and Max are overseeing the filling of the bags with every manner of supply that has been scavenged from the school. The combined blankets from our basement hideout and Felix's staff lounge base are being folded and distributed, and I notice someone grabbed our curtains scraps and threw them into the mix. I'm still amazed at the productivity of such a disorganized group of people.
+Back down in our gym workshop, everyone is fully awake and moving around. All of the backpacks from the locker rooms are now lined up against one wall. Stephen and Max are overseeing the filling of the bags with every manner of supply that has been scavenged from the school. The combined blankets from our basement hideout and Felix's staff lounge base are being folded and distributed, and I notice someone grabbed our curtains scraps and threw them into the mix. I'm still amazed at the productivity of such a disorganized group of people.
 
-Dinner is paltry. There are a few dissatisfied grumblings about the size of the handouts, but everyone knows Shibin performed some vague calculation about days and distances to calculate the total amount of supplies allotted to each student and how much to be consumed on a daily basis. Tonight is to be the last organized meal. All the other food and water is stuffed into the backpacks and makeshift bags. Kenneth makes an announcement regarding the recommended ration size, but from now on, how much we eat is our own business. 
+Dinner is paltry. There are a few dissatisfied grumblings about the size of the handouts, but everyone knows Stephen performed some vague calculation about days and distances to calculate the total amount of supplies allotted to each student and how much to be consumed on a daily basis. Tonight is to be the last organized meal. All the other food and water is stuffed into the backpacks and makeshift bags. Kenneth makes an announcement regarding the recommended ration size, but from now on, how much we eat is our own business. 
 
 The only remaining task after the meal is the construction of a tent. Under Arya's direction, it only takes a short while to combine wooden beams, the majority of the scraps from the stage curtains, and a variety of binding materials into a short and cramped structure. It stands alone in the middle of the gym for about an hour before the light starts fading, and a few students roll it into a bundle. The tent should be large enough to fit all thirty or forty students present, but uncomfortably huddled. The warmth will be the best we can get out in the snow if we have to travel multiple days. The way everyone, especially Max, seems to be thinking is that that will definitely be the case.
 

@@ -35,7 +35,7 @@ REBECCA: "So Eric... Do you think we'll escape alive?"
 ERIC: "That's not exactly small talk."
 REBECCA: "I gave up on small talk. When it's life or death, it doesn't really matter. We can be more honest."
 ERIC: "Fair point."
-REBECCA: "Though I wondered if you'd be honest with Sid and Lara around. You can tell me what you really think about all this though... I'm demotivated enough as it is. What's your guess?"
+REBECCA: "Though I wondered if you'd be honest with Sid and Laura around. You can tell me what you really think about all this though... I'm demotivated enough as it is. What's your guess?"
 ERIC: "I never really thought about it. I was too caught up in the act of surviving."
 REBECCA: "That's one I haven't heard before. Max always thought it'd take forever but we'd be free, Kenneth thought escape was around the corner, and Sophie thought we're as good as dead."
 ERIC: "What do you think?"
@@ -55,7 +55,7 @@ ERIC: "Yeah. I guess it's not a secret anymore. I'm not anywhere near the top of
 I laugh like it's a joke. It takes some weird circumstances to find that funny.
 REBECCA: "You don't seem too upset. Is that good or bad?"
 ERIC: "It used to be the worst thing. A couple days ago I just told myself that that was the way it was, and whether it was good or bad it didn't matter as long as I made the most of it. Somewhere along the way, my opinion changed. It was definitely a good thing."
-Where would I be if I hadn't given up that old attitude? Standing next to Felix, in some temporary alliance to gain control of the gym? Vying with Shibin for influence over Kenneth?
+Where would I be if I hadn't given up that old attitude? Standing next to Felix, in some temporary alliance to gain control of the gym? Vying with Stephen for influence over Kenneth?
 REBECCA: "If it was a good thing, then why did you keep it a secret?"
 ERIC: "I wasn't prepared for everyone's reaction. My class always thought of me as a hardworking person, no misses, always perfect. I mean, that's all I was doing. That was me."
 REBECCA: "Maybe that's why I saw you as odd last year. You were always acting out what other people saw in you, not what you actually were."
@@ -76,6 +76,6 @@ ERIC: "It feels like we've been waiting more than an hour."
 REBECCA: "I'm not giving up on Max. He's probably just running late."
 ERIC: "I was only wondering."
 
-However, it grows increasingly clear as the minutes pass that the appointed time has come and gone. He's just running late. Rebecca's always said he pulls through. It's possible that he couldn't secure guard duty for tonight. In the worst case, of course, Shibin or someone figured out his plan and Max is tied up somewhere. In that case, wouldn't they exile him down here though? Or is something worse in store for him? I try not to be pessimistic, but it's hard. Then again, it must be even more difficult for Rebecca.
+However, it grows increasingly clear as the minutes pass that the appointed time has come and gone. He's just running late. Rebecca's always said he pulls through. It's possible that he couldn't secure guard duty for tonight. In the worst case, of course, Stephen or someone figured out his plan and Max is tied up somewhere. In that case, wouldn't they exile him down here though? Or is something worse in store for him? I try not to be pessimistic, but it's hard. Then again, it must be even more difficult for Rebecca.
 
 [goto s0060]

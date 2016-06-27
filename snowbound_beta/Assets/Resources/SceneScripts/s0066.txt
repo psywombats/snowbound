@@ -48,7 +48,7 @@ PETE: "Oh, hi, it's the new guy. What do you want?"
 I can't tell if that's animosity or just the way he always is.
 ERIC: "Do you know where Arya and Henry are?"
 PETE: "I think they're in the conference room across the hall."
-Oh, that's the same room Sid, Lara and I used for our plans.
+Oh, that's the same room Sid, Laura and I used for our plans.
 PETE: "I was just heading over there myself."
 ERIC: "I'll join you then."
 We cross and enter the room across from the staff lounge.
@@ -112,9 +112,9 @@ ERIC: "Thanks. I won't let you down."
 
 I have time to spare, but I'd rather not do the scouting I was assigned. It wouldn't be very effective to be spotted or captured by some confused gymnasium student now. Instead, I'll check out this side of the school. It's been a while since I've seen what's become of the biology hallway and the office. Also, I should probably check on Sid in the basements.
 
-With that in mind, I walk to the north stairs. The door to the biology hall is unlocked. I suppose they must not worry about anyone breaking in when the catwalk and biology office doors are shut. No one is inside. The glass from the shattered windows isn't present either. I navigate by the blue light from Arya's contraption and eventually find my way to the office where Sid, Lara, and I ran into Caitlyn.
+With that in mind, I walk to the north stairs. The door to the biology hall is unlocked. I suppose they must not worry about anyone breaking in when the catwalk and biology office doors are shut. No one is inside. The glass from the shattered windows isn't present either. I navigate by the blue light from Arya's contraption and eventually find my way to the office where Sid, Laura, and I ran into Caitlyn.
 
-I enter the office to find it much the way I left it. No one is on guard duty here, and the only change is that the door is locked. That's strange. Wasn't this the sight of one of the battles between Shibin and Felix? I walk back down the biology hallway and head downstairs. It's time to visit Sid. Almost as soon as I'm at the landing, I hear a voice.
+I enter the office to find it much the way I left it. No one is on guard duty here, and the only change is that the door is locked. That's strange. Wasn't this the sight of one of the battles between Stephen and Felix? I walk back down the biology hallway and head downstairs. It's time to visit Sid. Almost as soon as I'm at the landing, I hear a voice.
 
 [enter SID B]
 [enter ERIC D]

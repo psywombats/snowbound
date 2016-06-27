@@ -66,14 +66,14 @@ SOPHIE: "That's not good at all. Try and hold still. I'll see what I can do."
 
 He makes no effort to turn her aside. Whether he wised up or just regained his senses remains unknown. Nevertheless, Sophie's working on him now, and he's not in danger of dropping dead. I'll count my blessings for that.
 
-[enter LARA B]
+[enter LAURA B]
 [enter REBECCA D]
-LARA: "Hi, Rebecca."
-REBECCA: "Lara, I'm glad you're safe. How are you?"
+LAURA: "Hi, Rebecca."
+REBECCA: "Laura, I'm glad you're safe. How are you?"
 [enter PETE A]
 PETE: "Hi Rebecca."
 REBECCA: "You! You traitor! What are you doing here?"
-LARA: "Traitor?"
+LAURA: "Traitor?"
 PETE: "Quiet down, Rebecca. I'm not a traitor because I was never on anyone's side, really. I'm still not on anyone's side. I just go with whatever and leave when I want."
 REBECCA: "You're horrible. If it weren't for you, none of this would've happened."
 PETE: "Hey, you should be thankful you came out without a scratch. Max broke my nose when he took my spear, you know."
@@ -89,7 +89,7 @@ REBECCA: "There's no way I'm turning my back on you. You've had enough chances."
 
 Come to think of it, he's been responsible for an awful lot of awful things that happened around here. Knowing Cait, I figured she had been the one to goad Pete into a fight, but it may very well have happened the other way around. Without him, Felix's group would have never been able to reach us through the biology offices. He's the one who tricked me into exile. Yet here he is, smiling in front of me, with only a bloodied nose to stain his person while Eric Larsen lies dead.
 
-LARA: "Let's try to stay civil. What if we were all trapped in here together? It'd be very hard if you two were at each other's throats. I really don't understand."
+LAURA: "Let's try to stay civil. What if we were all trapped in here together? It'd be very hard if you two were at each other's throats. I really don't understand."
 PETE: "No problem. Max and Rebecca are my pals. Sophie too. You're the best, Sophie!"
 [enter SOPHIE E]
 SOPHIE: "Thanks, Pete."
@@ -97,11 +97,11 @@ SOPHIE: "Thanks, Pete."
 REBECCA: "Fine. I don't know what Max is going to do with you once he's able to stand back up, though."
 PETE: "Hey Max, what're you going to do when you're able to stand back up?"
 REBECCA: "Shut up. Could you at least have a little respect?"
-Respecting anything is probably a violation of Pete's belief system. I'll talk to Lara instead.
-REBECCA: "So, Lara, how are you? Are you feeling any better?"
-LARA: "It's about the same. I can't stop the cough, and I think Sophie has it now too."
+Respecting anything is probably a violation of Pete's belief system. I'll talk to Laura instead.
+REBECCA: "So, Laura, how are you? Are you feeling any better?"
+LAURA: "It's about the same. I can't stop the cough, and I think Sophie has it now too."
 That's right. I forgot this place was infected.
-LARA: "What happened out there?"
+LAURA: "What happened out there?"
 REBECCA: "Felix and his crew are laying siege to the gym. I don't know what they'll to do when they break in, but we can't keep them out forever."
 PETE: "He's after the food."
 REBECCA: "I know that much, you idiot. But once he smashes through the wall, what does he expect? Are we supposed to just say 'You win, here you go' and give him everything?"
@@ -133,9 +133,9 @@ MAX: "You have to be kidding me."
 [enter PETE A]
 PETE: "Hey! They're at it again!"
 [exit PETE]
-[enter LARA A]
-LARA: "What's happening over there?"
-[exit LARA]
+[enter LAURA A]
+LAURA: "What's happening over there?"
+[exit LAURA]
 [enter REBECCA B]
 REBECCA: "Henry and the rest are back. It's finally over for the gymnasium... There's no way rushing them will work a second time"
 MAX: "Sorry Sophie, but I've got to get up. I've got to do something."
@@ -180,7 +180,7 @@ We both obey. I kneel down to where Max is lying. Sophie is about to back away w
 [enter MAX C]
 [enter REBECCA B]
 [enter SOPHIE D]
-[enter LARA E]
+[enter LAURA E]
 MAX: "I'm going to surrender, Rebecca."
 REBECCA: "I never thought I'd hear you say that."
 SOPHIE: "He's just being realistic, Sophie. It's looking grim for all of us right now."
@@ -195,10 +195,10 @@ MAX: "Knock three times hard, two times soft, break, then one more knock. The gu
 Of course he'd have some system set up. Max never fails.
 MAX: "Take as much food as you can carry. Take that food, take whoever you want, and run for the hills. Pete's escape route can be used by anyone as long as you're quick enough."
 REBECCA: "But Max, it goes straight through Felix's base. There's no way I could get through there."
-MAX: "Most of them should be defending the battering ram, not their headquarters. Bluff your way through, Rebecca. I know you're a smart girl. You too Sophie, and Lara as well. Give me two more minutes and I'll go give myself up."
+MAX: "Most of them should be defending the battering ram, not their headquarters. Bluff your way through, Rebecca. I know you're a smart girl. You too Sophie, and Laura as well. Give me two more minutes and I'll go give myself up."
 SOPHIE: "I can't do it, Max. I'll stay here and accept whatever they decide to do with me."
-REBECCA: "Lara?"
-LARA: "I'll stay with Sophie."
+REBECCA: "Laura?"
+LAURA: "I'll stay with Sophie."
 MAX: "You're a lot of idiots. Rebecca, please take this chance. Do it for me. If I know you made it out, I can die happy."
 [hold]
 

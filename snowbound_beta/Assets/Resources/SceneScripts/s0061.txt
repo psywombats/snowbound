@@ -28,7 +28,7 @@ ERIC: "Everyone's forgetting about that door in the biology office. Pete could p
 REBECCA: "Not without help. Maybe that's why they think Max is the accomplice."
 [hold]
 
-"To make matters worse, Kenneth's pretty much broken by this point. Everyone keeps harassing him about supplies and all that, and while he's busy with them, Shibin is running amok. Arya is dropping in and out of sight and refuses to tell me what she's planning. She expressed some interest in returning to the physics lab; I have no idea why. Anyway, good luck. Watch out for Shibin. And watch out for Felix. Actually, assume everyone is out to get you. At this point, that might be the safest thing to do. Farewell. Yours truly, Maximilian Wolf"
+"To make matters worse, Kenneth's pretty much broken by this point. Everyone keeps harassing him about supplies and all that, and while he's busy with them, Stephen is running amok. Arya is dropping in and out of sight and refuses to tell me what she's planning. She expressed some interest in returning to the physics lab; I have no idea why. Anyway, good luck. Watch out for Stephen. And watch out for Felix. Actually, assume everyone is out to get you. At this point, that might be the safest thing to do. Farewell. Yours truly, Maximilian Wolf"
 
 ERIC: "Wow. Sounds like it's complete chaos out there."
 REBECCA: "Honestly, since Marisa died, this whole thing has gone downhill very fast."
@@ -36,7 +36,7 @@ ERIC: "It's as if she's haunting us. If she had had the spine to keep living, th
 REBECCA: "I'm more concerned about Felix. Does anyone know what he's planning?"
 ERIC: "Henry hinted at something ominous, but I have no idea."
 REBECCA: "Maybe we should concentrate on who shut us in here."
-ERIC: "Sid, Lara, or Cait, you mean? That's not a tough choice between the three."
+ERIC: "Sid, Laura, or Cait, you mean? That's not a tough choice between the three."
 REBECCA: "But why?"
 ERIC: "It's always 'why' with you, isn't it... Maybe Cait's just ruthless."
 REBECCA: "No, I don't think that's her. She wasn't trying to kill Pete back on the second day, I know that much."

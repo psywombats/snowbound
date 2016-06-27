@@ -86,7 +86,7 @@ ERIC: "Maybe that's what changed his mind in the first place."
 HENRY: "Could be. But try not to talk about Marilyn to Felix, will you? He turns all strange."
 PETE: "Ah, it's fun to make fun of him."
 HENRY: "Last time you did that he was seriously annoyed, alright Pete? So stay out of Felix's way."
-ERIC: "Also, Max said you captured Shibin? And Cait is missing as well."
+ERIC: "Also, Max said you captured Stephen? And Cait is missing as well."
 HENRY: "We have a couple hostages, yes. They're under guard in the office. Or they were. Pete, get back to work."
 PETE: "Right-o, captain."
 [exit PETE]

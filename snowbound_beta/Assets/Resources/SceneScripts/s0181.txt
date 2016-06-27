@@ -78,7 +78,7 @@ ERIC: "I forgive you for what you did to Max and Rebecca, Pete. I think I would'
 PETE: "No problem. Do you have everything you need?"
 ERIC: "Yeah."
 
-All I have is this spear. Is there anything else I need to do before I flee? There are no more supplies to be gathered, so we'll just take what we steal. I can't say goodbye to Sid because I have no idea where he is or if he's still alive. Marisa is dead. Max and Rebecca are dead. If I tried to talk to Henry or Arya, they'd stop me. Felix would order someone to tie me up. Cait and Shibin are locked in the back of some office. I've made it through this far, but everything's burning down around me. There is nothing for me to take out of this place. Why is there so much I'm leaving behind?
+All I have is this spear. Is there anything else I need to do before I flee? There are no more supplies to be gathered, so we'll just take what we steal. I can't say goodbye to Sid because I have no idea where he is or if he's still alive. Marisa is dead. Max and Rebecca are dead. If I tried to talk to Henry or Arya, they'd stop me. Felix would order someone to tie me up. Cait and Stephen are locked in the back of some office. I've made it through this far, but everything's burning down around me. There is nothing for me to take out of this place. Why is there so much I'm leaving behind?
 
 [enter PETE B]
 [enter ERIC D]
@@ -89,7 +89,7 @@ We reach the south stairs. As Pete said, the door swings open. He checks one doo
 
 No one challenges our entry to the gym. We're both met with a few blank stares, but no one says anything as Pete slips through the fire door. I'm hesitant to follow, but I dash in after him.
 
-This place isn't the paradise I imagined it to be. Nothing but the same cloudy light falls through the windows, and the kids around me are either in tears or too dumbstruck to act. That's right, isn't it? They lost Arya and Shibin to my kidnapping operations, and only a day after that, Rebecca and Max have vanished. Half of their wall is crushed, and it's only a matter of time before Felix breaks in and takes anything they have left. Pete ignores all of this and cuts straight for the food.
+This place isn't the paradise I imagined it to be. Nothing but the same cloudy light falls through the windows, and the kids around me are either in tears or too dumbstruck to act. That's right, isn't it? They lost Arya and Stephen to my kidnapping operations, and only a day after that, Rebecca and Max have vanished. Half of their wall is crushed, and it's only a matter of time before Felix breaks in and takes anything they have left. Pete ignores all of this and cuts straight for the food.
 
 [enter PETE A]
 [enter ERIC B]
@@ -114,16 +114,16 @@ SOPHIE: "Monster! I did so much for you, and now look what you've done! Do you e
 Pete isn't looking at her. What's he staring at? Then I realize he's staring at me. I've wasted too much time already. I slip through the fire door and into the hall, almost tripping over the discarded battering ram. Who knows if Pete will escape Sophie's wrath, but for me, every minute is a liability. There are no friends left for me in here. In my haste I don't even see the girl in front of me until I'm right on top of her.
 
 [enter ERIC B]
-[enter LARA D]
-LARA: "Ouch!"
+[enter LAURA D]
+LAURA: "Ouch!"
 She coughs once or twice.
-ERIC: "Sorry, I need to run. Feel better, Lara."
-LARA: "Eric? Eric Larsen, that is you. I thought you worked for Felix. What are you doing here?"
+ERIC: "Sorry, I need to run. Feel better, Laura."
+LAURA: "Eric? Eric Larsen, that is you. I thought you worked for Felix. What are you doing here?"
 ERIC: "I..."
 
 Where do I even begin to explain this? How do I tell this little sick girl that I've left everyone who trusted me either dead or betrayed, and that I'm now prepared to fly away like a thief in the night? I should probably just ignore her, but there's one last remnant of that voice inside my head that tells me otherwise.
 [hold]
 
 [choice]
-[Take Lara :: s0182]
+[Take Laura :: s0182]
 [Leave her :: s0183]

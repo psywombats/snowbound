@@ -1,16 +1,16 @@
 [s0024]
-[increment LARA]
+[increment LAURA]
 
 ERIC: "Do what you like, but I you know sticking with us won't be easy or comfortable."
-LARA: "I've learned nothing will be easy or comfortable until we're all out of here, so I'll stay down here. You're all telling me to go to the gym, but I can't think of any good reason."
+LAURA: "I've learned nothing will be easy or comfortable until we're all out of here, so I'll stay down here. You're all telling me to go to the gym, but I can't think of any good reason."
 ERIC: "Then why did you ever leave with us?"
-LARA: "I don't want to be holed up in one place. I'd rather wander."
+LAURA: "I don't want to be holed up in one place. I'd rather wander."
 CAIT: "You're insane. I'm going to stop looking out for you, you know? You have some sort of deathwish."
-LARA: "No, I'd rather not die if I can help it. We still have a lot to do, don't we? How's this, when you all can go back to the gym, I'll come with you."
+LAURA: "No, I'd rather not die if I can help it. We still have a lot to do, don't we? How's this, when you all can go back to the gym, I'll come with you."
 REBECCA: "Don't press her into doing something she doesn't want to do. And besides, Max doesn't even know you all are down here."
 ERIC: "That's right... He thinks he's just bringing you some food, right?"
-REBECCA: "I don't want to force Max to talk to Shibin about any of this. Shibin is smart. If Max tried to smuggle Lara in, he would eventually figure out where she came from. Let's not spoil our chances of being welcomed back at the gym."
-LARA: "I honestly hadn't though of that."
+REBECCA: "I don't want to force Max to talk to Stephen about any of this. Stephen is smart. If Max tried to smuggle Laura in, he would eventually figure out where she came from. Let's not spoil our chances of being welcomed back at the gym."
+LAURA: "I honestly hadn't though of that."
 ERIC: "Cait, Rebecca is right. Max is trying to help us so we can't put him through that."
 CAIT: "Fine. Don't complain to me if this is the last chance you get, though."
 [enter ERIC C]
@@ -30,12 +30,12 @@ SID: "No, there's a padlock on it now."
 ERIC: "Damn. I bet that's the lock we found night before last."
 SID: "Did you get a chance to read the combination?"
 ERIC: "No such luck."
-LARA: "He's up to something. Of course Felix is up to something."
+LAURA: "He's up to something. Of course Felix is up to something."
 ERIC: "I should've known Felix had something in mind. Do you think he was trying to get trid of us?'
 CAIT: "Well don't just stand around. We need to act."
 SID: "Just what do you want to do?"
 CAIT: "Well we better damn well shut the basement fire door at that staircase, or they could come and attack us while we sleep."
-LARA: "Good idea."
+LAURA: "Good idea."
 REBECCA: "What if they come back asking for our help?"
 CAIT: "After shutting us out?"
 SID: "I don't know Henry or Marilyn or anyone that well, but it's possible they could defect or rebel or something."

@@ -3,50 +3,50 @@
 [switchto REBECCA]
 
 [enter REBECCA B]
-[enter SHIBIN D]
-REBECCA: "S-Shibin? What are you doing here?"
-SHIBIN: "I'm returning the exiles. I need to get to Felix and this is the only way to do it. So please accept a pardon."
+[enter STEPHEN D]
+REBECCA: "S-Stephen? What are you doing here?"
+STEPHEN: "I'm returning the exiles. I need to get to Felix and this is the only way to do it. So please accept a pardon."
 We're standing in the first floor lobby of the south stairs. I'm face to face with my accuser, who now holds open the door to freedom.
-SHIBIN: "What are you waiting for, idiot? I'm letting you out. You and Caitlyn can both come back to the gym."
+STEPHEN: "What are you waiting for, idiot? I'm letting you out. You and Caitlyn can both come back to the gym."
 REBECCA: "I'm stunned. What on earth is this? You, forgiving people?"
-SHIBIN: "Fine, I really haven't forgiven you, but we have a bit of a crisis on our hands. Get Caitlyn and hurry up!"
+STEPHEN: "Fine, I really haven't forgiven you, but we have a bit of a crisis on our hands. Get Caitlyn and hurry up!"
 REBECCA: "Cait's not here."
-SHIBIN: "Then where is she?"
+STEPHEN: "Then where is she?"
 REBECCA: "The basement door is closed. We can't get downstairs."
-SHIBIN: "You have to be kidding me. You're almost entirely worthless."
+STEPHEN: "You have to be kidding me. You're almost entirely worthless."
 
-I'm not letting this chance go by. I dart through the door before Shibin changes his mind and closes it. He's walking back towards the gym, so I might as well follow. I want to jump up and cheer that I'm free of that accursed stairwell, but Shibin's demeanor makes me uneasy.
+I'm not letting this chance go by. I dart through the door before Stephen changes his mind and closes it. He's walking back towards the gym, so I might as well follow. I want to jump up and cheer that I'm free of that accursed stairwell, but Stephen's demeanor makes me uneasy.
 
 [enter MAX B]
 [enter REBECCA D]
-[enter SHIBIN E]
+[enter STEPHEN E]
 MAX: "Rebecca! You're safe!"
 REBECCA: "Max!"
 He hugs me and I gladly return it.
 MAX: "You made it out. I'm relieved."
-SHIBIN: "Enough with the hysterics. There's a bigger problem than I thought, Max."
+STEPHEN: "Enough with the hysterics. There's a bigger problem than I thought, Max."
 MAX: "What's up?"
-SHIBIN: "The basement fire door is shut. We can't cross after all."
+STEPHEN: "The basement fire door is shut. We can't cross after all."
 MAX: "How did that happen? And so how did Rebecca escape?"
 REBECCA: "Look, can someone please explain to me what's going on here?"
-SHIBIN: "I suppose you deserve that much. Max, if you would."
+STEPHEN: "I suppose you deserve that much. Max, if you would."
 MAX: "Late last night, Sophie found a note from Marilyn Sumner, tucked under the door to the biology office."
 REBECCA: "The biology office?"
 MAX: "It connects the west end of the main hall to the biology hallway. Well, it would, but the door's locked. Anyway, it was news about Felix. Apparently he's up to some sort of aggressive strategy, and we need as much information as possible."
 REBECCA: "I know what this is about..."
-SHIBIN: "Really? Then hurry up and tell us."
+STEPHEN: "Really? Then hurry up and tell us."
 REBECCA: "He wants to gather enough supplies so that he and two or three others can last out the winter in here."
 MAX: "What, and leave the rest of us to starve?"
 REBECCA: "I don't know the details. All I know is that he's the one responsible for shutting the basement fire door. It was part of a plan to recruit Eric Larsen."
 MAX: "Then Eric's joined up with him?"
 REBECCA: "I'm afraid so."
 The enormity of what happened is only now sinking in.
-SHIBIN: "Damn. That kid stops at nothing. Between Felix and Eric, they have the most ruthless devils in this building. No matter how hard I try I'm just not on their level. No one is."
+STEPHEN: "Damn. That kid stops at nothing. Between Felix and Eric, they have the most ruthless devils in this building. No matter how hard I try I'm just not on their level. No one is."
 MAX: "Do you know anything else about Felix's plans, or anything else? What happened during exile? And how did you manage to trap yourself in that staircase anyhow?"
 
-Only when when we're back in the gym do I understand the severity of the condition of the gym. The barricade is the only thing between us and a hungry, savage, and determined band led by Felix. Shibin seems on the verge of panic and keeps trying to work out how many meals would last how many students how long if we were to shut off the entire gym. Max jumps around from one scenario to another, trying to figure out every possible way Felix could gain the upper hand.
+Only when when we're back in the gym do I understand the severity of the condition of the gym. The barricade is the only thing between us and a hungry, savage, and determined band led by Felix. Stephen seems on the verge of panic and keeps trying to work out how many meals would last how many students how long if we were to shut off the entire gym. Max jumps around from one scenario to another, trying to figure out every possible way Felix could gain the upper hand.
 
-I can't take any of this. I'm not going to pretend to be a great strategist with those two. Instead, I'll go find Sophie. Unless something serious happened, she should still be at the pool. Actually, plenty of serious things have been happening, but Sophie is still right where I left her. I'm pleased to see Lara as well.
+I can't take any of this. I'm not going to pretend to be a great strategist with those two. Instead, I'll go find Sophie. Unless something serious happened, she should still be at the pool. Actually, plenty of serious things have been happening, but Sophie is still right where I left her. I'm pleased to see Laura as well.
 
 [enter REBECCA B]
 [enter SOPHIE D]
@@ -54,9 +54,9 @@ REBECCA: "Hi, Sophie. I'm back."
 SOPHIE: "Rebecca, I was worried about you. It's about time someone let you out."
 REBECCA: "You could've done it yourself, you know."
 SOPHIE: "But where would you hide? What would I do? Would it have done any good?"
-REBECCA: "Don't worry about it Sophie. It's not your fault. How's Lara doing?"
-[enter LARA E]
-LARA: "I'm fine."
+REBECCA: "Don't worry about it Sophie. It's not your fault. How's Laura doing?"
+[enter LAURA E]
+LAURA: "I'm fine."
 SOPHIE: "Her fever is still high and she's developed a nasty cough. I think it might be contagious."
 I take a step back as they cough in unison.
 REBECCA: "Are you going to be alright?"
@@ -64,32 +64,32 @@ SOPHIE: "I'm fine. As long as we stay here, everything should work out."
 REBECCA: "So Pete ran off, did he?"
 SOPHIE: "I woke up in the morning and he wasn't here. They say he took a good chunk of food and ran off to the basement."
 REBECCA: "Aha, the food thief was Max bringing me something to eat."
-LARA: "Max is very kind."
+LAURA: "Max is very kind."
 SOPHIE: "I suppose."
-[exit LARA]
-REBECCA: "Sophie, what do you think is going to happen with Felix? Max and Shibin are tripping over themselves trying to prepare for something. I don't know what to do."
+[exit LAURA]
+REBECCA: "Sophie, what do you think is going to happen with Felix? Max and Stephen are tripping over themselves trying to prepare for something. I don't know what to do."
 SOPHIE: "I don't know either. That's why I've been here all along Rebecca. It's much simpler when you know what to do. You're welcome to come and join me."
 REBECCA: "No thanks."
 Even if I overlook the cough, there's no way I can abandon Max and the others in the gym.
 SOPHIE: "You're welcome to come by whenever you like."
 REBECCA: "I'll keep it in mind. Bye, Sophie."
 
-When I return to the gym, Max is still quibbling with Shibin. I wonder when the balance of power shifted. After all, when I left, Kenneth was still in charge and Shibin was about to exile Max. I haven't seen Kenneth yet, but I don't feel much like finding him. I can at least see if there's anything I can do to help out Max.
+When I return to the gym, Max is still quibbling with Stephen. I wonder when the balance of power shifted. After all, when I left, Kenneth was still in charge and Stephen was about to exile Max. I haven't seen Kenneth yet, but I don't feel much like finding him. I can at least see if there's anything I can do to help out Max.
 
 [enter MAX B]
-[enter SHIBIN D]
+[enter STEPHEN D]
 MAX: "It doesn't matter if we're thinking long term or not. We need to be safe above everything."
-SHIBIN: "Then how do you want to respond?"
+STEPHEN: "Then how do you want to respond?"
 MAX: "Let's send someone to talk to Felix, or at least talk to Marilyn. There has to be some way out of this."
-SHIBIN: "The basement door is shut or we would've done that already. Besides, we outnumber them, so if it comes down to it, the odds are in our favor that we win a battle of force."
+STEPHEN: "The basement door is shut or we would've done that already. Besides, we outnumber them, so if it comes down to it, the odds are in our favor that we win a battle of force."
 MAX: "Do you even understand Felix? He'd never act unless he had a winning strategy, and Eric's bright enough to come up with a winning strategy for him."
-SHIBIN: "Then we have to act now. We have to strike before they can put their plan in action."
+STEPHEN: "Then we have to act now. We have to strike before they can put their plan in action."
 [enter REBECCA A]
 REBECCA: "Sorry to interrupt you, but is there anything I can do to help?"
-SHIBIN: "No, not really. Leave us alone."
+STEPHEN: "No, not really. Leave us alone."
 Max doesn't even look at me. Whatever, I can find something else to do. Who else is here that I know?
 REBECCA: "Hey, have either of you seen Arya?"
-SHIBIN: "Not for a few hours, no. I told her to go reinforce the barricade, so maybe she's still out on in the hall somewhere."
+STEPHEN: "Not for a few hours, no. I told her to go reinforce the barricade, so maybe she's still out on in the hall somewhere."
 
 By now, the halls are growing dark. It won't be too long before the gym follows. I reach the barricade in front of the catwalks door. It truly is impressive. Four tables from the cafeteria form the frame and the support is provided by a number of chairs, weights, and other gym equipment. It doesn't look like it would need much reinforcement, but still, where did Arya go?
 
@@ -98,19 +98,19 @@ What was that? I could've sworn I heard footsteps to my left. There's no one dow
 [enter REBECCA A]
 [enter MAX B]
 [enter KENNETH C]
-[enter SHIBIN D]
+[enter STEPHEN D]
 REBECCA: "Hey."
-It looks like Max and Shibin dug up Kenneth from somewhere for a conference, but no one seems to be doing much talking.
+It looks like Max and Stephen dug up Kenneth from somewhere for a conference, but no one seems to be doing much talking.
 REBECCA: "What are you up to, Max?"
 MAX: "Hang on for a second."
-SHIBIN: "We're waiting for Kenneth to make up his mind. You need to decide one way or the other Kenneth. You need to decide eventually. That's what leaders do, right?"
+STEPHEN: "We're waiting for Kenneth to make up his mind. You need to decide one way or the other Kenneth. You need to decide eventually. That's what leaders do, right?"
 KENNETH: "Well... Can we do both?"
-SHIBIN: "They fundamentally contradict each other. Come on now, do we follow Max's plan or mine?"
+STEPHEN: "They fundamentally contradict each other. Come on now, do we follow Max's plan or mine?"
 REBECCA: "Okay, I can see you're busy so I'll be brief: I can't find Arya."
-SHIBIN: "You mean she isn't in the hall?"
+STEPHEN: "You mean she isn't in the hall?"
 REBECCA: "No, and I didn't see her when I was with Sophie at the pool, either."
-SHIBIN: "That slacker must be down in the locker rooms or something. Max, stay here while I go find her. And make sure Ken hurries up. Just get him to decide something already!"
-[exit SHIBIN]
+STEPHEN: "That slacker must be down in the locker rooms or something. Max, stay here while I go find her. And make sure Ken hurries up. Just get him to decide something already!"
+[exit STEPHEN]
 REBECCA: "That guy's certainly in a rush. Anyway, hello Kenneth."
 KENNETH: "Hi, do I know you?"
 REBECCA: "Yeah, I'm Rebecca. You exiled me, remember?"
@@ -118,12 +118,12 @@ KENNETH: "Not really."
 MAX: "Leave him alone, Rebecca. Kenneth has a lot on his plate."
 KENNETH: "Thanks. I'm sorry."
 
-While we wait for Shibin's return, Max does nothing but stare at Kenneth, who does nothing but avoid looking at Max. What happened in here? Everyone is on edge. I understand that Felix might be plotting some sort of attack, but everyone seems ready to collapse. Maybe it was like this before I left and I didn't notice, or maybe after a week of isolation, everyone is at wit's end.
+While we wait for Stephen's return, Max does nothing but stare at Kenneth, who does nothing but avoid looking at Max. What happened in here? Everyone is on edge. I understand that Felix might be plotting some sort of attack, but everyone seems ready to collapse. Maybe it was like this before I left and I didn't notice, or maybe after a week of isolation, everyone is at wit's end.
 
 [enter REBECCA B]
 [enter MAX D]
 MAX: "What could be taking him so long?"
-REBECCA: "Shibin? Do you think he's still searching, or did something happen to him?"
+REBECCA: "Stephen? Do you think he's still searching, or did something happen to him?"
 MAX: "Maybe we'd better go see what's - "
 REBECCA: "What?"
 MAX: "Don't go out that door."
@@ -131,18 +131,18 @@ REBECCA: "What's the matter?"
 MAX: "It's already started. Felix has them."
 REBECCA: "You mean they've been captured? Is that what happened to Pete?"
 MAX: "Could be."
-REBECCA: "Maybe Shibin ran into Arya and they're just talking in the hall. How are we supposed to confirm that they've been caught?"
+REBECCA: "Maybe Stephen ran into Arya and they're just talking in the hall. How are we supposed to confirm that they've been caught?"
 MAX: "Kenneth, get up. We're going outside."
 KENNETH: "Okay."
 
-The hallway is just as empty as it was when I checked. No one responds when Max calls out. We walk the entirety of the gym and main hallway twice over, but there are no signs of Shibin or Arya. There's only one conclusion to draw.
+The hallway is just as empty as it was when I checked. No one responds when Max calls out. We walk the entirety of the gym and main hallway twice over, but there are no signs of Stephen or Arya. There's only one conclusion to draw.
 
 [enter KENNETH E]
 [enter MAX C]
 [enter REBECCA A]
 MAX: "Damn. Okay, this calls for drastic measures. I think we can all guess what's happening, but try not to panic, okay?"
 That must've been directed at Kenneth.
-KENNETH: "You mean... Shibin..."
+KENNETH: "You mean... Stephen..."
 MAX: "Come on, everyone. We're going back to the gym. We're going to put a stop to this."
 When we're back inside, Max pulls the fire door shut behind him. The guard gives him a look.
 MAX: "No one goes in or out until further notice, okay?"
@@ -150,10 +150,10 @@ STUDENT1: "Are those Kenneth's orders?"
 MAX: "Yes."
 KENNETH: "Yes."
 We pull into a corner. I stay back a few feet and watch Max talk at Kenneth.
-MAX: "You need to make an announcement to the students. Explain to them the present situation so they know why they can't go outside. You might as well let them know that Arya, Pete, and Shibin have all been kidnapped."
-KENNETH: "You mean... no more Shibin? How am I supposed to make an announcement then?"
+MAX: "You need to make an announcement to the students. Explain to them the present situation so they know why they can't go outside. You might as well let them know that Arya, Pete, and Stephen have all been kidnapped."
+KENNETH: "You mean... no more Stephen? How am I supposed to make an announcement then?"
 MAX: "Kenneth, you're the guy in charge here. Just do it. Everybody's counting on you, alright?"
-KENNETH: "Look, I... Max, if Shibin's not here, you just go ahead and do it."
+KENNETH: "Look, I... Max, if Stephen's not here, you just go ahead and do it."
 MAX: "Fine. I'm putting your name on this."
 KENNETH: "Go ahead."
 That's all it takes. Max spins around and yells out to the huddled students.
@@ -162,7 +162,7 @@ That's all it takes. Max spins around and yells out to the huddled students.
 MAX: "Hey! All of you! I've got an announcement from Kenneth!"
 He's got their attention. None of them seem to care the Kenneth's standing silent right behind him.
 MAX: "None of you are to leave the gym without my approval. Felix Salazar is actively planning to steal our food and he's kidnapping anyone in the halls."
-I notice he doesn't bring up Shibin and Arya.
+I notice he doesn't bring up Stephen and Arya.
 MAX: "Until we can secure the area, no one goes in or out. Got it? Now don't panic. We're not in a state of war just yet, but watch yourselves. Stay on your guard. Expect anything. That's all for now."
 
 As he ends the speech, the gym breaks out in a nervous clamor that I haven't seen since the first day. The weird thing is that everyone accepts this without question. No one's complaining about the order in public, or as I discover when I listen harder, in private either. Max, however, does not look pleased with himself.
@@ -175,10 +175,10 @@ MAX: "Why did Felix have to resort to this? Couldn't he have asked for help like
 REBECCA: "Are you okay?"
 MAX: "Sorry, sometimes it seems like everyone else on the planet is absolutely insane. I can't shake that feeling today."
 REBECCA: "I've been there..."
-What I don't tell him is that I feel that way when I see him talking war with Shibin. It just isn't the real Max. Or have I been mistaken about who the real Max was all along?
+What I don't tell him is that I feel that way when I see him talking war with Stephen. It just isn't the real Max. Or have I been mistaken about who the real Max was all along?
 REBECCA: "Hey Max..."
 MAX: "Rebecca?"
-REBECCA: "What about Sophie and Lara?"
+REBECCA: "What about Sophie and Laura?"
 MAX: "Oh wonderful. They're very vulnerable and I didn't even think of it."
 REBECCA: "Do you really think Felix would attack them?"
 MAX: "If it advanced his scheme on more step, I wouldn't put it past him. It might already be too late."

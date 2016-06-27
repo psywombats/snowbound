@@ -20,14 +20,14 @@ SOPHIE: "I don't know. It's where I spent a lot of time before all of this so it
 I'm relieved when Max makes no comment.
 
 [enter KENNETH C]
-KENNETH: "All right, I just wanted to thank you all for returning to the gymnasium. I don't like walking over your rights, but it looks like we may have to spend another night here, and I'd prefer that no one gets hurt. So for our mutual benefit, let's stick together. On that note, Shibin wants to tally us up again."
-[enter SHIBIN B]
-SHIBIN: "Please stay where you are until I'm done counting."
+KENNETH: "All right, I just wanted to thank you all for returning to the gymnasium. I don't like walking over your rights, but it looks like we may have to spend another night here, and I'd prefer that no one gets hurt. So for our mutual benefit, let's stick together. On that note, Stephen wants to tally us up again."
+[enter STEPHEN B]
+STEPHEN: "Please stay where you are until I'm done counting."
 [exit KENNETH]
-Pete jumps up from his seat by the door to be counted, but I'm sure Shibin would be thorough enough to find him there.
-SHIBIN: "Alright, 24 students, same as yesterday. Good. Pete, go back to the door post. You're not done until halfway through the night."
+Pete jumps up from his seat by the door to be counted, but I'm sure Stephen would be thorough enough to find him there.
+STEPHEN: "Alright, 24 students, same as yesterday. Good. Pete, go back to the door post. You're not done until halfway through the night."
 
-Shibin takes this opportunity to start handing out more canned pears. When we're all out of here, I swear I will never look at a pear the same way. Tonight isn't last night though. The laptop is out, and we're all gathered, but the atmosphere is noticeably different. What conversation there is now is anxious. Most people are starting to buy into Max's pessimistic estimation. The world beyond the glass is unchanged. Just how much longer can we be expected to endure this? What could be happening out there?
+Stephen takes this opportunity to start handing out more canned pears. When we're all out of here, I swear I will never look at a pear the same way. Tonight isn't last night though. The laptop is out, and we're all gathered, but the atmosphere is noticeably different. What conversation there is now is anxious. Most people are starting to buy into Max's pessimistic estimation. The world beyond the glass is unchanged. Just how much longer can we be expected to endure this? What could be happening out there?
 
 [enter REBECCA B]
 [enter MAX D]

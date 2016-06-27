@@ -12,7 +12,7 @@ It's the third time I've lost her since we've been shut down in the basement. At
 REBECCA: "There you are. Can we please just find some place to sleep?"
 CAIT: "Find somewhere to sleep by yourself."
 
-She turns another corner into the dark. It'll probably take me another twenty minutes of searching to find her. By my estimate, it's been four hours since we were locked down here by Shibin. I've been busy trying to track down Cait ever since, but she isn't making it easy. Half of me wants to sit down and give up right this moment. Without food or warmth, survival down here will be absolute misery. I'd rather not contemplate how long I'll be forced to endure this place, so instead I chase after my partner in exile.
+She turns another corner into the dark. It'll probably take me another twenty minutes of searching to find her. By my estimate, it's been four hours since we were locked down here by Stephen. I've been busy trying to track down Cait ever since, but she isn't making it easy. Half of me wants to sit down and give up right this moment. Without food or warmth, survival down here will be absolute misery. I'd rather not contemplate how long I'll be forced to endure this place, so instead I chase after my partner in exile.
 
 [enter CAIT B]
 [enter REBECCA D]
@@ -31,8 +31,8 @@ REBECCA: "That's right. So you owe it to me to work together."
 CAIT: "You owe it to yourself to forget about me. I don't understand how you're even talking to me. You should hate me, Rebecca. If you want to tie me up or something, I'll let you. I'm a horrible person, so you can do whatever you want to me."
 REBECCA: "And how is tying you up supposed to help anything?"
 CAIT: "I won't be able to compete with you for food. Your survival chances will be higher."
-REBECCA: "Cut it out. If I did that, I'd be just as bad as Shibin."
-CAIT: "I'm worse than all of you, though. Shibin is only wrong for sending you down here to rot with me. I deserved everything."
+REBECCA: "Cut it out. If I did that, I'd be just as bad as Stephen."
+CAIT: "I'm worse than all of you, though. Stephen is only wrong for sending you down here to rot with me. I deserved everything."
 REBECCA: "If that's the way it's going to be, then I order you to help me find a place to camp for the night."
 CAIT: "You really are stupid, aren't you?"
 
@@ -47,6 +47,6 @@ REBECCA: "Sleep here tonight and don't run away in the morning. We'll have some 
 CAIT: "Rebecca, I really don't want to live down here. I think I'd rather die. It's cold, I'm hungry, and everyone hates me."
 REBECCA: "Could you stop feeling sorry for yourself for a minute and get some sleep? We can talk in the morning."
 
-She shuts up, but sleep is still difficult. The ratty old couches down here were never pleasant to touch, let alone lie down on, and the cold is much more pronounced down here. I'm curled up as tight as I can, but I can't seem to drift away. Shibin's speech keeps playing over again in my head. Can I ever understand why he went to such lengths to trap me down here? Is he up to something or is he a sadist? But the more I wonder about these questions, the more I start wondering why I bother asking myself in the first place. All I need to do now is survive; reasoning comes later.
+She shuts up, but sleep is still difficult. The ratty old couches down here were never pleasant to touch, let alone lie down on, and the cold is much more pronounced down here. I'm curled up as tight as I can, but I can't seem to drift away. Stephen's speech keeps playing over again in my head. Can I ever understand why he went to such lengths to trap me down here? Is he up to something or is he a sadist? But the more I wonder about these questions, the more I start wondering why I bother asking myself in the first place. All I need to do now is survive; reasoning comes later.
 
 [goto s0138]

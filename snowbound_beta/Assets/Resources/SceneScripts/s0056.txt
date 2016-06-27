@@ -9,7 +9,7 @@ When I wake up, all I know is that I'm cold and stiff. The only light is a faint
 
 I wonder where Cait is. I half hoped she would find me, but at this point, I doubt she'd be friendly with me. If I had spoken up for her back on the morning of the trial, maybe she wouldn't be down here now. If she feels anything like the disappointment I feel towards Max at the moment, she won't be happy.
 
-Maximilian... I have his phone now. I don't understand why he gave it to me. If he wanted to help, couldn't he have stood up to Shibin and freed me? Anyway, I don't think I'm helping anything by sitting here and waiting for someone to come and rescue me. It's time to find Cait. If she hasn't frozen to death by now, she probably knows a thing or two about surviving down here. But if she didn't make it... I hope I don't find a corpse.
+Maximilian... I have his phone now. I don't understand why he gave it to me. If he wanted to help, couldn't he have stood up to Stephen and freed me? Anyway, I don't think I'm helping anything by sitting here and waiting for someone to come and rescue me. It's time to find Cait. If she hasn't frozen to death by now, she probably knows a thing or two about surviving down here. But if she didn't make it... I hope I don't find a corpse.
 
 Before I leave, I check the door. Unsurprisingly, it doesn't budge. As I make my way down the stairs, the light from the door fades much too quickly. I'm tempted to use Max's phone, but I know the battery won't last much longer. If only I had something like Arya's makeshift flashlight... Actually, maybe I can find something if I visit the physics lab. That's on my immediate right as I pass through the fire door that Arya propped open on the first day.
 
@@ -42,9 +42,9 @@ REBECCA: "Eric? You're safe?"
 [enter SID A]
 SID: "Everyone on the fencing team that wasn't in the gym. We're all here."
 [exit SID]
-[enter LARA A]
-LARA: "Hello, Rebecca. Fancy meeting you here."
-[exit LARA]
+[enter LAURA A]
+LAURA: "Hello, Rebecca. Fancy meeting you here."
+[exit LAURA]
 [enter SID A]
 Cait rolls off of me. I stand and dust myself off.
 REBECCA: "Okay, there is a lot we need to go over."
@@ -59,8 +59,8 @@ ERIC: "She tied the noose and jumped from the catwalks and it broke her neck. Wh
 His voice is flat. If he's lying, then Eric is one cold-blooded killer indeed. I'll believe him.
 CAIT: "But how did you end up down here? Does this mean the fire door on the first floor landing is open?"
 REBECCA: "Sorry to disappoint you, but I'm like you now. Exiled."
-CAIT: "What did you do? Did you finish Pete off for me? Or did you punch in Shibin's swollen head? I would love to do that myself, actually."
-REBECCA: "A lot of stuff happened once we found out Marisa was dead. Like I said, Shibin and Kenneth are convinced someone killed Marisa and maybe the rest of you, and they want nothing to do with it. I'm not sure Max believes it or not, but either way, I tried to convince them not to wall you off."
+CAIT: "What did you do? Did you finish Pete off for me? Or did you punch in Stephen's swollen head? I would love to do that myself, actually."
+REBECCA: "A lot of stuff happened once we found out Marisa was dead. Like I said, Stephen and Kenneth are convinced someone killed Marisa and maybe the rest of you, and they want nothing to do with it. I'm not sure Max believes it or not, but either way, I tried to convince them not to wall you off."
 ERIC: "Wall us off? What do you mean?"
 REBECCA: "Pete picked the lock to the door between the catwalks and the main hall. That's how we saw Marisa."
 SID: "Then once we have the key from Felix to the other catwalk door, we're free."
@@ -69,9 +69,9 @@ CAIT: "Oh."
 That response was unexpected. The Caitlyn I know would yell at me for doing something as dumb as getting caught.
 ERIC: "This is starting to look even worse for us. Even if we do find our way into the gym somehow, everyone will think we're murderers."
 [exit SID]
-[enter LARA A]
-LARA: "Maybe that's why Marisa killed herself. She wanted to set you guys up."
-[exit LARA]
+[enter LAURA A]
+LAURA: "Maybe that's why Marisa killed herself. She wanted to set you guys up."
+[exit LAURA]
 [enter SID A]
 ERIC: "Can we please stop talking about Marisa? She's someone I want to forget right now."
 REBECCA: "I agree."
@@ -86,13 +86,13 @@ She moves off through the maze of cushioned chairs, tables, and couches. I suppo
 
 [enter CAIT B]
 CAIT: "It's from the physics lab."
-She walks over to between me and Eric, Sid, and Lara at the opposite door. Cait is holding a candleholder, a matchbox, and four or five backup candles.
+She walks over to between me and Eric, Sid, and Laura at the opposite door. Cait is holding a candleholder, a matchbox, and four or five backup candles.
 CAIT: "Arya didn't take everything useful. I guess she's the electronics type, so she didn't even care about this stuff."
 By the light of the candle, we all manage to seat ourselves in two couches at either end of one of the low study tables.
 [enter ERIC D]
 [enter REBECCA C]
 [enter SID E]
-[enter LARA A]
+[enter LAURA A]
 ERIC: "At least that's something positive. We have a lasting light source, if not a very safe one."
 CAIT: "I only have five matches left though. I'm not sure if it's better to leave a candle burning or only light it when we need it."
 SID: "If you have four candles, we should be fine just letting the first three burn and then use the spare matches on the last one. If we're going to be basement dwellers, we'll need light."
@@ -103,22 +103,22 @@ ERIC: "Fair point. But there are more of us now. We can search more thoroughly."
 SID: "No one's been to the chemistry hallway on the second floor, right?"
 ERIC: "We'd have to break through a fire door to get there, and I'm not sure it's worth the effort."
 SID: "There are definitely a few chemistry professors that kept water and a maybe snacks in their offices, but we'd have to break through a fire door to get there."
-REBECCA: "That's not true. You're one door, a barricade, two guards, and a rabid Shibin away from the gym. We're exiles. Cait stabbed Pete, I tried to help her, and they think the rest of you collectively lynched Marisa."
-LARA: "What about me?"
-Lara sneezes into her hand and the candle in Cait's hand flickers.
+REBECCA: "That's not true. You're one door, a barricade, two guards, and a rabid Stephen away from the gym. We're exiles. Cait stabbed Pete, I tried to help her, and they think the rest of you collectively lynched Marisa."
+LAURA: "What about me?"
+Laura sneezes into her hand and the candle in Cait's hand flickers.
 REBECCA: "Weren't you in the auditorium?"
-LARA: "No, I ended up in the bio hallway."
+LAURA: "No, I ended up in the bio hallway."
 REBECCA: "I don't think it matters where you actually were. You were still out of the gym when Marisa died."
 CAIT: "Look at her! She's a pathetic freshman with a fever! She froze half to death in some abandoned classroom for days and she's had maybe two granola bars and a bottle of water in the past five days!"
-LARA: "I'm pretty sure I wouldn't be able to do that."
+LAURA: "I'm pretty sure I wouldn't be able to do that."
 ERIC: "Do you really think they'd turn her away?"
-REBECCA: "Shibin might, but I think Kenneth could overrule him. Kenneth isn't a bad person at all, he's just overwhelmed sometimes. I don't think there's any way he could kick out Lara after meeting her though."
-The issue would be getting her there. I know Shibin will never listen to me again, and he's terrified of Eric.
-SID: "Do we really want to use Lara as a tool to gain entry though?"
-CAIT: "I'm not talking about that at all! I mean that even if Shibin throws us out, she can stay. There's still a reason we should be finding a way into the gym."
-LARA: "Don't do it just for me."
+REBECCA: "Stephen might, but I think Kenneth could overrule him. Kenneth isn't a bad person at all, he's just overwhelmed sometimes. I don't think there's any way he could kick out Laura after meeting her though."
+The issue would be getting her there. I know Stephen will never listen to me again, and he's terrified of Eric.
+SID: "Do we really want to use Laura as a tool to gain entry though?"
+CAIT: "I'm not talking about that at all! I mean that even if Stephen throws us out, she can stay. There's still a reason we should be finding a way into the gym."
+LAURA: "Don't do it just for me."
 ERIC: "No, Cait's right. Even if only one of us from this group can make it out, we'll do everything we can to ensure that that happens, okay?"
-LARA: "Thanks. I know what it's taken you all to get this far."
+LAURA: "Thanks. I know what it's taken you all to get this far."
 SID: "We're still stuck in a rut here. Felix won't take us and Kenneth won't take us. What do we do now?"
 ERIC: "There's only one thing we can do. We need to search this place. We need everything we can get. From there, we'll try to break through either the first or second floor fire doors. The second floor brings us at a bit of food at least, and if we manage to convince Kenneth, we're safe in the gym."
 

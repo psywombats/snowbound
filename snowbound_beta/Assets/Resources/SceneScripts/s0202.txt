@@ -5,30 +5,30 @@ CAIT: "Where do you think you're going? Stop running everywhere!"
 [exit CAIT]
 I guess they're both off to the gym.
 REBECCA: "Do you know either of them?"
-LARA: "No, not really. I don't think I've met you either."
+LAURA: "No, not really. I don't think I've met you either."
 MAX: "I'm Maximilian Wolf, but my friends call me Maximilian. Or Blademaster Max. And this charming young lady - "
 REBECCA: "- can introduce herself. I'm Rebecca Bell. You should stick around. We're actually not too bad when you get to know us. And I can vouch for Cait."
 MAX: "Speaking of Cait and Pete, let's hurry to the gym before they kill each other."
 [exit REBECCA]
 ERIC: "Can't we stay here, at least to go over the basics? The track team's probably using the gym right now anyway."
-MAX: "Uh, if you want to teach Lara the basics, you're welcome to do so, but right now over half of the new members just went flying out the door."
+MAX: "Uh, if you want to teach Laura the basics, you're welcome to do so, but right now over half of the new members just went flying out the door."
 ERIC: "Right..."
-LARA: "We can stay here if you like."
+LAURA: "We can stay here if you like."
 MAX: "Rebecca and I will be down at the gym."
 
 I'm left with just this freshman to do any sort of fencing introduction. It's hard to explain equipment when I don't actually have any to use as props. I hope Rebecca and Max are showing Cait and Sid the basics, because I don't want to have to go over this twice.
 
-[enter LARA B]
+[enter LAURA B]
 [enter ERIC D]
-LARA: "I think I understand. Shouldn't we get to the gym?"
+LAURA: "I think I understand. Shouldn't we get to the gym?"
 ERIC: "I guess there's really no helping it."
 I stop at the door to the hall.
 ERIC: "On second thought, I'll be down in a few minutes. I want to see if Sid's still stuck in jazz. If he's free, we won't have to redo the intro next week."
-LARA: "Okay. Should I wait here?"
+LAURA: "Okay. Should I wait here?"
 ERIC: "You can just go to the gym, you know. Max and Rebecca should be there."
-LARA: "No, I'll come with you. I'm sort of looking around for groups, and maybe jazz is for me."
+LAURA: "No, I'll come with you. I'm sort of looking around for groups, and maybe jazz is for me."
 ERIC: "So you can't decide if you want to be a jazz musician or a fencer..."
-LARA: "If your friend can do both, why can't I?"
+LAURA: "If your friend can do both, why can't I?"
 ERIC: "Fine,come if you want."
 
 [goto s0204]

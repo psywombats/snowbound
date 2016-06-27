@@ -30,23 +30,23 @@ REBECCA: "Were you tailing me this whole time?"
 MAX: "Carry the buns."
 REBECCA: "Got it."
 
-As soon as we return the gym, Max sets down the milk palettes and vanishes off somewhere. I start to look around for Pete, but before I can do anything, Shibin is on top of me.
+As soon as we return the gym, Max sets down the milk palettes and vanishes off somewhere. I start to look around for Pete, but before I can do anything, Stephen is on top of me.
 
-[enter SHIBIN D]
+[enter STEPHEN D]
 [enter REBECCA B]
-SHIBIN: "Well, officer, I see you've liberated the supplies."
-Liberated? Really? I wish Shibin was the type to joke, but I play along anyway.
+STEPHEN: "Well, officer, I see you've liberated the supplies."
+Liberated? Really? I wish Stephen was the type to joke, but I play along anyway.
 REBECCA: "Pete broke through to the kitchen. We cleared out the area, but this is all there is."
-SHIBIN: "Good. The mission was definitely a success. Thanks to you, we'll have something other to drink than this bottled water. In fact, we'd better start serving this milk before it spoils."
+STEPHEN: "Good. The mission was definitely a success. Thanks to you, we'll have something other to drink than this bottled water. In fact, we'd better start serving this milk before it spoils."
 
-I don't think there's much risk of that with the current conditions in the gym. Even with all of us packed in here, the temperature is still steadily moving towards freezing. It's been over a day without heat in here now, and if we're here much longer, the hallways will be downright frigid. It's not worth it to argue with Shibin, however, so I'll leave him to dole out the cartons. Now where did Max get to?
+I don't think there's much risk of that with the current conditions in the gym. Even with all of us packed in here, the temperature is still steadily moving towards freezing. It's been over a day without heat in here now, and if we're here much longer, the hallways will be downright frigid. It's not worth it to argue with Stephen, however, so I'll leave him to dole out the cartons. Now where did Max get to?
 
 [enter MAX B]
 [enter REBECCA D]
 MAX: "That didn't take as long as I thought."
 REBECCA: "Oh, were you just trying to avoid the briefing?"
 MAX: "Briefing? You're a true commander now, Miss Intelligence Officer."
-REBECCA: "It's just what Shibin called it. Anyway, what're we supposed to do now?"
+REBECCA: "It's just what Stephen called it. Anyway, what're we supposed to do now?"
 [hold]
 
 [goto s0110]

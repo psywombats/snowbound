@@ -1,7 +1,7 @@
 [s0107]
 
 REBECCA: "Yeah, we're done."
-PETE: "In that case, I'll see you at the gym. Have fun talking with Shibin!"
+PETE: "In that case, I'll see you at the gym. Have fun talking with Stephen!"
 [exit PETE]
 REBECCA: "Why did I volunteer for this...?"
 

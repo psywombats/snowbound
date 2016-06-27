@@ -10,7 +10,7 @@ REBECCA: "Any progress?"
 ERIC: "I can't tell, not without light."
 REBECCA: "That's too bad. I suppose we might as well eat."
 
-It feels strange to eat only a small portion of the food before us when we're both so hungry, but it could be a while before we're out this mess. It could be a very long time. While we prepare the food, I remember the bottle of aspirin. That was probably intended for Lara. It's a shame it will never make it to her.
+It feels strange to eat only a small portion of the food before us when we're both so hungry, but it could be a while before we're out this mess. It could be a very long time. While we prepare the food, I remember the bottle of aspirin. That was probably intended for Laura. It's a shame it will never make it to her.
 
 [enter ERIC B]
 [enter REBECCA D]

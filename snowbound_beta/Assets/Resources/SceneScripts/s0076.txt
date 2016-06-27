@@ -1,20 +1,20 @@
 [s0076]
-[increment SHIBIN]
+[increment STEPHEN]
 
 I decide to wait here. Biology isn't too far from here, and the professor let us out of calculus early.
 
-[enter SHIBIN B]
+[enter STEPHEN B]
 [enter REBECCA D]
-SHIBIN: "Oh, it's you again."
+STEPHEN: "Oh, it's you again."
 REBECCA: "Again? What's that supposed to mean?"
-SHIBIN: "Nothing."
+STEPHEN: "Nothing."
 REBECCA: "That's my line. I'm not playing around with you."
-SHIBIN: "And you think I am?"
+STEPHEN: "And you think I am?"
 REBECCA: "Who knows? I don't know you."
-SHIBIN: "Then why are you talking to me?"
+STEPHEN: "Then why are you talking to me?"
 REBECCA: "You're talking to me, you know. And I like knowing everyone."
-SHIBIN: "That's not an effective use of your time."
-[exit SHIBIN]
+STEPHEN: "That's not an effective use of your time."
+[exit STEPHEN]
 He leaves. I should probably follow him.
 
 I'm in biology now. Half of the reason I chose this class is because I knew Sophie, a junior I met last year, would also be taking it. Most classes I have at least a few people I know and talk to on a regular basis, but there are fewer I talk to outside of the classroom.

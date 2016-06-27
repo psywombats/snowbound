@@ -1,6 +1,6 @@
 [s0042]
 
-As it turns out, Kenneth let Cait get away with a warning. I don't know where Pete vanished off to, but he'd better look out. I sit with Sophie and Max and think about the sunrise that would be occurring right about now if the glass weren't completely obscured. Could it still be snowing out or is there actually something out there? Somewhere along the way, Kenneth and Shibin dispatch a group of students to force open the door by the loading bay. It's a futile effort.
+As it turns out, Kenneth let Cait get away with a warning. I don't know where Pete vanished off to, but he'd better look out. I sit with Sophie and Max and think about the sunrise that would be occurring right about now if the glass weren't completely obscured. Could it still be snowing out or is there actually something out there? Somewhere along the way, Kenneth and Stephen dispatch a group of students to force open the door by the loading bay. It's a futile effort.
 
 [enter SOPHIE E]
 [enter MAX B]
@@ -36,7 +36,7 @@ MAX: "My motivation sort of fades when it's for official business. You two have 
 [exit MAX]
 REBECCA: "Suit yourself."
 
-I check in with Kenneth to receive a phone from Shibin, and we head back into the corridor. It's strange to be in such a familiar yet unfamiliar place. With only our feeble light, the school feels like some alternate dimension. 
+I check in with Kenneth to receive a phone from Stephen, and we head back into the corridor. It's strange to be in such a familiar yet unfamiliar place. With only our feeble light, the school feels like some alternate dimension. 
 
 [enter PETE B]
 [enter REBECCA D]

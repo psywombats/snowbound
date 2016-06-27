@@ -1,21 +1,21 @@
 [s0025]
 
 ERIC: "Do it if you want. I still don't think Felix is going to ambush us or something."
-LARA: "How well do you really know him?"
+LAURA: "How well do you really know him?"
 ERIC: "Not well. I don't know anyone well."
 REBECCA: "And why do I only end up knowing the irrelevant people..."
 CAIT: "For christ's sake, I'm going to shut the door. Bye."
 [exit CAIT]
 REBECCA: "Remind me again how you met up with her?"
-LARA: "She pulled a knife on me and said she'd cut me if we didn't give her food."
+LAURA: "She pulled a knife on me and said she'd cut me if we didn't give her food."
 REBECCA: "Somehow I'm not surprised."
-LARA: "I didn't mind, really."
+LAURA: "I didn't mind, really."
 REBECCA: "Maybe there is something wrong with you... Anyway, what do we do til Max shows up?"
 ERIC: "Well, we can figure out what we're actually going to say to him. Are you going to meet him alone or with us?"
 REBECCA: "No, I'll meet him alone. I don't want to scare him off."
 ERIC: "And you'll tell him about us?"
 REBECCA: "Of course. And I also need to go over Marisa and the rest of what happened. He'll want to hear about Felix as well."
-ERIC: "Okay. In the meantime we'll have to figure out some way to convince Shibin to let us in..."
+ERIC: "Okay. In the meantime we'll have to figure out some way to convince Stephen to let us in..."
 SID: "And figure out what Felix is up to."
 
 We're all hungry at this point, but the five of us hold our vigil in the basement lounge amidst the stripped furniture and scrounged blankets. We use up one candle and switch to the next. There's something relaxing about it. This is half the fencing team, isn't it? It's good to see Cait and Rebecca again, actually. All we can do now is wait for Max and see how it goes from there.

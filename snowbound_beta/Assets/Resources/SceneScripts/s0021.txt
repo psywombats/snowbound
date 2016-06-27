@@ -78,57 +78,57 @@ ERIC: "Are you okay? Sid, turn on the phone."
 Sid rummages in his pockets for his phone and flips it open. We wait the three seconds it takes to turn on in tense silence. I keep my eye on the shadowed figure, but whoever it is remains frozen in place, staring back at me. The phone is on. We each gulp as Sid moves the phone to the figure, but there's still no reaction. Only when the light is two inches from the stone face do the features become visible. 
 [hold]
 
-It's a girl, a freshman. Lara.
+It's a girl, a freshman. Laura.
 
-ERIC: "Lara? Wait, I thought she was in the gym."
+ERIC: "Laura? Wait, I thought she was in the gym."
 SID: "Check her pulse."
-ERIC: "She's breathing. Well, I guess that could be considered breathing. Oh, she's so cold. We have to get her upstairs. Lara?"
+ERIC: "She's breathing. Well, I guess that could be considered breathing. Oh, she's so cold. We have to get her upstairs. Laura?"
 I place both my hands on her shoulders. There's no response, so I don't really have a choice.
 SID: "Do you need help carrying her?"
 ERIC: "No, she's really light, I'll be fine. Shut the phone off. We just need to hurry up to that staff room and warm her up."
 
-Sid grabs a flute lying on the desk and follows me out the door. Lara's body temperature is unnaturally cold, cold enough that I'm stunned that she's still alive. What was she doing in there, anyway? At least the cause of that mystery music is explained. When we come to the staff room, Sid holds open the door and I deposit Lara in the middle of the mass of students and curtains. Felix flicks on the flashlight.
+Sid grabs a flute lying on the desk and follows me out the door. Laura's body temperature is unnaturally cold, cold enough that I'm stunned that she's still alive. What was she doing in there, anyway? At least the cause of that mystery music is explained. When we come to the staff room, Sid holds open the door and I deposit Laura in the middle of the mass of students and curtains. Felix flicks on the flashlight.
 
 [enter FELIX D]
 [enter MARILYN E]
 FELIX: "What? What is this? Who is this?"
 [enter ERIC B]
 [enter SID A]
-ERIC: "A half-dead freshman we all thought was in the gym. Lara Cygnus. Let's start warming her up. Can someone grab one of those water bottles and find some food? The faster the better."
+ERIC: "A half-dead freshman we all thought was in the gym. Laura Cygnus. Let's start warming her up. Can someone grab one of those water bottles and find some food? The faster the better."
 FELIX: "You think she's worth that?"
 ERIC: "I'll be damned if I don't at least try to help her."
 MARILYN: "We'll do whatever we can for her."
 FELIX: "I'll help as well then, if only a favor to you, Marilyn."
 
-We wrap her in one of the curtains and huddle around. Before too long, Lara is moving a bit. It seems like an age, but her eyes finally open.
+We wrap her in one of the curtains and huddle around. Before too long, Laura is moving a bit. It seems like an age, but her eyes finally open.
 
-[enter LARA C]
-LARA: "Am I dead?"
+[enter LAURA C]
+LAURA: "Am I dead?"
 [enter MARILYN D]
 MARILYN: "No. You're alive, thank goodness."
-LARA: "Are you sure?"
+LAURA: "Are you sure?"
 [enter ERIC B]
 ERIC: "Where's that water? Have you had anything to eat or drink since Friday?"
-LARA: "I don't remember."
+LAURA: "I don't remember."
 ERIC: "I'll take that as a no."
 
-It takes another few minutes before Lara is anything close to coherent. Felix has the flashlight off by now and the light from the windows has dwindled to nothing. I hope Lara was the only student to be trapped out in the halls. Any others are probably just as poor off as her by this point, or worse.
+It takes another few minutes before Laura is anything close to coherent. Felix has the flashlight off by now and the light from the windows has dwindled to nothing. I hope Laura was the only student to be trapped out in the halls. Any others are probably just as poor off as her by this point, or worse.
 
 [enter MARILYN B]
-[enter LARA D]
+[enter LAURA D]
 MARILYN: "Are you awake now?"
-LARA: "I guess so."
+LAURA: "I guess so."
 MARILYN: "I'm sorry we don't have any light. Do you know where you are?"
-LARA: "No."
+LAURA: "No."
 MARILYN: "This is the third floor staff lounge."
-LARA: "And who are you?"
+LAURA: "And who are you?"
 MARILYN: "My name's Marilyn Sumner. Eric and Sid found you in one of the biology classrooms and brought you up here. You were freezing to death in one of the chairs."
-LARA: "I remember that. I just needed to sleep a bit, so... It's warm in here, though... I'm tired."
+LAURA: "I remember that. I just needed to sleep a bit, so... It's warm in here, though... I'm tired."
 [enter ERIC E]
 ERIC: "Do we let her sleep?"
-MARILYN: "We can't do much else. Lara, have a bit of water before you sleep. Sid, do you have that bottle?"
-LARA: "Okay. Good night then."
-[exit LARA]
+MARILYN: "We can't do much else. Laura, have a bit of water before you sleep. Sid, do you have that bottle?"
+LAURA: "Okay. Good night then."
+[exit LAURA]
 She trails off. After a few moments, Felix and Henry come over to join us.
 [exit MARILYN]
 [exit ERIC]

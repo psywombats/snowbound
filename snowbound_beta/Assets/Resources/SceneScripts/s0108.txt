@@ -1,18 +1,18 @@
 [s0108]
 
-Back at the gym, I'm predictably left alone when it comes time to relay the information to Shibin.
+Back at the gym, I'm predictably left alone when it comes time to relay the information to Stephen.
 
-[enter SHIBIN D]
+[enter STEPHEN D]
 [enter REBECCA B]
-SHIBIN: "Well, officer, how was the expedition?"
-I'd think he was joking, but I've never known Shibin to joke. Does he think this is some kind of war? I'll play along.
+STEPHEN: "Well, officer, how was the expedition?"
+I'd think he was joking, but I've never known Stephen to joke. Does he think this is some kind of war? I'll play along.
 REBECCA: "Unusual."
-SHIBIN: "Did you liberate the supplies from the kitchen?"
+STEPHEN: "Did you liberate the supplies from the kitchen?"
 REBECCA: "Not yet. We attempted to break through the catwalks door into the auditorium to rendezvous with the other students."
-SHIBIN: "Any success?"
+STEPHEN: "Any success?"
 REBECCA: "There was someone else on the other side of the door that sabotaged our efforts."
 
-As I keep talking to him, I stop noticing the weird terms he's using. Thinking of the situation like a battle is starting to make more sense. In any case, it's better than no perspective at all. By the time I'm done making my report, there's a queue of three other students with business for Shibin. I leave him and go find Max.
+As I keep talking to him, I stop noticing the weird terms he's using. Thinking of the situation like a battle is starting to make more sense. In any case, it's better than no perspective at all. By the time I'm done making my report, there's a queue of three other students with business for Stephen. I leave him and go find Max.
 
 [enter REBECCA B]
 [enter MAX D]
@@ -27,8 +27,8 @@ REBECCA: "That's the one. She said we couldn't come in, and that if she went dow
 MAX: "Welp, she finally snapped. It was only a matter of time."
 REBECCA: "So you think she's just deranged or something?"
 MAX: "As much as Eric would be the first to go hunting for tasty people meat, I don't think it's happened already. So yes, I think Marisa's got a few screws loose. The only question now is what Kenneth wants to do about it."
-REBECCA: "Yeah. Shibin says we should just wait here, and maybe they'll hold some sort of council tonight to discuss what to do. I think it's more likely that Kenneth will just decide something and the rest will follow him."
-MAX: "More like Shibin will decide something, then Kenneth will magically arrive at the same conclusion. If Ken wasn't so thick I'd wonder if Shibin wasn't blackmailing him. Oh, I have a question for you though."
+REBECCA: "Yeah. Stephen says we should just wait here, and maybe they'll hold some sort of council tonight to discuss what to do. I think it's more likely that Kenneth will just decide something and the rest will follow him."
+MAX: "More like Stephen will decide something, then Kenneth will magically arrive at the same conclusion. If Ken wasn't so thick I'd wonder if Stephen wasn't blackmailing him. Oh, I have a question for you though."
 REBECCA: "Hm?"
 [hold]
 

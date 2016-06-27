@@ -2,17 +2,17 @@
 
 Introductory calculus is my next class. This is just like physics for me, both painful to endure and hard to understand. Maximilian managed to take this course when he was only a C-rank. I'm advancing through the math courses at the normal rate for an A-rank, but I do notice a few B-ranks sitting together in the back of the room. They keep to themselves mostly, but there is one younger student who can't contain himself.
 
-[enter SHIBIN C]
-SHIBIN: "Sir, you've made a mistake."
+[enter STEPHEN C]
+STEPHEN: "Sir, you've made a mistake."
 PROFESSOR: "Hm?"
-SHIBIN: "Second line from the bottom. You can't prove that based on your current assumptions. You're missing the part that -"
-PROFESSOR: "Oh. I'll correct that. Thank you, Shibin."
+STEPHEN: "Second line from the bottom. You can't prove that based on your current assumptions. You're missing the part that -"
+PROFESSOR: "Oh. I'll correct that. Thank you, Stephen."
 
-But it's an empty thanks. Even I don't like that kid. He's a C-rank, just as Max was when he was in this class. I hope Maximilian didn't go out of his way to demonstrate his intelligence like this kid is doing. If the professor screws up, you keep it to yourself. If the other students don't notice, that's a good thing. Maybe if the class average is lower you can earn more credit. I guess Shibin there doesn't get that. It doesn't help that the man teaching this class must be going blind the way Shibin finds his errors...
+But it's an empty thanks. Even I don't like that kid. He's a C-rank, just as Max was when he was in this class. I hope Maximilian didn't go out of his way to demonstrate his intelligence like this kid is doing. If the professor screws up, you keep it to yourself. If the other students don't notice, that's a good thing. Maybe if the class average is lower you can earn more credit. I guess Stephen there doesn't get that. It doesn't help that the man teaching this class must be going blind the way Stephen finds his errors...
 
-[enter SHIBIN B]
+[enter STEPHEN B]
 [enter REBECCA D]
-SHIBIN: "What?"
+STEPHEN: "What?"
 Oh. He's talking to me now. Well, I guess I was staring at him, and we sit right next to each other.
 REBECCA: "Nothing."
 

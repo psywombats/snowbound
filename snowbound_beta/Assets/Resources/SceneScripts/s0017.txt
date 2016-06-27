@@ -6,25 +6,25 @@ KENNETH: "Alright, thanks. Can I ask you to stay by the door on the first floor?
 REBECCA: "Okay, I'll stand by the door. Are you alright?"
 KENNETH: "I'm fine, thanks. I'm sorry to impose. Something will turn up."
 
-I head up to the landing. I'm tempted to call up to Cait who I know must be trapped against the fire door upstairs, but I wouldn't know what to say. What's going through her head right now? Is she regretful or just fearing for her own fate? I have no phone, so I don't notice Shibin until he almost crashes into me.
+I head up to the landing. I'm tempted to call up to Cait who I know must be trapped against the fire door upstairs, but I wouldn't know what to say. What's going through her head right now? Is she regretful or just fearing for her own fate? I have no phone, so I don't notice Stephen until he almost crashes into me.
 
-[enter SHIBIN C]
-SHIBIN: "You! Who are you? Who authorized you to be here? What did you do to Kenneth?"
+[enter STEPHEN C]
+STEPHEN: "You! Who are you? Who authorized you to be here? What did you do to Kenneth?"
 [enter REBECCA D]
-REBECCA: "Would you hold on a minute, Shibin? Kenneth is downstairs and I'm not supposed to let anyone else through."
-SHIBIN: "What's going on? Is someone hurt?"
+REBECCA: "Would you hold on a minute, Stephen? Kenneth is downstairs and I'm not supposed to let anyone else through."
+STEPHEN: "What's going on? Is someone hurt?"
 REBECCA: "Peter Sai is bleeding from his shoulder after Caitlyn Baquiran stabbed him."
-SHIBIN: "Where's the culprit? And you still haven't explained what you're doing here? Are you involved? Are you an accomplice? Stay back!"
-[exit SHIBIN]
-[enter SHIBIN B]
+STEPHEN: "Where's the culprit? And you still haven't explained what you're doing here? Are you involved? Are you an accomplice? Stay back!"
+[exit STEPHEN]
+[enter STEPHEN B]
 REBECCA: "Calm down. Cait is one floor up from here, and there's nowhere that she can go. So she's trapped, alright? I'm here because I was helping Pete and then Kenneth ordered me to not let anyone else through."
-SHIBIN: "That's very sensible of him. I'm glad he's keeping his head in a crisis. Please don't let anyone else through."
+STEPHEN: "That's very sensible of him. I'm glad he's keeping his head in a crisis. Please don't let anyone else through."
 
-And he barges down the stairs. Well, I don't really have the power or authority to stop him. I'm glad I hear him descending though instead of heading upstairs to confront Cait; I don't think that would end well for either of them. I hear commotion both in the gym hallway and down below, but all I can do is stay at my post. I wonder if Pete will survive. If Cait managed to hit his neck, his chances aren't good. If I had a watch, I could at least check how much time has passed. But before I've waited more than half an hour, Shibin comes up from behind me.
+And he barges down the stairs. Well, I don't really have the power or authority to stop him. I'm glad I hear him descending though instead of heading upstairs to confront Cait; I don't think that would end well for either of them. I hear commotion both in the gym hallway and down below, but all I can do is stay at my post. I wonder if Pete will survive. If Cait managed to hit his neck, his chances aren't good. If I had a watch, I could at least check how much time has passed. But before I've waited more than half an hour, Stephen comes up from behind me.
 
-[enter SHIBIN D]
+[enter STEPHEN D]
 [enter REBECCA B]
-SHIBIN: "Sophie Morrigan reports that Peter will most likely live. Everything else is questionable. We'll decide what to do with Caitlyn in the morning. Thanks for your help, but at this point, go back to the gym. We don't need you anymore."
+STEPHEN: "Sophie Morrigan reports that Peter will most likely live. Everything else is questionable. We'll decide what to do with Caitlyn in the morning. Thanks for your help, but at this point, go back to the gym. We don't need you anymore."
 REBECCA: "If you insist."
 
 I'm actually a little relieved. This crisis should be behind me now, but I'm sure this isn't over. Why can't someone come and rescue us now? Things don't sound like they're going so good for Pete, and for that matter, they aren't looking so good for Cait either.

@@ -21,37 +21,37 @@ REBECCA: "Who's that?"
 MAX: "Captain and founder and president for life of the robotics team."
 REBECCA: "We have a robotics team? And it has a president or...?"
 MAX: "She's the only member, genius. No idea what she's doing here though."
-I follow Max as he makes his way over to Shibin, Arya, and the rejoicing Pete.
+I follow Max as he makes his way over to Stephen, Arya, and the rejoicing Pete.
 [exit MAX]
 [exit ARYA]
 [exit REBECCA]
 [enter REBECCA E]
 [enter MAX D]
-[enter SHIBIN A]
+[enter STEPHEN A]
 [enter ARYA B]
-SHIBIN: "The south stairwell?"
+STEPHEN: "The south stairwell?"
 ARYA: "I was down in the physics lab the whole time. But when the lights went out I didn't have a clue what was going on."
-[exit SHIBIN]
+[exit STEPHEN]
 [enter PETE E]
 PETE: "See? I wasn't lying."
 [exit PETE]
-[enter SHIBIN E]
+[enter STEPHEN E]
 ARYA: "I think I would've gone insane if this little dude hadn't opened the stairway door when he did. Thanks, man."
-[exit SHIBIN]
+[exit STEPHEN]
 [enter PETE E]
 PETE: "No problem!"
 [exit PETE]
-[enter SHIBIN E]
+[enter STEPHEN E]
 ARYA: "Yeah, I set up a bit of a camp at the basement landing on the south stairs, so when I heard someone open the fire door on the first floor, I ran upstairs and practically knocked this guy over trying to get out."
-SHIBIN: "That's right... So, you ran out on your own again, Pete. What for?"
-[exit SHIBIN]
+STEPHEN: "That's right... So, you ran out on your own again, Pete. What for?"
+[exit STEPHEN]
 [enter PETE E]
 Pete shrugs.
 [exit PETE]
-[enter SHIBIN E]
-SHIBIN: "I'll let it slide. Arya, you come with me. In a little while I'll probably want a full debriefing, but for now, I'll trust you."
+[enter STEPHEN E]
+STEPHEN: "I'll let it slide. Arya, you come with me. In a little while I'll probably want a full debriefing, but for now, I'll trust you."
 [exit ARYA]
-[exit SHIBIN]
+[exit STEPHEN]
 He makes it sound like he's doing her some huge favor.
 MAX: "I'm going to go see Arya."
 REBECCA: "I'm exhausted. Catch you later, then."

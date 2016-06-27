@@ -1,15 +1,15 @@
 [s0183]
 
-ERIC: "I'm leaving, Lara."
-LARA: "Leaving?"
+ERIC: "I'm leaving, Laura."
+LAURA: "Leaving?"
 ERIC: "I'm escaping. It's over for me in here. You're about the only person I can talk to in here who won't try and kill me."
-LARA: "You seem like a good person, Eric. Why are you running away?"
-ERIC: "I'm not a good person, Lara. I'm a person who does what they need to to survive."
-LARA: "Isn't that lucky?"
+LAURA: "You seem like a good person, Eric. Why are you running away?"
+ERIC: "I'm not a good person, Laura. I'm a person who does what they need to to survive."
+LAURA: "Isn't that lucky?"
 ERIC: "And right now it looks like the only option for me is to get out of here as quickly as possible. If anyone asks, you can tell them. I'll be long gone."
-LARA: "If you say."
+LAURA: "If you say."
 She coughs into her arm.
-LARA: "I was looking forward to fencing."
+LAURA: "I was looking forward to fencing."
 
 I can't bring myself to respond. It's such a simple wish, but it's so impossible. Half of our club is dead and another is a murderer. Am I a killer too? I've spent too long here already, it's time to go.
 

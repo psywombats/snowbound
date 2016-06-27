@@ -3,19 +3,19 @@
 
 [switchto REBECCA]
 
-Is it almost midnight already? I'm half asleep as I sit on a chair in the center of the basement lounge. The only other one awake is Eric. Cait and Lara are asleep and Sid is on the second floor, trying random combinations on the lock. I don't think there's any chance of it working, but if it comforts him to keep busy, I won't say anything. The second candle is burning on one of the low tables in the middle of the room. Eric is sitting across from me.
+Is it almost midnight already? I'm half asleep as I sit on a chair in the center of the basement lounge. The only other one awake is Eric. Cait and Laura are asleep and Sid is on the second floor, trying random combinations on the lock. I don't think there's any chance of it working, but if it comforts him to keep busy, I won't say anything. The second candle is burning on one of the low tables in the middle of the room. Eric is sitting across from me.
 
 [enter ERIC D]
 [enter REBECCA B]
 ERIC: "Are you ready to meet Max?"
 REBECCA: "As ready as I'll ever be."
 ERIC: "You have everything down that you need to tell him?"
-REBECCA: "It's more a matter of how much time Max has. If he isn't on guard duty, then that means someone else will be there. And last night when he was guarding, Shibin was at the door and he noticed when we were talking."
+REBECCA: "It's more a matter of how much time Max has. If he isn't on guard duty, then that means someone else will be there. And last night when he was guarding, Stephen was at the door and he noticed when we were talking."
 ERIC: "You could always ask him to come down here, or at least into the landing."
 REBECCA: "I don't think he'd accept."
 ERIC: "Well, you know him best. We're counting on you."
 REBECCA: "Thanks. I should be back in a few minutes with the supplies."
-ERIC: "Oh, one other thing. I didn't want to mention it while Lara was awake, but see if you can have him deliver aspirin or something from the gym first aid kit. It could help her fever."
+ERIC: "Oh, one other thing. I didn't want to mention it while Laura was awake, but see if you can have him deliver aspirin or something from the gym first aid kit. It could help her fever."
 REBECCA: "It's good you're keeping an eye on her."
 ERIC: "It's the least I can do."
 REBECCA: "You're looking after everyone, aren't you?"
@@ -23,9 +23,9 @@ ERIC: "So are you, right?"
 What?
 ERIC: "Maybe not in the same way, but... I was thinking. I really don't have any friends here. Sid's the first person I've ever really talked to in this school about something other than tests and homework. I never took the time."
 He won't make eye contact.
-ERIC: "But you seem to know everyone. Maybe before I thought that was worthless, but when it comes down to it, there's not much else that matters. Maybe if I was friendlier with Felix, or with Shibin, or Max, we wouldn't be down here now."
+ERIC: "But you seem to know everyone. Maybe before I thought that was worthless, but when it comes down to it, there's not much else that matters. Maybe if I was friendlier with Felix, or with Stephen, or Max, we wouldn't be down here now."
 REBECCA: "I thought Max was my friend, and I thought Cait was my friend too. Look where it got me."
-ERIC: "You ended up in the exact place to help the most people. Without the food you're about to get, we'd probably starve. You might even help Lara escape. Who knows, maybe without you Cait would've knifed us on that first night."
+ERIC: "You ended up in the exact place to help the most people. Without the food you're about to get, we'd probably starve. You might even help Laura escape. Who knows, maybe without you Cait would've knifed us on that first night."
 REBECCA: "You give me too much credit, all I did was follow common sense."
 ERIC: "Around here, that's something not a lot of people have."
 REBECCA: "Maybe... Max always said I wasn't getting to know people so much as stalking them or living through them. I've always seen it as a bad thing, really."
@@ -46,9 +46,9 @@ REBECCA: "No, hang on, how much time do you have?"
 MAX: "Time? Can't talk much, the guard's probably tailing me, but I do have enough time to propose something. You can come up here and live in the locker room or the pool instead of down there. It would make my job so much easier."
 REBECCA: "It's not just me down here."
 MAX: "That's right. How's Cait faring?"
-REBECCA: "That's not it. Eric Larsen, Sid Wallace, and Lara Cygnus are all down there, as well as Cait."
+REBECCA: "That's not it. Eric Larsen, Sid Wallace, and Laura Cygnus are all down there, as well as Cait."
 MAX: "They escaped the auditorium? How?"
-REBECCA: "Felix Salazar freed them or something. Lara's sick. We don't know with what, but it could be serious."
+REBECCA: "Felix Salazar freed them or something. Laura's sick. We don't know with what, but it could be serious."
 MAX: "What happened to Marisa Montoire?"
 REBECCA: "Suicide. She hung herself and they cut her down."
 MAX: "Damn, why didn't I think of that? I'm an idiot."
@@ -57,35 +57,35 @@ MAX: "I've got to go. Thanks for the info, maybe I can help. I need time to thin
 STUDENT1: "Max, are you talking to someone?"
 REBECCA: "Bye Max, thanks for everything."
 
-And with that, the door to freedom closes once again. I'm left with Max's backpack and whatever it might contain. It's no use checking it up here in the dark, so I throw it over my back and find my way back to the student lounge. The candlelight is visible from a crack in the door. When I step inside, Lara is awake and Eric is talking with her. Cait is just as unconscious as when I left.
+And with that, the door to freedom closes once again. I'm left with Max's backpack and whatever it might contain. It's no use checking it up here in the dark, so I throw it over my back and find my way back to the student lounge. The candlelight is visible from a crack in the door. When I step inside, Laura is awake and Eric is talking with her. Cait is just as unconscious as when I left.
 
 [enter REBECCA A]
-[enter LARA D]
+[enter LAURA D]
 [enter ERIC E]
-LARA: "Hello, Rebecca. Where'd the backpack come from?"
+LAURA: "Hello, Rebecca. Where'd the backpack come from?"
 REBECCA: "I just got back from the meeting with Max. He didn't have much time, but I think he's on our side. He knows we didn't kill off Marisa, anyway."
 ERIC: "Good. Let's see what he gave us."
 
 We all gather next to the table to examine the contents of the backpack. I don't know how Max managed to find this stuff, but it's very welcome. There are four cans of peaches from the expedition supplies, two water bottles, and... a deck of playing cards?
 
-[enter LARA B]
+[enter LAURA B]
 [enter REBECCA D]
 [enter ERIC E]
-LARA: "That was nice of him. I'm starving."
+LAURA: "That was nice of him. I'm starving."
 REBECCA: "If you're hungry, go ahead."
-Lara takes a can.
+Laura takes a can.
 ERIC: "Hm. Four cans for five people isn't exactly ideal."
 REBECCA: "Hey, it's better than nothing. He thought I was the only one down here, or maybe just me and Cait. I don't even want to think what would happen if Max were caught stealing these."
-ERIC: "He could've talked Shibin into it."
+ERIC: "He could've talked Stephen into it."
 REBECCA: "More likely he convinced Kenneth, but I bet he stole them. This is Max we're talking about after all. Oh, one other thing: He wanted me to come aboveground and move to either the pool or one of the locker rooms so we could communicate easier. Not to mention there wouldn't be a fire door in the way if we needed to move."
 ERIC: "That would be good for one person, but can we really do that for all five of us? It would be hard to go unnoticed or hide if someone entered."
 REBECCA: "That's why I said no for the time being."
-LARA: "And then Felix would be able to come down here without our knowing about it."
+LAURA: "And then Felix would be able to come down here without our knowing about it."
 ERIC: "That's right. I forgot we can't write Felix out of the equation yet. I'd be fine with letting him be, but the lock on the first floor fire door is unsettling."
-LARA: "I'm going back to sleep. See you all tomorrow."
+LAURA: "I'm going back to sleep. See you all tomorrow."
 REBECCA: "Are you feeling any better? I told Max you were sick, so I'm sure he'll have items from the first aid kit when he comes tomorrow."
-LARA: "I'll probably be fine. I'm only sleepy."
-[exit LARA]
+LAURA: "I'll probably be fine. I'm only sleepy."
+[exit LAURA]
 ERIC: "Then Max is definitely coming again tomorrow?"
 REBECCA: "He said he'll drop off a note at some point, so I don't really know."
 The door to the math hallway opens and shuts as Sid crosses the room to join us.

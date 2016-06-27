@@ -9,7 +9,7 @@ SID: "I could, but I'm not sure if you could. And if you're not there to spot me
 ERIC: "Maybe we can think up some other way..."
 SID: "Henry would be the best one for that job. Maybe we should've talked to him before setting out like this."
 ERIC: "Well, maybe we'll just put off returning to the entrance hall for now."
-LARA: "Have you made up your mind on where to go yet?"
+LAURA: "Have you made up your mind on where to go yet?"
 SID: "Uh, well, it's your call Eric, I guess, but I'd prefer not going down the auditorium wall just yet."
 
 [goto s0023]

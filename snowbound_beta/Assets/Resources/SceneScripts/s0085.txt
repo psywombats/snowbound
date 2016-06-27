@@ -2,7 +2,7 @@
 
 REBECCA: "We'll go."
 ERIC: "You're sure? I don't mean to rush you."
-REBECCA: "I'm sure. Cait locked me in a stairwell, Max gave me up to Shibin, and Sophie watched it all happen. It's time we took action on our own."
+REBECCA: "I'm sure. Cait locked me in a stairwell, Max gave me up to Stephen, and Sophie watched it all happen. It's time we took action on our own."
 ERIC: "That's kind of touching... Thanks. But it was a mutual effort. Don't think for a moment I would've lasted through this without you."
 He pauses.
 ERIC: "What do we do now? I don't want to rush Pete. His arm is hurting."
@@ -25,7 +25,7 @@ MAX: "Well, you should get back before too long. We wouldn't want to hold the hi
 [exit MAX]
 REBECCA: "Okay, that time it was definitely intentional."
 
-We follow Max at a distance back into the gymnasium. Although the council isn't scheduled to begin for another hour or two, Felix and Shibin are still going at it. I guess Max must've just taken a break from the debate, as he jumps right back in as soon as we arrive. In a way, it's a little depressing. I'm glad to see Kenneth running back and forth between them in an attempt to mediate, but it doesn't look like he's having any luck. Poor Kenneth. In the meantime, the rest of the students are milling around and looking for some sort of direction. Even Henry and Arya look out of sorts. Eric and I settle in corner to sort out our own plans.
+We follow Max at a distance back into the gymnasium. Although the council isn't scheduled to begin for another hour or two, Felix and Stephen are still going at it. I guess Max must've just taken a break from the debate, as he jumps right back in as soon as we arrive. In a way, it's a little depressing. I'm glad to see Kenneth running back and forth between them in an attempt to mediate, but it doesn't look like he's having any luck. Poor Kenneth. In the meantime, the rest of the students are milling around and looking for some sort of direction. Even Henry and Arya look out of sorts. Eric and I settle in corner to sort out our own plans.
 
 [enter REBECCA B]
 [enter ERIC D]
@@ -38,7 +38,7 @@ ERIC: "You really think that?"
 REBECCA: "Look at them."
 [hold]
 
-Henry and Arya have found their way back to Max, Felix, and Shibin at this point. From the little I can hear, it seems Max is trying to order them to do one thing while Felix is saying something completely contrary.
+Henry and Arya have found their way back to Max, Felix, and Stephen at this point. From the little I can hear, it seems Max is trying to order them to do one thing while Felix is saying something completely contrary.
 
 ERIC: "Is it even worth stepping in?"
 REBECCA: "I don't even know any more..."
@@ -55,21 +55,21 @@ My first order of business is to find Sophie. I ignore the mass of students wand
 
 [enter REBECCA B]
 [enter SOPHIE D]
-[enter LARA E]
+[enter LAURA E]
 SOPHIE: "Hello, Rebecca. We were wondering if we might see you."
-LARA: "Hi."
-REBECCA: "Sophie, Lara... Hello. I'm not quite sure where to begin, but I'm here to say goodbye."
-LARA: "See, Sophie? I knew it."
-SOPHIE: "You're clever, Lara, you know that? You should lie back down though. I don't want you to exert yourself too much."
-LARA: "Is Eric going with you?"
+LAURA: "Hi."
+REBECCA: "Sophie, Laura... Hello. I'm not quite sure where to begin, but I'm here to say goodbye."
+LAURA: "See, Sophie? I knew it."
+SOPHIE: "You're clever, Laura, you know that? You should lie back down though. I don't want you to exert yourself too much."
+LAURA: "Is Eric going with you?"
 REBECCA: "I guess you've got it all figured out... Eric and I will be gone by the morning. We've decided we're leaving on our own. Max and Felix and Arya and Henry can argue all they want, but we've decided to take action."
 SOPHIE: "I never thought I'd be hearing you say that, Rebecca. Maybe Max or someone, but Rebecca?"
-REBECCA: "I'm my own person, Sophie. I'm glad you've found something useful to do, but I think I've served my purpose here, and I wish you and Lara the best of luck. Maybe you'll leave together as well."
-SOPHIE: "I'm not you. And don't forget that Lara's ill. It's my job to look after her now."
-LARA: "Thanks."
-REBECCA: "Farewell, Lara. Good luck, Sophie. I won't forget you."
+REBECCA: "I'm my own person, Sophie. I'm glad you've found something useful to do, but I think I've served my purpose here, and I wish you and Laura the best of luck. Maybe you'll leave together as well."
+SOPHIE: "I'm not you. And don't forget that Laura's ill. It's my job to look after her now."
+LAURA: "Thanks."
+REBECCA: "Farewell, Laura. Good luck, Sophie. I won't forget you."
 
-When I leave, I can't help but regret my choice. I have only fond regards for Sophie and Lara, but when I hear their gentle chatter, something in me yearns for that peace that comes with passiveness. But I shut the door behind me and head back to the gym. I've been through a lot these past few weeks, but this will be one of the hardest tasks yet.
+When I leave, I can't help but regret my choice. I have only fond regards for Sophie and Laura, but when I hear their gentle chatter, something in me yearns for that peace that comes with passiveness. But I shut the door behind me and head back to the gym. I've been through a lot these past few weeks, but this will be one of the hardest tasks yet.
 
 [enter REBECCA D]
 [enter MAX B]

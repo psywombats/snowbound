@@ -39,14 +39,14 @@ MAX: "I love discipline."
 CAIT: "Alright, that's just wrong. Shut up."
 MAX: "I shall."
 [exit CAIT]
-Cait starts to walk back towards Shibin and Kenneth.
+Cait starts to walk back towards Stephen and Kenneth.
 MAX: "Please continue to enforce discipline on the other students for me, dear Caitlyn!"
 She looks like she's about to change her mind about hurting Max, but I hear a ruckus by the door and then movement by my feet.
 PETE: "Hi hi, I need a sleeping bag, and also the door guard wants a break. Hey, is there anything to drink?"
 CAIT: "Would you be quiet? What is with you people? This is impossible."
 Max's laughter doesn't help the situation.
 
-Between Pete's antics and Shibin's resolve, Pete ends up without a sleeping bag for tonight. He certainly looks cold. He's scrawny, even for a freshman.
+Between Pete's antics and Stephen's resolve, Pete ends up without a sleeping bag for tonight. He certainly looks cold. He's scrawny, even for a freshman.
 
 [enter SOPHIE B]
 [enter PETE D]

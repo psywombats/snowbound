@@ -154,22 +154,22 @@ Well isn't that a surprise. She's a B-year I know from my English class. There a
 
 Sid beats Eric back to the lounge. He takes his seat at the table, but then another person follows him in. It's another D-year I've never seen before.
 
-[enter LARA B]
-LARA: "Sorry I'm late. I hope I didn't miss anything too important?"
+[enter LAURA B]
+LAURA: "Sorry I'm late. I hope I didn't miss anything too important?"
 She's standing in front of the table, trying to figure out who the captain is.
 [enter MAX D]
 MAX: "Not much. My name is Yon Yonson, and I'm the captain of this here cow-tipping team. Nice to meet you."
-LARA: "Sorry, I must have the wrong - I mean, wait, what?"
+LAURA: "Sorry, I must have the wrong - I mean, wait, what?"
 [enter REBECCA A]
 REBECCA: "If you're looking for archery, this is the right place."
 [enter CAIT E]
 CAIT: "That's a big if."
 REBECCA: "We're just waiting for the captain to get back. Unfortunately, you'll have to tolerate Max though. I have trouble myself sometimes."
 MAX: "My name is Maximilian Wolf, and I'm a member of this here archery team. Nice to meet you."
-LARA: "Right. I'm Lara Cygnus. And trust me, I won't forget you."
+LAURA: "Right. I'm Laura Cygnus. And trust me, I won't forget you."
 CAIT: "And I just got here, but I'm Caitlyn Baquiran."
 
-The newcomer kept her composure better than I would've thought at first glance. And that smile would stop anyone cold. Max only raises an eyebrow and returns to his seat. Sid and Lara sit down, and Eric comes back in with a standard wooden bow and a few strings.
+The newcomer kept her composure better than I would've thought at first glance. And that smile would stop anyone cold. Max only raises an eyebrow and returns to his seat. Sid and Laura sit down, and Eric comes back in with a standard wooden bow and a few strings.
 
 We start in earnest this time. Eric explains that we'll be keeping the original practice schedule settled by Emmanuel and only attend the New England qualifier tournament in May. That's a relief. Max will probably stay now. May is too late for the graduating senior, Eric, to earn any credit from potential success at the tournament. We wrap up with instructions for the first practice, scheduled for tomorrow.
 
@@ -183,9 +183,9 @@ ERIC: "Bye?"
 [enter MAX B]
 MAX: "And I'll see you tomorrow, Rebecca. I have that paper to work on so I'll be headed down to the math offices now."
 [exit MAX]
-[enter LARA B]
-LARA: "Nice to meet you, everyone. And take care you don't trip on your way down the stairs."
-[exit LARA]
+[enter LAURA B]
+LAURA: "Nice to meet you, everyone. And take care you don't trip on your way down the stairs."
+[exit LAURA]
 She smiles and follows Max and Pete out the door. It's just me and Eric now.
 
 [enter ERIC B]

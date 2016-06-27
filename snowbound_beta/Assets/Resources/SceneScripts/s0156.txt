@@ -24,6 +24,6 @@ ERIC: "Yep. I don't know about you, but I'm hungry."
 CAIT: "Did you say you've got food?"
 ERIC: Four cans of pears. What do you say we open one or two of them tonight?"
 
-Of course no one objects. By the light of a candle, we enjoy the canned fruit. Any other day I probably would've thought the pears disgusting, but tonight it's almost a gourmet meal. We're all in good spirits on the news that Lara is safe and we can eat for a few more days, and even Cait seems to be back to normalcy. As we've already lit the candle, we stay up a little longer and talk about anything but the snow.
+Of course no one objects. By the light of a candle, we enjoy the canned fruit. Any other day I probably would've thought the pears disgusting, but tonight it's almost a gourmet meal. We're all in good spirits on the news that Laura is safe and we can eat for a few more days, and even Cait seems to be back to normalcy. As we've already lit the candle, we stay up a little longer and talk about anything but the snow.
 
 [goto s0159]

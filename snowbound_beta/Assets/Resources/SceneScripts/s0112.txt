@@ -2,7 +2,7 @@
 [decrement CAITLYN]
 
 REBECCA: "Sorry, Cait, I'm exhausted. Find someone else."
-CAIT: "You're a lousy hypocrite, Rebecca, you know that? You'll go traipsing around with Max or Shibin or Pete or any of those worthless kids but not with me, huh?"
+CAIT: "You're a lousy hypocrite, Rebecca, you know that? You'll go traipsing around with Max or Stephen or Pete or any of those worthless kids but not with me, huh?"
 REBECCA: "Not exactly, I mean - "
 CAIT: "Fine. I will find someone else, Rebecca. I thought you were on my side."
 [exit CAIT]
@@ -14,6 +14,6 @@ SOPHIE: "Even for a friend?"
 REBECCA: "I don't want to open that can of worms, Sophie. It wasn't worth it; that's all you need to know."
 SOPHIE: "You're probably right."
 
-Sophie quiets up again, and Max is nowhere in sight. I'd rather not deal with Cait, Pete or Shibin at the moment, and that leaves me with very little to do. In some sense, maybe that's a good thing. I'll catch a nap before the evening meal.
+Sophie quiets up again, and Max is nowhere in sight. I'd rather not deal with Cait, Pete or Stephen at the moment, and that leaves me with very little to do. In some sense, maybe that's a good thing. I'll catch a nap before the evening meal.
 
 [goto s0043]

@@ -6,20 +6,20 @@ Not a backwards glance...
 Without Max, I pace around the perimeter of the track. I only realize on my second lap who I'm looking for. Did Pete slip out while no one was looking? By the fifth lap, I've convinced myself that that's the only possibility. Maybe he's helping Max guard. For some reason my brain doesn't want to think too deeply about it; I'm too busy just keeping track of everyone. I keep cycling through all my acquaintances in my head and marking their location. Gym, home, home, gym, auditorium, pool... By the tenth lap, I'm done. I gravitate towards the only person in the room I vaguely know.
 
 [enter KENNETH A]
-[enter SHIBIN B]
+[enter STEPHEN B]
 [enter REBECCA D]
-SHIBIN: "Oh, it's you. Care to help?"
-Shibin is sorting through the pile of confiscated goods. The phones and laptops are in neat little stacks organized by who knows what.
+STEPHEN: "Oh, it's you. Care to help?"
+Stephen is sorting through the pile of confiscated goods. The phones and laptops are in neat little stacks organized by who knows what.
 REBECCA: "I'll pass, thanks. What're you even doing?"
-SHIBIN: "I'm calculating the total battery life we have among all the machines. It'd be good to know."
+STEPHEN: "I'm calculating the total battery life we have among all the machines. It'd be good to know."
 REBECCA: "And I thought I was overthinking this..."
-KENNETH: "Shibin knows what he's doing."
-SHIBIN: "I do."
+KENNETH: "Stephen knows what he's doing."
+STEPHEN: "I do."
 I wouldn't disagree.
 REBECCA: "Do you think we won't be rescued for a day or two, then? If the rescue workers make it inside in the next few hours, all this rationing doesn't make much sense."
-SHIBIN: "Who knows when they'll come? I just do what's sensible."
+STEPHEN: "Who knows when they'll come? I just do what's sensible."
 KENNETH: "But they'll come soon, right? That's what I keep telling everyone."
-SHIBIN: "Just keep on doing what you're doing, Ken. You've been doing a good job so far.
+STEPHEN: "Just keep on doing what you're doing, Ken. You've been doing a good job so far.
 KENNETH: "Thanks."
 
 I turn to go back to my laps on the track, but there's some commotion by the door.
@@ -39,7 +39,7 @@ PETE: "I know, right?"
 REBECCA: "I'm sure the swim team is happy with you."
 PETE: "I'm like a hero, aren't I?"
 I notice Max has one of his eyebrows up. No, Max wouldn't care much for this.
-MAX: "Well, hero, why don't you go talk to Kenneth and Shibin. I'm sure they'll want to congratulate you, or even put your talents to use elsewhere."
+MAX: "Well, hero, why don't you go talk to Kenneth and Stephen. I'm sure they'll want to congratulate you, or even put your talents to use elsewhere."
 PETE: "Good idea!"
 [exit PETE]
 [exit MAX]
@@ -58,7 +58,7 @@ SOPHIE: "Hi, Rebecca."
 [animate]
 [hold]
 
-She comes over from the line of students queued up by Shibin to get their supplies from the food and equipment stash. I notice Max slipping away . That's not a huge loss though; I'd rather not hear Max complain about Sophie tonight.
+She comes over from the line of students queued up by Stephen to get their supplies from the food and equipment stash. I notice Max slipping away . That's not a huge loss though; I'd rather not hear Max complain about Sophie tonight.
 
 REBECCA: "How've you been? Was it safe in there?"
 SOPHIE: "Oh, I'm fine. We were a little worried about someone falling into the pool, but no, we were fine."

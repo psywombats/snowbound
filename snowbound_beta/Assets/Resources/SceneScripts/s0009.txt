@@ -1,10 +1,10 @@
 [s0009]
 
 REBECCA: "Fine. Maybe I'll do it. What would it involve?"
-SHIBIN: "You're head of scouting. At this time, that would mean going back to those rooms you visited and gathering anything interesting, in addition to clearing the south stairs and breaking into the kitchen."
+STEPHEN: "You're head of scouting. At this time, that would mean going back to those rooms you visited and gathering anything interesting, in addition to clearing the south stairs and breaking into the kitchen."
 REBECCA: "If it helps, I'll do it."
-SHIBIN: "Excellent. I'll let Kenneth know and then come to you when there's something to be done."
-[exit SHIBIN]
+STEPHEN: "Excellent. I'll let Kenneth know and then come to you when there's something to be done."
+[exit STEPHEN]
 [exit MAX]
 [enter MAX B]
 MAX: "I'm rather surprised, I must say. You're actually following through on a personal opinion."

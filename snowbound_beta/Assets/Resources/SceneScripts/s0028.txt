@@ -26,8 +26,8 @@ ERIC: "We'll have to find out. Probably those other allies he was talking about.
 REBECCA: "We're just as lost as when he came in then."
 ERIC: "Maybe it's safer to wait the whole thing out here."
 REBECCA: "But Max is out there, and so are Sophie and Sid and Pete. If whatever Felix is planning goes through, then they're all in serious trouble."
-ERIC: "Do you think it would be worth it to warn Shibin and Kenneth?"
-REBECCA: "Why would they listen to us? Shibin would think we were lying, but Kenneth... I don't know. Max said he's at his limit."
+ERIC: "Do you think it would be worth it to warn Stephen and Kenneth?"
+REBECCA: "Why would they listen to us? Stephen would think we were lying, but Kenneth... I don't know. Max said he's at his limit."
 ERIC: "Maybe we can convince him then."
 REBECCA: "We're not going to be seeing anyone for a long time. We're trapped, remember?"
 
