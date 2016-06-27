@@ -26,8 +26,9 @@ I stop at the door to the hall.
 ERIC: "On second thought, I'll be down in a few minutes. I want to see if Sid's still stuck in jazz. If he's free, we won't have to redo the intro next week."
 LARA: "Okay. Should I wait here?"
 ERIC: "You can just go to the gym, you know. Max and Rebecca should be there."
-LARA: "Right... Bye."
-
-As I walk down the main hall, I keep glancing over my shoulder at the window at the end of the hallway. There's something not quite right. In the winter, the darkness through the windows only serve to remind us of the neverending night, but this afternoon the black is tinted with gray snow. I can't tell if there's a storm outside or if the wind is just picking up what's already on the ground.
+LARA: "No, I'll come with you. I'm sort of looking around for groups, and maybe jazz is for me."
+ERIC: "So you can't decide if you want to be a jazz musician or a fencer..."
+LARA: "If your friend can do both, why can't I?"
+ERIC: "Fine,come if you want."
 
 [goto s0204]

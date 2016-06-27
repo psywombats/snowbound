@@ -3,6 +3,8 @@
 [date]
 December 11th, Day 1
 
+[switchto REBECCA]
+
 '...and 9 to 17 inches of snow expected overnight in the Valdez area, and whiteout warnings reported for Cordova, Anchorage and the entire south-central region. Stay tuned for more weather alerts from KEC43...'
 
 [enter REBECCA B]

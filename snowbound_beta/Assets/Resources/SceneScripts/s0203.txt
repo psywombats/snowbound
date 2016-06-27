@@ -47,7 +47,5 @@ LARA: "No, I'll come with you. I'm sort of looking around for groups, and maybe 
 ERIC: "So you can't decide if you want to be a jazz musician or a fencer..."
 LARA: "If your friend can do both, why can't I?"
 ERIC: "Fine, you can come if you want."
-LARA: "I'll be along."
-But she doesn't follow.
 
 [goto s0204]

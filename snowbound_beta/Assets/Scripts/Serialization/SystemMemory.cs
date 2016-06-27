@@ -8,6 +8,7 @@ public class SystemMemory {
     public List<int> maxSeenCommandsValues;
     public SettingsMemory settings;
     public int totalPlaySeconds;
+    public int lastSlotSaved;
 
     public SystemMemory() {
         maxSeenCommandsKeys = new List<string>();

@@ -2,7 +2,7 @@
 
 REBECCA: "Max, I'm exhausted. I don't know how many times I've gone running around today, and I don't particularly feel like doing it any more. If there are some shenanigans you've got to pull, go do it yourself."
 MAX: "Maybe I will, maybe I won't."
-REBECCA: "Haha, that's not like you. Are you just going to stay behind now that you can't convince me to come with you?"
+REBECCA: "Wow, getting sulky, huh? That's not like you. Are you just going to stay behind now that you can't convince me to come with you?"
 MAX: "I'm not saying that because I'm not going, I'm trying to trick you into changing your mind."
 REBECCA: "Well it won't work. Don't wake up when you come back."
 

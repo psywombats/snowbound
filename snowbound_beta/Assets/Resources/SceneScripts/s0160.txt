@@ -6,7 +6,8 @@ CAIT: "You realize the only reason he would to get in touch with us is to declar
 ERIC: "I'd rather not worry about Felix and the rest for one night. We'll come up with some plan tomorrow once we hear from Max."
 CAIT: "Fine. You're the boss, after all."
 ERIC: "The boss?"
-SID: "Haha, it's a fitting title, Eric."
+SID: "Hmmm, it's a fitting title, Eric."
+Sid smirks at me.
 ERIC: "Thanks, I guess."
 CAIT: "Well then, what else is there to do tonight?"
 REBECCA: "Relaxing isn't good enough?"

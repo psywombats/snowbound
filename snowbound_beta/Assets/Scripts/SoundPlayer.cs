@@ -14,7 +14,7 @@ public class SoundPlayer : MonoBehaviour {
     }
 
     public void Update() {
-        //source.volume = GetMaxVolume();
+        source.volume = GetMaxVolume();
     }
 
     public void PlaySound(string soundTag) {

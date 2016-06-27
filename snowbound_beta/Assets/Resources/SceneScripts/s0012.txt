@@ -43,4 +43,4 @@ I can't see her face in the dark, but it's clear that she's serious.
 [choice]
 [You used me. :: s0013]
 [I thought it was real. :: s0044]
-[You could stand to lose a few pounds :: s0045]
+[You have no morals :: s0045]

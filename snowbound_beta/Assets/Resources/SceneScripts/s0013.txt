@@ -6,4 +6,4 @@ MARISA: "True, I guess..."
 [choice]
 [And now I'll never reach my goal. :: s0014]
 [And I thought it was real. :: s0115]
-[And you could stand to lose a few pounds :: s0045]
+[And you're a terrible person :: s0045]

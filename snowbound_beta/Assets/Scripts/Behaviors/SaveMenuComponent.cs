@@ -38,6 +38,7 @@ public class SaveMenuComponent : MenuComponent {
             Memory memory = Global.Instance().memory.ToMemory();
             Global.Instance().memory.WriteJsonToFile(memory, FilePathForSlot(slot));
             Global.Instance().memory.SaveSystemMemory();
+            Global.Instance().memory.SystemMemory.lastSlotSaved = slot;
             RefreshData();
             StartCoroutine(ResumeRoutine());
         }
