@@ -1,9 +1,9 @@
 [s0197]
 
+[switchto REBECCA]
+
 [date]
 December 11th, Day 1
-
-[switchto REBECCA]
 
 '...and 9 to 17 inches of snow expected overnight in the Valdez area, and whiteout warnings reported for Cordova, Anchorage and the entire south-central region. Stay tuned for more weather alerts from KEC43...'
 
@@ -29,7 +29,7 @@ Another drawback: Everyone else here might as well be a genius compared to me. E
 [enter SOPHIE D]
 REBECCA: "Great... we probably won't be able to get back to town over the weekend, let alone after classes today."
 SOPHIE: "Hm... Are you still a part of that fencing team?"
-That's out of the blue. But I know Sophie. Her thought process works in strange ways.
+That's out of the blue. But I know Sophie. She's got something in mind.
 REBECCA: "Nope, that team's long gone. The captain graduated last year."
 SOPHIE: "Well if it still existed, the first meeting would be today. And that meeting would be canceled."
 REBECCA: "Probably."

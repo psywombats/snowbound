@@ -53,8 +53,8 @@ public class TextboxComponent : MonoBehaviour {
         textbox.text = "";
     }
 
-    public void FadeAdvancePrompt(bool fadeIn) {
-        advancePrompt.CrossFadeAlpha(fadeIn? 1.0f : 0.0f, AdvancePromptFadeOutSeconds, false);
+    public void FadeAdvancePrompt(bool fadeIn, float seconds = AdvancePromptFadeOutSeconds) {
+        advancePrompt.CrossFadeAlpha(fadeIn? 1.0f : 0.0f, seconds, false);
     }
 
     public IEnumerator ShowText(ScenePlayer player, string text) {
@@ -94,7 +94,7 @@ public class TextboxComponent : MonoBehaviour {
         if (!gameObject.activeInHierarchy) {
             yield break;
         }
-        advancePrompt.CrossFadeAlpha(1.0f, durationSeconds, false);
+        FadeAdvancePrompt(true, durationSeconds);
         List<IEnumerator> toRun = new List<IEnumerator>();
         if (speaker != null) toRun.Add(speaker.FadeInRoutine(durationSeconds));
         if (backer != null) toRun.Add(backer.FadeInRoutine(durationSeconds));
@@ -107,7 +107,7 @@ public class TextboxComponent : MonoBehaviour {
             yield break;
         }
         paused = true;
-        advancePrompt.CrossFadeAlpha(0.0f, durationSeconds, false);
+        FadeAdvancePrompt(false, durationSeconds);
         List<IEnumerator> toRun = new List<IEnumerator>();
         if (speaker != null) toRun.Add(speaker.FadeOutRoutine(durationSeconds));
         if (backer != null) toRun.Add(backer.FadeOutRoutine(durationSeconds));
@@ -133,6 +133,8 @@ public class TextboxComponent : MonoBehaviour {
         if (!gameObject.activeInHierarchy) {
             yield break;
         }
+
+        FadeAdvancePrompt(false);
         List<IEnumerator> toRun = new List<IEnumerator>();
         if (speaker != null) toRun.Add(speaker.Deactivate(player));
         if (backer != null) toRun.Add(backer.Deactivate(player));

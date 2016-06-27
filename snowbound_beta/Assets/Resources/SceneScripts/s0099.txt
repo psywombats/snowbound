@@ -14,7 +14,7 @@ ERIC: "He'd never fall for it. I'm just an idiot."
 SID: "I'm disappointed though."
 ERIC: "I'm disappointed in myself as well. One mistake, and five years of effort go down the drain."
 SID: "No, that's not why I'm disappointed. I thought you'd changed."
-ERIC: "I have changed. You said it yourself. I'm captain of the archery team, not the debate team. I'm taking Modern Poetry, not Computational Biology. I've given up."
+ERIC: "I have changed. You said it yourself. I'm captain of the fencing team, not the debate team. I'm taking Modern Poetry, not Computational Biology. I've given up."
 SID: "You only gave up because you were defeated."
 That scene of Felix shaking my hand earlier this afternoon comes to mind.
 SID: "I thought you were the one who realized how stupid this whole system is and threw it all away. I guess I thought I saw a second Emmanuel in you. That's all."

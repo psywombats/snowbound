@@ -31,7 +31,7 @@ ERIC: "Probably."
 FELIX: "Well, you know the general outline already. We either need to put enough pressure on the students in the gym that they surrender their supplies, or else we take the supplies by force. We're going to - "
 [enter PETE A]
 PETE: "Hey Eric. How long have you been up here?"
-ERIC: "Is that... You're the kid who wanted to join the archery team, aren't you?"
+ERIC: "Is that... Oh right, you're that kid was going to join fencing."
 PETE: "Yep."
 FELIX: "I see you two already know each other. Pete plays an important role. If we hadn't recruited him, the current operation wouldn't be feasible."
 PETE: "I'm the lock picker."

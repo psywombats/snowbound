@@ -17,4 +17,12 @@ public abstract class GenericIndex<T> : ScriptableObject where T : GenericDataOb
     public T GetData(string tag) {
         return tagToDataObject[tag.ToLower()];
     }
+
+    public T GetDataOrNull(string tag) {
+        if (tagToDataObject.ContainsKey(tag.ToLower())) {
+            return GetData(tag);
+        } else {
+            return null;
+        }
+    }
 }

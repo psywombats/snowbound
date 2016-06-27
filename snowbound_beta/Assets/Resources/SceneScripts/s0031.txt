@@ -71,6 +71,6 @@ SID: "Not too great, but I'll live. The water cooler might still be down here, a
 ERIC: "I'll take your word for it. I should head back up to the staff lounge before someone realizes I'm gone. See you later."
 SID: "Good luck, Eric. And stay careful."
 
-I leave Sid behind. I wonder if Max really would reject Sid on the basis that he was Felix's spy? Then again, would he have done to same to me if I hadn't had Rebecca with me? Maximilian and I were both on the archery team last year, so it's strange that I still have no good understanding of him. For now, my job is with Felix; I'll leave Max to Rebecca. That's right... We meet tomorrow night. I'm sure something will turn up before then.
+I leave Sid behind. I wonder if Max really would reject Sid on the basis that he was Felix's spy? Then again, would he have done to same to me if I hadn't had Rebecca with me? Maximilian and I were both on the fencing team last year, so it's strange that I still have no good understanding of him. For now, my job is with Felix; I'll leave Max to Rebecca. That's right... We meet tomorrow night. I'm sure something will turn up before then.
 
 [goto s0065]

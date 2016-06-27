@@ -62,7 +62,7 @@ We step back out the door and into the English hallway. Someone pops out just as
 PETE: "Hey Eric. Long time no see."
 [exit PETE]
 [enter PETE C]
-ERIC: "You're Pete Sai, right? The D-rank who was going to join the archery team?"
+ERIC: "You're Pete Sai, right? That freshman who was looking to join fencing?"
 PETE: "Not bad. Hey, you must have a pretty good memory."
 HENRY: "Kid, go back inside if Eric wants to talk alone."
 ERIC: "It's okay. I know him, sort of."

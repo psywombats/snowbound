@@ -96,6 +96,7 @@ I stop when Max starts glaring at me.
 [exit LARA]
 [enter PETE A]
 PETE: "Hey, we should go down to the gym and check out the snow."
+[hold]
 
 Here we are: my first choice as incompetent captain of the fencing club. Maybe I should stop thinking about how to run this team and step back a moment. I don't know how to control these people or even if I should be controlling them.
 [hold]

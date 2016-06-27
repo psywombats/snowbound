@@ -17,13 +17,26 @@ public class SpeakerComponent : MonoBehaviour {
     }
 
     public void SetChara(CharaData chara) {
+        if (chara == this.chara && chara != null) {
+            return;
+        }
+
         this.chara = chara;
+
         back.GetComponent<FadingUIComponent>().SetAlpha(0.0f);
-        front.GetComponent<FadingUIComponent>().SetAlpha(1.0f);
+        if (chara != null) {
+            front.GetComponent<FadingUIComponent>().SetAlpha(1.0f);
+        } else {
+            front.GetComponent<FadingUIComponent>().SetAlpha(0.0f);
+        }
         front.SetChara(chara);
     }
 
     public void TransitionToChara(CharaData chara) {
+        if (chara == this.chara) {
+            return;
+        }
+
         this.chara = chara;
         
         if (chara != null) {

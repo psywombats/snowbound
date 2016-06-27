@@ -29,7 +29,7 @@ public class SceneScript {
         commandIndex = 0;
     }
 
-    public SceneScript(ScreenMemory memory) : this(null, AssetForSceneName(memory.sceneName)) {
+    public SceneScript(ScenePlayer player, ScreenMemory memory) : this(player, AssetForSceneName(memory.sceneName)) {
         commandIndex = memory.commandNumber;
     }
 

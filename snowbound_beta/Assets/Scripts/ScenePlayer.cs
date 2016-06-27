@@ -170,7 +170,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         if (playingRoutine != null) {
             StopCoroutine(playingRoutine);
         }
-        currentScript = new SceneScript(memory);
+        currentScript = new SceneScript(this, memory);
         portraits.PopulateFromMemory(memory);
         background.PopulateFromMemory(memory);
         GetBGM().PopulateFromMemory(memory);
