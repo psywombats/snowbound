@@ -79,6 +79,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
                 StartCoroutine(LogRoutine());
                 return true;
             case InputManager.Command.Save:
+                Global.Instance().memory.RememberScreenshot();
                 StartCoroutine(SaveRoutine());
                 return true;
             case InputManager.Command.Load:

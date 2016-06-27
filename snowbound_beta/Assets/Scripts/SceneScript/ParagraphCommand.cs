@@ -12,6 +12,11 @@ public class ParagraphCommand : TextCommand {
         return parser.paragraphBox;
     }
 
+    public override IEnumerator PerformAction(ScenePlayer player) {
+        yield return player.StartCoroutine(base.PerformAction(player));
+        Global.Instance().memory.AppendLogItem(new LogItem("\n" + text + "\n"));
+    }
+
     protected override TextboxComponent SecondaryBox(ScenePlayer parser) {
         return parser.textbox;
     }

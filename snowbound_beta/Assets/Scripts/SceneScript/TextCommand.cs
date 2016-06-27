@@ -27,9 +27,6 @@ public abstract class TextCommand : SceneCommand {
 
         // await input
         yield return player.AwaitHurry();
-
-        // bookkeeping
-        Global.Instance().memory.AppendLogItem(new LogItem(text));
     }
 
     protected abstract TextboxComponent PrimaryBox(ScenePlayer parser);
