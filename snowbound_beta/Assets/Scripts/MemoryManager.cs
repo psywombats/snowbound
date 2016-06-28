@@ -7,7 +7,9 @@ using System.IO;
 public class MemoryManager : MonoBehaviour {
 
     private const string SystemMemoryName = "system.sav";
+    private const string SaveGameSuffix = ".sav";
     private const float ScreenshotScaleFactor = 6.0f;
+    private const float LoadDelaySeconds = 1.5f;
     private const int MaxMessages = 200;
 
     private Dictionary<string, int> variables;
@@ -123,6 +125,30 @@ public class MemoryManager : MonoBehaviour {
         }
     }
 
+    public void LoadFromLastSaveSlot() {
+        LoadMemory(GetMemoryForSlot(SystemMemory.lastSlotSaved));
+    }
+
+    public void SaveToSlot(int slot) {
+        WriteJsonToFile(ToMemory(), FilePathForSlot(slot));
+        SystemMemory.lastSlotSaved = slot;
+        SaveSystemMemory();
+    }
+
+    public void LoadMemory(Memory memory) {
+        ActiveMemory = memory;
+        StartCoroutine(LoadActiveMemoryRoutine());
+    }
+
+    public Memory GetMemoryForSlot(int slot) {
+        string fileName = FilePathForSlot(slot);
+        if (File.Exists(fileName)) {
+            return ReadJsonFromFile<Memory>(fileName);
+        } else {
+            return null;
+        }
+    }
+
     public void SaveSystemMemory() {
 
         // constants we keep track of
@@ -207,5 +233,22 @@ public class MemoryManager : MonoBehaviour {
 
     private string GetSystemMemoryFilepath() {
         return Application.persistentDataPath + "/" + SystemMemoryName;
+    }
+
+    private string FilePathForSlot(int slot) {
+        string fileName = Application.persistentDataPath + "/";
+        if (slot < 10) {
+            fileName += "betasave0";
+        }
+        fileName += Convert.ToString(slot);
+        fileName += SaveGameSuffix;
+        return fileName;
+    }
+
+    private IEnumerator LoadActiveMemoryRoutine() {
+        FadeComponent fade = FindObjectOfType<FadeComponent>();
+        yield return fade.FadeToBlackRoutine();
+        yield return new WaitForSeconds(LoadDelaySeconds);
+        ScenePlayer.LoadScreen();
     }
 }

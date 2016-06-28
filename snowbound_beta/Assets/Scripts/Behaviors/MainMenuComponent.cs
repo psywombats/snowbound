@@ -8,6 +8,8 @@ public class MainMenuComponent : MenuComponent {
     public Button startButton;
     public Button loadButton;
     public Button quitButton;
+    public Button settingsButton;
+    public Button continueButton;
 
     private FadeComponent fade;
 
@@ -25,6 +27,14 @@ public class MainMenuComponent : MenuComponent {
         quitButton.onClick.AddListener(() => {
             SetInputEnabled(false);
             StartCoroutine(QuitRoutine());
+        });
+        continueButton.onClick.AddListener(() => {
+            SetInputEnabled(false);
+            StartCoroutine(ContinueRoutine());
+        });
+        settingsButton.onClick.AddListener(() => {
+            SetInputEnabled(false);
+            StartCoroutine(SettingsRoutine());
         });
 
         StartCoroutine(Utils.RunAfterDelay(FindObjectOfType<FadeComponent>().fadeTime, () => {
@@ -56,5 +66,20 @@ public class MainMenuComponent : MenuComponent {
     private IEnumerator QuitRoutine() {
         yield return fade.FadeToBlackRoutine();
         Application.Quit();
+    }
+
+    private IEnumerator ContinueRoutine() {
+        Global.Instance().input.RemoveListener(this);
+        Global.Instance().memory.LoadFromLastSaveSlot();
+        yield return null;
+    }
+
+    private IEnumerator SettingsRoutine() {
+        yield return new WaitForSeconds(0.1f);
+        GameObject settingsObject = SettingsMenuComponent.Spawn(gameObject.transform.parent.gameObject, () => {
+            SetInputEnabled(true);
+        });
+        settingsObject.GetComponent<SettingsMenuComponent>().Alpha = 0.0f;
+        yield return StartCoroutine(settingsObject.GetComponent<SettingsMenuComponent>().FadeInRoutine());
     }
 }

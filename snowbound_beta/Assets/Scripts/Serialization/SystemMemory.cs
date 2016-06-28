@@ -13,5 +13,6 @@ public class SystemMemory {
     public SystemMemory() {
         maxSeenCommandsKeys = new List<string>();
         maxSeenCommandsValues = new List<int>();
+        lastSlotSaved = -1;
     }
 }
