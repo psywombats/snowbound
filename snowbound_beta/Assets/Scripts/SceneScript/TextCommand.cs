@@ -22,11 +22,8 @@ public abstract class TextCommand : SceneCommand {
             }, player));
         }
 
-        // type the text
-        yield return player.StartCoroutine(primaryBox.ShowText(player, text));
-
-        // await input
-        yield return player.AwaitHurry();
+        // type the text, this will take care of awaiting for input
+        yield return player.StartCoroutine(primaryBox.ShowText(player, text, true));
     }
 
     protected abstract TextboxComponent PrimaryBox(ScenePlayer parser);

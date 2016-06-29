@@ -9,6 +9,7 @@ public class InputManager : MonoBehaviour {
 
     public enum Command {
         Advance,
+        Auto,
         Menu,
         Skip,
         Save,
@@ -32,6 +33,7 @@ public class InputManager : MonoBehaviour {
     public void Awake() {
         keybinds = new Dictionary<Command, List<KeyCode>>();
         keybinds[Command.Advance] = new List<KeyCode>(new[] { KeyCode.Return, KeyCode.KeypadEnter, KeyCode.Space, KeyCode.Z });
+        keybinds[Command.Auto] = new List<KeyCode>(new[] { KeyCode.A });
         keybinds[Command.Menu] = new List<KeyCode>(new[] { KeyCode.Escape, KeyCode.C, KeyCode.Backspace });
         keybinds[Command.Skip] = new List<KeyCode>(new[] { KeyCode.S });
         keybinds[Command.Save] = new List<KeyCode>();

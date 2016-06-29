@@ -6,5 +6,6 @@ public class SettingsConstants {
     public const string BGMVolume = "bgm_volume";
     public const string SkipUnreadText = "skip_unread";
     public const string SoundEffectVolume = "sfx_volume";
+    public const string AutoSpeed = "auto_speed";
 
 }

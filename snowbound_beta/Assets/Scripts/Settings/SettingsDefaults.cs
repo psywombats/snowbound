@@ -6,6 +6,7 @@ public class SettingsDefaults : ScriptableObject {
     public float textSpeed;
     public float bgmVolume;
     public float soundEffectVolume;
+    public float autoSpeed;
     public bool skipUnreadText;
 
 }

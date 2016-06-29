@@ -8,7 +8,10 @@ using UnityEngine.Assertions;
 public class TextboxComponent : MonoBehaviour {
 
     private const float CharacterDelayMax = (1.0f / 20.0f);
-    private const float CharacterDelayMin = (1.0f / 160.0f);
+    private const float CharacterDelayMin = (1.0f / 200.0f);
+    private const float AutoMinDelayMult = 0.0f;
+    private const float AutoMaxDelayMult = .05f;
+    private const float AutoBaseDelay = 0.8f;
     private const float AdvancePromptFadeOutSeconds = 0.15f;
     private const float AdvancePromptFadeInSeconds = 0.3f;
     private const float FastModeHiccupSeconds = 0.05f;
@@ -21,6 +24,7 @@ public class TextboxComponent : MonoBehaviour {
     public QuickMenuComponent quickMenu;
 
     private Setting<float> characterSpeedSetting;
+    private Setting<float> autoSpeedSetting;
     private string fullText;
     private bool paused;
 
@@ -39,6 +43,7 @@ public class TextboxComponent : MonoBehaviour {
 
     public void Awake() {
         characterSpeedSetting = Global.Instance().settings.GetFloatSetting(SettingsConstants.TextSpeed);
+        autoSpeedSetting = Global.Instance().settings.GetFloatSetting(SettingsConstants.AutoSpeed);
     }
 
     public void OnEnable() {
@@ -57,7 +62,7 @@ public class TextboxComponent : MonoBehaviour {
         advancePrompt.CrossFadeAlpha(fadeIn? 1.0f : 0.0f, seconds, false);
     }
 
-    public IEnumerator ShowText(ScenePlayer player, string text) {
+    public IEnumerator ShowText(ScenePlayer player, string text, bool waitUntilAcknowledged) {
         fullText = text;
         FadeAdvancePrompt(false);
         for (int i = 0; i <= fullText.Length; i += 1) {
@@ -87,6 +92,15 @@ public class TextboxComponent : MonoBehaviour {
             advancePrompt.gameObject.SetActive(true);
             AdvancePromptAlpha = 0.0f;
             FadeAdvancePrompt(true);
+        }
+
+        if (waitUntilAcknowledged && !player.ShouldUseFastMode()) {
+            if (player.AutoMode) {
+                float delay = AutoBaseDelay + fullText.Length * GetAutoDelayMult();
+                yield return new WaitForSeconds(delay);
+            } else {
+                yield return player.AwaitHurry();
+            }
         }
     }
 
@@ -145,5 +159,10 @@ public class TextboxComponent : MonoBehaviour {
 
     private float GetCharacterDelay() {
         return CharacterDelayMax + ((CharacterDelayMin - CharacterDelayMax) * characterSpeedSetting.Value);
+    }
+
+    // in seconds/character
+    private float GetAutoDelayMult() {
+        return AutoMaxDelayMult + ((AutoMinDelayMult - AutoMaxDelayMult) * autoSpeedSetting.Value);
     }
 }

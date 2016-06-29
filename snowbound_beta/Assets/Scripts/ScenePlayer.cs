@@ -26,6 +26,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
 
     public bool AwaitingInputFromCommand { get; set; }
     public bool SkipMode { get; set; }
+    public bool AutoMode { get; set; }
 
     public static void LoadScreen() {
         SceneManager.LoadScene(DialogSceneName);
@@ -55,6 +56,8 @@ public class ScenePlayer : MonoBehaviour, InputListener {
             case InputManager.Command.Advance:
                 if (hiddenTextMode) {
                     SetHiddenTextMode(false);
+                } else if (AutoMode) {
+                    AutoMode = false;
                 } else {
                     wasHurried = true;
                 }
@@ -64,6 +67,9 @@ public class ScenePlayer : MonoBehaviour, InputListener {
                 return true;
             case InputManager.Command.Skip:
                 SkipMode = !SkipMode;
+                return true;
+            case InputManager.Command.Auto:
+                AutoMode = !AutoMode;
                 return true;
             case InputManager.Command.Click:
                 if (hiddenTextMode) {
@@ -123,7 +129,7 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     }
 
     public IEnumerator AwaitHurry() {
-        while (!WasHurried() && !ShouldUseFastMode()) {
+        while (!WasHurried() && !ShouldUseFastMode() && !AutoMode) {
             yield return null;
         }
         AcknowledgeHurried();
