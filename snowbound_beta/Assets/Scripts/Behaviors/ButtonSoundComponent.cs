@@ -8,7 +8,7 @@ public class ButtonSoundComponent : MonoBehaviour {
     private const string DefaultHoverSoundTag = null;
     private const string DefaultClickSoundTag = "click";
 
-    public string ClickSoundTag = "";
+    public string ClickSoundTag = "click";
     public string HoverSoundTag = "";
 
     private SoundPlayer player;

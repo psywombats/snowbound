@@ -47,6 +47,7 @@ public class SettingsCollection : MonoBehaviour {
         AddBoolSetting(SettingsConstants.SkipUnreadText, defaults.skipUnreadText);
         AddFloatSetting(SettingsConstants.SoundEffectVolume, defaults.soundEffectVolume);
         AddFloatSetting(SettingsConstants.AutoSpeed, defaults.autoSpeed);
+        AddBoolSetting(SettingsConstants.SkipAtChoices, defaults.skipAtChoices);
     }
 
     public Setting<float> GetFloatSetting(string tag) {

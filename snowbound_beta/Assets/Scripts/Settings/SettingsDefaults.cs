@@ -8,5 +8,6 @@ public class SettingsDefaults : ScriptableObject {
     public float soundEffectVolume;
     public float autoSpeed;
     public bool skipUnreadText;
+    public bool skipAtChoices;
 
 }

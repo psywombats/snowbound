@@ -121,6 +121,12 @@ public class ChoiceCommand : SceneCommand {
             UnityEngine.Object.Destroy(choiceObject);
         }
 
+        // disable skip if appropriate
+        Setting<bool> skipAtChoices = Global.Instance().settings.GetBoolSetting(SettingsConstants.SkipAtChoices);
+        if (!skipAtChoices.Value) {
+            player.SkipMode = false;
+        }
+
         // play the next scene
         player.StartCoroutine(player.PlayScriptForScene(option.sceneName));
     }
