@@ -8,15 +8,31 @@ public class QuickMenuComponent : MonoBehaviour {
     public Button menuButton;
     public Button saveButton;
     public Button loadButton;
-    public Button logButton;
-    public Button skipButton;
+    public Toggle autoToggle;
+    public Toggle skipToggle;
+
+    private ScenePlayer player;
 
     public void Awake() {
+        player = FindObjectOfType<ScenePlayer>();
+
         FormatButtonForCommand(menuButton, InputManager.Command.Menu);
         FormatButtonForCommand(saveButton, InputManager.Command.Save);
         FormatButtonForCommand(loadButton, InputManager.Command.Load);
-        FormatButtonForCommand(logButton, InputManager.Command.Log);
-        FormatButtonForCommand(skipButton, InputManager.Command.Skip);
+
+        autoToggle.onValueChanged.AddListener((bool value) => {
+            player.AutoMode = value;
+        });
+        skipToggle.onValueChanged.AddListener((bool value) => {
+            player.SkipMode = value;
+        });
+    }
+
+    public void Update() {
+        autoToggle.isOn = player.AutoMode;
+        skipToggle.isOn = player.SkipMode;
+        autoToggle.interactable = player.IsAutoAvailable();
+        skipToggle.interactable = player.IsSkipAvailable();
     }
 
     private void FormatButtonForCommand(Button button, InputManager.Command command) {

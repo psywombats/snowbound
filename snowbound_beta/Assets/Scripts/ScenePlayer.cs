@@ -112,6 +112,19 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         return suspended;
     }
 
+    public bool IsAutoAvailable() {
+        // this may change in the future
+        return true;
+    }
+
+    public bool IsSkipAvailable() {
+        if (currentScript == null) {
+            return false;
+        } else {
+            return currentScript.CanUseFastMode();
+        }
+    }
+
     public bool ShouldUseFastMode() {
         if (currentScript == null) {
             return false;

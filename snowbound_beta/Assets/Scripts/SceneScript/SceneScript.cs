@@ -60,13 +60,13 @@ public class SceneScript {
             }
             if (!Global.Instance().memory.HasSeenCommand(sceneName, commandIndex)) {
                 player.SkipMode = false;
-                Global.Instance().memory.AcknowledgeCommand(sceneName, commandIndex);
             }
             if (player.debugBox != null) {
                 player.debugBox.text = "scene: " + sceneName + "\n";
                 player.debugBox.text += "command index: " + commandIndex;
             }
             yield return player.StartCoroutine(CurrentCommand.PerformAction(player));
+            Global.Instance().memory.AcknowledgeCommand(sceneName, commandIndex);
         }
     }
 
@@ -86,6 +86,18 @@ public class SceneScript {
             return true;
         }
         return false;
+    }
+
+    public bool CanUseFastMode() {
+        bool hasSeenCommand = Global.Instance().memory.HasSeenCommand(sceneName, commandIndex);
+        Setting<bool> skipUnreadSetting = Global.Instance().settings.GetBoolSetting(SettingsConstants.SkipUnreadText);
+        bool skipUnread;
+        if (skipUnreadSetting == null) {
+            skipUnread = false;
+        } else {
+            skipUnread = skipUnreadSetting.Value;
+        }
+        return hasSeenCommand || skipUnread;
     }
 
     public void PopulateMemory(ScreenMemory memory) {
