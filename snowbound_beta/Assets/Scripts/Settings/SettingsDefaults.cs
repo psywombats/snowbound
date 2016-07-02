@@ -9,5 +9,6 @@ public class SettingsDefaults : ScriptableObject {
     public float autoSpeed;
     public bool skipUnreadText;
     public bool skipAtChoices;
+    public bool fullscreen;
 
 }

@@ -23,9 +23,21 @@ public class Global : MonoBehaviour {
         DontDestroyOnLoad(gameObject);
     }
 
+    public void Update() {
+        SetFullscreenMode();
+    }
+
     private void InstantiateManagers() {
         settings = gameObject.AddComponent<SettingsCollection>();
         input = gameObject.AddComponent<InputManager>();
         memory = gameObject.AddComponent<MemoryManager>();
+    }
+
+    private void SetFullscreenMode() {
+        // not sure if this "check" is necessary
+        // actually performing this her is kind of a hack
+        if (Screen.fullScreen != settings.GetBoolSetting(SettingsConstants.Fullscreen).Value) {
+            Screen.fullScreen = settings.GetBoolSetting(SettingsConstants.Fullscreen).Value;
+        }
     }
 }
