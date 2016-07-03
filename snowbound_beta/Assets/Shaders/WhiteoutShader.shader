@@ -26,11 +26,13 @@ SubShader {
 			struct appdata_t {
 				float4 vertex : POSITION;
 				float2 texcoord : TEXCOORD0;
+                float4 color : COLOR;
 			};
 
 			struct v2f {
 				float4 vertex : SV_POSITION;
 				half2 texcoord : TEXCOORD0;
+                float4 color : COLOR;
 				UNITY_FOG_COORDS(1)
 			};
 
@@ -45,6 +47,7 @@ SubShader {
 				v2f o;
 				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
 				o.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
+                o.color = v.color;
 				UNITY_TRANSFER_FOG(o,o.vertex);
 				return o;
 			}
@@ -82,7 +85,8 @@ SubShader {
                 combined -= (i.texcoord[1] * i.texcoord[1] * mult);
                 combined += (1.0 - i.texcoord[1]) * (1.0 - i.texcoord[1]) * 0.15;
                 
-				fixed4 result = fixed4(_Color.r, _Color.g, _Color.b, combined);
+                
+				fixed4 result = fixed4(_Color.r, _Color.g, _Color.b, combined * _Color.a * i.color.a);
 				return result;
 			}
 		ENDCG

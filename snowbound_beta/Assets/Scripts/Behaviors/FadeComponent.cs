@@ -10,6 +10,7 @@ public class FadeComponent : MonoBehaviour {
     public float fastModeHiccupTime = 0.1f;
 
     private BGMPlayer bgm;
+    private bool fading;
 
     private float Alpha {
         get { return image.color.a; }
@@ -37,9 +38,22 @@ public class FadeComponent : MonoBehaviour {
     public void RemoveTint() {
         StartCoroutine(RemoveTintRoutine());
     }
+
+    public bool IsFading() {
+        return fading;
+    }
+
+    public void Clear() {
+        Alpha = 0.0f;
+    }
+
+    public void InstantFade() {
+        Alpha = 1.0f;
+    }
     
     public IEnumerator FadeToBlackRoutine(bool allowFastMode = false, bool fadeBGM = true) {
         ScenePlayer player = FindObjectOfType<ScenePlayer>();
+        fading = true;
 
         gameObject.transform.SetAsLastSibling();
 
@@ -52,18 +66,24 @@ public class FadeComponent : MonoBehaviour {
             }
             yield return new WaitForSeconds(fadeTime);
         }
+
+        fading = false;
     }
 
     public IEnumerator RemoveTintRoutine(bool allowFastMode = false) {
         ScenePlayer player = FindObjectOfType<ScenePlayer>();
+        fading = true;
 
         gameObject.transform.SetAsLastSibling();
 
+        image.CrossFadeAlpha(1.0f, 0.0f, false);
         if (player != null && player.ShouldUseFastMode()) {
             yield return new WaitForSeconds(fastModeHiccupTime);
         } else {
             image.CrossFadeAlpha(0.0f, fadeTime, false);
             yield return new WaitForSeconds(fadeTime);
         }
+
+        fading = false;
     }
 }

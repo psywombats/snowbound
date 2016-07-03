@@ -160,6 +160,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         return FindObjectOfType<SoundPlayer>();
     }
 
+    public SpriteEffectComponent GetEffect() {
+        return FindObjectOfType<SpriteEffectComponent>();
+    }
+
     public IEnumerator PlayScriptForScene(string sceneName) {
         TextAsset file = SceneScript.AssetForSceneName(sceneName);
         yield return StartCoroutine(PlayScriptForScene(file));
@@ -202,6 +206,42 @@ public class ScenePlayer : MonoBehaviour, InputListener {
             paragraphBox.FadeInRoutine(this, PauseMenuComponent.FadeoutSeconds)
         }, this);
         suspended = false;
+    }
+
+    public IEnumerator ExecuteTransition(TransitionData data, bool reverse = false) {
+        FadeComponent fade = GetFade();
+
+        if (reverse) {
+            if (data.transitionMask == null) {
+                fade.InstantFade();
+                transition.Clear();
+            } else {
+                fade.Clear();
+                transition.InstantFade();
+            }
+        } else {
+            fade.Clear();
+            transition.Clear();
+        }
+
+        if (data.transitionMask == null) {
+            if (reverse) {
+                StartCoroutine(fade.RemoveTintRoutine(true));
+            } else {
+                StartCoroutine(fade.FadeToBlackRoutine(false, false));
+            }
+        } else {
+            StartCoroutine(transition.TransitionRoutine(data.transitionMask, reverse));
+        }
+
+        yield return null;
+
+        while (transition.IsTransitioning() || fade.IsFading()) {
+            if (ShouldUseFastMode()) {
+                transition.Hurry();
+            }
+            yield return null;
+        }
     }
 
     private void SetHiddenTextMode(bool hidden) {

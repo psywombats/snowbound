@@ -89,6 +89,8 @@
     <Compile Include="Assets\Scripts\Behaviors\SettingsMenuComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\SpeakerComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\SpeakerDisplayComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\SpriteEffectComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\SpriteEffectControlComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\TachiComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\TextboxBackerComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\TextboxComponent.cs" />
@@ -356,6 +358,7 @@
     <None Include="Assets\Resources\SceneScripts\s0207.txt" />
     <None Include="Assets\Resources\SceneScripts\testScript.txt" />
     <None Include="Assets\Resources\SceneScripts\unimplemented.txt" />
+    <None Include="Assets\Shaders\ColoredParticle.shader" />
     <None Include="Assets\Shaders\TransitionShader.shader" />
     <None Include="Assets\Shaders\TransitionUIShader.shader" />
     <None Include="Assets\Shaders\WhiteoutShader.shader" />

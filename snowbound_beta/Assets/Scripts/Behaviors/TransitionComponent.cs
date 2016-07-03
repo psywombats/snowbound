@@ -44,6 +44,20 @@ public class TransitionComponent : MonoBehaviour {
         }
     }
 
+    public void Clear() {
+        active = false;
+        elapsedSeconds = 0.0f;
+        invert = false;
+        AssignCommonShaderVariables();
+    }
+
+    public void InstantFade() {
+        active = false;
+        elapsedSeconds = 1.0f;
+        invert = false;
+        AssignCommonShaderVariables();
+    }
+
     public Material GetMaterial() {
         return material;
     }
