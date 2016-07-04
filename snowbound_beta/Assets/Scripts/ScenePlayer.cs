@@ -208,35 +208,10 @@ public class ScenePlayer : MonoBehaviour, InputListener {
         suspended = false;
     }
 
-    public IEnumerator ExecuteTransition(TransitionData data, bool reverse = false) {
-        FadeComponent fade = GetFade();
-
-        if (reverse) {
-            if (data.transitionMask == null) {
-                fade.InstantFade();
-                transition.Clear();
-            } else {
-                fade.Clear();
-                transition.InstantFade();
-            }
-        } else {
-            fade.Clear();
-            transition.Clear();
-        }
-
-        if (data.transitionMask == null) {
-            if (reverse) {
-                StartCoroutine(fade.RemoveTintRoutine(true));
-            } else {
-                StartCoroutine(fade.FadeToBlackRoutine(false, false));
-            }
-        } else {
-            StartCoroutine(transition.TransitionRoutine(data.transitionMask, reverse));
-        }
-
-        yield return null;
-
-        while (transition.IsTransitioning() || fade.IsFading()) {
+    public IEnumerator ExecuteTransition(string tag, Action intermediate) {
+        TransitionData data = transitions.GetData(tag);
+        StartCoroutine(transition.TransitionRoutine(data, intermediate));
+        while (transition.IsTransitioning()) {
             if (ShouldUseFastMode()) {
                 transition.Hurry();
             }

@@ -7,10 +7,8 @@ public class FadeComponent : MonoBehaviour {
     public Image image = null;
     public bool autoFadeIn = false;
     public float fadeTime = 0.8f;
-    public float fastModeHiccupTime = 0.1f;
 
     private BGMPlayer bgm;
-    private bool fading;
 
     private float Alpha {
         get { return image.color.a; }
@@ -26,64 +24,23 @@ public class FadeComponent : MonoBehaviour {
 
     public void Start() {
         if (autoFadeIn) {
-            RemoveTint();
+            StartCoroutine(RemoveTintRoutine());
             autoFadeIn = false;
         }
     }
-
-    public void FadeToBlack() {
-        StartCoroutine(FadeToBlackRoutine());
-    }
-
-    public void RemoveTint() {
-        StartCoroutine(RemoveTintRoutine());
-    }
-
-    public bool IsFading() {
-        return fading;
-    }
-
-    public void Clear() {
-        Alpha = 0.0f;
-    }
-
-    public void InstantFade() {
-        Alpha = 1.0f;
-    }
     
     public IEnumerator FadeToBlackRoutine(bool allowFastMode = false, bool fadeBGM = true) {
-        ScenePlayer player = FindObjectOfType<ScenePlayer>();
-        fading = true;
-
         gameObject.transform.SetAsLastSibling();
-
-        if (player != null && player.ShouldUseFastMode()) {
-            yield return new WaitForSeconds(fastModeHiccupTime);
-        } else {
-            image.CrossFadeAlpha(1.0f, fadeTime, false);
-            if (bgm != null && fadeBGM) {
-                StartCoroutine(bgm.FadeOutRoutine(fadeTime));
-            }
-            yield return new WaitForSeconds(fadeTime);
+        image.CrossFadeAlpha(1.0f, fadeTime, false);
+        if (bgm != null && fadeBGM) {
+            StartCoroutine(bgm.FadeOutRoutine(fadeTime));
         }
-
-        fading = false;
+        yield return new WaitForSeconds(fadeTime);
     }
 
     public IEnumerator RemoveTintRoutine(bool allowFastMode = false) {
-        ScenePlayer player = FindObjectOfType<ScenePlayer>();
-        fading = true;
-
         gameObject.transform.SetAsLastSibling();
-
-        image.CrossFadeAlpha(1.0f, 0.0f, false);
-        if (player != null && player.ShouldUseFastMode()) {
-            yield return new WaitForSeconds(fastModeHiccupTime);
-        } else {
-            image.CrossFadeAlpha(0.0f, fadeTime, false);
-            yield return new WaitForSeconds(fadeTime);
-        }
-
-        fading = false;
+        image.CrossFadeAlpha(0.0f, fadeTime, false);
+        yield return new WaitForSeconds(fadeTime);
     }
 }

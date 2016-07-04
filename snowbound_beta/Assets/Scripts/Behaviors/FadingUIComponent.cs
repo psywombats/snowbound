@@ -3,12 +3,13 @@ using UnityEngine.UI;
 using System.Collections;
 
 [RequireComponent(typeof(CanvasGroup))]
+[RequireComponent(typeof(TransitionComponent))]
 public class FadingUIComponent : MonoBehaviour {
 
     public float FadeSeconds = 0.5f;
     public float FastModeFadeSeconds = 0.15f;
-    public Texture2D fadeInTexture;
-    public Texture2D fadeOutTexture;
+    public FadeData fadeIn;
+    public FadeData fadeOut;
 
     private float fadeDurationSeconds;
     private float targetAlpha;
@@ -66,11 +67,11 @@ public class FadingUIComponent : MonoBehaviour {
     public IEnumerator Activate(ScenePlayer player = null) {
         gameObject.SetActive(true);
         SetAlpha(0.0f);
-        if (fadeInTexture != null) {
+        if (fadeIn != null) {
             TransitionComponent transition = GetComponent<TransitionComponent>();
             if (Alpha < 1.0f) {
-                transition.transitionDurationSeconds = GetFadeSeconds(player);
-                StartCoroutine(transition.TransitionRoutine(fadeInTexture, true));
+                fadeIn.delay = GetFadeSeconds(player);
+                StartCoroutine(transition.FadeRoutine(fadeIn, true));
                 yield return null;
                 SetAlpha(1.0f);
                 while (transition.IsTransitioning()) {
@@ -93,11 +94,11 @@ public class FadingUIComponent : MonoBehaviour {
     }
 
     public IEnumerator Deactivate(ScenePlayer player = null) {
-        if (fadeOutTexture != null) {
+        if (fadeOut != null) {
             TransitionComponent transition = GetComponent<TransitionComponent>();
             if (Alpha > 0.0f) {
-                transition.transitionDurationSeconds = GetFadeSeconds(player);
-                StartCoroutine(transition.TransitionRoutine(fadeOutTexture, false));
+                fadeOut.delay = GetFadeSeconds(player);
+                StartCoroutine(transition.FadeRoutine(fadeOut));
                 yield return null;
                 while (transition.IsTransitioning()) {
                     if (player != null && player.WasHurried()) {

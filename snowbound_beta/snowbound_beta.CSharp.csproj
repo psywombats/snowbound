@@ -103,6 +103,7 @@
     <Compile Include="Assets\Scripts\Data\BackgroundIndexData.cs" />
     <Compile Include="Assets\Scripts\Data\CharaData.cs" />
     <Compile Include="Assets\Scripts\Data\CharaIndexData.cs" />
+    <Compile Include="Assets\Scripts\Data\FadeData.cs" />
     <Compile Include="Assets\Scripts\Data\GenericDataObject.cs" />
     <Compile Include="Assets\Scripts\Data\GenericIndex.cs" />
     <Compile Include="Assets\Scripts\Data\ParticleData.cs" />

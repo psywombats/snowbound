@@ -2,7 +2,7 @@ testbox
 
 NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE 
 
-[switchto REBECCA]
+[bg TEST_A fade]
 
 ERIC: You can consider the rest of this be my monologue.
 

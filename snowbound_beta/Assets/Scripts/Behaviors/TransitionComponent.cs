@@ -1,15 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class TransitionComponent : MonoBehaviour {
 
     public Shader shader;
-    public float transitionDurationSeconds;
-    public float softTransitionPercent;
 
-    public float out1, out2;
-
-    private Texture2D mask;
+    private FadeData currentFade;
     private Material material;
     private float elapsedSeconds;
     private bool invert;
@@ -29,8 +26,8 @@ public class TransitionComponent : MonoBehaviour {
                 AssignCommonShaderVariables();
             }
             elapsedSeconds += Time.deltaTime;
-            if (elapsedSeconds > transitionDurationSeconds) {
-                elapsedSeconds = transitionDurationSeconds;
+            if (elapsedSeconds > currentFade.delay) {
+                elapsedSeconds = currentFade.delay;
                 active = false;
             }
         }
@@ -68,23 +65,28 @@ public class TransitionComponent : MonoBehaviour {
 
     public void Hurry() {
         if (this.elapsedSeconds > 0.0f) {
-            this.elapsedSeconds = transitionDurationSeconds;
+            this.elapsedSeconds = currentFade.delay;
         }
         AssignCommonShaderVariables();
         active = false;
     }
 
-    public void Transition(Texture2D mask, bool invert = false) {
-        this.mask = mask;
+    public IEnumerator TransitionRoutine(TransitionData transition, Action intermediate = null) {
+        yield return StartCoroutine(FadeRoutine(transition.fadeOut));
+        if (intermediate != null) {
+            intermediate();
+        }
+        yield return StartCoroutine(FadeRoutine(transition.fadeIn, true));
+    }
+
+    public IEnumerator FadeRoutine(FadeData fade, bool invert = false) {
+        this.currentFade = fade;
         this.invert = invert;
         elapsedSeconds = 0.0f;
         active = true;
-    }
 
-    public IEnumerator TransitionRoutine(Texture2D mask, bool invert = false) {
-        Transition(mask, invert);
         ScenePlayer player = FindObjectOfType<ScenePlayer>();
-        while (elapsedSeconds < transitionDurationSeconds) {
+        while (elapsedSeconds < currentFade.delay) {
             if (player.ShouldUseFastMode()) {
                 break;
             }
@@ -94,10 +96,11 @@ public class TransitionComponent : MonoBehaviour {
     }
 
     private void AssignCommonShaderVariables() {
-        material.SetTexture("_MaskTexture", mask);
-        material.SetFloat("_Elapsed", elapsedSeconds / transitionDurationSeconds);
-        material.SetFloat("_SoftFudge", softTransitionPercent);
-        material.SetInt("_Invert", invert ? 1 : 0);
-        out1 = elapsedSeconds / transitionDurationSeconds;
+        if (currentFade != null) {
+            material.SetTexture("_MaskTexture", currentFade.transitionMask);
+            material.SetFloat("_Elapsed", elapsedSeconds / currentFade.delay);
+            material.SetFloat("_SoftFudge", currentFade.softEdgePercent);
+            material.SetInt("_Invert", invert ? 1 : 0);
+        }
     }
 }

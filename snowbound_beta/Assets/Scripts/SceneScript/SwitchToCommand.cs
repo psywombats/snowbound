@@ -6,10 +6,8 @@ public class SwitchToCommand : SceneCommand {
 
     private SpriteEffectComponent effect;
 
-    private string transitionIntroInTag = "bar_long";
-    private string transitionIntroOutTag = "fade_long";
-    private string transitionOutroInTag = "fade_long";
-    private string transitionOutroOutTag = "bar_long";
+    private const string TransitionInTag = "whiteout_in";
+    private const string TransitionOutTag = "whiteout_out";
 
     public SwitchToCommand(string targetCharaKey) {
 
@@ -17,18 +15,18 @@ public class SwitchToCommand : SceneCommand {
 
     public override IEnumerator PerformAction(ScenePlayer player) {
         effect = player.GetEffect();
-        yield return player.StartCoroutine(effect.StartWhiteoutRoutine(0.0f));
+
         yield return player.StartCoroutine(player.paragraphBox.Deactivate(player));
         yield return player.StartCoroutine(player.textbox.Deactivate(player));
 
-        yield return player.StartCoroutine(player.ExecuteTransition(player.transitions.GetData(transitionIntroInTag)));
-        
-        yield return player.StartCoroutine(player.ExecuteTransition(player.transitions.GetData(transitionIntroOutTag), true));
+        yield return player.ExecuteTransition(TransitionInTag, () => {
+            player.StartCoroutine(effect.StartWhiteoutRoutine(0.0f));
+        });
 
         yield return new WaitForSeconds(3.0f);
 
-        yield return player.StartCoroutine(player.ExecuteTransition(player.transitions.GetData(transitionOutroInTag)));
-        yield return player.StartCoroutine(effect.StopWhiteoutRoutine(0.0f));
-        yield return player.StartCoroutine(player.ExecuteTransition(player.transitions.GetData(transitionOutroOutTag), true));
+        yield return player.ExecuteTransition(TransitionOutTag, () => {
+            player.StartCoroutine(effect.StopWhiteoutRoutine(0.0f));
+        });
     }
 }
