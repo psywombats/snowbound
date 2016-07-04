@@ -2,7 +2,7 @@ testbox
 
 NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE 
 
-[bg TEST_A fade]
+[switchto ERIC]
 
 ERIC: You can consider the rest of this be my monologue.
 

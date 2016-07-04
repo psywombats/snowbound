@@ -9,7 +9,7 @@ public class TransitionComponent : MonoBehaviour {
     private FadeData currentFade;
     private Material material;
     private float elapsedSeconds;
-    private bool invert;
+    private bool reverse;
     private bool active;
 
     public void Awake() {
@@ -44,14 +44,14 @@ public class TransitionComponent : MonoBehaviour {
     public void Clear() {
         active = false;
         elapsedSeconds = 0.0f;
-        invert = false;
+        reverse = false;
         AssignCommonShaderVariables();
     }
 
     public void InstantFade() {
         active = false;
         elapsedSeconds = 1.0f;
-        invert = false;
+        reverse = false;
         AssignCommonShaderVariables();
     }
 
@@ -81,7 +81,7 @@ public class TransitionComponent : MonoBehaviour {
 
     public IEnumerator FadeRoutine(FadeData fade, bool invert = false) {
         this.currentFade = fade;
-        this.invert = invert;
+        this.reverse = invert;
         elapsedSeconds = 0.0f;
         active = true;
 
@@ -97,10 +97,11 @@ public class TransitionComponent : MonoBehaviour {
 
     private void AssignCommonShaderVariables() {
         if (currentFade != null) {
+            float elapsed = elapsedSeconds / currentFade.delay;
             material.SetTexture("_MaskTexture", currentFade.transitionMask);
-            material.SetFloat("_Elapsed", elapsedSeconds / currentFade.delay);
+            material.SetFloat("_Elapsed", reverse ? (1.0f-elapsed) : elapsed);
             material.SetFloat("_SoftFudge", currentFade.softEdgePercent);
-            material.SetInt("_Invert", invert ? 1 : 0);
+            material.SetInt("_Invert", currentFade.invert ? 1 : 0);
         }
     }
 }

@@ -71,7 +71,7 @@ public class FadingUIComponent : MonoBehaviour {
             TransitionComponent transition = GetComponent<TransitionComponent>();
             if (Alpha < 1.0f) {
                 fadeIn.delay = GetFadeSeconds(player);
-                StartCoroutine(transition.FadeRoutine(fadeIn, true));
+                StartCoroutine(transition.FadeRoutine(fadeIn));
                 yield return null;
                 SetAlpha(1.0f);
                 while (transition.IsTransitioning()) {
@@ -98,7 +98,7 @@ public class FadingUIComponent : MonoBehaviour {
             TransitionComponent transition = GetComponent<TransitionComponent>();
             if (Alpha > 0.0f) {
                 fadeOut.delay = GetFadeSeconds(player);
-                StartCoroutine(transition.FadeRoutine(fadeOut));
+                StartCoroutine(transition.FadeRoutine(fadeOut, true));
                 yield return null;
                 while (transition.IsTransitioning()) {
                     if (player != null && player.WasHurried()) {
