@@ -14,9 +14,11 @@ public class ScenePlayer : MonoBehaviour, InputListener {
     public TextboxComponent paragraphBox;
     public BackgroundComponent background;
     public PortraitGroupComponent portraits;
-    public TransitionIndexData transitions;
     public TransitionComponent transition;
     public UnityEngine.UI.Text debugBox;
+
+    public TransitionIndexData transitions;
+    public FadeIndexData fades;
 
     private SceneScript currentScript;
     private IEnumerator playingRoutine;

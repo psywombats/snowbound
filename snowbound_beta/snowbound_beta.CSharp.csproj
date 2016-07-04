@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\Behaviors\ClickInterceptorComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\ConfirmMenuComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\FadeComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\FadingSpriteComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\FadingUIComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\GenericSettingUIComponent.cs" />
     <Compile Include="Assets\Scripts\Behaviors\LogComponent.cs" />
@@ -104,6 +105,7 @@
     <Compile Include="Assets\Scripts\Data\CharaData.cs" />
     <Compile Include="Assets\Scripts\Data\CharaIndexData.cs" />
     <Compile Include="Assets\Scripts\Data\FadeData.cs" />
+    <Compile Include="Assets\Scripts\Data\FadeIndexData.cs" />
     <Compile Include="Assets\Scripts\Data\GenericDataObject.cs" />
     <Compile Include="Assets\Scripts\Data\GenericIndex.cs" />
     <Compile Include="Assets\Scripts\Data\ParticleData.cs" />
@@ -361,6 +363,7 @@
     <None Include="Assets\Resources\SceneScripts\unimplemented.txt" />
     <None Include="Assets\Shaders\ColoredParticle.shader" />
     <None Include="Assets\Shaders\TransitionShader.shader" />
+    <None Include="Assets\Shaders\TransitionSpriteShader.shader" />
     <None Include="Assets\Shaders\TransitionUIShader.shader" />
     <None Include="Assets\Shaders\WhiteoutShader.shader" />
   </ItemGroup>

@@ -2,8 +2,7 @@ testbox
 
 NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE NVL MODE 
 
-[switchto ERIC]
-
+[enter ERIC C]
 ERIC: You can consider the rest of this be my monologue.
 
 NVL MDOEEEEE
@@ -17,19 +16,19 @@ Test time! Here comes Max!
 [enter MAX B]
 And now for Rebecca!
 [enter REBECCA D]
-Pete will now replace Rebecca.
-[enter PETE D]
+Pete will now replace Rebecca in a weird way.
+[enter PETE D PIXELS]
 MAX: I'm gonna leave as well.
 [exit MAX]
 Max is gone?
 
 The background is black.
 
-[bg TEST_A curtains]
+[bg TEST_A bar]
 
 The background is red? This dialog is extended as part of a transition test. The background is red? This dialog is extended as part of a transition test. The background is red? This dialog is extended as part of a transition test. The background is red? This dialog is extended as part of a transition test. The background is red? This dialog is extended as part of a transition test.
 
-[bg TEST_B curtains]
+[bg TEST_B bar]
 
 SYSTEM: Test time is over. Pete has disappeared along with the NVL box.
 [enter CAIT B]

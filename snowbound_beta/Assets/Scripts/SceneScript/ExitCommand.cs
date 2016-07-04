@@ -4,11 +4,16 @@ using System;
 
 public class ExitCommand : StageDirectionCommand {
 
+    private const string DefaultFadeTag = "fade";
+
     private string charaTag;
+    private string fadeTag;
 
     // chara name is the name of a character, ie "max"
-    public ExitCommand(string charaTag) {
+    // fade tag tags a fade, ie "bars", if null will use default
+    public ExitCommand(string charaTag, string fadeTag) {
         this.charaTag = charaTag;
+        this.fadeTag = fadeTag == null ? DefaultFadeTag : fadeTag;
     }
 
     public override IEnumerator PerformAction(ScenePlayer player) {
@@ -26,7 +31,7 @@ public class ExitCommand : StageDirectionCommand {
 
         // fade 'em out!
         if (portrait != null) {
-            yield return portrait.FadeOut();
+            yield return portrait.FadeOut(player.fades.GetData(fadeTag));
         }
     }
 }

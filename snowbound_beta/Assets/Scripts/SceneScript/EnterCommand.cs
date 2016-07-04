@@ -4,16 +4,20 @@ using System;
 
 public class EnterCommand : StageDirectionCommand {
 
-    private const float hiccupTime = 0.1f;
+    private const string DefaultFadeOutTag = "fade";
+    private const string DefaultFadeInTag = "fade";
 
     private string charaTag;
     private string slotLetter;
+    private string fadeTag;
 
     // chara name is the name of a character, ie "max"
     // slot letter is the name of the screen slot to position, from A to E, far left to far right
-    public EnterCommand(string charaTag, string slotLetter) {
+    // fade tag tags a fade, or null for default
+    public EnterCommand(string charaTag, string slotLetter, string fadeTag) {
         this.charaTag = charaTag;
         this.slotLetter = slotLetter;
+        this.fadeTag = (fadeTag == null) ? DefaultFadeInTag : fadeTag;
     }
 
     public override IEnumerator PerformAction(ScenePlayer player) {
@@ -26,16 +30,14 @@ public class EnterCommand : StageDirectionCommand {
     }
 
     private IEnumerator ParallelAction(ScenePlayer player) {
-        CharaData chara = player.portraits.charas.GetData(charaTag);
         TachiComponent portrait = player.portraits.GetPortraitBySlot(slotLetter);
 
         // fade out if someone's there already
         if (portrait.gameObject.activeSelf) {
-            yield return portrait.FadeOut();
+            yield return portrait.FadeOut(player.fades.GetData(DefaultFadeOutTag));
         }
 
         // fade in the referenced chara
-        portrait.SetChara(chara);
-        yield return portrait.FadeIn();
+        yield return portrait.FadeCharaIn(charaTag, player.fades.GetData(fadeTag));
     }
 }

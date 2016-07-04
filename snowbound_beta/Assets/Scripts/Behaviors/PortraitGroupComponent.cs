@@ -54,10 +54,10 @@ public class PortraitGroupComponent : MonoBehaviour {
         return false;
     }
 
-    public IEnumerator FadeOutAll() {
+    public IEnumerator FadeOutAll(FadeData fade) {
         List<IEnumerator> fadeOuts = new List<IEnumerator>();
         foreach (TachiComponent portrait in portraits) {
-            fadeOuts.Add(portrait.FadeOut());
+            fadeOuts.Add(portrait.FadeOut(fade));
         }
         yield return StartCoroutine(Utils.RunParallel(fadeOuts.ToArray(), this));
     }

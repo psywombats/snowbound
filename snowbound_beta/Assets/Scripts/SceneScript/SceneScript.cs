@@ -192,10 +192,10 @@ public class SceneScript {
                 this.choice = new ChoiceCommand();
                 return this.choice;
             case "enter":
-                this.lastStageDirection = new EnterCommand(args[0], args[1]);
+                this.lastStageDirection = new EnterCommand(args[0], args[1], OptionalArg(args, 2));
                 return this.lastStageDirection;
             case "exit":
-                this.lastStageDirection = new ExitCommand(args[0]);
+                this.lastStageDirection = new ExitCommand(args[0], OptionalArg(args, 1));
                 return this.lastStageDirection;
             case "clear":
                 this.lastStageDirection = new ExitAllCommand();
@@ -220,7 +220,7 @@ public class SceneScript {
             case "end":
                 return new EndCommand(args[0]);
             case "switchto":
-                return new SwitchToCommand(args[0]);
+                return new SwitchToCommand(args[0], OptionalArg(args, 1));
             case "bg":
                 return new BackgroundCommand(args[0], OptionalArg(args, 1));
             case "bgm":

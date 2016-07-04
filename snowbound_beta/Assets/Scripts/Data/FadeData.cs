@@ -2,7 +2,7 @@
 using System.Collections;
 
 [CreateAssetMenu(fileName = "FadeData", menuName = "Data/FadeData")]
-public class FadeData : ScriptableObject {
+public class FadeData : GenericDataObject {
 
     public Texture2D transitionMask;
     public bool invert;

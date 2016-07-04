@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 public class SpriteEffectComponent : MonoBehaviour {
 
+    private const string WhiteoutBackgroundTag = "placeholder_storm";
+
     public GameObject background;
     public GameObject midground;
     public GameObject foreground;
@@ -15,6 +17,12 @@ public class SpriteEffectComponent : MonoBehaviour {
     public GameObject activeBackground;
     public GameObject activeMidground;
     public GameObject activeForeground;
+
+    private ScenePlayer player;
+
+    public void Awake() {
+        this.player = FindObjectOfType<ScenePlayer>();
+    }
 
     public IEnumerator StartWhiteoutRoutine(float duration) {
         List<SpriteEffectControlComponent> controls = new List<SpriteEffectControlComponent>();
@@ -41,6 +49,7 @@ public class SpriteEffectComponent : MonoBehaviour {
         foreach (SpriteEffectControlComponent control in controls) {
             control.Alpha = 1.0f;
         }
+        player.background.SetBackground(WhiteoutBackgroundTag);
     }
 
     public IEnumerator StopWhiteoutRoutine(float duration) {

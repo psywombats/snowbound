@@ -1,17 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+[RequireComponent(typeof(FadingSpriteComponent))]
 public class TachiComponent : MonoBehaviour {
 
-    private const float fadeSeconds = 0.5f;
-    private const float fastModeFadeSeconds = 0.15f;
+    private const float StandardTimeMult = 0.6f;
+    private const float FastTimeMult = 0.2f;
 
     private CharaData chara;
     private ScenePlayer player;
-    private bool fadingOut, fadingIn;
 
     public void Awake() {
         player = FindObjectOfType<ScenePlayer>();
+    }
+
+    public void SetChara(string charaTag) {
+        SetChara(player.portraits.charas.GetData(charaTag));
     }
 
     public void SetChara(CharaData chara) {
@@ -20,43 +24,27 @@ public class TachiComponent : MonoBehaviour {
     }
 
     public bool ContainsChara(CharaData chara) {
-        if (this.chara == null || fadingOut) {
+        if (this.chara == null || GetComponent<TransitionComponent>().IsTransitioning()) {
             return false;
         } else {
             return this.chara.tag.Equals(chara.tag);
         }
     }
 
-    public IEnumerator FadeIn() {
-        fadingIn = true;
-        SpriteRenderer renderer = GetComponent<SpriteRenderer>();
-        renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 0.0f);
+    public IEnumerator FadeCharaIn(string charaTag, FadeData fade) {
         gameObject.SetActive(true);
-        while (renderer.color.a < 1.0f) {
-            float delta = Time.deltaTime / GetFadeSeconds();
-            renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, renderer.color.a + delta);
-            yield return null;
-        }
-        renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 1.0f);
-        fadingIn = false;
+        float timeMult = player.ShouldUseFastMode() ? FastTimeMult : StandardTimeMult;
+        SetChara(charaTag);
+        yield return StartCoroutine(GetComponent<TransitionComponent>().FadeRoutine(fade, true, timeMult));
     }
 
-    public IEnumerator FadeOut() {
-        fadingOut = true;
-        SpriteRenderer renderer = GetComponent<SpriteRenderer>();
-        renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 1.0f);
-        while (renderer.color.a > 0.0f) {
-            if (fadingIn) {
-                break;
-            }
-            float delta = Time.deltaTime / GetFadeSeconds();
-            renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, renderer.color.a - delta);
-            yield return null;
+    public IEnumerator FadeOut(FadeData fade) {
+        if (!gameObject.activeInHierarchy) {
+            yield break;
         }
-        renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 0.0f);
+        float timeMult = player.ShouldUseFastMode() ? FastTimeMult : StandardTimeMult;
+        yield return StartCoroutine(GetComponent<TransitionComponent>().FadeRoutine(fade, false, timeMult));
         gameObject.SetActive(false);
-        chara = null;
-        fadingOut = false;
     }
 
     public TachiMemory ToMemory() {
@@ -80,14 +68,6 @@ public class TachiComponent : MonoBehaviour {
         } else {
             gameObject.SetActive(false);
             renderer.color = new Color(renderer.color.r, renderer.color.g, renderer.color.b, 0.0f);
-        }
-    }
-
-    private float GetFadeSeconds() {
-        if (player.ShouldUseFastMode()) {
-            return fastModeFadeSeconds;
-        } else {
-            return fadeSeconds;
         }
     }
 }

@@ -9,6 +9,7 @@ public class TransitionComponent : MonoBehaviour {
     private FadeData currentFade;
     private Material material;
     private float elapsedSeconds;
+    private float transitionDuration;
     private bool reverse;
     private bool active;
 
@@ -26,8 +27,8 @@ public class TransitionComponent : MonoBehaviour {
                 AssignCommonShaderVariables();
             }
             elapsedSeconds += Time.deltaTime;
-            if (elapsedSeconds > currentFade.delay) {
-                elapsedSeconds = currentFade.delay;
+            if (elapsedSeconds > transitionDuration) {
+                elapsedSeconds = transitionDuration;
                 active = false;
             }
         }
@@ -41,20 +42,6 @@ public class TransitionComponent : MonoBehaviour {
         }
     }
 
-    public void Clear() {
-        active = false;
-        elapsedSeconds = 0.0f;
-        reverse = false;
-        AssignCommonShaderVariables();
-    }
-
-    public void InstantFade() {
-        active = false;
-        elapsedSeconds = 1.0f;
-        reverse = false;
-        AssignCommonShaderVariables();
-    }
-
     public Material GetMaterial() {
         return material;
     }
@@ -65,7 +52,7 @@ public class TransitionComponent : MonoBehaviour {
 
     public void Hurry() {
         if (this.elapsedSeconds > 0.0f) {
-            this.elapsedSeconds = currentFade.delay;
+            this.elapsedSeconds = transitionDuration;
         }
         AssignCommonShaderVariables();
         active = false;
@@ -79,14 +66,16 @@ public class TransitionComponent : MonoBehaviour {
         yield return StartCoroutine(FadeRoutine(transition.fadeIn, true));
     }
 
-    public IEnumerator FadeRoutine(FadeData fade, bool invert = false) {
+    public IEnumerator FadeRoutine(FadeData fade, bool invert = false, float timeMult = 1.0f) {
         this.currentFade = fade;
         this.reverse = invert;
         elapsedSeconds = 0.0f;
+        transitionDuration = fade.delay * timeMult;
         active = true;
+        AssignCommonShaderVariables();
 
         ScenePlayer player = FindObjectOfType<ScenePlayer>();
-        while (elapsedSeconds < currentFade.delay) {
+        while (elapsedSeconds < transitionDuration) {
             if (player.ShouldUseFastMode()) {
                 break;
             }
@@ -97,7 +86,7 @@ public class TransitionComponent : MonoBehaviour {
 
     private void AssignCommonShaderVariables() {
         if (currentFade != null) {
-            float elapsed = elapsedSeconds / currentFade.delay;
+            float elapsed = elapsedSeconds / transitionDuration;
             material.SetTexture("_MaskTexture", currentFade.transitionMask);
             material.SetFloat("_Elapsed", reverse ? (1.0f-elapsed) : elapsed);
             material.SetFloat("_SoftFudge", currentFade.softEdgePercent);
