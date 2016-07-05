@@ -1,9 +1,6 @@
 [s0060]
 
-[switchto REBECCA]
-
-[date]
-Friday, November 17th: Day 7
+[perspective REBECCA] Friday, December 17th: 1:00 AM
 
 My concentration starts to slip as the seconds tick by. Could it be 1:00 AM already? It couldn't be. Max still hasn't come. There's no way he'd be this late, not for something this important. The different scenarios keep playing themselves over in my mind. I think Eric next to me is starting to drift off. He hasn't said much for the last hour or so. Has it really been an hour?
 

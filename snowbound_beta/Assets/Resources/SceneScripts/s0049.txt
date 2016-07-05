@@ -1,6 +1,6 @@
 [s0049]
 
-[switchto ERIC]
+[perspective ERIC] Saturday, December 12th: 9:30 PM
 
 [enter HENRY B]
 [enter SID D]
@@ -8,7 +8,7 @@ HENRY: "Was that really all there was?"
 SID: "Look, we were lucky to even find the chips. I don't know who those were even meant for. Let's just be glad we have water."
 HENRY: "I know, I know. I'm not mad at you; I'm just really hungry right now. I need to think!"
 
-It's nighttime, presumably. No one dares ask Henry for the exact time. He's been like this ever since he woke up. Everyone's eaten their share of the snack package Sid and I retrieved from the storage room. Well, except for Marisa of course. I wonder how she's doing.
+The gray in the windows faded hours ago and we're left to our business in the dark. No one dares ask Henry for the exact time. He's been like this ever since he woke up. Everyone's eaten their share of the snack package Sid and I retrieved from the storage room. Well, except for Marisa of course. I wonder how she's doing.
 
 [enter ERIC B]
 ERIC: "How are the rest of them doing?"

@@ -1,6 +1,6 @@
 [s0052]
 
-[switchto REBECCA]
+[perspective REBECCA] Sunday, December 13th: 11:30 PM
 
 [enter MAX B]
 [enter REBECCA D]

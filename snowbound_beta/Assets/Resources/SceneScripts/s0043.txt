@@ -1,8 +1,8 @@
 [s0043]
 
-[switchto ERIC]
+[perspective ERIC] Saturday, December 12th: 11:00 AM
 
-If it's morning yet, I can't tell. I hear a few students moving around behind me in the entrance hall, but if this is the morning, where is the light? I yawn and stand up. Sleeping in a chair always leaves me stiff. I have no idea what time it is, but it feels like morning to me. Then why is it still that dusty gray outside? I can hardly see the stage from my position between the two open doors. It looks like Sid is already awake.
+I've been waiting for any sign of daylight for almost an hour, but so far, nothing. From my perch on a table I can barely make out the open auditorium doors fifteen feet away. The giant windows of the entrance hall remain an inpenetrable gray.
 
 [enter SID B]
 [enter ERIC D]

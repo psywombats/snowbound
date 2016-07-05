@@ -1,9 +1,6 @@
 [s0056]
 
-[switchto REBECCA]
-
-[date]
-Tuesday, November 15th: Day 5
+[perspective REBECCA] Tuesday, December 15th: 10:30 AM
 
 When I wake up, all I know is that I'm cold and stiff. The only light is a faint ray shining through the window of an exit door. I'm lying on the first floor landing of the south stairwell. Last night, I hardly had the will to move. All I could do was sit and try to keep myself together. How did I turn from one of Kenneth's advisors to an exile? I'm doomed, probably.
 

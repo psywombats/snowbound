@@ -1,7 +1,7 @@
 [s0155]
 [increment UNSHUT_DOOR]
 
-[switchto REBECCA]
+[perspective REBECCA] Tuesday, December 15th: 11:30 PM
 
 Laura trails a few feet behind me when we leave Eric at the foot of the stairs. He's brought over one of the chairs from the student lounge, so it seems that he intends to keep vigil in the basement hall. It's a small gesture, so I don't know why I'm trying to read into it.
 

@@ -1,6 +1,6 @@
 [s0133]
 
-[switchto REBECCA]
+[perspective REBECCA] Sunday, December 13th: 6:30 PM
 
 [enter REBECCA C]
 REBECCA: "Cait? Cait, where are you?"

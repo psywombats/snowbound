@@ -1,6 +1,6 @@
 [s0178]
 
-[switchto REBECCA]
+[perspective REBECCA] Thursday, December 17th: 4:30 PM
 
 [enter REBECCA B]
 [enter STEPHEN D]

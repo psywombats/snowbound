@@ -54,8 +54,7 @@ ERIC: "Come on, Laura. It's time to go."
 
 The night sky is dark with storm clouds and sleet. The wind whisks past my face and through my outstretched fingers. Strangely enough, I can't bring myself to feel any joy, only an agonizing melancholy. Laura makes it up the stairs behind me. We can't look back now.
 
-[date]
-??????
+[perspective ERIC] ????
 
 I wake in the morning to bright, bright sunlight. The world around me is a piercing white. It looks like a full two inches of snow fell last night and freezing rain is still driving hard into the wind. It's painful to open my eyes to the light or stand up against the snow, but I rise nonetheless. The more distance we can cover today, the better. The supplies I have with me are enough to bring us to Valdez, if it's still out there somewhere, but I'm concerned that without the school as a landmark, I might lose my way.
 

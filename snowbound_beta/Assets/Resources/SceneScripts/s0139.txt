@@ -1,9 +1,8 @@
 [s0139]
 
-[date]
-Monday, November 14th: Day 4
+[perspective ERIC] Monday, December 14th: 11:00 AM
 
-I wake up on one of the tables in the entrance hall. The first thing I notice is the horrible cold. Did the temperature drop that quickly in one night? I yawn, but now that I'm awake, it'll be impossible to go back to sleep. The students rise one at a time. Within an hour or so, everyone's awake and a faint light illuminates the entrance hall.
+The morning is a terrible one. The temperature seems to have dropped overnight, and the lack of light makes it difficult to do anything.
 
 [enter ERIC B]
 [enter SID D]

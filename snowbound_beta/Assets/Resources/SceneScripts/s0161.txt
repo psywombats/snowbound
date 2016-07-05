@@ -1,9 +1,6 @@
 [s0161]
 
-[switchto ERIC]
-
-[date]
-Wednesday, November 16th: Day 6
+[perspective ERIC] Wednesday, December 16th: 6:00 AM
 
 [enter HENRY A]
 HENRY: "Hey!"

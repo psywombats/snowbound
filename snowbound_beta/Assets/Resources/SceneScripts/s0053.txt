@@ -1,11 +1,8 @@
 [s0053]
 
-[switchto ERIC]
+[perspective ERIC] Monday, December 14th: 11:00 AM
 
-[date]
-Monday, November 14th: Day 4
-
-We wait until the sunrise reaches our crowded little room to wake Laura. There seems to be an unspoken fear that if she sleeps too long, she might never wake up. It seems that that would've been the case in the biology classroom if Sid and I hadn't gone raiding. One or two of the jazz ensemble members have left for some unknown location, but the rest of us gather around the pile of cushions and curtains that makes up the communal bed. Laura lies in the center.
+This far north, and under this much snow, the sunrise is meager and late. But we wait for it to wake Laura. There seems to be an unspoken fear that if she sleeps too long, she might never wake up. It seems that that would've been the case in the biology classroom if Sid and I hadn't gone raiding. One or two of the jazz ensemble members have left for some unknown location, but the rest of us gather around the pile of cushions and curtains that makes up the communal bed. Laura lies in the center.
 
 [enter MARILYN B]
 [enter LAURA C]

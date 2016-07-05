@@ -1,7 +1,6 @@
 [s0069]
 
-[date]
-Tuesday, November 22nd: Day 12
+[perspective REBECCA] Tuesday, December 22nd: 1:00 PM
 
 [enter FELIX B]
 [enter MARILYN C]

@@ -99,8 +99,7 @@ He sighs. I can guess what he's going through.
 ERIC: "Well, let's hit the supplies."
 REBECCA: "And tomorrow, we depart."
 
-[date]
-Wednesday, November 23rd
+[perspective ERIC] WEDNESDAY, December 23rd: 8:00 AM
 
 [enter REBECCA C]
 REBECCA: "Are you awake?"

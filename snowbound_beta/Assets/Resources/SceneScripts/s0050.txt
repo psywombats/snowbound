@@ -1,9 +1,6 @@
 [s0050]
 
-[switchto REBECCA]
-
-[date]
-Sunday, November 13th: Day 3
+[perspective REBECCA] Sunday, December 13th: 7:30 AM
 
 When I wake up, nothing's changed. That's our second night here without seeing the outside world. Right now, my attention is more focused on the inner world though. This place has been in an uproar since we dragged Cait back last night. Between the noise, stress, and cold, I haven't gotten more than two hours of sleep.
 

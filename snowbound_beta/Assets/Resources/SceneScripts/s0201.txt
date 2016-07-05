@@ -1,8 +1,11 @@
 [s0201]
 
-[switchto ERIC]
+[perspective ERIC] Friday, December 11th: 4:00 PM
 
-It's 4:30. I would've thought Sid would be here by now, at least. There's maybe a fifty percent chance Max and Rebecca will show, Marisa's never coming back, and I have no idea how many freshman would be interested in the world's worst fencing team. Even with my last minute decision, we'll probably be disbanded this year after all.
+[enter ERIC C]
+ERIC: "Still nobody..."
+
+I keep my eye on the minute hand of the clock as the seconds tick past 4:00. I would've thought Sid would be here by now, at least. There's maybe a fifty percent chance Max and Rebecca will show, Marisa's never coming back, and I have no idea how many freshman would be interested in the world's worst fencing team. Even with my last minute decision, we'll probably be disbanded this year after all.
 
 The empty seats of the student club room stare back at me. I have no idea why anyone would want to meet in here. It's set up like some sort of corporate conference room, as if I should be running a business here, not a half-hearted sports club.
 

@@ -1,6 +1,6 @@
 [s0149]
 
-[switchto REBECCA]
+[perspective REBECCA] Tuesday, December 15th: 2:30 AM
 
 I scramble to my feet as fast I can. It looks like Sid's already on top of her. That steel glint in the dark, that's all I'm thinking about, and when I find it, I act. Caitlyn's left hand is trapped under her body, but her right is loose and flailing for Sid, with the knife still in it. All it takes is one quick stomp. She screams, and then screams again as Sid's fist hits her in the face. I grab the wrist I just smashed, and it's over for Caitlyn Baquiran.
 
@@ -48,8 +48,7 @@ SID: "If you weren't here I think I'd give up. Don't you fade on me too, Rebecca
 I can't even respond.
 SID: "Follow me."
 
-[date]
-Tuesday, November 15th: Day 5
+[perspective REBECCA] Tuesday, December 15th: 11:30 AM
 
 My first sight when I wake is a an unfamiliar face. She's pretty, in a way. I can't think straight. I stretch my mind and the memory comes back and kicks me in the stomach. The shards in my arms burn and I cry out.
 

@@ -1,6 +1,6 @@
 [s0150]
 
-[switchto ERIC]
+[perspective ERIC] Monday, December 14th: 9:00 PM
 
 I can't believe my eyes. High up on the catwalks, Cait has Rebecca at the end of her knife. After a brief struggle above and some shouts from below, Cait is standing behind Rebecca and almost forcing her off the catwalks. The blade never leaves her throat.
 
@@ -92,8 +92,7 @@ REBECCA: "Sorry, Eric."
 
 It's too much. There's nothing I can do but hold her and watch her bleed. Henry and Sid look on in silence. When at last the flow dwindles to a weak drip, I know her pulse is gone. I stand up, but my pants are soaked red. I try to hand Henry back his shirt, but it's saturated. I look at Rebecca one last time, and then I fall backwards, backwards, and keep on falling.
 
-[date]
-Tuesday, November 15th: Day 5
+[perspective ERIC] Tuesday, December 15th: 10:00 AM
 
 I find it very difficult to get up in the morning. This time it isn't the cold that keeps me back but that ache in the corners of my mind. I stare at the unlit fluorescent lights at the top of the entrance hall for as long as I can before Sid blocks my line of sight.
 

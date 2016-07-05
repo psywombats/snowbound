@@ -1,6 +1,6 @@
 [s0037]
 
-[switchto REBECCA]
+[perspective REBECCA] Friday, December 11th: 6:00 PM
 
 MAX: "Rebecca... That is you, right?"
 I can hardly see him, even as my eyesight adjusts.

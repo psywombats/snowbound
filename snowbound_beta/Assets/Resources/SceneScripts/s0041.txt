@@ -1,14 +1,11 @@
 [s0041]
 
-[switchto REBECCA]
-
-[date]
-Saturday, November 12th: Day 2
+[perspective REBECCA] Saturday, December 12th: 6:30 AM
 
 [enter PETE C]
 PETE: "Hey everyone! Cait got through the fire door!"
 
-I wake up in confusion. What time is it? The sun must not be up yet. Or... Wait, the snow. That's right. I check my watch. There is barely enough light for me to ascertain that it's 6:30 in the morning. 
+I wake up in confusion. What time is it? There's not even a hint of light through the windows, but.. Wait, the snow. That's right. I check my watch. I can't even see enough to read it. 
 
 [enter MAX B]
 MAX: "It's way too early. Rebecca, my dear, tell that kid to shut up please..."

@@ -1,11 +1,10 @@
 [s0067]
 
-[date]
-Monday, November 21st: Day 11
+[perspective REBECCA] Monday, December 21st: 9:00 AM
 
-When I wake up, the light outside has yet to arrive. The gymnasium is still as dark as last night. I sit up. Around me, no one is moving. The only noise is the muffled conversation of the two guards. I stand up and stretch. Is there anything I need to do today? I don't think so. Even so, I feel the adrenaline if I so much as think about tonight's schedule. That's right, I need to tell Max about the open fire door. 
+Light is still yet to arrive. The gymnasium is still as dark as last night. I sit up. Around me, no one is moving. The only noise is the muffled conversation of the two guards. I stand up and stretch. Is there anything I need to do today? I don't think so. Even so, I feel the adrenaline if I so much as think about tonight's schedule. That's right, I need to tell Max about the open fire door. 
 
-Where is Max, anyway? I watch the muffled sunrise through the school's snowy shell, but even when the light appears, I don't spot him amongst the sleeping bodies. I'll have to ask the door guards where he went. However, as I stand up to walk to the door, one of the students opens the door and Maximilian himself walks in. I make my way over to him.
+Where is Max, anyway? I watch the muffled sunrise through the school's snowy shell, but even when the light appears, I don't spot him amongst the sluggish bodies. I'll have to ask the door guards where he went. However, as I stand up to walk to the door, one of the students opens the door and Maximilian himself walks in. I make my way over to him.
 
 [enter MAX B]
 [enter REBECCA D]

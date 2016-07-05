@@ -1,6 +1,6 @@
 [s0184]
 
-[switchto REBECCA]
+[perspective REBECCA] Friday, December 18th: 4:30 PM
 
 [enter REBECCA B]
 [enter MAX D]

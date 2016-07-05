@@ -1,9 +1,8 @@
 [s0065]
 
-[date]
-Sunday, November 20th: Day 10
+[perspective REBECCA] Sunday, December 20th: 10:00 AM
 
-I wake up in one of the shelter's sleeping bags. The morning is gray and cold, but the light is a welcome sight. After five days, I have the chance to look upon the gymnasium once more. What a surprise that I'd end up back here. Not many of the other students are awake. No, they're awake, they just aren't moving. What is there to do? All they can do is wait, either for rescue or for attack. I stand up and resolve to find Max, but to my surprise, he's in a sleeping bag too, not too far from where I slept.
+The morning is gray and cold, but I'm welcome for what little light there is. After five days, I have the chance to look upon the gymnasium once more. What a surprise that I'd end up back here. Not many of the other students are awake. No, they're awake, they just aren't moving. What is there to do? All they can do is wait, either for rescue or for attack. I stand up and resolve to find Max, but to my surprise, he's in a sleeping bag too, not too far from where I slept.
 
 [enter REBECCA B]
 [enter MAX D]
