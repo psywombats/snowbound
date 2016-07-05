@@ -10,6 +10,8 @@ Shader "Snowbound/TransitionSprite"
 		_Elapsed("Elapsed Seconds", Range(0, 1)) = 0.0
 		_SoftFudge("Percent Softness", Range(0, 1)) = 0.1
 		_Invert("Invert", Range(0, 1)) = 0.0
+		_FlipX("Flip X", Range(0, 1)) = 0.0
+		_FlipY("Flip Y", Range(0, 1)) = 0.0
 	}
 
 		SubShader
@@ -73,11 +75,21 @@ Shader "Snowbound/TransitionSprite"
 	float _Elapsed;
 	float _SoftFudge;
 	int _Invert;
+	int _FlipX;
+	int _FlipY;
 
 	fixed4 SampleSpriteTexture(float2 uv)
 	{
 		fixed4 color = tex2D(_MainTex, uv);
-		float maskValue = tex2D(_MaskTexture, uv).a;
+
+		float2 adjustedCoord = uv;
+		if (_FlipX > 0) {
+			adjustedCoord[0] = 1.0 - adjustedCoord[0];
+		}
+		if (_FlipY > 0) {
+			adjustedCoord[1] = 1.0 - adjustedCoord[1];
+		}
+		float maskValue = tex2D(_MaskTexture, adjustedCoord).a;
 
 		// prevent rounding issues hack
 		maskValue *= (1.0 - 1.0 / 255.0);

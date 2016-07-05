@@ -121,7 +121,7 @@ public class FadingUIComponent : MonoBehaviour {
     }
 
     private float GetFadeSeconds(ScenePlayer player) {
-        if (player.ShouldUseFastMode()) {
+        if (player != null && player.ShouldUseFastMode()) {
             return FastModeFadeSeconds;
         } else {
             return FadeSeconds;

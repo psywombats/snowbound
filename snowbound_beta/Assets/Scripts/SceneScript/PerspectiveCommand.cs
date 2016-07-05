@@ -2,18 +2,18 @@
 using System.Collections;
 using System;
 
-public class SwitchToCommand : SceneCommand {
+public class PerspectiveCommand : SceneCommand {
 
     private SpriteEffectComponent effect;
 
     private string targetCharaKey;
     private string newBackgroundTag;
-    private bool flip;
+    private string text;
 
-    public SwitchToCommand(string targetCharaKey, string newBackgroundTag) {
+    public PerspectiveCommand(string targetCharaKey, string newBackgroundTag, string text) {
         this.targetCharaKey = targetCharaKey;
         this.newBackgroundTag = newBackgroundTag;
-        flip = newBackgroundTag.ToLower().Equals("eric");
+        this.text = text;
     }
 
     public override IEnumerator PerformAction(ScenePlayer player) {
@@ -25,12 +25,21 @@ public class SwitchToCommand : SceneCommand {
         yield return player.ExecuteTransition("whiteout_in", () => {
             player.StartCoroutine(effect.StartWhiteoutRoutine(0.0f));
         });
+        yield return new WaitForSeconds(1.0f);
 
-        yield return new WaitForSeconds(1.5f);
-        TachiComponent tachi = player.portraits.GetPortraitBySlot(flip ? "D": "B");
-        tachi.SetChara(targetCharaKey);
+        TachiComponent tachi = player.portraits.GetPortraitBySlot("D");
+        yield return player.StartCoroutine(Utils.RunParallel(new[] {
+            tachi.FadeCharaIn(targetCharaKey, player.fades.GetData("fade_long")),
+            effect.FadeLetterboxesIn()
+        }, player));
+
+        effect.HideLetterboxes();
+        yield return player.StartCoroutine(effect.FadeLetterboxesIn());
+
+        yield return new WaitForSeconds(10.0f);
 
         yield return player.ExecuteTransition("whiteout_out", () => {
+            effect.HideLetterboxes();
             player.StartCoroutine(effect.StopWhiteoutRoutine(0.0f));
             if (newBackgroundTag != null) {
                 player.background.SetBackground(newBackgroundTag);

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 public class SpriteEffectComponent : MonoBehaviour {
 
-    private const string WhiteoutBackgroundTag = "placeholder_storm";
+    private const string WhiteoutBackgroundTag = "whiteout";
 
     public GameObject background;
     public GameObject midground;
@@ -14,14 +14,18 @@ public class SpriteEffectComponent : MonoBehaviour {
     public GameObject whiteoutMidground;
     public GameObject whiteoutForeground;
 
-    public GameObject activeBackground;
-    public GameObject activeMidground;
-    public GameObject activeForeground;
+    public FadingUIComponent letterboxTop;
+    public FadingUIComponent letterboxBottom;
+
+    private GameObject activeBackground;
+    private GameObject activeMidground;
+    private GameObject activeForeground;
 
     private ScenePlayer player;
 
     public void Awake() {
         this.player = FindObjectOfType<ScenePlayer>();
+        HideLetterboxes();
     }
 
     public IEnumerator StartWhiteoutRoutine(float duration) {
@@ -37,6 +41,8 @@ public class SpriteEffectComponent : MonoBehaviour {
         controls.Add(activeMidground.GetComponent<SpriteEffectControlComponent>());
         controls.Add(activeForeground.GetComponent<SpriteEffectControlComponent>());
 
+        // 
+        player.background.SetBackground(WhiteoutBackgroundTag);
         foreach (SpriteEffectControlComponent control in controls) {
             control.Alpha = 0.0f;
         }
@@ -49,7 +55,6 @@ public class SpriteEffectComponent : MonoBehaviour {
         foreach (SpriteEffectControlComponent control in controls) {
             control.Alpha = 1.0f;
         }
-        player.background.SetBackground(WhiteoutBackgroundTag);
     }
 
     public IEnumerator StopWhiteoutRoutine(float duration) {
@@ -67,5 +72,17 @@ public class SpriteEffectComponent : MonoBehaviour {
         foreach (SpriteEffectControlComponent control in controls) {
             Destroy(control.gameObject);
         }
+    }
+
+    public IEnumerator FadeLetterboxesIn() {
+        yield return StartCoroutine(Utils.RunParallel(new[] {
+            letterboxTop.Activate(),
+            letterboxBottom.Activate()
+        }, this));
+    }
+
+    public void HideLetterboxes() {
+        letterboxTop.gameObject.SetActive(false);
+        letterboxBottom.gameObject.SetActive(false);
     }
 }

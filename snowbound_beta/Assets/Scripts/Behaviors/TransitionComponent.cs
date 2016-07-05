@@ -91,6 +91,8 @@ public class TransitionComponent : MonoBehaviour {
             material.SetFloat("_Elapsed", reverse ? (1.0f-elapsed) : elapsed);
             material.SetFloat("_SoftFudge", currentFade.softEdgePercent);
             material.SetInt("_Invert", currentFade.invert ? 1 : 0);
+            material.SetInt("_FlipX", currentFade.flipHorizontal ? 1 : 0);
+            material.SetInt("_FlipY", currentFade.flipVertical ? 1 : 0);
         }
     }
 }

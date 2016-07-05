@@ -19,6 +19,8 @@
 		_Elapsed("Elapsed Seconds", Range(0, 1)) = 0.0
 		_SoftFudge("Percent Softness", Range(0, 1)) = 0.1
 		_Invert("Invert", Range(0, 1)) = 0.0
+		_FlipX("Flip X", Range(0, 1)) = 0.0
+		_FlipY("Flip Y", Range(0, 1)) = 0.0
 	}
 
 	SubShader
@@ -99,6 +101,8 @@
 			float _Elapsed;
 			float _SoftFudge;
 			int _Invert;
+			int _FlipX;
+			int _FlipY;
 
 			fixed4 frag(v2f IN) : SV_Target
 			{
@@ -110,6 +114,13 @@
 				clip(color.a - 0.001);
 		#endif
 
+				float2 adjustedCoord = IN.texcoord;
+				if (_FlipX > 0) {
+					adjustedCoord[0] = 1.0 - adjustedCoord[0];
+				}
+				if (_FlipY > 0) {
+					adjustedCoord[1] = 1.0 - adjustedCoord[1];
+				}
 				float maskValue = tex2D(_MaskTexture, IN.texcoord).a;
 
 				// prevent rounding issues hack

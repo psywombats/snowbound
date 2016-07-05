@@ -139,8 +139,7 @@ public class SceneScript {
                     // infix command
                     if (commandString.IndexOf(' ') == -1) {
                         // single word command
-                        command = ParseCommand(commandString.Substring(1, commandString.Length - 2),
-                                    new List<string>());
+                        command = ParseCommand(commandString.Substring(1, commandString.Length - 2), new List<string>());
                     } else {
                         // multiword infix command
                         string keyword = commandString.Substring(1, commandString.IndexOf(' ') - 1);
@@ -151,10 +150,11 @@ public class SceneScript {
                     }
                 } else {
                     // postfix command
-                    string keyword = commandString.Substring(1, commandString.Length - 2);
-                    string argsString = commandString.Substring(commandString.IndexOf(']'));
+                    string keyword = commandString.Substring(1, commandString.IndexOf(' ') - 1);
+                    string argsString = commandString.Substring(keyword.Length + 2, commandString.IndexOf(']') - (keyword.Length + 2));
                     string[] args = argsString.Split();
-                    command = ParseCommand(keyword, new List<string>(args));
+                    string content = commandString.Substring(commandString.IndexOf(']') + 2);
+                    command = ParseCommand(keyword, new List<string>(args), content);
                 }
             } else {
                 // this is a text literal
@@ -184,7 +184,7 @@ public class SceneScript {
         }
     }
 
-    private SceneCommand ParseCommand(string command, List<string> args) {
+    private SceneCommand ParseCommand(string command, List<string> args, string text = "") {
         switch (command) {
             case "goto":
                 return new GotoCommand(args[0]);
@@ -219,8 +219,8 @@ public class SceneScript {
                 return null;
             case "end":
                 return new EndCommand(args[0]);
-            case "switchto":
-                return new SwitchToCommand(args[0], OptionalArg(args, 1));
+            case "perspective":
+                return new PerspectiveCommand(args[0], OptionalArg(args, 1), text);
             case "bg":
                 return new BackgroundCommand(args[0], OptionalArg(args, 1));
             case "bgm":

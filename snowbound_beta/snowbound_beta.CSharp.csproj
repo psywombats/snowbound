@@ -131,12 +131,12 @@
     <Compile Include="Assets\Scripts\SceneScript\GotoCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\IncrementCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\ParagraphCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\PerspectiveCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SceneCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SceneScript.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SoundEffectCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\SpokenLineCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\StageDirectionCommand.cs" />
-    <Compile Include="Assets\Scripts\SceneScript\SwitchToCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\TextCommand.cs" />
     <Compile Include="Assets\Scripts\SceneScript\WaitCommand.cs" />
     <Compile Include="Assets\Scripts\Serialization\Memory.cs" />
@@ -359,6 +359,7 @@
     <None Include="Assets\Resources\SceneScripts\s0205.txt" />
     <None Include="Assets\Resources\SceneScripts\s0206.txt" />
     <None Include="Assets\Resources\SceneScripts\s0207.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0208.txt" />
     <None Include="Assets\Resources\SceneScripts\testScript.txt" />
     <None Include="Assets\Resources\SceneScripts\unimplemented.txt" />
     <None Include="Assets\Shaders\ColoredParticle.shader" />
