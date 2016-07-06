@@ -10,6 +10,8 @@ public class SpriteEffectComponent : MonoBehaviour {
     public GameObject midground;
     public GameObject foreground;
 
+    public TextboxComponent letterboxText;
+
     public GameObject whiteoutBackground;
     public GameObject whiteoutMidground;
     public GameObject whiteoutForeground;

@@ -25,18 +25,21 @@ public class PerspectiveCommand : SceneCommand {
         yield return player.ExecuteTransition("whiteout_in", () => {
             player.StartCoroutine(effect.StartWhiteoutRoutine(0.0f));
         });
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(1.5f);
 
         TachiComponent tachi = player.portraits.GetPortraitBySlot("D");
         yield return player.StartCoroutine(Utils.RunParallel(new[] {
-            tachi.FadeCharaIn(targetCharaKey, player.fades.GetData("fade_long")),
+            tachi.FadeCharaIn(targetCharaKey, player.fades.GetData("whiteout_chara_in")),
             effect.FadeLetterboxesIn()
         }, player));
+        yield return new WaitForSeconds(0.8f);
 
-        effect.HideLetterboxes();
-        yield return player.StartCoroutine(effect.FadeLetterboxesIn());
+        effect.letterboxText.GetComponent<FadingUIComponent>().FadeSeconds = 0.0f;
+        yield return player.StartCoroutine(effect.letterboxText.Activate(player));
+        yield return player.StartCoroutine(effect.letterboxText.ShowText(player, text, true));
 
-        yield return new WaitForSeconds(10.0f);
+        effect.letterboxText.GetComponent<FadingUIComponent>().FadeSeconds = 0.3f;
+        player.StartCoroutine(effect.letterboxText.Deactivate(player));
 
         yield return player.ExecuteTransition("whiteout_out", () => {
             effect.HideLetterboxes();

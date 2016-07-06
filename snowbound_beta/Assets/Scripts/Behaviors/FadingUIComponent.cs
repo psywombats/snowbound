@@ -23,6 +23,12 @@ public class FadingUIComponent : MonoBehaviour {
         targetAlpha = Alpha;
     }
 
+    public void Start() {
+        if (GetComponent<Image>() != null) {
+            GetComponent<Image>().material = GetComponent<TransitionComponent>().GetMaterial();
+        }
+    }
+
     public void Update() {
         if (Alpha < targetAlpha) {
             Alpha += Time.deltaTime / fadeDurationSeconds;

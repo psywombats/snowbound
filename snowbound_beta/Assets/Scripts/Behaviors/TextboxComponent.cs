@@ -51,7 +51,7 @@ public class TextboxComponent : MonoBehaviour {
         if (speaker != null) speaker.GetComponent<FadingUIComponent>().SetAlpha(0.0f);
         if (backer != null) backer.GetComponent<FadingUIComponent>().SetAlpha(0.0f);
         if (quickMenu != null) quickMenu.GetComponent<FadingUIComponent>().SetAlpha(0.0f);
-        AdvancePromptAlpha = 0.0f;
+        if (advancePrompt != null) AdvancePromptAlpha = 0.0f;
     }
 
     public void Clear() {
@@ -59,7 +59,9 @@ public class TextboxComponent : MonoBehaviour {
     }
 
     public void FadeAdvancePrompt(bool fadeIn, float seconds = AdvancePromptFadeOutSeconds) {
-        advancePrompt.CrossFadeAlpha(fadeIn? 1.0f : 0.0f, seconds, false);
+        if (advancePrompt != null) {
+            advancePrompt.CrossFadeAlpha(fadeIn ? 1.0f : 0.0f, seconds, false);
+        }
     }
 
     public IEnumerator ShowText(ScenePlayer player, string text, bool waitUntilAcknowledged) {
@@ -88,7 +90,7 @@ public class TextboxComponent : MonoBehaviour {
             yield return new WaitForSeconds(FastModeHiccupSeconds);
         }
 
-        if (!Paused) {
+        if (!Paused && advancePrompt != null) {
             advancePrompt.gameObject.SetActive(true);
             AdvancePromptAlpha = 0.0f;
             FadeAdvancePrompt(true);
@@ -134,7 +136,6 @@ public class TextboxComponent : MonoBehaviour {
             yield break;
         }
         paused = false;
-        backer.GetComponent<Image>().material = backer.GetComponent<TransitionComponent>().GetMaterial();
         gameObject.SetActive(true);
         List<IEnumerator> toRun = new List<IEnumerator>();
         if (speaker != null) toRun.Add(speaker.Activate(player));

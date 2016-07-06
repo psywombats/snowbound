@@ -121,7 +121,7 @@
 				if (_FlipY > 0) {
 					adjustedCoord[1] = 1.0 - adjustedCoord[1];
 				}
-				float maskValue = tex2D(_MaskTexture, IN.texcoord).a;
+				float maskValue = tex2D(_MaskTexture, adjustedCoord).a;
 
 				// prevent rounding issues hack
 				maskValue *= (1.0 - 1.0 / 255.0);
