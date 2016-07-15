@@ -5,7 +5,7 @@ using System.Collections;
 
 public class ConfirmMenuComponent : MenuComponent {
 
-    private const string PrefabName = "Prefabs/ConfirmMenu";
+    private const string PrefabName = "UI/ConfirmMenu";
 
     public struct ConfirmMenuData {
         public string bodyText;

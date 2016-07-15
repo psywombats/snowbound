@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 public class LogComponent : MenuComponent {
 
-    private const string PrefabName = "Prefabs/Log";
+    private const string PrefabName = "UI/Log";
 
     public Text textbox;
     public ScrollRect scroll;
