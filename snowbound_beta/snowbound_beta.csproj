@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4485BDB1-DF98-4B3A-E7AE-DC528906D992}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.5.2f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_2;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\BGMPlayer.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\BackgroundComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\ButtonSoundComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\ChoiceButtonComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\ClickInterceptorComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\ConfirmMenuComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\FadeComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\FadingSpriteComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\FadingUIComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\GenericSettingUIComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\LogComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\LogItem.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\MainMenuComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\MenuComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\OscillationComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\PauseMenuComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\PortraitGroupComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\QuickMenuComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\RadioButtonSoundComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\SaveButtonComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\SaveMenuComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\SettingButtonUIComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\SettingSliderComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\SettingUIComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\SettingsMenuComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\SpeakerComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\SpeakerDisplayComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\SpriteEffectComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\SpriteEffectControlComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\TachiComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\TextboxBackerComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\TextboxComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\ToggleTextColorComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\TransitionComponent.cs" />
+    <Compile Include="Assets\Scripts\Behaviors\UIImageAnimationComponent.cs" />
+    <Compile Include="Assets\Scripts\Data\BGMData.cs" />
+    <Compile Include="Assets\Scripts\Data\BGMIndexData.cs" />
+    <Compile Include="Assets\Scripts\Data\BackgroundData.cs" />
+    <Compile Include="Assets\Scripts\Data\BackgroundIndexData.cs" />
+    <Compile Include="Assets\Scripts\Data\CharaData.cs" />
+    <Compile Include="Assets\Scripts\Data\CharaIndexData.cs" />
+    <Compile Include="Assets\Scripts\Data\FadeData.cs" />
+    <Compile Include="Assets\Scripts\Data\FadeIndexData.cs" />
+    <Compile Include="Assets\Scripts\Data\GenericDataObject.cs" />
+    <Compile Include="Assets\Scripts\Data\GenericIndex.cs" />
+    <Compile Include="Assets\Scripts\Data\ParticleData.cs" />
+    <Compile Include="Assets\Scripts\Data\ParticleIndexData.cs" />
+    <Compile Include="Assets\Scripts\Data\SoundEffectData.cs" />
+    <Compile Include="Assets\Scripts\Data\SoundEffectIndexData.cs" />
+    <Compile Include="Assets\Scripts\Data\TransitionData.cs" />
+    <Compile Include="Assets\Scripts\Data\TransitionIndexData.cs" />
+    <Compile Include="Assets\Scripts\Global.cs" />
+    <Compile Include="Assets\Scripts\InputListener.cs" />
+    <Compile Include="Assets\Scripts\InputManager.cs" />
+    <Compile Include="Assets\Scripts\MemoryManager.cs" />
+    <Compile Include="Assets\Scripts\ScenePlayer.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\BGMCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\BackgroundCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\BranchCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\ChoiceCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\ChoiceOption.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\EndCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\EnterCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\ExitAllCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\ExitCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\GotoCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\IncrementCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\ParagraphCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\PerspectiveCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\SceneCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\SceneScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\SoundEffectCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\SpokenLineCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\StageDirectionCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\TextCommand.cs" />
+    <Compile Include="Assets\Scripts\SceneScript\WaitCommand.cs" />
+    <Compile Include="Assets\Scripts\Serialization\Memory.cs" />
+    <Compile Include="Assets\Scripts\Serialization\ScreenMemory.cs" />
+    <Compile Include="Assets\Scripts\Serialization\SettingsMemory.cs" />
+    <Compile Include="Assets\Scripts\Serialization\SystemMemory.cs" />
+    <Compile Include="Assets\Scripts\Serialization\TachiMemory.cs" />
+    <Compile Include="Assets\Scripts\Settings\Setting.cs" />
+    <Compile Include="Assets\Scripts\Settings\SettingsCollection.cs" />
+    <Compile Include="Assets\Scripts\Settings\SettingsConstants.cs" />
+    <Compile Include="Assets\Scripts\Settings\SettingsDefaults.cs" />
+    <Compile Include="Assets\Scripts\SoundPlayer.cs" />
+    <Compile Include="Assets\Scripts\Utils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Resources\SceneScripts\s0001.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0002.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0003.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0004.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0005.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0006.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0007.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0008.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0009.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0010.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0011.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0012.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0013.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0014.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0015.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0016.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0017.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0018.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0019.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0020.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0021.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0022.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0023.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0024.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0025.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0026.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0027.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0028.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0029.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0030.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0031.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0032.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0033.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0034.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0035.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0036.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0037.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0038.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0039.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0040.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0041.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0042.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0043.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0044.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0045.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0046.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0047.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0048.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0049.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0050.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0051.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0052.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0053.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0054.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0055.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0056.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0057.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0058.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0059.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0060.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0061.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0062.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0063.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0064.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0065.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0066.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0067.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0068.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0069.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0070.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0071.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0072.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0073.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0074.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0075.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0076.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0077.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0078.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0079.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0080.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0081.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0082.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0083.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0084.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0085.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0086.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0087.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0088.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0089.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0090.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0091.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0092.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0093.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0094.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0095.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0096.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0097.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0098.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0099.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0100.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0101.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0102.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0103.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0104.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0105.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0106.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0107.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0108.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0109.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0110.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0111.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0112.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0113.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0114.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0115.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0116.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0117.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0118.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0119.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0120.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0121.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0122.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0123.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0124.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0125.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0126.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0127.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0128.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0129.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0130.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0131.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0132.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0133.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0134.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0135.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0136.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0137.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0138.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0139.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0140.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0141.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0142.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0143.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0144.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0145.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0146.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0147.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0148.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0149.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0150.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0151.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0152.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0153.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0154.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0155.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0156.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0157.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0158.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0159.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0160.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0161.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0162.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0163.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0164.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0165.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0166.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0167.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0168.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0169.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0170.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0171.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0172.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0173.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0174.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0175.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0176.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0177.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0178.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0179.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0180.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0181.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0182.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0183.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0184.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0185.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0186.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0187.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0188.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0189.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0190.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0191.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0192.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0193.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0194.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0195.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0196.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0197.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0198.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0199.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0200.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0201.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0202.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0203.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0204.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0205.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0206.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0207.txt" />
+    <None Include="Assets\Resources\SceneScripts\s0208.txt" />
+    <None Include="Assets\Resources\SceneScripts\testScript.txt" />
+    <None Include="Assets\Resources\SceneScripts\unimplemented.txt" />
+    <None Include="Assets\Shaders\ColoredParticle.shader" />
+    <None Include="Assets\Shaders\TransitionShader.shader" />
+    <None Include="Assets\Shaders\TransitionSpriteShader.shader" />
+    <None Include="Assets\Shaders\TransitionUIShader.shader" />
+    <None Include="Assets\Shaders\WhiteoutShader.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>
