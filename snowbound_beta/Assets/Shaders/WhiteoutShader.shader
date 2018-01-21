@@ -1,4 +1,6 @@
-﻿Shader "Snowbound/WhiteoutShader" {
+﻿// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Snowbound/WhiteoutShader" {
 
 Properties {
 	_MainTex ("Base (RGB) Trans (A)", 2D) = "white" {}
@@ -45,7 +47,7 @@ SubShader {
 			v2f vert (appdata_t v)
 			{
 				v2f o;
-				o.vertex = mul(UNITY_MATRIX_MVP, v.vertex);
+				o.vertex = UnityObjectToClipPos(v.vertex);
 				o.texcoord = TRANSFORM_TEX(v.texcoord, _MainTex);
                 o.color = v.color;
 				UNITY_TRANSFER_FOG(o,o.vertex);
