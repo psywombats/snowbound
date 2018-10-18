@@ -24,14 +24,6 @@ MAX: I'm gonna leave as well.
 [exit MAX]
 Max is gone?
 
-The background is black.
-
-[bg TEST_A bar]
-
-The background is red? This dialog is extended as part of a transition test. The background is red? This dialog is extended as part of a transition test. The background is red? This dialog is extended as part of a transition test. The background is red? This dialog is extended as part of a transition test. The background is red? This dialog is extended as part of a transition test.
-
-[bg TEST_B bar]
-
 SYSTEM: Test time is over. Pete has disappeared along with the NVL box.
 [enter CAIT B]
 [enter ERIC C]
